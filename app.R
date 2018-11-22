@@ -14,11 +14,12 @@ library(shiny)
 library(topGO)
 
 # Define UI for application that draws a histogram
-ui <- shinyUI(fluidPage(theme= "bootstrap.css",
+ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
    
    # Application title
-   titlePanel("Microalgae functional annotation tool",windowTitle = "Microalgae functional annotation tool")
-   ,
+   titlePanel("ALGAEFUN, microALGAE FUNctional annotation tool",windowTitle = "ALGAEFUN"),
+   tags$br(),
+   tags$br(),
    sidebarLayout(
      sidebarPanel(
        selectInput(inputId = "mapfile", label="Microalgae", 
@@ -38,7 +39,8 @@ ostta09g02680
 ostta10g03135
 ostta17g00930"
        ),
-       actionButton(inputId = "go.button",label = "Run", icon("send") )
+       actionButton(inputId = "go.button",label = "Run", icon("send") ),
+       width = 3
        ),
    
      
@@ -53,7 +55,10 @@ ostta17g00930"
        downloadButton(outputId= "downloadData", "Get GO terms of each gene"),
        downloadButton(outputId= "downloadImage", "Get GO map"),
        dataTableOutput(outputId = "data"),
-       htmlOutput(outputId = "revigo"))
+       htmlOutput(outputId = "revigo"),
+       width = 9
+       )
+     
        )
    
 ))
