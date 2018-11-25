@@ -25,7 +25,7 @@ for(i in 1:length(seq.names))
 }
 
 ## Generate and write output data frame
-id.ostta.name <- data.frame(GID=proteins.id,GENENAME=ostta.names,SYMBOL=ostta.names)
+id.ostta.name <- data.frame(GID=proteins.id,GENENAME=ostta.names,stringsAsFactors = FALSE)
 head(id.ostta.name)
 
 write.table(x = id.ostta.name,file = "correspondence_gene_id_ostta_name.tsv",sep="\t",quote=F,row.names = F)
@@ -33,8 +33,8 @@ write.table(x = id.ostta.name,file = "correspondence_gene_id_ostta_name.tsv",sep
 id.ostta.name <- read.table(file = "correspondence_gene_id_ostta_name.tsv",sep="\t",header=T,as.is=T)
 head(id.ostta.name)
 
-gene.ids <- id.ostta.name$id
-gene.names <- id.ostta.name$name
+gene.ids <- id.ostta.name$GID
+gene.names <- id.ostta.name$GENENAME
 names(gene.names) <- gene.ids
 
 ## Generate GO data.frame to create org.Db package
@@ -58,13 +58,9 @@ for(i in 1:nrow(go.info))
   go[i] <- go.info$goAcc[i]
 }
 
-go.data.frame <- data.frame(GID=gid,GO=go,EVIDENCE=evidence)
+
+go.data.frame <- data.frame(GID=gid,GO=go,EVIDENCE=evidence,stringsAsFactors = FALSE)
 head(go.data.frame)
-
-go.data.frame <- data.frame(GID=go.info$X.proteinId,GO=go.info$goAcc,EVIDENCE=evidence)
-
-length(go.data.frame$GID)
-length(unique(go.data.frame$GID))
 
 ## For the rest of the data frames. According to the help info "the 1st column of every 
 ## data.frame must be labeled GID, and correspond to a gene ID that is universal for the 
@@ -77,19 +73,19 @@ head(kegg.info)
 
 gid <- vector(mode="character",length=nrow(kegg.info))
 enzyme <- vector(mode="character",length=nrow(kegg.info))
-
+ 
 for(i in 1:nrow(kegg.info))
 {
   gid[i] <- gene.names[as.character(kegg.info$X.proteinId[i])]
   enzyme[i] <- kegg.info$ecNum[i]
 }
-
-enzyme.data.frame <- data.frame(GID=gid,ENZYME=enzyme)
+ 
+enzyme.data.frame <- data.frame(GID=gid,ENZYME=enzyme,stringsAsFactors = FALSE)
 head(enzyme.data.frame)
 
-enzyme.data.frame <- data.frame(GID=kegg.info$X.proteinId,ENZYME=kegg.info$ecNum)
+## Remove duplicated rows
+enzyme.data.frame <- enzyme.data.frame[!duplicated(enzyme.data.frame),]
 head(enzyme.data.frame)
-
 
 ## Generate KOG data.frame
 kog.info <- read.table(file = "Ostta4221_3_GeneCatalog_proteins_20161028_KOG.tab",header = T,sep = "\t",as.is = T,comment.char = "")
@@ -104,11 +100,11 @@ for(i in 1:nrow(kog.info))
   kog[i] <- kog.info$kogid[i]
 }
 
-kog.data.frame <- data.frame(GID=gid,KOG=kog)
+kog.data.frame <- data.frame(GID=gid,KOG=kog,stringsAsFactors = FALSE)
 head(kog.data.frame)
 
-kog.data.frame <- data.frame(GID=kog.info$proteinId,KOG=kog.info$kogid)
-
+## Remove duplicated rows
+kog.data.frame <- kog.data.frame[!duplicated(kog.data.frame),]
 
 ## Ostreococcus tauri Taxonomy ID: 70448
 
@@ -119,9 +115,8 @@ BiocManager::install("AnnotationForge", version = "3.8")
 library(AnnotationForge)
 
 makeOrgPackage(go=go.data.frame,
-#               ENZYME=enzyme.data.frame,
-#               KOG=kog.data.frame,
-#               SYMBOL=id.ostta.name,
+               ENZYME=enzyme.data.frame,
+               KOG=kog.data.frame,
                version = "0.1",
                maintainer = "Francisco J. Romero-Campero <fran@us.es>",
                author = "Francisco J. Romero-Campero",
@@ -136,13 +131,9 @@ install.packages("./org.Otauri.eg.db/", repos=NULL)
 
 library(org.Otauri.eg.db)
 columns(org.Otauri.eg.db)
-traceback()
-
-
-data <- go.data.frame
-unique(unlist(unname(lapply(data, "[", "GID"))))
-unlist(unname(lapply(data, "[", "GID")))
-structure(res, levels = lv, names = nm, class = "factor")
+head(select(org.Otauri.eg.db,columns = c("GO"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
+head(select(org.Otauri.eg.db,columns = c("ENZYME"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
+head(select(org.Otauri.eg.db,columns = c("KOG"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
 
 library(org.At.tair.db)
 columns(org.At.tair.db)
@@ -153,43 +144,26 @@ head(select(org.At.tair.db,columns = c("GENENAME"),keys=keys(org.At.tair.db,keyt
 head(select(org.At.tair.db,columns = c("SYMBOL"),keys=keys(org.At.tair.db,keytype = "TAIR")))
 
 
-head(select(org.At.tair.db,columns = c("ENTREZID"),keys=keys(org.At.tair.db,keytype = "TAIR")))
+ostta.example <- read.table(file = "../ota_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
 
-head(go.data.frame)
+BiocManager::install("clusterProfiler", version = "3.8")
+library(clusterProfiler)
 
+ostta.universe <- unique(select(org.Otauri.eg.db,columns = c("GO"),keys=keys(org.Otauri.eg.db,keytype = "GID"))[["GID"]])
+length(ostta.universe)
 
+keytypes(org.Otauri.eg.db)
 
-######################################
-######################################
+ego <- enrichGO(gene          = ostta.example,
+#                universe      = ostta.universe,
+                OrgDb         = org.Otauri.eg.db,
+                ont           = "CC",
+                pAdjustMethod = "BH",
+                pvalueCutoff  = 0.01,
+                qvalueCutoff  = 0.05,
+                readable      = TRUE,
+                keyType = "GID"
+                  )
+help("enrichGO")
 
-## Makes an organism package for Zebra Finch data.frames:
-finchFile <- system.file("extdata","finch_info.txt",package="AnnotationForge")
-finch <- read.table(finchFile,sep="\t")
-
-## not that this is how it should always be, but that it *could* be this way.
-fSym <- finch[,c(2,3,9)]
-fSym <- fSym[fSym[,2]!="-",]
-fSym <- fSym[fSym[,3]!="-",]
-colnames(fSym) <- c("GID","SYMBOL","GENENAME")
-
-fChr <- finch[,c(2,7)]
-fChr <- fChr[fChr[,2]!="-",]
-colnames(fChr) <- c("GID","CHROMOSOME")
-
-finchGOFile <- system.file("extdata","GO_finch.txt",package="AnnotationForge")
-fGO <- read.table(finchGOFile,sep="\t")
-fGO <- fGO[fGO[,2]!="",]
-fGO <- fGO[fGO[,3]!="",]
-colnames(fGO) <- c("GID","GO","EVIDENCE")
-head(fGO)
-typeof(fGO$GID)
-head(go.data.frame)
-makeOrgPackage(gene_info=fSym, chromosome=fChr, go=fGO,
-               version="0.1",
-               maintainer="Some One <so@someplace.org>",
-               author="Some One <so@someplace.org>",
-               outputDir = ".",
-               tax_id="59729",
-               genus="Taeniopygia",
-               species="guttata",
-               goTable="go")
+head(ego)
