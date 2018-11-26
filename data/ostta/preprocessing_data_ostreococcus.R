@@ -37,6 +37,12 @@ gene.ids <- id.ostta.name$GID
 gene.names <- id.ostta.name$GENENAME
 names(gene.names) <- gene.ids
 
+## Generate SYMBOL data frame
+symbol.data.frame <- data.frame(GID=gene.names,SYMBOL=gene.names,stringsAsFactors = FALSE)
+
+## Remove duplicated rows
+symbol.data.frame <- symbol.data.frame[!duplicated(symbol.data.frame),]
+
 ## Generate GO data.frame to create org.Db package
 ## Before reading the GO annotation file I have to replace the symbol ' by the word prime
 ## to avoid the error "EOF within quoted string"
@@ -115,6 +121,7 @@ BiocManager::install("AnnotationForge", version = "3.8")
 library(AnnotationForge)
 
 makeOrgPackage(go=go.data.frame,
+               SYMBOL=symbol.data.frame,
                ENZYME=enzyme.data.frame,
                KOG=kog.data.frame,
                version = "0.1",
@@ -155,9 +162,9 @@ length(ostta.universe)
 keytypes(org.Otauri.eg.db)
 
 ego <- enrichGO(gene          = ostta.example,
-#                universe      = ostta.universe,
+                universe      = ostta.universe,
                 OrgDb         = org.Otauri.eg.db,
-                ont           = "CC",
+                ont           = "BP",
                 pAdjustMethod = "BH",
                 pvalueCutoff  = 0.01,
                 qvalueCutoff  = 0.05,
