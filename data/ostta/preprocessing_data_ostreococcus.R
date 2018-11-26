@@ -169,8 +169,27 @@ ego <- enrichGO(gene          = ostta.example,
                 pvalueCutoff  = 0.01,
                 qvalueCutoff  = 0.05,
                 readable      = TRUE,
-                keyType = "GID"
-                  )
-help("enrichGO")
+                keyType = "GID")
 
-head(ego)
+barplot(ego,drop=TRUE,showCategory = 10)
+goplot(ego)
+dotplot(ego)
+emapplot(ego)
+cnetplot(ego)
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("pathview", version = "3.8")
+library("pathview")
+
+help(enrichKEGG)
+
+kk <- enrichKEGG(gene = paste0("OT_",ostta.example), organism = "ota",keyType = "kegg",
+                 universe = paste0("OT_",ostta.universe),qvalueCutoff = 0.05)
+
+head(kk)
+
+
+mkk <- enrichMKEGG(gene = paste0("OT_",ostta.example), organism = "ota",keyType = "kegg")
+head(mkk)
+
