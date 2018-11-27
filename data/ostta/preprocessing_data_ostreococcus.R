@@ -193,3 +193,9 @@ head(kk)
 mkk <- enrichMKEGG(gene = paste0("OT_",ostta.example), organism = "ota",keyType = "kegg")
 head(mkk)
 
+genes.pathway <- rep(0,length(ostta.universe))
+names(genes.pathway) <- paste0("OT_",ostta.universe)
+
+genes.pathway[paste0("OT_",ostta.example)] <- 1
+
+pathview(gene.data = sort(genes.pathway,decreasing = TRUE), pathway.id = "ota03030", species = "ota",limit = list(gene=max(abs(genes.pathway)), cpd=1),gene.idtype ="kegg")
