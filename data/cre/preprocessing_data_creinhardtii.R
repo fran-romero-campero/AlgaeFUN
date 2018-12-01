@@ -127,10 +127,10 @@ makeOrgPackage(go=go.data.frame,
                goTable = "go",
                verbose = TRUE)
 
-install.packages("./org.Otauri.eg.db/", repos=NULL)
+install.packages("./org.Creinhardtii.eg.db/", repos=NULL)
 
-library(org.Otauri.eg.db)
-columns(org.Otauri.eg.db)
+library(org.Creinhardtii.eg.db)
+columns(org.Creinhardtii.eg.db)
 head(select(org.Otauri.eg.db,columns = c("GO"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
 head(select(org.Otauri.eg.db,columns = c("ENZYME"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
 head(select(org.Otauri.eg.db,columns = c("KOG"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
