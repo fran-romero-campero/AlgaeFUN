@@ -16,10 +16,11 @@ head(id.cre.name)
 ## Generate SYMBOL data frame
 symbol.data.frame <- data.frame(GID=cre.info$locusName,SYMBOL=cre.info$locusName,stringsAsFactors = FALSE)
 head(symbol.data.frame)
+symbol.data.frame[1:20,]
 
 ## Remove duplicated rows
 symbol.data.frame <- symbol.data.frame[!duplicated(symbol.data.frame),]
-
+nrow(symbol.data.frame)
 ## Generate GO data.frame to create org.Db package
 ## Before reading the GO annotation file I have to replace the symbol ' by the word prime
 ## to avoid the error "EOF within quoted string"
@@ -35,16 +36,19 @@ evidence <- rep("ISS",length(gid))
 
 # for(i in 1:nrow(go.info))
 # {
-#   gid[i] <- gene.names[as.character(go.info$X.proteinId[i])]
-#   go[i] <- go.info$goAcc[i]
+#  gid[i] <- gene.names[as.character(go.info$X.proteinId[i])]
+#  go[i] <- go.info$goAcc[i]
 # }
 
 
-# go.data.frame <- data.frame(GID=gid,GO=go,EVIDENCE=evidence,stringsAsFactors = FALSE)
-# head(go.data.frame)
+go.data.frame <- data.frame(GID=gid,GO=go,EVIDENCE=evidence,stringsAsFactors = FALSE)
+head(go.data.frame)
+
+go.data.frame <- subset(go.data.frame, GO != "")
+
 
 go.expanded.data.frame <- c()
-
+i <- 1
 for(i in 1:nrow(go.data.frame))
 {
   go.splitted <- strsplit(go[i],split=",")[[1]]
@@ -55,6 +59,9 @@ for(i in 1:nrow(go.data.frame))
     {
       go.expanded.data.frame <- rbind(go.expanded.data.frame,c(go.data.frame[i,1],go.splitted[j]))
     }
+  } else
+  {
+    go.expanded.data.frame <- rbind(go.expanded.data.frame,c(go.data.frame[i,1],""))
   }
 }
 
@@ -68,6 +75,9 @@ head(go.data.frame)
 
 ## Remove duplicated rows
 go.data.frame <- go.data.frame[!duplicated(go.data.frame),]
+go.data.frame[1:40,]
+nrow(go.data.frame)
+length(unique(go.data.frame$GID))
 
 ## For the rest of the data frames. According to the help info "the 1st column of every 
 ## data.frame must be labeled GID, and correspond to a gene ID that is universal for the 
@@ -89,6 +99,11 @@ head(enzyme.data.frame)
 ## Remove duplicated rows
 enzyme.data.frame <- enzyme.data.frame[!duplicated(enzyme.data.frame),]
 head(enzyme.data.frame)
+nrow(enzyme.data.frame)
+duplicated(enzyme.data.frame)
+sum(duplicated(enzyme.data.frame))
+length(unique(enzyme.data.frame$GID))
+
 
 ## Generate KOG data.frame
 kog <- cre.info$KOG
@@ -131,7 +146,7 @@ install.packages("./org.Creinhardtii.eg.db/", repos=NULL)
 
 library(org.Creinhardtii.eg.db)
 columns(org.Creinhardtii.eg.db)
-head(select(org.Otauri.eg.db,columns = c("GO"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
+head(select(org.Creinhardtii.eg.db,columns = c("GO"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID")))
 head(select(org.Otauri.eg.db,columns = c("ENZYME"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
 head(select(org.Otauri.eg.db,columns = c("KOG"),keys=keys(org.Otauri.eg.db,keytype = "GID")))
 
@@ -143,23 +158,36 @@ head(select(org.At.tair.db,columns = c("PATH"),keys=keys(org.At.tair.db,keytype 
 head(select(org.At.tair.db,columns = c("GENENAME"),keys=keys(org.At.tair.db,keytype = "TAIR")))
 head(select(org.At.tair.db,columns = c("SYMBOL"),keys=keys(org.At.tair.db,keytype = "TAIR")))
 
+all.go <- select(org.Creinhardtii.eg.db,columns = c("GO"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
+head(all.go)
 
-ostta.example <- read.table(file = "../ota_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
+starch.go <- "GO:0005975"
+
+cre.example <- subset(all.go,GO == starch.go)$GID
+
+cre.example <- read.table(file = "clusters/cre_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
+cre.example <- read.table(file = "../cre_trough_light_dark_peak_dark_light.txt",header = FALSE,as.is = TRUE)[[1]]
+
+length(cre.example)
 
 BiocManager::install("clusterProfiler", version = "3.8")
 library(clusterProfiler)
 
-ostta.universe <- unique(select(org.Otauri.eg.db,columns = c("GO"),keys=keys(org.Otauri.eg.db,keytype = "GID"))[["GID"]])
-length(ostta.universe)
+cre.universe <- unique(select(org.Creinhardtii.eg.db,columns = c("GO"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))[["GID"]])
+length(cre.universe)
 
-keytypes(org.Otauri.eg.db)
+length(intersect(dna.example,cre.example))
 
-ego <- enrichGO(gene          = ostta.example,
-                universe      = ostta.universe,
-                OrgDb         = org.Otauri.eg.db,
+keytypes(org.Creinhardtii.eg.db)
+
+cre.example <- read.table(file = "clusters/cre_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
+
+ego <- enrichGO(gene          = unique(c(cre.example)),
+                universe      = cre.universe,
+                OrgDb         = org.Creinhardtii.eg.db,
                 ont           = "BP",
                 pAdjustMethod = "BH",
-                pvalueCutoff  = 0.01,
+                pvalueCutoff  = 0.05,
                 qvalueCutoff  = 0.05,
                 readable      = TRUE,
                 keyType = "GID")
@@ -177,8 +205,8 @@ library("pathview")
 
 help(enrichKEGG)
 
-kk <- enrichKEGG(gene = paste0("OT_",ostta.example), organism = "ota",keyType = "kegg",
-                 universe = paste0("OT_",ostta.universe),qvalueCutoff = 0.05)
+kk <- enrichKEGG(gene = cre.example, organism = "cre",keyType = "kegg",
+                 universe = cre.universe,qvalueCutoff = 0.05)
 
 head(kk)
 
@@ -192,3 +220,26 @@ names(genes.pathway) <- paste0("OT_",ostta.universe)
 genes.pathway[paste0("OT_",ostta.example)] <- 1
 
 pathview(gene.data = sort(genes.pathway,decreasing = TRUE), pathway.id = "ota03030", species = "ota",limit = list(gene=max(abs(genes.pathway)), cpd=1),gene.idtype ="kegg")
+
+dna.example <- c("Cre01.g003463","Cre01.g019750","Cre01.g029100","Cre01.g045850","Cre01.g017450","Cre01.g023150","Cre01.g025300","Cre01.g036050","Cre01.g053200","Cre01.g063632","Cre10.g424200","Cre10.g446400","Cre10.g453650","Cre10.g466550","Cre10.g423800","Cre10.g428433","Cre10.g446600","Cre10.g455850","Cre12.g556911","Cre12.g540927","Cre12.g553253","Cre12.g490150","Cre12.g512500","Cre12.g521200","Cre12.g524150","Cre12.g524350","Cre12.g534151","Cre13.g566900","Cre13.g604850","Cre13.g607500","Cre14.g619825","Cre16.g664301","Cre16.g670550","Cre16.g682950","Cre16.g685613","Cre17.g710150","Cre17.g718850","Cre17.g746347","Cre02.g079850","Cre02.g084800","Cre02.g082000","Cre03.g145687","Cre03.g158550","Cre03.g162250","Cre03.g175850","Cre03.g179550","Cre03.g181650","Cre03.g196600","Cre03.g202250","Cre03.g199400","Cre03.g172050","Cre03.g178650","Cre03.g179961","Cre03.g192550","Cre03.g204900","Cre04.g227000","Cre04.g214350","Cre04.g227750","Cre05.g235750","Cre06.g269950","Cre06.g250850","Cre06.g257800","Cre06.g285650","Cre06.g294200","Cre06.g295700","Cre07.g316850","Cre07.g325716","Cre07.g336650","Cre07.g347600","Cre07.g355200","Cre07.g312350","Cre07.g314650","Cre07.g338000","Cre07.g350550","Cre08.g366400","Cre08.g374050","Cre08.g368050","Cre09.g397327","Cre09.g397845")
+length(dna.example)
+
+
+test.gene <- "Cre01.g000150"
+test.gene <- "Cre01.g000250"
+subset(all.go, GID == test.gene)
+subset(go.data.frame, GID == test.gene)
+subset(symbol.data.frame, GID == test.gene)
+
+library(GO.db)
+"GO:0055085" %in% Lkeys(GO.db::GOTERM)
+"GO:0046873" %in% Lkeys(GO.db::GOTERM)
+"GO:0030001" %in% Lkeys(GO.db::GOTERM)
+"GO:0016020" %in% Lkeys(GO.db::GOTERM)
+
+head(all.go)
+
+
+## Descargo de KEGG las proteinas anotadas con CHLREDRAFT 
+## https://www.genome.jp/kegg-bin/show_organism?menu_type=genome_info&org=cre
+

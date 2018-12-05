@@ -152,7 +152,7 @@ head(select(org.At.tair.db,columns = c("SYMBOL"),keys=keys(org.At.tair.db,keytyp
 
 
 ostta.example <- read.table(file = "../ota_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
-
+length(ostta.example)
 BiocManager::install("clusterProfiler", version = "3.8")
 library(clusterProfiler)
 
