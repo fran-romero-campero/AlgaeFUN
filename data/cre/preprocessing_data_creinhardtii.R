@@ -243,3 +243,4 @@ head(all.go)
 ## Descargo de KEGG las proteinas anotadas con CHLREDRAFT 
 ## https://www.genome.jp/kegg-bin/show_organism?menu_type=genome_info&org=cre
 
+## Generate TxDb package from gff3 file
