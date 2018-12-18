@@ -244,3 +244,70 @@ head(all.go)
 ## https://www.genome.jp/kegg-bin/show_organism?menu_type=genome_info&org=cre
 
 ## Generate TxDb package from gff3 file
+library("GenomicFeatures")
+
+## Generate chromosome.info data frame
+library(seqinr)
+
+cre.genome.data <- read.fasta(file = "Creinhardtii_281_v5.0.fa",seqtype = "DNA")
+chromosome.names <- getName(cre.genome.data)
+chromosome.lengths <- sapply(X=getSequence(cre.genome.data),FUN = length)
+
+chromosomes.info <- data.frame(chrom=chromosome.names,length=chromosome.lengths,is_circular=FALSE)
+
+## Meta data info
+meta.data.info <- data.frame(name=c("Resource URL","Genome"),value=c("https://phytozome.jgi.doe.gov/","v5.0"))
+
+cre.txdb <- makeTxDbFromGFF(file = "Creinhardtii_281_v5.6.gene_exons.gff3",format = "gff3",dataSource = "Phytozome",organism = "Chlamydomonas reinhardtii",taxonomyId = 3055,chrominfo = chromosomes.info,metadata = meta.data.info)
+
+cre.txdb
+genes(cre.txdb)
+
+?makeTxDbPackage
+
+makeTxDbPackage(txdb = cre.txdb, version = "0.1", maintainer = "Francisco J. Romero-Campero <fran@us.es>", author = "Francisco J. Romero-Campero")
+
+install.packages("./TxDb.Creinhardtii.Phytozome/", repos=NULL)
+## loading packages
+library(ChIPseeker)
+library(TxDb.Creinhardtii.Phytozome)
+txdb <- TxDb.Creinhardtii.Phytozome
+library(clusterProfiler)
+
+files <- c("peaks_H3K27me3_before_starvation_1_peaks.narrowPeak","peaks_H3K27me3_sulfur_starvation_1_peaks.narrowPeak")
+peak <- readPeakFile(files[[2]])
+peak
+
+covplot(peak, weightCol="X109")
+
+covplot(peak, weightCol="X109",chrs="chromosome_1")
+promoter <- getPromoters(TxDb=txdb, upstream=1000, downstream=1000)
+tagMatrix <- getTagMatrix(peak, windows=promoter)
+
+tagHeatmap(tagMatrix, xlim=c(-1000, 1000), color="red")
+
+plotAvgProf(tagMatrix, xlim=c(-1000, 1000),
+            xlab="Genomic Region (5'->3')", ylab = "Read Count Frequency")
+
+plotAvgProf(tagMatrix, xlim=c(-1000, 1000), conf = 0.95, resample = 1000)
+
+peakAnno <- annotatePeak(files[[2]], tssRegion=c(-1000, 1000),
+                         TxDb=txdb, annoDb="org.Creinhardtii.eg.db")
+
+plotAnnoPie(peakAnno)
+plotAnnoBar(peakAnno)
+vennpie(peakAnno)
+upsetplot(peakAnno)
+upsetplot(peakAnno, vennpie=TRUE)
+plotDistToTSS(peakAnno,
+              title="Distribution of transcription factor-binding loci\nrelative to TSS")
+
+peak.annotation <- as.data.frame(peakAnno)
+head(peak.annotation)
+promoter <- getPromoters(TxDb=txdb, upstream=1000, downstream=1000)
+tagMatrixList <- lapply(files, getTagMatrix, windows=promoter)
+plotAvgProf(tagMatrixList, xlim=c(-1000, 1000))
+
+plotAvgProf(tagMatrixList, xlim=c(-1000, 1000), conf=0.95,resample=500, facet="row")
+
+tagHeatmap(tagMatrixList, xlim=c(-1000, 1000), color=NULL)
