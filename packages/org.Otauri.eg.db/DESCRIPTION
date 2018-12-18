@@ -1,0 +1,14 @@
+Package: org.Otauri.eg.db
+Title: Genome wide annotation for Ostreococcus tauri
+Description: Genome wide annotation for Ostreococcus tauri, primarily based on mapping using Entrez Gene identifiers.
+Version: 0.1
+Author: Francisco J. Romero-Campero
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.44.0)
+Suggests: DBI, annotate, RUnit
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+organism: Ostreococcus tauri
+species: Ostreococcus tauri
+biocViews: OrgDb, annotation
+
