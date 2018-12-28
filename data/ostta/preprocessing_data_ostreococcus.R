@@ -24,11 +24,29 @@ for(i in 1:length(seq.names))
   ostta.names[i] <- substr(x = splitted.seq.names[[i]][4],start = 4,stop = 16)
 }
 
+## Read fasta file and split sequence names with token | for transcripts
+transcripts.info <- read.fasta(file="Ostta4221_3_GeneCatalog_transcripts_20161028.nt.fasta",seqtype = "DNA")
+trans.names <- getName(transcripts.info)
+splitted.trans.names <- strsplit(trans.names,split="\\|")
+
+## Loop to extract protein ids and ostta names. Initialize accumulators
+transcripts.id <- vector(mode="character",length=length(trans.names))
+ostta.trans.names <- vector(mode="character",length=length(trans.names))
+
+for(i in 1:length(trans.names))
+{
+  transcripts.id[i] <- splitted.trans.names[[i]][3]
+  ostta.trans.names[i] <- substr(x = splitted.trans.names[[i]][4],start = 4,stop = 18)
+}
+
 ## Generate and write output data frame
 id.ostta.name <- data.frame(GID=proteins.id,GENENAME=ostta.names,stringsAsFactors = FALSE)
 head(id.ostta.name)
 
 write.table(x = id.ostta.name,file = "correspondence_gene_id_ostta_name.tsv",sep="\t",quote=F,row.names = F)
+
+id.trans.ostta.name <- data.frame(TID=transcripts.id,TRANSNAME=ostta.trans.names,stringsAsFactors = F)
+write.table(x = id.trans.ostta.name, file="correspondence_trans_id_ostta_name.tsv",sep="\t",quote=F,row.names = F)
 
 id.ostta.name <- read.table(file = "correspondence_gene_id_ostta_name.tsv",sep="\t",header=T,as.is=T)
 head(id.ostta.name)
@@ -199,3 +217,73 @@ names(genes.pathway) <- paste0("OT_",ostta.universe)
 genes.pathway[paste0("OT_",ostta.example)] <- 1
 
 pathview(gene.data = sort(genes.pathway,decreasing = TRUE), pathway.id = "ota03030", species = "ota",limit = list(gene=max(abs(genes.pathway)), cpd=1),gene.idtype ="kegg")
+
+## Preprocess gff3
+library(stringr)
+ostta.gff3.0 <- read.table(file="ostreococcus_tauri.gff3",header=F,quote = "#",as.is=T)
+ostta.gff3 <- ostta.gff3.0
+head(ostta.gff3)
+
+
+# Correspondence between gene/transcript names and ids
+gene.names <- id.ostta.name$GENENAME
+names(gene.names) <- id.ostta.name$GID
+
+trans.names <- id.trans.ostta.name$TRANSNAME
+names(trans.names) <- id.trans.ostta.name$TID
+
+## Replace ids with names
+for(i in 1:nrow(ostta.gff3))
+{
+  current.element <- ostta.gff3$V9[i]
+  
+  current.protein.id  <- strsplit(strsplit(current.element,split="proteinId=")[[1]][2],split=";")[[1]][1]
+  
+  # Some rows do not represent a transcript and do not need any replacement
+  if(!is.na(current.protein.id))
+  {
+    current.protein.name <- gene.names[[current.protein.id]]
+    
+    current.trans.id <- strsplit(strsplit(current.element,split="transcriptId=")[[1]][2],split=";")[[1]][1]
+    current.trans.name <- trans.names[[current.trans.id]]
+    
+    current.element <- str_replace_all(string = current.element,pattern = current.protein.id,replacement = current.protein.name)
+    current.element <- str_replace_all(string = current.element,pattern = current.trans.id,replacement = current.trans.name)
+    
+    ostta.gff3$V9[i] <- current.element
+  }
+}
+
+write.table(x = ostta.gff3,file = "ostreococcus_tauri_annotation.gff3",quote = F,sep = "\t",row.names = F,col.names = F)
+
+## Manually edit the previous file to add ##gff-version 3
+## Manually remove jgi.p|Ostta4221_3|
+
+## Generate TxDb package from gff3 file
+library("GenomicFeatures")
+
+## Generate chromosome.info data frame
+library(seqinr)
+
+ostta.genome.data <- read.fasta(file = "ostreococcus_tauri_genome.fasta",seqtype = "DNA")
+chromosome.names <- getName(ostta.genome.data)
+chromosome.lengths <- sapply(X=getSequence(ostta.genome.data),FUN = length)
+
+chromosomes.info <- data.frame(chrom=chromosome.names,length=chromosome.lengths,is_circular=FALSE)
+
+## Meta data info
+meta.data.info <- data.frame(name=c("Resource URL","Genome"),value=c("https://genome.jgi.doe.gov/Ostta4221_3/Ostta4221_3.home.html","v3.0"))
+
+ostta.txdb <- makeTxDbFromGFF(file = "ostreococcus_tauri_annotation.gff3",format = "gff3",dataSource = "JGI",organism = "Ostreococcus tauri",taxonomyId = 70448,chrominfo = chromosomes.info,metadata = meta.data.info)
+
+ostta.txdb
+genes(ostta.txdb)
+
+makeTxDbPackage(txdb = ostta.txdb, version = "0.1", maintainer = "Francisco J. Romero-Campero <fran@us.es>", author = "Francisco J. Romero-Campero")
+
+install.packages("./TxDb.Otauri.JGI/", repos=NULL)
+## loading packages
+#library(ChIPseeker)
+library(TxDb.Otauri.JGI)
+txdb <- TxDb.Otauri.JGI
+genes(txdb)
