@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: May 14, 2014 13:36:11 +0900 (GMT+09:00) -->
+<pathway name="path:cre04141" org="cre" number="04141"
+         title="Protein processing in endoplasmic reticulum"
+         image="http://www.kegg.jp/kegg/pathway/cre/cre04141.png"
+         link="http://www.kegg.jp/kegg-bin/show_pathway?cre04141">
+    <entry id="1" name="path:cre04141" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre04141">
+        <graphics name="TITLE:Protein processing in endoplasmic reticulum" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="250" y="58" width="420" height="25"/>
+    </entry>
+    <entry id="2" name="path:cre03060" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre03060">
+        <graphics name="Protein export" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="55" y="158" width="92" height="25"/>
+    </entry>
+    <entry id="3" name="path:map04210" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map04210">
+        <graphics name="Apoptosis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="641" y="639" width="80" height="25"/>
+    </entry>
+    <entry id="4" name="path:cre03050" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre03050">
+        <graphics name="Proteasome" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1144" y="357" width="92" height="25"/>
+    </entry>
+    <entry id="5" name="ko:K04374" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04374">
+        <graphics name="K04374" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="296" y="638" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="ko:K04452" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04452">
+        <graphics name="K04452" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="361" y="720" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="ko:K04440" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04440">
+        <graphics name="K04440" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="550" y="638" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="ko:K03173" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03173">
+        <graphics name="K03173" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="548" y="522" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="ko:K04426" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04426">
+        <graphics name="K04426" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="550" y="561" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="ko:K04431" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04431">
+        <graphics name="K04431" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="550" y="599" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="cre:CHLREDRAFT_114912" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_114912">
+        <graphics name="EIF2Ab" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="298" y="522" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="cre:CHLREDRAFT_108711" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_108711">
+        <graphics name="CHLREDRAFT_108711" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="440" y="126" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="cre:CHLREDRAFT_78954" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_78954">
+        <graphics name="CRT2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="441" y="182" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="ko:K14019" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14019">
+        <graphics name="K14019" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="561" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="gl:G00010" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G00010">
+        <graphics name="G00010" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="408" y="183" width="8" height="8"/>
+    </entry>
+    <entry id="16" name="cpd:C00076" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00076">
+        <graphics name="C00076" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="640" y="437" width="8" height="8"/>
+    </entry>
+    <entry id="17" name="ko:K08056" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K08056">
+        <graphics name="K08056" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="441" y="152" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="ko:K04741" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04741">
+        <graphics name="K04741" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="641" y="561" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="ko:K01367 ko:K03853" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01367+K03853">
+        <graphics name="K01367..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="641" y="522" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="cre:CHLREDRAFT_1670 cre:CHLREDRAFT_185246 cre:CHLREDRAFT_188207" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_1670+cre:CHLREDRAFT_185246+cre:CHLREDRAFT_188207">
+        <graphics name="SEC61B..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="58" y="201" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="cre:CHLREDRAFT_134171" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_134171">
+        <graphics name="CDC48" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="943" y="380" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="cre:CHLREDRAFT_1670 cre:CHLREDRAFT_185246 cre:CHLREDRAFT_188207" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_1670+cre:CHLREDRAFT_185246+cre:CHLREDRAFT_188207">
+        <graphics name="SEC61B..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="767" y="417" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="cre:CHLREDRAFT_121156 cre:CHLREDRAFT_127991 cre:CHLREDRAFT_131340 cre:CHLREDRAFT_141763 cre:CHLREDRAFT_148751 cre:CHLREDRAFT_175668 cre:CHLREDRAFT_196082" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_121156+cre:CHLREDRAFT_127991+cre:CHLREDRAFT_131340+cre:CHLREDRAFT_141763+cre:CHLREDRAFT_148751+cre:CHLREDRAFT_175668+cre:CHLREDRAFT_196082">
+        <graphics name="GTR26..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="137" y="230" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="ko:K10084 ko:K10085 ko:K10086" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10084+K10085+K10086">
+        <graphics name="K10084..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="593" y="367" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="cre:CHLREDRAFT_133099 cre:CHLREDRAFT_195442 cre:CHLREDRAFT_195443 cre:CHLREDRAFT_195690" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_133099+cre:CHLREDRAFT_195442+cre:CHLREDRAFT_195443+cre:CHLREDRAFT_195690">
+        <graphics name="SEC23A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="794" y="160" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="ko:K10082" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10082">
+        <graphics name="K10082" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="665" y="178" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="ko:K10080" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10080">
+        <graphics name="K10080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="665" y="198" width="46" height="17"/>
+    </entry>
+    <entry id="28" name="cre:CHLREDRAFT_106366" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_106366">
+        <graphics name="CHLREDRAFT_106366" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="947" y="444" width="46" height="17"/>
+    </entry>
+    <entry id="29" name="ko:K14015" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14015">
+        <graphics name="K14015" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="947" y="427" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="cre:CHLREDRAFT_195663" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_195663">
+        <graphics name="ERO1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="722" y="333" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="cre:CHLREDRAFT_178232" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_178232">
+        <graphics name="AMD1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="566" y="178" width="46" height="17"/>
+    </entry>
+    <entry id="32" name="cre:CHLREDRAFT_105079 cre:CHLREDRAFT_128630" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_105079+cre:CHLREDRAFT_128630">
+        <graphics name="CHLREDRAFT_105079..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="367" y="178" width="46" height="17"/>
+    </entry>
+    <entry id="33" name="cre:CHLREDRAFT_105079 cre:CHLREDRAFT_128630" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_105079+cre:CHLREDRAFT_128630">
+        <graphics name="CHLREDRAFT_105079..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="502" y="276" width="46" height="17"/>
+    </entry>
+    <entry id="34" name="cre:CHLREDRAFT_113687" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_113687">
+        <graphics name="CHLREDRAFT_113687" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="367" y="144" width="46" height="17"/>
+    </entry>
+    <entry id="35" name="ko:K11718" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11718">
+        <graphics name="K11718" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="418" y="252" width="46" height="17"/>
+    </entry>
+    <entry id="36" name="gl:G00010" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G00010">
+        <graphics name="G00010" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="378" y="329" width="8" height="8"/>
+    </entry>
+    <entry id="37" name="cre:CHLREDRAFT_178232" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_178232">
+        <graphics name="AMD1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="594" y="400" width="46" height="17"/>
+    </entry>
+    <entry id="38" name="ko:K10661" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10661">
+        <graphics name="K10661" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="759" y="604" width="46" height="17"/>
+    </entry>
+    <entry id="39" name="cre:CHLREDRAFT_122373" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_122373">
+        <graphics name="CHLREDRAFT_122373" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="760" y="693" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="ko:K14022" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14022">
+        <graphics name="K14022" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="806" y="709" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="ko:K14023" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14023">
+        <graphics name="K14023" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="760" y="676" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="cre:CHLREDRAFT_190824" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_190824">
+        <graphics name="CHLREDRAFT_190824" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="760" y="709" width="46" height="17"/>
+    </entry>
+    <entry id="43" name="cre:CHLREDRAFT_133650 cre:CHLREDRAFT_133859" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_133650+cre:CHLREDRAFT_133859">
+        <graphics name="BIP2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="222" y="304" width="46" height="19"/>
+    </entry>
+    <entry id="44" name="path:cre00510" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre00510">
+        <graphics name="N-Glycan biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="323" y="250" width="92" height="34"/>
+    </entry>
+    <entry id="45" name="cre:CHLREDRAFT_18187 cre:CHLREDRAFT_186547" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_18187+cre:CHLREDRAFT_186547">
+        <graphics name="SEC63..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="58" y="218" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="ko:K02159 ko:K14021" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02159+K14021">
+        <graphics name="K02159..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="640" y="457" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="ko:K09054 ko:K09049" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K09054+K09049">
+        <graphics name="K09054..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="423" y="478" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="ko:K08852" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K08852">
+        <graphics name="K08852" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="548" y="478" width="46" height="17"/>
+    </entry>
+    <entry id="49" name="ko:K16194 ko:K16195 ko:K08860 ko:K16196" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K16194+K16195+K08860+K16196">
+        <graphics name="K16194..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="298" y="478" width="46" height="17"/>
+    </entry>
+    <entry id="50" name="cre:CHLREDRAFT_147743" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_147743">
+        <graphics name="CHLREDRAFT_147743" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="451" y="535" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="ko:K07765" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K07765">
+        <graphics name="K07765" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="451" y="556" width="46" height="17"/>
+    </entry>
+    <entry id="52" name="ko:K09027" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K09027">
+        <graphics name="K09027" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="489" y="630" width="46" height="17"/>
+    </entry>
+    <entry id="53" name="ko:K14020" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14020">
+        <graphics name="K14020" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="395" y="556" width="46" height="17"/>
+    </entry>
+    <entry id="54" name="cre:CHLREDRAFT_80907" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_80907">
+        <graphics name="CHLREDRAFT_80907" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1010" y="393" width="46" height="17"/>
+    </entry>
+    <entry id="55" name="cre:CHLREDRAFT_179183" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_179183">
+        <graphics name="CHLREDRAFT_179183" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1009" y="371" width="46" height="17"/>
+    </entry>
+    <entry id="56" name="cre:CHLREDRAFT_146964" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_146964">
+        <graphics name="CHLREDRAFT_146964" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1010" y="410" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="cre:CHLREDRAFT_132639 cre:CHLREDRAFT_185318 cre:CHLREDRAFT_190824" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_132639+cre:CHLREDRAFT_185318+cre:CHLREDRAFT_190824">
+        <graphics name="CHLREDRAFT_132639..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="759" y="621" width="46" height="17"/>
+    </entry>
+    <entry id="58" name="cre:CHLREDRAFT_148383" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_148383">
+        <graphics name="CHLREDRAFT_148383" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1062" y="371" width="46" height="17"/>
+    </entry>
+    <entry id="59" name="cre:CHLREDRAFT_112727 cre:CHLREDRAFT_119384" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_112727+cre:CHLREDRAFT_119384">
+        <graphics name="CHLREDRAFT_112727..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1037" y="324" width="46" height="17"/>
+    </entry>
+    <entry id="60" name="cre:CHLREDRAFT_160593" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_160593">
+        <graphics name="CHLREDRAFT_160593" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1062" y="393" width="46" height="17"/>
+    </entry>
+    <entry id="61" name="ko:K14018" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14018">
+        <graphics name="K14018" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="1037" y="341" width="46" height="17"/>
+    </entry>
+    <entry id="62" name="cre:CHLREDRAFT_126835 cre:CHLREDRAFT_13257 cre:CHLREDRAFT_16541 cre:CHLREDRAFT_185673" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_126835+cre:CHLREDRAFT_13257+cre:CHLREDRAFT_16541+cre:CHLREDRAFT_185673">
+        <graphics name="HSP70B..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="917" y="268" width="46" height="17"/>
+    </entry>
+    <entry id="63" name="cre:CHLREDRAFT_129691" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_129691">
+        <graphics name="SELL1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="870" y="675" width="46" height="17"/>
+    </entry>
+    <entry id="64" name="cre:CHLREDRAFT_122373" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_122373">
+        <graphics name="CHLREDRAFT_122373" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="905" y="692" width="46" height="17"/>
+    </entry>
+    <entry id="65" name="cre:CHLREDRAFT_184920 cre:CHLREDRAFT_59675" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_184920+cre:CHLREDRAFT_59675">
+        <graphics name="CHLREDRAFT_184920..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="866" y="315" width="46" height="17"/>
+    </entry>
+    <entry id="66" name="cre:CHLREDRAFT_142357" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_142357">
+        <graphics name="CHLREDRAFT_142357" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="776" y="347" width="46" height="17"/>
+    </entry>
+    <entry id="67" name="ko:K14027" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14027">
+        <graphics name="K14027" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="859" y="692" width="46" height="17"/>
+    </entry>
+    <entry id="68" name="ko:K14008" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14008">
+        <graphics name="K14008" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="776" y="369" width="46" height="17"/>
+    </entry>
+    <entry id="69" name="cre:CHLREDRAFT_132639 cre:CHLREDRAFT_185318 cre:CHLREDRAFT_190824" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_132639+cre:CHLREDRAFT_185318+cre:CHLREDRAFT_190824">
+        <graphics name="CHLREDRAFT_132639..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="905" y="709" width="46" height="17"/>
+    </entry>
+    <entry id="70" name="ko:K14025" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14025">
+        <graphics name="K14025" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="916" y="658" width="46" height="17"/>
+    </entry>
+    <entry id="71" name="cre:CHLREDRAFT_79815" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_79815">
+        <graphics name="RBX1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1061" y="675" width="46" height="17"/>
+    </entry>
+    <entry id="72" name="ko:K10099 ko:K10100" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10099+K10100">
+        <graphics name="K10099..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="1015" y="709" width="46" height="17"/>
+    </entry>
+    <entry id="73" name="cre:CHLREDRAFT_152525" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_152525">
+        <graphics name="UBC9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="972" y="630" width="46" height="17"/>
+    </entry>
+    <entry id="74" name="cre:CHLREDRAFT_170453 cre:CHLREDRAFT_175485" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_170453+cre:CHLREDRAFT_175485">
+        <graphics name="DNJ1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1018" y="604" width="46" height="17"/>
+    </entry>
+    <entry id="75" name="cre:CHLREDRAFT_126835 cre:CHLREDRAFT_13257 cre:CHLREDRAFT_16541 cre:CHLREDRAFT_185673" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_126835+cre:CHLREDRAFT_13257+cre:CHLREDRAFT_16541+cre:CHLREDRAFT_185673">
+        <graphics name="HSP70B..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1018" y="621" width="46" height="17"/>
+    </entry>
+    <entry id="76" name="cre:CHLREDRAFT_120414" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_120414">
+        <graphics name="CHLREDRAFT_120414" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1018" y="638" width="46" height="17"/>
+    </entry>
+    <entry id="77" name="cre:CHLREDRAFT_161043 cre:CHLREDRAFT_182974 cre:CHLREDRAFT_185378 cre:CHLREDRAFT_188533 cre:CHLREDRAFT_189940 cre:CHLREDRAFT_195895" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_161043+cre:CHLREDRAFT_182974+cre:CHLREDRAFT_185378+cre:CHLREDRAFT_188533+cre:CHLREDRAFT_189940+cre:CHLREDRAFT_195895">
+        <graphics name="CHLREDRAFT_161043..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="723" y="369" width="46" height="17"/>
+    </entry>
+    <entry id="78" name="cre:CHLREDRAFT_134606 cre:CHLREDRAFT_146571" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_134606+cre:CHLREDRAFT_146571">
+        <graphics name="ERJ1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="222" y="320" width="46" height="17"/>
+    </entry>
+    <entry id="79" name="ko:K14011 ko:K14012 ko:K14013" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14011+K14012+K14013">
+        <graphics name="K14011..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="866" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="80" name="ko:K14022" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14022">
+        <graphics name="K14022" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="805" y="621" width="46" height="17"/>
+    </entry>
+    <entry id="81" name="cre:CHLREDRAFT_170453 cre:CHLREDRAFT_175485" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_170453+cre:CHLREDRAFT_175485">
+        <graphics name="DNJ1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="917" y="285" width="46" height="17"/>
+    </entry>
+    <entry id="82" name="ko:K04555" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04555">
+        <graphics name="K04555" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="871" y="621" width="46" height="17"/>
+    </entry>
+    <entry id="83" name="ko:K14014" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14014">
+        <graphics name="K14014" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="892" y="410" width="46" height="17"/>
+    </entry>
+    <entry id="84" name="cre:CHLREDRAFT_152525" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_152525">
+        <graphics name="UBC9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1015" y="684" width="46" height="17"/>
+    </entry>
+    <entry id="85" name="cre:CHLREDRAFT_128004" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_128004">
+        <graphics name="SKP1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1061" y="709" width="46" height="17"/>
+    </entry>
+    <entry id="86" name="cre:CHLREDRAFT_116937" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_116937">
+        <graphics name="CUL3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1061" y="692" width="46" height="17"/>
+    </entry>
+    <entry id="87" name="cre:CHLREDRAFT_184920 cre:CHLREDRAFT_59675" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_184920+cre:CHLREDRAFT_59675">
+        <graphics name="CHLREDRAFT_184920..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="916" y="621" width="46" height="17"/>
+    </entry>
+    <entry id="88" name="cre:CHLREDRAFT_100664" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_100664">
+        <graphics name="CHLREDRAFT_100664" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="916" y="604" width="46" height="17"/>
+    </entry>
+    <entry id="89" name="ko:K11519" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K11519">
+        <graphics name="K11519" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="916" y="675" width="46" height="17"/>
+    </entry>
+    <entry id="90" name="cre:CHLREDRAFT_138117" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_138117">
+        <graphics name="HSP90A" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="970" y="268" width="46" height="17"/>
+    </entry>
+    <entry id="91" name="ko:K05638" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K05638">
+        <graphics name="K05638" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="350" y="535" width="46" height="17"/>
+    </entry>
+    <entry id="92" name="cre:CHLREDRAFT_139713 cre:CHLREDRAFT_195444" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_139713+cre:CHLREDRAFT_195444">
+        <graphics name="SEC13..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="794" y="143" width="46" height="17"/>
+    </entry>
+    <entry id="93" name="cre:CHLREDRAFT_82091" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_82091">
+        <graphics name="SAR1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="748" y="160" width="46" height="17"/>
+    </entry>
+    <entry id="94" name="ko:K14003" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14003">
+        <graphics name="K14003" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="748" y="198" width="46" height="17"/>
+    </entry>
+    <entry id="95" name="cre:CHLREDRAFT_154398 cre:CHLREDRAFT_97057" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_154398+cre:CHLREDRAFT_97057">
+        <graphics name="HSP90C..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="277" y="303" width="46" height="17"/>
+    </entry>
+    <entry id="96" name="ko:K02161" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02161">
+        <graphics name="K02161" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="363" y="757" width="46" height="17"/>
+    </entry>
+    <entry id="97" name="path:map04210" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map04210">
+        <graphics name="Apoptosis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="365" y="795" width="80" height="25"/>
+    </entry>
+    <entry id="98" name="ko:K02161" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02161">
+        <graphics name="K02161" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="669" y="494" width="46" height="17"/>
+    </entry>
+    <entry id="99" name="ko:K10081" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10081">
+        <graphics name="K10081" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="665" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="100" name="ko:K14010" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14010">
+        <graphics name="K14010" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="866" y="298" width="46" height="17"/>
+    </entry>
+    <entry id="101" name="cre:CHLREDRAFT_120414" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_120414">
+        <graphics name="CHLREDRAFT_120414" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1074" y="604" width="46" height="17"/>
+    </entry>
+    <entry id="102" name="ko:K04556" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K04556">
+        <graphics name="K04556" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="1074" y="621" width="46" height="17"/>
+    </entry>
+    <entry id="103" name="cre:CHLREDRAFT_142834" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_142834">
+        <graphics name="CHLREDRAFT_142834" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="917" y="308" width="46" height="17"/>
+    </entry>
+    <entry id="104" name="cre:CHLREDRAFT_134508 cre:CHLREDRAFT_142751" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_134508+cre:CHLREDRAFT_142751">
+        <graphics name="HSP22A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="970" y="308" width="46" height="17"/>
+    </entry>
+    <entry id="105" name="path:map05010" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map05010">
+        <graphics name="Alzheimer disease" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="64" y="502" width="92" height="34"/>
+    </entry>
+    <entry id="106" name="path:map05012" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map05012">
+        <graphics name="Parkinson disease" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="64" y="547" width="92" height="34"/>
+    </entry>
+    <entry id="107" name="path:map05020" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map05020">
+        <graphics name="Prion diseases" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="63" y="463" width="92" height="25"/>
+    </entry>
+    <entry id="108" name="cre:CHLREDRAFT_205988" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_205988">
+        <graphics name="HSP70G" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="176" y="303" width="46" height="17"/>
+    </entry>
+    <entry id="109" name="ko:K14024" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14024">
+        <graphics name="K14024" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="806" y="693" width="46" height="17"/>
+    </entry>
+    <entry id="110" name="path:map04930" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map04930">
+        <graphics name="Type II diabetes mellitus" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="64" y="591" width="92" height="34"/>
+    </entry>
+    <entry id="111" name="cre:CHLREDRAFT_113687" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_113687">
+        <graphics name="CHLREDRAFT_113687" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="137" y="246" width="46" height="17"/>
+    </entry>
+    <entry id="112" name="ko:K13999" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K13999">
+        <graphics name="K13999" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="183" y="246" width="46" height="17"/>
+    </entry>
+    <entry id="113" name="ko:K14000" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14000">
+        <graphics name="K14000" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="235" y="212" width="46" height="17"/>
+    </entry>
+    <entry id="114" name="ko:K14009" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14009">
+        <graphics name="K14009" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="767" y="400" width="46" height="17"/>
+    </entry>
+    <entry id="115" name="cre:CHLREDRAFT_182433 cre:CHLREDRAFT_36756" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?cre:CHLREDRAFT_182433+cre:CHLREDRAFT_36756">
+        <graphics name="CHLREDRAFT_182433..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="721" y="417" width="46" height="17"/>
+    </entry>
+    <entry id="116" name="ko:K14013" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K14013">
+        <graphics name="K14013" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="806" y="676" width="46" height="17"/>
+    </entry>
+    <entry id="117" name="ko:K10636" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K10636">
+        <graphics name="K10636" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="916" y="587" width="46" height="17"/>
+    </entry>
+    <entry id="118" name="gl:G00009" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G00009">
+        <graphics name="G00009" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="333" y="194" width="8" height="8"/>
+    </entry>
+    <entry id="119" name="gl:G00011" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G00011">
+        <graphics name="G00011" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="501" y="391" width="8" height="8"/>
+    </entry>
+    <entry id="120" name="gl:G00011" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G00011">
+        <graphics name="G00011" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="528" y="167" width="8" height="8"/>
+    </entry>
+    <entry id="121" name="gl:G10694" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G10694">
+        <graphics name="G10694" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="616" y="166" width="8" height="8"/>
+    </entry>
+    <entry id="122" name="gl:G00012" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?G00012">
+        <graphics name="G00012" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="634" y="396" width="8" height="8"/>
+    </entry>
+    <relation entry1="92" entry2="25" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="92" entry2="93" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="30" entry2="77" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+</pathway>
