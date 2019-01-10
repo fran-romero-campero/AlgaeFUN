@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Creinhardtii.eg,
+    org.Creinhardtii.eg_dbconn,
+    org.Creinhardtii.eg_dbfile,
+    org.Creinhardtii.eg_dbschema,
+    org.Creinhardtii.eg_dbInfo,
+
+    org.Creinhardtii.egORGANISM
+)
+
