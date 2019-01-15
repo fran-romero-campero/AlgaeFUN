@@ -1,3 +1,4 @@
+##gff-version 3
 chromosome_1	prediction	gene	244	1932	0	-	.	ID=gene_1;Name=ostta01g00010;portal_id=Ostta4221_3;proteinId=ostta01g00010;transcriptId=ostta01g00010T0
 chromosome_1	prediction	mRNA	244	1932	.	-	.	ID=mRNA_1;Name=ostta01g00010;Parent=gene_1;proteinId=ostta01g00010;track=ExternalModels;transcriptId=ostta01g00010T0
 chromosome_1	prediction	exon	244	1932	.	-	.	ID=exon_1_1;Parent=mRNA_1
