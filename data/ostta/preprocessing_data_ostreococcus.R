@@ -169,7 +169,7 @@ head(select(org.At.tair.db,columns = c("GENENAME"),keys=keys(org.At.tair.db,keyt
 head(select(org.At.tair.db,columns = c("SYMBOL"),keys=keys(org.At.tair.db,keytype = "TAIR")))
 
 
-ostta.example <- read.table(file = "ota_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
+ostta.example <- read.table(file = "../ota_trough_dark_light_peak_light_dark.txt",header = FALSE,as.is = TRUE)[[1]]
 length(ostta.example)
 BiocManager::install("clusterProfiler", version = "3.8")
 library(clusterProfiler)
@@ -189,7 +189,6 @@ ego <- enrichGO(gene          = ostta.example,
                 readable      = TRUE,
                 keyType = "GID")
 
-
 barplot(ego,drop=TRUE,showCategory = 10)
 goplot(ego)
 dotplot(ego)
@@ -207,6 +206,7 @@ kk <- enrichKEGG(gene = paste0("OT_",ostta.example), organism = "ota",keyType = 
                  universe = paste0("OT_",ostta.universe),qvalueCutoff = 0.05)
 
 head(kk)
+
 
 mkk <- enrichMKEGG(gene = paste0("OT_",ostta.example), organism = "ota",keyType = "kegg")
 head(mkk)
@@ -287,183 +287,3 @@ install.packages("./TxDb.Otauri.JGI/", repos=NULL)
 library(TxDb.Otauri.JGI)
 txdb <- TxDb.Otauri.JGI
 genes(txdb)
-
-
-## More gtf processing
-ostta.gff3 <- read.table(file="ostreococcus_tauri.gff3",header=F,quote = "#",as.is=T)
-head(ostta.gff3)
-
-
-gene.ids <- vector(mode="character",length=nrow(ostta.gff3))
-gene.names <- vector(mode="character",length=nrow(ostta.gff3))
-protein.ids <- vector(mode="character", length=nrow(ostta.gff3))
-
-rna.ids <- vector(mode="character",length(nrow(ostta.gff3)))
-rna.names <- vector(mode="character" ,length(nrow(ostta.gff3)))
-rna.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
-rna.protein.id <- vector(mode="character" ,length(nrow(ostta.gff3)))
-rna.transcript.id <- vector(mode="character" ,length(nrow(ostta.gff3)))
-
-exon.ids <- vector(mode="character" ,length(nrow(ostta.gff3)))
-exon.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
-
-cds.ids <- vector(mode="character" ,length(nrow(ostta.gff3)))
-cds.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
-
-five.prime.utr.ids <- vector(mode="character" ,length(nrow(ostta.gff3)))
-five.prime.utr.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
-
-three.prime.utr.ids <- vector(mode="character" ,length(nrow(ostta.gff3)))
-three.prime.utr.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
-
-i <- 5
-
-for(i in 1:nrow(ostta.gff3))
-{
-  # extract current feature (gene, mRNA, exon, CDS, five_prime_UTR, three_prime_UTR)
-  current.feature <- ostta.gff3$V3[i]
-  current.element <- strsplit(ostta.gff3$V9[i],split=";")[[1]]
-
-  if(current.feature == "gene")
-  {
-    for(j in 1:length(current.element))
-    {
-      current.attribute <- strsplit(current.element[j],split="=")[[1]]
-      attribute.name <- current.attribute[1]
-      attribute.value <- current.attribute[2]
-      
-      if(attribute.name == "ID")
-      {
-        gene.ids[i] <- attribute.value
-      } else if (attribute.name == "Name")
-      {
-        gene.names[i] <- attribute.value
-      } else if (attribute.name == "protein_id")
-      {
-        protein.ids[i] <- attribute.value
-      }
-
-    }
-    
-  } else if(current.feature == "mRNA")
-  {
-    for(j in 1:length(current.element))
-    {
-      current.attribute <- strsplit(current.element[j],split="=")[[1]]
-      attribute.name <- current.attribute[1]
-      attribute.value <- current.attribute[2]
-      
-      if(attribute.name == "ID")
-      {
-        rna.ids[i] <- attribute.value
-      } else if (attribute.name == "Name")
-      {
-        rna.names[i] <- attribute.value
-      } else if (attribute.name == "Parent")
-      {
-        rna.parent[i] <- attribute.value
-      } else if (attribute.name == "protein_id")
-      {
-        rna.protein.id[i] <- attribute.value
-      } else if (attribute.name == "transcriptId")
-      {
-        rna.transcript.id[i] <- attribute.value
-      }
-    }
-  } else if(current.feature == "exon")
-  {
-    for(j in 1:length(current.element))
-    {
-      current.attribute <- strsplit(current.element[j],split="=")[[1]]
-      attribute.name <- current.attribute[1]
-      attribute.value <- current.attribute[2]
-      
-      if(attribute.name == "ID")
-      {
-        exon.ids[i] <- attribute.value
-      } else if (attribute.name == "Parent")
-      {
-        exon.parent[i] <- attribute.value
-      } 
-    }
-  } else if(current.feature == "CDS")
-  {
-    for(j in 1:length(current.element))
-    {
-      current.attribute <- strsplit(current.element[j],split="=")[[1]]
-      attribute.name <- current.attribute[1]
-      attribute.value <- current.attribute[2]
-      
-      if(attribute.name == "ID")
-      {
-        cds.ids[i] <- attribute.value
-      } else if (attribute.name == "Parent")
-      {
-        cds.parent[i] <- attribute.value
-      } 
-    }
-  } else if(current.feature == "five_prime_UTR")
-  {
-    for(j in 1:length(current.element))
-    {
-      current.attribute <- strsplit(current.element[j],split="=")[[1]]
-      attribute.name <- current.attribute[1]
-      attribute.value <- current.attribute[2]
-      
-      if(attribute.name == "ID")
-      {
-        five.prime.utr.ids[i] <- attribute.value
-      } else if (attribute.name == "Parent")
-      {
-        five.prime.utr.parent[i] <- attribute.value
-      } 
-    }
-  } else if(current.feature == "three_prime_UTR")
-  {
-    for(j in 1:length(current.element))
-    {
-      current.attribute <- strsplit(current.element[j],split="=")[[1]]
-      attribute.name <- current.attribute[1]
-      attribute.value <- current.attribute[2]
-      
-      if(attribute.name == "ID")
-      {
-        three.prime.utr.ids[i] <- attribute.value
-      } else if (attribute.name == "Parent")
-      {
-        three.prime.utr.parent[i] <- attribute.value
-      } 
-    }
-  }
-}
-
-
-gene.ids[1:10]
-gene.names[1:10]
-protein.ids[1:10]
-
-rna.ids[1:10]
-rna.names[1:10]
-rna.parent[1:10]
-rna.protein.id[1:10]
-rna.transcript.id[1:10]
-
-exon.ids[1:10]
-exon.parent[1:10]
-
-cds.ids[1:10]
-cds.parent[1:10]
-
-five.prime.utr.ids[1:10]
-
-
-unique(ostta.gff3$V3)
-
-
-#5	protein_coding	exon	26969546	26969670	.	-	. gene_id "AT5G67640"; transcript_id "AT5G67640.1"; exon_number "4"; seqedit "false";
-
-current.element <- str_replace_all(string = current.element,pattern = "transcriptId",replacement = "transcript_id")
-current.element <- str_replace_all(string = current.element,pattern = "=",replacement = " ")
-
-
-ostta.gff3$V9[i] <- current.element
