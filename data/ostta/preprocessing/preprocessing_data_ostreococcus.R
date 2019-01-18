@@ -316,8 +316,6 @@ five.prime.utr.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
 three.prime.utr.ids <- vector(mode="character" ,length(nrow(ostta.gff3)))
 three.prime.utr.parent <- vector(mode="character" ,length(nrow(ostta.gff3)))
 
-i <- 5
-
 for(i in 1:nrow(ostta.gff3))
 {
   # extract current feature (gene, mRNA, exon, CDS, five_prime_UTR, three_prime_UTR)
@@ -438,6 +436,63 @@ for(i in 1:nrow(ostta.gff3))
 }
 
 
+
+output.ostta.gff3 <- ostta.gff3
+
+i <- 4
+
+ostta.gff3[i,]
+
+for(i in 1:nrow(ostta.gff3))
+{
+  current.feature <- ostta.gff3$V3[i]
+  
+  if(current.feature == "gene")
+  {
+    gene.id.info <- paste("gene_id", paste(c("\"",gene.names[i],"\";"),collapse = ""))
+    protein.id.info <- paste("protein_id", paste(c("\"",gene.names[i],"\";"),collapse = ""))
+    output.ostta.gff3$V9[i] <- paste(gene.id.info, protein.id.info) 
+  } else if (current.feature == "mRNA")
+  {
+    gene.id.info <- paste("gene_id", paste(c("\"",rna.names[i],"\";"),collapse = ""))
+    transcript.id.info <- paste("transcript_id", paste(c("\"",rna.transcript.id[i],"\";"),collapse = ""))
+    output.ostta.gff3$V9[i] <- paste(gene.id.info, transcript.id.info) 
+  } else if (current.feature == "exon")
+  {
+    gene.id.info <- paste("gene_id", paste(c("\"",rna.names[which(exon.parent[i] == rna.ids)],"\";"),collapse = ""))
+    transcript.id.info <- paste("transcript_id", paste(c("\"",rna.transcript.id[[which(exon.parent[i] == rna.ids)]],"\";"),collapse = ""))
+    exon.number.info <- paste("exon_number", paste(c("\"",strsplit(exon.ids[i],split="_")[[1]][3],"\";"),collapse = ""))  
+    output.ostta.gff3$V9[i] <- paste(c(gene.id.info, transcript.id.info, exon.number.info),collapse=" ")
+  } else if (current.feature == "CDS")
+  {
+    gene.id.info <- paste("gene_id", paste(c("\"",rna.names[which(cds.parent[i] == rna.ids)],"\";"),collapse = ""))
+    transcript.id.info <- paste("transcript_id", paste(c("\"",rna.transcript.id[[which(cds.parent[i] == rna.ids)]],"\";"),collapse = ""))
+    output.ostta.gff3$V9[i] <- paste(c(gene.id.info, transcript.id.info),collapse=" ")
+  } else if (current.feature == "five_prime_UTR")
+  {
+    gene.id.info <- paste("gene_id", paste(c("\"",rna.names[which(five.prime.utr.parent[i] == rna.ids)],"\";"),collapse = ""))
+    transcript.id.info <- paste("transcript_id", paste(c("\"",rna.transcript.id[[which(five.prime.utr.parent[i] == rna.ids)]],"\";"),collapse = ""))
+    output.ostta.gff3$V9[i] <- paste(c(gene.id.info, transcript.id.info),collapse=" ")
+  } else if (current.feature == "three_prime_UTR")
+  {
+    gene.id.info <- paste("gene_id", paste(c("\"",rna.names[which(three.prime.utr.parent[i] == rna.ids)],"\";"),collapse = ""))
+    transcript.id.info <- paste("transcript_id", paste(c("\"",rna.transcript.id[[which(three.prime.utr.parent[i] == rna.ids)]],"\";"),collapse = ""))
+    output.ostta.gff3$V9[i] <- paste(c(gene.id.info, transcript.id.info),collapse=" ")
+  } else
+  {
+    print("unknown feature")
+  }
+}
+
+
+
+write.table(x = output.ostta.gff3,file = "ostreococcus_tauri.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
+
+#5	protein_coding	exon	26969546	26969670	.	-	. gene_id "AT5G67640"; transcript_id "AT5G67640.1"; exon_number "4"; seqedit "false";
+
+
+head(output.ostta.gff3)
+
 gene.ids[1:10]
 gene.names[1:10]
 protein.ids[1:10]
@@ -455,12 +510,6 @@ cds.ids[1:10]
 cds.parent[1:10]
 
 five.prime.utr.ids[1:10]
-
-
-unique(ostta.gff3$V3)
-
-
-#5	protein_coding	exon	26969546	26969670	.	-	. gene_id "AT5G67640"; transcript_id "AT5G67640.1"; exon_number "4"; seqedit "false";
 
 current.element <- str_replace_all(string = current.element,pattern = "transcriptId",replacement = "transcript_id")
 current.element <- str_replace_all(string = current.element,pattern = "=",replacement = " ")
