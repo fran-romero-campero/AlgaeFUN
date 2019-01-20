@@ -11,6 +11,6 @@ organism: Ostreococcus tauri
 species: Ostreococcus tauri
 provider: JGI
 provider_version: JGI
-release_date: 2018-12-28 22:28:12 +0100 (Fri, 28 Dec 2018)
+release_date: 2019-01-20 12:45:44 +0100 (Sun, 20 Jan 2019)
 resource_url: https://genome.jgi.doe.gov/Ostta4221_3/Ostta4221_3.home.html
 biocViews: AnnotationData, Genetics, TxDb, Ostreococcus_tauri

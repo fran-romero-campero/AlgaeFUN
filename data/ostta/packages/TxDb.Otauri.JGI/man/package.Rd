@@ -21,7 +21,7 @@
 
 \note{
   This data package was made from resources at JGI on
-  2018-12-28 22:28:12 +0100 (Fri, 28 Dec 2018) and based on the JGI
+  2019-01-20 12:45:44 +0100 (Sun, 20 Jan 2019) and based on the JGI
 }
 
 \author{Francisco J. Romero-Campero <fran@us.es> [cre]}

@@ -265,7 +265,7 @@ library("GenomicFeatures")
 ## Generate chromosome.info data frame
 library(seqinr)
 
-ostta.genome.data <- read.fasta(file = "ostreococcus_tauri_genome.fasta",seqtype = "DNA")
+ostta.genome.data <- read.fasta(file = "../genome/ostreococcus_tauri.fasta",seqtype = "DNA")
 chromosome.names <- getName(ostta.genome.data)
 chromosome.lengths <- sapply(X=getSequence(ostta.genome.data),FUN = length)
 
@@ -274,7 +274,7 @@ chromosomes.info <- data.frame(chrom=chromosome.names,length=chromosome.lengths,
 ## Meta data info
 meta.data.info <- data.frame(name=c("Resource URL","Genome"),value=c("https://genome.jgi.doe.gov/Ostta4221_3/Ostta4221_3.home.html","v3.0"))
 
-ostta.txdb <- makeTxDbFromGFF(file = "ostreococcus_tauri_annotation.gff3",format = "gff3",dataSource = "JGI",organism = "Ostreococcus tauri",taxonomyId = 70448,chrominfo = chromosomes.info,metadata = meta.data.info)
+ostta.txdb <- makeTxDbFromGFF(file = "ostreococcus_tauri.gtf",format = "gtf",dataSource = "JGI",organism = "Ostreococcus tauri",taxonomyId = 70448,chrominfo = chromosomes.info,metadata = meta.data.info)
 
 ostta.txdb
 genes(ostta.txdb)
