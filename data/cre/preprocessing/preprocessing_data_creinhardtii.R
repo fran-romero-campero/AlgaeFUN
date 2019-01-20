@@ -281,13 +281,50 @@ pathview(gene.data = sort(genes.pathway,decreasing = TRUE), pathway.id =res.kk$I
 ## Descargo de KEGG las proteinas anotadas con CHLREDRAFT 
 ## https://www.genome.jp/kegg-bin/show_organism?menu_type=genome_info&org=cre
 
+## Preprocess gff3 to generate gtf with gene_id and transcript_id 
+cre.gff3 <- read.table(file="../annotation/chlamydomonas_reinhardtii.gff3",header=F,quote = "#",as.is=T)
+cre.gtf <- cre.gff3
+head(cre.gff3)
+
+unique(cre.gff3$V3)
+
+for(i in 1:nrow(cre.gff3))
+{
+  current.attributes <- strsplit(cre.gff3$V9[i],split=";")[[1]]
+  if(cre.gff3$V3[i] == "gene")
+  {
+    gene.id <- strsplit(current.attributes[2],split="=")[[1]][2]
+    cre.gtf$V9[i] <- paste("gene_id", paste("\"",gene.id,"\";",sep=""))
+  } else if(cre.gff3$V3[i] == "mRNA")
+  {
+    gene.id <- substr(strsplit(current.attributes[5],split="=")[[1]][2],start = 1,stop = 13)
+    transcript.id <- strsplit(current.attributes[2],"=")[[1]][2]
+    cre.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
+  } else if(cre.gff3$V3[i] == "exon")
+  {
+    gene.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 13)
+    trancript.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 18)
+    exon.number <- strsplit(strsplit(current.attributes[1],split="=")[[1]][2],split="exon.")[[1]][2]
+    cre.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep=""),"exon_number",paste("\"",exon.number,"\";",sep="")), collapse = " ")
+  } else if(cre.gff3$V3[i] == "five_prime_UTR" || cre.gff3$V3[i] == "three_prime_UTR" || cre.gff3$V3[i] == "CDS")
+  {
+    gene.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 13)
+    transcript.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 18)
+    cre.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
+  }
+}
+
+head(cre.gtf)
+
+write.table(x = cre.gtf,file = "chlamydomonas_reinhardtii.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
+
 ## Generate TxDb package from gff3 file
 library("GenomicFeatures")
 
 ## Generate chromosome.info data frame
 library(seqinr)
 
-cre.genome.data <- read.fasta(file = "Creinhardtii_281_v5.0.fa",seqtype = "DNA")
+cre.genome.data <- read.fasta(file = "../genome/chlamydomonas_reinhardtii.fa",seqtype = "DNA")
 chromosome.names <- getName(cre.genome.data)
 chromosome.lengths <- sapply(X=getSequence(cre.genome.data),FUN = length)
 
@@ -296,7 +333,7 @@ chromosomes.info <- data.frame(chrom=chromosome.names,length=chromosome.lengths,
 ## Meta data info
 meta.data.info <- data.frame(name=c("Resource URL","Genome"),value=c("https://phytozome.jgi.doe.gov/","v5.0"))
 
-cre.txdb <- makeTxDbFromGFF(file = "Creinhardtii_281_v5.6.gene_exons.gff3",format = "gff3",dataSource = "Phytozome",organism = "Chlamydomonas reinhardtii",taxonomyId = 3055,chrominfo = chromosomes.info,metadata = meta.data.info)
+cre.txdb <- makeTxDbFromGFF(file = "../annotation/chlamydomonas_reinhardtii.gff3",format = "gff3",dataSource = "Phytozome",organism = "Chlamydomonas reinhardtii",taxonomyId = 3055,chrominfo = chromosomes.info,metadata = meta.data.info)
 
 cre.txdb
 genes(cre.txdb)
