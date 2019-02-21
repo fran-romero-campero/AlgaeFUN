@@ -318,6 +318,27 @@ head(cre.gtf)
 
 write.table(x = cre.gtf,file = "chlamydomonas_reinhardtii.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
 
+## Processing of gtf to remove common names
+cre.gtf <- read.table(file="../annotation/chlamydomonas_reinhardtii.0.gtf",header=F,quote = "#",as.is=T,sep="\t")
+cre.gtf.output <- cre.gtf
+
+i <- 32
+
+for(i in 1:nrow(cre.gtf))
+{
+  print(i)
+  current.attributes <- strsplit(cre.gtf$V9[i],split=";")[[1]]
+  if(cre.gtf$V3[i] == "mRNA")
+  {
+    gene.id <- substr(x=strsplit(current.attributes[2]," ")[[1]][3],start=2,stop=14)
+    transcript.id <- strsplit(current.attributes[2]," ")[[1]][3]
+    cre.gtf.output$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",
+                                    transcript.id), collapse = " ")
+  } 
+}
+
+write.table(x = cre.gtf.output,file = "chlamydomonas_reinhardtii.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
+
 ## Generate TxDb package from gff3 file
 library("GenomicFeatures")
 
