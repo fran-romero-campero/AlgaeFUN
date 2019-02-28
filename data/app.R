@@ -7,9 +7,19 @@
 #    http://shiny.rstudio.com/
 #
 
+## To test the script:
+# input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
+# target.genes <- read.table(file="ostta/examples/no_iron_vs_iron_15H/activated/activated_genes.txt",as.is=T)[[1]]
 library(shinycssloaders)
 library(shiny)
-library(topGO)
+library(clusterProfiler)
+
+## Load microalgae annotation packages
+library(org.Otauri.eg.db)
+library(org.Creinhardtii.eg.db)
+library(org.Dsalina.eg.db)
+
+#library(topGO)
 
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
@@ -23,7 +33,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   fluidRow(
       column(width = 5,
              #Choose the target microalgae
-        selectInput(inputId = "mapfile", label="Choose your favourite microalgae", 
+        selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
                   choices=c("Ostreococcus tauri" = "otauri",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
@@ -31,14 +41,21 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Chlamydomonas reinhardtii" = "creinhardtii",
                             "Bathycoccus prasinos" = "bathy")),
              #Choose a p-value
-      numericInput(inputId = "pvalor", label= "Which will be your chosen p-value?", value= 0.05),
+      numericInput(inputId = "pvalue", label= "Which will be your chosen p-value?", value= 0.05),
              #Choose the kind of analysis that you want us to execute 
-      radioButtons(inputId = "analysis_asked_for",
+      radioButtons(inputId = "analysis",
                    label="Choose your desirable analysis",
-                   choices=c("KEGG analysis",
-                             "GO terms enrichment",
-                             "Both of them"
-                            ))      
+                   choices=c("GO terms enrichment" = "go",
+                             "KEGG pathways enrichment analysis" = "kegg",
+                             "Both" = "both"
+                            )),
+      
+      conditionalPanel(condition= "input.analysis == 'go'",
+                       radioButtons(inputId = "ontology",
+                                    label="Choose gene ontology:",
+                                    choices = c("Biological process" = "BP",
+                                                "Cellular Component" = "CC",
+                                                "Mollecular Function" = "MF")))
       ),
       
       column(
@@ -97,14 +114,22 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
       tabsetPanel(type = "tabs",
-                  tabPanel("GO map", div(style= "overflow:scroll; height:500px;", 
-                                       plotOutput(outputId = "plot", inline = TRUE)),
-                           downloadButton(outputId= "downloadImage", "Get GO map")),
+                  tabPanel("GO map", 
+                           dataTableOutput(outputId = "output_go_table"),
+                           htmlOutput(outputId = "revigo"),
+                           div(style= "overflow:scroll; height:500px;", 
+                                       plotOutput(outputId = "go.plot", inline = TRUE)),
+                           downloadButton(outputId= "downloadImage", "Get GO map"),
+                           plotOutput(outputId = "bar.plot",inline=TRUE),
+                           plotOutput(outputId = "dot.plot",inline=TRUE),
+                           plotOutput(outputId = "emap.plot",inline=TRUE),
+                           plotOutput(outputId = "cnet.plot",inline=TRUE),
+                           align = "center"),
                   tabPanel("KEGG pathway", plotOutput("keggpath"), 
                            downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image")),
                   tabPanel("Summary", dataTableOutput(outputId = "data"),
-                           downloadButton(outputId= "downloadData", "Get GO terms of each gene"),
-                           htmlOutput(outputId = "revigo"))
+                           downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
+                           #htmlOutput(outputId = "revigo"))
                  )
               )
       ######tabpanels also can look like this: 
@@ -115,179 +140,315 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 # Define server logic required to draw a histogram
 server <- shinyServer(function(input, output) {
   observeEvent(input$go.button , {
-    p.valor <- input$pvalor
     
-    print(p.valor)
-    
-    # p.valor<- 0.5
-    
-    target.genes <- as.vector(unlist(
-      strsplit(input$genes, split="\n",
-               fixed = TRUE)[1]))
-    
-    
-    #Read annotation file
-    
-    map.file <- paste(c("data/data_",input$mapfile,".map"), collapse = "")
-    
-    geneID2GO <- readMappings(file=map.file)
-    
-    #Set background
-    gene.names <- attributes(geneID2GO)[[1]]
-    gene.background <- rep(1, length(gene.names))
-    names(gene.background) <- gene.names
-    
-    gene.background[target.genes] <- 0
-    
-    #Every target gene in background = 0
-    gene.selec <- function(gene.list)
+    ## Select org.Db 
+    if(input$microalgae == "otauri")
     {
-      return(gene.list == 0)
+      org.db <- org.Otauri.eg.db
+    } else if (input$microalgae == "creinhardtii")
+    {
+      org.db <- org.Creinhardtii.eg.db
     }
-    #Make the object topGOdata
-    sampleGOdata <- new("topGOdata",
-                        description = "Microalgae session", ontology = "BP",
-                        allGenes = gene.background, geneSel = gene.selec,
-                        nodeSize = 10,
-                        annot = annFUN.gene2GO, gene2GO = geneID2GO)
     
-    resultFisher <- runTest(sampleGOdata, algorithm = "classic", statistic = "fisher")
+    ## Extract genes
+    target.genes <- as.vector(unlist(strsplit(input$genes, split="\n",
+                                     fixed = TRUE)[1]))
     
-    #Create the table where you'll write the most relevant 100 GO terms 
-    allRes <- GenTable(sampleGOdata, classicFisher = resultFisher,
-                       ranksOf = "classicFisher", topNodes = 100, numChar=100)
-    
-    #Save p-value column and create a vector where you'll save the corrected p-values.
-    all.pvalues <- as.vector(allRes[["classicFisher"]])
-    
-    corrected.all.pvalues <- vector(length=length(all.pvalues), mode="numeric")
-    #Change value of the smallest p-value to 0, because they are so small that
-    #they can't be seen as numeric
-    for (i in 1:length(all.pvalues))
+    ## Perform selected analysis
+    if(input$analysis == "go")
     {
-      if (is.na(as.numeric(all.pvalues[i])))
+      ## Select gene universe
+      if(input$input_mode == "No")
       {
-        corrected.all.pvalues[i] <- 0
-      }else
+        gene.universe <- unique(select(org.db,columns = c("GO"),keys=keys(org.db,keytype = "GID"))[["GID"]])
+      } else 
       {
-        corrected.all.pvalues[i] <- as.numeric(all.pvalues[i])
+        gene.universe <- as.vector(unlist(strsplit(input$background, split="\n",
+                                                   fixed = TRUE)[1]))
       }
-    }
-    #Take just the p-values that are smaller than our p-value pre-selected.
-    filter.Res <- allRes[corrected.all.pvalues < p.valor,]
-    res.with.genes <- data.frame(filter.Res,genes=vector(length=nrow(filter.Res),mode="character"))
-    
-    # #Loop that will save the GO terms of the target genes that have a significant
-    # #p-value.
-    #Save the GO terms related to each target gene
-    target.genes.annotation <- geneID2GO[target.genes]
-    
-    #Save 100 GO terms selected
-    significative.GO.terms <- as.vector(filter.Res[["GO.ID"]])
-    
-    #Create the list of all the possible GO terms 
-    offspring <- as.list(GOBPOFFSPRING)
-    
-    #Create the empty vector where you'll save the genes in every GOterm selected.
-    genes.for.each.GO <- vector(length=length(significative.GO.terms),mode="character")
-    
-    
-    for (i in 1:length(significative.GO.terms))
-    {
-      #for each GO terms of the 100 GO terms selected, get all the GO
-      #terms related to it
-      GO.genes <- vector(mode="character")
-      k <- 1
-      go.offspring <- offspring[[significative.GO.terms[i]]]
-      for (j in 1:length(target.genes.annotation))
-      {
-        #for every GO term related to each target gene
-        if(length(intersect(go.offspring,target.genes.annotation[[j]]))!=0)
-        {
-          #if there are common GO terms between the GO terms related to each
-          #target gene and the GO terms related to each of the 100 GO terms selected,
-          #save the gene in GO.genes vector that you created before.
-          GO.genes[k] <- names(target.genes.annotation[j])
-          k <- k+1
-        }
-      }
-      GO.genes.string <- paste(unique(GO.genes), collapse=" ")
       
-      genes.for.each.GO[i] <- GO.genes.string
-      print(i)
-    }
-    
-    res.with.genes[["genes"]] <- genes.for.each.GO
-    
-    #Generate GOmap   
-    output$plot<- 
-      renderPlot( 
-        width     = 4700,
-        height    = 4500,
-        res       = 260,
-        {
-          
-          ## Create the final image
-          showSigOfNodes(sampleGOdata, score(resultFisher), firstSigNodes = 50, useInfo = 'all')
-          
+      ## Perform GO enrichment
+      ## TODO q-value
+      enrich.go <- enrichGO(gene          = target.genes,
+                            universe      = gene.universe,
+                            OrgDb         = org.db,
+                            ont           = input$ontology,
+                            pAdjustMethod = "BH",
+                            pvalueCutoff  = input$pvalue,
+                            qvalueCutoff  = 0.05,
+                            readable      = TRUE,
+                            keyType = "GID")
+      
+      
+      ## Generate ouput table
+      enrich.go.result <- as.data.frame(enrich.go)
+      head(enrich.go.result)
+      enrich.go.result[1,]
+      
+      ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
+      gene.ratios <- sapply(parse(text=enrich.go.result$GeneRatio),FUN = eval)
+      bg.ratios <- sapply(parse(text=enrich.go.result$BgRatio),FUN = eval)
+      enrichments <- round(x=gene.ratios/bg.ratios,digits = 2)
+      go.term.enrichments <- paste(enrichments,
+                                   " (",enrich.go.result$GeneRatio,"; ",
+                                   enrich.go.result$BgRatio, ")",sep="")
+      
+      go.result.table <- data.frame(enrich.go.result$ID, enrich.go.result$Description,
+                                    enrich.go.result$pvalue, enrich.go.result$qvalue,
+                                    go.term.enrichments, 
+                                    gsub(pattern = "/",replacement = " ",x = enrich.go.result$geneID),
+                                    stringsAsFactors = FALSE)
+      
+      colnames(go.result.table) <- c("GO ID", "Description", "p-value", "q-value",
+                                     "Enrichment (Target Ratio; BG Ration)","Genes")
+
+      #go.result.table.with.links <- 
+      
+      
+      output$output_go_table <- renderDataTable({
+        go.result.table
+      },escape=FALSE,options =list(pageLength = 5)) #list(aoColumn = list(list(sWidth ="150px", sWidth ="150px", sWidth ="150px",
+                                 #                   sWidth ="150px", sWidth ="150px", sWidth ="150px"))))  
+      
+      ## Link to REVIGO 
+      revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+
+      url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
+      url2 <- tags$form(
+         name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank", 
+         tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText", 
+                       style="visibility: hidden", revigo.data) 
+      )
+
+      output$revigo<- renderUI(
+       tagList("Visualize output in REViGO", url1, url2)
+      )
+
+      ## GO plot
+      output$go.plot <- renderPlot(
+                            width     = 940,
+                            height    = 900,
+                            res       = 120,
+                            expr = {
+                              goplot(enrich.go,showCategory = 10)
+                              })
+
+      ## Barplot
+      output$bar.plot <- renderPlot(
+        width     = 940,
+        height    = 900,
+        res       = 120,
+        expr = {
+          barplot(enrich.go,drop=TRUE,showCategory = 10)
         })
-    
-    
-    ## Download the final image
-    output$downloadImage<- downloadHandler(
-      filename= "GO_map.png",
-      content= function(file) {
-        png(file, width     = 10,
-            height    = 10,
-            units     = "in",
-            res       = 600)
-        showSigOfNodes(sampleGOdata, score(resultFisher), firstSigNodes = 50, useInfo = 'all')
-        dev.off()
-      })  
-    
-    #Function to generate the links that will take you to a web about each gene.
-    createGeneLink<- function (gene.name)
-    {
-      paste(c("<a href=\"https://www.ncbi.nlm.nih.gov/gene/?term=", 
-              gene.name,
-              "\" target=\"_blank\">",
-              gene.name,
-              "</a>"
-      ), collapse= "")
-    }
-    #Function to generate the links that will take you to a web about each GO term.
-    
-    createGOLink<- function (go.term)
-    {
       
-      paste(c("<a href=\"http://amigo.geneontology.org/amigo/term/", 
-              go.term,
-              "\" target=\"_blank\">",
-              go.term,
-              "</a>"
-      ), collapse= "")
+      ## Dotplot
+      output$dot.plot <- renderPlot(
+        width     = 940,
+        height    = 900,
+        res       = 120,
+        expr = {
+          dotplot(enrich.go)
+        })
+      
+      ##EMAP plot
+      output$emap.plot <- renderPlot(
+        width     = 940,
+        height    = 900,
+        res       = 120,
+        expr = {
+          emapplot(enrich.go)
+        })
+      
+      ##CNET plot
+      output$cnet.plot <- renderPlot(
+        width     = 940,
+        height    = 900,
+        res       = 120,
+        expr = {
+          cnetplot(enrich.go)
+        })
+      
+      
+      
     }
-    #make a copy of res.with.genes before changing the data that it contains 
-    res.with.genes.1<- cbind (res.with.genes)
-    output$downloadData<- downloadHandler(
-      filename= c('GO_terms.txt'),
-      content= function(file) {
-        write.table(res.with.genes.1, file, row.names = TRUE)
-      })
     
-    #Use the previous functions before printing the final data table on screen      
-    res.with.genes$GO.ID <- sapply(res.with.genes$GO.ID, createGOLink)
     
-    for (i in 1:length(res.with.genes$genes))
-    {
-      vector.genes <-strsplit(res.with.genes$genes[[i]], split=" ")[[1]]
-      res.with.genes$genes[[i]] <- paste(sapply(vector.genes, createGeneLink),collapse= " ")
-    }
     
-    #Print the final data table on screen
-    output$data<- renderDataTable({
-      res.with.genes
-    }, escape= FALSE)
+    
+    # p.valor <- input$pvalor
+    # 
+    # print(p.valor)
+    # 
+    # # p.valor<- 0.5
+    # 
+    # target.genes <- as.vector(unlist(
+    #   strsplit(input$genes, split="\n",
+    #            fixed = TRUE)[1]))
+    # 
+    # 
+    # #Read annotation file
+    # 
+    # map.file <- paste(c("data/data_",input$mapfile,".map"), collapse = "")
+    # 
+    # geneID2GO <- readMappings(file=map.file)
+    # 
+    # #Set background
+    # gene.names <- attributes(geneID2GO)[[1]]
+    # gene.background <- rep(1, length(gene.names))
+    # names(gene.background) <- gene.names
+    # 
+    # gene.background[target.genes] <- 0
+    # 
+    # #Every target gene in background = 0
+    # gene.selec <- function(gene.list)
+    # {
+    #   return(gene.list == 0)
+    # }
+    # #Make the object topGOdata
+    # sampleGOdata <- new("topGOdata",
+    #                     description = "Microalgae session", ontology = "BP",
+    #                     allGenes = gene.background, geneSel = gene.selec,
+    #                     nodeSize = 10,
+    #                     annot = annFUN.gene2GO, gene2GO = geneID2GO)
+    # 
+    # resultFisher <- runTest(sampleGOdata, algorithm = "classic", statistic = "fisher")
+    # 
+    # #Create the table where you'll write the most relevant 100 GO terms 
+    # allRes <- GenTable(sampleGOdata, classicFisher = resultFisher,
+    #                    ranksOf = "classicFisher", topNodes = 100, numChar=100)
+    # 
+    # #Save p-value column and create a vector where you'll save the corrected p-values.
+    # all.pvalues <- as.vector(allRes[["classicFisher"]])
+    # 
+    # corrected.all.pvalues <- vector(length=length(all.pvalues), mode="numeric")
+    # #Change value of the smallest p-value to 0, because they are so small that
+    # #they can't be seen as numeric
+    # for (i in 1:length(all.pvalues))
+    # {
+    #   if (is.na(as.numeric(all.pvalues[i])))
+    #   {
+    #     corrected.all.pvalues[i] <- 0
+    #   }else
+    #   {
+    #     corrected.all.pvalues[i] <- as.numeric(all.pvalues[i])
+    #   }
+    # }
+    # #Take just the p-values that are smaller than our p-value pre-selected.
+    # filter.Res <- allRes[corrected.all.pvalues < p.valor,]
+    # res.with.genes <- data.frame(filter.Res,genes=vector(length=nrow(filter.Res),mode="character"))
+    # 
+    # # #Loop that will save the GO terms of the target genes that have a significant
+    # # #p-value.
+    # #Save the GO terms related to each target gene
+    # target.genes.annotation <- geneID2GO[target.genes]
+    # 
+    # #Save 100 GO terms selected
+    # significative.GO.terms <- as.vector(filter.Res[["GO.ID"]])
+    # 
+    # #Create the list of all the possible GO terms 
+    # offspring <- as.list(GOBPOFFSPRING)
+    # 
+    # #Create the empty vector where you'll save the genes in every GOterm selected.
+    # genes.for.each.GO <- vector(length=length(significative.GO.terms),mode="character")
+    # 
+    # 
+    # for (i in 1:length(significative.GO.terms))
+    # {
+    #   #for each GO terms of the 100 GO terms selected, get all the GO
+    #   #terms related to it
+    #   GO.genes <- vector(mode="character")
+    #   k <- 1
+    #   go.offspring <- offspring[[significative.GO.terms[i]]]
+    #   for (j in 1:length(target.genes.annotation))
+    #   {
+    #     #for every GO term related to each target gene
+    #     if(length(intersect(go.offspring,target.genes.annotation[[j]]))!=0)
+    #     {
+    #       #if there are common GO terms between the GO terms related to each
+    #       #target gene and the GO terms related to each of the 100 GO terms selected,
+    #       #save the gene in GO.genes vector that you created before.
+    #       GO.genes[k] <- names(target.genes.annotation[j])
+    #       k <- k+1
+    #     }
+    #   }
+    #   GO.genes.string <- paste(unique(GO.genes), collapse=" ")
+    #   
+    #   genes.for.each.GO[i] <- GO.genes.string
+    #   print(i)
+    # }
+    # 
+    # res.with.genes[["genes"]] <- genes.for.each.GO
+    # 
+    # #Generate GOmap   
+    # output$plot<- 
+    #   renderPlot( 
+    #     width     = 4700,
+    #     height    = 4500,
+    #     res       = 260,
+    #     {
+    #       
+    #       ## Create the final image
+    #       showSigOfNodes(sampleGOdata, score(resultFisher), firstSigNodes = 50, useInfo = 'all')
+    #       
+    #     })
+    # 
+    # 
+    # ## Download the final image
+    # output$downloadImage<- downloadHandler(
+    #   filename= "GO_map.png",
+    #   content= function(file) {
+    #     png(file, width     = 10,
+    #         height    = 10,
+    #         units     = "in",
+    #         res       = 600)
+    #     showSigOfNodes(sampleGOdata, score(resultFisher), firstSigNodes = 50, useInfo = 'all')
+    #     dev.off()
+    #   })  
+    # 
+    # #Function to generate the links that will take you to a web about each gene.
+    # createGeneLink<- function (gene.name)
+    # {
+    #   paste(c("<a href=\"https://www.ncbi.nlm.nih.gov/gene/?term=", 
+    #           gene.name,
+    #           "\" target=\"_blank\">",
+    #           gene.name,
+    #           "</a>"
+    #   ), collapse= "")
+    # }
+    # #Function to generate the links that will take you to a web about each GO term.
+    # 
+    # createGOLink<- function (go.term)
+    # {
+    #   
+    #   paste(c("<a href=\"http://amigo.geneontology.org/amigo/term/", 
+    #           go.term,
+    #           "\" target=\"_blank\">",
+    #           go.term,
+    #           "</a>"
+    #   ), collapse= "")
+    # }
+    # #make a copy of res.with.genes before changing the data that it contains 
+    # res.with.genes.1<- cbind (res.with.genes)
+    # output$downloadData<- downloadHandler(
+    #   filename= c('GO_terms.txt'),
+    #   content= function(file) {
+    #     write.table(res.with.genes.1, file, row.names = TRUE)
+    #   })
+    # 
+    # #Use the previous functions before printing the final data table on screen      
+    # res.with.genes$GO.ID <- sapply(res.with.genes$GO.ID, createGOLink)
+    # 
+    # for (i in 1:length(res.with.genes$genes))
+    # {
+    #   vector.genes <-strsplit(res.with.genes$genes[[i]], split=" ")[[1]]
+    #   res.with.genes$genes[[i]] <- paste(sapply(vector.genes, createGeneLink),collapse= " ")
+    # }
+    # 
+    # #Print the final data table on screen
+    # output$data<- renderDataTable({
+    #   res.with.genes
+    # }, escape= FALSE)
     
     
     #     <a href="#" onclick="document.revigoForm.submit();"> Visualize output in REViGO </a><br>
@@ -309,28 +470,28 @@ server <- shinyServer(function(input, output) {
     #     </form></p>
     # 
     #Link to revigo 
-    j<-1
-    revigo.data<-c()
-    #Generate the input data in the correct form: "GO p.value"
-    for (j in 1:length(res.with.genes.1$GO.ID))
-    {
-      each.element<-paste(res.with.genes.1$GO.ID[j], res.with.genes.1$classicFisher[j], collapse = " ")
-      revigo.data[j]<-paste(each.element,collapse = "")
-    }  
-    revigo.data<-paste(revigo.data, collapse="\n")
-    
-    
-    url1<- a("here", href="#", onclick="document.revigoForm.submit();")
-    url2<- tags$form(
-      name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank", 
-      tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText", 
-                    style="visibility: hidden", revigo.data) 
-    )
-    
-    
-    output$revigo<- renderUI(
-      tagList("Visualize output in REViGO", url1, url2)
-    )
+    # j<-1
+    # revigo.data<-c()
+    # #Generate the input data in the correct form: "GO p.value"
+    # for (j in 1:length(res.with.genes.1$GO.ID))
+    # {
+    #   each.element<-paste(res.with.genes.1$GO.ID[j], res.with.genes.1$classicFisher[j], collapse = " ")
+    #   revigo.data[j]<-paste(each.element,collapse = "")
+    # }  
+    # revigo.data<-paste(revigo.data, collapse="\n")
+    # 
+    # 
+    # url1<- a("here", href="#", onclick="document.revigoForm.submit();")
+    # url2<- tags$form(
+    #   name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank", 
+    #   tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText", 
+    #                 style="visibility: hidden", revigo.data) 
+    # )
+    # 
+    # 
+    # output$revigo<- renderUI(
+    #   tagList("Visualize output in REViGO", url1, url2)
+    # )
     
     
     #                    
