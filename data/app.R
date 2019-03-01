@@ -9,17 +9,29 @@
 
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
+# input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # target.genes <- read.table(file="ostta/examples/no_iron_vs_iron_15H/activated/activated_genes.txt",as.is=T)[[1]]
 library(shinycssloaders)
 library(shiny)
 library(clusterProfiler)
+library(pathview)
 
 ## Load microalgae annotation packages
 library(org.Otauri.eg.db)
 library(org.Creinhardtii.eg.db)
 library(org.Dsalina.eg.db)
 
-#library(topGO)
+## Auxiliary functions
+## Auxiliary function to compute enrichments
+compute.enrichments <- function(gene.ratios, bg.ratios)
+{
+  gene.ratios.eval <- sapply(parse(text=gene.ratios),FUN = eval)
+  bg.ratios.eval <- sapply(parse(text=bg.ratios),FUN = eval)
+  enrichments <- round(x=gene.ratios.eval/bg.ratios.eval,digits = 2)
+  enrichments.text <- paste(enrichments, " (", gene.ratios, "; ", bg.ratios, ")",sep="")
+
+  return(enrichments.text)  
+}
 
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
@@ -135,9 +147,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       ######tabpanels also can look like this: 
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
     ))
-##################################Server not modified yet###################################
 
-# Define server logic required to draw a histogram
+## Define server logic
 server <- shinyServer(function(input, output) {
   observeEvent(input$go.button , {
     
@@ -153,19 +164,19 @@ server <- shinyServer(function(input, output) {
     ## Extract genes
     target.genes <- as.vector(unlist(strsplit(input$genes, split="\n",
                                      fixed = TRUE)[1]))
-    
-    ## Perform selected analysis
+    ## Select gene universe
+    if(input$input_mode == "No")
+    {
+      gene.universe <- unique(select(org.db,columns = c("GO"),keys=keys(org.db,keytype = "GID"))[["GID"]])
+    } else 
+    {
+      gene.universe <- as.vector(unlist(strsplit(input$background, split="\n",
+                                                 fixed = TRUE)[1]))
+    }
+
+    ## GO term enirchment analysis
     if(input$analysis == "go")
     {
-      ## Select gene universe
-      if(input$input_mode == "No")
-      {
-        gene.universe <- unique(select(org.db,columns = c("GO"),keys=keys(org.db,keytype = "GID"))[["GID"]])
-      } else 
-      {
-        gene.universe <- as.vector(unlist(strsplit(input$background, split="\n",
-                                                   fixed = TRUE)[1]))
-      }
       
       ## Perform GO enrichment
       ## TODO q-value
@@ -186,13 +197,9 @@ server <- shinyServer(function(input, output) {
       enrich.go.result[1,]
       
       ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
-      gene.ratios <- sapply(parse(text=enrich.go.result$GeneRatio),FUN = eval)
-      bg.ratios <- sapply(parse(text=enrich.go.result$BgRatio),FUN = eval)
-      enrichments <- round(x=gene.ratios/bg.ratios,digits = 2)
-      go.term.enrichments <- paste(enrichments,
-                                   " (",enrich.go.result$GeneRatio,"; ",
-                                   enrich.go.result$BgRatio, ")",sep="")
-      
+      go.term.enrichments <- compute.enrichments(gene.ratios = enrich.go.result$GeneRatio,
+                                                 bg.ratios = enrich.go.result$BgRatio)
+
       go.result.table <- data.frame(enrich.go.result$ID, enrich.go.result$Description,
                                     enrich.go.result$pvalue, enrich.go.result$qvalue,
                                     go.term.enrichments, 
@@ -207,8 +214,7 @@ server <- shinyServer(function(input, output) {
       
       output$output_go_table <- renderDataTable({
         go.result.table
-      },escape=FALSE,options =list(pageLength = 5)) #list(aoColumn = list(list(sWidth ="150px", sWidth ="150px", sWidth ="150px",
-                                 #                   sWidth ="150px", sWidth ="150px", sWidth ="150px"))))  
+      },escape=FALSE,options =list(pageLength = 5)) 
       
       ## Link to REVIGO 
       revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
@@ -268,6 +274,52 @@ server <- shinyServer(function(input, output) {
         expr = {
           cnetplot(enrich.go)
         })
+    }
+    
+    ## KEGG pathways enrichment analysis
+    if(input$analysis == "kegg")
+    {
+      
+      ## Update target genes and universe depending on the microalgae
+      if(input$microalgae == "otauri")
+      {
+        target.genes <- paste0("OT_",target.genes)
+        gene.universe <- paste0("OT_",gene.universe)
+        organism.id <- "ota"
+      }
+      
+      pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
+                                       universe = gene.universe,qvalueCutoff = input$pvalue)
+      
+      
+      pathway.enrichment.result <- as.data.frame(pathway.enrichment)
+      
+      
+      pathways.enrichment <- compute.enrichments(gene.ratios = pathway.enrichment.result$GeneRatio,
+                                                 bg.ratios = pathway.enrichment.result$BgRatio)
+      
+      pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
+                                          pathway.enrichment.result$pvalue, pathway.enrichment.result$qvalue,
+                                          pathways.enrichment, 
+                                          gsub(pattern="OT_",replacement="",x=gsub(pattern = "/",replacement = " ",x = pathway.enrichment.result$geneID)),
+                                          stringsAsFactors = FALSE)
+      
+      colnames(pathways.result.table) <- c("KEGG ID", "Description", "p-value", "q-value",
+                                           "Enrichment (Target Ratio; BG Ration)","Genes")
+      
+      #go.result.table.with.links <- 
+      
+      
+      output$output_pathway_table <- renderDataTable({
+        pathways.result.table
+      },escape=FALSE,options =list(pageLength = 5)) 
+      
+      
+        
+      modules.enrichment <- enrichMKEGG(gene = target.genes, organism = organism.id, keyType = "kegg")
+      
+      modules.enrichment.result <- as.data.frame(modules.enrichment)
+      #modules.enrichment.result$
       
       
       
