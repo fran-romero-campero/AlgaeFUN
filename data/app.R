@@ -33,6 +33,30 @@ compute.enrichments <- function(gene.ratios, bg.ratios)
   return(enrichments.text)  
 }
 
+## https://bioinformatics.psb.ugent.be/orcae/annotation/OsttaV2/current/ostta15g02520
+ostta.gene.link <- function(gene.name)
+{
+  orcae.link <- paste0("https://bioinformatics.psb.ugent.be/orcae/annotation/OsttaV2/current/",gene.name)
+  gene.link <- paste(c("<a href=\"",
+                        orcae.link,
+                        "\" target=\"_blank\">",
+                        gene.name, "</a>"),
+                      collapse="")
+  return(gene.link)
+}
+
+# http://amigo.geneontology.org/amigo/term/GO:0015979
+go.link <- function(go.term)
+{
+  link <- paste0("http://amigo.geneontology.org/amigo/term/", go.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           go.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   
@@ -137,7 +161,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            plotOutput(outputId = "emap.plot",inline=TRUE),
                            plotOutput(outputId = "cnet.plot",inline=TRUE),
                            align = "center"),
-                  tabPanel("KEGG pathway", plotOutput("keggpath"), 
+                  tabPanel("KEGG pathway", 
+                           dataTableOutput(outputId = "output_pathway_table"),
+                           plotOutput("keggpath"), 
                            downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image")),
                   tabPanel("Summary", dataTableOutput(outputId = "data"),
                            downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
@@ -209,11 +235,19 @@ server <- shinyServer(function(input, output) {
       colnames(go.result.table) <- c("GO ID", "Description", "p-value", "q-value",
                                      "Enrichment (Target Ratio; BG Ration)","Genes")
 
-      #go.result.table.with.links <- 
+      go.result.table.with.links <- go.result.table
+      ## Add links to the genes
+      genes.in.go.enrichment <- go.result.table$Genes
+      for(i in 1:length(genes.in.go.enrichment))
+      {
+        go.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(genes.in.go.enrichment[i],split=" ")[[1]],FUN = ostta.gene.link),collapse=" ")
+      }
       
+      ## Add links to GO ids
+      go.result.table.with.links[["GO ID"]] <- sapply(X = go.result.table.with.links[["GO ID"]], FUN = go.link)
       
       output$output_go_table <- renderDataTable({
-        go.result.table
+        go.result.table.with.links #go.result.table
       },escape=FALSE,options =list(pageLength = 5)) 
       
       ## Link to REVIGO 
