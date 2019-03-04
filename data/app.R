@@ -7,10 +7,29 @@
 #    http://shiny.rstudio.com/
 #
 
+## TODO
+## Add button to upload files instead of inputting the genes in the text box
+## Add buttom to clear text box with genes
+## Add sanity check to test that the input genes follow the expected nomeclature
+## Change width of table columns to fit mumber of genes (Enrichment too narrow)
+
+## Add pathway links in KEGG pathway enrichment
+
+## Add explanatory text before each table / figure
+## Add download buttom for each table / figure
+
+## Add nice logo and nice style to the web page
+
+## Add GSEA analysis
+
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # target.genes <- read.table(file="ostta/examples/no_iron_vs_iron_15H/activated/activated_genes.txt",as.is=T)[[1]]
+
+# target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
+# input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
+
 library(shinycssloaders)
 library(shiny)
 library(clusterProfiler)
@@ -33,6 +52,7 @@ compute.enrichments <- function(gene.ratios, bg.ratios)
   return(enrichments.text)  
 }
 
+## Ostreococcus tauri gene link to ORCAE
 ## https://bioinformatics.psb.ugent.be/orcae/annotation/OsttaV2/current/ostta15g02520
 ostta.gene.link <- function(gene.name)
 {
@@ -45,6 +65,22 @@ ostta.gene.link <- function(gene.name)
   return(gene.link)
 }
 
+## Gene link to Phytozome
+## https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=0&searchText=Cre13.g569850&offset=0
+phytozome.gene.link <- function(gene.name)
+{
+  phytozome.link <- paste(c("https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=0&searchText=",
+                            gene.name,
+                            "&offset=0"),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       phytozome.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+## Gene Ontology term link
 # http://amigo.geneontology.org/amigo/term/GO:0015979
 go.link <- function(go.term)
 {
@@ -55,6 +91,13 @@ go.link <- function(go.term)
                            go.term, "</a>"),
                          collapse = "")
   return(complete.link)
+}
+
+## KEGG pathway link
+## https://www.genome.jp/kegg-bin/show_pathway?cre04136
+kegg.pathway.link <- function(kegg.pathway)
+{
+  return(paste0("https://www.genome.jp/kegg-bin/show_pathway?",kegg.pathway))
 }
 
 # Define UI for application that draws a histogram
@@ -86,7 +129,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                              "Both" = "both"
                             )),
       
-      conditionalPanel(condition= "input.analysis == 'go'",
+      conditionalPanel(condition= "input.analysis == 'go' || input.analysis == 'both'",
                        radioButtons(inputId = "ontology",
                                     label="Choose gene ontology:",
                                     choices = c("Biological process" = "BP",
@@ -201,7 +244,7 @@ server <- shinyServer(function(input, output) {
     }
 
     ## GO term enirchment analysis
-    if(input$analysis == "go")
+    if(input$analysis == "go" || input$analysis == "both")
     {
       
       ## Perform GO enrichment
@@ -219,99 +262,117 @@ server <- shinyServer(function(input, output) {
       
       ## Generate ouput table
       enrich.go.result <- as.data.frame(enrich.go)
-      head(enrich.go.result)
-      enrich.go.result[1,]
+      #head(enrich.go.result)
+      #enrich.go.result[1,]
       
-      ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
-      go.term.enrichments <- compute.enrichments(gene.ratios = enrich.go.result$GeneRatio,
-                                                 bg.ratios = enrich.go.result$BgRatio)
-
-      go.result.table <- data.frame(enrich.go.result$ID, enrich.go.result$Description,
-                                    enrich.go.result$pvalue, enrich.go.result$qvalue,
-                                    go.term.enrichments, 
-                                    gsub(pattern = "/",replacement = " ",x = enrich.go.result$geneID),
-                                    stringsAsFactors = FALSE)
-      
-      colnames(go.result.table) <- c("GO ID", "Description", "p-value", "q-value",
-                                     "Enrichment (Target Ratio; BG Ration)","Genes")
-
-      go.result.table.with.links <- go.result.table
-      ## Add links to the genes
-      genes.in.go.enrichment <- go.result.table$Genes
-      for(i in 1:length(genes.in.go.enrichment))
+      if(nrow(enrich.go.result) > 0)
       {
-        go.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(genes.in.go.enrichment[i],split=" ")[[1]],FUN = ostta.gene.link),collapse=" ")
+        ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
+        go.term.enrichments <- compute.enrichments(gene.ratios = enrich.go.result$GeneRatio,
+                                                   bg.ratios = enrich.go.result$BgRatio)
+        
+        go.result.table <- data.frame(enrich.go.result$ID, enrich.go.result$Description,
+                                      enrich.go.result$pvalue, enrich.go.result$qvalue,
+                                      go.term.enrichments, 
+                                      gsub(pattern = "/",replacement = " ",x = enrich.go.result$geneID),
+                                      stringsAsFactors = FALSE)
+        
+        colnames(go.result.table) <- c("GO ID", "Description", "p-value", "q-value",
+                                       "Enrichment (Target Ratio; BG Ration)","Genes")
+        
+        go.result.table.with.links <- go.result.table
+        ## Add links to the genes
+        genes.in.go.enrichment <- go.result.table$Genes
+        
+        if(input$microalgae == "otauri")
+        {
+          gene.link.function <- ostta.gene.link
+        } else if(input$microalgae == "creinhardtii")
+        {
+          gene.link.function <- phytozome.gene.link
+        }
+        
+        ## Add linkd to genes
+        for(i in 1:length(genes.in.go.enrichment))
+        {
+          go.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(genes.in.go.enrichment[i],split=" ")[[1]],FUN = gene.link.function),collapse=" ")
+        }
+
+        ## Add links to GO ids
+        go.result.table.with.links[["GO ID"]] <- sapply(X = go.result.table.with.links[["GO ID"]], FUN = go.link)
+        
+        ## Output table with GO enrichment result
+        output$output_go_table <- renderDataTable({
+          go.result.table.with.links #go.result.table
+        },escape=FALSE,options =list(pageLength = 5)) 
+        
+        ## Link to REVIGO 
+        revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+        
+        url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
+        url2 <- tags$form(
+          name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank", 
+          tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText", 
+                        style="visibility: hidden", revigo.data) 
+        )
+        
+        output$revigo<- renderUI(
+          tagList("Visualize output in REViGO", url1, url2)
+        )
+        
+        ## GO plot
+        output$go.plot <- renderPlot(
+          width     = 940,
+          height    = 900,
+          res       = 120,
+          expr = {
+            goplot(enrich.go,showCategory = 10)
+          })
+        
+        ## Barplot
+        output$bar.plot <- renderPlot(
+          width     = 940,
+          height    = 900,
+          res       = 120,
+          expr = {
+            barplot(enrich.go,drop=TRUE,showCategory = 10)
+          })
+        
+        ## Dotplot
+        output$dot.plot <- renderPlot(
+          width     = 940,
+          height    = 900,
+          res       = 120,
+          expr = {
+            dotplot(enrich.go)
+          })
+        
+        ##EMAP plot
+        output$emap.plot <- renderPlot(
+          width     = 940,
+          height    = 900,
+          res       = 120,
+          expr = {
+            emapplot(enrich.go)
+          })
+        
+        ##CNET plot
+        output$cnet.plot <- renderPlot(
+          width     = 940,
+          height    = 900,
+          res       = 120,
+          expr = {
+            cnetplot(enrich.go)
+          })
+      } else
+      {
+        print("No GO term enrichment detected in the input set")
       }
       
-      ## Add links to GO ids
-      go.result.table.with.links[["GO ID"]] <- sapply(X = go.result.table.with.links[["GO ID"]], FUN = go.link)
-      
-      output$output_go_table <- renderDataTable({
-        go.result.table.with.links #go.result.table
-      },escape=FALSE,options =list(pageLength = 5)) 
-      
-      ## Link to REVIGO 
-      revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
-
-      url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
-      url2 <- tags$form(
-         name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank", 
-         tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText", 
-                       style="visibility: hidden", revigo.data) 
-      )
-
-      output$revigo<- renderUI(
-       tagList("Visualize output in REViGO", url1, url2)
-      )
-
-      ## GO plot
-      output$go.plot <- renderPlot(
-                            width     = 940,
-                            height    = 900,
-                            res       = 120,
-                            expr = {
-                              goplot(enrich.go,showCategory = 10)
-                              })
-
-      ## Barplot
-      output$bar.plot <- renderPlot(
-        width     = 940,
-        height    = 900,
-        res       = 120,
-        expr = {
-          barplot(enrich.go,drop=TRUE,showCategory = 10)
-        })
-      
-      ## Dotplot
-      output$dot.plot <- renderPlot(
-        width     = 940,
-        height    = 900,
-        res       = 120,
-        expr = {
-          dotplot(enrich.go)
-        })
-      
-      ##EMAP plot
-      output$emap.plot <- renderPlot(
-        width     = 940,
-        height    = 900,
-        res       = 120,
-        expr = {
-          emapplot(enrich.go)
-        })
-      
-      ##CNET plot
-      output$cnet.plot <- renderPlot(
-        width     = 940,
-        height    = 900,
-        res       = 120,
-        expr = {
-          cnetplot(enrich.go)
-        })
     }
     
     ## KEGG pathways enrichment analysis
-    if(input$analysis == "kegg")
+    if(input$analysis == "kegg"  || input$analysis == "both")
     {
       
       ## Update target genes and universe depending on the microalgae
@@ -320,33 +381,83 @@ server <- shinyServer(function(input, output) {
         target.genes <- paste0("OT_",target.genes)
         gene.universe <- paste0("OT_",gene.universe)
         organism.id <- "ota"
+      } else if(input$microalgae == "creinhardtii")
+      {
+        cre.chlredraft.map <- select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
+        head(cre.chlredraft.map)
+        cre.ids <- cre.chlredraft.map$GID
+        chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
+        names(chlredraft.ids) <- cre.ids
+        names(cre.ids) <- chlredraft.ids
+        
+        target.genes <- chlredraft.ids[target.genes]
+        names(target.genes) <- NULL
+        
+        gene.universe <- chlredraft.ids[gene.universe]
+        names(gene.universe) <- NULL
+        
+        organism.id <- "cre"
       }
       
+      ## Compute KEGG pathway enrichment
       pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                        universe = gene.universe,qvalueCutoff = input$pvalue)
       
       
       pathway.enrichment.result <- as.data.frame(pathway.enrichment)
       
-      
-      pathways.enrichment <- compute.enrichments(gene.ratios = pathway.enrichment.result$GeneRatio,
-                                                 bg.ratios = pathway.enrichment.result$BgRatio)
-      
-      pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
-                                          pathway.enrichment.result$pvalue, pathway.enrichment.result$qvalue,
-                                          pathways.enrichment, 
-                                          gsub(pattern="OT_",replacement="",x=gsub(pattern = "/",replacement = " ",x = pathway.enrichment.result$geneID)),
-                                          stringsAsFactors = FALSE)
-      
-      colnames(pathways.result.table) <- c("KEGG ID", "Description", "p-value", "q-value",
-                                           "Enrichment (Target Ratio; BG Ration)","Genes")
-      
-      #go.result.table.with.links <- 
-      
-      
-      output$output_pathway_table <- renderDataTable({
-        pathways.result.table
-      },escape=FALSE,options =list(pageLength = 5)) 
+      if(nrow(pathway.enrichment.result) > 0)
+      {
+        pathways.enrichment <- compute.enrichments(gene.ratios = pathway.enrichment.result$GeneRatio,
+                                                   bg.ratios = pathway.enrichment.result$BgRatio)
+        
+        if (input$microalgae == "otauri")
+        {
+          kegg.enriched.genes <- gsub(pattern="OT_",replacement="",x=gsub(pattern = "/",replacement = " ",x = pathway.enrichment.result$geneID))
+        } else if (input$microalgae == "creinhardtii")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(cre.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
+        }
+
+        pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
+                                            pathway.enrichment.result$pvalue, pathway.enrichment.result$qvalue,
+                                            pathways.enrichment, 
+                                            kegg.enriched.genes,
+                                            stringsAsFactors = FALSE)
+        
+        colnames(pathways.result.table) <- c("KEGG ID", "Description", "p-value", "q-value",
+                                             "Enrichment (Target Ratio; BG Ration)","Genes")
+        
+        kegg.result.table.with.links <- pathways.result.table
+        
+        ## Add links to genes
+        if(input$microalgae == "otauri")
+        {
+          gene.link.function <- ostta.gene.link
+        } else if(input$microalgae == "creinhardtii")
+        {
+          gene.link.function <- phytozome.gene.link
+        }
+        
+        for(i in 1:length(kegg.enriched.genes))
+        {
+          kegg.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(kegg.enriched.genes[i],split=" ")[[1]],FUN = gene.link.function),collapse=" ")
+        }
+        
+        ## Add links to kegg pathways
+        kegg.result.table.with.links[["KEGG ID"]] <- sapply(X=kegg.result.table.with.links[["KEGG ID"]],FUN = kegg.pathway.link)
+
+        output$output_pathway_table <- renderDataTable({
+          kegg.result.table.with.links
+        },escape=FALSE,options =list(pageLength = 5)) 
+      } else
+      {
+        print("No KEGG pathway enrichment detected in the input set")
+      }
       
       
         
