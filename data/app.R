@@ -13,14 +13,14 @@
 ## Add sanity check to test that the input genes follow the expected nomeclature
 ## Change width of table columns to fit mumber of genes (Enrichment too narrow)
 
-## Add pathway links in KEGG pathway enrichment
-
 ## Add explanatory text before each table / figure
 ## Add download buttom for each table / figure
 
 ## Add nice logo and nice style to the web page
 
 ## Add GSEA analysis
+
+## Add figures from KEGG enrichment
 
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
@@ -97,8 +97,30 @@ go.link <- function(go.term)
 ## https://www.genome.jp/kegg-bin/show_pathway?cre04136
 kegg.pathway.link <- function(kegg.pathway)
 {
-  return(paste0("https://www.genome.jp/kegg-bin/show_pathway?",kegg.pathway))
+  link <- paste0("https://www.genome.jp/kegg-bin/show_pathway?",kegg.pathway)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           kegg.pathway, "</a>"),
+                         collapse = "")
+  return(complete.link)
 }
+
+## KEGG module link
+## https://www.genome.jp/kegg-bin/show_module?cre04136
+kegg.module.link <- function(kegg.module)
+{
+  link <- paste0("https://www.genome.jp/kegg-bin/show_module?",kegg.module)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           kegg.module, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+
+
 
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
@@ -207,6 +229,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                   tabPanel("KEGG pathway", 
                            dataTableOutput(outputId = "output_pathway_table"),
                            plotOutput("keggpath"), 
+                           dataTableOutput(outputId = "output_module_table"),
                            downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image")),
                   tabPanel("Summary", dataTableOutput(outputId = "data"),
                            downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
@@ -459,14 +482,65 @@ server <- shinyServer(function(input, output) {
         print("No KEGG pathway enrichment detected in the input set")
       }
       
-      
-        
       modules.enrichment <- enrichMKEGG(gene = target.genes, organism = organism.id, keyType = "kegg")
       
       modules.enrichment.result <- as.data.frame(modules.enrichment)
       #modules.enrichment.result$
       
-      
+      if(nrow(modules.enrichment.result) > 0)
+      {
+        modules.enrichment <- compute.enrichments(gene.ratios = modules.enrichment.result$GeneRatio,
+                                                   bg.ratios = modules.enrichment.result$BgRatio)
+        
+        if (input$microalgae == "otauri")
+        {
+          modules.enriched.genes <- gsub(pattern="OT_",replacement="",x=gsub(pattern = "/",replacement = " ",x = modules.enrichment.result$geneID))
+        } else if (input$microalgae == "creinhardtii")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(cre.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
+        }
+        
+        
+        
+        modules.result.table <- data.frame(modules.enrichment.result$ID, modules.enrichment.result$Description,
+                                           modules.enrichment.result$pvalue, modules.enrichment.result$qvalue,
+                                           modules.enrichment, 
+                                           modules.enriched.genes,
+                                           stringsAsFactors = FALSE)
+        
+        colnames(modules.result.table) <- c("KEGG ID", "Description", "p-value", "q-value",
+                                            "Enrichment (Target Ratio; BG Ration)","Genes")
+        
+        modules.result.table.with.links <- modules.result.table
+        
+        ## Add links to genes
+        if(input$microalgae == "otauri")
+        {
+          gene.link.function <- ostta.gene.link
+        } else if(input$microalgae == "creinhardtii")
+        {
+          gene.link.function <- phytozome.gene.link
+        }
+        
+        for(i in 1:length(modules.enriched.genes))
+        {
+          modules.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(modules.enriched.genes[i],split=" ")[[1]],FUN = gene.link.function),collapse=" ")
+        }
+        
+        ## Add links to kegg pathways
+        modules.result.table.with.links[["KEGG ID"]] <- sapply(X=modules.result.table.with.links[["KEGG ID"]],FUN = kegg.module.link)
+        
+        output$output_module_table <- renderDataTable({
+          modules.result.table.with.links
+        },escape=FALSE,options =list(pageLength = 5)) 
+        
+        
+        
+      }
       
     }
     
