@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Dsalina.eg,
+    org.Dsalina.eg_dbconn,
+    org.Dsalina.eg_dbfile,
+    org.Dsalina.eg_dbschema,
+    org.Dsalina.eg_dbInfo,
+
+    org.Dsalina.egORGANISM
+)
+

@@ -1,0 +1,7 @@
+1) Download from phytozome the entire folder for the microalgae to analyze.
+2) Check on the annotation files the abbreviation for the microalgae (i.e. cre, ostta, dusal, ...)
+3) Create a working directory with the following structure:
+	Name of the folder: microalgae abbreviation
+	Create subfolders annotation, genome, packages and preprocessing
+4) Copy in the preprocessing folder the file with annotation (i.e. Dsalina_325_v1.0.annotation_info.txt)
+5) Copy a R script from one the preprocessing folders for other microalgae and edit it. 
