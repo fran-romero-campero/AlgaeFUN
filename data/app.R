@@ -40,6 +40,9 @@ library(org.Otauri.eg.db)
 library(org.Creinhardtii.eg.db)
 library(org.Dsalina.eg.db)
 
+microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii")
+names(microalgae.names) <- c("otauri", "creinhardtii")
+
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
 compute.enrichments <- function(gene.ratios, bg.ratios)
@@ -215,7 +218,12 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
       tabsetPanel(type = "tabs",
-                  tabPanel("GO map", 
+                  tabPanel("GO map",
+                           tags$br(),
+                           tags$br(),
+                           htmlOutput(outputId = "intro_go"),
+                           tags$br(),
+                           tags$br(),
                            dataTableOutput(outputId = "output_go_table"),
                            htmlOutput(outputId = "revigo"),
                            div(style= "overflow:scroll; height:500px;", 
@@ -224,8 +232,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            plotOutput(outputId = "bar.plot",inline=TRUE),
                            plotOutput(outputId = "dot.plot",inline=TRUE),
                            plotOutput(outputId = "emap.plot",inline=TRUE),
-                           plotOutput(outputId = "cnet.plot",inline=TRUE),
-                           align = "center"),
+                           plotOutput(outputId = "cnet.plot",inline=TRUE)
+                           ),
+                           #align = "center"),
                   tabPanel("KEGG pathway", 
                            dataTableOutput(outputId = "output_pathway_table"),
                            plotOutput("keggpath"), 
@@ -260,10 +269,12 @@ server <- shinyServer(function(input, output) {
     if(input$input_mode == "No")
     {
       gene.universe <- unique(select(org.db,columns = c("GO"),keys=keys(org.db,keytype = "GID"))[["GID"]])
+      universe.text <- " default universe."
     } else 
     {
       gene.universe <- as.vector(unlist(strsplit(input$background, split="\n",
                                                  fixed = TRUE)[1]))
+      universe.text <- paste(c(" custom universe (<i>", paste(gene.universe[1:3], collapse=" ")," </i> ...)."), collapse="")
     }
 
     ## GO term enirchment analysis
@@ -290,6 +301,14 @@ server <- shinyServer(function(input, output) {
       
       if(nrow(enrich.go.result) > 0)
       {
+        ## Intro text for GO enrichment
+        go.intro.text <- paste(c("This tab presents the results from the <b>GO enrichment analysis</b> 
+                                      performed over the input target genes (<i>",
+                                 paste(target.genes[1:3],collapse=" "),
+                                 "</i> ...) from the microalgae <b> <i>", microalgae.names[input$microalgae],
+                                 " </i> </b> with ", universe.text),collapse="") 
+        output$intro_go <- renderText(expr = go.intro.text)
+        
         ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
         go.term.enrichments <- compute.enrichments(gene.ratios = enrich.go.result$GeneRatio,
                                                    bg.ratios = enrich.go.result$BgRatio)
@@ -354,8 +373,8 @@ server <- shinyServer(function(input, output) {
         
         ## Barplot
         output$bar.plot <- renderPlot(
-          width     = 940,
-          height    = 900,
+          width     = 870,
+          height    = 600,
           res       = 120,
           expr = {
             barplot(enrich.go,drop=TRUE,showCategory = 10)
