@@ -171,8 +171,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                    selected = "No"),
         #This panel will only appear if the user chooses to use our background lists. 
       conditionalPanel(condition= "input.input_mode == 'No'",
-      textAreaInput(inputId = "genes", label= "Insert a set of genes", width="250%", 
-                    height = "400px",placeholder = "Insert set of genes",
+      textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
+                    height = "200px",placeholder = "Insert set of genes",
                     value= "ostta11g02790
                     ostta10g02400
                     ostta09g02680
@@ -182,16 +182,16 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       ),
       #This panel wil only appear if the user wants to use his/her own background list. 
       conditionalPanel(condition= "input.input_mode == 'Yes'",
-                       textAreaInput(inputId = "genes", label= "Insert a set of genes", width="250%", 
-                                     height = "400px",placeholder = "Insert set of genes",
+                       textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
+                                     height = "100px",placeholder = "Insert set of genes",
                                      value= "ostta11g02790
                     ostta10g02400
                     ostta09g02680
                     ostta10g03135
                     ostta17g00930"
                        ),
-                       textAreaInput(inputId = "background", label= "Background set", width="250%", 
-                                     height = "400px",placeholder = "Insert background list",
+                       textAreaInput(inputId = "background", label= "Background set", width="200%", 
+                                     height = "100px",placeholder = "Insert background list",
                                      value= "ostta11g02790
                     ostta10g02400
                     ostta09g02680
@@ -222,10 +222,15 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(),
                            tags$br(),
                            htmlOutput(outputId = "intro_go"),
+                           htmlOutput(outputId = "textGOTable"),
                            tags$br(),
                            tags$br(),
                            dataTableOutput(outputId = "output_go_table"),
                            htmlOutput(outputId = "revigo"),
+                           tags$br(),
+                           htmlOutput(outputId = "go_graph"),
+                           tags$br(),
+                           tags$br(),
                            div(style= "overflow:scroll; height:500px;", 
                                        plotOutput(outputId = "go.plot", inline = TRUE)),
                            downloadButton(outputId= "downloadImage", "Get GO map"),
@@ -233,10 +238,21 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(),
                            htmlOutput(outputId = "barplot_text"),
                            tags$br(),
-                           tags$br(),
                            plotOutput(outputId = "bar.plot",inline=TRUE),
+                           tags$br(),
+                           tags$br(),
+                           htmlOutput(outputId = "dotplot_text"),
+                           tags$br(),
                            plotOutput(outputId = "dot.plot",inline=TRUE),
+                           tags$br(),
+                           tags$br(),
+                           htmlOutput(outputId = "emapplot_text"),
+                           tags$br(),
                            plotOutput(outputId = "emap.plot",inline=TRUE),
+                           tags$br(),
+                           tags$br(),
+                           htmlOutput(outputId = "cnetplot_text"),
+                           tags$br(),
                            plotOutput(outputId = "cnet.plot",inline=TRUE)
                            ),
                            #align = "center"),
@@ -348,6 +364,24 @@ server <- shinyServer(function(input, output) {
         ## Add links to GO ids
         go.result.table.with.links[["GO ID"]] <- sapply(X = go.result.table.with.links[["GO ID"]], FUN = go.link)
         
+        
+        ## Introductory text for GO enrichment table
+        go.table.text <- "The table below summarizes the result of the GO term
+enrichment analysis. Each row represents a GO term significantly enriched in the target
+gene set with respect to the selected gene universe. The first column represents the GO term
+identifier. The second column contains a human readable description. For more details on the 
+corresponding GO term, click on the identifier in the first column. The third and fourth 
+column presents the p-value and q-value (adjusted p-value or FDR) capturing the level
+of significance. The fifth column displays the corresponding enrichment value E (m/n; M/N) where
+n is the number of genes with annotation from the target set, N is the number of genes with
+annotation from the gene universe, m is the number of genes from the target set annotated with the
+corresponding GO term and M is the number of genes from the gene universe annotated with
+the GO term associated with the corresponding row. The enrichment is then computed as
+E = (m/n) / (M/N). Finally, the last column, contains the genes from the target set
+annotated with the GO term represented in the corresponding row." 
+        
+        output$textGOTable <- renderText(expr = go.table.text)
+
         ## Output table with GO enrichment result
         output$output_go_table <- renderDataTable({
           go.result.table.with.links #go.result.table
@@ -364,8 +398,17 @@ server <- shinyServer(function(input, output) {
         )
         
         output$revigo<- renderUI(
-          tagList("Visualize output in REViGO", url1, url2)
+          tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
         )
+        
+        
+        go.graph.text <- "The following acyclic graph represents the GO term enrichment
+        in the target gene set. Each node stands for a GO term. The color of each node
+        indicates the level of significance from grey, non-significant, to intense red,
+        highly significant. An arrow is drawn from GO term A to GO term B when A is a more
+        general GO term than B or B is more specific than A."
+        
+        output$go_graph <- renderText(expr = go.graph.text)
         
         ## GO plot
         output$go.plot <- renderPlot(
@@ -376,6 +419,11 @@ server <- shinyServer(function(input, output) {
             goplot(enrich.go,showCategory = 10)
           })
         
+        output$barplot_text <- renderText("In the following barplot each bar represents a significantly enriched 
+        GO term. The length of the bar corresponds to the number of genes in the
+        target set annotated with the given GO term. The bar color captures the level
+        of significance from blue, less significant, to red, more significant.")
+        
         ## Barplot
         output$bar.plot <- renderPlot(
           width     = 870,
@@ -385,28 +433,44 @@ server <- shinyServer(function(input, output) {
             barplot(enrich.go,drop=TRUE,showCategory = 10)
           })
         
+        output$dotplot_text <- renderText("In the following dotplot each dot represents a significantly enriched 
+        GO term. The x-position of the dot corresponds to the ratio between the number of genes annotated with the
+corresponding GO term and the total number of annotated genes in the target set. The dot color captures the level
+        of significance from blue, less significant, to red, more significant.")
+        
         ## Dotplot
         output$dot.plot <- renderPlot(
-          width     = 940,
-          height    = 900,
+          width     = 870,
+          height    = 600,
           res       = 120,
           expr = {
             dotplot(enrich.go)
           })
         
+        output$emapplot_text <- renderText("The following figure consists of an enrichment map where nodes represent enriched GO terms. The
+        size of a node is proportional to the number of genes annotated with the corresponding GO term in the target set.
+The node colors represent the level of significance from less signficant in blue to more significant in red. Edges are drawn
+between two nodes when the corresponding GO terms are semantically related.")
+        
         ##EMAP plot
         output$emap.plot <- renderPlot(
-          width     = 940,
-          height    = 900,
+          width     = 870,
+          height    = 600,
           res       = 120,
           expr = {
             emapplot(enrich.go)
           })
         
+        output$cnetplot_text <- renderText("The following figure corresponds to a gene-concept network. The beige
+nodes represents GO terms and the grey nodes genes. An edge is drawn from a gene to a GO term when the gene is annotated
+with the corresponding gene. The size of nodes representing GO terms is proportional to the number of genes annotated
+with the corresponding GO term.")
+        
+        
         ##CNET plot
         output$cnet.plot <- renderPlot(
-          width     = 940,
-          height    = 900,
+          width     = 870,
+          height    = 600,
           res       = 120,
           expr = {
             cnetplot(enrich.go)
