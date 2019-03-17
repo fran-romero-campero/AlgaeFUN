@@ -1,5 +1,5 @@
 ## Author: Francisco J. Romero-Campero, Ana Belén Romero-Losada
-## Date: November 2018
+## Date: March 2019
 ## Contact: fran@us.es
 
 ## Documentation on how to generate org.db packages can be found on these links:

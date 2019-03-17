@@ -272,6 +272,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            #align = "center"),
                   tabPanel("KEGG pathway", 
                            dataTableOutput(outputId = "output_pathway_table"),
+                           imageOutput("myImage"),
                            plotOutput("keggpath"), 
                            dataTableOutput(outputId = "output_module_table"),
                            downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image")),
@@ -608,12 +609,19 @@ with the corresponding GO term.")
       names(genes.pathway) <- gene.universe
 
       genes.pathway[target.genes] <- 1
-
-      pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
-               pathway.id = pathway.enrichment.result$ID[i],
-               species = "ota",
-               limit = list(gene=max(abs(genes.pathway)), cpd=1),
-               gene.idtype ="kegg")
+      
+      
+      output$myImage <- renderImage({
+        pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
+                 pathway.id = pathway.enrichment.result$ID[i],
+                 species = "ota",
+                 limit = list(gene=max(abs(genes.pathway)), cpd=1),
+                 gene.idtype ="kegg")
+        
+        list(src = paste(c(pathway.enrichment.result$ID[i],"pathview","png"), collapse="."),
+              contentType="image/png",width=1000,height=700)
+      },deleteFile = T)
+      
 
       # pathway.enrichment.result$ID[i]
       # 
