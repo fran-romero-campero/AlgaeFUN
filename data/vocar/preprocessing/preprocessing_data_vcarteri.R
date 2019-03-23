@@ -400,3 +400,36 @@ plotAvgProf(tagMatrixList, xlim=c(-1000, 1000))
 plotAvgProf(tagMatrixList, xlim=c(-1000, 1000), conf=0.95,resample=500, facet="row")
 
 tagHeatmap(tagMatrixList, xlim=c(-1000, 1000), color=NULL)
+
+
+## Processing of fasta files with proteins
+library(seqinr)
+
+proteins.data <- read.fasta(file="GCF_000143455_1_v1_0_translated_cds.fa",seqtype = "AA")
+
+proteins.annot <- getAnnot(proteins.data)
+proteins.seqs <- getSequence(proteins.data)
+
+extract.volcadraft <- function(gene.annotation)
+{
+  return(strsplit(strsplit(gene.annotation,split="locus_tag=")[[1]][2],split="]")[[1]][1])  
+}
+
+new.names <- sapply(proteins.annot,extract.volcadraft)
+is.vector(new.names)
+
+write.fasta(sequences = proteins.seqs, names = new.names, file.out = "volcadraft_seqs.fasta")
+
+volca.data <- read.fasta(file = "Vcarteri_317_v2_1_protein.fa",seqtype = "AA")
+
+volca.names <- getName(volca.data)
+
+extract.volca <- function(gene.name)
+{
+  return(substr(x = gene.name,start = 1,stop = 15))  
+}
+
+volca.new.names <- sapply(X = volca.names, FUN = extract.volca)
+names(volca.new.names) <- NULL
+
+write.fasta(sequences = getSequence(volca.data), names = volca.new.names,file.out = "vcarteri_protein.fa")

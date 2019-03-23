@@ -9,6 +9,8 @@
 
 ## TODO
 ## Add sanity check to test that the input genes follow the expected nomeclature
+## Add target gene set example with a button above the textInputArea
+
 ## Change width of table columns to fit mumber of genes (Enrichment too narrow)
 
 ## Add explanatory text before each table / figure
@@ -16,9 +18,9 @@
 
 ## Add nice logo and nice style to the web page
 
+## Add Functional annotation of genomic locations
 ## Add GSEA analysis
 
-## Add figures from KEGG enrichment
 
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
@@ -123,9 +125,6 @@ kegg.module.link <- function(kegg.module)
   return(complete.link)
 }
 
-## 
-
-
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   
@@ -142,7 +141,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   #Interface where the user can choose his/her preferencies, separated by columns
   fluidRow(
       column(width = 5,
-             #Choose the target microalgae
+        #Choose the target microalgae
         selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
                   choices=c("Ostreococcus tauri" = "otauri",
                             "Chlamydomonas reinhardtii" = "creinhardtii",
@@ -151,9 +150,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
                             "Bathycoccus prasinos" = "bathy")),
-             #Choose a p-value
+
+      #Choose a p-value
       numericInput(inputId = "pvalue", label= "Which will be your chosen p-value?", value= 0.05),
-             #Choose the kind of analysis that you want us to execute 
+ 
+      #Choose the kind of analysis that you want us to execute 
       radioButtons(inputId = "analysis",
                    label="Choose your desirable analysis",
                    choices=c("GO terms enrichment" = "go",
@@ -176,47 +177,34 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                    choices = c("Yes", 
                                "No"),
                    selected = "No"),
+
         #This panel will only appear if the user chooses to use our background lists. 
-#      conditionalPanel(condition= "input.input_mode == 'No'",
-      textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
-                    height = "200px",placeholder = "Insert set of genes",
-                    value= "ostta11g02790
-                    ostta10g02400
-                    ostta09g02680
-                    ostta10g03135
-                    ostta17g00930"
-      ),
+        textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
+                      height = "200px",placeholder = "Insert set of genes",
+                      value= "ostta11g02790
+                      ostta10g02400
+                      ostta09g02680
+                      ostta10g03135
+                      ostta17g00930"
+        ),
       
-      actionButton(inputId = "clear_gene_set",label = "Clear"),
-      fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload"),
-#      ),
-      #This panel wil only appear if the user wants to use his/her own background list. 
-      conditionalPanel(condition= "input.input_mode == 'Yes'",
-                    #    textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
-                    #                  height = "100px",placeholder = "Insert set of genes",
-                    #                  value= "ostta11g02790
-                    # ostta10g02400
-                    # ostta09g02680
-                    # ostta10g03135
-                    # ostta17g00930"
-                    #    ),
-                       
-                       # actionButton(inputId = "clear_gene_set",label = "Clear"),
-                       # fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload"),
-                       textAreaInput(inputId = "background", label= "Background set", width="200%", 
-                                     height = "100px",placeholder = "Insert background list",
-                                     value= "ostta11g02790
-                    ostta10g02400
-                    ostta09g02680
-                    ostta10g03135
-                    ostta17g00930"
+        actionButton(inputId = "clear_gene_set",label = "Clear"),
+        fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload"),
+
+        #This panel wil only appear if the user wants to use his/her own background list. 
+        conditionalPanel(condition = "input.input_mode == 'Yes'",
+                         textAreaInput(inputId = "background", label= "Background set", width="200%", 
+                                       height = "100px",placeholder = "Insert background list",
+                                       value= "ostta11g02790
+                                               ostta10g02400
+                                               ostta09g02680
+                                               ostta10g03135
+                                               ostta17g00930"
                        ),
                        
                        actionButton(inputId = "clear_universe_set",label = "Clear"),
                        fileInput(inputId = "gene_universe_file",label = "Choose File with Custom Gene Universe to Upload")
                        
-                       #giving the chance to upload a file would also be interesting, 
-                       #http://shiny.rstudio.com/gallery/upload-file.html
       ),
       
       actionButton(inputId = "go.button",label = "Have fun!", icon("send") ),
@@ -238,6 +226,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                   tabPanel("GO map",
                            tags$br(),
                            tags$br(),
+                           htmlOutput(outputId = "gene_sanity_go"),
+                           htmlOutput(outputId = "wrong_genes_go"),
                            htmlOutput(outputId = "intro_go"),
                            htmlOutput(outputId = "textGOTable"),
                            tags$br(),
@@ -274,10 +264,26 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            ),
                            #align = "center"),
                   tabPanel("KEGG pathway", 
+                           tags$br(),
+                           tags$br(),
+                           htmlOutput(outputId = "gene_sanity_kegg"),
+                           htmlOutput(outputId = "wrong_genes_kegg"),
+                           htmlOutput(outputId = "intro_kegg"),
+                           htmlOutput(outputId = "textKEGGTable"),
+                           tags$br(),
+                           tags$br(),
+                           htmlOutput(outputId = "kegg_pathway_table_text"),
+                           tags$br(),
                            dataTableOutput(outputId = "output_pathway_table"),
+                           br(),
+                           br(),
+                           br(),
+                           htmlOutput(outputId = "textKEGGImage"),
+                           br(),
+                           br(),
                            uiOutput(outputId = "kegg_selectize"),
                            imageOutput("kegg_image"),
-                           uiOutput("kegg_plots"),
+                           #uiOutput("kegg_plots"),
                            br(),
                            br(),
                            br(),
@@ -303,9 +309,16 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            br(),
                            br(),
                            br(),
+                           br(),
+                           br(),
+                           br(),
+                           br(),
+                           htmlOutput(outputId = "text_module_kegg"),
                            br(),
                            br(),
                            dataTableOutput(outputId = "output_module_table"),
+                           uiOutput(outputId = "kegg_module_selectize"),
+                           imageOutput("kegg_module_image"),
                            downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"))#,
                   # tabPanel("Summary", dataTableOutput(outputId = "data"),
                   #          downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
@@ -318,7 +331,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 
 ## Define server logic
 server <- shinyServer(function(input, output, session) {
-  
+
   ## Clear content of gene set text area
   observeEvent(input$clear_gene_set, {
     updateTextAreaInput(session=session, inputId = "genes",value = "")
@@ -357,7 +370,6 @@ server <- shinyServer(function(input, output, session) {
       target.genes <- read.table(file=input$gene_set_file$datapath, header = F,as.is = TRUE)[[1]]
     }
     
-    
     ## Select gene universe
     if(input$input_mode == "No")
     {
@@ -378,10 +390,39 @@ server <- shinyServer(function(input, output, session) {
       universe.text <- paste(c(" custom universe (<i>", paste(gene.universe[1:3], collapse=" ")," </i> ...)."), collapse="")
     }
 
-    ## GO term enirchment analysis
-    if(input$analysis == "go" || input$analysis == "both")
+    ## Sanity test
+    wrong.genes <- setdiff(target.genes,gene.universe)
+    percent.wrong.genes <- length(wrong.genes) / length(target.genes)
+    print(length(wrong.genes))
+
+    if(length(wrong.genes) > 0)
     {
+      gene.sanity.text <- paste(c("<b> ERROR: The following genes have been detected in your target gene set that do not match any gene
+        in our gene universe for ", input$microalgae, ". You may consider removing them. Alternatively, check
+        that the right microalgae has been selected and that your gene names follow the right nomenclature. Click on the Example button
+        on top of the text area to input the target gene set to obtain an example of the gene nomenclature expected. If your target gene set
+        has been generated from an RNA-seq experiment please consider using our tool MARACAS to obtain it or use our reference genome sequence
+        and annotation files for your own analysis."),collapse="")
+
+      output$gene_sanity_go <-renderText(expr = gene.sanity.text)
+      output$wrong_genes_go <- renderText(expr = paste(wrong.genes,collapse="\n"))
+      output$gene_sanity_kegg <-renderText(expr = gene.sanity.text)
+      output$wrong_genes_kegg <- renderText(expr = paste(wrong.genes,collapse="\n"))
+    }
+
+    
+    ## GO term enirchment analysis
+    if((input$analysis == "go" || input$analysis == "both") && (length(wrong.genes) == 0))
+    {
+      ## Intro text for GO enrichment
+      go.intro.text <- paste(c("This tab presents the results from the <b>GO enrichment analysis</b> 
+                                      performed over the input target genes (<i>",
+                               paste(target.genes[1:3],collapse=" "),
+                               "</i> ...) from the microalgae <b> <i>", microalgae.names[input$microalgae],
+                               " </i> </b> with ", universe.text),collapse="") 
       
+      output$intro_go <- renderText(expr = go.intro.text)
+
       ## Perform GO enrichment
       ## TODO q-value
       enrich.go <- enrichGO(gene          = target.genes,
@@ -397,18 +438,9 @@ server <- shinyServer(function(input, output, session) {
       
       ## Generate ouput table
       enrich.go.result <- as.data.frame(enrich.go)
-      #head(enrich.go.result)
-      #enrich.go.result[1,]
-      
+
       if(nrow(enrich.go.result) > 0)
       {
-        ## Intro text for GO enrichment
-        go.intro.text <- paste(c("This tab presents the results from the <b>GO enrichment analysis</b> 
-                                      performed over the input target genes (<i>",
-                                 paste(target.genes[1:3],collapse=" "),
-                                 "</i> ...) from the microalgae <b> <i>", microalgae.names[input$microalgae],
-                                 " </i> </b> with ", universe.text),collapse="") 
-        output$intro_go <- renderText(expr = go.intro.text)
         
         ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
         go.term.enrichments <- compute.enrichments(gene.ratios = enrich.go.result$GeneRatio,
@@ -563,7 +595,7 @@ with the corresponding GO term.")
     }
     
     ## KEGG pathways enrichment analysis
-    if(input$analysis == "kegg"  || input$analysis == "both")
+    if( (input$analysis == "kegg"  || input$analysis == "both") && (length(wrong.genes) == 0))
     {
       
       ## Update target genes and universe depending on the microalgae
@@ -599,6 +631,13 @@ with the corresponding GO term.")
       
       if(nrow(pathway.enrichment.result) > 0)
       {
+        kegg.intro.text <- paste(c("This tab presents the results from the <b>KEGG pathways/modules enrichment analysis</b> 
+                                      performed over the input target genes (<i>",
+                                 paste(gsub(pattern="OT_",replacement="",x=target.genes[1:3]),collapse=" "),
+                                 "</i> ...) from the microalgae <b> <i>", microalgae.names[input$microalgae],
+                                 " </i> </b> with ", universe.text),collapse="") 
+        output$intro_kegg <- renderText(expr = kegg.intro.text)
+        
         pathways.enrichment <- compute.enrichments(gene.ratios = pathway.enrichment.result$GeneRatio,
                                                    bg.ratios = pathway.enrichment.result$BgRatio)
         
@@ -642,6 +681,23 @@ with the corresponding GO term.")
         ## Add links to kegg pathways
         kegg.result.table.with.links[["KEGG ID"]] <- sapply(X=kegg.result.table.with.links[["KEGG ID"]],FUN = kegg.pathway.link)
 
+        
+        ## Introductory text for GO enrichment table
+        kegg.table.text <- "The table below summarizes the result of the KEGG pathway
+enrichment analysis. Each row represents a pathway significantly enriched in the target
+gene set with respect to the selected gene universe. The first column represents the KEGG pathway 
+identifier. The second column contains a human readable description. For more details on the 
+corresponding pathway, click on the identifier in the first column. The third and fourth 
+column presents the p-value and q-value (adjusted p-value or FDR) capturing the level
+of significance. The fifth column displays the corresponding enrichment value E (m/n; M/N) where
+n and N are the number of genes associated to any pathway in the target set and in the gene universe
+respectively; m and M are the number of genes associated to the pathway represented in the corresponding
+row in the target gene set and in the gene universe respectively. The enrichment is then computed as
+E = (m/n) / (M/N). Finally, the last column, contains the genes from the target gene set
+assocated to the enriched pathway represented in the corresponding row." 
+        
+        output$textKEGGTable <- renderText(expr = kegg.table.text)
+
         output$output_pathway_table <- renderDataTable({
           kegg.result.table.with.links
         },escape=FALSE,options =list(pageLength = 5)) 
@@ -659,6 +715,11 @@ with the corresponding GO term.")
       genes.pathway[target.genes] <- 1
 
       pathways.for.select <- paste(pathways.result.table[["KEGG ID"]], pathways.result.table[["Description"]], sep=" - ")
+      
+      kegg.image.text <- "<b> The enriched pathways detected above can be visualized using the dropdown menu below. 
+      Genes in the target set associated to the corresponding pathway will be highlighted as red rectangles: </b>"
+
+      output$textKEGGImage <- renderText(expr = kegg.image.text)
       
       output$kegg_selectize <- renderUI({
           selectInput(inputId = "kegg_pathway", label="Choose Pathway for Representation",multiple = FALSE,selected = pathways.for.select[1],
@@ -714,36 +775,52 @@ with the corresponding GO term.")
         ## Add links to kegg pathways
         modules.result.table.with.links[["KEGG ID"]] <- sapply(X=modules.result.table.with.links[["KEGG ID"]],FUN = kegg.module.link)
         
+        
+        ## Introductory text for GO enrichment table
+        module.table.text <- "The table below summarizes the result of the KEGG module
+        enrichment analysis. Modules are sometimes easier to interpret than pathways. Each row represents a module significantly enriched in the target
+        gene set with respect to the selected gene universe. The first column represents the KEGG module 
+        identifier. The second column contains a human readable description. For more details on the 
+        corresponding module, click on the identifier in the first column. The third and fourth 
+        column presents the p-value and q-value (adjusted p-value or FDR) capturing the level
+        of significance. The fifth column displays the corresponding enrichment value E (m/n; M/N) where
+        n and N are the number of genes associated to any module in the target set and in the gene universe
+        respectively; m and M are the number of genes associated to the module represented in the corresponding
+        row in the target gene set and in the gene universe respectively. The enrichment is then computed as
+        E = (m/n) / (M/N). Finally, the last column, contains the genes from the target gene set
+        associated to the enriched module represented in the corresponding row." 
+        
+        output$text_module_kegg <- renderText(expr = module.table.text)
+
         output$output_module_table <- renderDataTable({
           modules.result.table.with.links
         },escape=FALSE,options =list(pageLength = 5)) 
-
       }
       
     }
 
     enriched.pathway.id <- reactive({ 
-      if(is.null(input$kegg_pathway))
-      {
-        return()
-      } else
-      {
-        return(strsplit(input$kegg_pathway,split=" - ")[[1]][1] )
-      }
-    })
-     
+        if(is.null(input$kegg_pathway))
+        {
+          return()
+        } else
+        {
+          return(strsplit(input$kegg_pathway,split=" - ")[[1]][1] )
+        }
+      })
+      
     observeEvent(enriched.pathway.id(), {
-       output$kegg_image <- renderImage({
-         pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
-                  pathway.id = enriched.pathway.id(),
-                  species = "ota",
-                  limit = list(gene=max(abs(genes.pathway)), cpd=1),
-                  gene.idtype ="kegg")
-         
-         list(src = paste(c(enriched.pathway.id(),"pathview","png"), collapse="."),
-              contentType="image/png",width=1200,height=900)
-       },deleteFile = T)
-     })
+        output$kegg_image <- renderImage({
+          pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
+                   pathway.id = enriched.pathway.id(),
+                   species = "ota",
+                   limit = list(gene=max(abs(genes.pathway)), cpd=1),
+                   gene.idtype ="kegg")
+          
+          list(src = paste(c(enriched.pathway.id(),"pathview","png"), collapse="."),
+               contentType="image/png",width=1200,height=900)
+        },deleteFile = T)
+      })
 
   })
 

@@ -76,7 +76,5 @@ res.identity <- data.frame(source.names[lower.bound:upper.bound],
 
 write.table(x = res.identity,file = paste(c("result_identity_",group,".txt"),collapse=""),row.names=FALSE,col.names=FALSE)
 
-
-
 setdiff(target.seqs[[j]],colnames(BLOSUM62))
 colnames(BLOSUM62)
