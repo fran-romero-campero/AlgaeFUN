@@ -5,8 +5,10 @@
 ## Documentation on how to generate org.db packages can be found on these links:
 ## http://bioconductor.org/packages/release/bioc/vignettes/AnnotationForge/inst/doc/MakingNewOrganismPackages.html
 ## 
-dusal.info <- read.table(file="Dsalina_325_v1.0.annotation_info.txt",header=T,comment.char = "",sep = "\t",as.is=T, fill=T)
+dusal.info <- read.table(file="Dsalina_325_v1.0.annotation_info.txt",header=T,comment.char = "",sep = "\t",as.is=T)#, fill=T)
 head(dusal.info)
+
+write.table(x = unique(dusal.info$locusName),file = "dusal_universe.txt",quote = F,row.names = F,col.names = F)
 
 ## Generate and write output data frame
 id.dusal.name <- data.frame(GID=dusal.info$locusName,GENENAME=dusal.info$locusName,stringsAsFactors = FALSE)
@@ -143,10 +145,10 @@ nrow(panther.data.frame)
 ## Dunaliella salina Taxonomy ID: 3046
 
 ## Load require package
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install("AnnotationForge", version = "3.8")
-BiocManager::install("GO.db", version = "3.8")
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install("AnnotationForge", version = "3.8")
+# BiocManager::install("GO.db", version = "3.8")
 library(AnnotationForge)
 library(GO.db)
 

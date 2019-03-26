@@ -55,6 +55,8 @@ gene.ids <- id.ostta.name$GID
 gene.names <- id.ostta.name$GENENAME
 names(gene.names) <- gene.ids
 
+write.table(x = gene.names,file = "otauri_universe.txt",quote = F,row.names = F,col.names = F)
+
 ## Generate SYMBOL data frame
 symbol.data.frame <- data.frame(GID=gene.names,SYMBOL=gene.names,stringsAsFactors = FALSE)
 

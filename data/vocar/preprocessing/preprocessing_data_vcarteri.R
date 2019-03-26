@@ -7,13 +7,21 @@
 ## 
 vocar.info <- read.table(file="Vcarteri_317_v2.1.annotation_info.txt",header=T,comment.char = "",sep = "\t",as.is=T, fill=T)
 head(vocar.info)
+nrow(vocar.info)
+
+write.table(x = unique(vocar.info$locusName),file = "vocar_universe.txt",quote = F,row.names = F,col.names = F)
+
+
 
 ## Generate and write output data frame
 id.vocar.name <- data.frame(GID=vocar.info$locusName,GENENAME=vocar.info$locusName,stringsAsFactors = FALSE)
 head(id.vocar.name)
 
+"Vocar.0012s0145" %in% id.vocar.name$GID
+
 ## Generate SYMBOL data frame
-symbol.data.frame <- data.frame(GID=vocar.info$locusName,SYMBOL=vocar.info$locusName,stringsAsFactors = FALSE)
+symbol.data.frame <- data.frame(GID=vocar.info$locusName,
+                                SYMBOL=vocar.info$locusName,stringsAsFactors = FALSE)
 head(symbol.data.frame)
 nrow(symbol.data.frame)
 symbol.data.frame[1:20,]
@@ -22,6 +30,10 @@ symbol.data.frame[1:20,]
 symbol.data.frame <- symbol.data.frame[!duplicated(symbol.data.frame),]
 nrow(symbol.data.frame)
 sum(duplicated(symbol.data.frame))
+head(symbol.data.frame)
+
+"Vocar.0012s0145" %in% symbol.data.frame$GID
+
 
 ## Generate GO data.frame to create org.Db package
 ## Before reading the GO annotation file I have to replace the symbol ' by the word prime
@@ -72,13 +84,14 @@ go.data.frame <- data.frame(GID=go.expanded.data.frame[,1],
                             EVIDENCE=rep("ISS",nrow(go.expanded.data.frame)),stringsAsFactors = FALSE)
 head(go.data.frame)
 
-
 ## Remove duplicated rows
 go.data.frame <- go.data.frame[!duplicated(go.data.frame),]
-go.data.frame[1:40,]
+go.data.frame[1:10,]
 nrow(go.data.frame)
 length(unique(go.data.frame$GID))
 sum(duplicated(go.data.frame))
+
+"Vocar.0012s0145" %in% go.data.frame$GID
 
 ## For the rest of the data frames. According to the help info "the 1st column of every 
 ## data.frame must be labeled GID, and correspond to a gene ID that is universal for the 
@@ -105,6 +118,8 @@ duplicated(enzyme.data.frame)
 sum(duplicated(enzyme.data.frame))
 length(unique(enzyme.data.frame$GID))
 
+"Vocar.0012s0145" %in% enzyme.data.frame$GID
+subset(enzyme.data.frame, GID == "Vocar.0012s0145")
 
 ## Generate KOG data.frame
 kog <- vocar.info$KOG
@@ -121,6 +136,13 @@ head(kog.data.frame)
 ## Remove duplicated rows
 kog.data.frame <- kog.data.frame[!duplicated(kog.data.frame),]
 sum(duplicated(kog.data.frame))
+nrow(kog.data.frame)
+head(kog.data.frame)
+length(unique(kog.data.frame$GID))
+
+
+"Vocar.0012s0145" %in% kog.data.frame$GID
+
 ##Generate KO data frame
 ko <- vocar.info$KO
 
@@ -131,6 +153,8 @@ ko.data.frame[1:20,]
 ko.data.frame <- ko.data.frame[!duplicated(ko.data.frame),]
 nrow(ko.data.frame)
 sum(duplicated(ko.data.frame))
+
+"Vocar.0012s0145" %in% ko.data.frame$GID
 
 
 ##Generate panther data frame
@@ -165,16 +189,24 @@ panther.data.frame <- data.frame(GID=panther.data.frame[,1],
                           stringsAsFactors = FALSE)
 head(panther.data.frame)
 
+"Vocar.0012s0145" %in% panther.data.frame$GID
+
 ## Dunaliella salina Taxonomy ID: 3046
 
 ## Load require package
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install("AnnotationForge", version = "3.8")
-BiocManager::install("GO.db", version = "3.8")
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install("AnnotationForge", version = "3.8")
+# BiocManager::install("GO.db", version = "3.8")
 library(AnnotationForge)
 library(GO.db)
 
+"Vocar.0012s0145" %in% go.data.frame$GID
+"Vocar.0012s0145" %in% symbol.data.frame$GID
+"Vocar.0012s0145" %in% enzyme.data.frame$GID
+"Vocar.0012s0145" %in% kog.data.frame$GID
+"Vocar.0012s0145" %in% ko.data.frame$GID
+"Vocar.0012s0145" %in% panther.data.frame$GID
 
 makeOrgPackage(go=go.data.frame,
                SYMBOL=symbol.data.frame,
@@ -193,6 +225,7 @@ makeOrgPackage(go=go.data.frame,
                verbose = TRUE)
 
 install.packages("./org.Vcarteri.eg.db/", repos=NULL)
+remove.packages("org.Vcarteri.eg.db")
 
 library(org.Vcarteri.eg.db)
 columns(org.Vcarteri.eg.db)
@@ -296,41 +329,59 @@ pathview(gene.data = sort(genes.pathway,decreasing = TRUE), pathway.id =res.kk$I
 ## https://www.genome.jp/kegg-bin/show_organism?menu_type=genome_info&org=cre
 
 ## Preprocess gff3 to generate gtf with gene_id and transcript_id 
-cre.gff3 <- read.table(file="../annotation/chlamydomonas_reinhardtii.gff3",header=F,quote = "#",as.is=T)
-cre.gtf <- cre.gff3
-head(cre.gff3)
+vocar.gff3 <- read.table(file="../annotation/volvox_carteri.gff3",header=F,quote = "#",as.is=T)
+vocar.gtf <- vocar.gff3
+head(vocar.gff3)
 
-unique(cre.gff3$V3)
+unique(vocar.gff3$V3)
 
-for(i in 1:nrow(cre.gff3))
+extract.attributes <- function(str.attributes)
 {
-  current.attributes <- strsplit(cre.gff3$V9[i],split=";")[[1]]
-  if(cre.gff3$V3[i] == "gene")
+  split.attribs <- strsplit(str.attributes,split=";")[[1]]
+  
+  attrib.names <- vector(mode="character", length=length(split.attribs))
+  attrib.values <- vector(mode="character", length=length(split.attribs))
+
+  for(i in 1:length(split.attribs))
   {
-    gene.id <- strsplit(current.attributes[2],split="=")[[1]][2]
-    cre.gtf$V9[i] <- paste("gene_id", paste("\"",gene.id,"\";",sep=""))
-  } else if(cre.gff3$V3[i] == "mRNA")
+    attrib.names[i] <-strsplit(split.attribs[i],split="=")[[1]][1]
+    attrib.values[i] <- strsplit(split.attribs[i],split="=")[[1]][2]
+  }
+  
+  names(attrib.values) <- attrib.names
+  
+  return(attrib.values)
+}
+
+for(i in 1:nrow(vocar.gff3))
+{
+  current.attributes <- extract.attributes(vocar.gff3$V9[i])
+  if(vocar.gff3$V3[i] == "gene")
   {
-    gene.id <- substr(strsplit(current.attributes[5],split="=")[[1]][2],start = 1,stop = 13)
-    transcript.id <- strsplit(current.attributes[2],"=")[[1]][2]
-    cre.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
-  } else if(cre.gff3$V3[i] == "exon")
+    gene.id <- current.attributes["Name"]
+    vocar.gtf$V9[i] <- paste("gene_id", paste("\"",gene.id,"\";",sep=""))
+  } else if(vocar.gff3$V3[i] == "mRNA")
   {
-    gene.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 13)
-    trancript.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 18)
-    exon.number <- strsplit(strsplit(current.attributes[1],split="=")[[1]][2],split="exon.")[[1]][2]
-    cre.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep=""),"exon_number",paste("\"",exon.number,"\";",sep="")), collapse = " ")
-  } else if(cre.gff3$V3[i] == "five_prime_UTR" || cre.gff3$V3[i] == "three_prime_UTR" || cre.gff3$V3[i] == "CDS")
+    gene.id <- substr(x = current.attributes["Name"], start = 1, stop = 15)
+    transcript.id <- current.attributes["Name"]
+    vocar.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
+  } else if(vocar.gff3$V3[i] == "exon")
   {
-    gene.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 13)
-    transcript.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 18)
-    cre.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
+    gene.id <- substr(x = current.attributes["ID"], start = 1, stop = 15) #substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 13)
+    trancript.id <- substr(x = current.attributes["ID"], start = 1, stop = 17) #substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 18)
+    exon.number <- strsplit(current.attributes["ID"],split="exon.")[[1]][2]
+    vocar.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep=""),"exon_number",paste("\"",exon.number,"\";",sep="")), collapse = " ")
+  } else if(vocar.gff3$V3[i] == "five_prime_UTR" || vocar.gff3$V3[i] == "three_prime_UTR" || vocar.gff3$V3[i] == "CDS")
+  {
+    gene.id <- substr(x = current.attributes["ID"], start = 1, stop = 15) # substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 13)
+    transcript.id <- substr(x = current.attributes["ID"], start = 1, stop = 17) #substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 18)
+    vocar.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
   }
 }
 
-head(cre.gtf)
+head(vocar.gtf)
 
-write.table(x = cre.gtf,file = "chlamydomonas_reinhardtii.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
+write.table(x = vocar.gtf,file = "volvox_carteri.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
 
 ## Generate TxDb package from gff3 file
 library("GenomicFeatures")

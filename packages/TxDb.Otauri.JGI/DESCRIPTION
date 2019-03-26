@@ -1,0 +1,16 @@
+Package: TxDb.Otauri.JGI
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from JGI by exposing these as TxDb objects
+Version: 0.1
+Author: Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.33.6)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Ostreococcus tauri
+species: Ostreococcus tauri
+provider: JGI
+provider_version: JGI
+release_date: 2019-01-20 12:45:44 +0100 (Sun, 20 Jan 2019)
+resource_url: https://genome.jgi.doe.gov/Ostta4221_3/Ostta4221_3.home.html
+biocViews: AnnotationData, Genetics, TxDb, Ostreococcus_tauri

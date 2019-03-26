@@ -25,7 +25,7 @@
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# target.genes <- read.table(file="ostta/examples/no_iron_vs_iron_15H/activated/activated_genes.txt",as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
@@ -179,6 +179,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                    selected = "No"),
 
         #This panel will only appear if the user chooses to use our background lists. 
+        actionButton(inputId = "example_genes",label = "Example"),
         textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
                       height = "200px",placeholder = "Insert set of genes",
                       value= "ostta11g02790
@@ -342,6 +343,14 @@ server <- shinyServer(function(input, output, session) {
     updateTextAreaInput(session=session, inputId = "background",value = "")
   })
   
+  ## Add an example of gene set to text area
+  observeEvent(input$example_genes, {
+    example.file <- paste(c("example_files/example_",input$microalgae,".txt"),collapse="")
+    example.genes <- read.table(file = example.file,header = F,as.is = T)[[1]]
+    updateTextAreaInput(session=session, inputId = "genes",value = paste(example.genes,collapse="\n"))
+  })
+  
+  
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
     
@@ -349,15 +358,19 @@ server <- shinyServer(function(input, output, session) {
     if(input$microalgae == "otauri")
     {
       org.db <- org.Otauri.eg.db
+      microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
     } else if (input$microalgae == "creinhardtii")
     {
       org.db <- org.Creinhardtii.eg.db
+      microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
     } else if (input$microalgae == "dsalina")
     {
       org.db <- org.Dsalina.eg.db
+      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
     } else if (input$microalgae == "vcarteri")
     {
       org.db <- org.Vcarteri.eg.db
+      microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
@@ -391,14 +404,13 @@ server <- shinyServer(function(input, output, session) {
     }
 
     ## Sanity test
-    wrong.genes <- setdiff(target.genes,gene.universe)
+    wrong.genes <- setdiff(target.genes,microalgae.genes)
     percent.wrong.genes <- length(wrong.genes) / length(target.genes)
-    print(length(wrong.genes))
 
     if(length(wrong.genes) > 0)
     {
       gene.sanity.text <- paste(c("<b> ERROR: The following genes have been detected in your target gene set that do not match any gene
-        in our gene universe for ", input$microalgae, ". You may consider removing them. Alternatively, check
+        in our annotation for ", input$microalgae, ". You may consider removing them. Alternatively, check
         that the right microalgae has been selected and that your gene names follow the right nomenclature. Click on the Example button
         on top of the text area to input the target gene set to obtain an example of the gene nomenclature expected. If your target gene set
         has been generated from an RNA-seq experiment please consider using our tool MARACAS to obtain it or use our reference genome sequence
