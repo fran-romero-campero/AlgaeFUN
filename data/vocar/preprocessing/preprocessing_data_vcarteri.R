@@ -11,8 +11,6 @@ nrow(vocar.info)
 
 write.table(x = unique(vocar.info$locusName),file = "vocar_universe.txt",quote = F,row.names = F,col.names = F)
 
-
-
 ## Generate and write output data frame
 id.vocar.name <- data.frame(GID=vocar.info$locusName,GENENAME=vocar.info$locusName,stringsAsFactors = FALSE)
 head(id.vocar.name)
@@ -191,13 +189,22 @@ head(panther.data.frame)
 
 "Vocar.0012s0145" %in% panther.data.frame$GID
 
-## Dunaliella salina Taxonomy ID: 3046
+## DRAFT for KEGG
+identity <- read.table(file = "result_identity.txt",as.is=T)
+head(identity)
+identity$V1
+identity$V2
 
-## Load require package
-# if (!requireNamespace("BiocManager", quietly = TRUE))
-#   install.packages("BiocManager")
-# BiocManager::install("AnnotationForge", version = "3.8")
-# BiocManager::install("GO.db", version = "3.8")
+draft.data.frame <- data.frame(GID=identity$V1,
+                               VOLCADRAFT=identity$V2,
+                               stringsAsFactors = FALSE)
+
+draft.data.frame <- draft.data.frame[!duplicated(draft.data.frame),]
+
+head(draft.data.frame)
+
+
+
 library(AnnotationForge)
 library(GO.db)
 
@@ -208,12 +215,15 @@ library(GO.db)
 "Vocar.0012s0145" %in% ko.data.frame$GID
 "Vocar.0012s0145" %in% panther.data.frame$GID
 
+
+
 makeOrgPackage(go=go.data.frame,
                SYMBOL=symbol.data.frame,
                ENZYME=enzyme.data.frame,
                KOG=kog.data.frame,
                KO=ko.data.frame,
                PANTHER=panther.data.frame,
+               VOLCADRAFT= draft.data.frame,
                version = "0.1",
                maintainer = "Francisco J. Romero-Campero <fran@us.es>",
                author = "Ana B. Romero-Losada",
