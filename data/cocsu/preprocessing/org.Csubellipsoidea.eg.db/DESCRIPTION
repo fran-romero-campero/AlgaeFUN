@@ -1,0 +1,14 @@
+Package: org.Csubellipsoidea.eg.db
+Title: Genome wide annotation for Coccomyxa subellipsoidea
+Description: Genome wide annotation for Coccomyxa subellipsoidea, primarily based on mapping using Entrez Gene identifiers.
+Version: 0.1
+Author: Ana B. Romero-Losada
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.44.0)
+Suggests: DBI, annotate, RUnit
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+organism: Coccomyxa subellipsoidea
+species: Coccomyxa subellipsoidea
+biocViews: OrgDb, annotation
+

@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Csubellipsoidea.eg,
+    org.Csubellipsoidea.eg_dbconn,
+    org.Csubellipsoidea.eg_dbfile,
+    org.Csubellipsoidea.eg_dbschema,
+    org.Csubellipsoidea.eg_dbInfo,
+
+    org.Csubellipsoidea.egORGANISM
+)
+
