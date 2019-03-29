@@ -9,6 +9,7 @@
 phatri.info <- read.table(file="phatri_info.txt",header=T,sep="\t",as.is=T)
 nrow(phatri.info)
 gene.names <- unique(phatri.info$Gene.stable.ID)
+write.table(x = gene.names, file = "phatri_universe.txt",quote = F, row.names = F, col.names = F)
 
 ## Generate SYMBOL data frame
 symbol.data.frame <- data.frame(GID=gene.names,SYMBOL=gene.names,stringsAsFactors = FALSE)
@@ -244,3 +245,48 @@ install.packages("./TxDb.Otauri.JGI/", repos=NULL)
 library(TxDb.Otauri.JGI)
 txdb <- TxDb.Otauri.JGI
 genes(txdb)
+
+
+ptricornutum.gtf <- read.table(file = "../annotation/phaeodactylum_tricornutum.gtf",header = F,sep = "\t",as.is=T)
+head(ptricornutum.gtf)
+
+i <- 3
+
+genes.in.gtf <- vector(mode="character", length=nrow(ptricornutum.gtf))
+for(i in 1:nrow(ptricornutum.gtf))
+{
+  attrib.gtf <- ptricornutum.gtf$V9[i]
+  genes.in.gtf[i] <- strsplit(strsplit(x = attrib.gtf, split="gene_id")[[1]][2], split=";")[[1]][1]
+}
+
+genes.in.gtf <- unique(genes.in.gtf)
+length(genes.in.gtf)
+genes.in.universe <- read.table(file = "../../../web_app/universe/phatri_universe.txt",as.is=T,header = F)[[1]]
+length(genes.in.universe)
+
+gene.universe.final <- unique(c(genes.in.gtf, genes.in.universe))
+length(c(genes.in.gtf, genes.in.universe))
+length(gene.universe.final)
+
+intersect(genes.in.universe, genes.in.gtf)
+genes.in.universe[2]
+genes.in.gtf[2]
+
+"Phatr3_J43104" %in% genes.in.universe
+"Phatr3_J43104" %in% genes.in.gtf
+genes.in.gtf[7397]
+
+
+remove.white.spaces <- function(x)
+{
+  return(gsub(" ", "", x, fixed = TRUE))
+}
+
+genes.in.gtf <- sapply(genes.in.gtf,FUN = remove.white.spaces)
+names(genes.in.gtf) <- NULL
+genes.in.gtf
+
+gene.universe.final <- unique(c(genes.in.gtf, genes.in.universe))
+length(gene.universe.final)
+
+write.table(x = gene.universe.final,file = "../../../web_app/universe/phatri_universe.txt",row.names = F, col.names = F)

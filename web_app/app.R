@@ -8,19 +8,10 @@
 #
 
 ## TODO
-## Add sanity check to test that the input genes follow the expected nomeclature
-## Add target gene set example with a button above the textInputArea
-
 ## Change width of table columns to fit mumber of genes (Enrichment too narrow)
-
-## Add explanatory text before each table / figure
 ## Add download buttom for each table / figure
-
 ## Add nice logo and nice style to the web page
-
 ## Add Functional annotation of genomic locations
-## Add GSEA analysis
-
 
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
@@ -28,6 +19,7 @@
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_vcarteri.txt",as.is=T)[[1]]
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
 library(shinycssloaders)
@@ -40,11 +32,10 @@ library(org.Otauri.eg.db)
 library(org.Creinhardtii.eg.db)
 library(org.Dsalina.eg.db)
 library(org.Vcarteri.eg.db)
+library(org.Ptricornutum.eg.db)
 
-
-
-microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii", "Dunaliella salina","Volvox carteri")
-names(microalgae.names) <- c("otauri", "creinhardtii", "dsalina", "vcarteri")
+microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii", "Dunaliella salina","Volvox carteri","Phaeodactylum tricornutum")
+names(microalgae.names) <- c("otauri", "creinhardtii", "dsalina", "vcarteri","ptricornutum")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -80,6 +71,20 @@ phytozome.gene.link <- function(gene.name)
                             "&offset=0"),collapse="")
   gene.link <- paste(c("<a href=\"",
                        phytozome.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+## Phaeodactylum tricornutum link to ENSEMBL PROTISTS
+## https://protists.ensembl.org/Phaeodactylum_tricornutum/Gene/Summary?g=Phatr3_EG00535
+phaeodactylum.gene.link <- function(gene.name)
+{
+  phatri.link <- paste(c("https://protists.ensembl.org/Phaeodactylum_tricornutum/Gene/Summary?g=",
+                          gene.name),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       phatri.link,
                        "\" target=\"_blank\">",
                        gene.name, "</a>"),
                      collapse="")
@@ -147,6 +152,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Chlamydomonas reinhardtii" = "creinhardtii",
                             "Dunaliella salina" = "dsalina",
                             "Volvox Carteri" = "vcarteri",
+                            "Phaeodactylum tricornutum" = "ptricornutum",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
                             "Bathycoccus prasinos" = "bathy")),
@@ -371,6 +377,10 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Vcarteri.eg.db
       microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
+    } else if (input$microalgae == "ptricornutum")
+    {
+      org.db <- org.Ptricornutum.eg.db
+      microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
@@ -477,6 +487,9 @@ server <- shinyServer(function(input, output, session) {
         } else if(input$microalgae == "creinhardtii" | input$microalgae == "dsalina" | input$microalgae == "vcarteri")
         {
           gene.link.function <- phytozome.gene.link
+        } else if(input$microalgae == "ptricornutum")
+        {
+          gene.link.function <- phaeodactylum.gene.link
         }
         
         ## Add linkd to genes
@@ -609,7 +622,6 @@ with the corresponding GO term.")
     ## KEGG pathways enrichment analysis
     if( (input$analysis == "kegg"  || input$analysis == "both") && (length(wrong.genes) == 0))
     {
-      
       ## Update target genes and universe depending on the microalgae
       if(input$microalgae == "otauri")
       {
@@ -619,7 +631,6 @@ with the corresponding GO term.")
       } else if(input$microalgae == "creinhardtii")
       {
         cre.chlredraft.map <- select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
-        head(cre.chlredraft.map)
         cre.ids <- cre.chlredraft.map$GID
         chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
         names(chlredraft.ids) <- cre.ids
@@ -632,6 +643,24 @@ with the corresponding GO term.")
         names(gene.universe) <- NULL
         
         organism.id <- "cre"
+      } else if(input$microalgae == "vcarteri")
+      {
+        vocar.volcadraft.map <- select(org.Vcarteri.eg.db,columns = c("VOLCADRAFT"),keys=keys(org.Vcarteri.eg.db,keytype = "GID"))
+        vocar.ids <- vocar.volcadraft.map$GID
+        volcadraft.ids <- vocar.volcadraft.map$VOLCADRAFT
+        names(volcadraft.ids) <- vocar.ids
+        names(vocar.ids) <- volcadraft.ids
+        
+        target.genes <- volcadraft.ids[target.genes]
+        names(target.genes) <- NULL
+        
+        gene.universe <- volcadraft.ids[gene.universe]
+        names(gene.universe) <- NULL
+        
+        organism.id <- "vcn"
+      } else if(input$microalgae == "ptricornutum")
+      {
+        
       }
       
       ## Compute KEGG pathway enrichment
@@ -663,6 +692,13 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(cre.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if (input$microalgae == "vcarteri")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(vocar.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
         }
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
@@ -680,7 +716,7 @@ with the corresponding GO term.")
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii")
+        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
         {
           gene.link.function <- phytozome.gene.link
         }
@@ -757,6 +793,13 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(cre.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if(input$microalgae == "vcarteri")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(vocar.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
         }
 
         modules.result.table <- data.frame(modules.enrichment.result$ID, modules.enrichment.result$Description,
@@ -774,7 +817,7 @@ assocated to the enriched pathway represented in the corresponding row."
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii")
+        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
         {
           gene.link.function <- phytozome.gene.link
         }
@@ -822,10 +865,22 @@ assocated to the enriched pathway represented in the corresponding row."
       })
       
     observeEvent(enriched.pathway.id(), {
+      
+      if(input$microalgae == "creinhardtii")
+      {
+        organism.id <- "cre"
+      } else if(input$microalgae == "otauri")
+      {
+        organism.id <- "ota"
+      } else if(input$microalgae == "vcarteri")
+      {
+        organism.id <- "vcn"
+      }
+      
         output$kegg_image <- renderImage({
           pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
                    pathway.id = enriched.pathway.id(),
-                   species = "ota",
+                   species = organism.id,
                    limit = list(gene=max(abs(genes.pathway)), cpd=1),
                    gene.idtype ="kegg")
           
