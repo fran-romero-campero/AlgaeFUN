@@ -89,6 +89,17 @@ nrow(pfam.data.frame)
 pfam.data.frame <- pfam.data.frame[pfam.data.frame$PFAM != "",]
 head(pfam.data.frame)
 
+## Phatri draft for kegg analysis
+phatri.draft <- read.table(file="../phatri_vs_phatridraft/result_identity.txt",header=F,as.is=T)
+head(phatri.draft)
+phatri.draft$V1
+phatri.draft$V2
+
+phatridraft.data.frame <- data.frame(GID=phatri.draft$V1,PHATRIDRAFT=phatri.draft$V2,stringsAsFactors = FALSE)
+head(phatridraft.data.frame)
+phatridraft.data.frame <- phatridraft.data.frame[!duplicated(phatridraft.data.frame),]
+nrow(phatridraft.data.frame)
+
 ## Phaeodactylum tricornutum Taxonomy ID: 556484
 
 ## Load require package
@@ -99,6 +110,7 @@ makeOrgPackage(go=go.data.frame,
                ENZYME=enzyme.data.frame,
                PANTHER=panther.data.frame,
                PFAM=pfam.data.frame,
+               PHATRIDRAFT=phatridraft.data.frame,
                version = "0.1",
                maintainer = "Francisco J. Romero-Campero <fran@us.es>",
                author = "Francisco J. Romero-Campero",
