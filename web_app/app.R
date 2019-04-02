@@ -10,16 +10,19 @@
 ## TODO
 ## Change width of table columns to fit mumber of genes (Enrichment too narrow)
 ## Add download buttom for each table / figure
+## Add Warning messages when no enrichment is detected
 ## Add nice logo and nice style to the web page
 ## Add Functional annotation of genomic locations
 
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
+# input <- list(microalgae = "ptricornutum", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_vcarteri.txt",as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_ptricornutum.txt", as.is=T)[[1]]
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
 library(shinycssloaders)
@@ -660,7 +663,19 @@ with the corresponding GO term.")
         organism.id <- "vcn"
       } else if(input$microalgae == "ptricornutum")
       {
+        phatri.draft.map <- select(org.Ptricornutum.eg.db,columns = c("PHATRIDRAFT"),keys=keys(org.Ptricornutum.eg.db,keytype = "GID"))
+        phatri.ids <- phatri.draft.map$GID
+        phatridraft.ids <- phatri.draft.map$PHATRIDRAFT
+        names(phatridraft.ids) <- phatri.ids
+        names(phatri.ids) <- phatridraft.ids
         
+        target.genes <- phatridraft.ids[target.genes]
+        names(target.genes) <- NULL
+        
+        gene.universe <- phatridraft.ids[gene.universe]
+        names(gene.universe) <- NULL
+        
+        organism.id <- "pti"
       }
       
       ## Compute KEGG pathway enrichment
@@ -699,6 +714,13 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(vocar.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if (input$microalgae == "ptricornutum")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(phatri.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
         }
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
@@ -719,6 +741,9 @@ with the corresponding GO term.")
         } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
         {
           gene.link.function <- phytozome.gene.link
+        } else if(input$microalgae == "ptricornutum")
+        {
+          gene.link.function <- phaeodactylum.gene.link
         }
         
         for(i in 1:length(kegg.enriched.genes))
@@ -800,6 +825,13 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(vocar.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if(input$microalgae == "ptricornutum")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(phatri.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
         }
 
         modules.result.table <- data.frame(modules.enrichment.result$ID, modules.enrichment.result$Description,
@@ -820,6 +852,9 @@ assocated to the enriched pathway represented in the corresponding row."
         } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
         {
           gene.link.function <- phytozome.gene.link
+        } else if(input$microalgae == "ptricornutum")
+        {
+          gene.link.function <- phaeodactylum.gene.link
         }
         
         for(i in 1:length(modules.enriched.genes))
@@ -875,6 +910,9 @@ assocated to the enriched pathway represented in the corresponding row."
       } else if(input$microalgae == "vcarteri")
       {
         organism.id <- "vcn"
+      } else if(input$microalgae == "ptricornutum")
+      {
+        organism.id <- "pti"
       }
       
         output$kegg_image <- renderImage({
