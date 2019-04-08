@@ -36,9 +36,10 @@ library(org.Creinhardtii.eg.db)
 library(org.Dsalina.eg.db)
 library(org.Vcarteri.eg.db)
 library(org.Ptricornutum.eg.db)
+library(org.Ngaditana.eg.db)
 
-microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii", "Dunaliella salina","Volvox carteri","Phaeodactylum tricornutum")
-names(microalgae.names) <- c("otauri", "creinhardtii", "dsalina", "vcarteri","ptricornutum")
+microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii", "Dunaliella salina","Volvox carteri","Phaeodactylum tricornutum","Nannochloropsis gaditana")
+names(microalgae.names) <- c("otauri", "creinhardtii", "dsalina", "vcarteri","ptricornutum", "ngaditana")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -88,6 +89,20 @@ phaeodactylum.gene.link <- function(gene.name)
                           gene.name),collapse="")
   gene.link <- paste(c("<a href=\"",
                        phatri.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+## Nannochloropsis gaditana link to CRIBI Genomics
+#http://www.nannochloropsis.org/gene/Naga_100001g4
+ngaditana.gene.link <- function(gene.name)
+{
+  naga.link <- paste(c("http://www.nannochloropsis.org/gene/",
+                         gene.name),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       naga.link,
                        "\" target=\"_blank\">",
                        gene.name, "</a>"),
                      collapse="")
@@ -156,6 +171,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Dunaliella salina" = "dsalina",
                             "Volvox Carteri" = "vcarteri",
                             "Phaeodactylum tricornutum" = "ptricornutum",
+                            "Nannochloropsis gaditana" = "ngaditana",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
                             "Bathycoccus prasinos" = "bathy")),
@@ -384,6 +400,10 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Ptricornutum.eg.db
       microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
+    } else if (input$microalgae == "ngaditana")
+    {
+      org.db <- org.Ngaditana.eg.db
+      microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
@@ -403,7 +423,6 @@ server <- shinyServer(function(input, output, session) {
       universe.text <- " default universe."
     } else 
     {
-      
       if(is.null(input$gene_universe_file))
       {
         gene.universe <- as.vector(unlist(strsplit(input$background, split="\n",
@@ -493,6 +512,9 @@ server <- shinyServer(function(input, output, session) {
         } else if(input$microalgae == "ptricornutum")
         {
           gene.link.function <- phaeodactylum.gene.link
+        } else if(input$microalgae == "ngaditana")
+        {
+          gene.link.function <- ngaditana.gene.link
         }
         
         ## Add linkd to genes
