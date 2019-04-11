@@ -14,15 +14,21 @@
 ## Add nice logo and nice style to the web page
 ## Add Functional annotation of genomic locations
 
+## Issue with KEGG ids for Ngaditana
+## expected: NGA_0076200,NGA_2122800,NGA_0378100,NGA_0380800,NGA_0239100,NGA_0126801
+
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "ptricornutum", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
+# input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 
+# target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_vcarteri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_ptricornutum.txt", as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_ngaditana_1.txt", as.is=T)[[1]]
+
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
 library(shinycssloaders)
@@ -698,6 +704,21 @@ with the corresponding GO term.")
         names(gene.universe) <- NULL
         
         organism.id <- "pti"
+      } else if(input$microalgae == "ngaditana")
+      {
+        naga.draft.map <- select(org.Ngaditana.eg.db,columns = c("NAGADRAFT"),keys=keys(org.Ngaditana.eg.db,keytype = "GID"))
+        naga.ids <- naga.draft.map$GID
+        nagadraft.ids <- naga.draft.map$NAGADRAFT
+        names(nagadraft.ids) <- naga.ids
+        names(naga.ids) <- nagadraft.ids
+        
+        target.genes <- nagadraft.ids[target.genes]
+        names(target.genes) <- NULL
+        
+        gene.universe <- nagadraft.ids[gene.universe]
+        names(gene.universe) <- NULL
+        
+        organism.id <- "ngd"
       }
       
       ## Compute KEGG pathway enrichment
@@ -743,6 +764,13 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(phatri.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if (input$microalgae == "ngaditana")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(naga.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
         }
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
@@ -766,6 +794,9 @@ with the corresponding GO term.")
         } else if(input$microalgae == "ptricornutum")
         {
           gene.link.function <- phaeodactylum.gene.link
+        } else if(input$microalgae == "ngaditana")
+        {
+          gene.link.function <- ngaditana.gene.link
         }
         
         for(i in 1:length(kegg.enriched.genes))
@@ -854,6 +885,13 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(phatri.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if(input$microalgae == "ngaditana")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
         }
 
         modules.result.table <- data.frame(modules.enrichment.result$ID, modules.enrichment.result$Description,
@@ -877,6 +915,9 @@ assocated to the enriched pathway represented in the corresponding row."
         } else if(input$microalgae == "ptricornutum")
         {
           gene.link.function <- phaeodactylum.gene.link
+        } else if(input$microalgae == "ngaditana")
+        {
+          gene.link.function <- ngaditana.gene.link
         }
         
         for(i in 1:length(modules.enriched.genes))
@@ -935,6 +976,9 @@ assocated to the enriched pathway represented in the corresponding row."
       } else if(input$microalgae == "ptricornutum")
       {
         organism.id <- "pti"
+      } else if(input$microalgae == "ngaditana")
+      {
+        organism.id <- "ngd"
       }
       
         output$kegg_image <- renderImage({

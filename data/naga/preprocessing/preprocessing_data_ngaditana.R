@@ -112,7 +112,7 @@ nrow(kog.data.frame)
 
 
 ## Naga draft for kegg analysis
-naga.draft <- read.table(file="ensembl_vs_kegg/result_identity.txt",header=F,as.is=T)
+naga.draft <- read.table(file="ensembl_vs_kegg/naga_nga_correspondence.txt",header=F,as.is=T)
 head(naga.draft)
 naga.draft$V1
 naga.draft$V2
