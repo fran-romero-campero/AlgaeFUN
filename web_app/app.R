@@ -851,8 +851,8 @@ assocated to the enriched pathway represented in the corresponding row."
           selectInput(inputId = "kegg_pathway", label="Choose Pathway for Representation",multiple = FALSE,selected = pathways.for.select[1],
                       choices=pathways.for.select)
       })
-      
-      modules.enrichment <- enrichMKEGG(gene = target.genes, organism = organism.id, keyType = "kegg")
+    
+      modules.enrichment <- enrichMKEGG(gene = target.genes, universe = gene.universe, organism = organism.id, keyType = "kegg",minGSSize = 4)
       
       modules.enrichment.result <- as.data.frame(modules.enrichment)
 

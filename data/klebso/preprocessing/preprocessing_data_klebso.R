@@ -78,9 +78,6 @@ go.data.frame <- go.data.frame[!duplicated(go.data.frame),]
 go.data.frame <- go.data.frame[go.data.frame$GO != "",]
 head(go.data.frame)
 
-
-
-
 ## For the rest of the data frames. According to the help info "the 1st column of every 
 ## data.frame must be labeled GID, and correspond to a gene ID that is universal for the 
 ## entire set of data.frames.  The GID is how the different tables will be joined internally"
@@ -226,6 +223,44 @@ genes.pathway[paste0("OT_",ostta.example)] <- 1
 pathview(gene.data = sort(genes.pathway,decreasing = TRUE), pathway.id = "ota03030", species = "ota",limit = list(gene=max(abs(genes.pathway)), cpd=1),gene.idtype ="kegg")
 
 ## Preprocess gff3
+## Preprocess gff3 to generate gtf with gene_id and transcript_id 
+klebso.gff <- read.table(file="../annotation/klebsormidium_nitens.gtf",header=F,sep="\t",as.is=T)
+klebso.gtf <- klebso.gff
+head(klebso.gff)
+
+unique(klebso.gff$V3)
+
+
+klebso.gtf <- subset(klebso.gtf, V3 %in% c("mRNA", "exon", "CDS"))
+nrow(klebso.gtf)
+
+for(i in 1:nrow(klebso.gtf))
+{
+  current.element <- klebso.gtf$V9[i]
+  
+  if(klebso.gtf$V3[i] == "mRNA" || klebso.gtf$V3[i] == "CDS")
+  {
+    current.gene.id <- strsplit(strsplit(strsplit(current.element,split = ";")[[1]][1], split="=")[[1]][2],split="_v1")[[1]][1]
+    current.transcript.id <- paste0(current.gene.id,".1")
+    klebso.gtf$V9[i] <- paste(c("gene_id ", "\"", current.gene.id, "\";"," transcript_id ", "\"", current.transcript.id, "\";"),collapse="")
+  } else if (klebso.gtf$V3[i] == "exon")
+  {
+    current.gene.id <- strsplit(strsplit(strsplit(current.element,split = ";")[[1]][1], split="=")[[1]][2],split="_v1")[[1]][1]
+    current.transcript.id <- paste0(current.gene.id,".1")
+    exon.number <- strsplit(strsplit(current.element,split=";")[[1]][1],split="exon.")[[1]][2]
+    klebso.gtf$V9[i] <- paste(c("gene_id ", "\"", current.gene.id, "\";"," transcript_id ", "\"", current.transcript.id, "\";",
+                                " exon_number ","\"",exon.number,"\";"),collapse="")
+  } 
+}
+
+
+head(klebso.gtf)
+
+
+
+
+
+
 library(stringr)
 ostta.gff3.0 <- read.table(file="ostreococcus_tauri.gff3",header=F,quote = "#",as.is=T)
 ostta.gff3 <- ostta.gff3.0
