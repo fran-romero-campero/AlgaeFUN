@@ -34,17 +34,9 @@ go.data.frame <- go.data.frame[!duplicated(go.data.frame),]
 go.data.frame <- go.data.frame[go.data.frame$GO != "",]
 head(go.data.frame)
 
-
-
-
-
-
-
-
-
-nrow(phatri.info)
-gene.names <- unique(phatri.info$Gene.stable.ID)
-write.table(x = gene.names, file = "phatri_universe.txt",quote = F, row.names = F, col.names = F)
+## klebso gene universe
+gene.names <- unique(klebso.go$V2)
+write.table(x = gene.names, file = "klebsor_universe.txt",quote = F, row.names = F, col.names = F)
 
 ## Generate SYMBOL data frame
 symbol.data.frame <- data.frame(GID=gene.names,SYMBOL=gene.names,stringsAsFactors = FALSE)
@@ -53,109 +45,46 @@ nrow(symbol.data.frame)
 symbol.data.frame <- symbol.data.frame[!duplicated(symbol.data.frame),]
 nrow(symbol.data.frame)
 
-## Generate GO data.frame to create org.Db package
-## Before reading the GO annotation file I have to replace the symbol ' by the word prime
-## to avoid the error "EOF within quoted string"
+## Generate KO data frame
+ko.data <- read.table(file="klebso_ko.txt",header = F,col.names = c("gene","ko"),fill = T,as.is = T)
 
-## According to the vignettes of AnnotationForge bioconductor package for "Making Organisms
-## Packages: "However to use the goTable argument, you have to follow a strict convention with 
-## the data. Such a data.frame must have three columns only and these must correspond to the 
-## gene id, GO id and evidence codes. These columns also have to be named as “GID”, “GO” and “EVIDENCE”
-
-gid <- vector(mode="character",length=nrow(phatri.info))
-go <- vector(mode="character",length=nrow(phatri.info))
-evidence <- rep("ISS",nrow(phatri.info))
-
-for(i in 1:nrow(phatri.info))
+extract.gene.id <- function(raw.ko)
 {
-  gid[i] <- phatri.info$Gene.stable.ID[i]   #gene.names[as.character(go.info$X.proteinId[i])]
-  go[i] <- phatri.info$GO.term.accession[i]
+  return(strsplit(raw.ko,split = "_v1")[[1]][1])
 }
 
+gene.ko <- sapply(X = ko.data$gene,FUN = extract.gene.id)
+names(gene.ko) <- NULL
 
-go.data.frame <- data.frame(GID=gid,GO=go,EVIDENCE=evidence,stringsAsFactors = FALSE)
-go.data.frame <- go.data.frame[!duplicated(go.data.frame),]
-go.data.frame <- go.data.frame[go.data.frame$GO != "",]
-head(go.data.frame)
+ko.data.frame <- data.frame(GID=gene.ko,KO=ko.data$ko,stringsAsFactors = FALSE)
+ko.data.frame <- ko.data.frame[!duplicated(ko.data.frame),]
+ko.data.frame <- ko.data.frame[ko.data.frame$KO != "",]
+head(ko.data.frame)
 
-## For the rest of the data frames. According to the help info "the 1st column of every 
-## data.frame must be labeled GID, and correspond to a gene ID that is universal for the 
-## entire set of data.frames.  The GID is how the different tables will be joined internally"
 
-## Generate enzyme data.frame
 
-gid <- vector(mode="character",length=nrow(phatri.info))
-enzyme <- vector(mode="character",length=nrow(phatri.info))
 
-for(i in 1:nrow(phatri.info))
-{
-  gid[i] <- phatri.info$Gene.stable.ID[i] 
-  enzyme[i] <- strsplit(phatri.info$KEGG.Pathway.and.Enzyme.ID[i], split="\\+")[[1]][2]
-}
 
-enzyme.data.frame <- data.frame(GID=gid,ENZYME=enzyme,stringsAsFactors = FALSE)
-head(enzyme.data.frame)
 
-## Remove duplicated rows
-enzyme.data.frame <- enzyme.data.frame[!duplicated(enzyme.data.frame),]
-enzyme.data.frame <- enzyme.data.frame[!is.na(enzyme.data.frame$ENZYME),]
-head(enzyme.data.frame)
-enzyme.data.frame$ENZYME
-
-##Generate panther data frame
-panther <- phatri.info$Gene.stable.ID
-panther.data.frame <- data.frame(GID=phatri.info$Gene.stable.ID, PANTHER=phatri.info$PANTHER.ID, stringsAsFactors = F)
-nrow(panther.data.frame)
-head(panther.data.frame)
-
-panther.data.frame <- panther.data.frame[!duplicated(panther.data.frame),]
-nrow(panther.data.frame)
-panther.data.frame <- panther.data.frame[panther.data.frame$PANTHER != "",]
-head(panther.data.frame)
-
-##Generate pfam data frame
-pfam.data.frame <- data.frame(GID=phatri.info$Gene.stable.ID, PFAM=phatri.info$Pfam.ID, stringsAsFactors = F)
-nrow(pfam.data.frame)
-head(pfam.data.frame)
-
-pfam.data.frame <- pfam.data.frame[!duplicated(pfam.data.frame),]
-nrow(pfam.data.frame)
-pfam.data.frame <- pfam.data.frame[pfam.data.frame$PFAM != "",]
-head(pfam.data.frame)
-
-## Phatri draft for kegg analysis
-phatri.draft <- read.table(file="../phatri_vs_phatridraft/result_identity.txt",header=F,as.is=T)
-head(phatri.draft)
-phatri.draft$V1
-phatri.draft$V2
-
-phatridraft.data.frame <- data.frame(GID=phatri.draft$V1,PHATRIDRAFT=phatri.draft$V2,stringsAsFactors = FALSE)
-head(phatridraft.data.frame)
-phatridraft.data.frame <- phatridraft.data.frame[!duplicated(phatridraft.data.frame),]
-nrow(phatridraft.data.frame)
-
-## Phaeodactylum tricornutum Taxonomy ID: 556484
+## Klebsormidium nitens Taxonomy ID: 105231
 
 ## Load require package
 library(AnnotationForge)
 
 makeOrgPackage(go=go.data.frame,
                SYMBOL=symbol.data.frame,
-               ENZYME=enzyme.data.frame,
-               PANTHER=panther.data.frame,
-               PFAM=pfam.data.frame,
-               PHATRIDRAFT=phatridraft.data.frame,
+               KO=ko.data.frame,
                version = "0.1",
                maintainer = "Francisco J. Romero-Campero <fran@us.es>",
                author = "Francisco J. Romero-Campero",
                outputDir = ".", 
-               tax_id = "556484",
-               genus = "Phaeodactylum",
-               species = "tricornutum",
+               tax_id = "105231",
+               genus = "Klebsormidium",
+               species = "nitens",
                goTable = "go",
                verbose = TRUE)
 
-install.packages("./org.Ptricornutum.eg.db", repos=NULL)
+install.packages("./org.Knitens.eg.db", repos=NULL)
 remove.packages("org.Ptricornutum.eg.db")
 library(org.Ptricornutum.eg.db)
 columns(org.Ptricornutum.eg.db)
@@ -256,7 +185,7 @@ for(i in 1:nrow(klebso.gtf))
 
 head(klebso.gtf)
 
-
+write.table(x = klebso.gtf,file = "klebsormidium_niten.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
 
 
 
