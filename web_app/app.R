@@ -43,9 +43,22 @@ library(org.Dsalina.eg.db)
 library(org.Vcarteri.eg.db)
 library(org.Ptricornutum.eg.db)
 library(org.Ngaditana.eg.db)
+library(org.Knitens.eg.db)
 
-microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii", "Dunaliella salina","Volvox carteri","Phaeodactylum tricornutum","Nannochloropsis gaditana")
-names(microalgae.names) <- c("otauri", "creinhardtii", "dsalina", "vcarteri","ptricornutum", "ngaditana")
+microalgae.names <- c("Ostreococcus tauri", 
+                      "Chlamydomonas reinhardtii", 
+                      "Dunaliella salina",
+                      "Volvox carteri",
+                      "Phaeodactylum tricornutum",
+                      "Nannochloropsis gaditana",
+                      "Klebsormidium nitens")
+names(microalgae.names) <- c("otauri", 
+                             "creinhardtii", 
+                             "dsalina", 
+                             "vcarteri",
+                             "ptricornutum", 
+                             "ngaditana",
+                             "knitens")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -109,6 +122,20 @@ ngaditana.gene.link <- function(gene.name)
                          gene.name),collapse="")
   gene.link <- paste(c("<a href=\"",
                        naga.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+## Klebsormidium nitens link to CGA Klebsormidium
+#http://genome.annotation.jp/klebsormidium/nies-2285/genes/kfl01813_0010
+knitens.gene.link <- function(gene.name)
+{
+  knitens.link <- paste(c("http://genome.annotation.jp/klebsormidium/nies-2285/genes/",
+                       gene.name),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       knitens.link,
                        "\" target=\"_blank\">",
                        gene.name, "</a>"),
                      collapse="")
@@ -180,7 +207,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Nannochloropsis gaditana" = "ngaditana",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
-                            "Bathycoccus prasinos" = "bathy")),
+                            "Bathycoccus prasinos" = "bathy",
+                            "Klebsormidium nitens" = "knitens")),
 
       #Choose a p-value
       numericInput(inputId = "pvalue", label= "Which will be your chosen p-value?", value= 0.05),
@@ -296,58 +324,25 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            ),
                            #align = "center"),
                   tabPanel("KEGG pathway", 
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "gene_sanity_kegg"),
                            htmlOutput(outputId = "wrong_genes_kegg"),
                            htmlOutput(outputId = "intro_kegg"),
                            htmlOutput(outputId = "textKEGGTable"),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "kegg_pathway_table_text"),
                            tags$br(),
                            dataTableOutput(outputId = "output_pathway_table"),
-                           br(),
-                           br(),
-                           br(),
+                           br(), br(), br(),
                            htmlOutput(outputId = "textKEGGImage"),
-                           br(),
-                           br(),
+                           br(), br(),
                            uiOutput(outputId = "kegg_selectize"),
                            imageOutput("kegg_image"),
-                           #uiOutput("kegg_plots"),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
+                           br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(),
+                           br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(),
+                           br(), br(), br(), br(), br(),
                            htmlOutput(outputId = "text_module_kegg"),
-                           br(),
-                           br(),
+                           br(), br(),
                            dataTableOutput(outputId = "output_module_table"),
                            uiOutput(outputId = "kegg_module_selectize"),
                            imageOutput("kegg_module_image"),
@@ -410,6 +405,10 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Ngaditana.eg.db
       microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
+    } else if (input$microalgae == "knitens")
+    {
+      org.db <- org.Knitens.eg.db
+      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
@@ -460,7 +459,6 @@ server <- shinyServer(function(input, output, session) {
       output$wrong_genes_kegg <- renderText(expr = paste(wrong.genes,collapse="\n"))
     }
 
-    
     ## GO term enirchment analysis
     if((input$analysis == "go" || input$analysis == "both") && (length(wrong.genes) == 0))
     {
@@ -521,9 +519,12 @@ server <- shinyServer(function(input, output, session) {
         } else if(input$microalgae == "ngaditana")
         {
           gene.link.function <- ngaditana.gene.link
+        } else if (input$microalgae == "knitens")
+        {
+          gene.link.function <- knitens.gene.link
         }
         
-        ## Add linkd to genes
+        ## Add link to genes
         for(i in 1:length(genes.in.go.enrichment))
         {
           go.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(genes.in.go.enrichment[i],split=" ")[[1]],FUN = gene.link.function),collapse=" ")
