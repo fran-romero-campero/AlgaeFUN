@@ -158,6 +158,7 @@ head(go.expanded.data.frame)
 
 go.data.frame <- data.frame(GID=go.expanded.data.frame[,1],
                             GO=go.expanded.data.frame[,2],
+                            EVIDENCE=rep("ISS",nrow(go.expanded.data.frame)),
                             stringsAsFactors = FALSE)
 
 head(go.data.frame)
@@ -165,6 +166,74 @@ go.data.frame <- go.data.frame[!duplicated(go.data.frame),]
 go.data.frame[1:40,]
 nrow(go.data.frame)
 length(unique(go.data.frame$GID))
+
+## Chromochloris zofigiensis Taxonomy ID: 31302
+
+## Load require package
+library(AnnotationForge)
+
+makeOrgPackage(go=go.data.frame,
+               SYMBOL=symbol.data.frame,
+               ENZYME=ec.data.frame,
+               KOG=kog.data.frame,
+               KO=ko.data.frame,
+               PANTHER=panther.data.frame,
+               PFAM=pfam.data.frame,
+               version = "0.1",
+               maintainer = "Francisco J. Romero-Campero <fran@us.es>",
+               author = "Christina Arvanitidou",
+               outputDir = ".", 
+               tax_id = "31302",
+               genus = "Chromochloris",
+               species = "zofingiensis",
+               goTable = "go",
+               verbose = TRUE)
+
+install.packages("./org.Czofingiensis.eg.db/", repos=NULL)
+
+library(org.Czofingiensis.eg.db)
+columns(org.Czofingiensis.eg.db)
+head(select(org.Czofingiensis.eg.db,columns = c("EC"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID")))
+head(select(org.Czofingiensis.eg.db,columns = c("GO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID")))
+head(select(org.Czofingiensis.eg.db,columns = c("KOG"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID")))
+head(select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID")))
+
+## Preprocess gff3 to generate gtf with gene_id and transcript_id 
+czof.gff3 <- read.table(file="Czofingiensis_461_v5.2.3.2.gene_exons.gff3",header=F,quote = "#",as.is=T)
+czof.gtf <- czof.gff3
+head(czof.gff3)
+
+unique(czof.gff3$V3)
+
+for(i in 1:nrow(czof.gff3))
+{
+  current.attributes <- strsplit(czof.gff3$V9[i],split=";")[[1]]
+  if(czof.gff3$V3[i] == "gene")
+  {
+    gene.id <- strsplit(current.attributes[2],split="=")[[1]][2]
+    czof.gtf$V9[i] <- paste("gene_id", paste("\"",gene.id,"\";",sep=""))
+  } else if(czof.gff3$V3[i] == "mRNA")
+  {
+    gene.id <- substr(strsplit(current.attributes[5],split="=")[[1]][2],start = 1,stop = 10)
+    transcript.id <- strsplit(current.attributes[2],"=")[[1]][2]
+    czof.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
+  } else if(czof.gff3$V3[i] == "exon")
+  {
+    gene.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 10)
+    trancript.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 13)
+    exon.number <- strsplit(strsplit(current.attributes[1],split="=")[[1]][2],split="exon.")[[1]][2]
+    czof.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep=""),"exon_number",paste("\"",exon.number,"\";",sep="")), collapse = " ")
+  } else if(czof.gff3$V3[i] == "CDS")
+  {
+    gene.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 10)
+    transcript.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 13)
+    czof.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
+  }
+}
+
+head(czof.gtf)
+
+write.table(x = czof.gtf,file = "chromochloris_zofingiensis.gtf",sep = "\t",row.names = F,col.names = F,quote = F)
 
 
 
