@@ -214,19 +214,21 @@ for(i in 1:nrow(czof.gff3))
     czof.gtf$V9[i] <- paste("gene_id", paste("\"",gene.id,"\";",sep=""))
   } else if(czof.gff3$V3[i] == "mRNA")
   {
-    gene.id <- substr(strsplit(current.attributes[5],split="=")[[1]][2],start = 1,stop = 10)
     transcript.id <- strsplit(current.attributes[2],"=")[[1]][2]
+    gene.id <- strsplit(transcript.id,split="\\.")[[1]][1]
     czof.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
   } else if(czof.gff3$V3[i] == "exon")
   {
-    gene.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 10)
+    #gene.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 10)
     trancript.id <- substr(strsplit(current.attributes[1],split="=")[[1]][2],start = 1,stop = 13)
+    gene.id <- strsplit(transcript.id,split="\\.")[[1]][1]
     exon.number <- strsplit(strsplit(current.attributes[1],split="=")[[1]][2],split="exon.")[[1]][2]
     czof.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep=""),"exon_number",paste("\"",exon.number,"\";",sep="")), collapse = " ")
   } else if(czof.gff3$V3[i] == "CDS")
   {
-    gene.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 10)
+    #gene.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 10)
     transcript.id <- substr(strsplit(current.attributes[2],split="=")[[1]][2],start = 1,stop = 13)
+    gene.id <- strsplit(transcript.id,split="\\.")[[1]][1]
     czof.gtf$V9[i] <- paste(c("gene_id",paste("\"",gene.id,"\";",sep=""),"transcript_id",paste("\"",transcript.id,"\";",sep="")), collapse = " ")
   }
 }
