@@ -14,15 +14,23 @@
 ## Add nice logo and nice style to the web page
 ## Add Functional annotation of genomic locations
 
+## Issue with KEGG ids for Ngaditana
+## expected: NGA_0076200,NGA_2122800,NGA_0378100,NGA_0380800,NGA_0239100,NGA_0126801
+
 ## To test the script:
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 # input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "ptricornutum", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
+# input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
+# input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 
+# target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_vcarteri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_ptricornutum.txt", as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_ngaditana_1.txt", as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_knitens.txt", as.is=T)[[1]]
+
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
 library(shinycssloaders)
@@ -36,9 +44,23 @@ library(org.Creinhardtii.eg.db)
 library(org.Dsalina.eg.db)
 library(org.Vcarteri.eg.db)
 library(org.Ptricornutum.eg.db)
+library(org.Ngaditana.eg.db)
+library(org.Knitens.eg.db)
 
-microalgae.names <- c("Ostreococcus tauri", "Chlamydomonas reinhardtii", "Dunaliella salina","Volvox carteri","Phaeodactylum tricornutum")
-names(microalgae.names) <- c("otauri", "creinhardtii", "dsalina", "vcarteri","ptricornutum")
+microalgae.names <- c("Ostreococcus tauri", 
+                      "Chlamydomonas reinhardtii", 
+                      "Dunaliella salina",
+                      "Volvox carteri",
+                      "Phaeodactylum tricornutum",
+                      "Nannochloropsis gaditana",
+                      "Klebsormidium nitens")
+names(microalgae.names) <- c("otauri", 
+                             "creinhardtii", 
+                             "dsalina", 
+                             "vcarteri",
+                             "ptricornutum", 
+                             "ngaditana",
+                             "knitens")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -88,6 +110,34 @@ phaeodactylum.gene.link <- function(gene.name)
                           gene.name),collapse="")
   gene.link <- paste(c("<a href=\"",
                        phatri.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+## Nannochloropsis gaditana link to CRIBI Genomics
+#http://www.nannochloropsis.org/gene/Naga_100001g4
+ngaditana.gene.link <- function(gene.name)
+{
+  naga.link <- paste(c("http://www.nannochloropsis.org/gene/",
+                         gene.name),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       naga.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+## Klebsormidium nitens link to CGA Klebsormidium
+#http://genome.annotation.jp/klebsormidium/nies-2285/genes/kfl01813_0010
+knitens.gene.link <- function(gene.name)
+{
+  knitens.link <- paste(c("http://genome.annotation.jp/klebsormidium/nies-2285/genes/",
+                       gene.name),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       knitens.link,
                        "\" target=\"_blank\">",
                        gene.name, "</a>"),
                      collapse="")
@@ -156,9 +206,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Dunaliella salina" = "dsalina",
                             "Volvox Carteri" = "vcarteri",
                             "Phaeodactylum tricornutum" = "ptricornutum",
+                            "Nannochloropsis gaditana" = "ngaditana",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
-                            "Bathycoccus prasinos" = "bathy")),
+                            "Bathycoccus prasinos" = "bathy",
+                            "Klebsormidium nitens" = "knitens")),
 
       #Choose a p-value
       numericInput(inputId = "pvalue", label= "Which will be your chosen p-value?", value= 0.05),
@@ -234,98 +286,58 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       #KEGG pathway maps.
       tabsetPanel(type = "tabs",
                   tabPanel("GO map",
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "gene_sanity_go"),
                            htmlOutput(outputId = "wrong_genes_go"),
                            htmlOutput(outputId = "intro_go"),
                            htmlOutput(outputId = "textGOTable"),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            dataTableOutput(outputId = "output_go_table"),
                            htmlOutput(outputId = "revigo"),
                            tags$br(),
                            htmlOutput(outputId = "go_graph"),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            div(style= "overflow:scroll; height:500px;", 
                                        plotOutput(outputId = "go.plot", inline = TRUE)),
                            downloadButton(outputId= "downloadImage", "Get GO map"),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "barplot_text"),
                            tags$br(),
                            plotOutput(outputId = "bar.plot",inline=TRUE),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "dotplot_text"),
                            tags$br(),
                            plotOutput(outputId = "dot.plot",inline=TRUE),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "emapplot_text"),
                            tags$br(),
                            plotOutput(outputId = "emap.plot",inline=TRUE),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "cnetplot_text"),
                            tags$br(),
                            plotOutput(outputId = "cnet.plot",inline=TRUE)
                            ),
                            #align = "center"),
                   tabPanel("KEGG pathway", 
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "gene_sanity_kegg"),
                            htmlOutput(outputId = "wrong_genes_kegg"),
                            htmlOutput(outputId = "intro_kegg"),
                            htmlOutput(outputId = "textKEGGTable"),
-                           tags$br(),
-                           tags$br(),
+                           tags$br(), tags$br(),
                            htmlOutput(outputId = "kegg_pathway_table_text"),
                            tags$br(),
                            dataTableOutput(outputId = "output_pathway_table"),
-                           br(),
-                           br(),
-                           br(),
+                           br(), br(), br(),
                            htmlOutput(outputId = "textKEGGImage"),
-                           br(),
-                           br(),
+                           br(), br(),
                            uiOutput(outputId = "kegg_selectize"),
                            imageOutput("kegg_image"),
-                           #uiOutput("kegg_plots"),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
-                           br(),
+                           br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(),
+                           br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(),
+                           br(), br(), br(), br(), br(),
                            htmlOutput(outputId = "text_module_kegg"),
-                           br(),
-                           br(),
+                           br(), br(),
                            dataTableOutput(outputId = "output_module_table"),
                            uiOutput(outputId = "kegg_module_selectize"),
                            imageOutput("kegg_module_image"),
@@ -384,6 +396,14 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Ptricornutum.eg.db
       microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
+    } else if (input$microalgae == "ngaditana")
+    {
+      org.db <- org.Ngaditana.eg.db
+      microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
+    } else if (input$microalgae == "knitens")
+    {
+      org.db <- org.Knitens.eg.db
+      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
@@ -403,7 +423,6 @@ server <- shinyServer(function(input, output, session) {
       universe.text <- " default universe."
     } else 
     {
-      
       if(is.null(input$gene_universe_file))
       {
         gene.universe <- as.vector(unlist(strsplit(input$background, split="\n",
@@ -435,7 +454,6 @@ server <- shinyServer(function(input, output, session) {
       output$wrong_genes_kegg <- renderText(expr = paste(wrong.genes,collapse="\n"))
     }
 
-    
     ## GO term enirchment analysis
     if((input$analysis == "go" || input$analysis == "both") && (length(wrong.genes) == 0))
     {
@@ -493,9 +511,15 @@ server <- shinyServer(function(input, output, session) {
         } else if(input$microalgae == "ptricornutum")
         {
           gene.link.function <- phaeodactylum.gene.link
+        } else if(input$microalgae == "ngaditana")
+        {
+          gene.link.function <- ngaditana.gene.link
+        } else if (input$microalgae == "knitens")
+        {
+          gene.link.function <- knitens.gene.link
         }
         
-        ## Add linkd to genes
+        ## Add link to genes
         for(i in 1:length(genes.in.go.enrichment))
         {
           go.result.table.with.links$Genes[i] <- paste(sapply(X = strsplit(genes.in.go.enrichment[i],split=" ")[[1]],FUN = gene.link.function),collapse=" ")
@@ -676,15 +700,55 @@ with the corresponding GO term.")
         names(gene.universe) <- NULL
         
         organism.id <- "pti"
+      } else if(input$microalgae == "ngaditana")
+      {
+        naga.draft.map <- select(org.Ngaditana.eg.db,columns = c("NAGADRAFT"),keys=keys(org.Ngaditana.eg.db,keytype = "GID"))
+        naga.ids <- naga.draft.map$GID
+        nagadraft.ids <- naga.draft.map$NAGADRAFT
+        names(nagadraft.ids) <- naga.ids
+        names(naga.ids) <- nagadraft.ids
+        
+        target.genes <- nagadraft.ids[target.genes]
+        names(target.genes) <- NULL
+        
+        gene.universe <- nagadraft.ids[gene.universe]
+        names(gene.universe) <- NULL
+        
+        organism.id <- "ngd"
+      } else if(input$microalgae == "knitens")
+      {
+        knitens.ko <- select(org.Knitens.eg.db,columns = c("KO"),keys=keys(org.Knitens.eg.db,keytype = "GID"))
+        ko.universe <- knitens.ko$KO
+        ko.universe <- ko.universe[!is.na(ko.universe)]
+        
+        target.ko <- subset(knitens.ko,GID %in% target.genes)$KO
+        target.ko <- target.ko[!is.na(target.ko)]
+        
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        
+        for(i in 1:nrow(pathway.enrichment))
+        {
+          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+          
+          current.genes <- c()
+          for(j in 1:length(current.Ks))
+          {
+            current.genes <- c(current.genes,subset(knitens.ko, KO == current.Ks[j])$GID)
+          }
+          
+          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+        }
       }
       
       ## Compute KEGG pathway enrichment
-      pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
-                                       universe = gene.universe,qvalueCutoff = input$pvalue)
-      
+      if (input$microalgae != "knitens")
+      {
+        pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
+                                         universe = gene.universe,qvalueCutoff = input$pvalue)
+      }
       
       pathway.enrichment.result <- as.data.frame(pathway.enrichment)
-      
+
       if(nrow(pathway.enrichment.result) > 0)
       {
         kegg.intro.text <- paste(c("This tab presents the results from the <b>KEGG pathways/modules enrichment analysis</b> 
@@ -721,6 +785,20 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(phatri.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if (input$microalgae == "ngaditana")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(naga.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
+        } else if (input$microalgae == "knitens")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
+          }
         }
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
@@ -744,6 +822,12 @@ with the corresponding GO term.")
         } else if(input$microalgae == "ptricornutum")
         {
           gene.link.function <- phaeodactylum.gene.link
+        } else if(input$microalgae == "ngaditana")
+        {
+          gene.link.function <- ngaditana.gene.link
+        } else if(input$microalgae == "knitens")
+        {
+          gene.link.function <- knitens.gene.link
         }
         
         for(i in 1:length(kegg.enriched.genes))
@@ -782,10 +866,19 @@ assocated to the enriched pathway represented in the corresponding row."
       ## Figures for KEGG pathway enrichment analysis
       
       ## Prepare gene set for representation
-      genes.pathway <- rep(0, length(gene.universe))
-      names(genes.pathway) <- gene.universe
-
-      genes.pathway[target.genes] <- 1
+      if(input$microalgae == "knitens")
+      {
+        genes.pathway <- rep(0, length(ko.universe))
+        names(genes.pathway) <- ko.universe
+        
+        genes.pathway[target.ko] <- 1
+      } else 
+      {
+        genes.pathway <- rep(0, length(gene.universe))
+        names(genes.pathway) <- gene.universe
+        
+        genes.pathway[target.genes] <- 1
+      }
 
       pathways.for.select <- paste(pathways.result.table[["KEGG ID"]], pathways.result.table[["Description"]], sep=" - ")
       
@@ -798,9 +891,15 @@ assocated to the enriched pathway represented in the corresponding row."
           selectInput(inputId = "kegg_pathway", label="Choose Pathway for Representation",multiple = FALSE,selected = pathways.for.select[1],
                       choices=pathways.for.select)
       })
-      
-      modules.enrichment <- enrichMKEGG(gene = target.genes, organism = organism.id, keyType = "kegg")
-      
+    
+      if( input$microalgae == "knitens")
+      {
+        modules.enrichment <- enrichMKEGG(gene = target.ko, universe = ko.universe, organism = "ko", keyType = "kegg",minGSSize = 4)
+      } else
+      {
+        modules.enrichment <- enrichMKEGG(gene = target.genes, universe = gene.universe, organism = organism.id, keyType = "kegg",minGSSize = 4)
+      }
+
       modules.enrichment.result <- as.data.frame(modules.enrichment)
 
       if(nrow(modules.enrichment.result) > 0)
@@ -832,6 +931,20 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(phatri.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
+        } else if(input$microalgae == "ngaditana")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+          }
+        } else if(input$microalgae == "knitens")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(strsplit(modules.enriched.genes[i],split="/")[[1]],collapse=" ")
+          }
         }
 
         modules.result.table <- data.frame(modules.enrichment.result$ID, modules.enrichment.result$Description,
@@ -855,6 +968,12 @@ assocated to the enriched pathway represented in the corresponding row."
         } else if(input$microalgae == "ptricornutum")
         {
           gene.link.function <- phaeodactylum.gene.link
+        } else if(input$microalgae == "ngaditana")
+        {
+          gene.link.function <- ngaditana.gene.link
+        } else if(input$microalgae == "knitens")
+        {
+          gene.link.function <- knitens.gene.link
         }
         
         for(i in 1:length(modules.enriched.genes))
@@ -913,6 +1032,12 @@ assocated to the enriched pathway represented in the corresponding row."
       } else if(input$microalgae == "ptricornutum")
       {
         organism.id <- "pti"
+      } else if(input$microalgae == "ngaditana")
+      {
+        organism.id <- "ngd"
+      } else if(input$microalgae == "knitens")
+      {
+        organism.id <- "ko"
       }
       
         output$kegg_image <- renderImage({
