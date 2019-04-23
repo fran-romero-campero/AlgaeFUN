@@ -154,8 +154,6 @@ genes <- genes[1:1000]
 
 gene.body.signal <- matrix(0,nrow=length(genes),ncol=100)
 
-i <- 1
-
 for(i in 1:length(genes))
 {
   ## Printing current gene and extracting the features for the next two 
@@ -179,12 +177,11 @@ for(i in 1:length(genes))
   widths <- width(current.gene.data)
   
   ## Getting the signal for the current gene data
-  cvglists <- sapply(bigwig.files, import, 
+  cvglists <- sapply(input$bw_file, import, 
                      format="BigWig", 
                      which=current.gene.data, 
                      as="RleList")
   ## You may want to change the names of the conditions here
-  names(cvglists) <- c("Col-0", "clfswn")
   
   #names(cvglists) <- c("Col-0", "atbmi1abc") # example atbmi1abc vs Col-0
   if(widths[1] > 100)
@@ -193,19 +190,56 @@ for(i in 1:length(genes))
                                 upstream=recenter.value[1], downstream=recenter.value[1],n.tile=100) 
     
     
-    final.result.col[i,] <- sig[["Col-0"]][1,]
-    final.result.mut[i,] <- sig[["clfswn"]][1,]
-    
-    #final.result.mut[i,] <- sig[["atbmi1abc"]][1,] # example atbmi1abc vs Col-0
+    gene.body.signal[i,] <- sig[[1]][1,]
   }
 }
 
 ## Computing the average signal for each condition
-mean.col <- colMeans(final.result.col)
-mean.mut <- colMeans(final.result.mut)
+mean.gene.body.signal <- colMeans(gene.body.signal)
 
 ## Merging the signal from the TSS, the gene body and TES
-col.merged <- c(colMeans(signal.around.tss[["Col-0"]],na.rm = TRUE)[1:25],mean.col,colMeans(signal.around.tes[["Col-0"]],na.rm = TRUE)[26:50])
+tss.profile <- colMeans(tss.sig[[1]],na.rm = TRUE)
+tes.profile <- colMeans(tes.sig[[1]],na.rm = TRUE)
+
+
+tss.profile.to.plot <- tss.profile[1:(length(tss.profile)/2)]
+tes.profile.to.plot <- tes.profile[1:(length(tes.profile)/2)]
+
+length(tss.profile.to.plot)
+length(tes.profile.to.plot)
+
+n <- 4
+
+
+step.to.take.tss <- length(tss.profile.to.plot)/(length(mean.gene.body.signal)/n)
+step.to.take.tes <- length(tes.profile.to.plot)/(length(mean.gene.body.signal)/n)
+
+tss.profile.to.plot <- tss.profile.to.plot[seq(from=1,to=length(tss.profile),by=step.to.take.tss)]
+tes.profile.to.plot <- tes.profile.to.plot[seq(from=1,to=length(tes.profile),by=step.to.take.tes)]
+
+mean.merged <- c(tss.profile.to.plot,
+                 mean.gene.body.signal,
+                 tes.profile.to.plot)
+
+plot(mean.merged,type="l",col="blue",lwd=3,ylab="",cex.lab=2,axes=FALSE,xlab="")#,ylim=c(0,830))
+polygon(c(1,1:length(mean.merged),length(mean.merged)),
+        c(0,mean.merged,0),col="lightblue")
+
+axis(side = 1,
+     labels = c(-input$tes_length,
+                -input$tes_length/2,
+                "TES",
+                input$tes_length/2,
+                input$tes_length),
+     at = c(1,
+            number.tiles.tes/4,
+            number.tiles.tes/2,
+            3*number.tiles.tes/4,
+            number.tiles.tes),
+     lwd=2,cex=1.5,las=2,cex=2)
+
+
+
 mut.merged <- c(colMeans(signal.around.tss[["clfswn"]],na.rm = TRUE)[1:25],mean.mut,colMeans(signal.around.tes[["clfswn"]],na.rm = TRUE)[26:50])
 
 
