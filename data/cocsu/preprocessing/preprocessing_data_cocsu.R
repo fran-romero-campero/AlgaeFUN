@@ -5,8 +5,9 @@
 ## Documentation on how to generate org.db packages can be found on these links:
 ## http://bioconductor.org/packages/release/bioc/vignettes/AnnotationForge/inst/doc/MakingNewOrganismPackages.html
 ## 
-cocsu.info <- read.table(file="CsubellipsoideaC169_227_v2.0.annotation_info.txt",header=F,comment.char = "",sep = "\t",as.is=T, fill=T)
+cocsu.info <- read.table(file="CsubellipsoideaC169_227_v2.0.annotation_info.txt",header=F,comment.char = "",sep = "\t",as.is=T)
 head(cocsu.info)
+nrow(cocsu.info)
 
 ## Generate and write output data frame
 id.cocsu.name <- data.frame(GID=cocsu.info$V2,GENENAME=cocsu.info$V2,stringsAsFactors = FALSE)

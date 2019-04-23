@@ -23,6 +23,7 @@
 # input <- list(microalgae = "ptricornutum", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
+# input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
 
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
@@ -30,6 +31,7 @@
 # target.genes <- read.table(file="example_files/example_ptricornutum.txt", as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_ngaditana_1.txt", as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_knitens.txt", as.is=T)[[1]]
+# target.genes <- read.table(file="example_files/example_csubellipsoidea.txt", as.is=T)[[1]]
 
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
@@ -46,6 +48,7 @@ library(org.Vcarteri.eg.db)
 library(org.Ptricornutum.eg.db)
 library(org.Ngaditana.eg.db)
 library(org.Knitens.eg.db)
+library(org.Csubellipsoidea.eg.db)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -53,14 +56,16 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Volvox carteri",
                       "Phaeodactylum tricornutum",
                       "Nannochloropsis gaditana",
-                      "Klebsormidium nitens")
+                      "Klebsormidium nitens",
+                      "Coccomyxa subellipsoidea")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
                              "vcarteri",
                              "ptricornutum", 
                              "ngaditana",
-                             "knitens")
+                             "knitens",
+                             "csubellipsoidea")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
