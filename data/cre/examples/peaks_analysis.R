@@ -1,10 +1,14 @@
-## Author: Francisco J. Romero-Campero, Ana Belén Romero-Losada
-## Date: November 2018
+## Author: Ana Belén Romero-Losada,  Francisco J. Romero-Campero
+## Date: April 2019
 ## Contact: fran@us.es
 
 ## Loading packages
 library(ChIPseeker)
+library(ChIPpeakAnno)
+library(rtracklayer)
+
 library(TxDb.Creinhardtii.Phytozome)
+
 library(clusterProfiler)
 
 ## Auxiiary functions
@@ -13,7 +17,12 @@ extract.annotation <- function(annotation.str)
   return(strsplit(x = annotation.str,split=" \\(")[[1]][1])
 }
 
-input <- list(analysis = "genomic_locations", peaks="output_peaks.narrowPeak", promoter_length=1000,selected_genomic_features=c("Promoter","Gene Body"))
+input <- list(analysis = "genomic_locations", 
+              peaks="output_peaks.narrowPeak", 
+              promoter_length=1000,
+              tes_length=1000,
+              selected_genomic_features=c("Promoter","Gene Body"),
+              bw_file="chip.bw")
 # gene_set
 
 ## Define transcript data base for the corresponding microalgae
@@ -26,12 +35,12 @@ peaks <- readPeakFile(peakfile = input$peaks,header=FALSE)
 promoter <- getPromoters(TxDb=txdb, upstream=input$promoter_length, downstream=input$promoter_length)
 
 ## Plot signal in promoter
-plotAvgProf(tagMatrix, xlim=c(-input$promoter_length, input$promoter_length),
-            xlab="Genomic Region (5'->3')", ylab = "Signal")
+#plotAvgProf(tagMatrix, xlim=c(-input$promoter_length, input$promoter_length),
+#            xlab="Genomic Region (5'->3')", ylab = "Signal")
 
 
 ## Annotate genomic loci
-peakAnno <- annotatePeak(peak, tssRegion=c(-input$promoter_length, input$promoter_length),
+peakAnno <- annotatePeak(peaks, tssRegion=c(-input$promoter_length, input$promoter_length),
                          TxDb=txdb)#, annoDb="org.Creinhardtii.eg.db")
 
 ## Plot pie chart with annotation
@@ -44,13 +53,11 @@ plotAnnoPie(peakAnno)
 ## Plot distance to tss
 plotDistToTSS(peakAnno,
               title="Distribution of genomic loci relative to TSS",ylab = "Genomic Loci (%) (5' -> 3')")
-
+dev.off()
 ## Extract genes 
 peak.annotation <- as.data.frame(peakAnno)
 simple.annotation <- sapply(X = as.vector(peak.annotation$annotation),FUN = extract.annotation)
 names(simple.annotation) <- NULL
-
-
 
 genes.promoter <- peak.annotation$geneId[simple.annotation == "Promoter"]
 genes.5utr <- peak.annotation$geneId[simple.annotation == "5' UTR"]
@@ -58,33 +65,148 @@ genes.3utr <- peak.annotation$geneId[simple.annotation == "3' UTR"]
 genes.exon <- peak.annotation$geneId[simple.annotation == "Exon"]
 genes.intron <- peak.annotation$geneId[simple.annotation == "Intron"]
 
-selected.genes <- c(genes.promoter, genes.5utr,genes.3utr,genes.exon,genes.intron)
-length(selected.genes)
+## Select final gene set
+genes <- c()
+if( "Promoter" %in% input$selected_genomic_features )
+{
+  genes <- c(genes,genes.promoter)
+}
+
+if("Gene Body" %in% input$selected_genomic_features)
+{
+  genes <- c(genes,genes.5utr,genes.3utr,genes.exon,genes.intron)
+}
+
+genes <- unique(genes)
+
+length(genes)
+
+## Metagene plot
+
+## Extraction of the genomic features of the specified genes.
+genes.data <- subset(genes(txdb), gene_id %in% genes)
+
+## Extraction of the TSS 
+genes.tss <- resize(genes.data, width=1, fix='start')
+
+## Centering around TSS with promoter length
+around.genes.tss <- genes.tss
+start(around.genes.tss) <- start(genes.tss) - input$promoter_length
+end(around.genes.tss) <- end(genes.tss) + input$promoter_length
+feature.recentered <- around.genes.tss
+
+## Importing bigWig file
+cvglists <- sapply(input$bw_file, import, 
+                   format="BigWig", 
+                   which=feature.recentered, 
+                   as="RleList")
+
+## Extracting the signal around TSS with promoter length
+number.tiles <- 2*input$promoter_length/10
+tss.sig <- featureAlignedSignal(cvglists, around.genes.tss, 
+                                upstream=input$promoter_length, 
+                                downstream=input$promoter_length,
+                                n.tile=number.tiles) 
+
+## Plotting the results around TSS (you may have to change the names of the conditions)
+profile.to.plot <- colMeans(tss.sig[[1]],na.rm = TRUE)
+plot(profile.to.plot,type="l",col="blue",lwd=3,ylab="",cex.lab=2,axes=FALSE,xlab="")#,ylim=c(0,830))
+polygon(c(1,1:length(profile.to.plot),length(profile.to.plot)),
+        c(0,profile.to.plot,0),col="lightblue")
+
+axis(side = 1,
+     labels = c(-input$promoter_length,-input$promoter_length/2,
+                "TSS",
+                input$promoter_length/2,input$promoter_length),
+     at = c(1,number.tiles/4,number.tiles/2,3*number.tiles/4,number.tiles),lwd=2,cex=1.5,las=2,cex=2)
+
+## Extraction of the TES
+genes.tes <- resize(genes.data, width=1, fix='end')
+head(genes.tes)
+
+## Centering around TES 
+around.genes.tes <- genes.tes
+start(around.genes.tes) <- start(genes.tes) - input$tes_length
+end(around.genes.tes) <- end(genes.tes) + input$tes_length
+
+## Extracting the signal 2kb from the center with 50 tile (This may be slow)
+number.tiles.tes <- 2 * input$tes_length /10
+tes.sig <- featureAlignedSignal(cvglists, around.genes.tes, 
+                                upstream=input$tes_length, 
+                                downstream=input$tes_length,
+                                n.tile=number.tiles.tes) 
+
+## Plotting the results around TES
+profile.to.plot <- colMeans(tes.sig[[1]],na.rm = TRUE)
+plot(profile.to.plot,type="l",col="blue",lwd=3,ylab="",cex.lab=2,axes=FALSE,xlab="")#,ylim=c(0,830))
+polygon(c(1,1:length(profile.to.plot),length(profile.to.plot)),
+        c(0,profile.to.plot,0),col="lightblue")
+
+axis(side = 1,
+     labels = c(-input$tes_length,-input$tes_length/2,
+                "TES",
+                input$tes_length/2,input$tes_length),
+     at = c(1,number.tiles.tes/4,number.tiles.tes/2,3*number.tiles.tes/4,number.tiles.tes),lwd=2,cex=1.5,las=2,cex=2)
 
 
-unique(simple.annotation)
+## Extracting signal for the entire gene
+genes <- genes[1:1000]
+
+gene.body.signal <- matrix(0,nrow=length(genes),ncol=100)
+
+i <- 1
+
+for(i in 1:length(genes))
+{
+  ## Printing current gene and extracting the features for the next two 
+  ## genes
+  print(i)
+  current.gene.data <- genes.data[c(i,i+1),]
+  
+  ## Values for recentering (length of each feature divided by two)
+  recenter.value <- floor(width(current.gene.data)/2)
+  
+  ## Centering features
+  centered.current.gene.data <- current.gene.data
+  start(centered.current.gene.data[1,]) <- start(centered.current.gene.data[1,]) + recenter.value[1]
+  start(centered.current.gene.data[2,]) <- start(centered.current.gene.data[2,]) + recenter.value[2]
+  end(centered.current.gene.data) <- start(centered.current.gene.data)
+  
+  start(current.gene.data[2,]) <- start(centered.current.gene.data[2,]) - recenter.value[1]
+  end(current.gene.data[2,]) <- end(centered.current.gene.data[2,]) + recenter.value[1] -1
+  
+  ## Getting widths of the features
+  widths <- width(current.gene.data)
+  
+  ## Getting the signal for the current gene data
+  cvglists <- sapply(bigwig.files, import, 
+                     format="BigWig", 
+                     which=current.gene.data, 
+                     as="RleList")
+  ## You may want to change the names of the conditions here
+  names(cvglists) <- c("Col-0", "clfswn")
+  
+  #names(cvglists) <- c("Col-0", "atbmi1abc") # example atbmi1abc vs Col-0
+  if(widths[1] > 100)
+  {
+    sig <- featureAlignedSignal(cvglists, current.gene.data, #n.tile=100)
+                                upstream=recenter.value[1], downstream=recenter.value[1],n.tile=100) 
+    
+    
+    final.result.col[i,] <- sig[["Col-0"]][1,]
+    final.result.mut[i,] <- sig[["clfswn"]][1,]
+    
+    #final.result.mut[i,] <- sig[["atbmi1abc"]][1,] # example atbmi1abc vs Col-0
+  }
+}
+
+## Computing the average signal for each condition
+mean.col <- colMeans(final.result.col)
+mean.mut <- colMeans(final.result.mut)
+
+## Merging the signal from the TSS, the gene body and TES
+col.merged <- c(colMeans(signal.around.tss[["Col-0"]],na.rm = TRUE)[1:25],mean.col,colMeans(signal.around.tes[["Col-0"]],na.rm = TRUE)[26:50])
+mut.merged <- c(colMeans(signal.around.tss[["clfswn"]],na.rm = TRUE)[1:25],mean.mut,colMeans(signal.around.tes[["clfswn"]],na.rm = TRUE)[26:50])
 
 
 
-table(simple.annotation)/sum(table(simple.annotation))
-
-subset(peak.annotation,annotation == "Promoter")$geneId
-
-
-
-
-
-nrow(peak.annotation)
-
-table(peak.annotation$annotation)
-
-
-11316/nrow(peak.annotation)
-
-promoter <- getPromoters(TxDb=txdb, upstream=input$promoter_upstream, downstream=input$promoter_downstream)
-tagMatrixList <- lapply(input$peaks, getTagMatrix, windows=promoter)
-plotAvgProf(tagMatrixList, xlim=c(-input$promoter_upstream, input$promoter_downstream))
-
-plotAvgProf(tagMatrixList, xlim=c(-1000, 1000), conf=0.95,resample=500, facet="row")
-
-tagHeatmap(tagMatrixList, xlim=c(-1000, 1000), color=NULL)
