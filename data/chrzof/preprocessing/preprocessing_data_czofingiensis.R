@@ -3,11 +3,11 @@ czof.data <- read.table(file = "Czofingiensis_461_v5.2.3.2.annotation_info.txt",
 
 ## Check that the data frame has the same number of rows as the corresponding file
 nrow(czof.data)
-
+head(czof.data)
 ## Generate GENENAME data frame
 gene.name.data.frame <- data.frame(GID=czof.data$locusName,GENENAME=czof.data$locusName,stringsAsFactors = FALSE)
 nrow(gene.name.data.frame)
-head(id.czof.name)
+head(gene.name.data.frame)
 gene.name.data.frame <- gene.name.data.frame[!duplicated(gene.name.data.frame),]
 nrow(gene.name.data.frame)
 
@@ -181,7 +181,7 @@ makeOrgPackage(go=go.data.frame,
                PFAM=pfam.data.frame,
                version = "0.1",
                maintainer = "Francisco J. Romero-Campero <fran@us.es>",
-               author = "Christina Arvanitidou",
+               author = "Pedro de los Reyes <pedro.reyes@ibvf.csic.es>",
                outputDir = ".", 
                tax_id = "31302",
                genus = "Chromochloris",
