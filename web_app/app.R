@@ -57,7 +57,8 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Phaeodactylum tricornutum",
                       "Nannochloropsis gaditana",
                       "Klebsormidium nitens",
-                      "Coccomyxa subellipsoidea")
+                      "Coccomyxa subellipsoidea",
+                      "Bathycoccus prasinos")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -65,7 +66,8 @@ names(microalgae.names) <- c("otauri",
                              "ptricornutum", 
                              "ngaditana",
                              "knitens",
-                             "csubellipsoidea")
+                             "csubellipsoidea",
+                             "bprasinos")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -89,6 +91,18 @@ ostta.gene.link <- function(gene.name)
                         "\" target=\"_blank\">",
                         gene.name, "</a>"),
                       collapse="")
+  return(gene.link)
+}
+
+#Bathy gene link to ORCAE
+bathy.gene.link <- function(gene.name)
+{
+  orcae.link <- paste0("https://bioinformatics.psb.ugent.be/orcae/annotation/Bathy/current/",gene.name)
+  gene.link <- paste(c("<a href=\"",
+                       orcae.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
   return(gene.link)
 }
 
@@ -409,6 +423,10 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Knitens.eg.db
       microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
+    }else if (input$microalgae == "bathy")
+    {
+      org.db <- org.Bprasinos.eg.db
+      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
