@@ -38,7 +38,7 @@
 library(shinycssloaders)
 library(shiny)
 library(clusterProfiler)
-library(pathview)
+#library(pathview)
 
 ## Load microalgae annotation packages
 library(org.Otauri.eg.db)
@@ -251,7 +251,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       ),
       
       column(
-        #The user can either insert your own background list or use ours. 
+        #The user can either insert his/her own background list or use ours. 
         radioButtons(inputId = "input_mode",
                    label = "Would you rather use your own background set?", 
                    choices = c("Yes", 
@@ -272,7 +272,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         actionButton(inputId = "clear_gene_set",label = "Clear"),
         fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload"),
 
-        #This panel wil only appear if the user wants to use his/her own background list. 
+        #This panel will only appear if the user wants to use his/her own background list. 
         conditionalPanel(condition = "input.input_mode == 'Yes'",
                          textAreaInput(inputId = "background", label= "Background set", width="200%", 
                                        height = "100px",placeholder = "Insert background list",
@@ -313,28 +313,34 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(), tags$br(),
                            dataTableOutput(outputId = "output_go_table"),
                            htmlOutput(outputId = "revigo"),
+                           downloadButton(outputId= "downloadData", "Get GO terms of each gene"),
                            tags$br(),
                            htmlOutput(outputId = "go_graph"),
                            tags$br(), tags$br(),
                            div(style= "overflow:scroll; height:500px;", 
                                        plotOutput(outputId = "go.plot", inline = TRUE)),
-                           downloadButton(outputId= "downloadImage", "Get GO map"),
+                           downloadButton(outputId= "downloadImage", "Get this GO plot"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "barplot_text"),
                            tags$br(),
                            plotOutput(outputId = "bar.plot",inline=TRUE),
+                           downloadButton(outputId= "downloadbarplot", "Get this plot"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "dotplot_text"),
                            tags$br(),
                            plotOutput(outputId = "dot.plot",inline=TRUE),
+                           downloadButton(outputId= "downloadotplot", "Get this plot"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "emapplot_text"),
                            tags$br(),
                            plotOutput(outputId = "emap.plot",inline=TRUE),
+                           downloadButton(outputId= "downloademapplot", "Get this plot"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "cnetplot_text"),
                            tags$br(),
-                           plotOutput(outputId = "cnet.plot",inline=TRUE)
+                           plotOutput(outputId = "cnet.plot",inline=TRUE),
+                           downloadButton(outputId= "downloadcnetplot", "Get this plot")
+                           
                            ),
                            #align = "center"),
                   tabPanel("KEGG pathway", 
@@ -573,21 +579,32 @@ annotated with the GO term represented in the corresponding row."
         output$output_go_table <- renderDataTable({
           go.result.table.with.links #go.result.table
         },escape=FALSE,options =list(pageLength = 5)) 
+        ## Download result
+        output$downloadData<- downloadHandler(
+          filename= function() {
+              paste("godata-",microalgae.names[input$microalgae] , ".csv", sep="")
+            },
+          content= function(file) {
+            write.csv(go.result.table,
+                      file,
+                      row.names=TRUE
+                      )
+          })
         
         ## Link to REVIGO 
-        revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
-        
-        url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
-        url2 <- tags$form(
-          name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank", 
-          tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText", 
-                        style="visibility: hidden", revigo.data) 
-        )
-        
-        output$revigo<- renderUI(
-          tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
-        )
-        
+        # revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+        # 
+        # url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
+        # url2 <- tags$form(
+        #   name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
+        #   tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
+        #                 style="visibility: hidden", revigo.data)
+        # )
+        # 
+        # output$revigo<- renderUI(
+        #   tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
+        # )
+        # 
         
         go.graph.text <- "The following acyclic graph represents the GO term enrichment
         in the target gene set. Each node stands for a GO term. The color of each node
