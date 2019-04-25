@@ -1,0 +1,16 @@
+Package: TxDb.Bprasinos.Orcae
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from Orcae by exposing these as TxDb objects
+Version: 0.1
+Author: Ana B. Romero-Losada, Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.34.7)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Bathycoccus prasinos
+species: Bathycoccus prasinos
+provider: Orcae
+provider_version: Orcae
+release_date: 2019-04-25 14:06:24 +0200 (Thu, 25 Apr 2019)
+resource_url: https://bioinformatics.psb.ugent.be/orcae/
+biocViews: AnnotationData, Genetics, TxDb, Bathycoccus_prasinos
