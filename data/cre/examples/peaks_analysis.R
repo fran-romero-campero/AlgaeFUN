@@ -208,6 +208,10 @@ for(i in 1:length(genes))
   }
 }
 
+i <- 1
+plot(gene.body.signal[i,],type="l")
+i <- i + 1
+
 ## Computing the average signal for each condition
 mean.gene.body.signal <- colMeans(gene.body.signal)
 
@@ -225,43 +229,48 @@ tes.profile[101]
 mean.gene.body.signal[100]
 
 
-tss.profile.to.plot <- tss.profile[1:(length(tss.profile)/2)]
-tes.profile.to.plot <- tes.profile[((length(tes.profile)/2)+1):length(tes.profile)]
+tss.profile.to.plot <- profile.around.tss[1:number.tiles/2]
+tes.profile.to.plot <- profile.around.tes[number.tiles.tes/2:number.tiles.tes]
 
 length(tss.profile.to.plot)
 length(tes.profile.to.plot)
 
 n <- 4
 
-
 step.to.take.tss <- length(tss.profile.to.plot)/(length(mean.gene.body.signal)/n)
 step.to.take.tes <- length(tes.profile.to.plot)/(length(mean.gene.body.signal)/n)
 
 tss.profile.to.plot.2 <- tss.profile.to.plot[seq(from=1,to=length(tss.profile.to.plot),by=step.to.take.tss)]
-tes.profile.to.plot.2 <- tes.profile.to.plot[seq(from=1,to=length(tes.profile),by=step.to.take.tes)]
+tes.profile.to.plot.2 <- tes.profile.to.plot[seq(from=1,to=length(tes.profile.to.plot),by=step.to.take.tes)]
 
 mean.merged <- c(tss.profile.to.plot.2,
                  mean.gene.body.signal,
                  tes.profile.to.plot.2)
+
+# mean.merged <- c(tss.profile.to.plot,
+#                  mean.gene.body.signal,
+#                  tes.profile.to.plot)
 
 plot(mean.merged,type="l",col="blue",lwd=3,ylab="",cex.lab=2,axes=FALSE,xlab="")#,ylim=c(0,830))
 polygon(c(1,1:length(mean.merged),length(mean.merged)),
         c(0,mean.merged,0),col="lightblue")
 
 axis(side = 1,
-     labels = c(-input$tes_length,
-                -input$tes_length/2,
+     labels = c(-input$promoter_length,
+                "TSS",
+                "25%",
+                "50%",
+                "75%",
                 "TES",
-                input$tes_length/2,
                 input$tes_length),
      at = c(1,
-            number.tiles.tes/4,
-            number.tiles.tes/2,
-            3*number.tiles.tes/4,
-            number.tiles.tes),
+            length(tss.profile.to.plot.2),
+            length(tss.profile.to.plot.2) + length(mean.gene.body.signal)/4,
+            length(tss.profile.to.plot.2) + length(mean.gene.body.signal)/2,
+            length(tss.profile.to.plot.2) + 3*length(mean.gene.body.signal)/4,
+            length(tss.profile.to.plot.2) + length(mean.gene.body.signal),
+            length(tss.profile.to.plot.2) + length(mean.gene.body.signal) + length(tes.profile.to.plot.2)),
      lwd=2,cex=1.5,las=2,cex=2)
-
-
 
 ## Visualization of individual genes
 genes.data <- as.data.frame(genes.data)
