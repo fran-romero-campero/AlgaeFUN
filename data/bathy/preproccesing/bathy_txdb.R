@@ -36,9 +36,9 @@ makeTxDbPackage(txdb = microalgae.txdb,
                 maintainer = "Francisco J. Romero-Campero <fran@us.es>", 
                 author = "Ana B. Romero-Losada")
 
-install.packages("./TxDb.Csubellipsoidea.Phytozome/", repos=NULL)
+install.packages("./TxDb.Bprasinos.Orcae/", repos=NULL)
 ## loading packages
-library(TxDb.Csubellipsoidea.Phytozome)
-txdb <- TxDb.Csubellipsoidea.Phytozome
+library(TxDb.Bprasinos.Orcae)
+txdb <- TxDb.Bprasinos.Orcae
 
 genes(txdb)
