@@ -1,0 +1,723 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Apr 6, 2017 09:27:32 +0900 (GMT+9) -->
+<pathway name="path:pti03010" org="pti" number="03010"
+         title="Ribosome"
+         image="http://www.kegg.jp/kegg/pathway/pti/pti03010.png"
+         link="http://www.kegg.jp/kegg-bin/show_pathway?pti03010">
+    <entry id="1" name="ko:K07590" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K07590">
+        <graphics name="K07590" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="614" y="445" width="46" height="17"/>
+    </entry>
+    <entry id="2" name="pti:PHATRDRAFT_10769" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_10769">
+        <graphics name="PHATRDRAFT_10769" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="989" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="pti:PHATRDRAFT_15619" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_15619">
+        <graphics name="PHATRDRAFT_15619" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="469" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="4" name="pti:PHATR_18585" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_18585">
+        <graphics name="PHATR_18585" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="625" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="5" name="pti:PHATRDRAFT_50886" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_50886">
+        <graphics name="PHATRDRAFT_50886" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="623" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="pti:PHATRDRAFT_50701" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_50701">
+        <graphics name="PHATRDRAFT_50701" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="517" y="462" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="pti:PHATRDRAFT_30486" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30486">
+        <graphics name="PHATRDRAFT_30486" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="577" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="pti:PHATR_28147" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_28147">
+        <graphics name="PHATR_28147" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="647" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="pti:PHATRDRAFT_9199" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_9199">
+        <graphics name="PHATRDRAFT_9199" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="546" y="556" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="pti:PHATRDRAFT_28562" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_28562">
+        <graphics name="PHATRDRAFT_28562" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="pti:PHATRDRAFT_26849" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_26849">
+        <graphics name="rps19" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="693" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="pti:PHATR_18559" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_18559">
+        <graphics name="PHATR_18559" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="469" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="pti:PHATRDRAFT_17414" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_17414">
+        <graphics name="PHATRDRAFT_17414" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="521" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="pti:PHATRDRAFT_19314" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_19314">
+        <graphics name="PHATRDRAFT_19314" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="pti:PHATRDRAFT_51066" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_51066">
+        <graphics name="PHATRDRAFT_51066" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="625" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="pti:PHATRDRAFT_21323" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_21323">
+        <graphics name="PHATRDRAFT_21323" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="677" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="pti:PHATRDRAFT_bd477" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_bd477">
+        <graphics name="PHATRDRAFT_bd477" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="833" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="pti:PHATRDRAFT_27118" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_27118">
+        <graphics name="UBI3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="885" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="pti:PHATRDRAFT_31073" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_31073">
+        <graphics name="PHATRDRAFT_31073" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="802" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="ko:K02947" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02947">
+        <graphics name="K02947" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="469" y="802" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="pti:PHATRDRAFT_8686" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_8686">
+        <graphics name="PHATRDRAFT_8686" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="521" y="802" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="pti:PHATRDRAFT_30670" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30670">
+        <graphics name="PHATRDRAFT_30670" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="802" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="pti:PHATR_21073" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_21073">
+        <graphics name="PHATR_21073" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="729" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="pti:PHATRDRAFT_30160" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30160">
+        <graphics name="PHATRDRAFT_30160" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="781" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="pti:PHATRDRAFT_23748" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_23748">
+        <graphics name="PHATRDRAFT_23748" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="937" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="pti:PHATRDRAFT_17324" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_17324">
+        <graphics name="PHATRDRAFT_17324" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="555" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="pti:PHATRDRAFT_17545" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_17545">
+        <graphics name="PHATRDRAFT_17545" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="28" name="ko:K01985" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01985">
+        <graphics name="K01985" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="543" y="89" width="46" height="17"/>
+    </entry>
+    <entry id="29" name="ko:K01982" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01982">
+        <graphics name="K01982" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="497" y="106" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="ko:K01980" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01980">
+        <graphics name="K01980" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="497" y="89" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="ko:K01981" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01981">
+        <graphics name="K01981" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="543" y="106" width="46" height="17"/>
+    </entry>
+    <entry id="32" name="ko:K02864" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02864">
+        <graphics name="K02864" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="797" y="453" width="46" height="17"/>
+    </entry>
+    <entry id="33" name="ko:K02867" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02867">
+        <graphics name="K02867" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="889" y="453" width="46" height="17"/>
+    </entry>
+    <entry id="34" name="pti:PHATR_13361" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_13361">
+        <graphics name="PHATR_13361" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="509" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="35" name="pti:PHATRDRAFT_23324" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_23324">
+        <graphics name="PHATRDRAFT_23324" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="36" name="pti:PHATRDRAFT_19025" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_19025">
+        <graphics name="PHATRDRAFT_19025" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="739" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="37" name="pti:PHATRDRAFT_30660" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30660">
+        <graphics name="PHATRDRAFT_30660" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="797" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="38" name="pti:PHATRDRAFT_28979" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_28979">
+        <graphics name="PHATRDRAFT_28979" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="889" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="39" name="pti:PHATRDRAFT_25375" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_25375">
+        <graphics name="PHATRDRAFT_25375" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="838" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="pti:PHATRDRAFT_14713" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_14713">
+        <graphics name="PHATRDRAFT_14713" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="838" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="ko:K01986" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01986">
+        <graphics name="K01986" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="589" y="106" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="ko:K02886" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02886">
+        <graphics name="K02886" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="647" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="43" name="pti:PHATR_10617" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_10617">
+        <graphics name="PHATR_10617" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="509" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="44" name="ko:K02931" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02931">
+        <graphics name="K02931" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="601" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="45" name="ko:K02933" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02933">
+        <graphics name="K02933" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="739" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="pti:PHATRDRAFT_28359" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_28359">
+        <graphics name="PHATRDRAFT_28359" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="843" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="pti:PHATR_28234" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_28234">
+        <graphics name="rpl2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="647" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="ko:K02874" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02874">
+        <graphics name="K02874" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="463" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="49" name="pti:PHATRDRAFT_50259" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_50259">
+        <graphics name="rpl14" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="463" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="50" name="pti:PHATRDRAFT_43162" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_43162">
+        <graphics name="PHATRDRAFT_43162" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1015" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="pti:PHATRDRAFT_5769" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_5769">
+        <graphics name="PHATRDRAFT_5769" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1015" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="52" name="pti:PHATRDRAFT_31919" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_31919">
+        <graphics name="PHATRDRAFT_31919" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="877" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="53" name="ko:K02881" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02881">
+        <graphics name="K02881" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="877" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="54" name="pti:PHATRDRAFT_29177" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_29177">
+        <graphics name="PHATRDRAFT_29177" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="739" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="55" name="pti:PHATRDRAFT_8024" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_8024">
+        <graphics name="PHATRDRAFT_8024" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="739" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="56" name="ko:K02893" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02893">
+        <graphics name="K02893" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="601" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="ko:K02892" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02892">
+        <graphics name="K02892" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="601" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="58" name="pti:PHATRDRAFT_11032" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_11032">
+        <graphics name="PHATRDRAFT_11032" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="509" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="59" name="ko:K02895" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02895">
+        <graphics name="K02895" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="509" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="60" name="pti:PHATRDRAFT_19615" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_19615">
+        <graphics name="PHATRDRAFT_19615" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="877" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="61" name="ko:K02904" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02904">
+        <graphics name="K02904" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="877" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="62" name="ko:K02907" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02907">
+        <graphics name="K02907" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="969" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="63" name="pti:PHATRDRAFT_22774" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_22774">
+        <graphics name="PHATRDRAFT_22774" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="969" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="64" name="pti:PHATR_25714" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_25714">
+        <graphics name="PHATR_25714" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="521" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="65" name="pti:PHATRDRAFT_30315" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30315">
+        <graphics name="PHATRDRAFT_30315" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="746" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="66" name="pti:PHATRDRAFT_30262" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_30262">
+        <graphics name="PHATRDRAFT_30262" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="831" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="67" name="pti:PHATR_46735" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_46735">
+        <graphics name="PHATR_46735" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="68" name="pti:PHATRDRAFT_19152 pti:PHATRDRAFT_7346" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_19152+pti:PHATRDRAFT_7346">
+        <graphics name="PHATRDRAFT_19152..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="625" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="69" name="pti:PHATR_43840" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_43840">
+        <graphics name="PHATR_43840" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="563" y="462" width="46" height="17"/>
+    </entry>
+    <entry id="70" name="pti:PHATRDRAFT_16125" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_16125">
+        <graphics name="PHATRDRAFT_16125" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="885" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="71" name="pti:PHATRDRAFT_22043" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_22043">
+        <graphics name="UBI1/2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="937" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="72" name="ko:K02928" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02928">
+        <graphics name="K02928" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="989" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="73" name="pti:PHATRDRAFT_8185" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_8185">
+        <graphics name="PHATRDRAFT_8185" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1041" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="74" name="pti:PHATRDRAFT_27125" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_27125">
+        <graphics name="PHATRDRAFT_27125" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="677" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="75" name="pti:PHATRDRAFT_21659" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_21659">
+        <graphics name="PHATRDRAFT_21659" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="785" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="76" name="pti:PHATRDRAFT_44291" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_44291">
+        <graphics name="PHATRDRAFT_44291" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="77" name="pti:PHATRDRAFT_23687" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_23687">
+        <graphics name="PHATRDRAFT_23687" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="729" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="78" name="pti:PHATR_10196" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_10196">
+        <graphics name="PHATR_10196" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="781" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="79" name="pti:PHATRDRAFT_47804" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_47804">
+        <graphics name="PHATRDRAFT_47804" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="833" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="80" name="pti:PHATRDRAFT_34146" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_34146">
+        <graphics name="PHATRDRAFT_34146" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="81" name="pti:PHATRDRAFT_36226" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_36226">
+        <graphics name="PHATRDRAFT_36226" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="469" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="82" name="pti:PHATRDRAFT_39687" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_39687">
+        <graphics name="PHATRDRAFT_39687" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="521" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="83" name="pti:PHATRDRAFT_17846" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_17846">
+        <graphics name="PHATRDRAFT_17846" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="573" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="84" name="ko:K02905" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02905">
+        <graphics name="K02905" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="677" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="85" name="pti:PHATRDRAFT_18859" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_18859">
+        <graphics name="PHATRDRAFT_18859" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="729" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="86" name="pti:PHATRDRAFT_19413" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_19413">
+        <graphics name="PHATRDRAFT_19413" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="781" y="758" width="46" height="17"/>
+    </entry>
+    <entry id="87" name="pti:PHATRDRAFT_51018" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_51018">
+        <graphics name="PHATRDRAFT_51018" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="555" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="88" name="pti:PHATRDRAFT_23079" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_23079">
+        <graphics name="PHATRDRAFT_23079" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="614" y="462" width="46" height="17"/>
+    </entry>
+    <entry id="89" name="pti:PHATRDRAFT_48699" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_48699">
+        <graphics name="PHATRDRAFT_48699" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="670" width="46" height="17"/>
+    </entry>
+    <entry id="90" name="pti:PHATR_25577" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATR_25577">
+        <graphics name="PHATR_25577" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="463" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="91" name="pti:PHATRDRAFT_12238" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_12238">
+        <graphics name="PHATRDRAFT_12238" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="555" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="92" name="ko:K02939" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02939">
+        <graphics name="K02939" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="964" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="93" name="ko:K02935" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02935">
+        <graphics name="K02935" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="705" y="453" width="46" height="17"/>
+    </entry>
+    <entry id="94" name="ko:K02869" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02869">
+        <graphics name="K02869" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="751" y="453" width="46" height="17"/>
+    </entry>
+    <entry id="95" name="pti:PHATRDRAFT_15632 pti:PHATRDRAFT_15740 pti:PHATRDRAFT_44971" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_15632+pti:PHATRDRAFT_15740+pti:PHATRDRAFT_44971">
+        <graphics name="PHATRDRAFT_15632..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="751" y="470" width="46" height="17"/>
+    </entry>
+    <entry id="96" name="ko:K02878" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02878">
+        <graphics name="K02878" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="831" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="97" name="pti:PHATRDRAFT_8720" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_8720">
+        <graphics name="PHATRDRAFT_8720" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="792" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="98" name="ko:K02884" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02884">
+        <graphics name="K02884" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="741" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="99" name="pti:PHATRDRAFT_16511" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_16511">
+        <graphics name="rpl20" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="686" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="100" name="ko:K02888" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02888">
+        <graphics name="K02888" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="531" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="101" name="ko:K02897" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02897">
+        <graphics name="K02897" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="993" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="102" name="ko:K02899" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02899">
+        <graphics name="K02899" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="577" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="103" name="pti:PHATRDRAFT_11953" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_11953">
+        <graphics name="PHATRDRAFT_11953" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="104" name="ko:K02909" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02909">
+        <graphics name="K02909" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="828" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="105" name="ko:K02911" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02911">
+        <graphics name="K02911" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="896" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="106" name="pti:PHATRDRAFT_12292" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_12292">
+        <graphics name="PHATRDRAFT_12292" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="463" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="107" name="pti:PHATRDRAFT_47740" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_47740">
+        <graphics name="PHATRDRAFT_47740" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="732" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="108" name="ko:K02916" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02916">
+        <graphics name="K02916" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="640" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="109" name="ko:K02919" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02919">
+        <graphics name="K02919" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="531" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="110" name="ko:K01977" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01977">
+        <graphics name="K01977" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="647" y="89" width="46" height="17"/>
+    </entry>
+    <entry id="111" name="ko:K01979" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01979">
+        <graphics name="K01979" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="647" y="106" width="46" height="17"/>
+    </entry>
+    <entry id="112" name="ko:K02982" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02982">
+        <graphics name="K02982" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="785" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="113" name="ko:K02986" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02986">
+        <graphics name="K02986" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="669" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="114" name="ko:K02988" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02988">
+        <graphics name="K02988" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="923" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="115" name="ko:K02992" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02992">
+        <graphics name="K02992" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="471" y="445" width="46" height="17"/>
+    </entry>
+    <entry id="116" name="ko:K02994" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02994">
+        <graphics name="K02994" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="693" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="117" name="pti:PHATRDRAFT_9894" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_9894">
+        <graphics name="PHATRDRAFT_9894" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="884" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="118" name="ko:K02946" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02946">
+        <graphics name="K02946" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="463" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="119" name="pti:PHATRDRAFT_48411" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_48411">
+        <graphics name="PHATRDRAFT_48411" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="923" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="120" name="pti:PHATRDRAFT_29097" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_29097">
+        <graphics name="PHATRDRAFT_29097" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="471" y="462" width="46" height="17"/>
+    </entry>
+    <entry id="121" name="pti:PHATRDRAFT_23691" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_23691">
+        <graphics name="PHATRDRAFT_23691" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="693" y="294" width="46" height="17"/>
+    </entry>
+    <entry id="122" name="pti:PHATRDRAFT_17519" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_17519">
+        <graphics name="PHATRDRAFT_17519" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="884" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="123" name="pti:PHATRDRAFT_51291" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_51291">
+        <graphics name="PHATRDRAFT_51291" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="463" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="124" name="pti:PHATRDRAFT_13682" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_13682">
+        <graphics name="PHATRDRAFT_13682" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="556" width="46" height="17"/>
+    </entry>
+    <entry id="125" name="pti:PHATRDRAFT_33660" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_33660">
+        <graphics name="PHATRDRAFT_33660" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="785" y="219" width="46" height="17"/>
+    </entry>
+    <entry id="126" name="ko:K02948" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02948">
+        <graphics name="K02948" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="623" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="127" name="ko:K02950" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02950">
+        <graphics name="K02950" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="517" y="445" width="46" height="17"/>
+    </entry>
+    <entry id="128" name="ko:K02952" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02952">
+        <graphics name="K02952" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="577" y="361" width="46" height="17"/>
+    </entry>
+    <entry id="129" name="ko:K02954" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02954">
+        <graphics name="K02954" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="647" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="130" name="ko:K02956" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02956">
+        <graphics name="K02956" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="546" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="131" name="pti:PHATRDRAFT_9554" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_9554">
+        <graphics name="PHATRDRAFT_9554" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="417" y="277" width="46" height="17"/>
+    </entry>
+    <entry id="132" name="ko:K02965" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02965">
+        <graphics name="K02965" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="693" y="202" width="46" height="17"/>
+    </entry>
+    <entry id="133" name="ko:K02945" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02945">
+        <graphics name="K02945" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="808" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="134" name="ko:K02990" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02990">
+        <graphics name="K02990" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="1056" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="135" name="pti:PHATRDRAFT_19103" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_19103">
+        <graphics name="PHATRDRAFT_19103" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="695" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="136" name="ko:K02963" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02963">
+        <graphics name="K02963" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="1010" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="137" name="ko:K02968" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02968">
+        <graphics name="K02968" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="870" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="138" name="ko:K02970" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02970">
+        <graphics name="K02970" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="931" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="139" name="pti:PHATRDRAFT_6847" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti:PHATRDRAFT_6847">
+        <graphics name="PHATRDRAFT_6847" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="669" y="378" width="46" height="17"/>
+    </entry>
+    <entry id="140" name="ko:K02967" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02967">
+        <graphics name="K02967" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="417" y="539" width="46" height="17"/>
+    </entry>
+    <entry id="141" name="ko:K02944" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02944">
+        <graphics name="K02944" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="1041" y="713" width="46" height="17"/>
+    </entry>
+    <entry id="142" name="ko:K02863" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02863">
+        <graphics name="K02863" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="843" y="453" width="46" height="17"/>
+    </entry>
+    <entry id="143" name="path:pti03010" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?pti03010">
+        <graphics name="TITLE:Ribosome" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="88" y="58" width="95" height="25"/>
+    </entry>
+</pathway>
