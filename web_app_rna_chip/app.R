@@ -55,7 +55,11 @@ library(org.Knitens.eg.db)
 library(org.Csubellipsoidea.eg.db)
 
 ## Load microalgae genome annotation packages
+library(TxDb.Otauri.JGI)
 library(TxDb.Creinhardtii.Phytozome)
+#
+#
+library(TxDb.Ptricornutum.Ensembl.Protists)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -347,7 +351,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        
         actionButton(inputId = "clear_genomic_regions",label = "Clear"),
         fileInput(inputId = "genomic_regions_file",label = "Choose File with the Genomic Regions to Upload",width = "100%"),
-        actionButton(inputId = "genomic.button",label = "Have fun!", icon("send") )                       
+        actionButton(inputId = "genomic_button",label = "Have fuuuuuuuun!", icon("send") )                       
                        ),
       conditionalPanel(condition = "input.go_chip == 'gene_sets'",
                        actionButton(inputId = "go.button",label = "Have fun!", icon("send") )                       
@@ -1160,8 +1164,8 @@ assocated to the enriched pathway represented in the corresponding row."
   })
   
   ## Actions to perform after click on the genomic button
-  observeEvent(input$genomic.butoon,{
-    
+  observeEvent(input$genomic_button,{
+
     ## Select txdb 
     if(input$microalgae == "otauri") 
     {
@@ -1188,10 +1192,37 @@ assocated to the enriched pathway represented in the corresponding row."
     {
       ## TODO
     }
-
+    
+    ## Extract genomic regions from text box or uploaded file
+    if(is.null(input$genonic_regions_file))
+    {
+      genomic.regions <- as.vector(unlist(strsplit(input$genomic_regions, split="\n",
+                                                fixed = TRUE)[1]))
+      
+      chrs <- vector(mode = "character", length=length(genomic.regions))
+      start.points <- vector(mode = "character", length=length(genomic.regions))
+      end.points <- vector(mode = "character", length=length(genomic.regions))
+      
+      for(i in 1:length(genomic.regions))
+      {
+        current.splitted.row <- strsplit(genomic.regions[i],split="\\s+")[[1]]
+        print(current.splitted.row)
+        current.splitted.row <- current.splitted.row[current.splitted.row != ""]
+        chrs[i] <- current.splitted.row[1]
+        start.points[i] <- current.splitted.row[2]
+        end.points[i] <- current.splitted.row[3]
+      }
+      
+      genomic.df <- data.frame(chr=chrs,start=start.points,end=end.points)
+      genomic.regions <- makeGRangesFromDataFrame(df = genomic.df, 
+                                                  seqnames.field = "chr",
+                                                  start.field = "start",
+                                                  end.field = "end")
+    } else
+    {
+      genomic.regions <- readPeakFile(peakfile = input$peaks,header=FALSE)
+    }
   })
-  
-
 })
 
 # Run the application 
