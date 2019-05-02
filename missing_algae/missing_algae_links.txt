@@ -1,0 +1,4 @@
+Aureococcus anophagefferens JGI https://genome.jgi.doe.gov/Auran1/Auran1.home.html
+Cyanidioschyzon merolae JGI https://genome.jgi.doe.gov/Cyamer1/Cyamer1.home.html
+
+Zostera marina PHYTOZOME https://phytozome.jgi.doe.gov/pz/portal.html#!info?alias=Org_Zmarina

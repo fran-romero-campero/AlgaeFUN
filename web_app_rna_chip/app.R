@@ -213,6 +213,12 @@ kegg.module.link <- function(kegg.module)
   return(complete.link)
 }
 
+## Extract annotation from the result of chipseeker
+extract.annotation <- function(annotation.str)
+{
+  return(strsplit(x = annotation.str,split=" \\(")[[1]][1])
+}
+
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   
@@ -225,10 +231,20 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
          sets and genomic locations from a wide collection of microalgae that
          include Chlamydomonas reinhardtii, Ostreococcus tauri, Phaeodactylum tricornutum
          and Nannochlorpsis gaditana."), 
+  tags$br(), 
+  
+  radioButtons(inputId = "go_chip", width="100%",selected="",
+               label="Choose between annotating genes sets geneared, 
+                     for instance, from an RNA-seq analysis or genomics regions
+                     obtained, for instance, from a Chip-seq analysis:",
+               choices=c("Gene set annotation" = "gene_sets",
+                         "Genomic regions annotations" = "genomic_regions"
+               )),
   
   #Interface where the user can choose his/her preferencies, separated by columns
   fluidRow(
       column(width = 5,
+
         #Choose the target microalgae
         selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
                   choices=c("Ostreococcus tauri" = "otauri",
@@ -264,7 +280,22 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                     label="Choose gene ontology:",
                                     choices = c("Biological process" = "BP",
                                                 "Cellular Component" = "CC",
-                                                "Mollecular Function" = "MF")))
+                                                "Mollecular Function" = "MF"))),
+       
+      #Choose a promoter length
+      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+                       sliderInput(inputId = "promoter_length", 
+                                    label= "Choose the distance in base pairs around the 
+                                    Transcriptional Start Site to determine gene promoters", 
+                                    min=100, max=2000,value=1000,step=100)),
+      
+      #Choose a promoter length
+      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+                       checkboxGroupInput(inputId = "selected_genomic_features", 
+                                   label= "A gene will be considered as a target of an input genomic locus
+                                   when it overlaps one of the following gene parts:",
+                                   choices = c("Promoter","5' UTR","Exon","Intron","3' UTR")))
+      
       ),
       
       column( width = 7,
@@ -272,13 +303,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         # tags$b("Choose between annotating genes sets geneared, 
         #              for instance, from an RNA-seq analysis or genomics regions
         #              obtained, for instance, from a Chip-seq analysis:"),
-        radioButtons(inputId = "go_chip", width="100%",selected="",
-                     label="Choose between annotating genes sets geneared, 
-                     for instance, from an RNA-seq analysis or genomics regions
-                     obtained, for instance, from a Chip-seq analysis:",
-                     choices=c("Gene set annotation" = "gene_sets",
-                               "Genomic regions annotations" = "genomic_regions"
-                     )),
         
         conditionalPanel(condition = "input.go_chip == 'gene_sets'",
           #The user can either insert his/her own background list or use ours. 
@@ -351,7 +375,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        
         actionButton(inputId = "clear_genomic_regions",label = "Clear"),
         fileInput(inputId = "genomic_regions_file",label = "Choose File with the Genomic Regions to Upload",width = "100%"),
-        actionButton(inputId = "genomic_button",label = "Have fuuuuuuuun!", icon("send") )                       
+        actionButton(inputId = "genomic_button",label = "Have fun!", icon("send") )                       
                        ),
       conditionalPanel(condition = "input.go_chip == 'gene_sets'",
                        actionButton(inputId = "go.button",label = "Have fun!", icon("send") )                       
@@ -439,11 +463,21 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                   #          downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
                            #htmlOutput(outputId = "revigo"))
                  )
-              )
+              ),
       ######tabpanels also can look like this: 
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
+      
+      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+                       plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
+                       plotOutput(outputId = "distance.to.tss",inline=TRUE),
+                       uiOutput(outputId = "annotated_genes")
       )
-    ))
+      
+      
+      )
+  
+
+))
 
 ## Define server logic
 server <- shinyServer(function(input, output, session) {
@@ -453,6 +487,11 @@ server <- shinyServer(function(input, output, session) {
     updateTextAreaInput(session=session, inputId = "genes",value = "")
   })
   
+  ## Clear content of genomic regions set text area
+  observeEvent(input$clear_genomic_regions, {
+    updateTextAreaInput(session=session, inputId = "genomic_regions",value = "")
+  })
+
   ## Clear content of universe set text area
   observeEvent(input$clear_universe_set, {
     updateTextAreaInput(session=session, inputId = "background",value = "")
@@ -465,6 +504,19 @@ server <- shinyServer(function(input, output, session) {
     updateTextAreaInput(session=session, inputId = "genes",value = paste(example.genes,collapse="\n"))
   })
   
+
+  ## Add an example of gene set to text area
+  observeEvent(input$example_genomic_regions, {
+    example.file <- paste(c("example_files/example_genomic_regions_",input$microalgae,".txt"),collapse="")
+    example.genomic.regions <- read.table(file = example.file,header = F,as.is = T)
+    example.text <- NULL
+    for(i in 1:nrow(example.genomic.regions))
+    {
+      example.text <- paste(example.text,paste(example.genomic.regions[i,],collapse = "\t"),sep="\n")
+    }
+    print(example.text)
+    updateTextAreaInput(session=session, inputId = "genomic_regions",value = example.text)
+  })
   
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
@@ -1194,7 +1246,7 @@ assocated to the enriched pathway represented in the corresponding row."
     }
     
     ## Extract genomic regions from text box or uploaded file
-    if(is.null(input$genonic_regions_file))
+    if(is.null(input$genomic_regions_file))
     {
       genomic.regions <- as.vector(unlist(strsplit(input$genomic_regions, split="\n",
                                                 fixed = TRUE)[1]))
@@ -1206,7 +1258,6 @@ assocated to the enriched pathway represented in the corresponding row."
       for(i in 1:length(genomic.regions))
       {
         current.splitted.row <- strsplit(genomic.regions[i],split="\\s+")[[1]]
-        print(current.splitted.row)
         current.splitted.row <- current.splitted.row[current.splitted.row != ""]
         chrs[i] <- current.splitted.row[1]
         start.points[i] <- current.splitted.row[2]
@@ -1214,14 +1265,132 @@ assocated to the enriched pathway represented in the corresponding row."
       }
       
       genomic.df <- data.frame(chr=chrs,start=start.points,end=end.points)
+      genomic.df <- genomic.df[complete.cases(genomic.df),]
+      print(head(genomic.df))
       genomic.regions <- makeGRangesFromDataFrame(df = genomic.df, 
                                                   seqnames.field = "chr",
                                                   start.field = "start",
                                                   end.field = "end")
     } else
     {
-      genomic.regions <- readPeakFile(peakfile = input$peaks,header=FALSE)
+      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
     }
+    
+    ## Define promoter region around TSS
+    promoter <- getPromoters(TxDb=txdb, 
+                             upstream=input$promoter_length, 
+                             downstream=input$promoter_length)
+    
+    ## Annotate genomic loci
+    peakAnno <- annotatePeak(peak = genomic.regions, tssRegion=c(-input$promoter_length, input$promoter_length),
+                             TxDb=txdb)
+    
+    ## Plot pie chart with annotation
+    output$annotation.pie.chart <- renderPlot(width = 940, height = 900, res = 120, {
+        plotAnnoPie(peakAnno)
+      })
+    
+    ## Plot distance to tss
+    output$distance.to.tss <- renderPlot(width = 940, height = 450, res = 120, {
+      plotDistToTSS(peakAnno,
+                    title="Distribution of genomic loci relative to TSS",
+                    ylab = "Genomic Loci (%) (5' -> 3')")
+      
+    })
+    
+    ## Extract genes 
+    peak.annotation <- as.data.frame(peakAnno)
+    simple.annotation <- sapply(X = as.vector(peak.annotation$annotation),FUN = extract.annotation)
+    names(simple.annotation) <- NULL
+    
+    genes.promoter <- peak.annotation$geneId[simple.annotation == "Promoter"]
+    genes.5utr <- peak.annotation$geneId[simple.annotation == "5' UTR"]
+    genes.3utr <- peak.annotation$geneId[simple.annotation == "3' UTR"]
+    genes.exon <- peak.annotation$geneId[simple.annotation == "Exon"]
+    genes.intron <- peak.annotation$geneId[simple.annotation == "Intron"]
+    
+    ## Select final gene set
+    genes <- c()
+    if( "Promoter" %in% input$selected_genomic_features )
+    {
+      genes <- c(genes,genes.promoter)
+    }
+    if( "5' UTR" %in% input$selected_genomic_features )
+    {
+      genes <- c(genes,genes.5utr)
+    }
+    if( "3' UTR" %in% input$selected_genomic_features )
+    {
+      genes <- c(genes,genes.3utr)
+    }
+    if( "Exon" %in% input$selected_genomic_features )
+    {
+      genes <- c(genes,genes.exon)
+    }
+    if( "Intron" %in% input$selected_genomic_features )
+    {
+      genes <- c(genes,genes.intron)
+    }
+
+    genes <- unique(genes)
+    
+    print(length(genes))
+    print(genes[1:6])
+    
+    output$annotated_genes <- renderUI({
+      selectInput(inputId = "selected_annotated_gene", 
+                  label="Choose a gene to inspect its mark profile",
+                  multiple = FALSE,selected = genes[1],
+                  choices=genes)
+    })
+    
+    selected.annotated.gene.id <- reactive({ 
+      if(is.null(input$selected_annotated_gene))
+      {
+        return()
+      } else
+      {
+        return(input$selected_annotated_gene)
+      }
+    })
+    
+    observeEvent(selected.annotated.gene.id(), {
+      print("VAAAAAMOOOOOOS!!!!")
+      
+      
+      # if(input$microalgae == "creinhardtii")
+      # {
+      #   organism.id <- "cre"
+      # } else if(input$microalgae == "otauri")
+      # {
+      #   organism.id <- "ota"
+      # } else if(input$microalgae == "vcarteri")
+      # {
+      #   organism.id <- "vcn"
+      # } else if(input$microalgae == "ptricornutum")
+      # {
+      #   organism.id <- "pti"
+      # } else if(input$microalgae == "ngaditana")
+      # {
+      #   organism.id <- "ngd"
+      # } else if(input$microalgae == "knitens")
+      # {
+      #   organism.id <- "ko"
+      # }
+      # 
+      # output$kegg_image <- renderImage({
+      #   pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
+      #            pathway.id = enriched.pathway.id(),
+      #            species = organism.id,
+      #            limit = list(gene=max(abs(genes.pathway)), cpd=1),
+      #            gene.idtype ="kegg")
+      #   
+      #   list(src = paste(c(enriched.pathway.id(),"pathview","png"), collapse="."),
+      #        contentType="image/png",width=1200,height=900)
+      # },deleteFile = T)
+    })
+    
+
   })
 })
 
