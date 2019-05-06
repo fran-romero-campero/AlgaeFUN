@@ -35,6 +35,10 @@
 
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
+## Increase max file size allowed to upload to 100MB
+options(shiny.maxRequestSize=100*1024^2)
+
+## Load necessary packages
 library(shinycssloaders)
 library(shiny)
 library(clusterProfiler)
@@ -375,6 +379,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        
         actionButton(inputId = "clear_genomic_regions",label = "Clear"),
         fileInput(inputId = "genomic_regions_file",label = "Choose File with the Genomic Regions to Upload",width = "100%"),
+        fileInput(inputId = "bw_file",label = "Choose BigWig File to Upload for Profile Representations:", width= "100%"),
         actionButton(inputId = "genomic_button",label = "Have fun!", icon("send") )                       
                        ),
       conditionalPanel(condition = "input.go_chip == 'gene_sets'",
@@ -470,7 +475,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
                        plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
                        plotOutput(outputId = "distance.to.tss",inline=TRUE),
-                       uiOutput(outputId = "annotated_genes")
+                       plotOutput(outputId = "tss_signal"),
+                       uiOutput(outputId = "annotated_genes"),
+                       plotOutput(outputId = "individual_gene_profile")
       )
       
       
@@ -1295,9 +1302,8 @@ assocated to the enriched pathway represented in the corresponding row."
       plotDistToTSS(peakAnno,
                     title="Distribution of genomic loci relative to TSS",
                     ylab = "Genomic Loci (%) (5' -> 3')")
-      
     })
-    
+
     ## Extract genes 
     peak.annotation <- as.data.frame(peakAnno)
     simple.annotation <- sapply(X = as.vector(peak.annotation$annotation),FUN = extract.annotation)
@@ -1334,9 +1340,93 @@ assocated to the enriched pathway represented in the corresponding row."
 
     genes <- unique(genes)
     
-    print(length(genes))
-    print(genes[1:6])
+    ## Plot signal around tss
+    ## Extraction of the genomic features of the specified genes.
+    genes.data <- subset(genes(txdb), gene_id %in% genes)
     
+    ## Extraction of the TSS 
+    genes.tss <- resize(genes.data, width=1, fix='start')
+    
+    ## Centering around TSS with promoter length
+    around.genes.tss <- genes.tss
+    start(around.genes.tss) <- start(genes.tss) - input$promoter_length
+    end(around.genes.tss) <- end(genes.tss) + input$promoter_length
+    
+    print("around TSS")
+    print(around.genes.tss)
+    print(input$bw_file$data)
+    print(input$bw_file)
+    ## Importing bigWig file
+    cvglists <- sapply(input$bw_file$data, import,
+                       format="BigWig",
+                       which=around.genes.tss,
+                       as="RleList")
+
+    ## Extracting the signal around TSS with promoter length
+    number.tiles <- 2*input$promoter_length/20
+    tss.sig <- featureAlignedSignal(cvglists, around.genes.tss,
+                                    upstream=input$promoter_length,
+                                    downstream=input$promoter_length,
+                                    n.tile=number.tiles)
+    
+    ## Extraction of the TES
+    genes.tes <- resize(genes.data, width=1, fix='end')
+    
+    ## Centering around TES 
+    around.genes.tes <- genes.tes
+    start(around.genes.tes) <- start(genes.tes) - input$promoter_length
+    end(around.genes.tes) <- end(genes.tes) + input$promoter_length
+    
+    print("around TES")
+    print(around.genes.tes)
+    
+    
+    ## Extracting the signal 2kb from the center with 50 tile (This may be slow)
+    number.tiles.tes <- 2 * input$promoter_length /20
+    tes.sig <- featureAlignedSignal(cvglists, around.genes.tes, 
+                                    upstream=input$promoter_length, 
+                                    downstream=input$promoter_length,
+                                    n.tile=number.tiles.tes) 
+    
+    
+    print("TSS signal:")
+    print(tss.sig)
+    output$tss_signal <- renderPlot({
+      
+    par(mfrow=c(1,2))
+    ## Plotting the results around TSS (you may have to change the names of the conditions)
+    profile.around.tss <- colMeans(tss.sig[[1]],na.rm = TRUE)
+    profile.around.tes <- colMeans(tes.sig[[1]],na.rm = TRUE)
+    max.y <- max(c(profile.around.tss, profile.around.tes))
+    plot(profile.around.tss,type="l",col="blue",lwd=3,ylab="",
+         cex.lab=2,axes=FALSE,xlab="",main="Signal around TSS",cex.main=1.5,ylim=c(0,max.y))
+    polygon(c(1,1:length(profile.around.tss),length(profile.around.tss)),
+            c(0,profile.around.tss,0),col="lightblue")
+  
+    axis(side = 1,
+         labels = c(-input$promoter_length,-input$promoter_length/2,
+                    "TSS",
+                    input$promoter_length/2,input$promoter_length),
+         at = c(1,number.tiles/4,number.tiles/2,3*number.tiles/4,number.tiles),lwd=2,cex=1.5,las=2,cex=2)
+      
+    plot(profile.around.tes,type="l",col="red4",lwd=3,ylab="",
+         cex.lab=2,axes=FALSE,xlab="",main="Signal around TES",cex.main=1.5,ylim=c(0,max.y))#,ylim=c(0,830))
+    polygon(c(1,1:length(profile.around.tes),length(profile.around.tes)),
+            c(0,profile.around.tes,0),col="bisque")
+      
+    axis(side = 1,
+         labels = c(-input$promoter_length,-input$promoter_length/2,
+                    "TES",
+                    input$promoter_length/2,input$promoter_length),
+         at = c(1,number.tiles.tes/4,number.tiles.tes/2,3*number.tiles.tes/4,number.tiles.tes),lwd=2,cex=1.5,las=2,cex=2)
+
+    })
+
+    ## Extract info from genes for profile representations
+    genes.data.df <- as.data.frame(genes.data)
+    exons.data <- as.data.frame(exons(txdb))
+    cds.data <- as.data.frame(cds(txdb))
+
     output$annotated_genes <- renderUI({
       selectInput(inputId = "selected_annotated_gene", 
                   label="Choose a gene to inspect its mark profile",
@@ -1356,8 +1446,224 @@ assocated to the enriched pathway represented in the corresponding row."
     
     observeEvent(selected.annotated.gene.id(), {
       print("VAAAAAMOOOOOOS!!!!")
+      gene.name <- selected.annotated.gene.id()
       
+      target.gene.body <- genes.data.df[gene.name,]
+      target.gene.chr <- as.character(target.gene.body$seqnames)
+      target.gene.start <- target.gene.body$start
+      target.gene.end <- target.gene.body$end
       
+      target.gene.strand <- as.character(target.gene.body$strand)
+      
+      ## Extract cds annotation
+      cds.data.target.gene <- subset(cds.data, 
+                                     seqnames == target.gene.chr & 
+                                       (start >= target.gene.start & 
+                                          end <= target.gene.end))
+      
+      ## Extract exons annotation
+      exons.data.target.gene <- subset(exons.data, 
+                                       seqnames == target.gene.chr & 
+                                         (start >= target.gene.start & 
+                                            end <= target.gene.end))
+      
+      ## Determine the genome range to plot including promoter, gene body and 5' UTR
+      ## This depends on whether the gene is on the forward or reverse strand
+      range.to.plot <- target.gene.body
+      
+      if(target.gene.strand == "+")
+      {
+        range.to.plot$start <- range.to.plot$start - input$promoter_length
+        range.to.plot$end <- range.to.plot$end + input$promoter_length
+      } else if (target.gene.strand == "-")
+      {
+        range.to.plot$end <- range.to.plot$end + input$promoter_length
+        range.to.plot$start <- range.to.plot$start - input$promoter_length
+      }
+      
+      ## Compute the length of the genome range to represent
+      current.length <- range.to.plot$end - range.to.plot$start
+      
+      ## Compute profile in gene
+      selected.bigwig.files <- input$bw_file$data
+      selected.bed.files <- input$genomic_regions_file$data
+      
+      ## Since ChIPpeakAnno needs more than one region to plot our region
+      ## is duplicated 
+      regions.plot <- GRanges(rbind(range.to.plot,range.to.plot))
+      
+      ## Import signal from the bigwig files
+      cvglists <- sapply(selected.bigwig.files, import, 
+                         format="BigWig", 
+                         which=regions.plot, 
+                         as="RleList")
+      
+      ## Compute signal in the region to plot
+      chip.signal <- featureAlignedSignal(cvglists, regions.plot, 
+                                          upstream=ceiling(current.length/2), 
+                                          downstream=ceiling(current.length/2),
+                                          n.tile=current.length) 
+      
+      ## Compute mean signal 
+      if(target.gene.strand == "+")
+      {
+        chip.signal.mean <- colMeans(chip.signal[[1]],na.rm = TRUE)
+      } else if (target.gene.strand == "-")
+      {
+        chip.signal.mean <- rev(colMeans(chip.signal[[1]],na.rm = TRUE))
+      }
+      
+      ## Normalization
+      chip.signal.mean <- 20 * chip.signal.mean / max(chip.signal.mean)
+      
+      ## Determine upper limit of the graph
+      upper.lim <- 21
+      
+      ## Height to draw DNA strand
+      gene.height <- -25
+      cord.x <- 1:current.length
+      
+      ## Exon width to plot
+      exon.width <- 2
+      
+      ## Cds width to plot
+      cds.width <- 3
+      
+      ## Width of the rectangule representing the peak reagion
+      peak.width <- 1
+      
+      ## Extract exons for target gene
+      exons.data.target.gene <- subset(exons.data, seqnames == target.gene.chr & (start >= target.gene.start & end <= target.gene.end))
+      
+      ## Transform exon coordinates to current range
+      min.pos <- min(exons.data.target.gene$start)
+      
+      if(target.gene.strand == "+")
+      {
+        exons.data.target.gene$start <- exons.data.target.gene$start - min.pos + input$promoter_length
+        exons.data.target.gene$end <- exons.data.target.gene$end - min.pos + input$promoter_length
+      } else if(target.gene.strand == "-")
+      {
+        exons.data.target.gene$start <- exons.data.target.gene$start - min.pos + input$tes_length
+        exons.data.target.gene$end <- exons.data.target.gene$end - min.pos + input$tes_length
+      }
+      
+      ## Extract cds for target gene
+      cds.data.target.gene <- subset(cds.data, seqnames == target.gene.chr & (start >= target.gene.start & end <= target.gene.end))
+      
+      ## Transform cds coordinates to current range
+      if(target.gene.strand == "+")
+      {
+        cds.data.target.gene$start <- cds.data.target.gene$start - min.pos + input$promoter_length
+        cds.data.target.gene$end <- cds.data.target.gene$end - min.pos + input$promoter_length
+      } else if (target.gene.strand == "-")
+      {
+        cds.data.target.gene$start <- cds.data.target.gene$start - min.pos + input$tes_length
+        cds.data.target.gene$end <- cds.data.target.gene$end - min.pos + input$tes_length
+      }
+      
+      output$individual_gene_profile <- renderPlot(width = 940, height = 700, res = 120, {
+        plot(cord.x, rep(gene.height,length(cord.x)),type="l",col="black",lwd=3,ylab="",
+             cex.lab=2,axes=FALSE,xlab="",main="",cex.main=2,
+             ylim=c(-35,upper.lim),xlim=c(-3000,max(cord.x)))
+        
+        ## Represent exons
+        for(i in 1:nrow(exons.data.target.gene))
+        {
+          # Determine start/end for each exon
+          current.exon.start <- exons.data.target.gene$start[i]
+          current.exon.end <- exons.data.target.gene$end[i]
+          
+          ## Determine coordinates for each exon polygon and represent it
+          exon.x <- c(current.exon.start,current.exon.end,current.exon.end,current.exon.start)
+          exon.y <- c(gene.height + exon.width, gene.height + exon.width, gene.height - exon.width, gene.height - exon.width)
+          
+          polygon(x = exon.x, y = exon.y, col = "blue",border = "blue")
+        }
+        
+        for(i in 1:nrow(cds.data.target.gene))
+        {
+          # Determine current cds start/end
+          current.cds.start <- cds.data.target.gene$start[i]
+          current.cds.end <- cds.data.target.gene$end[i]
+          
+          # Determine curret cds coordinates for the polygon and represent it
+          cds.x <- c(current.cds.start,current.cds.end,current.cds.end,current.cds.start)
+          cds.y <- c(gene.height + cds.width, gene.height + cds.width, gene.height - cds.width, gene.height - cds.width)
+          
+          polygon(x = cds.x, y = cds.y, col = "blue",border = "blue")
+        }
+        
+        ## Draw arrow to represent transcription direction 
+        if(target.gene.strand == "+")
+        {
+          lines(c(input$promoter_length,input$promoter_length,input$promoter_length+100),y=c(gene.height,gene.height+5,gene.height+5),lwd=3)
+          lines(c(input$promoter_length+50,input$promoter_length+100),y=c(gene.height+6,gene.height+5),lwd=3)
+          lines(c(input$promoter_length+50,input$promoter_length+100),y=c(gene.height+4,gene.height+5),lwd=3)
+        } else if (target.gene.strand == "-")
+        {
+          lines(c(current.length - input$promoter_length, current.length - input$promoter_length, current.length - input$promoter_length-100),y=c(gene.height,gene.height+5,gene.height+5),lwd=3)
+          lines(c(current.length - input$promoter_length-50, current.length - input$promoter_length - 100),y=c(gene.height + 6, gene.height + 5),lwd=3)
+          lines(c(current.length - input$promoter_length-50, current.length - input$promoter_length - 100),y=c(gene.height + 4, gene.height + 5),lwd=3)
+        }
+        
+        ## Draw promoter range
+        if(target.gene.strand == "+")
+        {
+          axis(side = 1,labels = c(- input$promoter_length, - input$promoter_length / 2,"TSS"),at = c(1,input$promoter_length/2,input$promoter_length),lwd=2,cex=1.5,las=2,cex=2)
+        } else if(target.gene.strand == "-")
+        {
+          axis(side = 1,labels = c("TSS",- input$promoter_length / 2,- input$promoter_length),at = c(current.length-input$promoter_length,current.length-input$promoter_length/2, current.length),lwd=2,cex=1.5,las=2,cex=2)
+        }
+        
+        ## Draw gene name
+        text(x = current.length / 2, y = -33 , 
+             labels = bquote(italic(.(gene.name))),cex = 1.7,font = 3)
+        
+        ## Extract bed file name 1 and read it
+        current.peaks <- read.table(file=selected.bed.files,header = F, as.is = T)
+        peak.coordinates <- subset(current.peaks, V1 == range.to.plot$seqnames & V2 >= range.to.plot$start & V3 <= range.to.plot$end) 
+        current.peaks.to.plot <- peak.coordinates[,2:3]
+        
+        ## Transform coordinates 
+        current.peaks.to.plot <- current.peaks.to.plot - range.to.plot$start
+        
+        ## Check if there are peaks for the target gene
+        if(nrow(current.peaks.to.plot) > 0)
+        {
+          #motifs.in.peaks <- vector(mode="list", length=nrow(current.peaks.to.plot))
+          for(j in 1:nrow(current.peaks.to.plot))
+          {
+            ## Extract start and end point of each peak region
+            current.peak.start <- current.peaks.to.plot[j,1]
+            current.peak.end <- current.peaks.to.plot[j,2]
+            
+            ## Computer coordinates for polygon and draw it
+            peak.x <- c(current.peak.start,current.peak.end,
+                        current.peak.end,current.peak.start)
+            peak.y <- c(peak.width - 12,   peak.width - 12, 
+                        - peak.width - 12, - peak.width - 12)  
+            
+            polygon(x = peak.x, y = peak.y, col = "bisque", border = "darkred",lwd=2)
+          }
+        }
+        
+        line.colors <- "blue"
+        area.colors <- "lightblue"
+        
+        ## Draw profiles
+        ## Compute base line for current TF
+        current.base.line <- - 10
+        
+        ## Represent signal from the current TF
+        lines(chip.signal.mean+current.base.line,type="l",col=line.colors,lwd=3)
+        
+        ## Determine polygon coordinates and represent it
+        cord.y <- c(current.base.line,chip.signal.mean+current.base.line,current.base.line)
+        cord.x <- 1:length(cord.y)
+        polygon(cord.x,cord.y,col=area.colors)
+      })
+
       # if(input$microalgae == "creinhardtii")
       # {
       #   organism.id <- "cre"
