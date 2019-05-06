@@ -38,7 +38,7 @@
 library(shinycssloaders)
 library(shiny)
 library(clusterProfiler)
-#library(pathview)
+library(pathview)
 
 ## Load microalgae annotation packages
 library(org.Otauri.eg.db)
@@ -163,6 +163,21 @@ knitens.gene.link <- function(gene.name)
   return(gene.link)
 }
 
+#Cocsu link to phytozome (HASH is replaced by #)
+##https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=0&searchText=fgenesh1_kg.2_#_146_#_4529_0_CBOZ2421.g1_CBOZ_CBPA&offset=0
+cocsu.gene.link <- function(gene.name)
+{
+  gene.name<- gsub(pattern = "HASH", replacement = "\\#", x = gene.name)
+  phytozome.link <- paste(c("https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=0&searchText=",
+                            gene.name,
+                            "&offset=0"),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       phytozome.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
 ## Gene Ontology term link
 # http://amigo.geneontology.org/amigo/term/GO:0015979
 go.link <- function(go.term)
@@ -433,6 +448,10 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Bprasinos.eg.db
       microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
+    }else if (input$microalgae == "csubellipsoidea")
+    {
+      org.db <- org.Csubellipsoidea.eg.db
+      microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
     }
     
     ## Extract genes from text box or uploaded file
@@ -546,6 +565,9 @@ server <- shinyServer(function(input, output, session) {
         } else if (input$microalgae == "knitens")
         {
           gene.link.function <- knitens.gene.link
+        } else if (input$microalgae == "csubellipsoidea")
+        {
+          gene.link.function <- cocsu.gene.link
         }
         
         ## Add link to genes
@@ -591,20 +613,20 @@ annotated with the GO term represented in the corresponding row."
                       )
           })
         
-        ## Link to REVIGO 
-        # revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
-        # 
-        # url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
-        # url2 <- tags$form(
-        #   name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
-        #   tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
-        #                 style="visibility: hidden", revigo.data)
-        # )
-        # 
-        # output$revigo<- renderUI(
-        #   tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
-        # )
-        # 
+        # Link to REVIGO
+        revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+
+        url1 <- tags$a("here", href="#", onclick="document.revigoForm.submit();")
+        url2 <- tags$form(
+          name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
+          tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
+                        style="visibility: hidden", revigo.data)
+        )
+
+        output$revigo<- renderUI(
+          tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
+        )
+
         
         go.graph.text <- "The following acyclic graph represents the GO term enrichment
         in the target gene set. Each node stands for a GO term. The color of each node
@@ -778,10 +800,34 @@ with the corresponding GO term.")
           
           pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
         }
+      } else if(input$microalgae == "csubellipsoidea")
+      {
+        cocsu.ko <- select(org.Csubellipsoidea.eg.db,columns = c("KO"),keys=keys(org.Csubellipsoidea.eg.db,keytype = "GID"))
+        ko.universe <- cocsu.ko$KO
+        ko.universe <- ko.universe[!is.na(ko.universe)]
+        
+        target.ko <- subset(cocsu.ko,GID %in% target.genes)$KO
+        target.ko <- target.ko[!is.na(target.ko)]
+        
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        
+        for(i in 1:nrow(pathway.enrichment))
+        {
+          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+          
+          current.genes <- c()
+          for(j in 1:length(current.Ks))
+          {
+            current.genes <- c(current.genes,subset(cocsu.ko, KO == current.Ks[j])$GID)
+          }
+          
+          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+        }
       }
       
       ## Compute KEGG pathway enrichment
-      if (input$microalgae != "knitens")
+      
+      if (input$microalgae != "knitens" && input$microalgae != "csubellipsoidea")
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
@@ -832,14 +878,14 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(naga.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
-        } else if (input$microalgae == "knitens")
+        } else if (input$microalgae == "knitens" || input$microalgae == "csubellipsoidea")
         {
           kegg.enriched.genes <- pathway.enrichment.result$geneID
           for(i in 1:length(kegg.enriched.genes))
           {
             kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
           }
-        }
+        } 
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
                                             pathway.enrichment.result$pvalue, pathway.enrichment.result$qvalue,
@@ -868,6 +914,9 @@ with the corresponding GO term.")
         } else if(input$microalgae == "knitens")
         {
           gene.link.function <- knitens.gene.link
+        } else if (input$microalgae == "csubellipsoidea")
+        {
+          gene.link.function <- cocsu.gene.link
         }
         
         for(i in 1:length(kegg.enriched.genes))
@@ -906,7 +955,7 @@ assocated to the enriched pathway represented in the corresponding row."
       ## Figures for KEGG pathway enrichment analysis
       
       ## Prepare gene set for representation
-      if(input$microalgae == "knitens")
+      if(input$microalgae == "knitens" || input$microalgae == "csubellipsoidea")
       {
         genes.pathway <- rep(0, length(ko.universe))
         names(genes.pathway) <- ko.universe
@@ -932,7 +981,7 @@ assocated to the enriched pathway represented in the corresponding row."
                       choices=pathways.for.select)
       })
     
-      if( input$microalgae == "knitens")
+      if( input$microalgae == "knitens" || input$microalgae == "csubellipsoidea")
       {
         modules.enrichment <- enrichMKEGG(gene = target.ko, universe = ko.universe, organism = "ko", keyType = "kegg",minGSSize = 4)
       } else
@@ -978,7 +1027,7 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
-        } else if(input$microalgae == "knitens")
+        } else if(input$microalgae == "knitens" || input$microalgae == "csubellipsoidea")
         {
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
@@ -1014,6 +1063,9 @@ assocated to the enriched pathway represented in the corresponding row."
         } else if(input$microalgae == "knitens")
         {
           gene.link.function <- knitens.gene.link
+        } else if (input$microalgae == "csubellipsoidea")
+        {
+          gene.link.function <- cocsu.gene.link
         }
         
         for(i in 1:length(modules.enriched.genes))
@@ -1076,6 +1128,9 @@ assocated to the enriched pathway represented in the corresponding row."
       {
         organism.id <- "ngd"
       } else if(input$microalgae == "knitens")
+      {
+        organism.id <- "ko"
+      } else if (input$microalgae == "csubellipsoidea")
       {
         organism.id <- "ko"
       }
