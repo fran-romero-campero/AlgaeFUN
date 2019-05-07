@@ -1,11 +1,8 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+## Authors: Ana B. Romero-Losada
+##          Pedro de los Reyes 
+##          Francisco J. Romero-Campero <fran@us.es>
+
+## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 
 ## TODO
 ## Change width of table columns to fit mumber of genes (Enrichment too narrow)
@@ -223,7 +220,58 @@ extract.annotation <- function(annotation.str)
   return(strsplit(x = annotation.str,split=" \\(")[[1]][1])
 }
 
-# Define UI for application that draws a histogram
+## Function to compute the reverse complement of a DNA sequence
+reverse.complement <- function(dna.sequence)
+{
+  return(c2s(comp(rev(s2c(dna.sequence)),forceToLower = FALSE)))
+}
+
+## Load Position Weight Matrices needed in DNA binding motifs search
+## Open file connection
+con <- file("jaspar_motifs/pfm_plants_20180911.txt",open = "r")
+
+## Empty list for storing PWM
+motifs.pwm <- vector(mode="list",length = 453)
+motif.ids <- vector(mode="character",length=453)
+motif.names <- vector(mode="character",length=453)
+
+## Load 64 PWM
+for(j in 1:453)
+{
+  ## First line contains motif id and name
+  first.line <- readLines(con,1)
+  
+  motif.ids[j] <- strsplit(first.line,split=" ")[[1]][1]
+  motif.names[j] <- strsplit(first.line,split=" ")[[1]][2]
+  
+  ## Next four line contians probabilites for each nucleotide
+  a.row <- as.numeric(strsplit(readLines(con,1),split="( )+")[[1]])
+  c.row <- as.numeric(strsplit(readLines(con,1),split="( )+")[[1]])
+  g.row <- as.numeric(strsplit(readLines(con,1),split="( )+")[[1]])
+  t.row <- as.numeric(strsplit(readLines(con,1),split="( )+")[[1]])
+  
+  ## Construct PWM
+  motif.pwm <- matrix(nrow = 4,ncol=length(a.row))
+  
+  motif.pwm[1,] <- a.row
+  motif.pwm[2,] <- c.row 
+  motif.pwm[3,] <- g.row
+  motif.pwm[4,] <- t.row
+  
+  rownames(motif.pwm) <- c("A","C","G","T")
+  
+  motifs.pwm[[j]] <- prop.table(motif.pwm,2)
+}
+
+## Close file connection
+close(con)
+
+## Naming list with PWM
+names(motifs.pwm) <- motif.names
+names(motif.ids) <- motif.names
+
+
+# Define UI
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   
   # Application title
@@ -1421,17 +1469,42 @@ assocated to the enriched pathway represented in the corresponding row."
          at = c(1,number.tiles.tes/4,number.tiles.tes/2,3*number.tiles.tes/4,number.tiles.tes),lwd=2,cex=1.5,las=2,cex=2)
 
     })
-
+    
     ## Extract info from genes for profile representations
     genes.data.df <- as.data.frame(genes.data)
     exons.data <- as.data.frame(exons(txdb))
     cds.data <- as.data.frame(cds(txdb))
 
     output$annotated_genes <- renderUI({
-      selectInput(inputId = "selected_annotated_gene", 
-                  label="Choose a gene to inspect its mark profile",
-                  multiple = FALSE,selected = genes[1],
-                  choices=genes)
+      fluidRow(
+        column (6, 
+                selectInput(inputId = "selected_annotated_gene", 
+                            label="Choose a gene to inspect its mark profile",
+                            multiple = FALSE,selected = genes[1],
+                            choices=genes), 
+                ## Selectize to choose target gene to represent
+                selectizeInput(inputId = "selected.motifs",
+                               label = "Select Motifs",
+                               choices = motif.names,
+                               multiple = TRUE),
+                
+                ## Checkbox to select all available motifs
+                checkboxInput(inputId = "all.motifs",
+                              label = "Select All Motifs:",
+                              value = FALSE),
+                
+                ## Numeric input for PWM score
+                numericInput(inputId = "min.score.pwm", 
+                             label = "Minimum Score for Motif Identification:",
+                             value = 100, 
+                             min = 80,
+                             max = 100,
+                             step = 5)
+        ),
+        column(6,
+               actionButton(inputId = "individual_gene_mark",label = "Go")
+        )
+      )
     })
     
     selected.annotated.gene.id <- reactive({ 
@@ -1444,8 +1517,8 @@ assocated to the enriched pathway represented in the corresponding row."
       }
     })
     
-    observeEvent(selected.annotated.gene.id(), {
-      print("VAAAAAMOOOOOOS!!!!")
+    observeEvent(input$individual_gene_mark, { #selected.annotated.gene.id(), {
+#      print("VAAAAAMOOOOOOS!!!!")
       gene.name <- selected.annotated.gene.id()
       
       target.gene.body <- genes.data.df[gene.name,]
@@ -1664,36 +1737,6 @@ assocated to the enriched pathway represented in the corresponding row."
         polygon(cord.x,cord.y,col=area.colors)
       })
 
-      # if(input$microalgae == "creinhardtii")
-      # {
-      #   organism.id <- "cre"
-      # } else if(input$microalgae == "otauri")
-      # {
-      #   organism.id <- "ota"
-      # } else if(input$microalgae == "vcarteri")
-      # {
-      #   organism.id <- "vcn"
-      # } else if(input$microalgae == "ptricornutum")
-      # {
-      #   organism.id <- "pti"
-      # } else if(input$microalgae == "ngaditana")
-      # {
-      #   organism.id <- "ngd"
-      # } else if(input$microalgae == "knitens")
-      # {
-      #   organism.id <- "ko"
-      # }
-      # 
-      # output$kegg_image <- renderImage({
-      #   pathview(gene.data = sort(genes.pathway,decreasing = TRUE),
-      #            pathway.id = enriched.pathway.id(),
-      #            species = organism.id,
-      #            limit = list(gene=max(abs(genes.pathway)), cpd=1),
-      #            gene.idtype ="kegg")
-      #   
-      #   list(src = paste(c(enriched.pathway.id(),"pathview","png"), collapse="."),
-      #        contentType="image/png",width=1200,height=900)
-      # },deleteFile = T)
     })
     
 
