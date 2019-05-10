@@ -159,6 +159,38 @@ head(kog.data.frame)
 ## Remove duplicated rows
 kog.data.frame <- kog.data.frame[!duplicated(kog.data.frame),]
 
+
+## Generate KO data.frame
+ko <- cre.info$KO
+
+ko.data.frame <- data.frame(GID=gid,KO=ko,stringsAsFactors = FALSE)
+head(ko.data.frame)
+
+## Remove duplicated rows
+ko.data.frame <- ko.data.frame[!duplicated(ko.data.frame),]
+head(ko.data.frame)
+
+
+## Generate PFAM data.frame
+pfam <- cre.info$Pfam
+
+pfam.data.frame <- data.frame(GID=gid,PFAM=pfam,stringsAsFactors = FALSE)
+head(pfam.data.frame)
+
+## Remove duplicated rows
+pfam.data.frame <- pfam.data.frame[!duplicated(pfam.data.frame),]
+head(pfam.data.frame)
+
+## Generate PANTHER data.frame
+panther <- cre.info$Panther
+
+panther.data.frame <- data.frame(GID=gid,PANTHER=panther,stringsAsFactors = FALSE)
+head(panther.data.frame)
+
+## Remove duplicated rows
+panther.data.frame <- panther.data.frame[!duplicated(panther.data.frame),]
+head(panther.data.frame)
+
 ## Chlamydomonas reinhardtii Taxonomy ID: 3055
 
 ## Load require package
@@ -171,6 +203,9 @@ makeOrgPackage(go=go.data.frame,
                SYMBOL=symbol.data.frame,
                ENZYME=enzyme.data.frame,
                KOG=kog.data.frame,
+               KO=ko.data.frame,
+               PFAM=pfam.data.frame,
+               PANTHER=panther.data.frame,
                CHLREDRAFT=chlredraft.data.frame,
                version = "0.1",
                maintainer = "Francisco J. Romero-Campero <fran@us.es>",
@@ -183,6 +218,8 @@ makeOrgPackage(go=go.data.frame,
                verbose = TRUE)
 
 install.packages("./org.Creinhardtii.eg.db/", repos=NULL)
+remove.packages("org.Creinhardtii.eg.db")
+
 
 library(org.Creinhardtii.eg.db)
 columns(org.Creinhardtii.eg.db)

@@ -93,6 +93,12 @@ compute.enrichments <- function(gene.ratios, bg.ratios)
   return(enrichments.text)  
 }
 
+## Auxiliary function to split a string using commas
+split.commas <- function(annotation.str)
+{
+  return(strsplit(annotation.str,split=",")[[1]])
+}
+
 ## Ostreococcus tauri gene link to ORCAE
 ## https://bioinformatics.psb.ugent.be/orcae/annotation/OsttaV2/current/ostta15g02520
 ostta.gene.link <- function(gene.name)
@@ -184,6 +190,71 @@ go.link <- function(go.term)
                            link,
                            "\" target=\"_blank\">",
                            go.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+## KO link
+#https://www.genome.jp/dbget-bin/www_bget?ko:K00276
+ko.link <- function(ko.term)
+{
+  link <- paste0("https://www.genome.jp/dbget-bin/www_bget?ko:", ko.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           ko.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+## KOG link
+## https://www.ncbi.nlm.nih.gov/Structure/cdd/KOG3720
+kog.link <- function(kog.term)
+{
+  link <- paste0("https://www.ncbi.nlm.nih.gov/Structure/cdd/KOG3720", kog.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           kog.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+## ENZYME link
+## https://www.brenda-enzymes.org/enzyme.php?ecno=1.4.3.21
+enzyme.link <- function(ec.term)
+{
+  link <- paste0("https://www.brenda-enzymes.org/enzyme.php?ecno=", ec.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           ec.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+## PANTHER link
+## http://www.pantherdb.org/panther/family.do?clsAccession=PTHR10638
+panther.link <- function(panther.term)
+{
+  link <- paste0("http://www.pantherdb.org/panther/family.do?clsAccession=", panther.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           panther.term, "</a>"),
+                         collapse = "")
+  return(complete.link)
+}
+
+## PFAM link
+## http://pfam.xfam.org/family/PF02728
+pfam.link <- function(pfam.term)
+{
+  link <- paste0("http://pfam.xfam.org/family/", pfam.term)
+  complete.link <- paste(c("<a href=\"",
+                           link,
+                           "\" target=\"_blank\">",
+                           pfam.term, "</a>"),
                          collapse = "")
   return(complete.link)
 }
@@ -521,21 +592,70 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
       
       conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+                       dataTableOutput(outputId = "output_gene_chip_table"),
                        plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
                        plotOutput(outputId = "distance.to.tss",inline=TRUE),
                        plotOutput(outputId = "tss_signal"),
-                       uiOutput(outputId = "annotated_genes"),
-                       plotOutput(outputId = "individual_gene_profile")
+                       uiOutput(outputId = "annotated_genes")#,
+                      # plotOutput(outputId = "individual_gene_profile")
       )
-      
-      
       )
-  
-
 ))
 
 ## Define server logic
 server <- shinyServer(function(input, output, session) {
+  
+  ## Define specific variables depending on the selected microalgae
+  # if(input$microalgae == "otauri")
+  # {
+  #   gene.link.function <- ostta.gene.link
+  #   org.db <- org.Otauri.eg.db
+  #   txdb <- TxDb.Otauri.JGI
+  #   microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
+  # } else if(input$microalgae == "creinhardtii")
+  # {
+  #   gene.link.function <- phytozome.gene.link
+  #   org.db <- org.Creinhardtii.eg.db
+  #   txdb <- TxDb.Creinhardtii.Phytozome
+  #   microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
+  # } else if (input$microalgae == "dsalina") 
+  # {
+  #   gene.link.function <- phytozome.gene.link
+  #   org.db <- org.Dsalina.eg.db
+  #   ##txdb <- TODO
+  #   microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
+  # } else if (input$microalgae == "vcarteri")
+  # {
+  #   gene.link.function <- phytozome.gene.link
+  #   org.db <- org.Vcarteri.eg.db
+  #   ##txdb <- TODO
+  #   microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
+  # } else if(input$microalgae == "ptricornutum")
+  # {
+  #   gene.link.function <- phaeodactylum.gene.link
+  #   org.db <- org.Ptricornutum.eg.db
+  #   txdb <- TxDb.Ptricornutum.Ensembl.Protists
+  #   microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
+  # } else if(input$microalgae == "ngaditana")
+  # {
+  #   gene.link.function <- ngaditana.gene.link
+  #   org.db <- org.Ngaditana.eg.db
+  #   ##txdb <- TODO
+  #   microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
+  # } else if (input$microalgae == "knitens")
+  # {
+  #   gene.link.function <- knitens.gene.link
+  #   org.db <- org.Knitens.eg.db
+  #   ##txdb <- TODO
+  #   microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
+  # } else if (input$microalgae == "bathy")
+  # {
+  #   gene.link.function <- bathy.gene.link
+  #   org.db <- org.Bprasinos.eg.db
+  #   ##txdb <- TODO
+  #   microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
+  # }
+  
 
   ## Clear content of gene set text area
   observeEvent(input$clear_gene_set, {
@@ -575,42 +695,7 @@ server <- shinyServer(function(input, output, session) {
   
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
-    
-    ## Select org.Db 
-    if(input$microalgae == "otauri")
-    {
-      org.db <- org.Otauri.eg.db
-      microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
-    } else if (input$microalgae == "creinhardtii")
-    {
-      org.db <- org.Creinhardtii.eg.db
-      microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
-    } else if (input$microalgae == "dsalina")
-    {
-      org.db <- org.Dsalina.eg.db
-      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
-    } else if (input$microalgae == "vcarteri")
-    {
-      org.db <- org.Vcarteri.eg.db
-      microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
-    } else if (input$microalgae == "ptricornutum")
-    {
-      org.db <- org.Ptricornutum.eg.db
-      microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
-    } else if (input$microalgae == "ngaditana")
-    {
-      org.db <- org.Ngaditana.eg.db
-      microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
-    } else if (input$microalgae == "knitens")
-    {
-      org.db <- org.Knitens.eg.db
-      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
-    }else if (input$microalgae == "bathy")
-    {
-      org.db <- org.Bprasinos.eg.db
-      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
-    }
-    
+
     ## Extract genes from text box or uploaded file
     if(is.null(input$gene_set_file))
     {
@@ -706,24 +791,7 @@ server <- shinyServer(function(input, output, session) {
         go.result.table.with.links <- go.result.table
         ## Add links to the genes
         genes.in.go.enrichment <- go.result.table$Genes
-        
-        if(input$microalgae == "otauri")
-        {
-          gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" | input$microalgae == "dsalina" | input$microalgae == "vcarteri")
-        {
-          gene.link.function <- phytozome.gene.link
-        } else if(input$microalgae == "ptricornutum")
-        {
-          gene.link.function <- phaeodactylum.gene.link
-        } else if(input$microalgae == "ngaditana")
-        {
-          gene.link.function <- ngaditana.gene.link
-        } else if (input$microalgae == "knitens")
-        {
-          gene.link.function <- knitens.gene.link
-        }
-        
+
         ## Add link to genes
         for(i in 1:length(genes.in.go.enrichment))
         {
@@ -1274,29 +1342,43 @@ assocated to the enriched pathway represented in the corresponding row."
   observeEvent(input$genomic_button,{
 
     ## Select txdb 
-    if(input$microalgae == "otauri") 
+    if(input$microalgae == "otauri")
     {
+      gene.link.function <- ostta.gene.link
       txdb <- TxDb.Otauri.JGI
+      org.db <- org.Otauri.eg.db
     } else if (input$microalgae == "creinhardtii")
     {
+      gene.link.function <- phytozome.gene.link
       txdb <- TxDb.Creinhardtii.Phytozome
+      org.db <- org.Creinhardtii.eg.db
     } else if (input$microalgae == "dsalina")
     {
+      gene.link.function <- phytozome.gene.link
       ## TODO
     } else if (input$microalgae == "vcarteri")
     {
+      gene.link.function <- phytozome.gene.link
       ## TODO
     } else if (input$microalgae == "ptricornutum")
     {
+      gene.link.function <- phaeodactylum.gene.link
       txdb <- TxDb.Ptricornutum.Ensembl.Protists
+      org.db <- org.Ptricornutum.eg.db
     } else if (input$microalgae == "ngaditana")
     {
+      gene.link.function <- ngaditana.gene.link
+      org.db <- org.Ngaditana.eg.db
       ## TODO
     } else if (input$microalgae == "knitens")
     {
+      gene.link.function <- knitens.gene.link
+      org.db <- org.Knitens.eg.db
       ## TODO
     } else if (input$microalgae == "bathy")
     {
+      gene.link.function <- bathy.gene.link
+      org.db <- org.Bprasinos.eg.db
       ## TODO
     }
     
@@ -1387,7 +1469,68 @@ assocated to the enriched pathway represented in the corresponding row."
     }
 
     genes <- unique(genes)
+
+    ## Output table with gene annotation
+    annotations <- intersect(c("GO", "KO", "KOG", "ENZYME", "PANTHER","PFAM"),columns(org.db))
+    microalgae.annotation <- select(org.db,columns = annotations,keys=keys(org.db,keytype = "GID"))
+    genes.annotation <- subset(microalgae.annotation,GID %in% genes)
     
+    genes.annotation.download <- data.frame(matrix(nrow=length(genes),ncol=(length(annotations)+1)))
+    genes.annotation.links <- genes.annotation.download 
+      
+    colnames(genes.annotation.download)[1] <- "Gene ID"
+    colnames(genes.annotation.links)[1] <- "Gene ID"
+    
+    for(i in 1:length(annotations))
+    {
+      current.annotation <- annotations[i]
+      
+      colnames(genes.annotation.download)[i+1] <- current.annotation
+      colnames(genes.annotation.links)[i+1] <- current.annotation
+      
+      if(current.annotation == "GO")
+      {
+        annotation.link <- go.link
+      } else if (current.annotation == "KO")
+      {
+        annotation.link <- ko.link
+      } else if (current.annotation == "KOG")
+      {
+        annotation.link <- kog.link  
+      } else if (current.annotation == "ENZYME")
+      {
+        annotation.link <- enzyme.link
+      } else if (current.annotation == "PANTHER")
+      {
+        annotation.link <- panther.link
+      } else if (current.annotation == "PFAM")
+      {
+        annotation.link <- pfam.link
+      }
+      
+      for(j in 1:length(genes))
+      {
+        current.gene <- genes[j]
+        genes.annotation.download[j,1] <- current.gene
+        genes.annotation.links[j,1] <- gene.link.function(current.gene)
+        current.gene.annotation <- sapply(unique(subset(genes.annotation, GID == current.gene)[[current.annotation]]),split.commas)
+        if(is.na(current.gene.annotation))
+        {
+          genes.annotation.download[j,(i+1)] <- ""
+          genes.annotation.links[j,(i+1)] <- ""
+        } else 
+        {
+          genes.annotation.download[j,(i+1)] <- paste(current.gene.annotation,collapse=" ")
+          genes.annotation.links[j,(i+1)] <- paste(sapply(current.gene.annotation,annotation.link),collapse=" ")
+        }
+      }
+    }
+
+    ## Output table with GO enrichment result
+    output$output_gene_chip_table <- renderDataTable({
+      genes.annotation.links
+    },escape=FALSE,options =list(pageLength = 10)) 
+
     ## Plot signal around tss
     ## Extraction of the genomic features of the specified genes.
     genes.data <- subset(genes(txdb), gene_id %in% genes)
@@ -1499,10 +1642,11 @@ assocated to the enriched pathway represented in the corresponding row."
                              value = 100, 
                              min = 80,
                              max = 100,
-                             step = 5)
+                             step = 5),
+                actionButton(inputId = "individual_gene_mark",label = "Go")
         ),
         column(6,
-               actionButton(inputId = "individual_gene_mark",label = "Go")
+               plotOutput(outputId = "individual_gene_profile")
         )
       )
     })
@@ -1735,11 +1879,146 @@ assocated to the enriched pathway represented in the corresponding row."
         cord.y <- c(current.base.line,chip.signal.mean+current.base.line,current.base.line)
         cord.x <- 1:length(cord.y)
         polygon(cord.x,cord.y,col=area.colors)
+        
+        ## Load reference genome for the chosen microalgae
+        microalgae.genome.data <- read.fasta(file = paste(c("genomes/",input$microalgae,".fa"),collapse=""),
+                                             seqtype = "DNA")
+        microalgae.genome <- getSequence(microalgae.genome.data)
+        names(microalgae.genome) <- getName(microalgae.genome.data)
+
+        ## Determine TFBS motifs to search for
+        if(input$all.motifs)
+        {
+          selected.motifs.pwm <- motifs.pwm
+        } else
+        {
+          selected.motifs.pwm <- motifs.pwm[input$selected.motifs]
+        }
+        
+        selected.motif.names <- names(selected.motifs.pwm)
+        selected.motif.ids <- motif.ids[selected.motif.names]
+        
+        ## Initialize data frame containing TF binding sequences in the peak regions
+        df.hits <- data.frame(0,"","","")
+        colnames(df.hits) <- c("position","id","name","seq")
+        
+        ## Identify TF binding DNA motifs 
+        if(nrow(current.peaks.to.plot) > 0)
+        {
+          #motifs.in.peaks <- vector(mode="list", length=nrow(current.peaks.to.plot))
+          for(j in 1:nrow(current.peaks.to.plot))
+          {
+            ## Genomic coordinates of the current peak
+            peak.chr <- peak.coordinates[j, 1]
+            peak.start <- peak.coordinates[j, 2]
+            peak.end <- peak.coordinates[j, 3]
+            
+            ## Extract start and end point of each peak region in our plot
+            current.peak.start <- current.peaks.to.plot[j,1]
+            current.peak.end <- current.peaks.to.plot[j,2]
+            
+            
+            ## Extract peak sequence
+            peak.sequence <- c2s(microalgae.genome[[peak.chr]][peak.start:peak.end])
+            peak.rev.comp.sequence <- reverse.complement(peak.sequence)
+            
+            for(k in 1:length(selected.motifs.pwm))
+            {
+              print(k)
+              motif.pwm <- selected.motifs.pwm[[k]]
+              
+              hits.fw <- matchPWM(motif.pwm, peak.sequence, 
+                                  min.score = paste0(input$min_score_pwm,"%"))
+              hits.fw
+              hits.fw.seqs <- as.data.frame(hits.fw)[[1]]
+              hits.fw <- as(hits.fw, "IRanges")
+              hits.fw.start <- start(hits.fw)
+              hits.fw.end <- end(hits.fw)
+              
+              if(length(hits.fw.start) > 0)
+              {
+                df.hits.fw <- data.frame(((hits.fw.start+hits.fw.end)/2) + current.peak.start,
+                                         rep(selected.motif.ids[k],length(hits.fw.start)),
+                                         rep(selected.motif.names[k],length(hits.fw.start)),
+                                         hits.fw.seqs)
+                colnames(df.hits.fw)  <- c("position","id","name","seq")
+                df.hits <- rbind(df.hits,df.hits.fw)
+              }
+              
+              hits.rev <- matchPWM(motif.pwm, peak.rev.comp.sequence, 
+                                   min.score = paste0(input$min.score.pwm,"%"))
+              hits.rev.seqs <- as.data.frame(hits.rev)[[1]]
+              hits.rev.seqs <- sapply(hits.rev.seqs,reverse.complement)
+              names(hits.rev.seqs) <- NULL
+              
+              hits.rev <- as(hits.rev, "IRanges")
+              hits.rev.start <- nchar(peak.sequence) - end(hits.rev) + 1
+              hits.rev.end <- nchar(peak.sequence) - start(hits.rev) + 1
+              
+              if(length(hits.rev.start) > 0)
+              {
+                df.hits.rev <- data.frame(((hits.rev.start+hits.rev.end)/2) + current.peak.start,
+                                          rep(selected.motif.ids[k],length(hits.rev.start)),
+                                          rep(selected.motif.names[k],length(hits.rev.start)),
+                                          hits.rev.seqs)
+                colnames(df.hits.rev)  <- c("position","id","name","seq")
+                df.hits <- rbind(df.hits,df.hits.rev)
+              }
+            }
+          }
+        }
+        
+        ## Remove first line of the data frame added just for technical reason
+        df.hits <- df.hits[-1,]
+        nrow(df.hits)
+        
+        ## Draw TF binding sites
+        detected.tfbs <- unique(as.vector(df.hits$name))
+        
+        ## TF binding sites colors and symbol shapes
+        symbol.shapes <- c(17, 18, 19, 15)
+        symbol.color <- c("blue", "red", "darkgreen", "magenta")
+        
+        number.of.shapes <- ceiling(length(detected.tfbs) / length(symbol.color))
+        necessary.shapes <- rep(symbol.shapes[1:number.of.shapes],each = length(detected.tfbs)/number.of.shapes)
+        necessary.colors <- rep(symbol.color,number.of.shapes)
+        
+        if(length(detected.tfbs) > 0)
+        {
+          for(i in 1:length(detected.tfbs))
+          {
+            current.tfbs <- detected.tfbs[i]
+            current.shape <- necessary.shapes[i]
+            current.color <- necessary.colors[i]
+            
+            positions <- subset(df.hits, name == current.tfbs)
+            
+            for(j in 1:nrow(positions))
+            {
+              pos.to.draw <- positions$position[j]
+              
+              points(x = pos.to.draw, y = -15,
+                     pch = current.shape, col = current.color, cex = 1)
+            }
+          }
+          
+          ## Add legend for TFBS
+          legend.step <- 5
+          for(i in 1:length(detected.tfbs))
+          {
+            points(x = -3000, y = upper.lim - (i-1)*legend.step, 
+                   pch=necessary.shapes[i], col = necessary.colors[i],cex = 1)
+            
+            
+            current.seq <- as.character(subset(df.hits,name == detected.tfbs[i])[["seq"]][[1]])
+            current.label <- paste(c(detected.tfbs[i], "  -  ", current.seq ),collapse="")
+            
+            text(x = -2900, y = upper.lim - (i-1)*legend.step, labels = current.label,
+                 adj = 0,cex = 0.7)
+          }
+        }
       })
-
     })
-    
-
   })
 })
 
