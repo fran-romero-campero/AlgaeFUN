@@ -592,7 +592,12 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
       
       conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+                       tags$br(), tags$br(),
+                       htmlOutput(outputId = "textTableAnnotatedGenes"),
+                       tags$br(), tags$br(),
                        dataTableOutput(outputId = "output_gene_chip_table"),
+                       tags$br(), tags$br(),
+                       htmlOutput(outputId = "piechart.text"),
                        plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
                        plotOutput(outputId = "distance.to.tss",inline=TRUE),
                        plotOutput(outputId = "tss_signal"),
@@ -605,58 +610,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 ## Define server logic
 server <- shinyServer(function(input, output, session) {
   
-  ## Define specific variables depending on the selected microalgae
-  # if(input$microalgae == "otauri")
-  # {
-  #   gene.link.function <- ostta.gene.link
-  #   org.db <- org.Otauri.eg.db
-  #   txdb <- TxDb.Otauri.JGI
-  #   microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
-  # } else if(input$microalgae == "creinhardtii")
-  # {
-  #   gene.link.function <- phytozome.gene.link
-  #   org.db <- org.Creinhardtii.eg.db
-  #   txdb <- TxDb.Creinhardtii.Phytozome
-  #   microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
-  # } else if (input$microalgae == "dsalina") 
-  # {
-  #   gene.link.function <- phytozome.gene.link
-  #   org.db <- org.Dsalina.eg.db
-  #   ##txdb <- TODO
-  #   microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
-  # } else if (input$microalgae == "vcarteri")
-  # {
-  #   gene.link.function <- phytozome.gene.link
-  #   org.db <- org.Vcarteri.eg.db
-  #   ##txdb <- TODO
-  #   microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
-  # } else if(input$microalgae == "ptricornutum")
-  # {
-  #   gene.link.function <- phaeodactylum.gene.link
-  #   org.db <- org.Ptricornutum.eg.db
-  #   txdb <- TxDb.Ptricornutum.Ensembl.Protists
-  #   microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
-  # } else if(input$microalgae == "ngaditana")
-  # {
-  #   gene.link.function <- ngaditana.gene.link
-  #   org.db <- org.Ngaditana.eg.db
-  #   ##txdb <- TODO
-  #   microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
-  # } else if (input$microalgae == "knitens")
-  # {
-  #   gene.link.function <- knitens.gene.link
-  #   org.db <- org.Knitens.eg.db
-  #   ##txdb <- TODO
-  #   microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
-  # } else if (input$microalgae == "bathy")
-  # {
-  #   gene.link.function <- bathy.gene.link
-  #   org.db <- org.Bprasinos.eg.db
-  #   ##txdb <- TODO
-  #   microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
-  # }
-  
-
   ## Clear content of gene set text area
   observeEvent(input$clear_gene_set, {
     updateTextAreaInput(session=session, inputId = "genes",value = "")
@@ -1422,6 +1375,11 @@ assocated to the enriched pathway represented in the corresponding row."
     peakAnno <- annotatePeak(peak = genomic.regions, tssRegion=c(-input$promoter_length, input$promoter_length),
                              TxDb=txdb)
     
+    
+    ## Introductory text for GO enrichment table
+    output$piechart.text <- renderText(expr = "<b>The following piechart summarrepresents the distribution of the 
+    gene parts overlaped by the input genomic loci.</b>")
+    
     ## Plot pie chart with annotation
     output$annotation.pie.chart <- renderPlot(width = 940, height = 900, res = 120, {
         plotAnnoPie(peakAnno)
@@ -1514,11 +1472,11 @@ assocated to the enriched pathway represented in the corresponding row."
         genes.annotation.download[j,1] <- current.gene
         genes.annotation.links[j,1] <- gene.link.function(current.gene)
         current.gene.annotation <- sapply(unique(subset(genes.annotation, GID == current.gene)[[current.annotation]]),split.commas)
-        if(is.na(current.gene.annotation))
+        if(is.na(current.gene.annotation[1]))
         {
           genes.annotation.download[j,(i+1)] <- ""
           genes.annotation.links[j,(i+1)] <- ""
-        } else 
+        } else
         {
           genes.annotation.download[j,(i+1)] <- paste(current.gene.annotation,collapse=" ")
           genes.annotation.links[j,(i+1)] <- paste(sapply(current.gene.annotation,annotation.link),collapse=" ")
@@ -1526,7 +1484,19 @@ assocated to the enriched pathway represented in the corresponding row."
       }
     }
 
-    ## Output table with GO enrichment result
+    ## Introductory text for GO enrichment table
+    annotated.genes.table.text <- "<b>The table below enumerates the potential gene targets associated with the input
+    genomic loci. A gene is associated as a target of a genomic locus when it overlaps at least one of the selected
+    gene parts (i.e. promoter, exon, etc.). Each row represents a gene with its available annotation. Click on the 
+    gene id to access information from the corresponding data base. Click on the annotation ids to access a detailed 
+    description. You can select the number of genes displayed in each page of the table with the <i>Show</i> 
+    dropdown menu below. You can use the <i>Search</i> box to identify a specific gene or annotation. The search
+    boxes at the end of the table can be used to search in a specific column. Finally, this table can be downloaded
+    by clicking on the button below.</b>"
+
+    output$textTableAnnotatedGenes <- renderText(expr = annotated.genes.table.text)
+    
+    ## Output table with annotated genes
     output$output_gene_chip_table <- renderDataTable({
       genes.annotation.links
     },escape=FALSE,options =list(pageLength = 10)) 
@@ -1543,10 +1513,10 @@ assocated to the enriched pathway represented in the corresponding row."
     start(around.genes.tss) <- start(genes.tss) - input$promoter_length
     end(around.genes.tss) <- end(genes.tss) + input$promoter_length
     
-    print("around TSS")
-    print(around.genes.tss)
-    print(input$bw_file$data)
-    print(input$bw_file)
+    # print("around TSS")
+    # print(around.genes.tss)
+    # print(input$bw_file$data)
+    # print(input$bw_file)
     ## Importing bigWig file
     cvglists <- sapply(input$bw_file$data, import,
                        format="BigWig",
