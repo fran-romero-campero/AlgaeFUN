@@ -29,7 +29,8 @@
 # target.genes <- read.table(file="example_files/example_ngaditana_1.txt", as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_knitens.txt", as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_csubellipsoidea.txt", as.is=T)[[1]]
-
+# target.genes <- read.table(file="/home/fran/tmp/ld_sd/results/activated_genes.txt",as.is=T)[[1]]
+# target.genes <- read.table(file="/home/fran/tmp/ld_sd/results/repressed_genes.txt",as.is=T)[[1]]
 # input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
 
 ## Increase max file size allowed to upload to 100MB
@@ -341,28 +342,55 @@ close(con)
 names(motifs.pwm) <- motif.names
 names(motif.ids) <- motif.names
 
-
 # Define UI
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
-  
-  # Application title
-  titlePanel("ALGAEFUN, microALGAE FUNctional annotation tool",windowTitle = "ALGAEFUN"),
-  tags$br(),
 
-  tags$p("Welcome to", tags$b("ALGAEFUN"),", the microalgae functional annotation tool. ALGAEFUN
-         is a web-based tool and database for the functional annotation of gene
-         sets and genomic locations from a wide collection of microalgae that
-         include Chlamydomonas reinhardtii, Ostreococcus tauri, Phaeodactylum tricornutum
-         and Nannochlorpsis gaditana."), 
-  tags$br(), 
+  fluidRow(
+    column(
+      width = 2,
+      img(src='logo_1.png', align = "center", width=200),
+      tags$br(),
+      radioButtons(inputId = "navigation_bar", width="100%",selected="go",
+                   label="",
+                   choices=c(
+                     "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
+                     "Functional Annotation of Gene Sets" = "go",
+                     "Functional Annotation of Genomic Loci" = "chip"#,
+                     # "Tutorials" = "tutorials",
+                     # "GitHub repository" = "github"
+                   ))),
+    column(
+      width = 8,
+      tags$div(align = "center", 
+               tags$h1(tags$b("ALGAEFUN,"), "microALGAE FUNctional annotation tool, with ",tags$b("MARACAS,"), "MicroAlgae RnA-seq and Chip-seq AnalysiS")),
+      tags$br(),tags$br(),
+      tags$div(align = "justify", "Welcome to", tags$b("ALGAEFUN")," with ", tags$b("MARACAS"), "a microalgae web based tool for the analysis of ", 
+               tags$b("RNA-seq"), "and ", tags$b("ChIP-seq"), "data and the", tags$b("functional annotation"), "of the resulting gene sets and genomic loci. ",
+               tags$b("ALGAEFUN"), "with ", tags$b("MARACAS"), "supports the analysis for a wide collection 
+               of microalgae that includes", tags$i("Chlamydomonas reinhardtii, Ostreococcus tauri, Phaeodactylum tricornutum"), "and ", 
+               tags$i("Nannochlorpsis gaditana."), "Please select from the navigation bar on the left the type of analysis you want to perform. You can also 
+               see our", tags$b("video tutorial"), "on how to analyse RNA-seq and
+               ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci.")
+    ),
+    column(
+      width = 2,
+      img(src='logo_ibvf.jpg', align = "center", width=100),
+      img(src='logo_us.png', align = "center", width=100),
+      tags$br(),tags$br(),tags$br(),
+      img(src='logo_csic.jpg', align = "center", width=100)
+    )
+  ),
+
   
-  radioButtons(inputId = "go_chip", width="100%",selected="",
-               label="Choose between annotating genes sets geneared, 
-                     for instance, from an RNA-seq analysis or genomics regions
-                     obtained, for instance, from a Chip-seq analysis:",
-               choices=c("Gene set annotation" = "gene_sets",
-                         "Genomic regions annotations" = "genomic_regions"
-               )),
+  tags$br(),tags$br(),
+  
+  # radioButtons(inputId = "go_chip", width="100%",selected="",
+  #              label="Choose between annotating genes sets geneared, 
+  #                    for instance, from an RNA-seq analysis or genomics regions
+  #                    obtained, for instance, from a Chip-seq analysis:",
+  #              choices=c("Gene set annotation" = "gene_sets",
+  #                        "Genomic regions annotations" = "genomic_regions"
+  #              )),
   
   #Interface where the user can choose his/her preferencies, separated by columns
   fluidRow(
@@ -383,13 +411,13 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 
 
       #Choose a p-value
-      conditionalPanel(condition = "input.go_chip == 'gene_sets'",
+      conditionalPanel(condition = "input.navigation_bar == 'go'",
         numericInput(inputId = "pvalue", 
                      label= "Which will be your chosen p-value?", 
                      value= 0.05)),
  
       #Choose the kind of analysis that you want us to execute 
-      conditionalPanel(condition = "input.go_chip == 'gene_sets'",
+      conditionalPanel(condition = "input.navigation_bar == 'go'",
         radioButtons(inputId = "analysis",
                    label="Choose your desirable analysis",
                    choices=c("GO terms enrichment" = "go",
@@ -398,7 +426,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             ))),
       
       conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') &&
-                                   input.go_chip == 'gene_sets'",
+                                   input.navigation_bar == 'go'",
                        radioButtons(inputId = "ontology",
                                     label="Choose gene ontology:",
                                     choices = c("Biological process" = "BP",
@@ -406,14 +434,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                                 "Mollecular Function" = "MF"))),
        
       #Choose a promoter length
-      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+      conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        sliderInput(inputId = "promoter_length", 
                                     label= "Choose the distance in base pairs around the 
                                     Transcriptional Start Site to determine gene promoters", 
                                     min=100, max=2000,value=1000,step=100)),
       
       #Choose a promoter length
-      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+      conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        checkboxGroupInput(inputId = "selected_genomic_features", 
                                    label= "A gene will be considered as a target of an input genomic locus
                                    when it overlaps one of the following gene parts:",
@@ -427,7 +455,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         #              for instance, from an RNA-seq analysis or genomics regions
         #              obtained, for instance, from a Chip-seq analysis:"),
         
-        conditionalPanel(condition = "input.go_chip == 'gene_sets'",
+        conditionalPanel(condition = "input.navigation_bar == 'go'",
           #The user can either insert his/her own background list or use ours. 
           radioButtons(inputId = "input_mode",
                        label = "Would you rather use your own background set?", 
@@ -439,26 +467,26 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
           actionButton(inputId = "example_genes",label = "Example"),
           textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
                         height = "200px",placeholder = "Insert set of genes",
-                        value= "
-                        ostta11g02790
-                        ostta10g02400
-                        ostta09g02680
-                        ostta10g03135
-                        ostta17g00930"
+                        value= ""#,
+                        # ostta11g02790
+                        # ostta10g02400
+                        # ostta09g02680
+                        # ostta10g03135
+                        # ostta17g00930"
           ),
       
         actionButton(inputId = "clear_gene_set",label = "Clear"),
         fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload")),
 
         #This panel will only appear if the user wants to use his/her own background list. 
-        conditionalPanel(condition = "input.input_mode == 'Yes' && input.go_chip == 'gene_sets'",
+        conditionalPanel(condition = "input.input_mode == 'Yes' && input.navigation_bar == 'go'",
                          textAreaInput(inputId = "background", label= "Background set", width="200%", 
                                        height = "100px",placeholder = "Insert background list",
-                                       value= "ostta11g02790
-                                               ostta10g02400
-                                               ostta09g02680
-                                               ostta10g03135
-                                               ostta17g00930"
+                                       value= ""#ostta11g02790
+                                       #         ostta10g02400
+                                       #         ostta09g02680
+                                       #         ostta10g03135
+                                       #         ostta17g00930"
                        ),
                        
                        actionButton(inputId = "clear_universe_set",label = "Clear"),
@@ -466,7 +494,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        
       ),
       
-      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+      conditionalPanel(condition = "input.navigation_bar == 'chip'",
         #This panel will only appear if the user chooses to use our background lists. 
         actionButton(inputId = "example_genomic_regions",label = "Example"),
         textAreaInput(inputId = "genomic_regions", 
@@ -501,7 +529,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         fileInput(inputId = "bw_file",label = "Choose BigWig File to Upload for Profile Representations:", width= "100%"),
         actionButton(inputId = "genomic_button",label = "Have fun!", icon("send") )                       
                        ),
-      conditionalPanel(condition = "input.go_chip == 'gene_sets'",
+      conditionalPanel(condition = "input.navigation_bar == 'go'",
                        actionButton(inputId = "go.button",label = "Have fun!", icon("send") )                       
       )
     )
@@ -518,7 +546,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
-      conditionalPanel(condition = "input.go_chip == 'gene_sets'",
+      conditionalPanel(condition = "input.navigation_bar == 'go'",
             tabsetPanel(type = "tabs",
                   tabPanel("GO map",
                            tags$br(), tags$br(),
@@ -591,7 +619,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       ######tabpanels also can look like this: 
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
       
-      conditionalPanel(condition = "input.go_chip == 'genomic_regions'",
+      conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        tags$br(), tags$br(),
                        htmlOutput(outputId = "textTableAnnotatedGenes"),
                        tags$br(), tags$br(),
@@ -648,6 +676,53 @@ server <- shinyServer(function(input, output, session) {
   
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
+    
+    ## Select org.Db 
+    if(input$microalgae == "otauri")
+    {
+      org.db <- org.Otauri.eg.db
+      microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
+      gene.link.function <- ostta.gene.link
+    } else if (input$microalgae == "creinhardtii")
+    {
+      org.db <- org.Creinhardtii.eg.db
+      microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
+    } else if (input$microalgae == "dsalina")
+    {
+      org.db <- org.Dsalina.eg.db
+      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
+    } else if (input$microalgae == "vcarteri")
+    {
+      org.db <- org.Vcarteri.eg.db
+      microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
+    } else if (input$microalgae == "ptricornutum")
+    {
+      org.db <- org.Ptricornutum.eg.db
+      microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phaeodactylum.gene.link
+    } else if (input$microalgae == "ngaditana")
+    {
+      org.db <- org.Ngaditana.eg.db
+      microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
+      gene.link.function <- ngaditana.gene.link
+    } else if (input$microalgae == "knitens")
+    {
+      org.db <- org.Knitens.eg.db
+      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
+      gene.link.function <- knitens.gene.link
+    }else if (input$microalgae == "bathy")
+    {
+      org.db <- org.Bprasinos.eg.db
+      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
+    }else if (input$microalgae == "csubellipsoidea")
+    {
+      org.db <- org.Csubellipsoidea.eg.db
+      microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
+      gene.link.function <- cocsu.gene.link
+    }
 
     ## Extract genes from text box or uploaded file
     if(is.null(input$gene_set_file))
@@ -727,7 +802,6 @@ server <- shinyServer(function(input, output, session) {
 
       if(nrow(enrich.go.result) > 0)
       {
-        
         ## GO term Description P-value Q-value Enrichment (SetRatio, BgRatio) Genes
         go.term.enrichments <- compute.enrichments(gene.ratios = enrich.go.result$GeneRatio,
                                                    bg.ratios = enrich.go.result$BgRatio)
