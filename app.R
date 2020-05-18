@@ -55,6 +55,7 @@ library(org.Ptricornutum.eg.db)
 library(org.Ngaditana.eg.db)
 library(org.Knitens.eg.db)
 library(org.Csubellipsoidea.eg.db)
+library(org.Hlacustris.eg.db)
 
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
