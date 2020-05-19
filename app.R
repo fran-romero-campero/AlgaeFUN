@@ -737,7 +737,13 @@ server <- shinyServer(function(input, output, session) {
       org.db <- org.Csubellipsoidea.eg.db
       microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
       gene.link.function <- cocsu.gene.link
+    }else if (input$microalgae == "hlacustris")
+    {
+      org.db <- org.Hlacustris.eg.db
+      microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T)[[1]]
+      gene.link.function <- ncbi.gene.link
     }
+    
 
     ## Extract genes from text box or uploaded file
     if(is.null(input$gene_set_file))
