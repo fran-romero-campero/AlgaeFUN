@@ -60,9 +60,8 @@ library(org.Hlacustris.eg.db)
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
 library(TxDb.Creinhardtii.Phytozome)
-#
-#
 library(TxDb.Ptricornutum.Ensembl.Protists)
+library(TxDb.Hlacustris.NCBI)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -72,7 +71,8 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Nannochloropsis gaditana",
                       "Klebsormidium nitens",
                       "Coccomyxa subellipsoidea",
-                      "Bathycoccus prasinos")
+                      "Bathycoccus prasinos",
+                      "Haematococcus lacustris")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -81,7 +81,8 @@ names(microalgae.names) <- c("otauri",
                              "ngaditana",
                              "knitens",
                              "csubellipsoidea",
-                             "bprasinos")
+                             "bprasinos",
+                             "hlacustris")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -111,6 +112,18 @@ ostta.gene.link <- function(gene.name)
                         "\" target=\"_blank\">",
                         gene.name, "</a>"),
                       collapse="")
+  return(gene.link)
+}
+
+#NCBI link
+ncbi.gene.link <- function(gene.name)
+{
+  ncbi.link <- paste0("https://www.ncbi.nlm.nih.gov/protein/",gene.name)
+  gene.link <- paste(c("<a href=\"",
+                       ncbi.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
   return(gene.link)
 }
 
@@ -408,7 +421,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
                             "Bathycoccus prasinos" = "bathy",
-                            "Klebsormidium nitens" = "knitens")),
+                            "Klebsormidium nitens" = "knitens",
+                            "Haematococcus lacustris" = "hlacustris")),
 
 
       #Choose a p-value
