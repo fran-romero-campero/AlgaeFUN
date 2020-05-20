@@ -45,7 +45,7 @@ library(ChIPseeker)
 library(ChIPpeakAnno)
 library(rtracklayer)
 library(seqinr)
-
+library(shinythemes)
 ## Load microalgae annotation packages
 library(org.Otauri.eg.db)
 library(org.Creinhardtii.eg.db)
@@ -358,7 +358,7 @@ names(motif.ids) <- motif.names
 
 # Define UI
 ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
-
+  theme = shinytheme("flatly"),
   fluidRow(
     column(
       width = 2,
