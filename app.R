@@ -46,6 +46,7 @@ library(ChIPpeakAnno)
 library(rtracklayer)
 library(seqinr)
 library(shinythemes)
+library(shinyjs)
 ## Load microalgae annotation packages
 library(org.Otauri.eg.db)
 library(org.Creinhardtii.eg.db)
@@ -566,6 +567,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
             tabsetPanel(type = "tabs",
                   tabPanel("GO enrichment table",
                            tags$br(), tags$br(),
+                           shinyjs::useShinyjs(),
+                           hidden(div(id='loading.enrichment.go',h3('Please be patient, computing GO enrichment ...'))), 
+                           hidden(div(id='ready.enrichment.go',h3('Your GO enrichment is ready!'))), 
+                           hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
+                           hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
                            htmlOutput(outputId = "gene_sanity_go"),
                            htmlOutput(outputId = "wrong_genes_go"),
                            htmlOutput(outputId = "intro_go"),
@@ -828,6 +834,7 @@ server <- shinyServer(function(input, output, session) {
     }
 
     ## GO term enirchment analysis
+    
     if((input$analysis == "go" || input$analysis == "both") && (length(wrong.genes) == 0))
     {
       ## Intro text for GO enrichment
@@ -841,6 +848,9 @@ server <- shinyServer(function(input, output, session) {
 
       ## Perform GO enrichment
       ## TODO q-value
+      shinyjs::showElement(id = 'loading.enrichment.go')
+      shinyjs::hideElement(id = 'ready.enrichment.go')
+      
       enrich.go <- enrichGO(gene          = target.genes,
                             universe      = gene.universe,
                             OrgDb         = org.db,
@@ -883,6 +893,8 @@ server <- shinyServer(function(input, output, session) {
         ## Add links to GO ids
         go.result.table.with.links[["GO ID"]] <- sapply(X = go.result.table.with.links[["GO ID"]], FUN = go.link)
         
+        shinyjs::hideElement(id = 'loading.enrichment.go')
+        shinyjs::showElement(id = 'ready.enrichment.go')
         
         ## Introductory text for GO enrichment table
         go.table.text <- "The table below summarizes the result of the GO term
@@ -1015,6 +1027,9 @@ with the corresponding GO term.")
     ## KEGG pathways enrichment analysis
     if( (input$analysis == "kegg"  || input$analysis == "both") && (length(wrong.genes) == 0))
     {
+      shinyjs::showElement(id = 'loading.enrichment.kegg')
+      shinyjs::hideElement(id = 'ready.enrichment.kegg')
+      
       ## Update target genes and universe depending on the microalgae
       if(input$microalgae == "otauri")
       {
@@ -1135,6 +1150,8 @@ with the corresponding GO term.")
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
       }
+      shinyjs::showElement(id = 'ready.enrichment.kegg')
+      shinyjs::hideElement(id = 'loading.enrichment.kegg')
       
       pathway.enrichment.result <- as.data.frame(pathway.enrichment)
 
