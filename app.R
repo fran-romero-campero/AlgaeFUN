@@ -805,6 +805,11 @@ server <- shinyServer(function(input, output, session) {
       org.db <- org.Hlacustris.eg.db
       microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T)[[1]]
       gene.link.function <- ncbi.gene.link
+    }else if (input$microalgae == "zofi")
+    {
+      org.db <- org.Czofingiensis.eg.db
+      microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T)[[1]]
+      gene.link.function <- zofi.gene.link
     }
     
 
@@ -1164,11 +1169,33 @@ with the corresponding GO term.")
           }
           
           pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-        }}
+        }}else if(input$microalgae == "zofi")
+        {
+          zofi.ko <- select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
+          ko.universe <- zofi.ko$KO
+          ko.universe <- ko.universe[!is.na(ko.universe)]
+          
+          target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
+          target.ko <- target.ko[!is.na(target.ko)]
+          
+          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+          
+          for(i in 1:nrow(pathway.enrichment))
+          {
+            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+            
+            current.genes <- c()
+            for(j in 1:length(current.Ks))
+            {
+              current.genes <- c(current.genes,subset(zofi.ko, KO == current.Ks[j])$GID)
+            }
+            
+            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+          }}
         
       
       ## Compute KEGG pathway enrichment
-      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" )
+      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" | input$microalgae != "zofi" )
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
@@ -1235,6 +1262,13 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
           }
+        }else if (input$microalgae == "zofi")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
+          }
         }
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
@@ -1267,6 +1301,9 @@ with the corresponding GO term.")
         }else if(input$microalgae == "hlacustris")
         {
           gene.link.function <- ncbi.gene.link
+        }else if(input$microalgae == "zofi")
+        {
+          gene.link.function <- zofi.gene.link
         }
         
         for(i in 1:length(kegg.enriched.genes))
@@ -1305,7 +1342,7 @@ assocated to the enriched pathway represented in the corresponding row."
       ## Figures for KEGG pathway enrichment analysis
       
       ## Prepare gene set for representation
-      if(input$microalgae == "knitens" | input$microalgae == "hlacustris")
+      if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
       {
         genes.pathway <- rep(0, length(ko.universe))
         names(genes.pathway) <- ko.universe
@@ -1331,7 +1368,7 @@ assocated to the enriched pathway represented in the corresponding row."
                       choices=pathways.for.select)
       })
     
-      if( input$microalgae == "knitens" | input$microalgae == "hlacustris")
+      if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
       {
         modules.enrichment <- enrichMKEGG(gene = target.ko, universe = ko.universe, organism = "ko", keyType = "kegg",minGSSize = 4)
       } else
@@ -1377,7 +1414,7 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
-        } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris")
+        } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
         {
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
@@ -1416,6 +1453,9 @@ assocated to the enriched pathway represented in the corresponding row."
         }else if(input$microalgae == "hlacustris")
         {
           gene.link.function <- ncbi.gene.link
+        }else if(input$microalgae == "zofi")
+        {
+          gene.link.function <- zofi.gene.link
         }
         
         for(i in 1:length(modules.enriched.genes))
