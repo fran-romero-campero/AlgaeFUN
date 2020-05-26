@@ -563,7 +563,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
-      conditionalPanel(condition = "input.navigation_bar == 'go'",
+      conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') && input.navigation_bar == 'go'",
             tabsetPanel(type = "tabs",
                   tabPanel("GO enrichment table",
                            tags$br(), tags$br(),
@@ -632,9 +632,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(),
                            div(style= "text-align: center;",
                               downloadButton(outputId= "downloadcnetplot", "Get this plot"), inline=T),
-                           tags$br(),tags$br()),
+                           tags$br(),tags$br()))),
                            #align = "center"),
-                  tabPanel("KEGG pathway enrichment table", 
+      conditionalPanel(condition= "(input.analysis == 'kegg' || input.analysis == 'both') && input.navigation_bar == 'go'",
+                       tabsetPanel(type = "tabs",
+                       tabPanel("KEGG pathway enrichment table", 
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "gene_sanity_kegg"),
                            htmlOutput(outputId = "wrong_genes_kegg"),
@@ -665,12 +667,12 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(), tags$br(),
                            uiOutput(outputId = "kegg_module_selectize"),
                            imageOutput("kegg_module_image"),
-                           tags$br(), tags$br())#,
+                           tags$br(), tags$br()))),
                   # tabPanel("Summary", dataTableOutput(outputId = "data"),
                   #          downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
                            #htmlOutput(outputId = "revigo"))
-                 )
-              ),
+                 
+              
       ######tabpanels also can look like this: 
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
       
