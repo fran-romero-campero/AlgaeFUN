@@ -57,12 +57,14 @@ library(org.Ngaditana.eg.db)
 library(org.Knitens.eg.db)
 library(org.Csubellipsoidea.eg.db)
 library(org.Hlacustris.eg.db)
+library(org.Czofingiensis.eg.db)
 
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
 library(TxDb.Creinhardtii.Phytozome)
 library(TxDb.Ptricornutum.Ensembl.Protists)
 library(TxDb.Hlacustris.NCBI)
+library(TxDb.Czofingiensis.Phytozome)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -73,7 +75,8 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Klebsormidium nitens",
                       "Coccomyxa subellipsoidea",
                       "Bathycoccus prasinos",
-                      "Haematococcus lacustris")
+                      "Haematococcus lacustris",
+                      "Chromochloris zofingiensis")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -83,7 +86,8 @@ names(microalgae.names) <- c("otauri",
                              "knitens",
                              "csubellipsoidea",
                              "bprasinos",
-                             "hlacustris")
+                             "hlacustris",
+                             "zofi")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -127,6 +131,22 @@ ncbi.gene.link <- function(gene.name)
                      collapse="")
   return(gene.link)
 }
+
+#C zofingiensis gene link
+zofi.gene.link <- function(gene.name)
+{
+  zofi.link <- paste(c("https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=5211&searchText=",
+                            gene.name,
+                            "&offset=0"),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       zofi.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+
 
 #Bathy gene link to ORCAE
 bathy.gene.link <- function(gene.name)
@@ -424,7 +444,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
                             "Bathycoccus prasinos" = "bathy",
                             "Klebsormidium nitens" = "knitens",
-                            "Haematococcus lacustris" = "hlacustris")),
+                            "Haematococcus lacustris" = "hlacustris",
+                            "Chlomochloris zofingiensis" = "zofi")),
 
 
       #Choose a p-value
