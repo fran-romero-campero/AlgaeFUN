@@ -799,7 +799,7 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Csubellipsoidea.eg.db
       microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
-      gene.link.function <- cocsu.gene.link
+      gene.link.function <- phytozome.gene.link
     }else if (input$microalgae == "hlacustris")
     {
       org.db <- org.Hlacustris.eg.db
@@ -1286,7 +1286,7 @@ with the corresponding GO term.")
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
+        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri" || input$microalgae == "cocsu" || input$microalgae == "dsalina")
         {
           gene.link.function <- phytozome.gene.link
         } else if(input$microalgae == "ptricornutum")
@@ -1438,7 +1438,7 @@ assocated to the enriched pathway represented in the corresponding row."
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
+        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri"  || input$microalgae == "cocsu" || input$microalgae == "dsalina")
         {
           gene.link.function <- phytozome.gene.link
         } else if(input$microalgae == "ptricornutum")
@@ -1553,11 +1553,13 @@ assocated to the enriched pathway represented in the corresponding row."
     } else if (input$microalgae == "dsalina")
     {
       gene.link.function <- phytozome.gene.link
-      ## TODO
+      txdb <- TxDb.Dsalina.eg.db
+      org.db <- org.Dsalina.eg.db
     } else if (input$microalgae == "vcarteri")
     {
       gene.link.function <- phytozome.gene.link
-      ## TODO
+      txdb <- TxDb.Vcarteri.eg.db
+      org.db <- org.Vcarteri.eg.db
     } else if (input$microalgae == "ptricornutum")
     {
       gene.link.function <- phaeodactylum.gene.link
@@ -1577,7 +1579,12 @@ assocated to the enriched pathway represented in the corresponding row."
     {
       gene.link.function <- bathy.gene.link
       org.db <- org.Bprasinos.eg.db
-      ## TODO
+      txdb <- TxDb.Bprasinos.Orcae
+    }else if (input$microalgae == "cocsu")
+    {
+      gene.link.function <- phytozome.gene.link
+      org.db <- org.Csubellipsoidea.eg.db
+      txdb <- TxDb.Csubellipsoidea.Phytozome
     }
     
     ## Extract genomic regions from text box or uploaded file
