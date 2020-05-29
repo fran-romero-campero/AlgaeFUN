@@ -21,6 +21,8 @@
 # input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
+#input <- list(microalgae = "ptricornutum", genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt", promoter_length = 1000, selected_genomic_features = "Promoter")
+#input <- list(microalgae = "creinhardtii", genomic_regions_file = "example_files/example_genomic_regions_creinhardtii_2.txt", promoter_length = 1000, selected_genomic_features = "Promoter")
 
 
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
@@ -1629,7 +1631,8 @@ assocated to the enriched pathway represented in the corresponding row."
                                                   end.field = "end")
     } else
     {
-      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
+      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file,header=FALSE)
+        #readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
     }
     
     ## Define promoter region around TSS
@@ -1732,6 +1735,7 @@ assocated to the enriched pathway represented in the corresponding row."
         annotation.link <- pfam.link
       }
       
+      j<-1
       for(j in 1:length(genes))
       {
         current.gene <- genes[j]
