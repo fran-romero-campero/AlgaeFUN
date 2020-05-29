@@ -22,6 +22,7 @@
 # input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
 
+
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="example_files/example_vcarteri.txt",as.is=T)[[1]]
@@ -1585,6 +1586,19 @@ assocated to the enriched pathway represented in the corresponding row."
       gene.link.function <- phytozome.gene.link
       org.db <- org.Csubellipsoidea.eg.db
       txdb <- TxDb.Csubellipsoidea.Phytozome
+    }else if (input$microalgae == "zofi")
+    {
+      gene.link.function <- zofi.gene.link
+      org.db <- org.Czofingiensis.eg.db
+      txdb <- TxDb.Czofingiensis.Phytozome
+    }else if (input$microalgae == "hlacustris")
+    {
+      gene.link.function <- ncbi.gene.link
+      org.db <- org.Hlacustris.eg.db
+      txdb <- TxDb.Hlacustris.NCBI
+    }else if (input$microalgae == "olucimarinus")
+    {
+      #TODO
     }
     
     ## Extract genomic regions from text box or uploaded file
