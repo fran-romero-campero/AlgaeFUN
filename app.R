@@ -21,8 +21,8 @@
 # input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
-#input <- list(microalgae = "ptricornutum", genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt", promoter_length = 1000, selected_genomic_features = "Promoter")
-#input <- list(microalgae = "creinhardtii", genomic_regions_file = "example_files/example_genomic_regions_creinhardtii_2.txt", promoter_length = 1000, selected_genomic_features = "Promoter")
+# input <- list(microalgae = "ptricornutum", genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt", bw_file= "example_files/example_ptricornutum.bw" ,promoter_length = 1000, selected_genomic_features = "Promoter")
+# input <- list(microalgae = "creinhardtii", genomic_regions_file = "example_files/example_genomic_regions_creinhardtii_2.txt", bw_file= "example_files/example_creinhardtii.bw" ,promoter_length = 1000, selected_genomic_features = "Promoter")
 
 
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
@@ -61,6 +61,8 @@ library(org.Knitens.eg.db)
 library(org.Csubellipsoidea.eg.db)
 library(org.Hlacustris.eg.db)
 library(org.Czofingiensis.eg.db)
+library(org.Bprasinos.eg.db)
+#TODO lucimarinus
 
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
@@ -68,6 +70,10 @@ library(TxDb.Creinhardtii.Phytozome)
 library(TxDb.Ptricornutum.Ensembl.Protists)
 library(TxDb.Hlacustris.NCBI)
 library(TxDb.Czofingiensis.Phytozome)
+library(TxDb.Bprasinos.Orcae)
+library(TxDb.Csubellipsoidea.Phytozome)
+library(TxDb.Dsalina.Phytozome)
+library(TxDb.Vcarteri.Phytozome)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -79,7 +85,8 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Coccomyxa subellipsoidea",
                       "Bathycoccus prasinos",
                       "Haematococcus lacustris",
-                      "Chromochloris zofingiensis")
+                      "Chromochloris zofingiensis",
+                      "Ostreococcus lucimarinus")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -90,7 +97,8 @@ names(microalgae.names) <- c("otauri",
                              "csubellipsoidea",
                              "bprasinos",
                              "hlacustris",
-                             "zofi")
+                             "zofi",
+                             "olucimarinus")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -1631,7 +1639,7 @@ assocated to the enriched pathway represented in the corresponding row."
                                                   end.field = "end")
     } else
     {
-      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file,header=FALSE)
+      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
         #readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
     }
     
@@ -1792,6 +1800,10 @@ assocated to the enriched pathway represented in the corresponding row."
                        format="BigWig",
                        which=around.genes.tss,
                        as="RleList")
+      # sapply(input$bw_file$data, import,
+      #                  format="BigWig",
+      #                  which=around.genes.tss,
+      #                  as="RleList")
 
     ## Extracting the signal around TSS with promoter length
     number.tiles <- 2*input$promoter_length/20
