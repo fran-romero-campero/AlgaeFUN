@@ -712,21 +712,30 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        tabsetPanel(type = "tabs",
                                    tabPanel("Annotated genes table",
                        tags$br(), tags$br(),
+                       hidden(div(id='loading.chip',h3('Please be patient, computing genomic loci annotation ...'))), 
+                       hidden(div(id='ready.chip',h3('Your genomic loci annotation is ready!'))),
                        htmlOutput(outputId = "textTableAnnotatedGenes"),
                        tags$br(), tags$br(),
                        dataTableOutput(outputId = "output_gene_chip_table"),
                        tags$br(), tags$br()),
-                                   tabPanel("Graphic representation of results",
+                                   tabPanel("Pie chart",
                        tags$br(), tags$br(),
                        htmlOutput(outputId = "piechart.text"),
                        tags$br(), tags$br(),
                        plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
+                       tags$br(), tags$br()), 
+                                  tabPanel("Distance to TSS visualization",
                        tags$br(), tags$br(),
                        plotOutput(outputId = "distance.to.tss",inline=TRUE),
+                       tags$br(), tags$br()),
+                                  tabPanel("TSS signal visualization",
                        tags$br(), tags$br(),
                        plotOutput(outputId = "tss_signal"),
+                       tags$br(), tags$br()),
+                                  tabPanel("Mark inspection of annotated genes",
                        tags$br(), tags$br(),
-                       uiOutput(outputId = "annotated_genes")))#,
+                       uiOutput(outputId = "annotated_genes"),
+                       tags$br(), tags$br()))#,
                       # plotOutput(outputId = "individual_gene_profile")
       )
       )
@@ -1619,6 +1628,8 @@ assocated to the enriched pathway represented in the corresponding row."
       #TODO
     }
     
+    shinyjs::showElement(id = 'loading.chip')
+    shinyjs::hideElement(id = 'ready.chip')
     ## Extract genomic regions from text box or uploaded file
     if(is.null(input$genomic_regions_file))
     {
@@ -1770,6 +1781,8 @@ assocated to the enriched pathway represented in the corresponding row."
       }
     }
 
+    shinyjs::showElement(id = 'ready.chip')
+    shinyjs::hideElement(id = 'loading.chip')
     ## Introductory text for GO enrichment table
     annotated.genes.table.text <- "<b>The table below enumerates the potential gene targets associated with the input
     genomic loci. A gene is associated as a target of a genomic locus when it overlaps at least one of the selected
