@@ -709,16 +709,24 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
+                       tabsetPanel(type = "tabs",
+                                   tabPanel("Annotated genes table",
                        tags$br(), tags$br(),
                        htmlOutput(outputId = "textTableAnnotatedGenes"),
                        tags$br(), tags$br(),
                        dataTableOutput(outputId = "output_gene_chip_table"),
+                       tags$br(), tags$br()),
+                                   tabPanel("Graphic representation of results",
                        tags$br(), tags$br(),
                        htmlOutput(outputId = "piechart.text"),
+                       tags$br(), tags$br(),
                        plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
+                       tags$br(), tags$br(),
                        plotOutput(outputId = "distance.to.tss",inline=TRUE),
+                       tags$br(), tags$br(),
                        plotOutput(outputId = "tss_signal"),
-                       uiOutput(outputId = "annotated_genes")#,
+                       tags$br(), tags$br(),
+                       uiOutput(outputId = "annotated_genes")))#,
                       # plotOutput(outputId = "individual_gene_profile")
       )
       )
