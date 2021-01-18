@@ -21,6 +21,7 @@
 # input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
+# input <- list(microalgae = "ptricornutum", promoter_length = 1000, genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt")
 
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
@@ -48,7 +49,7 @@ library(seqinr)
 library(shinythemes)
 library(shinyjs)
 ## Load microalgae annotation packages
-library(org.Otauri.eg.db)
+library(org.Otauri.eg.db) ##install.packages(pkgs = "./packages/annotation_packages/org.Otauri.eg.db/",repos = NULL,type="source")
 library(org.Creinhardtii.eg.db)
 library(org.Dsalina.eg.db)
 library(org.Vcarteri.eg.db)
@@ -366,27 +367,32 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       width = 2,
       img(src='logo_1.png', align = "center", width=200),
       tags$br(),
-      radioButtons(inputId = "navigation_bar", width="100%",selected="go",
+      radioButtons(inputId = "navigation_bar", width="100%",selected="home",
                    label="",
                    choices=c(
+                     "Home" = "home",
                      "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
-                     "Functional Annotation of Gene Sets" = "go",
-                     "Functional Annotation of Genomic Loci" = "chip"#,
-                     # "Tutorials" = "tutorials",
-                     # "GitHub repository" = "github"
+                     "Functional Annotation of Gene Sets" = "genes",
+                     "Functional Annotation of Genomic Loci" = "chip",
+                     "Tutorials" = "tutorials",
+                     "GitHub repository" = "github",
+                     "Citation and Contact" = "citation"
                    ))),
     column(
       width = 8,
       tags$div(align = "center", 
                tags$h1(tags$b("ALGAEFUN,"), "microALGAE FUNctional annotation tool, with ",tags$b("MARACAS,"), "MicroAlgae RnA-seq and Chip-seq AnalysiS")),
       tags$br(),tags$br(),
-      tags$div(align = "justify", "Welcome to", tags$b("ALGAEFUN")," with ", tags$b("MARACAS"), "a microalgae web based tool for the analysis of ", 
-               tags$b("RNA-seq"), "and ", tags$b("ChIP-seq"), "data and the", tags$b("functional annotation"), "of the resulting gene sets and genomic loci. ",
-               tags$b("ALGAEFUN"), "with ", tags$b("MARACAS"), "supports the analysis for a wide collection 
+      conditionalPanel(condition = "input.navigation_bar == 'home'",
+                       tags$div(align = "justify", "Welcome to", tags$b("ALGAEFUN")," with ", tags$b("MARACAS"), "a microalgae web based tool for the analysis of ", 
+                                tags$b("RNA-seq"), "and ", tags$b("ChIP-seq"), "data and the", tags$b("functional annotation"), "of the resulting gene sets and genomic loci. ",
+                                tags$b("ALGAEFUN"), "with ", tags$b("MARACAS"), "supports the analysis for a wide collection 
                of microalgae that includes", tags$i("Chlamydomonas reinhardtii, Ostreococcus tauri, Phaeodactylum tricornutum"), "and ", 
-               tags$i("Nannochlorpsis gaditana."), "Please select from the navigation bar on the left the type of analysis you want to perform. You can also 
+                                tags$i("Nannochlorpsis gaditana."), "Please select from the navigation bar on the left the type of analysis you want to perform. You can also 
                see our", tags$b("video tutorial"), "on how to analyse RNA-seq and
-               ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci.")
+               ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
+               code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research.")
+      ),
     ),
     column(
       width = 2,
@@ -412,29 +418,28 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   fluidRow(
       column(width = 5,
 
+      
+      conditionalPanel(condition = "input.navigation_bar == 'genes'",
         #Choose the target microalgae
         selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
-                  choices=c("Ostreococcus tauri" = "otauri",
-                            "Chlamydomonas reinhardtii" = "creinhardtii",
-                            "Dunaliella salina" = "dsalina",
-                            "Volvox Carteri" = "vcarteri",
-                            "Phaeodactylum tricornutum" = "ptricornutum",
-                            "Nannochloropsis gaditana" = "ngaditana",
-                            "Ostreococcus lucimarinus" = "olucimarinus",
-                            "Coccomyxa subellipsoidea" = "csubellipsoidea",
-                            "Bathycoccus prasinos" = "bathy",
-                            "Klebsormidium nitens" = "knitens",
-                            "Haematococcus lacustris" = "hlacustris")),
-
-
-      #Choose a p-value
-      conditionalPanel(condition = "input.navigation_bar == 'go'",
+                   choices=c("Ostreococcus tauri" = "otauri",
+                             "Chlamydomonas reinhardtii" = "creinhardtii",
+                             "Dunaliella salina" = "dsalina",
+                             "Volvox Carteri" = "vcarteri",
+                             "Phaeodactylum tricornutum" = "ptricornutum",
+                             "Nannochloropsis gaditana" = "ngaditana",
+                             "Ostreococcus lucimarinus" = "olucimarinus",
+                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
+                             "Bathycoccus prasinos" = "bathy",
+                             "Klebsormidium nitens" = "knitens",
+                             "Haematococcus lacustris" = "hlacustris")),
+                       
+        #Choose a p-value               
         numericInput(inputId = "pvalue", 
                      label= "Which will be your chosen p-value?", 
-                     value= 0.05)),
+                     value= 0.05),
  
-      #Choose the kind of analysis that you want us to execute 
-      conditionalPanel(condition = "input.navigation_bar == 'go'",
+        #Choose the kind of analysis that you want us to execute 
         radioButtons(inputId = "analysis",
                    label="Choose your desirable analysis",
                    choices=c("GO terms enrichment" = "go",
@@ -443,7 +448,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             ))),
       
       conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') &&
-                                   input.navigation_bar == 'go'",
+                                   input.navigation_bar == 'genes'",
                        radioButtons(inputId = "ontology",
                                     label="Choose gene ontology:",
                                     choices = c("Biological process" = "BP",
@@ -1545,7 +1550,8 @@ assocated to the enriched pathway represented in the corresponding row."
                                                   end.field = "end")
     } else
     {
-      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
+      #genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
+      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file,header=FALSE)
     }
     
     ## Define promoter region around TSS
