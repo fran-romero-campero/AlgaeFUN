@@ -22,6 +22,8 @@
 # input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
 # input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
 # input <- list(microalgae = "ptricornutum", promoter_length = 1000, genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt")
+# input <- list(microalgae = "ptricornutum", genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt", bw_file= "example_files/example_ptricornutum.bw" ,promoter_length = 1000, selected_genomic_features = "Promoter")
+# input <- list(microalgae = "creinhardtii", genomic_regions_file = "example_files/example_genomic_regions_creinhardtii_2.txt", bw_file= "example_files/example_creinhardtii.bw" ,promoter_length = 1000, selected_genomic_features = "Promoter")
 
 # target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
 # target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
@@ -58,12 +60,21 @@ library(org.Ngaditana.eg.db)
 library(org.Knitens.eg.db)
 library(org.Csubellipsoidea.eg.db)
 library(org.Hlacustris.eg.db)
+library(org.Czofingiensis.eg.db)
+library(org.Bprasinos.eg.db)
+
+## TODO lucimarinus
 
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
 library(TxDb.Creinhardtii.Phytozome)
 library(TxDb.Ptricornutum.Ensembl.Protists)
 library(TxDb.Hlacustris.NCBI)
+library(TxDb.Czofingiensis.Phytozome)
+library(TxDb.Bprasinos.Orcae)
+library(TxDb.Csubellipsoidea.Phytozome)
+library(TxDb.Dsalina.Phytozome)
+library(TxDb.Vcarteri.Phytozome)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -74,7 +85,9 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Klebsormidium nitens",
                       "Coccomyxa subellipsoidea",
                       "Bathycoccus prasinos",
-                      "Haematococcus lacustris")
+                      "Haematococcus lacustris",
+                      "Chromochloris zofingiensis",
+                      "Ostreococcus lucimarinus")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -84,7 +97,9 @@ names(microalgae.names) <- c("otauri",
                              "knitens",
                              "csubellipsoidea",
                              "bprasinos",
-                             "hlacustris")
+                             "hlacustris",
+                             "zofi",
+                             "olucimarinus")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -123,6 +138,20 @@ ncbi.gene.link <- function(gene.name)
   ncbi.link <- paste0("https://www.ncbi.nlm.nih.gov/protein/",gene.name)
   gene.link <- paste(c("<a href=\"",
                        ncbi.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
+#C zofingiensis gene link
+zofi.gene.link <- function(gene.name)
+{
+  zofi.link <- paste(c("https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=5211&searchText=",
+                            gene.name,
+                            "&offset=0"),collapse="")
+  gene.link <- paste(c("<a href=\"",
+                       zofi.link,
                        "\" target=\"_blank\">",
                        gene.name, "</a>"),
                      collapse="")
@@ -422,19 +451,22 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       conditionalPanel(condition = "input.navigation_bar == 'genes'",
         #Choose the target microalgae
         selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
-                   choices=c("Ostreococcus tauri" = "otauri",
-                             "Chlamydomonas reinhardtii" = "creinhardtii",
-                             "Dunaliella salina" = "dsalina",
-                             "Volvox Carteri" = "vcarteri",
-                             "Phaeodactylum tricornutum" = "ptricornutum",
-                             "Nannochloropsis gaditana" = "ngaditana",
-                             "Ostreococcus lucimarinus" = "olucimarinus",
-                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
-                             "Bathycoccus prasinos" = "bathy",
-                             "Klebsormidium nitens" = "knitens",
-                             "Haematococcus lacustris" = "hlacustris")),
-                       
-        #Choose a p-value               
+
+                  choices=c("Ostreococcus tauri" = "otauri",
+                            "Chlamydomonas reinhardtii" = "creinhardtii",
+                            "Dunaliella salina" = "dsalina",
+                            "Volvox Carteri" = "vcarteri",
+                            "Phaeodactylum tricornutum" = "ptricornutum",
+                            "Nannochloropsis gaditana" = "ngaditana",
+                            "Ostreococcus lucimarinus" = "olucimarinus",
+                            "Coccomyxa subellipsoidea" = "csubellipsoidea",
+                            "Bathycoccus prasinos" = "bathy",
+                            "Klebsormidium nitens" = "knitens",
+                            "Haematococcus lacustris" = "hlacustris",
+                            "Chlomochloris zofingiensis" = "zofi"))),
+
+      #Choose a p-value
+      conditionalPanel(condition = "input.navigation_bar == 'go'",
         numericInput(inputId = "pvalue", 
                      label= "Which will be your chosen p-value?", 
                      value= 0.05),
@@ -568,15 +600,13 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
-      conditionalPanel(condition = "input.navigation_bar == 'go'",
+      conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') && input.navigation_bar == 'go'",
             tabsetPanel(type = "tabs",
                   tabPanel("GO enrichment table",
                            tags$br(), tags$br(),
                            shinyjs::useShinyjs(),
                            hidden(div(id='loading.enrichment.go',h3('Please be patient, computing GO enrichment ...'))), 
                            hidden(div(id='ready.enrichment.go',h3('Your GO enrichment is ready!'))), 
-                           hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
-                           hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
                            htmlOutput(outputId = "gene_sanity_go"),
                            htmlOutput(outputId = "wrong_genes_go"),
                            htmlOutput(outputId = "intro_go"),
@@ -637,10 +667,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(),
                            div(style= "text-align: center;",
                               downloadButton(outputId= "downloadcnetplot", "Get this plot"), inline=T),
-                           tags$br(),tags$br()),
+                           tags$br(),tags$br()))),
                            #align = "center"),
-                  tabPanel("KEGG pathway enrichment table", 
+      conditionalPanel(condition= "(input.analysis == 'kegg' || input.analysis == 'both') && input.navigation_bar == 'go'",
+                       tabsetPanel(type = "tabs",
+                       tabPanel("KEGG pathway enrichment table", 
                            tags$br(), tags$br(),
+                           hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
+                           hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
                            htmlOutput(outputId = "gene_sanity_kegg"),
                            htmlOutput(outputId = "wrong_genes_kegg"),
                            htmlOutput(outputId = "intro_kegg"),
@@ -670,26 +704,43 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(), tags$br(),
                            uiOutput(outputId = "kegg_module_selectize"),
                            imageOutput("kegg_module_image"),
-                           tags$br(), tags$br())#,
+                           tags$br(), tags$br()))),
                   # tabPanel("Summary", dataTableOutput(outputId = "data"),
                   #          downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
                            #htmlOutput(outputId = "revigo"))
-                 )
-              ),
+                 
+              
       ######tabpanels also can look like this: 
       #https://shiny.rstudio.com/gallery/navlistpanel-example.html
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
+                       tabsetPanel(type = "tabs",
+                                   tabPanel("Annotated genes table",
                        tags$br(), tags$br(),
+                       hidden(div(id='loading.chip',h3('Please be patient, computing genomic loci annotation ...'))), 
+                       hidden(div(id='ready.chip',h3('Your genomic loci annotation is ready!'))),
                        htmlOutput(outputId = "textTableAnnotatedGenes"),
                        tags$br(), tags$br(),
                        dataTableOutput(outputId = "output_gene_chip_table"),
+                       tags$br(), tags$br()),
+                                   tabPanel("Pie chart",
                        tags$br(), tags$br(),
                        htmlOutput(outputId = "piechart.text"),
+                       tags$br(), tags$br(),
                        plotOutput(outputId = "annotation.pie.chart",inline=TRUE),
+                       tags$br(), tags$br()), 
+                                  tabPanel("Distance to TSS visualization",
+                       tags$br(), tags$br(),
                        plotOutput(outputId = "distance.to.tss",inline=TRUE),
+                       tags$br(), tags$br()),
+                                  tabPanel("TSS signal visualization",
+                       tags$br(), tags$br(),
                        plotOutput(outputId = "tss_signal"),
-                       uiOutput(outputId = "annotated_genes")#,
+                       tags$br(), tags$br()),
+                                  tabPanel("Mark inspection of annotated genes",
+                       tags$br(), tags$br(),
+                       uiOutput(outputId = "annotated_genes"),
+                       tags$br(), tags$br()))#,
                       # plotOutput(outputId = "individual_gene_profile")
       )
       )
@@ -781,12 +832,17 @@ server <- shinyServer(function(input, output, session) {
     {
       org.db <- org.Csubellipsoidea.eg.db
       microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
-      gene.link.function <- cocsu.gene.link
+      gene.link.function <- phytozome.gene.link
     }else if (input$microalgae == "hlacustris")
     {
       org.db <- org.Hlacustris.eg.db
       microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T)[[1]]
       gene.link.function <- ncbi.gene.link
+    }else if (input$microalgae == "zofi")
+    {
+      org.db <- org.Czofingiensis.eg.db
+      microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T)[[1]]
+      gene.link.function <- zofi.gene.link
     }
     
 
@@ -1146,11 +1202,33 @@ with the corresponding GO term.")
           }
           
           pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-        }}
+        }}else if(input$microalgae == "zofi")
+        {
+          zofi.ko <- select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
+          ko.universe <- zofi.ko$KO
+          ko.universe <- ko.universe[!is.na(ko.universe)]
+          
+          target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
+          target.ko <- target.ko[!is.na(target.ko)]
+          
+          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+          
+          for(i in 1:nrow(pathway.enrichment))
+          {
+            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+            
+            current.genes <- c()
+            for(j in 1:length(current.Ks))
+            {
+              current.genes <- c(current.genes,subset(zofi.ko, KO == current.Ks[j])$GID)
+            }
+            
+            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+          }}
         
       
       ## Compute KEGG pathway enrichment
-      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" )
+      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" | input$microalgae != "zofi" )
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
@@ -1217,6 +1295,13 @@ with the corresponding GO term.")
           {
             kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
           }
+        }else if (input$microalgae == "zofi")
+        {
+          kegg.enriched.genes <- pathway.enrichment.result$geneID
+          for(i in 1:length(kegg.enriched.genes))
+          {
+            kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
+          }
         }
 
         pathways.result.table <- data.frame(pathway.enrichment.result$ID, pathway.enrichment.result$Description,
@@ -1234,7 +1319,7 @@ with the corresponding GO term.")
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
+        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri" || input$microalgae == "cocsu" || input$microalgae == "dsalina")
         {
           gene.link.function <- phytozome.gene.link
         } else if(input$microalgae == "ptricornutum")
@@ -1249,6 +1334,9 @@ with the corresponding GO term.")
         }else if(input$microalgae == "hlacustris")
         {
           gene.link.function <- ncbi.gene.link
+        }else if(input$microalgae == "zofi")
+        {
+          gene.link.function <- zofi.gene.link
         }
         
         for(i in 1:length(kegg.enriched.genes))
@@ -1287,7 +1375,7 @@ assocated to the enriched pathway represented in the corresponding row."
       ## Figures for KEGG pathway enrichment analysis
       
       ## Prepare gene set for representation
-      if(input$microalgae == "knitens" | input$microalgae == "hlacustris")
+      if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
       {
         genes.pathway <- rep(0, length(ko.universe))
         names(genes.pathway) <- ko.universe
@@ -1313,7 +1401,7 @@ assocated to the enriched pathway represented in the corresponding row."
                       choices=pathways.for.select)
       })
     
-      if( input$microalgae == "knitens" | input$microalgae == "hlacustris")
+      if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
       {
         modules.enrichment <- enrichMKEGG(gene = target.ko, universe = ko.universe, organism = "ko", keyType = "kegg",minGSSize = 4)
       } else
@@ -1359,7 +1447,7 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
-        } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris")
+        } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
         {
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
@@ -1383,7 +1471,7 @@ assocated to the enriched pathway represented in the corresponding row."
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri")
+        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri"  || input$microalgae == "cocsu" || input$microalgae == "dsalina")
         {
           gene.link.function <- phytozome.gene.link
         } else if(input$microalgae == "ptricornutum")
@@ -1398,6 +1486,9 @@ assocated to the enriched pathway represented in the corresponding row."
         }else if(input$microalgae == "hlacustris")
         {
           gene.link.function <- ncbi.gene.link
+        }else if(input$microalgae == "zofi")
+        {
+          gene.link.function <- zofi.gene.link
         }
         
         for(i in 1:length(modules.enriched.genes))
@@ -1495,11 +1586,13 @@ assocated to the enriched pathway represented in the corresponding row."
     } else if (input$microalgae == "dsalina")
     {
       gene.link.function <- phytozome.gene.link
-      ## TODO
+      txdb <- TxDb.Dsalina.eg.db
+      org.db <- org.Dsalina.eg.db
     } else if (input$microalgae == "vcarteri")
     {
       gene.link.function <- phytozome.gene.link
-      ## TODO
+      txdb <- TxDb.Vcarteri.eg.db
+      org.db <- org.Vcarteri.eg.db
     } else if (input$microalgae == "ptricornutum")
     {
       gene.link.function <- phaeodactylum.gene.link
@@ -1519,9 +1612,29 @@ assocated to the enriched pathway represented in the corresponding row."
     {
       gene.link.function <- bathy.gene.link
       org.db <- org.Bprasinos.eg.db
-      ## TODO
+      txdb <- TxDb.Bprasinos.Orcae
+    }else if (input$microalgae == "cocsu")
+    {
+      gene.link.function <- phytozome.gene.link
+      org.db <- org.Csubellipsoidea.eg.db
+      txdb <- TxDb.Csubellipsoidea.Phytozome
+    }else if (input$microalgae == "zofi")
+    {
+      gene.link.function <- zofi.gene.link
+      org.db <- org.Czofingiensis.eg.db
+      txdb <- TxDb.Czofingiensis.Phytozome
+    }else if (input$microalgae == "hlacustris")
+    {
+      gene.link.function <- ncbi.gene.link
+      org.db <- org.Hlacustris.eg.db
+      txdb <- TxDb.Hlacustris.NCBI
+    }else if (input$microalgae == "olucimarinus")
+    {
+      #TODO
     }
     
+    shinyjs::showElement(id = 'loading.chip')
+    shinyjs::hideElement(id = 'ready.chip')
     ## Extract genomic regions from text box or uploaded file
     if(is.null(input$genomic_regions_file))
     {
@@ -1551,7 +1664,8 @@ assocated to the enriched pathway represented in the corresponding row."
     } else
     {
       #genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
-      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file,header=FALSE)
+      genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
+        #readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
     }
     
     ## Define promoter region around TSS
@@ -1654,6 +1768,7 @@ assocated to the enriched pathway represented in the corresponding row."
         annotation.link <- pfam.link
       }
       
+      j<-1
       for(j in 1:length(genes))
       {
         current.gene <- genes[j]
@@ -1672,6 +1787,8 @@ assocated to the enriched pathway represented in the corresponding row."
       }
     }
 
+    shinyjs::showElement(id = 'ready.chip')
+    shinyjs::hideElement(id = 'loading.chip')
     ## Introductory text for GO enrichment table
     annotated.genes.table.text <- "<b>The table below enumerates the potential gene targets associated with the input
     genomic loci. A gene is associated as a target of a genomic locus when it overlaps at least one of the selected
@@ -1710,6 +1827,10 @@ assocated to the enriched pathway represented in the corresponding row."
                        format="BigWig",
                        which=around.genes.tss,
                        as="RleList")
+      # sapply(input$bw_file$data, import,
+      #                  format="BigWig",
+      #                  which=around.genes.tss,
+      #                  as="RleList")
 
     ## Extracting the signal around TSS with promoter length
     number.tiles <- 2*input$promoter_length/20
