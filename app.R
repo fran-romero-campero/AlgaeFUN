@@ -445,7 +445,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   
   #Interface where the user can choose his/her preferencies, separated by columns
   fluidRow(
-      column(width = 5,
+      column(width = 4,
 
       
       conditionalPanel(condition = "input.navigation_bar == 'genes'",
@@ -502,22 +502,38 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       ),
       
-      column( width = 7,
+      column( width = 8,
         #Choose the kind of analysis that you want us to execute 
         # tags$b("Choose between annotating genes sets geneared, 
         #              for instance, from an RNA-seq analysis or genomics regions
         #              obtained, for instance, from a Chip-seq analysis:"),
         
-        conditionalPanel(condition = "input.navigation_bar == 'go'",
+        conditionalPanel(condition = "input.navigation_bar == 'genes'",
           #The user can either insert his/her own background list or use ours. 
-          radioButtons(inputId = "input_mode",
+          radioButtons(inputId = "input_mode", width = "100%",
                        label = "Would you rather use your own background set?", 
                        choices = c("Yes", 
                                    "No"),
                         selected = "No"),
+          #This panel will only appear if the user wants to use his/her own background list. 
+          conditionalPanel(condition = "input.input_mode == 'Yes'",
+                           textAreaInput(inputId = "background", label= "Background set", width="200%", 
+                                         height = "100px",placeholder = "Insert background list",
+                                         value= ""#ostta11g02790
+                                         #         ostta10g02400
+                                         #         ostta09g02680
+                                         #         ostta10g03135
+                                         #         ostta17g00930"
+                           ),
+                           
+                           actionButton(inputId = "clear_universe_set",label = "Clear"),
+                           fileInput(inputId = "gene_universe_file",
+                                     label = "Choose File with Custom Gene Universe to Upload",
+                                     width = "100%")
+                           
+          ),
 
           #This panel will only appear if the user chooses to use our background lists. 
-          actionButton(inputId = "example_genes",label = "Example"),
           textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
                         height = "200px",placeholder = "Insert set of genes",
                         value= ""#,
@@ -527,25 +543,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                         # ostta10g03135
                         # ostta17g00930"
           ),
-      
-        actionButton(inputId = "clear_gene_set",label = "Clear"),
-        fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload")),
+          actionButton(inputId = "example_genes",label = "Example"),
+          actionButton(inputId = "clear_gene_set",label = "Clear"),
+          fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload")),
 
-        #This panel will only appear if the user wants to use his/her own background list. 
-        conditionalPanel(condition = "input.input_mode == 'Yes' && input.navigation_bar == 'go'",
-                         textAreaInput(inputId = "background", label= "Background set", width="200%", 
-                                       height = "100px",placeholder = "Insert background list",
-                                       value= ""#ostta11g02790
-                                       #         ostta10g02400
-                                       #         ostta09g02680
-                                       #         ostta10g03135
-                                       #         ostta17g00930"
-                       ),
-                       
-                       actionButton(inputId = "clear_universe_set",label = "Clear"),
-                       fileInput(inputId = "gene_universe_file",label = "Choose File with Custom Gene Universe to Upload")
-                       
-      ),
+        
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
         #This panel will only appear if the user chooses to use our background lists. 
@@ -582,7 +584,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         fileInput(inputId = "bw_file",label = "Choose BigWig File to Upload for Profile Representations:", width= "100%"),
         actionButton(inputId = "genomic_button",label = "Have fun!", icon("send") )                       
                        ),
-      conditionalPanel(condition = "input.navigation_bar == 'go'",
+      conditionalPanel(condition = "input.navigation_bar == 'genes'",
                        actionButton(inputId = "go.button",label = "Have fun!", icon("send") )                       
       )
     )
@@ -599,16 +601,18 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
-      conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') && input.navigation_bar == 'go'",
+      conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') && input.navigation_bar == 'genes'",
+            shinyjs::useShinyjs(),
+            hidden(div(id='loading.enrichment.go',h3('Please be patient, computing GO enrichment ...'))), 
+            hidden(div(id='ready.enrichment.go',h3('Your GO enrichment is ready!'))), 
+            htmlOutput(outputId = "gene_sanity_go"),
+            htmlOutput(outputId = "wrong_genes_go"),
+            htmlOutput(outputId = "intro_go"),
+            tags$br(),
+            tags$br(),
             tabsetPanel(type = "tabs",
-                  tabPanel("GO enrichment table",
-                           tags$br(), tags$br(),
-                           shinyjs::useShinyjs(),
-                           hidden(div(id='loading.enrichment.go',h3('Please be patient, computing GO enrichment ...'))), 
-                           hidden(div(id='ready.enrichment.go',h3('Your GO enrichment is ready!'))), 
-                           htmlOutput(outputId = "gene_sanity_go"),
-                           htmlOutput(outputId = "wrong_genes_go"),
-                           htmlOutput(outputId = "intro_go"),
+                  tabPanel(tags$b("GO Enrichment Table"),
+                           tags$br(),
                            htmlOutput(outputId = "textGOTable"),
                            tags$br(), tags$br(),
                            dataTableOutput(outputId = "output_go_table"),
@@ -617,7 +621,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(), tags$br()
                            ),
                   
-                    tabPanel("GOmap",
+                    tabPanel(tags$b("GO Map"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "go_graph"),
                            tags$br(), tags$br(),
@@ -627,7 +631,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            div(style= "text-align: center;",
                                downloadButton(outputId= "downloadImage", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
-                    tabPanel("GO barplot",
+                    tabPanel(tags$b("GO Barplot"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "barplot_text"),
                            tags$br(),
@@ -637,7 +641,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            div(style= "text-align: center;",
                                downloadButton(outputId= "downloadbarplot", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
-                    tabPanel("GO dotplot",
+                    tabPanel(tags$b("GO Dotplot"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "dotplot_text"),
                            tags$br(),
@@ -647,7 +651,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            div(style= "text-align: center;",
                               downloadButton(outputId= "downloadotplot", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
-                  tabPanel("GO emap",
+                  tabPanel(tags$b("GO Emap"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "emapplot_text"),
                            tags$br(),
@@ -657,7 +661,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            div(style= "text-align: center;",
                                downloadButton(outputId= "downloademapplot", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
-                  tabPanel("GO concept map",
+                  tabPanel(tags$b("GO Concept Map"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "cnetplot_text"),
                            tags$br(),
@@ -670,7 +674,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            #align = "center"),
       conditionalPanel(condition= "(input.analysis == 'kegg' || input.analysis == 'both') && input.navigation_bar == 'go'",
                        tabsetPanel(type = "tabs",
-                       tabPanel("KEGG pathway enrichment table", 
+                       tabPanel(tags$b("KEGG Pathway Enrichment Table"), 
                            tags$br(), tags$br(),
                            hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
                            hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
@@ -683,7 +687,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(),
                            dataTableOutput(outputId = "output_pathway_table"),
                            br(), br(), br()),
-                  tabPanel("KEGG pathway visualization",
+                  tabPanel(tags$b("KEGG Pathway Visualization"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "textKEGGImage"),
                            br(), br(),
@@ -694,7 +698,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            div(style= "text-align: center;",
                               downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"), inline=T),
                            br(), br()),
-                  tabPanel("KEGG module enrichment table",
+                  tabPanel(tags$b("KEGG Module Enrichment Table"),
                            tags$br(), tags$br(),
                            htmlOutput(outputId = "text_module_kegg"),
                            br(), br(),
@@ -714,7 +718,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        tabsetPanel(type = "tabs",
-                                   tabPanel("Annotated genes table",
+                                   tabPanel(tags$b("Annotated Genes Table"),
                        tags$br(), tags$br(),
                        hidden(div(id='loading.chip',h3('Please be patient, computing genomic loci annotation ...'))), 
                        hidden(div(id='ready.chip',h3('Your genomic loci annotation is ready!'))),
@@ -898,7 +902,7 @@ server <- shinyServer(function(input, output, session) {
     if((input$analysis == "go" || input$analysis == "both") && (length(wrong.genes) == 0))
     {
       ## Intro text for GO enrichment
-      go.intro.text <- paste(c("This tab presents the results from the <b>GO enrichment analysis</b> 
+      go.intro.text <- paste(c("The tabs below present the results from the <b>GO enrichment analysis</b> 
                                       performed over the input target genes (<i>",
                                paste(target.genes[1:3],collapse=" "),
                                "</i> ...) from the microalgae <b> <i>", microalgae.names[input$microalgae],
