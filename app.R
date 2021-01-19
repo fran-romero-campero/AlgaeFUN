@@ -463,10 +463,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Bathycoccus prasinos" = "bathy",
                             "Klebsormidium nitens" = "knitens",
                             "Haematococcus lacustris" = "hlacustris",
-                            "Chlomochloris zofingiensis" = "zofi"))),
+                            "Chlomochloris zofingiensis" = "zofi")),
 
       #Choose a p-value
-      conditionalPanel(condition = "input.navigation_bar == 'go'",
         numericInput(inputId = "pvalue", 
                      label= "Which will be your chosen p-value?", 
                      value= 0.05),
