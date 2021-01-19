@@ -617,22 +617,22 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                            tags$br(), tags$br(),
                            dataTableOutput(outputId = "output_go_table"),
                            htmlOutput(outputId = "revigo"),
-                           downloadButton(outputId= "downloadData", "Download table"),
+                           uiOutput(outputId = "download_ui_for_go_table"),
                            tags$br(), tags$br()
                            ),
                   
                     tabPanel(tags$b("GO Map"),
-                           tags$br(), tags$br(),
+                           tags$br(),
                            htmlOutput(outputId = "go_graph"),
                            tags$br(), tags$br(),
                            div(style= "overflow:scroll; height:500px; text-align: center;", 
                                        plotOutput(outputId = "go.plot", inline = T)),
                            tags$br(),
-                           div(style= "text-align: center;",
-                               downloadButton(outputId= "downloadImage", "Get this plot"), inline=T),
+                           div(style= "text-align: left;",
+                               downloadButton(outputId= "downloadGOMapImage", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
                     tabPanel(tags$b("GO Barplot"),
-                           tags$br(), tags$br(),
+                           tags$br(),
                            htmlOutput(outputId = "barplot_text"),
                            tags$br(),
                            div(style= "text-align: center;",
@@ -642,7 +642,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                downloadButton(outputId= "downloadbarplot", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
                     tabPanel(tags$b("GO Dotplot"),
-                           tags$br(), tags$br(),
+                           tags$br(),
                            htmlOutput(outputId = "dotplot_text"),
                            tags$br(),
                            div(style= "text-align: center;",
@@ -652,7 +652,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                               downloadButton(outputId= "downloadotplot", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
                   tabPanel(tags$b("GO Emap"),
-                           tags$br(), tags$br(),
+                           tags$br(),
                            htmlOutput(outputId = "emapplot_text"),
                            tags$br(),
                            div(style= "text-align: center;",
@@ -662,7 +662,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                downloadButton(outputId= "downloademapplot", "Get this plot"), inline=T),
                            tags$br(), tags$br()),
                   tabPanel(tags$b("GO Concept Map"),
-                           tags$br(), tags$br(),
+                           tags$br(),
                            htmlOutput(outputId = "cnetplot_text"),
                            tags$br(),
                            div(style= "text-align: center;",
@@ -980,17 +980,21 @@ annotated with the GO term represented in the corresponding row."
         ## Output table with GO enrichment result
         output$output_go_table <- renderDataTable({
           go.result.table.with.links #go.result.table
-        },escape=FALSE,options =list(pageLength = 5)) 
+        },escape=FALSE,options =list(pageLength = 5))
+        
+        ## Generate UI to download go enrichment table and creating a downlodable table
+        output$download_ui_for_go_table<- renderUI(
+          tagList(downloadButton(outputId= "downloadGOTable", "Download GO Enrichment Table"),tags$br(),tags$br(),tags$br(),tags$br(),tags$br(),tags$br())
+        )
+        
         ## Download result
-        output$downloadData<- downloadHandler(
+        output$downloadGOTable<- downloadHandler(
           filename= function() {
-              paste("godata-",microalgae.names[input$microalgae] , ".csv", sep="")
+              paste("go_enrichment_table_",microalgae.names[input$microalgae] , ".tsv", sep="")
             },
           content= function(file) {
-            write.csv(go.result.table,
-                      file,
-                      row.names=TRUE
-                      )
+            write.table(x = go.result.table,quote = F,sep = "\t",
+                        file=file,row.names=FALSE,col.names=TRUE)
           })
         
         ## Link to REVIGO 
@@ -1025,6 +1029,18 @@ annotated with the GO term represented in the corresponding row."
             goplot(enrich.go,showCategory = 10)
           })
         
+        output$downloadGOMapImage <- downloadHandler(
+          print("lala"),
+          filename = function () {
+            paste(c("go_map_",microalgae.names[input$microalgae] ,".png"), collapse="")
+          },
+          content = function(file) {
+            png(file)
+            goplot(enrich.go,showCategory = 10)
+            dev.off()
+          }
+        )
+
         output$barplot_text <- renderText("In the following barplot each bar represents a significantly enriched 
         GO term. The length of the bar corresponds to the number of genes in the
         target set annotated with the given GO term. The bar color captures the level
