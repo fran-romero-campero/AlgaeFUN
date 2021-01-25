@@ -401,8 +401,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                    choices=c(
                      "Home" = "home",
                      "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
-                     "Functional Annotation of Gene Sets" = "genes",
-                     "Functional Annotation of Genomic Loci" = "chip",
+                     "Gene Set Functional Analysis" = "genes",
+                     "Genomic Loci Functional Analysis" = "chip",
                      "Tutorials" = "tutorials",
                      "GitHub repository" = "github",
                      "Citation and Contact" = "citation"
@@ -422,6 +422,31 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
                code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research.")
       ),
+      
+      conditionalPanel(condition = "input.navigation_bar == 'genes'",
+                        tags$div(align="justify", tags$b("AlgaeFUN"), "allows researchers to perform", tags$b("functional annotation"), 
+                       "over gene sets.", tags$b("Gene Ontology (GO) enrichment"), "analysis as well as", tags$b("KEGG (Kyoto Encyclopedia
+                       of Genes and Genomes) pathway enrichment"), "analysis are supported. The gene set of interest can be obtained, for example,
+                       as the result of a differential expression analysis carried out using", tags$b("MARACAS."), " See our", tags$b("video tutorial"),
+                       "for details or follow the next steps to perform your analysis:",
+                                tags$ol(
+                                  tags$li("In the left panel choose your ", tags$b("microalgae")," of interest, the type of enrichment analysis 
+                                          to perform and the", tags$b("p-value threshold.")),
+                                  tags$li("Insert your ", tags$b("gene set"), " in the text box or load it from a file using the",
+                                          tags$b("Browse …"), " button. An example can be loaded by clicking on the ",  tags$b("Example"), " button. 
+                                          Click on", tags$b("Clear"), " button to remove the loaded gene set."),
+                                  tags$li("Users can choose between the default", tags$b("background"), " gene provided by AlgaeFUN of a custom one 
+                                          that can be specified."),
+                                  tags$li("Click on the ", tags$b("Have Fun"), " button to perform the specified functional enrichment analysis. The
+                                          results will be shown in the different tabs below.")
+                                 )
+      )),
+      
+      
+      
+      
+      
+      
     ),
     column(
       width = 2,
@@ -465,11 +490,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Haematococcus lacustris" = "hlacustris",
                             "Chlomochloris zofingiensis" = "zofi")),
 
-      #Choose a p-value
-        numericInput(inputId = "pvalue", 
-                     label= "Which will be your chosen p-value?", 
-                     value= 0.05),
- 
         #Choose the kind of analysis that you want us to execute 
         radioButtons(inputId = "analysis",
                    label="Choose your desirable analysis",
@@ -485,6 +505,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                     choices = c("Biological process" = "BP",
                                                 "Cellular Component" = "CC",
                                                 "Mollecular Function" = "MF"))),
+      #Choose a p-value
+      conditionalPanel(condition = "input.navigation_bar == 'genes' || input.navigation_bar == 'chip'",
+                       
+        numericInput(inputId = "pvalue", 
+                     label= "Which will be your chosen p-value?", 
+                     value= 0.05)
+      ),
+      
        
       #Choose a promoter length
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
@@ -509,29 +537,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         #              obtained, for instance, from a Chip-seq analysis:"),
         
         conditionalPanel(condition = "input.navigation_bar == 'genes'",
-          #The user can either insert his/her own background list or use ours. 
-          radioButtons(inputId = "input_mode", width = "100%",
-                       label = "Would you rather use your own background set?", 
-                       choices = c("Yes", 
-                                   "No"),
-                        selected = "No"),
-          #This panel will only appear if the user wants to use his/her own background list. 
-          conditionalPanel(condition = "input.input_mode == 'Yes'",
-                           textAreaInput(inputId = "background", label= "Background set", width="200%", 
-                                         height = "100px",placeholder = "Insert background list",
-                                         value= ""#ostta11g02790
-                                         #         ostta10g02400
-                                         #         ostta09g02680
-                                         #         ostta10g03135
-                                         #         ostta17g00930"
-                           ),
-                           
-                           actionButton(inputId = "clear_universe_set",label = "Clear"),
-                           fileInput(inputId = "gene_universe_file",
-                                     label = "Choose File with Custom Gene Universe to Upload",
-                                     width = "100%")
-                           
-          ),
 
           #This panel will only appear if the user chooses to use our background lists. 
           textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
@@ -545,10 +550,32 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
           ),
           actionButton(inputId = "example_genes",label = "Example"),
           actionButton(inputId = "clear_gene_set",label = "Clear"),
-          fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload")),
-
+          fileInput(inputId = "gene_set_file",label = "Choose File with Gene Set to Upload"),
         
-      
+          #The user can either insert his/her own background list or use ours. 
+          radioButtons(inputId = "input_mode", width = "100%",
+                       label = "Would you rather use your own background set?", 
+                       choices = c("Yes", 
+                                   "No"),
+                       selected = "No"),
+          #This panel will only appear if the user wants to use his/her own background list. 
+          conditionalPanel(condition = "input.input_mode == 'Yes'",
+                         textAreaInput(inputId = "background", label= "Background set", width="200%", 
+                                       height = "100px",placeholder = "Insert background list",
+                                       value= ""#ostta11g02790
+                                       #         ostta10g02400
+                                       #         ostta09g02680
+                                       #         ostta10g03135
+                                       #         ostta17g00930"
+                         ),
+                         
+                         actionButton(inputId = "clear_universe_set",label = "Clear"),
+                         fileInput(inputId = "gene_universe_file",
+                                   label = "Choose File with Custom Gene Universe to Upload",
+                                   width = "100%")
+                         
+        )),
+
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
         #This panel will only appear if the user chooses to use our background lists. 
         actionButton(inputId = "example_genomic_regions",label = "Example"),
@@ -601,120 +628,164 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
-      conditionalPanel(condition= "(input.analysis == 'go' || input.analysis == 'both') && input.navigation_bar == 'genes'",
-            shinyjs::useShinyjs(),
-            hidden(div(id='loading.enrichment.go',h3('Please be patient, computing GO enrichment ...'))), 
-            hidden(div(id='ready.enrichment.go',h3('Your GO enrichment is ready!'))), 
-            htmlOutput(outputId = "gene_sanity_go"),
-            htmlOutput(outputId = "wrong_genes_go"),
-            htmlOutput(outputId = "intro_go"),
-            tags$br(),
-            tags$br(),
-            tabsetPanel(type = "tabs",
-                  tabPanel(tags$b("GO Enrichment Table"),
-                           tags$br(),
-                           htmlOutput(outputId = "textGOTable"),
-                           tags$br(), tags$br(),
-                           dataTableOutput(outputId = "output_go_table"),
-                           htmlOutput(outputId = "revigo"),
-                           uiOutput(outputId = "download_ui_for_go_table"),
-                           tags$br(), tags$br()
-                           ),
-                  
-                    tabPanel(tags$b("GO Map"),
-                           tags$br(),
-                           htmlOutput(outputId = "go_graph"),
-                           tags$br(), tags$br(),
-                           div(style= "overflow:scroll; height:500px; text-align: center;", 
-                                       plotOutput(outputId = "go.plot", inline = T)),
-                           tags$br(),
-                           div(style= "text-align: left;",
-                               downloadButton(outputId= "downloadGOMapImage", "Get this plot"), inline=T),
-                           tags$br(), tags$br()),
-                    tabPanel(tags$b("GO Barplot"),
-                           tags$br(),
-                           htmlOutput(outputId = "barplot_text"),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                               plotOutput(outputId = "bar.plot",inline=TRUE)),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                               downloadButton(outputId= "downloadbarplot", "Get this plot"), inline=T),
-                           tags$br(), tags$br()),
-                    tabPanel(tags$b("GO Dotplot"),
-                           tags$br(),
-                           htmlOutput(outputId = "dotplot_text"),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                               plotOutput(outputId = "dot.plot",inline=TRUE)),
-                           tags$br(),
-                           div(style= "text-align: center;",
+
+      conditionalPanel(condition = "(input.navigation_bar == 'genes')",
+         tabsetPanel(type ="tabs",
+            tabPanel(tags$b("GO ENRICHMENT"),
+                  shinyjs::useShinyjs(),
+                  hidden(div(id='loading.enrichment.go',h3('Please be patient, computing GO enrichment ...'))), 
+                  hidden(div(id='ready.enrichment.go',h3('Your GO enrichment is ready!'))), 
+                  htmlOutput(outputId = "gene_sanity_go"),
+                  htmlOutput(outputId = "wrong_genes_go"),
+                  htmlOutput(outputId = "intro_go"),
+                  tags$br(),
+                  tags$br(),
+                  tabsetPanel(type = "tabs",
+                     tabPanel(tags$b("GO Enrichment Table"),
+                              tags$br(),
+                              htmlOutput(outputId = "textGOTable"),
+                             tags$br(), tags$br(),
+                              dataTableOutput(outputId = "output_go_table"),
+                              htmlOutput(outputId = "revigo"),
+                              uiOutput(outputId = "download_ui_for_go_table"),
+                              tags$br(), tags$br()
+                     ),
+                     tabPanel(tags$b("GO Map"),
+                              tags$br(),
+                              htmlOutput(outputId = "go_graph"),
+                              tags$br(), tags$br(),
+                              div(style= "overflow:scroll; height:500px; text-align: center;", 
+                                  plotOutput(outputId = "go.plot", inline = T)),
+                              tags$br(),
+                              div(style= "text-align: left;",
+                                  downloadButton(outputId= "downloadGOMapImage", "Get this plot"), inline=T),
+                              tags$br(), tags$br()),
+                     tabPanel(tags$b("GO Barplot"),
+                              tags$br(),
+                             htmlOutput(outputId = "barplot_text"),
+                              tags$br(),
+                             div(style= "text-align: center;",
+                                 plotOutput(outputId = "bar.plot",inline=TRUE)),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 downloadButton(outputId= "downloadbarplot", "Get this plot"), inline=T),
+                             tags$br(), tags$br()),
+                     tabPanel(tags$b("GO Dotplot"),
+                            tags$br(),
+                              htmlOutput(outputId = "dotplot_text"),
+                              tags$br(),
+                              div(style= "text-align: center;",
+                                  plotOutput(outputId = "dot.plot",inline=TRUE)),
+                              tags$br(),
+                              div(style= "text-align: center;",
                               downloadButton(outputId= "downloadotplot", "Get this plot"), inline=T),
-                           tags$br(), tags$br()),
-                  tabPanel(tags$b("GO Emap"),
-                           tags$br(),
-                           htmlOutput(outputId = "emapplot_text"),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                               plotOutput(outputId = "emap.plot",inline=TRUE)),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                               downloadButton(outputId= "downloademapplot", "Get this plot"), inline=T),
-                           tags$br(), tags$br()),
-                  tabPanel(tags$b("GO Concept Map"),
-                           tags$br(),
-                           htmlOutput(outputId = "cnetplot_text"),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                               plotOutput(outputId = "cnet.plot",inline=TRUE)),
-                           tags$br(),
-                           div(style= "text-align: center;",
-                              downloadButton(outputId= "downloadcnetplot", "Get this plot"), inline=T),
-                           tags$br(),tags$br()))),
-                           #align = "center"),
-      conditionalPanel(condition= "(input.analysis == 'kegg' || input.analysis == 'both') && input.navigation_bar == 'go'",
-                       tabsetPanel(type = "tabs",
-                       tabPanel(tags$b("KEGG Pathway Enrichment Table"), 
-                           tags$br(), tags$br(),
-                           hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
-                           hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
-                           htmlOutput(outputId = "gene_sanity_kegg"),
-                           htmlOutput(outputId = "wrong_genes_kegg"),
-                           htmlOutput(outputId = "intro_kegg"),
-                           htmlOutput(outputId = "textKEGGTable"),
-                           tags$br(), tags$br(),
-                           htmlOutput(outputId = "kegg_pathway_table_text"),
-                           tags$br(),
-                           dataTableOutput(outputId = "output_pathway_table"),
-                           br(), br(), br()),
-                  tabPanel(tags$b("KEGG Pathway Visualization"),
-                           tags$br(), tags$br(),
-                           htmlOutput(outputId = "textKEGGImage"),
-                           br(), br(),
-                           uiOutput(outputId = "kegg_selectize"),
-                           div(style= "text-align: center;",
-                               imageOutput("kegg_image", inline = T)),
-                           tags$br(), tags$br(),
-                           div(style= "text-align: center;",
-                              downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"), inline=T),
-                           br(), br()),
-                  tabPanel(tags$b("KEGG Module Enrichment Table"),
-                           tags$br(), tags$br(),
-                           htmlOutput(outputId = "text_module_kegg"),
-                           br(), br(),
-                           dataTableOutput(outputId = "output_module_table"),
-                           tags$br(), tags$br(),
-                           tags$br(), tags$br(),
-                           uiOutput(outputId = "kegg_module_selectize"),
-                           imageOutput("kegg_module_image"),
-                           tags$br(), tags$br()))),
-                  # tabPanel("Summary", dataTableOutput(outputId = "data"),
-                  #          downloadButton(outputId= "downloadData", "Get GO terms of each gene"))#,
-                           #htmlOutput(outputId = "revigo"))
-                 
-              
-      ######tabpanels also can look like this: 
-      #https://shiny.rstudio.com/gallery/navlistpanel-example.html
+                              tags$br(), tags$br()),
+                    tabPanel(tags$b("GO Emap"),
+                             tags$br(),
+                             htmlOutput(outputId = "emapplot_text"),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 plotOutput(outputId = "emap.plot",inline=TRUE)),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 downloadButton(outputId= "downloademapplot", "Get this plot"), inline=T),
+                             tags$br(), tags$br()),
+                    tabPanel(tags$b("GO Concept Map"),
+                             tags$br(),
+                             htmlOutput(outputId = "cnetplot_text"),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 plotOutput(outputId = "cnet.plot",inline=TRUE)),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 downloadButton(outputId= "downloadcnetplot", "Get this plot"), inline=T),
+                             tags$br(),tags$br())
+                    ) # close tabsetPanel for go result
+                  ), # close tabPanel for GO ENRICHMENT
+            tabPanel(tags$b("KEGG PATHWAY ENRICHMENT"),
+                     shinyjs::useShinyjs(),
+                     hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
+                     hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
+                     htmlOutput(outputId = "gene_sanity_kegg"),
+                     htmlOutput(outputId = "wrong_genes_kegg"),
+                     htmlOutput(outputId = "intro_kegg"),
+                     htmlOutput(outputId = "textKEGGTable"),
+                     tags$br(), tags$br(),
+                     tabsetPanel(type = "tabs",
+                                 tabPanel(tags$b("KEGG Pathway Enrichment Table"), 
+                                          tags$br(), tags$br(),
+                                          htmlOutput(outputId = "kegg_pathway_table_text"),
+                                          tags$br(),
+                                          dataTableOutput(outputId = "output_pathway_table"),
+                                          br(), br(), br()),
+                                 tabPanel(tags$b("KEGG Pathway Visualization"),
+                                          tags$br(), tags$br(),
+                                          htmlOutput(outputId = "textKEGGImage"),
+                                          br(), br(),
+                                          uiOutput(outputId = "kegg_selectize"),
+                                          div(style= "text-align: center;",
+                                              imageOutput("kegg_image", inline = T)),
+                                          tags$br(), tags$br(),
+                                          div(style= "text-align: center;",
+                                              downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"), inline=T),
+                                          br(), br()),
+                                 tabPanel(tags$b("KEGG Module Enrichment Table"),
+                                          tags$br(), tags$br(),
+                                          htmlOutput(outputId = "text_module_kegg"),
+                                          br(), br(),
+                                          dataTableOutput(outputId = "output_module_table"),
+                                          tags$br(), tags$br(),
+                                          tags$br(), tags$br(),
+                                          uiOutput(outputId = "kegg_module_selectize"),
+                                          imageOutput("kegg_module_image"),
+                                          tags$br(), tags$br())
+                     )
+                     
+            )
+            )
+      ),
+      
+      # conditionalPanel(condition = "(input.navigation_bar == 'genes') && (input.analysis == 'kegg')",
+      #                  tabsetPanel(type ="tabs",
+      #                              tabPanel(tags$b("KEGG PATHWAY ENRICHMENT"),
+      #                                       tabsetPanel(type = "tabs",
+      #                                                   tabPanel(tags$b("KEGG Pathway Enrichment Table"), 
+      #                                                            tags$br(), tags$br(),
+      #                                                            hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
+      #                                                            hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
+      #                                                            htmlOutput(outputId = "gene_sanity_kegg"),
+      #                                                            htmlOutput(outputId = "wrong_genes_kegg"),
+      #                                                            htmlOutput(outputId = "intro_kegg"),
+      #                                                            htmlOutput(outputId = "textKEGGTable"),
+      #                                                            tags$br(), tags$br(),
+      #                                                            htmlOutput(outputId = "kegg_pathway_table_text"),
+      #                                                            tags$br(),
+      #                                                            dataTableOutput(outputId = "output_pathway_table"),
+      #                                                            br(), br(), br()),
+      #                                                   tabPanel(tags$b("KEGG Pathway Visualization"),
+      #                                                            tags$br(), tags$br(),
+      #                                                            htmlOutput(outputId = "textKEGGImage"),
+      #                                                            br(), br(),
+      #                                                            uiOutput(outputId = "kegg_selectize"),
+      #                                                            div(style= "text-align: center;",
+      #                                                                imageOutput("kegg_image", inline = T)),
+      #                                                            tags$br(), tags$br(),
+      #                                                            div(style= "text-align: center;",
+      #                                                                downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"), inline=T),
+      #                                                            br(), br()),
+      #                                                   tabPanel(tags$b("KEGG Module Enrichment Table"),
+      #                                                            tags$br(), tags$br(),
+      #                                                            htmlOutput(outputId = "text_module_kegg"),
+      #                                                            br(), br(),
+      #                                                            dataTableOutput(outputId = "output_module_table"),
+      #                                                            tags$br(), tags$br(),
+      #                                                            tags$br(), tags$br(),
+      #                                                            uiOutput(outputId = "kegg_module_selectize"),
+      #                                                            imageOutput("kegg_module_image"),
+      #                                                            tags$br(), tags$br())
+      #                                       )
+      #                              
+      # ))),
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        tabsetPanel(type = "tabs",
