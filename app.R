@@ -441,12 +441,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           results will be shown in the different tabs below.")
                                  )
       )),
-      
-      
-      
-      
-      
-      
     ),
     column(
       width = 2,
@@ -459,14 +453,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 
   
   tags$br(),tags$br(),
-  
-  # radioButtons(inputId = "go_chip", width="100%",selected="",
-  #              label="Choose between annotating genes sets geneared, 
-  #                    for instance, from an RNA-seq analysis or genomics regions
-  #                    obtained, for instance, from a Chip-seq analysis:",
-  #              choices=c("Gene set annotation" = "gene_sets",
-  #                        "Genomic regions annotations" = "genomic_regions"
-  #              )),
   
   #Interface where the user can choose his/her preferencies, separated by columns
   fluidRow(
@@ -532,21 +518,12 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       column( width = 8,
         #Choose the kind of analysis that you want us to execute 
-        # tags$b("Choose between annotating genes sets geneared, 
-        #              for instance, from an RNA-seq analysis or genomics regions
-        #              obtained, for instance, from a Chip-seq analysis:"),
-        
         conditionalPanel(condition = "input.navigation_bar == 'genes'",
 
           #This panel will only appear if the user chooses to use our background lists. 
           textAreaInput(inputId = "genes", label= "Insert a set of genes", width="200%", 
                         height = "200px",placeholder = "Insert set of genes",
-                        value= ""#,
-                        # ostta11g02790
-                        # ostta10g02400
-                        # ostta09g02680
-                        # ostta10g03135
-                        # ostta17g00930"
+                        value= ""
           ),
           actionButton(inputId = "example_genes",label = "Example"),
           actionButton(inputId = "clear_gene_set",label = "Clear"),
@@ -562,11 +539,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
           conditionalPanel(condition = "input.input_mode == 'Yes'",
                          textAreaInput(inputId = "background", label= "Background set", width="200%", 
                                        height = "100px",placeholder = "Insert background list",
-                                       value= ""#ostta11g02790
-                                       #         ostta10g02400
-                                       #         ostta09g02680
-                                       #         ostta10g03135
-                                       #         ostta17g00930"
+                                       value= ""
                          ),
                          
                          actionButton(inputId = "clear_universe_set",label = "Clear"),
@@ -619,13 +592,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
     
     tags$br(), tags$br(),
     mainPanel(width = 13,
-      # withSpinner(plotOutput(outputId = "plot", inline = TRUE, 
-      #                        dblclick = "plot1_dblclick",
-      #                        brush = brushOpts(
-      #                                id = "plot1_brush",
-      #                                resetOnNew = TRUE
-      #                        ))),
-      
+
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
       #KEGG pathway maps.
 
@@ -644,11 +611,10 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                      tabPanel(tags$b("GO Enrichment Table"),
                               tags$br(),
                               htmlOutput(outputId = "textGOTable"),
-                             tags$br(), tags$br(),
+                              tags$br(), tags$br(),
                               dataTableOutput(outputId = "output_go_table"),
-                              htmlOutput(outputId = "revigo"),
                               uiOutput(outputId = "download_ui_for_go_table"),
-                              tags$br(), tags$br()
+                              htmlOutput(outputId = "revigo")
                      ),
                      tabPanel(tags$b("GO Map"),
                               tags$br(),
@@ -657,8 +623,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                               div(style= "overflow:scroll; height:500px; text-align: center;", 
                                   plotOutput(outputId = "go.plot", inline = T)),
                               tags$br(),
-                              div(style= "text-align: left;",
-                                  downloadButton(outputId= "downloadGOMapImage", "Get this plot"), inline=T),
                               tags$br(), tags$br()),
                      tabPanel(tags$b("GO Barplot"),
                               tags$br(),
@@ -667,8 +631,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                              div(style= "text-align: center;",
                                  plotOutput(outputId = "bar.plot",inline=TRUE)),
                              tags$br(),
-                             div(style= "text-align: center;",
-                                 downloadButton(outputId= "downloadbarplot", "Get this plot"), inline=T),
                              tags$br(), tags$br()),
                      tabPanel(tags$b("GO Dotplot"),
                             tags$br(),
@@ -677,8 +639,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                               div(style= "text-align: center;",
                                   plotOutput(outputId = "dot.plot",inline=TRUE)),
                               tags$br(),
-                              div(style= "text-align: center;",
-                              downloadButton(outputId= "downloadotplot", "Get this plot"), inline=T),
                               tags$br(), tags$br()),
                     tabPanel(tags$b("GO Emap"),
                              tags$br(),
@@ -687,8 +647,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                              div(style= "text-align: center;",
                                  plotOutput(outputId = "emap.plot",inline=TRUE)),
                              tags$br(),
-                             div(style= "text-align: center;",
-                                 downloadButton(outputId= "downloademapplot", "Get this plot"), inline=T),
                              tags$br(), tags$br()),
                     tabPanel(tags$b("GO Concept Map"),
                              tags$br(),
@@ -697,23 +655,21 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                              div(style= "text-align: center;",
                                  plotOutput(outputId = "cnet.plot",inline=TRUE)),
                              tags$br(),
-                             div(style= "text-align: center;",
-                                 downloadButton(outputId= "downloadcnetplot", "Get this plot"), inline=T),
                              tags$br(),tags$br())
                     ) # close tabsetPanel for go result
                   ), # close tabPanel for GO ENRICHMENT
             tabPanel(tags$b("KEGG PATHWAY ENRICHMENT"),
                      shinyjs::useShinyjs(),
-                     hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
+                     hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG pathway enrichment ...'))), 
                      hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
                      htmlOutput(outputId = "gene_sanity_kegg"),
                      htmlOutput(outputId = "wrong_genes_kegg"),
                      htmlOutput(outputId = "intro_kegg"),
-                     htmlOutput(outputId = "textKEGGTable"),
                      tags$br(), tags$br(),
                      tabsetPanel(type = "tabs",
                                  tabPanel(tags$b("KEGG Pathway Enrichment Table"), 
-                                          tags$br(), tags$br(),
+                                          tags$br(),
+                                          htmlOutput(outputId = "textKEGGTable"),
                                           htmlOutput(outputId = "kegg_pathway_table_text"),
                                           tags$br(),
                                           dataTableOutput(outputId = "output_pathway_table"),
@@ -726,8 +682,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           div(style= "text-align: center;",
                                               imageOutput("kegg_image", inline = T)),
                                           tags$br(), tags$br(),
-                                          div(style= "text-align: center;",
-                                              downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"), inline=T),
                                           br(), br()),
                                  tabPanel(tags$b("KEGG Module Enrichment Table"),
                                           tags$br(), tags$br(),
@@ -744,49 +698,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
             )
             )
       ),
-      
-      # conditionalPanel(condition = "(input.navigation_bar == 'genes') && (input.analysis == 'kegg')",
-      #                  tabsetPanel(type ="tabs",
-      #                              tabPanel(tags$b("KEGG PATHWAY ENRICHMENT"),
-      #                                       tabsetPanel(type = "tabs",
-      #                                                   tabPanel(tags$b("KEGG Pathway Enrichment Table"), 
-      #                                                            tags$br(), tags$br(),
-      #                                                            hidden(div(id='loading.enrichment.kegg',h3('Please be patient, computing KEGG enrichment ...'))), 
-      #                                                            hidden(div(id='ready.enrichment.kegg',h3('Your KEGG enrichment is ready!'))), 
-      #                                                            htmlOutput(outputId = "gene_sanity_kegg"),
-      #                                                            htmlOutput(outputId = "wrong_genes_kegg"),
-      #                                                            htmlOutput(outputId = "intro_kegg"),
-      #                                                            htmlOutput(outputId = "textKEGGTable"),
-      #                                                            tags$br(), tags$br(),
-      #                                                            htmlOutput(outputId = "kegg_pathway_table_text"),
-      #                                                            tags$br(),
-      #                                                            dataTableOutput(outputId = "output_pathway_table"),
-      #                                                            br(), br(), br()),
-      #                                                   tabPanel(tags$b("KEGG Pathway Visualization"),
-      #                                                            tags$br(), tags$br(),
-      #                                                            htmlOutput(outputId = "textKEGGImage"),
-      #                                                            br(), br(),
-      #                                                            uiOutput(outputId = "kegg_selectize"),
-      #                                                            div(style= "text-align: center;",
-      #                                                                imageOutput("kegg_image", inline = T)),
-      #                                                            tags$br(), tags$br(),
-      #                                                            div(style= "text-align: center;",
-      #                                                                downloadButton(outputId= "downloadKEGGImage", "Get KEGG pathway image"), inline=T),
-      #                                                            br(), br()),
-      #                                                   tabPanel(tags$b("KEGG Module Enrichment Table"),
-      #                                                            tags$br(), tags$br(),
-      #                                                            htmlOutput(outputId = "text_module_kegg"),
-      #                                                            br(), br(),
-      #                                                            dataTableOutput(outputId = "output_module_table"),
-      #                                                            tags$br(), tags$br(),
-      #                                                            tags$br(), tags$br(),
-      #                                                            uiOutput(outputId = "kegg_module_selectize"),
-      #                                                            imageOutput("kegg_module_image"),
-      #                                                            tags$br(), tags$br())
-      #                                       )
-      #                              
-      # ))),
-      
+
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        tabsetPanel(type = "tabs",
                                    tabPanel(tags$b("Annotated Genes Table"),
@@ -1068,21 +980,20 @@ annotated with the GO term represented in the corresponding row."
                         file=file,row.names=FALSE,col.names=TRUE)
           })
         
-        ## Link to REVIGO 
-        # revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
-        # 
-        # url1 <- a("here", href="#", onclick="document.revigoForm.submit();")
-        # url2 <- tags$form(
-        #   name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
-        #   tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
-        #                 style="visibility: hidden", revigo.data)
-        # )
-        # 
-        # output$revigo<- renderUI(
-        #   tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
-        # )
-        # 
-        
+        ## Link to REVIGO
+        revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+
+        url1 <- tags$a("here", href="#", onclick="document.revigoForm.submit();")
+        url2 <- tags$form(
+          name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
+          tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
+                        style="visibility: hidden", revigo.data)
+        )
+
+        output$revigo<- renderUI(
+          tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
+        )
+
         go.graph.text <- "The following acyclic graph represents the GO term enrichment
         in the target gene set. Each node stands for a GO term. The color of each node
         indicates the level of significance from grey, non-significant, to intense red,
@@ -1100,18 +1011,6 @@ annotated with the GO term represented in the corresponding row."
             goplot(enrich.go,showCategory = 10)
           })
         
-        output$downloadGOMapImage <- downloadHandler(
-          print("lala"),
-          filename = function () {
-            paste(c("go_map_",microalgae.names[input$microalgae] ,".png"), collapse="")
-          },
-          content = function(file) {
-            png(file)
-            goplot(enrich.go,showCategory = 10)
-            dev.off()
-          }
-        )
-
         output$barplot_text <- renderText("In the following barplot each bar represents a significantly enriched 
         GO term. The length of the bar corresponds to the number of genes in the
         target set annotated with the given GO term. The bar color captures the level
