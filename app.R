@@ -400,9 +400,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                    label="",
                    choices=c(
                      "Home" = "home",
-                     "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
                      "Gene Set Functional Analysis" = "genes",
                      "Genomic Loci Functional Analysis" = "chip",
+                     "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
                      "Tutorials" = "tutorials",
                      "GitHub repository" = "github",
                      "Citation and Contact" = "citation"
@@ -443,20 +443,28 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       )),
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
-                       tags$div(align="justify", tags$b("AlgaeFUN"), "allows researchers to perform", tags$b("functional annotation"), 
-                                "over gene sets.", tags$b("Gene Ontology (GO) enrichment"), "analysis as well as", tags$b("KEGG (Kyoto Encyclopedia
-                       of Genes and Genomes) pathway enrichment"), "analysis are supported. The gene set of interest can be obtained, for example,
-                       as the result of a differential expression analysis carried out using", tags$b("MARACAS."), " See our", tags$b("video tutorial"),
+                       tags$div(align="justify", tags$b("AlgaeFUN"), "allows researchers to perform", tags$b("annotation analysis 
+                                of genomic loci or regions."), "These are typically generated from", tags$b("ChIP-seq"), "studies 
+                                of the genome-wide distribution of", tags$b("epigenetic marks or transcription factor binding sites."),
+                                "Our tool", tags$b("MARACAS"), "can be used to perform this type of analysis. The set of marked genes 
+                                can be obtained as well as the distribution of the genomic loci overlapping specific genes parts. Also, individual marked genes 
+                                and the average signal level around the TSS (Transcription Start Site) and TES (Transcription
+                                End Site) over the complete set of marked genes can be visualized.", " See our", tags$b("video tutorial"),
                                 "for details or follow the next steps to perform your analysis:",
                                 tags$ol(
-                                  tags$li("In the left panel choose your ", tags$b("microalgae")," of interest, the type of enrichment analysis 
-                                          to perform and the", tags$b("p-value threshold.")),
-                                  tags$li("Insert your ", tags$b("gene set"), " in the text box or load it from a file using the",
-                                          tags$b("Browse …"), " button. An example can be loaded by clicking on the ",  tags$b("Example"), " button. 
-                                          Click on", tags$b("Clear"), " button to remove the loaded gene set."),
-                                  tags$li("Users can choose between the default", tags$b("background"), " gene provided by AlgaeFUN of a custom one 
-                                          that can be specified."),
-                                  tags$li("Click on the ", tags$b("Have Fun"), " button to perform the specified functional enrichment analysis. The
+                                  tags$li("In the left panel choose your ", tags$b("microalgae")," of interest, the gene", 
+                                          tags$b("promoter length"), "and the",  tags$b("gene parts"), "that will be considered
+                                          when determining the marked genes."),
+                                  tags$li("Insert in the text box your ", tags$b("set of genomic regions"), " as a table consisting 
+                                          of three tab-separated columns representing the chromosome, the start and end position of 
+                                          the regions. An example can be loaded by clicking on the ",  tags$b("Example"), " button. 
+                                          Click on", tags$b("Clear"), " button to remove the loaded gene set. Alternatively, using the",
+                                          tags$b("Browse..."), "button, the genomic regions can be uploaded from a file in BED format as 
+                                          described previously containing as least three columns. This file can be obained using our tool", 
+                                          tags$b("MARACAS.")),
+                                  tags$li("Optionally, users can upload the genome wide signal level of a epigenetic mark or transcription 
+                                          factor binding in a BigWig file. This file can be obained using our tool", tags$b("MARACAS.")),
+                                  tags$li("Click on the ", tags$b("Have Fun"), " button to perform the specified analysis. The
                                           results will be shown in the different tabs below.")
                                 )
                        )),
@@ -513,7 +521,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                                 "Cellular Component" = "CC",
                                                 "Mollecular Function" = "MF"))),
       #Choose a p-value
-      conditionalPanel(condition = "input.navigation_bar == 'genes' || input.navigation_bar == 'chip'",
+      conditionalPanel(condition = "input.navigation_bar == 'genes'",
                        
         numericInput(inputId = "pvalue", 
                      label= "Which will be your chosen p-value?", 
@@ -532,7 +540,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        checkboxGroupInput(inputId = "selected_genomic_features",selected = "Promoter", 
                                    label= "A gene will be associated to an input genomic locus
-                                   when it overlaps one of the following gene parts:",
+                                   when it overlaps one of the following gene features:",
                                    choices = c("Promoter","5' UTR","Exon","Intron","3' UTR")))
       
       ),
@@ -704,14 +712,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        hidden(div(id='loading.chip',h3('Please be patient, computing genomic loci analysis ...'))), 
                        hidden(div(id='ready.chip',h3('Your genomic loci analysis is ready!'))),
                        tabsetPanel(type = "tabs",
-                           tabPanel(tags$b("Annotated Genes Table"),
+                           tabPanel(tags$b("Marked Genes Table"),
                                tags$br(), 
                                htmlOutput(outputId = "textTableAnnotatedGenes"),
                                tags$br(), 
                                dataTableOutput(outputId = "output_gene_chip_table"),
                                uiOutput(outputId = "download_gene_chip_table"),
                                tags$br(), tags$br()),
-                           tabPanel(tags$b("Overlapping Gene Features"),
+                           tabPanel(tags$b("Overlapping Gene Parts Distribution"),
                                tags$br(),
                                htmlOutput(outputId = "piechart.text"),
                                div(style= "text-align: center;",
@@ -736,13 +744,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                tags$br(), 
                                plotOutput(outputId = "tss_signal"),
                                tags$br(), tags$br())
-                           )#,
-                      # plotOutput(outputId = "individual_gene_profile")
+                           )
       )
       )
 ))
 
-## Define server logic
 server <- shinyServer(function(input, output, session) {
   
   ## Clear content of gene set text area
@@ -1603,6 +1609,9 @@ assocated to the enriched pathway represented in the corresponding row."
   
   ## Actions to perform after click on the genomic button
   observeEvent(input$genomic_button,{
+    
+    shinyjs::showElement(id = 'loading.chip')
+    shinyjs::hideElement(id = 'ready.chip')
 
     ## Select txdb 
     if(input$microalgae == "otauri")
@@ -1682,9 +1691,13 @@ assocated to the enriched pathway represented in the corresponding row."
     {
       #TODO
     }
+
+    ## Load reference genome for the chosen microalgae
+    microalgae.genome.data <- read.fasta(file = paste(c("genomes/",input$microalgae,".fa"),collapse=""),
+                                         seqtype = "DNA")
+    microalgae.genome <- getSequence(microalgae.genome.data)
+    names(microalgae.genome) <- getName(microalgae.genome.data)
     
-    shinyjs::showElement(id = 'loading.chip')
-    shinyjs::hideElement(id = 'ready.chip')
     ## Extract genomic regions from text box or uploaded file
     if(is.null(input$genomic_regions_file))
     {
@@ -1713,9 +1726,7 @@ assocated to the enriched pathway represented in the corresponding row."
                                                   end.field = "end")
     } else
     {
-      #genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
       genomic.regions <- readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
-        #readPeakFile(peakfile = input$genomic_regions_file$datapath,header=FALSE)
     }
     
     ## Define promoter region around TSS
@@ -1729,9 +1740,8 @@ assocated to the enriched pathway represented in the corresponding row."
     
     ## Introductory text for pie chart
     output$piechart.text <- renderText(expr = "<b>The following piechart represents the distribution of the 
-    gene features overlapping the input genomic loci. For example, if a section appears corresponding to 
-    Promoter (90.75%), this means that 90.75% of the marked genes present an overlapping input region in its
-    promoter.:</b>")
+    input genomic loci overlapping different gene features. For example, if a section appears corresponding to 
+    Promoter (90.75%), this means that 90.75% of the input genomic loci overlap a gene promoter:</b>")
     
     ## Plot pie chart with annotation
     output$annotation.pie.chart <- renderPlot(width = 940, height = 900, res = 120, {
@@ -1789,14 +1799,11 @@ assocated to the enriched pathway represented in the corresponding row."
     genes.annotation.download <- microalgae.annotation[genes,] 
     genes.annotation.links <- microalgae.annotation.links[genes,]  
     rownames(genes.annotation.links) <- NULL
-    
-    shinyjs::showElement(id = 'ready.chip')
-    shinyjs::hideElement(id = 'loading.chip')
-    
-    ## Introductory text for GO enrichment table
+
+    ## Introductory text for target genes 
     annotated.genes.table.text <- "<b>The table below enumerates the potential gene targets associated with the input
     genomic loci. A gene is associated as a target of a genomic locus when it overlaps at least one of the selected
-    gene parts (i.e. promoter, exon, etc.). Each row represents a gene with its available annotation. Click on the 
+    gene features (i.e. promoter, exon, etc.). Each row represents a gene with its available annotation. Click on the 
     gene id to access information from the corresponding data base. Click on the annotation ids to access a detailed 
     description. You can select the number of genes displayed in each page of the table with the <i>Show</i> 
     dropdown menu below. You can use the <i>Search</i> box to identify a specific gene or annotation. The search
@@ -1825,16 +1832,439 @@ assocated to the enriched pathway represented in the corresponding row."
                     file=file,row.names=FALSE,col.names=TRUE)
       })
 
-    ## Plot signal around tss
+    ## Extraction of the genomic features of the specified genes.
+    genes.data <- subset(genes(txdb), gene_id %in% genes)
+
+    ## Extract info from genes for profile representations
+    genes.data.df <- as.data.frame(genes.data)
+    exons.data <- as.data.frame(exons(txdb))
+    cds.data <- as.data.frame(cds(txdb))
+    
+    output$annotated_genes <- renderUI({
+      fluidRow(
+        column (width = 3,  
+                selectInput(inputId = "selected_annotated_gene", 
+                            label="Choose a gene to inspect:",
+                            multiple = FALSE,selected = genes[1],
+                            choices=genes), 
+                ## Selectize to choose target gene to represent
+                selectizeInput(inputId = "selected.motifs",
+                               label = "Select Motifs",
+                               choices = motif.names,
+                               multiple = TRUE),
+                
+                ## Checkbox to select all available motifs
+                checkboxInput(inputId = "all.motifs",
+                              label = "Select All Motifs:",
+                              value = FALSE),
+                
+                ## Numeric input for PWM score
+                numericInput(inputId = "min.score.pwm", 
+                             label = "Minimum Score for Motif Identification:",
+                             value = 100, 
+                             min = 80,
+                             max = 100,
+                             step = 5),
+                actionButton(inputId = "individual_gene_mark",label = "Go")
+        ),
+        column(width = 9,
+               plotOutput(outputId = "individual_gene_profile")
+        )
+      )
+    })
+    
+    selected.annotated.gene.id <- reactive({ 
+      if(is.null(input$selected_annotated_gene))
+      {
+        return()
+      } else
+      {
+        return(input$selected_annotated_gene)
+      }
+    })
+    
+    observeEvent(input$individual_gene_mark, { 
+      gene.name <- selected.annotated.gene.id()
+      
+      target.gene.body <- genes.data.df[gene.name,]
+      target.gene.chr <- as.character(target.gene.body$seqnames)
+      target.gene.start <- target.gene.body$start
+      target.gene.end <- target.gene.body$end
+      
+      target.gene.strand <- as.character(target.gene.body$strand)
+      
+      ## Extract cds annotation
+      cds.data.target.gene <- subset(cds.data, 
+                                     seqnames == target.gene.chr & 
+                                       (start >= target.gene.start & 
+                                          end <= target.gene.end))
+      
+      ## Extract exons annotation
+      exons.data.target.gene <- subset(exons.data, 
+                                       seqnames == target.gene.chr & 
+                                         (start >= target.gene.start & 
+                                            end <= target.gene.end))
+      
+      ## Determine the genome range to plot including promoter, gene body and 5' UTR
+      ## This depends on whether the gene is on the forward or reverse strand
+      range.to.plot <- target.gene.body
+      
+      if(target.gene.strand == "+")
+      {
+        range.to.plot$start <- range.to.plot$start - input$promoter_length
+        range.to.plot$end <- range.to.plot$end + input$promoter_length
+      } else if (target.gene.strand == "-")
+      {
+        range.to.plot$end <- range.to.plot$end + input$promoter_length
+        range.to.plot$start <- range.to.plot$start - input$promoter_length
+      }
+      
+      ## Compute the length of the genome range to represent
+      current.length <- range.to.plot$end - range.to.plot$start
+      
+      ## Compute profile in gene
+      if(!is.null(input$bw_file))
+      {
+        selected.bigwig.files <- input$bw_file$data
+        #selected.bed.files <- input$genomic_regions_file$data
+        
+        ## Since ChIPpeakAnno needs more than one region to plot our region
+        ## is duplicated 
+        regions.plot <- GRanges(rbind(range.to.plot,range.to.plot))
+        
+        ## Import signal from the bigwig files
+        cvglists <- sapply(selected.bigwig.files, import, 
+                           format="BigWig", 
+                           which=regions.plot, 
+                           as="RleList")
+        
+        ## Compute signal in the region to plot
+        chip.signal <- featureAlignedSignal(cvglists, regions.plot, 
+                                            upstream=ceiling(current.length/2), 
+                                            downstream=ceiling(current.length/2),
+                                            n.tile=current.length) 
+        
+        ## Compute mean signal 
+        if(target.gene.strand == "+")
+        {
+          chip.signal.mean <- colMeans(chip.signal[[1]],na.rm = TRUE)
+        } else if (target.gene.strand == "-")
+        {
+          chip.signal.mean <- rev(colMeans(chip.signal[[1]],na.rm = TRUE))
+        }
+        
+        ## Normalization
+        chip.signal.mean <- 20 * chip.signal.mean / max(chip.signal.mean)
+        
+        ## Colors to draw signal
+        line.colors <- "blue"
+        area.colors <- "lightblue"
+       } #else
+      # {
+      #   chip.signal.mean <- rep(20,length(cord.x)) 
+      #   ## Colors to draw signal
+      #   line.colors <- "white"
+      #   area.colors <- "white"
+      # }
+      
+      ## Determine upper limit of the graph
+      upper.lim <- 10#21
+      
+      ## Height to draw DNA strand
+      gene.height <- -25
+      cord.x <- 1:current.length
+      
+      ## Exon width to plot
+      exon.width <- 1#2
+      
+      ## Cds width to plot
+      cds.width <- 1.5#3
+      
+      ## Width of the rectangule representing the peak reagion
+      peak.width <- 0.5#1
+      
+      ## Extract exons for target gene
+      exons.data.target.gene <- subset(exons.data, seqnames == target.gene.chr & (start >= target.gene.start & end <= target.gene.end))
+      
+      ## Transform exon coordinates to current range
+      min.pos <- min(exons.data.target.gene$start)
+
+      exons.data.target.gene$start <- exons.data.target.gene$start - min.pos + input$promoter_length
+      exons.data.target.gene$end <- exons.data.target.gene$end - min.pos + input$promoter_length
+
+      ## Extract cds for target gene
+      cds.data.target.gene <- subset(cds.data, seqnames == target.gene.chr & (start >= target.gene.start & end <= target.gene.end))
+      
+      cds.data.target.gene$start <- cds.data.target.gene$start - min.pos + input$promoter_length
+      cds.data.target.gene$end <- cds.data.target.gene$end - min.pos + input$promoter_length
+
+      output$individual_gene_profile <- renderPlot({#width = 940, height = 700, res = 120, {
+        plot(cord.x, rep(gene.height,length(cord.x)),type="l",col="black",lwd=3,ylab="",
+             cex.lab=2,axes=FALSE,xlab="",main="",cex.main=2,
+             ylim=c(-35,upper.lim),xlim=c(-3000,max(cord.x)))
+        
+        ## Represent exons
+        for(i in 1:nrow(exons.data.target.gene))
+        {
+          # Determine start/end for each exon
+          current.exon.start <- exons.data.target.gene$start[i]
+          current.exon.end <- exons.data.target.gene$end[i]
+          
+          ## Determine coordinates for each exon polygon and represent it
+          exon.x <- c(current.exon.start,current.exon.end,current.exon.end,current.exon.start)
+          exon.y <- c(gene.height + exon.width, gene.height + exon.width, gene.height - exon.width, gene.height - exon.width)
+          
+          polygon(x = exon.x, y = exon.y, col = "blue",border = "blue")
+        }
+        
+        for(i in 1:nrow(cds.data.target.gene))
+        {
+          # Determine current cds start/end
+          current.cds.start <- cds.data.target.gene$start[i]
+          current.cds.end <- cds.data.target.gene$end[i]
+          
+          # Determine curret cds coordinates for the polygon and represent it
+          cds.x <- c(current.cds.start,current.cds.end,current.cds.end,current.cds.start)
+          cds.y <- c(gene.height + cds.width, gene.height + cds.width, gene.height - cds.width, gene.height - cds.width)
+          
+          polygon(x = cds.x, y = cds.y, col = "blue",border = "blue")
+        }
+        
+        ## Draw arrow to represent transcription direction 
+        if(target.gene.strand == "+")
+        {
+          lines(c(input$promoter_length,input$promoter_length,input$promoter_length+100),y=c(gene.height,gene.height+5,gene.height+5),lwd=3)
+          lines(c(input$promoter_length+50,input$promoter_length+100),y=c(gene.height+6,gene.height+5),lwd=3)
+          lines(c(input$promoter_length+50,input$promoter_length+100),y=c(gene.height+4,gene.height+5),lwd=3)
+        } else if (target.gene.strand == "-")
+        {
+          lines(c(current.length - input$promoter_length, current.length - input$promoter_length, current.length - input$promoter_length-100),y=c(gene.height,gene.height+5,gene.height+5),lwd=3)
+          lines(c(current.length - input$promoter_length-50, current.length - input$promoter_length - 100),y=c(gene.height + 6, gene.height + 5),lwd=3)
+          lines(c(current.length - input$promoter_length-50, current.length - input$promoter_length - 100),y=c(gene.height + 4, gene.height + 5),lwd=3)
+        }
+        
+        ## Draw promoter range
+        if(target.gene.strand == "+")
+        {
+          axis(side = 1,labels = c(- input$promoter_length, - input$promoter_length / 2,"TSS"),at = c(1,input$promoter_length/2,input$promoter_length),lwd=2,cex=1.5,las=2,cex=2)
+        } else if(target.gene.strand == "-")
+        {
+          axis(side = 1,labels = c("TSS",- input$promoter_length / 2,- input$promoter_length),at = c(current.length-input$promoter_length,current.length-input$promoter_length/2, current.length),lwd=2,cex=1.5,las=2,cex=2)
+        }
+        
+        ## Draw gene name
+        text(x = current.length / 2, y = -33 , 
+             labels = bquote(italic(.(gene.name))),cex = 1.7,font = 3)
+        
+        ## Extract bed file name 1 and read it
+        current.peaks <- read.table(file=input$genomic_regions_file$data,header = F, as.is = T)
+        peak.coordinates <- subset(current.peaks, V1 == range.to.plot$seqnames & V2 >= range.to.plot$start & V3 <= range.to.plot$end) 
+        current.peaks.to.plot <- peak.coordinates[,2:3]
+        
+        ## Transform coordinates 
+        current.peaks.to.plot <- current.peaks.to.plot - range.to.plot$start
+        
+        ## Check if there are peaks for the target gene
+        if(nrow(current.peaks.to.plot) > 0)
+        {
+          #motifs.in.peaks <- vector(mode="list", length=nrow(current.peaks.to.plot))
+          for(j in 1:nrow(current.peaks.to.plot))
+          {
+            ## Extract start and end point of each peak region
+            current.peak.start <- current.peaks.to.plot[j,1]
+            current.peak.end <- current.peaks.to.plot[j,2]
+            
+            ## Computer coordinates for polygon and draw it
+            peak.x <- c(current.peak.start,current.peak.end,
+                        current.peak.end,current.peak.start)
+            peak.y <- c(peak.width - 12,   peak.width - 12, 
+                        - peak.width - 12, - peak.width - 12)  
+            
+            polygon(x = peak.x, y = peak.y, col = "bisque", border = "darkred",lwd=2)
+          }
+        }
+
+        ## Draw profiles if bw file is provided
+        if(!is.null(input$bw_file))
+        {
+          ## Compute base line for current TF
+          current.base.line <- - 10
+          
+          ## Represent signal from the current TF
+          lines(chip.signal.mean+current.base.line,type="l",col=line.colors,lwd=3)
+          ## Determine polygon coordinates and represent it
+          cord.y <- c(current.base.line,chip.signal.mean+current.base.line,current.base.line)
+          cord.x <- 1:length(cord.y)
+          polygon(cord.x,cord.y,col=area.colors)
+        }
+        
+        ## Determine TFBS motifs to search for
+        if(input$all.motifs)
+        {
+          selected.motifs.pwm <- motifs.pwm
+        } else if(!is.null(input$selected.motifs))
+        {
+          selected.motifs.pwm <- motifs.pwm[input$selected.motifs]
+        }
+        
+        if( input$all.motifs | !is.null(input$selected.motifs))
+        {
+          selected.motif.names <- names(selected.motifs.pwm)
+          selected.motif.ids <- motif.ids[selected.motif.names]
+        
+          ## Initialize data frame containing TF binding sequences in the peak regions
+          df.hits <- data.frame(0,"","","")
+          colnames(df.hits) <- c("position","id","name","seq")
+        
+          ## Identify TF binding DNA motifs 
+          if(nrow(current.peaks.to.plot) > 0)
+          {
+            #motifs.in.peaks <- vector(mode="list", length=nrow(current.peaks.to.plot))
+            for(j in 1:nrow(current.peaks.to.plot))
+            {
+              ## Genomic coordinates of the current peak
+              peak.chr <- peak.coordinates[j, 1]
+              peak.start <- peak.coordinates[j, 2]
+              peak.end <- peak.coordinates[j, 3]
+            
+              ## Extract start and end point of each peak region in our plot
+              current.peak.start <- current.peaks.to.plot[j,1]
+              current.peak.end <- current.peaks.to.plot[j,2]
+            
+              ## Extract peak sequence
+              peak.sequence <- c2s(microalgae.genome[[peak.chr]][peak.start:peak.end])
+              peak.rev.comp.sequence <- reverse.complement(peak.sequence)
+            
+              for(k in 1:length(selected.motifs.pwm))
+              {
+                motif.pwm <- selected.motifs.pwm[[k]]
+              
+                hits.fw <- matchPWM(motif.pwm, peak.sequence, 
+                                    min.score = paste0(input$min_score_pwm,"%"))
+                hits.fw.seqs <- as.data.frame(hits.fw)[[1]]
+                hits.fw <- as(hits.fw, "IRanges")
+                hits.fw.start <- start(hits.fw)
+                hits.fw.end <- end(hits.fw)
+              
+                if(length(hits.fw.start) > 0)
+                {
+                  df.hits.fw <- data.frame(((hits.fw.start+hits.fw.end)/2) + current.peak.start,
+                                           rep(selected.motif.ids[k],length(hits.fw.start)),
+                                           rep(selected.motif.names[k],length(hits.fw.start)),
+                                           hits.fw.seqs)
+                  colnames(df.hits.fw)  <- c("position","id","name","seq")
+                  df.hits <- rbind(df.hits,df.hits.fw)
+                }
+              
+                hits.rev <- matchPWM(motif.pwm, peak.rev.comp.sequence, 
+                                     min.score = paste0(input$min.score.pwm,"%"))
+                hits.rev.seqs <- as.data.frame(hits.rev)[[1]]
+                hits.rev.seqs <- sapply(hits.rev.seqs,reverse.complement)
+                names(hits.rev.seqs) <- NULL
+              
+                hits.rev <- as(hits.rev, "IRanges")
+                hits.rev.start <- nchar(peak.sequence) - end(hits.rev) + 1
+                hits.rev.end <- nchar(peak.sequence) - start(hits.rev) + 1
+              
+                if(length(hits.rev.start) > 0)
+                {
+                  df.hits.rev <- data.frame(((hits.rev.start+hits.rev.end)/2) + current.peak.start,
+                                            rep(selected.motif.ids[k],length(hits.rev.start)),
+                                            rep(selected.motif.names[k],length(hits.rev.start)),
+                                            hits.rev.seqs)
+                  colnames(df.hits.rev)  <- c("position","id","name","seq")
+                  df.hits <- rbind(df.hits,df.hits.rev)
+                }
+              }
+            }
+          }
+        
+          ## Remove first line of the data frame added just for technical reason
+          df.hits <- df.hits[-1,]
+          nrow(df.hits)
+        
+          ## Draw TF binding sites
+          detected.tfbs <- unique(as.vector(df.hits$name))
+        
+          ## TF binding sites colors and symbol shapes
+          symbol.shapes <- c(17, 18, 19, 15)
+          symbol.color <- c("blue", "red", "darkgreen", "magenta")
+        
+          number.of.shapes <- ceiling(length(detected.tfbs) / length(symbol.color))
+          necessary.shapes <- rep(symbol.shapes[1:number.of.shapes],each = length(detected.tfbs)/number.of.shapes)
+          necessary.colors <- rep(symbol.color,number.of.shapes)
+        
+          if(length(detected.tfbs) > 0)
+          {
+            for(i in 1:length(detected.tfbs))
+            {
+              current.tfbs <- detected.tfbs[i]
+              current.shape <- necessary.shapes[i]
+              current.color <- necessary.colors[i]
+            
+              positions <- subset(df.hits, name == current.tfbs)
+            
+              for(j in 1:nrow(positions))
+              {
+                pos.to.draw <- positions$position[j]
+              
+                points(x = pos.to.draw, y = -15,
+                       pch = current.shape, col = current.color, cex = 1)
+              }
+            }
+          
+            ## Add legend for TFBS
+            legend.step <- 5
+            for(i in 1:length(detected.tfbs))
+            {
+              points(x = -3000, y = upper.lim - (i-1)*legend.step, 
+                     pch=necessary.shapes[i], col = necessary.colors[i],cex = 1)
+            
+            
+              current.seq <- as.character(subset(df.hits,name == detected.tfbs[i])[["seq"]][[1]])
+              current.label <- paste(c(detected.tfbs[i], "  -  ", current.seq ),collapse="")
+            
+              text(x = -2900, y = upper.lim - (i-1)*legend.step, labels = current.label,
+                   adj = 0,cex = 0.7)
+            }
+          }
+        }
+      }) # close output$individual_gene_profile
+    }) # observeEvent input$individual_gene_mark
+
+    
+    individual.gene.signal.text <- "<b> Here you can visualize an individual marked
+    gene following these steps:
+    <ol>
+      <li>Choose or type your gene of interest from the left dropdown menu where
+      autocompletion can be used.</li>
+      <li>Optionally, choose or type the name of a DNA motif or transcription factor consensus
+      binding sequence to be searched for in the genomic loci associated with your
+      gene of interest. Alternatively tick the \"Select All Motifs\" box when you
+      want to search for DNA motifs in our database. Here autocompletion is also activated.</li>
+      <li>Choose a a minimun score for the selected DNA motif identification.</li>
+      <li>Click on \"Go\" to visualize the selected genes with its associated input
+      genomic loci, the identification of the selected DNA motifs according to the
+      specified score and the signal profile over the selected gene when a BigWig
+      file is provided.</li>
+    </ol>
+    The visualization is available on the right. The DNA sequence is represented by a
+    black line. The widest blue rectangles represent exons. Untranslated regions at 5' and
+    3' end of the transcript are depicted as thinner blue rectangles. Black lines also 
+    represent introns. An arrow is used to mark the TSS (Transcriptional Start Site) 
+    and the transcription sense. The red boxes located on top to the gene representation
+    correspond to the specific input genomic loci associated with the selected gene. When
+    a BigWig file is provided representing, for example, the signal of a epigenetic mark
+    the signal profile over the selected gene is reprenting in lighblue. 
+    </b>
+    "
+    
+    ## Plot signal around tss and tes
     if(!is.null(input$bw_file))
     {
-      
-      shinyjs::showElement(id = 'loading.tss.signal')
-      shinyjs::hideElement(id = 'ready.tss.signal')
-      
-      ## Extraction of the genomic features of the specified genes.
-      genes.data <- subset(genes(txdb), gene_id %in% genes)
-      
+      # shinyjs::showElement(id = 'loading.tss.signal')
+      # shinyjs::hideElement(id = 'ready.tss.signal')
+
       ## Extraction of the TSS 
       genes.tss <- resize(genes.data, width=1, fix='start')
       
@@ -1842,21 +2272,13 @@ assocated to the enriched pathway represented in the corresponding row."
       around.genes.tss <- genes.tss
       start(around.genes.tss) <- start(genes.tss) - input$promoter_length
       end(around.genes.tss) <- end(genes.tss) + input$promoter_length
-      
-      # print("around TSS")
-      # print(around.genes.tss)
-      # print(input$bw_file$data)
-      # print(input$bw_file)
+
       ## Importing bigWig file
       cvglists <- sapply(input$bw_file$data, import,
                          format="BigWig",
                          which=around.genes.tss,
                          as="RleList")
-      # sapply(input$bw_file$data, import,
-      #                  format="BigWig",
-      #                  which=around.genes.tss,
-      #                  as="RleList")
-      
+
       ## Extracting the signal around TSS with promoter length
       number.tiles <- 2*input$promoter_length/20
       tss.sig <- featureAlignedSignal(cvglists, around.genes.tss,
@@ -1920,425 +2342,17 @@ assocated to the enriched pathway represented in the corresponding row."
       output$tss.signal.text <- renderText(expr = "<b>The graph below represents
       the average signal around the TSS (Transcription Start Site) and TES (Transcription
       End Site) of marked genes with your input genomic loci.</b>")
-      
-      shinyjs::hideElement(id = 'loading.tss.signal')
-      shinyjs::showElement(id = 'ready.tss.signal')
-
-      ## Extract info from genes for profile representations
-      genes.data.df <- as.data.frame(genes.data)
-      exons.data <- as.data.frame(exons(txdb))
-      cds.data <- as.data.frame(cds(txdb))
-      
-      output$annotated_genes <- renderUI({
-        fluidRow(
-          column (6, 
-                  selectInput(inputId = "selected_annotated_gene", 
-                              label="Choose a gene to inspect its mark profile",
-                              multiple = FALSE,selected = genes[1],
-                              choices=genes), 
-                  ## Selectize to choose target gene to represent
-                  selectizeInput(inputId = "selected.motifs",
-                                 label = "Select Motifs",
-                                 choices = motif.names,
-                                 multiple = TRUE),
-                  
-                  ## Checkbox to select all available motifs
-                  checkboxInput(inputId = "all.motifs",
-                                label = "Select All Motifs:",
-                                value = FALSE),
-                  
-                  ## Numeric input for PWM score
-                  numericInput(inputId = "min.score.pwm", 
-                               label = "Minimum Score for Motif Identification:",
-                               value = 100, 
-                               min = 80,
-                               max = 100,
-                               step = 5),
-                  actionButton(inputId = "individual_gene_mark",label = "Go")
-          ),
-          column(6,
-                 plotOutput(outputId = "individual_gene_profile")
-          )
-        )
-      })
-      
-      selected.annotated.gene.id <- reactive({ 
-        if(is.null(input$selected_annotated_gene))
-        {
-          return()
-        } else
-        {
-          return(input$selected_annotated_gene)
-        }
-      })
-      
-      observeEvent(input$individual_gene_mark, { #selected.annotated.gene.id(), {
-        #      print("VAAAAAMOOOOOOS!!!!")
-        gene.name <- selected.annotated.gene.id()
-        
-        target.gene.body <- genes.data.df[gene.name,]
-        target.gene.chr <- as.character(target.gene.body$seqnames)
-        target.gene.start <- target.gene.body$start
-        target.gene.end <- target.gene.body$end
-        
-        target.gene.strand <- as.character(target.gene.body$strand)
-        
-        ## Extract cds annotation
-        cds.data.target.gene <- subset(cds.data, 
-                                       seqnames == target.gene.chr & 
-                                         (start >= target.gene.start & 
-                                            end <= target.gene.end))
-        
-        ## Extract exons annotation
-        exons.data.target.gene <- subset(exons.data, 
-                                         seqnames == target.gene.chr & 
-                                           (start >= target.gene.start & 
-                                              end <= target.gene.end))
-        
-        ## Determine the genome range to plot including promoter, gene body and 5' UTR
-        ## This depends on whether the gene is on the forward or reverse strand
-        range.to.plot <- target.gene.body
-        
-        if(target.gene.strand == "+")
-        {
-          range.to.plot$start <- range.to.plot$start - input$promoter_length
-          range.to.plot$end <- range.to.plot$end + input$promoter_length
-        } else if (target.gene.strand == "-")
-        {
-          range.to.plot$end <- range.to.plot$end + input$promoter_length
-          range.to.plot$start <- range.to.plot$start - input$promoter_length
-        }
-        
-        ## Compute the length of the genome range to represent
-        current.length <- range.to.plot$end - range.to.plot$start
-        
-        ## Compute profile in gene
-        selected.bigwig.files <- input$bw_file$data
-        selected.bed.files <- input$genomic_regions_file$data
-        
-        ## Since ChIPpeakAnno needs more than one region to plot our region
-        ## is duplicated 
-        regions.plot <- GRanges(rbind(range.to.plot,range.to.plot))
-        
-        ## Import signal from the bigwig files
-        cvglists <- sapply(selected.bigwig.files, import, 
-                           format="BigWig", 
-                           which=regions.plot, 
-                           as="RleList")
-        
-        ## Compute signal in the region to plot
-        chip.signal <- featureAlignedSignal(cvglists, regions.plot, 
-                                            upstream=ceiling(current.length/2), 
-                                            downstream=ceiling(current.length/2),
-                                            n.tile=current.length) 
-        
-        ## Compute mean signal 
-        if(target.gene.strand == "+")
-        {
-          chip.signal.mean <- colMeans(chip.signal[[1]],na.rm = TRUE)
-        } else if (target.gene.strand == "-")
-        {
-          chip.signal.mean <- rev(colMeans(chip.signal[[1]],na.rm = TRUE))
-        }
-        
-        ## Normalization
-        chip.signal.mean <- 20 * chip.signal.mean / max(chip.signal.mean)
-        
-        ## Determine upper limit of the graph
-        upper.lim <- 21
-        
-        ## Height to draw DNA strand
-        gene.height <- -25
-        cord.x <- 1:current.length
-        
-        ## Exon width to plot
-        exon.width <- 2
-        
-        ## Cds width to plot
-        cds.width <- 3
-        
-        ## Width of the rectangule representing the peak reagion
-        peak.width <- 1
-        
-        ## Extract exons for target gene
-        exons.data.target.gene <- subset(exons.data, seqnames == target.gene.chr & (start >= target.gene.start & end <= target.gene.end))
-        
-        ## Transform exon coordinates to current range
-        min.pos <- min(exons.data.target.gene$start)
-        
-        if(target.gene.strand == "+")
-        {
-          exons.data.target.gene$start <- exons.data.target.gene$start - min.pos + input$promoter_length
-          exons.data.target.gene$end <- exons.data.target.gene$end - min.pos + input$promoter_length
-        } else if(target.gene.strand == "-")
-        {
-          exons.data.target.gene$start <- exons.data.target.gene$start - min.pos + input$tes_length
-          exons.data.target.gene$end <- exons.data.target.gene$end - min.pos + input$tes_length
-        }
-        
-        ## Extract cds for target gene
-        cds.data.target.gene <- subset(cds.data, seqnames == target.gene.chr & (start >= target.gene.start & end <= target.gene.end))
-        
-        ## Transform cds coordinates to current range
-        if(target.gene.strand == "+")
-        {
-          cds.data.target.gene$start <- cds.data.target.gene$start - min.pos + input$promoter_length
-          cds.data.target.gene$end <- cds.data.target.gene$end - min.pos + input$promoter_length
-        } else if (target.gene.strand == "-")
-        {
-          cds.data.target.gene$start <- cds.data.target.gene$start - min.pos + input$tes_length
-          cds.data.target.gene$end <- cds.data.target.gene$end - min.pos + input$tes_length
-        }
-        
-        output$individual_gene_profile <- renderPlot(width = 940, height = 700, res = 120, {
-          plot(cord.x, rep(gene.height,length(cord.x)),type="l",col="black",lwd=3,ylab="",
-               cex.lab=2,axes=FALSE,xlab="",main="",cex.main=2,
-               ylim=c(-35,upper.lim),xlim=c(-3000,max(cord.x)))
-          
-          ## Represent exons
-          for(i in 1:nrow(exons.data.target.gene))
-          {
-            # Determine start/end for each exon
-            current.exon.start <- exons.data.target.gene$start[i]
-            current.exon.end <- exons.data.target.gene$end[i]
-            
-            ## Determine coordinates for each exon polygon and represent it
-            exon.x <- c(current.exon.start,current.exon.end,current.exon.end,current.exon.start)
-            exon.y <- c(gene.height + exon.width, gene.height + exon.width, gene.height - exon.width, gene.height - exon.width)
-            
-            polygon(x = exon.x, y = exon.y, col = "blue",border = "blue")
-          }
-          
-          for(i in 1:nrow(cds.data.target.gene))
-          {
-            # Determine current cds start/end
-            current.cds.start <- cds.data.target.gene$start[i]
-            current.cds.end <- cds.data.target.gene$end[i]
-            
-            # Determine curret cds coordinates for the polygon and represent it
-            cds.x <- c(current.cds.start,current.cds.end,current.cds.end,current.cds.start)
-            cds.y <- c(gene.height + cds.width, gene.height + cds.width, gene.height - cds.width, gene.height - cds.width)
-            
-            polygon(x = cds.x, y = cds.y, col = "blue",border = "blue")
-          }
-          
-          ## Draw arrow to represent transcription direction 
-          if(target.gene.strand == "+")
-          {
-            lines(c(input$promoter_length,input$promoter_length,input$promoter_length+100),y=c(gene.height,gene.height+5,gene.height+5),lwd=3)
-            lines(c(input$promoter_length+50,input$promoter_length+100),y=c(gene.height+6,gene.height+5),lwd=3)
-            lines(c(input$promoter_length+50,input$promoter_length+100),y=c(gene.height+4,gene.height+5),lwd=3)
-          } else if (target.gene.strand == "-")
-          {
-            lines(c(current.length - input$promoter_length, current.length - input$promoter_length, current.length - input$promoter_length-100),y=c(gene.height,gene.height+5,gene.height+5),lwd=3)
-            lines(c(current.length - input$promoter_length-50, current.length - input$promoter_length - 100),y=c(gene.height + 6, gene.height + 5),lwd=3)
-            lines(c(current.length - input$promoter_length-50, current.length - input$promoter_length - 100),y=c(gene.height + 4, gene.height + 5),lwd=3)
-          }
-          
-          ## Draw promoter range
-          if(target.gene.strand == "+")
-          {
-            axis(side = 1,labels = c(- input$promoter_length, - input$promoter_length / 2,"TSS"),at = c(1,input$promoter_length/2,input$promoter_length),lwd=2,cex=1.5,las=2,cex=2)
-          } else if(target.gene.strand == "-")
-          {
-            axis(side = 1,labels = c("TSS",- input$promoter_length / 2,- input$promoter_length),at = c(current.length-input$promoter_length,current.length-input$promoter_length/2, current.length),lwd=2,cex=1.5,las=2,cex=2)
-          }
-          
-          ## Draw gene name
-          text(x = current.length / 2, y = -33 , 
-               labels = bquote(italic(.(gene.name))),cex = 1.7,font = 3)
-          
-          ## Extract bed file name 1 and read it
-          current.peaks <- read.table(file=selected.bed.files,header = F, as.is = T)
-          peak.coordinates <- subset(current.peaks, V1 == range.to.plot$seqnames & V2 >= range.to.plot$start & V3 <= range.to.plot$end) 
-          current.peaks.to.plot <- peak.coordinates[,2:3]
-          
-          ## Transform coordinates 
-          current.peaks.to.plot <- current.peaks.to.plot - range.to.plot$start
-          
-          ## Check if there are peaks for the target gene
-          if(nrow(current.peaks.to.plot) > 0)
-          {
-            #motifs.in.peaks <- vector(mode="list", length=nrow(current.peaks.to.plot))
-            for(j in 1:nrow(current.peaks.to.plot))
-            {
-              ## Extract start and end point of each peak region
-              current.peak.start <- current.peaks.to.plot[j,1]
-              current.peak.end <- current.peaks.to.plot[j,2]
-              
-              ## Computer coordinates for polygon and draw it
-              peak.x <- c(current.peak.start,current.peak.end,
-                          current.peak.end,current.peak.start)
-              peak.y <- c(peak.width - 12,   peak.width - 12, 
-                          - peak.width - 12, - peak.width - 12)  
-              
-              polygon(x = peak.x, y = peak.y, col = "bisque", border = "darkred",lwd=2)
-            }
-          }
-          
-          line.colors <- "blue"
-          area.colors <- "lightblue"
-          
-          ## Draw profiles
-          ## Compute base line for current TF
-          current.base.line <- - 10
-          
-          ## Represent signal from the current TF
-          lines(chip.signal.mean+current.base.line,type="l",col=line.colors,lwd=3)
-          
-          ## Determine polygon coordinates and represent it
-          cord.y <- c(current.base.line,chip.signal.mean+current.base.line,current.base.line)
-          cord.x <- 1:length(cord.y)
-          polygon(cord.x,cord.y,col=area.colors)
-          
-          ## Load reference genome for the chosen microalgae
-          microalgae.genome.data <- read.fasta(file = paste(c("genomes/",input$microalgae,".fa"),collapse=""),
-                                               seqtype = "DNA")
-          microalgae.genome <- getSequence(microalgae.genome.data)
-          names(microalgae.genome) <- getName(microalgae.genome.data)
-          
-          ## Determine TFBS motifs to search for
-          if(input$all.motifs)
-          {
-            selected.motifs.pwm <- motifs.pwm
-          } else
-          {
-            selected.motifs.pwm <- motifs.pwm[input$selected.motifs]
-          }
-          
-          selected.motif.names <- names(selected.motifs.pwm)
-          selected.motif.ids <- motif.ids[selected.motif.names]
-          
-          ## Initialize data frame containing TF binding sequences in the peak regions
-          df.hits <- data.frame(0,"","","")
-          colnames(df.hits) <- c("position","id","name","seq")
-          
-          ## Identify TF binding DNA motifs 
-          if(nrow(current.peaks.to.plot) > 0)
-          {
-            #motifs.in.peaks <- vector(mode="list", length=nrow(current.peaks.to.plot))
-            for(j in 1:nrow(current.peaks.to.plot))
-            {
-              ## Genomic coordinates of the current peak
-              peak.chr <- peak.coordinates[j, 1]
-              peak.start <- peak.coordinates[j, 2]
-              peak.end <- peak.coordinates[j, 3]
-              
-              ## Extract start and end point of each peak region in our plot
-              current.peak.start <- current.peaks.to.plot[j,1]
-              current.peak.end <- current.peaks.to.plot[j,2]
-              
-              
-              ## Extract peak sequence
-              peak.sequence <- c2s(microalgae.genome[[peak.chr]][peak.start:peak.end])
-              peak.rev.comp.sequence <- reverse.complement(peak.sequence)
-              
-              for(k in 1:length(selected.motifs.pwm))
-              {
-                print(k)
-                motif.pwm <- selected.motifs.pwm[[k]]
-                
-                hits.fw <- matchPWM(motif.pwm, peak.sequence, 
-                                    min.score = paste0(input$min_score_pwm,"%"))
-                hits.fw
-                hits.fw.seqs <- as.data.frame(hits.fw)[[1]]
-                hits.fw <- as(hits.fw, "IRanges")
-                hits.fw.start <- start(hits.fw)
-                hits.fw.end <- end(hits.fw)
-                
-                if(length(hits.fw.start) > 0)
-                {
-                  df.hits.fw <- data.frame(((hits.fw.start+hits.fw.end)/2) + current.peak.start,
-                                           rep(selected.motif.ids[k],length(hits.fw.start)),
-                                           rep(selected.motif.names[k],length(hits.fw.start)),
-                                           hits.fw.seqs)
-                  colnames(df.hits.fw)  <- c("position","id","name","seq")
-                  df.hits <- rbind(df.hits,df.hits.fw)
-                }
-                
-                hits.rev <- matchPWM(motif.pwm, peak.rev.comp.sequence, 
-                                     min.score = paste0(input$min.score.pwm,"%"))
-                hits.rev.seqs <- as.data.frame(hits.rev)[[1]]
-                hits.rev.seqs <- sapply(hits.rev.seqs,reverse.complement)
-                names(hits.rev.seqs) <- NULL
-                
-                hits.rev <- as(hits.rev, "IRanges")
-                hits.rev.start <- nchar(peak.sequence) - end(hits.rev) + 1
-                hits.rev.end <- nchar(peak.sequence) - start(hits.rev) + 1
-                
-                if(length(hits.rev.start) > 0)
-                {
-                  df.hits.rev <- data.frame(((hits.rev.start+hits.rev.end)/2) + current.peak.start,
-                                            rep(selected.motif.ids[k],length(hits.rev.start)),
-                                            rep(selected.motif.names[k],length(hits.rev.start)),
-                                            hits.rev.seqs)
-                  colnames(df.hits.rev)  <- c("position","id","name","seq")
-                  df.hits <- rbind(df.hits,df.hits.rev)
-                }
-              }
-            }
-          }
-          
-          ## Remove first line of the data frame added just for technical reason
-          df.hits <- df.hits[-1,]
-          nrow(df.hits)
-          
-          ## Draw TF binding sites
-          detected.tfbs <- unique(as.vector(df.hits$name))
-          
-          ## TF binding sites colors and symbol shapes
-          symbol.shapes <- c(17, 18, 19, 15)
-          symbol.color <- c("blue", "red", "darkgreen", "magenta")
-          
-          number.of.shapes <- ceiling(length(detected.tfbs) / length(symbol.color))
-          necessary.shapes <- rep(symbol.shapes[1:number.of.shapes],each = length(detected.tfbs)/number.of.shapes)
-          necessary.colors <- rep(symbol.color,number.of.shapes)
-          
-          if(length(detected.tfbs) > 0)
-          {
-            for(i in 1:length(detected.tfbs))
-            {
-              current.tfbs <- detected.tfbs[i]
-              current.shape <- necessary.shapes[i]
-              current.color <- necessary.colors[i]
-              
-              positions <- subset(df.hits, name == current.tfbs)
-              
-              for(j in 1:nrow(positions))
-              {
-                pos.to.draw <- positions$position[j]
-                
-                points(x = pos.to.draw, y = -15,
-                       pch = current.shape, col = current.color, cex = 1)
-              }
-            }
-            
-            ## Add legend for TFBS
-            legend.step <- 5
-            for(i in 1:length(detected.tfbs))
-            {
-              points(x = -3000, y = upper.lim - (i-1)*legend.step, 
-                     pch=necessary.shapes[i], col = necessary.colors[i],cex = 1)
-              
-              
-              current.seq <- as.character(subset(df.hits,name == detected.tfbs[i])[["seq"]][[1]])
-              current.label <- paste(c(detected.tfbs[i], "  -  ", current.seq ),collapse="")
-              
-              text(x = -2900, y = upper.lim - (i-1)*legend.step, labels = current.label,
-                   adj = 0,cex = 0.7)
-            }
-          }
-        }) # close output$individual_gene_profile
-      }) # observeEvent input$individual_gene_mark
+      output$gene.signal.text <- renderText(expr = individual.gene.signal.text)
     } else
     {
       output$tss.signal.text <- renderText(expr = "<b> Average signal levels around
       genes TSS (Transcription Start Site) and TES (Trascription End Site) could not 
       be computed since NO BigWig file was selected.</b>")
-      output$gene.signal.text <- renderText(expr = "<b> Average signal levels for 
-      specific marked genes cannot be computed since NO BigWig file was selected.</b>")
+      output$gene.signal.text <- renderText(expr = paste(individual.gene.signal.text,"<br><b> Average signal levels for 
+      specific marked genes cannot be computed since NO BigWig file was selected.</b>"))
     }
-
+    shinyjs::hideElement(id = 'loading.chip')
+    shinyjs::showElement(id = 'ready.chip')
   })
 })
 
