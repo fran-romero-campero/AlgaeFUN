@@ -1,0 +1,16 @@
+Package: TxDb.MpusillaCCMP1545.Phytozome
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from Phytozome by exposing these as TxDb objects
+Version: 0.1
+Author: Christina Arvanitidou, Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.40.1)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Micromonas pusillaCCMP1545
+species: Micromonas pusillaCCMP1545
+provider: Phytozome
+provider_version: Phytozome
+release_date: 2021-02-16 06:49:23 +0100 (Tue, 16 Feb 2021)
+resource_url: https://phytozome.jgi.doe.gov/
+biocViews: AnnotationData, Genetics, TxDb, Micromonas_pusillaCCMP1545

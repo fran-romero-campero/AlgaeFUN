@@ -1,0 +1,14 @@
+Package: org.MpusillaCCMP1545.eg.db
+Title: Genome wide annotation for Micromonas pusillaCCMP1545
+Description: Genome wide annotation for Micromonas pusillaCCMP1545, primarily based on mapping using Entrez Gene identifiers.
+Version: 0.1
+Author: Christina Arvanitidou
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.50.3)
+Suggests: DBI, annotate, RUnit
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+organism: Micromonas pusillaCCMP1545
+species: Micromonas pusillaCCMP1545
+biocViews: OrgDb, annotation
+

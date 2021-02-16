@@ -62,6 +62,7 @@ library(org.Csubellipsoidea.eg.db)
 library(org.Hlacustris.eg.db)
 library(org.Czofingiensis.eg.db)
 library(org.Bprasinos.eg.db)
+library(org.MpusillaCCMP1545.eg.db)
 
 ## TODO lucimarinus
 
@@ -75,6 +76,7 @@ library(TxDb.Bprasinos.Orcae)
 library(TxDb.Csubellipsoidea.Phytozome)
 library(TxDb.Dsalina.Phytozome)
 library(TxDb.Vcarteri.Phytozome)
+library(TxDb.MpusillaCCMP1545.Phytozome)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Chlamydomonas reinhardtii", 
@@ -87,7 +89,8 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Bathycoccus prasinos",
                       "Haematococcus lacustris",
                       "Chromochloris zofingiensis",
-                      "Ostreococcus lucimarinus")
+                      "Ostreococcus lucimarinus",
+                      "Micromonas pusilla CCMP1545")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -99,7 +102,8 @@ names(microalgae.names) <- c("otauri",
                              "bprasinos",
                              "hlacustris",
                              "zofi",
-                             "olucimarinus")
+                             "olucimarinus",
+                             "mpusilla")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -503,7 +507,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Bathycoccus prasinos" = "bathy",
                             "Klebsormidium nitens" = "knitens",
                             "Haematococcus lacustris" = "hlacustris",
-                            "Chlomochloris zofingiensis" = "zofi"))),
+                            "Chlomochloris zofingiensis" = "zofi",
+                            "Micromonas pusilla CCMP1545" = "mpusilla"))),
 
      conditionalPanel(condition = "input.navigation_bar == 'genes'",    
         #Choose the kind of analysis that you want us to execute 
@@ -854,6 +859,11 @@ server <- shinyServer(function(input, output, session) {
       org.db <- org.Czofingiensis.eg.db
       microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T)[[1]]
       gene.link.function <- zofi.gene.link
+    } else if (input$microalgae == "mpusilla")
+    {
+      org.db <- org.MpusillaCCMP1545.eg.db
+      microalgae.genes <- read.table(file = "universe/mpusilla_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
     }
 
     ## Extract genes from text box or uploaded file
@@ -1239,32 +1249,57 @@ with the corresponding GO term. Right click on the image to download it.")
           
           pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
         }}else if(input$microalgae == "zofi")
+      {
+        zofi.ko <- select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
+        ko.universe <- zofi.ko$KO
+        ko.universe <- ko.universe[!is.na(ko.universe)]
+        
+        target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
+        target.ko <- target.ko[!is.na(target.ko)]
+        
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        
+        for(i in 1:nrow(pathway.enrichment))
         {
-          zofi.ko <- select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
-          ko.universe <- zofi.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
+          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
           
-          target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
+          current.genes <- c()
+          for(j in 1:length(current.Ks))
           {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(zofi.ko, KO == current.Ks[j])$GID)
-            }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }}
+            current.genes <- c(current.genes,subset(zofi.ko, KO == current.Ks[j])$GID)
+          }
+          
+          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+        }
+      } else if (input$microalgae == "mpusilla")
+      {
+        mpusilla.ko <- select(org.MpusillaCCMP1545.eg.db,columns = c("KO"),keys=keys(org.MpusillaCCMP1545.eg.db,keytype = "GID"))
+        ko.universe <- mpusilla.ko$KO
+        ko.universe <- ko.universe[!is.na(ko.universe)]
+        
+        target.ko <- subset(mpusilla.ko,GID %in% target.genes)$KO
+        target.ko <- target.ko[!is.na(target.ko)]
+        
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        
+        for(i in 1:nrow(pathway.enrichment))
+        {
+          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+          
+          current.genes <- c()
+          for(j in 1:length(current.Ks))
+          {
+            current.genes <- c(current.genes,subset(mpusilla.ko, KO == current.Ks[j])$GID)
+          }
+          
+          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+        }
+      }
         
       
       ## Compute KEGG pathway enrichment
-      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" | input$microalgae != "zofi" )
+      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" | 
+          input$microalgae != "zofi" | input$microalgae != "mpusilla" )
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
@@ -1331,7 +1366,8 @@ with the corresponding GO term. Right click on the image to download it.")
           {
             kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
           }
-        }else if (input$microalgae == "zofi")
+        }else if (input$microalgae == "zofi" | 
+                      input$microalgae == "mpusilla")
         {
           kegg.enriched.genes <- pathway.enrichment.result$geneID
           for(i in 1:length(kegg.enriched.genes))
@@ -1355,7 +1391,9 @@ with the corresponding GO term. Right click on the image to download it.")
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri" || input$microalgae == "cocsu" || input$microalgae == "dsalina")
+        } else if(input$microalgae == "creinhardtii" | input$microalgae == "vcarteri" | 
+                      input$microalgae == "cocsu" | input$microalgae == "dsalina" |
+                      input$microalgae == "mpusilla")
         {
           gene.link.function <- phytozome.gene.link
         } else if(input$microalgae == "ptricornutum")
@@ -1411,7 +1449,8 @@ assocated to the enriched pathway represented in the corresponding row."
       ## Figures for KEGG pathway enrichment analysis
       
       ## Prepare gene set for representation
-      if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
+      if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
+         input$microalgae == "zofi" | input$micromonas == "mpusilla")
       {
         genes.pathway <- rep(0, length(ko.universe))
         names(genes.pathway) <- ko.universe
@@ -1437,7 +1476,8 @@ assocated to the enriched pathway represented in the corresponding row."
                       choices=pathways.for.select)
       })
     
-      if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
+      if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
+          input$microalgae == "zofi" | input$microalgae == "mpusilla")
       {
         modules.enrichment <- enrichMKEGG(gene = target.ko, universe = ko.universe, organism = "ko", keyType = "kegg",minGSSize = 4)
       } else
@@ -1483,7 +1523,8 @@ assocated to the enriched pathway represented in the corresponding row."
           {
             modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
-        } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | input$microalgae == "zofi")
+        } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
+                      input$microalgae == "zofi" | input$microalgae == "mpusilla")
         {
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
@@ -1507,7 +1548,9 @@ assocated to the enriched pathway represented in the corresponding row."
         if(input$microalgae == "otauri")
         {
           gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" || input$microalgae == "vcarteri"  || input$microalgae == "cocsu" || input$microalgae == "dsalina")
+        } else if(input$microalgae == "creinhardtii" | input$microalgae == "vcarteri"  | 
+                      input$microalgae == "cocsu" | input$microalgae == "dsalina" |
+                      input$microalgae == "mpusilla")
         {
           gene.link.function <- phytozome.gene.link
         } else if(input$microalgae == "ptricornutum")
@@ -1589,7 +1632,9 @@ assocated to the enriched pathway represented in the corresponding row."
       } else if(input$microalgae == "ngaditana")
       {
         organism.id <- "ngd"
-      } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris")
+      } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" |
+                    input$microalgae == "zofi" | input$microalgae == "mpusilla"
+                    )
       {
         organism.id <- "ko"
       }
@@ -1690,6 +1735,12 @@ assocated to the enriched pathway represented in the corresponding row."
       microalgae.annotation.links <- read.table(file = "annotations/hlacustris_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
     } else if (input$microalgae == "olucimarinus")
     {
+      #TODO
+    } else if (input$microalgae == "mpusilla")
+    {
+      gene.link.function <- phytozome.gene.link
+      org.db <- org.MpusillaCCMP1545.eg.db
+      txdb <- TxDb.MpusillaCCMP1545.Phytozome
       #TODO
     }
 
