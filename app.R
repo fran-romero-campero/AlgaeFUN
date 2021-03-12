@@ -1000,8 +1000,7 @@ annotation from the gene universe, m is the number of genes from the target set 
 corresponding GO term and M is the number of genes from the gene universe annotated with
 the GO term associated with the corresponding row. The enrichment is then computed as
 E = (m/n) / (M/N). Finally, the last column, contains the genes from the target set
-annotated with the GO term represented in the corresponding row." 
-        
+annotated with the GO term represented in the corresponding row."
         output$textGOTable <- renderText(expr = go.table.text)
 
         ## Output table with GO enrichment result
@@ -1113,12 +1112,18 @@ with the corresponding GO term. Right click on the image to download it.")
           })
       } else
       {
-        output$textGOTable <- "No GO term enrichment detected in the input gene set."
-        output$go_graph <- "No GO term enrichment detected in the input gene set."
-        output$barplot_text <- "No GO term enrichment detected in the input gene set."
-        output$dotplot_text <- "No GO term enrichment detected in the input gene set."
-        output$emapplot_text <- "No GO term enrichment detected in the input gene set."        
-        output$cnetplot_text <- "No GO term enrichment detected in the input gene set."        
+        output$textGOTable <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")
+        output$go_graph <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")
+        output$barplot_text <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")
+        output$dotplot_text <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")
+        output$emapplot_text <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")        
+        output$cnetplot_text <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")        
       }
       
     }
@@ -1298,8 +1303,8 @@ with the corresponding GO term. Right click on the image to download it.")
         
       
       ## Compute KEGG pathway enrichment
-      if (input$microalgae != "hlacustris" | input$microalgae != "knitens" | 
-          input$microalgae != "zofi" | input$microalgae != "mpusilla" )
+      if (input$microalgae != "hlacustris" && input$microalgae != "knitens" && 
+          input$microalgae != "zofi" && input$microalgae != "mpusilla" )
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
@@ -1308,7 +1313,6 @@ with the corresponding GO term. Right click on the image to download it.")
       shinyjs::hideElement(id = 'loading.enrichment.kegg')
       
       pathway.enrichment.result <- as.data.frame(pathway.enrichment)
-
       if(nrow(pathway.enrichment.result) > 0)
       {
         kegg.intro.text <- paste(c("This tab presents the results from the <b>KEGG pathways/modules enrichment analysis</b> 
@@ -1443,14 +1447,16 @@ assocated to the enriched pathway represented in the corresponding row."
         },escape=FALSE,options =list(pageLength = 5)) 
       } else
       {
-        output$textKEGGTable <- "No significant KEGG pathway enrichment detected in the input gene set."
+        output$textKEGGTable <- renderText(expr = "<b>No significant KEGG 
+                                           pathway enrichment detected in 
+                                           the input gene set.")
       }
-      
+
       ## Figures for KEGG pathway enrichment analysis
       
       ## Prepare gene set for representation
       if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
-         input$microalgae == "zofi" | input$micromonas == "mpusilla")
+         input$microalgae == "zofi" | input$microalgae == "mpusilla")
       {
         genes.pathway <- rep(0, length(ko.universe))
         names(genes.pathway) <- ko.universe
@@ -1475,7 +1481,7 @@ assocated to the enriched pathway represented in the corresponding row."
           selectInput(inputId = "kegg_pathway", label="Choose Pathway for Representation",multiple = FALSE,selected = pathways.for.select[1],
                       choices=pathways.for.select)
       })
-    
+
       if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
           input$microalgae == "zofi" | input$microalgae == "mpusilla")
       {
@@ -1486,7 +1492,6 @@ assocated to the enriched pathway represented in the corresponding row."
       }
 
       modules.enrichment.result <- as.data.frame(modules.enrichment)
-
       if(nrow(modules.enrichment.result) > 0)
       {
         modules.enrichment <- compute.enrichments(gene.ratios = modules.enrichment.result$GeneRatio,
@@ -1602,7 +1607,6 @@ assocated to the enriched pathway represented in the corresponding row."
       {
         output$text_module_kegg <- "No significant KEGG module enrichment detected in the input gene set."
       }
-      
     } 
 
     enriched.pathway.id <- reactive({ 
