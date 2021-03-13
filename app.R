@@ -757,9 +757,38 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 
 server <- shinyServer(function(input, output, session) {
   
-  ## Clear content of gene set text area
+  ## Clear content of gene set text area and previous results
   observeEvent(input$clear_gene_set, {
     updateTextAreaInput(session=session, inputId = "genes",value = "")
+    
+    shinyjs::hideElement(id = 'loading.enrichment.go')
+    shinyjs::hideElement(id = 'ready.enrichment.go')
+    output$intro_go <- renderText(expr = "")
+    output$textGOTable <- renderText(expr = "")
+    output$output_go_table <- renderDataTable(expr = NULL)
+    output$download_ui_for_go_table<- renderUI(expr = NULL)
+    output$revigo<- renderUI(expr = NULL)
+    output$go_graph <- renderText(expr = "")
+    output$go.plot <- renderPlot(expr = NULL)
+    output$barplot_text <- renderText("")
+    output$bar.plot <- renderPlot(expr = NULL)
+    output$dotplot_text <- renderText("")
+    output$dot.plot <- renderPlot(expr = NULL)
+    output$emapplot_text <- renderText("")
+    output$emap.plot <- renderPlot(expr = NULL)
+    output$cnetplot_text <- renderText("")
+    output$cnet.plot <- renderPlot(expr = NULL)
+    
+    shinyjs::hideElement(id = 'ready.enrichment.kegg')
+    shinyjs::hideElement(id = 'loading.enrichment.kegg')
+    output$intro_kegg <- renderText(expr = "")
+    output$textKEGGTable <- renderText(expr = "")
+    output$output_pathway_table <- renderDataTable(expr = NULL)
+    output$textKEGGImage <- renderText(expr = "")
+    output$kegg_selectize <- renderUI(expr = NULL)
+    output$kegg_image <- renderImage(expr = NULL,deleteFile = T)
+    output$text_module_kegg <- renderText(expr = "")
+    output$output_module_table <- renderDataTable(expr = NULL)
   })
   
   ## Clear content of genomic regions set text area
@@ -795,10 +824,29 @@ server <- shinyServer(function(input, output, session) {
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
     
-    print("input genes")
-    print(input$genes)
-    print(is.null(input$gene_set_file))
+    # Remove previous results
+    output$intro_go <- renderText(expr = "")
+    output$textGOTable <- renderText(expr = "")
+    output$output_go_table <- renderDataTable("")
+    output$download_ui_for_go_table<- renderUI(expr = NULL)
+    output$revigo<- renderUI(expr = NULL)
+    output$go_graph <- renderText(expr = "")
+    output$go.plot <- renderPlot(expr = NULL)
+    output$barplot_text <- renderText("")
+    output$bar.plot <- renderPlot(expr = NULL)
+    output$dotplot_text <- renderText("")
+    output$dot.plot <- renderPlot(expr = NULL)
+    output$emapplot_text <- renderText("")
+    output$emap.plot <- renderPlot(expr = NULL)
+    output$cnetplot_text <- renderText("")
+    output$cnet.plot <- renderPlot(expr = NULL)
     
+    output$intro_kegg <- renderText(expr = "")
+    output$output_pathway_table <- renderDataTable(expr = NULL)
+    output$textKEGGImage <- renderText(expr = "")
+    output$kegg_selectize <- renderUI(expr = NULL)
+    output$kegg_image <- renderImage(expr = NULL,deleteFile = T)
+
     # validate(
     #   need((input$genes != "" | !is.null(input$gene_set_file)), "Venga va")
     # )
@@ -875,10 +923,7 @@ server <- shinyServer(function(input, output, session) {
     {
       target.genes <- read.table(file=input$gene_set_file$datapath, header = F,as.is = TRUE)[[1]]
     }
-    
-    print("Number of input genes")
-    print(length(target.genes))
-    
+
     ## Select gene universe
     if(input$input_mode == "No")
     {
@@ -948,7 +993,7 @@ server <- shinyServer(function(input, output, session) {
                             ont           = input$ontology,
                             pAdjustMethod = "BH",
                             pvalueCutoff  = input$pvalue,
-                            qvalueCutoff  = 0.05,
+                            #qvalueCutoff  = 0.05,
                             readable      = TRUE,
                             keyType = "GID")
       
@@ -1325,6 +1370,7 @@ with the corresponding GO term. Right click on the image to download it.")
         pathways.enrichment <- compute.enrichments(gene.ratios = pathway.enrichment.result$GeneRatio,
                                                    bg.ratios = pathway.enrichment.result$BgRatio)
         
+        ## Generate gene lists for enriched pathways
         if (input$microalgae == "otauri")
         {
           kegg.enriched.genes <- gsub(pattern="OT_",replacement="",x=gsub(pattern = "/",replacement = " ",x = pathway.enrichment.result$geneID))
@@ -1605,7 +1651,9 @@ assocated to the enriched pathway represented in the corresponding row."
         },escape=FALSE,options =list(pageLength = 5)) 
       } else 
       {
-        output$text_module_kegg <- "No significant KEGG module enrichment detected in the input gene set."
+        output$text_module_kegg <- renderText(expr = "<b>No significant KEGG 
+                                              module enrichment detected in the 
+                                              input gene set.")
       }
     } 
 
