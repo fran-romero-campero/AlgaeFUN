@@ -1490,43 +1490,44 @@ assocated to the enriched pathway represented in the corresponding row."
 
         output$output_pathway_table <- renderDataTable({
           kegg.result.table.with.links
-        },escape=FALSE,options =list(pageLength = 5)) 
+        },escape=FALSE,options =list(pageLength = 5))
+        
+        
+        ## Figures for KEGG pathway enrichment analysis
+        
+        ## Prepare gene set for representation
+        if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
+           input$microalgae == "zofi" | input$microalgae == "mpusilla")
+        {
+          genes.pathway <- rep(0, length(ko.universe))
+          names(genes.pathway) <- ko.universe
+          
+          genes.pathway[target.ko] <- 1
+        } else 
+        {
+          genes.pathway <- rep(0, length(gene.universe))
+          names(genes.pathway) <- gene.universe
+          
+          genes.pathway[target.genes] <- 1
+        }
+
+        pathways.for.select <- paste(pathways.result.table[["KEGG ID"]], pathways.result.table[["Description"]], sep=" - ")
+        
+        kegg.image.text <- "<b> The enriched pathways detected above can be visualized using the dropdown menu below. 
+      Genes in the target set associated to the corresponding pathway will be highlighted as red rectangles: </b>"
+        
+        output$textKEGGImage <- renderText(expr = kegg.image.text)
+        
+        output$kegg_selectize <- renderUI({
+          selectInput(inputId = "kegg_pathway", label="Choose Pathway for Representation",multiple = FALSE,selected = pathways.for.select[1],
+                      choices=pathways.for.select)
+        })  
       } else
       {
         output$textKEGGTable <- renderText(expr = "<b>No significant KEGG 
                                            pathway enrichment detected in 
                                            the input gene set.")
       }
-
-      ## Figures for KEGG pathway enrichment analysis
-      
-      ## Prepare gene set for representation
-      if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
-         input$microalgae == "zofi" | input$microalgae == "mpusilla")
-      {
-        genes.pathway <- rep(0, length(ko.universe))
-        names(genes.pathway) <- ko.universe
-        
-        genes.pathway[target.ko] <- 1
-      } else 
-      {
-        genes.pathway <- rep(0, length(gene.universe))
-        names(genes.pathway) <- gene.universe
-        
-        genes.pathway[target.genes] <- 1
-      }
-
-      pathways.for.select <- paste(pathways.result.table[["KEGG ID"]], pathways.result.table[["Description"]], sep=" - ")
-      
-      kegg.image.text <- "<b> The enriched pathways detected above can be visualized using the dropdown menu below. 
-      Genes in the target set associated to the corresponding pathway will be highlighted as red rectangles: </b>"
-
-      output$textKEGGImage <- renderText(expr = kegg.image.text)
-      
-      output$kegg_selectize <- renderUI({
-          selectInput(inputId = "kegg_pathway", label="Choose Pathway for Representation",multiple = FALSE,selected = pathways.for.select[1],
-                      choices=pathways.for.select)
-      })
 
       if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
           input$microalgae == "zofi" | input$microalgae == "mpusilla")
