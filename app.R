@@ -1,5 +1,6 @@
 ## Authors: Ana B. Romero-Losada
 ##          Pedro de los Reyes 
+##          Christina Arvanitidou
 ##          Francisco J. Romero-Campero <fran@us.es>
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
@@ -473,6 +474,60 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           results will be shown in the different tabs below.")
                                 )
                        )),
+      conditionalPanel(condition = "input.navigation_bar == 'maracas'",
+                       tags$div(align = "justify", tags$b("MARACAS (MicroAlgae RnA-seq and Chip-seq AnalysiS) ")," 
+                       is an automatic computational pipeline specifically designed for the analysis of ",  
+                       tags$b("microalgae RNA-seq and ChIP-seq data"),". MARACAS starts processing raw fastq files 
+                       and generates lists of differentially expressed genes for RNA-seq data and lists of genomic 
+                       loci in bed format for ChIP-seq data. BigWig files containing normalized mapping signal are 
+                       also generated. The analysis are performed according to user specified parameters. Reports 
+                       in html and pdf format are produced for easy exploration of the results.", tags$br(),
+                       "Differential expressed gene lists and genomic loci lists can be further analyzed using this 
+                       online tool AlgaeFUN for functional analysis.", tags$br(),
+                       tags$b("MARACAS"), " supports a wide range of microalge including:",tags$br(),
+                       tags$ul(
+                         tags$li("Ostreococcus tauri"),
+                         tags$li("Chlamydomonas reinhardtii"),
+                         tags$li("Haematococcus lacustris"),
+                         tags$li("Dunaliella salina"),
+                         tags$li("Volvox Carteri"),
+                         tags$li("Phaeodactylum tricornutum"),
+                         tags$li("Nannochloropsis gaditana"),
+                         tags$li("Ostreococcus lucimarinus"),
+                         tags$li("Coccomyxa subellipsoidea"),
+                         tags$li("Bathycoccus prasinos"),
+                         tags$li("Klebsormidium nitens"),
+                         tags$li("Chlomochloris zofingiensis"),
+                         tags$li("Micromonas pusilla CCMP1545")
+                       ),
+                       tags$b("MARACAS"), " can be executed in a sequential mode in a laptop or server and 
+                       in a distributed/parallel mode in a computer cluster.", tags$br()),
+                       tags$div(align="center",
+                       tags$a(href="https://github.com/fran-romero-campero/MARACAS", target="_blank",
+                              tags$h4(tags$b("Click here for instructions on how to download, install and execute MARACAS.")))
+                       )
+      ),
+      
+      conditionalPanel(condition = "input.navigation_bar == 'github'",
+                       tags$div(align = "justify", tags$b("AlgaeFUN,"), "is entirely developed using 
+        the R package", tags$b( tags$a(href="https://shiny.rstudio.com/", "shiny.")), "The 
+        source code is released under", tags$b("GNU General Public License v3.0"), "and is hosted at",
+                                tags$b("GitHub."), "If you experience any problem using AlgaeFUN please create an", 
+                                tags$b(tags$a(href="https://github.com/fran-romero-campero/AlgaeFUN/issues","issue")), 
+                                "in GitHub and we will address it."),
+                       tags$div(align="center",tags$h1(tags$b(tags$a(href="https://github.com/fran-romero-campero/AlgaeFUN",
+                                                                     "AlgaeFUN at GitHub")))),
+                       tags$br(),
+                       tags$br(),
+                       
+                       tags$div(align = "justify", tags$b("MARACAS,"), "is developed using bash scripting and several 
+        bioconductor R packages. The source code is released under", tags$b("GNU General Public License v3.0"), "and is hosted at",
+                                tags$b("GitHub."), "If you experience any problem using AlgaeFUN please create an", 
+                                tags$b(tags$a(href="https://github.com/fran-romero-campero/MARACAS/issues","issue")), 
+                                "in GitHub and we will address it."),
+                       tags$div(align="center",tags$h1(tags$b(tags$a(href="https://github.com/fran-romero-campero/MARACAS",
+                                                                     "MARACAS at GitHub")))),
+      ),
       
     ),
     column(
