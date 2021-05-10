@@ -5,38 +5,6 @@
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 
-## TODO
-## Change width of table columns to fit mumber of genes (Enrichment too narrow)
-## Add download buttom for each table / figure
-## Add Warning messages when no enrichment is detected
-## Add nice logo and nice style to the web page
-## Add Functional annotation of genomic locations
-
-## Issue with KEGG ids for Ngaditana
-## expected: NGA_0076200,NGA_2122800,NGA_0378100,NGA_0380800,NGA_0239100,NGA_0126801
-
-## To test the script:
-# input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
-# input <- list(microalgae = "otauri", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# input <- list(microalgae = "ptricornutum", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# input <- list(microalgae = "ngaditana", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# input <- list(microalgae = "knitens", pvalue = 0.05, analysis = "kegg", input_mode = "No")
-# input <- list(microalgae = "csubellipsoidea", pvalue = 0.05, analysis = "go", input_mode = "No")
-# input <- list(microalgae = "ptricornutum", promoter_length = 1000, genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt")
-# input <- list(microalgae = "ptricornutum", genomic_regions_file = "example_files/example_genomic_regions_ptricornutum.txt", bw_file= "example_files/example_ptricornutum.bw" ,promoter_length = 1000, selected_genomic_features = "Promoter")
-# input <- list(microalgae = "creinhardtii", genomic_regions_file = "example_files/example_genomic_regions_creinhardtii_2.txt", bw_file= "example_files/example_creinhardtii.bw" ,promoter_length = 1000, selected_genomic_features = "Promoter")
-
-# target.genes <- read.table(file="example_files/example_otauri.txt",as.is=T)[[1]]
-# target.genes <- read.table(file="cre/examples/activated_genes.txt",as.is=T)[[1]]
-# target.genes <- read.table(file="example_files/example_vcarteri.txt",as.is=T)[[1]]
-# target.genes <- read.table(file="example_files/example_ptricornutum.txt", as.is=T)[[1]]
-# target.genes <- read.table(file="example_files/example_ngaditana_1.txt", as.is=T)[[1]]
-# target.genes <- read.table(file="example_files/example_knitens.txt", as.is=T)[[1]]
-# target.genes <- read.table(file="example_files/example_csubellipsoidea.txt", as.is=T)[[1]]
-# target.genes <- read.table(file="/home/fran/tmp/ld_sd/results/activated_genes.txt",as.is=T)[[1]]
-# target.genes <- read.table(file="/home/fran/tmp/ld_sd/results/repressed_genes.txt",as.is=T)[[1]]
-# input <- list(microalgae = "creinhardtii", pvalue = 0.05, analysis = "go", ontology = "BP", input_mode = "No")
-
 ## Increase max file size allowed to upload to 100MB
 options(shiny.maxRequestSize=100*1024^2)
 
@@ -65,18 +33,16 @@ library(org.Czofingiensis.eg.db)
 library(org.Bprasinos.eg.db)
 library(org.MpusillaCCMP1545.eg.db)
 
-## TODO lucimarinus
-
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
 library(TxDb.Creinhardtii.Phytozome)
+library(TxDb.Dsalina.Phytozome)
+library(TxDb.Vcarteri.Phytozome)
 library(TxDb.Ptricornutum.Ensembl.Protists)
+library(TxDb.Csubellipsoidea.Phytozome)
 library(TxDb.Hlacustris.NCBI)
 library(TxDb.Czofingiensis.Phytozome)
 library(TxDb.Bprasinos.Orcae)
-library(TxDb.Csubellipsoidea.Phytozome)
-library(TxDb.Dsalina.Phytozome)
-library(TxDb.Vcarteri.Phytozome)
 library(TxDb.MpusillaCCMP1545.Phytozome)
 
 microalgae.names <- c("Ostreococcus tauri", 
@@ -546,7 +512,6 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
   fluidRow(
       column(width = 4,
 
-      
       conditionalPanel(condition = "input.navigation_bar == 'genes' || input.navigation_bar == 'chip'",
         #Choose the target microalgae
         selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
@@ -597,7 +562,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                     Transcriptional Start Site defining gene promoters", 
                                     min=100, max=2000,value=1000,step=100)),
       
-      #Choose a promoter length
+      #Choose genomic features
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        checkboxGroupInput(inputId = "selected_genomic_features",selected = "Promoter", 
                                    label= "A gene will be associated to an input genomic locus
@@ -607,7 +572,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       ),
       
       column( width = 8,
-        #Choose the kind of analysis that you want us to execute 
+        #UI for functional enrichment over a gene set obtained for instance from an RNAseq data analysis
         conditionalPanel(condition = "input.navigation_bar == 'genes'",
 
           #This panel will only appear if the user chooses to use our background lists. 
@@ -640,7 +605,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         )),
 
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
-        #This panel will only appear if the user chooses to use our background lists. 
+        #UI for functional annotation of genomic loci obtained for instance from a ChIPseq data analysis 
         textAreaInput(inputId = "genomic_regions", 
                       label= "Insert a set of genomic regions", 
                       width="200%", height = "200px", 
@@ -662,7 +627,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
     mainPanel(width = 13,
 
       #Main panel containing the results organized in different tabs: GO map, Go terms data table, and 
-      #KEGG pathway maps.
+      #KEGG pathway maps for gene set enrichment analysis
 
       conditionalPanel(condition = "(input.navigation_bar == 'genes')",
          tabsetPanel(type ="tabs",
@@ -769,6 +734,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
             )
       ),
 
+      ## Main panel containing the results organized in different tabs for gene 
+      ## genomic loci functional annotation
+      
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
                        hidden(div(id='loading.chip',h3('Please be patient, computing genomic loci analysis ...'))), 
                        hidden(div(id='ready.chip',h3('Your genomic loci analysis is ready!'))),
@@ -902,11 +870,6 @@ server <- shinyServer(function(input, output, session) {
     output$kegg_selectize <- renderUI(expr = NULL)
     output$kegg_image <- renderImage(expr = NULL,deleteFile = T)
 
-    # validate(
-    #   need((input$genes != "" | !is.null(input$gene_set_file)), "Venga va")
-    # )
-    
-    
     ## Select org.Db 
     if(input$microalgae == "otauri")
     {
@@ -1038,7 +1001,6 @@ server <- shinyServer(function(input, output, session) {
       output$intro_go <- renderText(expr = go.intro.text)
 
       ## Perform GO enrichment
-      ## TODO q-value
       shinyjs::showElement(id = 'loading.enrichment.go')
       shinyjs::hideElement(id = 'ready.enrichment.go')
       
@@ -1048,7 +1010,6 @@ server <- shinyServer(function(input, output, session) {
                             ont           = input$ontology,
                             pAdjustMethod = "BH",
                             pvalueCutoff  = input$pvalue,
-                            #qvalueCutoff  = 0.05,
                             readable      = TRUE,
                             keyType = "GID")
       
@@ -2119,13 +2080,7 @@ assocated to the enriched pathway represented in the corresponding row."
         ## Colors to draw signal
         line.colors <- "blue"
         area.colors <- "lightblue"
-       } #else
-      # {
-      #   chip.signal.mean <- rep(20,length(cord.x)) 
-      #   ## Colors to draw signal
-      #   line.colors <- "white"
-      #   area.colors <- "white"
-      # }
+       } 
       
       ## Determine upper limit of the graph
       upper.lim <- 10#21
