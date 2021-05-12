@@ -501,7 +501,10 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       img(src='logo_ibvf.jpg', align = "center", width=100),
       img(src='logo_us.png', align = "center", width=100),
       tags$br(),tags$br(),tags$br(),
-      img(src='logo_csic.jpg', align = "center", width=100)
+      img(src='logo_csic.jpg', align = "center", width=100),
+      tags$br(),tags$br(),
+      tags$div(align="center",width=60,
+               HTML("<script type=\"text/javascript\" src=\"//rf.revolvermaps.com/0/0/8.js?i=5jamj0c2y0z&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33\" async=\"async\"></script>"))
     )
   ),
 
@@ -2080,7 +2083,13 @@ assocated to the enriched pathway represented in the corresponding row."
         ## Colors to draw signal
         line.colors <- "blue"
         area.colors <- "lightblue"
-       } 
+       } #else
+      # {
+      #   chip.signal.mean <- rep(20,length(cord.x)) 
+      #   ## Colors to draw signal
+      #   line.colors <- "white"
+      #   area.colors <- "white"
+      # }
       
       ## Determine upper limit of the graph
       upper.lim <- 10#21
