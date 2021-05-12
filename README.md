@@ -1,5 +1,9 @@
 # AlgaeFUN - MicroAlgae Functional Annotation Web based Tool 
 
+[![DOI](https://zenodo.org/badge/158584338.svg)](https://zenodo.org/badge/latestdoi/158584338) [![Project Status: Active - The project has reached a stable, usable
+state and is being actively
+developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+
 AlgaeFUN is an online tool that seeks to allow researchers in microalgae to exploit omics techniques such as RNA-seq 
 and ChIP-seq. AlgaeFUN provides tools to perform functional analysis and enrichment over:
 
