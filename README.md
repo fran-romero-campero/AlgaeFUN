@@ -1,6 +1,6 @@
 # AlgaeFUN - MicroAlgae Functional Annotation Web based Tool 
 
-AlgaeFUN is an online tool that seeks to allow researchers in microalgae to exploit omics techniques such as RNA_seq 
+AlgaeFUN is an online tool that seeks to allow researchers in microalgae to exploit omics techniques such as RNA-seq 
 and ChIP-seq. AlgaeFUN provides tools to perform functional analysis and enrichment over:
 
 * Sets of differentially expressed genes obtained, for example, from RNA-seq analysis carried out using [MARACAS](https://github.com/fran-romero-campero/MARACAS).
