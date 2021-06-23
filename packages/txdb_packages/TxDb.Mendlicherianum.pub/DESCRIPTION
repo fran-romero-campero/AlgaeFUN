@@ -1,0 +1,16 @@
+Package: TxDb.Mendlicherianum.pub
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from pub by exposing these as TxDb objects
+Version: 0.1
+Author: Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.40.1)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Mesotaenium endlicherianum
+species: Mesotaenium endlicherianum
+provider: pub
+provider_version: pub
+release_date: 2021-06-08 08:01:55 +0200 (Tue, 08 Jun 2021)
+resource_url: https://figshare.com/articles/dataset/Genomes_of_subaerial_Zygnematophyceae_provide_insights_into_land_plant_evolution/9911876/1
+biocViews: AnnotationData, Genetics, TxDb, Mesotaenium_endlicherianum

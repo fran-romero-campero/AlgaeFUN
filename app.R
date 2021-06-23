@@ -39,6 +39,8 @@ library(TxDb.Creinhardtii.Phytozome)
 library(TxDb.Dsalina.Phytozome)
 library(TxDb.Vcarteri.Phytozome)
 library(TxDb.Ptricornutum.Ensembl.Protists)
+library(TxDb.Ngaditana.JGI)
+library(TxDb.Knitens.Phycocosm)
 library(TxDb.Csubellipsoidea.Phytozome)
 library(TxDb.Hlacustris.NCBI)
 library(TxDb.Czofingiensis.Phytozome)
@@ -56,8 +58,8 @@ microalgae.names <- c("Ostreococcus tauri",
                       "Bathycoccus prasinos",
                       "Haematococcus lacustris",
                       "Chromochloris zofingiensis",
-                      "Ostreococcus lucimarinus",
-                      "Micromonas pusilla CCMP1545")
+                      "Micromonas pusilla CCMP1545",
+                      "Mesotaenium endlicherianum")
 names(microalgae.names) <- c("otauri", 
                              "creinhardtii", 
                              "dsalina", 
@@ -69,8 +71,8 @@ names(microalgae.names) <- c("otauri",
                              "bprasinos",
                              "hlacustris",
                              "zofi",
-                             "olucimarinus",
-                             "mpusilla")
+                             "mpusilla",
+                             "mesotaenium")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -101,6 +103,12 @@ ostta.gene.link <- function(gene.name)
                         gene.name, "</a>"),
                       collapse="")
   return(gene.link)
+}
+
+# Ngaditana link
+ngaditana.gene.link <- function(gene.name)
+{
+  return("https://nannochloropsis.4ngs.com/page/listgenes")
 }
 
 #NCBI link
@@ -548,13 +556,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                             "Volvox Carteri" = "vcarteri",
                             "Phaeodactylum tricornutum" = "ptricornutum",
                             "Nannochloropsis gaditana" = "ngaditana",
-                            "Ostreococcus lucimarinus" = "olucimarinus",
                             "Coccomyxa subellipsoidea" = "csubellipsoidea",
                             "Bathycoccus prasinos" = "bathy",
                             "Klebsormidium nitens" = "knitens",
                             "Haematococcus lacustris" = "hlacustris",
                             "Chlomochloris zofingiensis" = "zofi",
-                            "Micromonas pusilla CCMP1545" = "mpusilla"))),
+                            "Micromonas pusilla CCMP1545" = "mpusilla",
+                            "Mesotaenium endlicherianum" = "mesotaenium"
+                            ))),
 
      conditionalPanel(condition = "input.navigation_bar == 'genes'",    
         #Choose the kind of analysis that you want us to execute 
@@ -1793,13 +1802,17 @@ assocated to the enriched pathway represented in the corresponding row."
     } else if (input$microalgae == "ngaditana")
     {
       gene.link.function <- ngaditana.gene.link
+      txdb <- TxDb.Ngaditana.JGI
       org.db <- org.Ngaditana.eg.db
-      ## TODO
+      microalgae.annotation <- read.table(file = "annotations/ngaditana_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/ngaditana_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
     } else if (input$microalgae == "knitens")
     {
       gene.link.function <- knitens.gene.link
       org.db <- org.Knitens.eg.db
-      ## TODO
+      txdb <- TxDb.Knitens.Phycocosm
+      microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
     } else if (input$microalgae == "bathy")
     {
       gene.link.function <- bathy.gene.link
@@ -1828,15 +1841,13 @@ assocated to the enriched pathway represented in the corresponding row."
       txdb <- TxDb.Hlacustris.NCBI
       microalgae.annotation <- read.table(file = "annotations/hlacustris_gene_annotation.tsv",sep="\t",header = T,as.is=T)
       microalgae.annotation.links <- read.table(file = "annotations/hlacustris_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "olucimarinus")
-    {
-      #TODO
     } else if (input$microalgae == "mpusilla")
     {
       gene.link.function <- phytozome.gene.link
       org.db <- org.MpusillaCCMP1545.eg.db
       txdb <- TxDb.MpusillaCCMP1545.Phytozome
-      #TODO
+      microalgae.annotation <- read.table(file = "annotations/mpusilla_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+      microalgae.annotation.links <- read.table(file = "annotations/mpusilla_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
     }
 
     ## Load reference genome for the chosen microalgae

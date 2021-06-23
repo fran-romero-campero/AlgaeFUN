@@ -1,0 +1,16 @@
+Package: TxDb.Knitens.Phycocosm
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from Phycocosm by exposing these as TxDb objects
+Version: 0.1
+Author: Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.40.1)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Klebsormidium nitens
+species: Klebsormidium nitens
+provider: Phycocosm
+provider_version: Phycocosm
+release_date: 2021-06-23 16:00:12 +0200 (Wed, 23 Jun 2021)
+resource_url: https://phycocosm.jgi.doe.gov/Klenit1/Klenit1.home.html
+biocViews: AnnotationData, Genetics, TxDb, Klebsormidium_nitens

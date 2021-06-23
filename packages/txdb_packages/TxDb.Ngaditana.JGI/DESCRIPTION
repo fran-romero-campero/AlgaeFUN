@@ -1,0 +1,16 @@
+Package: TxDb.Ngaditana.JGI
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from JGI by exposing these as TxDb objects
+Version: 0.1
+Author: Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.40.1)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Nannochloropsis gaditana
+species: Nannochloropsis gaditana
+provider: JGI
+provider_version: JGI
+release_date: 2021-06-21 07:03:07 +0200 (Mon, 21 Jun 2021)
+resource_url: https://phycocosm.jgi.doe.gov/Nangad1/Nangad1.home.html
+biocViews: AnnotationData, Genetics, TxDb, Nannochloropsis_gaditana
