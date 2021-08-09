@@ -1,5 +1,5 @@
-library(TxDb.MpusillaCCMP1545.Phytozome)
-library(org.MpusillaCCMP1545.eg.db)
+library(TxDb.Knitens.Phycocosm)
+library(org.Knitens.eg.db)
 
 split.commas <- function(annotation.str)
 {
@@ -88,8 +88,8 @@ no.link <- function(gene.name)
 }
 
 gene.link.function <- no.link
-txdb <- TxDb.MpusillaCCMP1545.Phytozome
-org.db <- org.MpusillaCCMP1545.eg.db
+txdb <- TxDb.Knitens.Phycocosm
+org.db <- org.Knitens.eg.db
 
 ## Output table with gene annotation
 annotations <- intersect(c("GO", "KO", "KOG", "ENZYME", "PANTHER","PFAM"),columns(org.db))
@@ -158,10 +158,10 @@ head(genes.annotation.download)
 rownames(genes.annotation.links) <- genes.annotation.download$`Gene ID`
 #head(genes.annotation.links)
 
-write.table(x = genes.annotation.download,file = "mpusilla_gene_annotation.tsv",sep="\t",row.names = FALSE,quote = F)
-res <- read.table(file = "mpusilla_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+write.table(x = genes.annotation.download,file = "knitens_gene_annotation.tsv",sep="\t",row.names = FALSE,quote = F)
+res <- read.table(file = "knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
 head(res)
 
-write.table(x = genes.annotation.links,file = "mpusilla_gene_annotation_links.tsv",sep="\t",quote=FALSE)
-res2 <- read.table(file = "mpusilla_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+write.table(x = genes.annotation.links,file = "knitens_gene_annotation_links.tsv",sep="\t",quote=FALSE)
+res2 <- read.table(file = "knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
 head(res2)
