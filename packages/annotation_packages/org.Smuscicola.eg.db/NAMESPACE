@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Smuscicola.eg,
+    org.Smuscicola.eg_dbconn,
+    org.Smuscicola.eg_dbfile,
+    org.Smuscicola.eg_dbschema,
+    org.Smuscicola.eg_dbInfo,
+
+    org.Smuscicola.egORGANISM
+)
+

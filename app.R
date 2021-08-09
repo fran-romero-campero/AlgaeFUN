@@ -1,7 +1,7 @@
 ## Authors: Ana B. Romero-Losada
+##          Francisco J. Romero-Campero <fran@us.es>
 ##          Pedro de los Reyes 
 ##          Christina Arvanitidou
-##          Francisco J. Romero-Campero <fran@us.es>
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 

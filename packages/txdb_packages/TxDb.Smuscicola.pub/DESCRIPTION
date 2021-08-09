@@ -1,0 +1,16 @@
+Package: TxDb.Smuscicola.pub
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from pub by exposing these as TxDb objects
+Version: 0.1
+Author: Christina Arvanitidou, Francisco J. Romero-Campero <fran@us.es> [cre]
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: GenomicFeatures (>= 1.40.0)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Spirogloea muscicola
+species: Spirogloea muscicola
+provider: pub
+provider_version: pub
+release_date: 2021-06-22 11:54:08 +0200 (Tue, 22 Jun 2021)
+resource_url: https://figshare.com/articles/dataset/Genomes_of_subaerial_Zygnematophyceae_provide_insights_into_land_plant_evolution/9911876/1
+biocViews: AnnotationData, Genetics, TxDb, Spirogloea_muscicola

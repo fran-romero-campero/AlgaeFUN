@@ -1,0 +1,13 @@
+Package: org.Smuscicola.eg.db
+Title: Genome wide annotation for Spirogloea muscicola
+Description: Genome wide annotation for Spirogloea muscicola, primarily based on mapping using Entrez Gene identifiers.
+Version: 0.1
+Author: Christina Arvanitidou
+Maintainer: Francisco J. Romero-Campero <fran@us.es>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.50.3)
+Suggests: DBI, annotate, RUnit
+License: Artistic-2.0
+organism: Spirogloea muscicola
+species: Spirogloea muscicola
+biocViews: OrgDb, annotation
+
