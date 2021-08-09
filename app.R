@@ -21,58 +21,64 @@ library(shinythemes)
 library(shinyjs)
 ## Load microalgae annotation packages
 library(org.Otauri.eg.db) ##install.packages(pkgs = "./packages/annotation_packages/org.Otauri.eg.db/",repos = NULL,type="source")
-library(org.Creinhardtii.eg.db)
-library(org.Dsalina.eg.db)
-library(org.Vcarteri.eg.db)
-library(org.Ptricornutum.eg.db)
-library(org.Ngaditana.eg.db)
-library(org.Knitens.eg.db)
+library(org.MpusillaCCMP1545.eg.db)
+library(org.Bprasinos.eg.db)
 library(org.Csubellipsoidea.eg.db)
+library(org.Creinhardtii.eg.db)
+library(org.Vcarteri.eg.db)
+library(org.Dsalina.eg.db)
 library(org.Hlacustris.eg.db)
 library(org.Czofingiensis.eg.db)
-library(org.Bprasinos.eg.db)
-library(org.MpusillaCCMP1545.eg.db)
+library(org.Knitens.eg.db)
+library(org.Mendlicherianum.eg.db)
+library(org.Smuscicola.eg.db)
+library(org.Ptricornutum.eg.db)
+library(org.Ngaditana.eg.db)
 
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
-library(TxDb.Creinhardtii.Phytozome)
-library(TxDb.Dsalina.Phytozome)
-library(TxDb.Vcarteri.Phytozome)
-library(TxDb.Ptricornutum.Ensembl.Protists)
-library(TxDb.Ngaditana.JGI)
-library(TxDb.Knitens.Phycocosm)
+library(TxDb.MpusillaCCMP1545.Phytozome)
+library(TxDb.Bprasinos.Orcae)
 library(TxDb.Csubellipsoidea.Phytozome)
+library(TxDb.Creinhardtii.Phytozome)
+library(TxDb.Vcarteri.Phytozome)
+library(TxDb.Dsalina.Phytozome)
 library(TxDb.Hlacustris.NCBI)
 library(TxDb.Czofingiensis.Phytozome)
-library(TxDb.Bprasinos.Orcae)
-library(TxDb.MpusillaCCMP1545.Phytozome)
+library(TxDb.Knitens.Phycocosm)
+library(TxDb.Mendlicherianum.pub)
+library(TxDb.Smuscicola.pub)
+library(TxDb.Ptricornutum.Ensembl.Protists)
+library(TxDb.Ngaditana.JGI)
 
 microalgae.names <- c("Ostreococcus tauri", 
-                      "Chlamydomonas reinhardtii", 
-                      "Dunaliella salina",
-                      "Volvox carteri",
-                      "Phaeodactylum tricornutum",
-                      "Nannochloropsis gaditana",
-                      "Klebsormidium nitens",
-                      "Coccomyxa subellipsoidea",
+                      "Micromonas pusilla CCMP1545",
                       "Bathycoccus prasinos",
+                      "Coccomyxa subellipsoidea",
+                      "Chlamydomonas reinhardtii", 
+                      "Volvox carteri",
+                      "Dunaliella salina",
                       "Haematococcus lacustris",
                       "Chromochloris zofingiensis",
-                      "Micromonas pusilla CCMP1545",
-                      "Mesotaenium endlicherianum")
+                      "Klebsormidium nitens",
+                      "Mesotaenium endlicherianum",
+                      "Spirogloea muscicola",
+                      "Phaeodactylum tricornutum",
+                      "Nannochloropsis gaditana")
 names(microalgae.names) <- c("otauri", 
-                             "creinhardtii", 
-                             "dsalina", 
-                             "vcarteri",
-                             "ptricornutum", 
-                             "ngaditana",
-                             "knitens",
-                             "csubellipsoidea",
-                             "bprasinos",
-                             "hlacustris",
-                             "zofi",
                              "mpusilla",
-                             "mesotaenium")
+                             "bprasinos",
+                             "csubellipsoidea",
+                             "creinhardtii", 
+                             "vcarteri",
+                             "dsalina",
+                             "hlacustris",
+                             "czofingiensis",
+                             "knitens",
+                             "mendlicherianum",
+                             "smuscicola",
+                             "ptricornutum",
+                             "ngaditana")
 
 ## Auxiliary functions
 ## Auxiliary function to compute enrichments
@@ -398,9 +404,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                 tags$b("ALGAEFUN"), "with ", tags$b("MARACAS"), "supports the analysis for a wide collection 
                of microalgae that includes", tags$i("Chlamydomonas reinhardtii, Ostreococcus tauri, Phaeodactylum tricornutum"), "and ", 
                                 tags$i("Nannochlorpsis gaditana."), "Please select from the navigation bar on the left the type of analysis you want to perform. You can also 
-               see our", tags$b("video tutorial"), "on how to analyse RNA-seq and
+               see our", tags$b("video tutorials"), "on how to analyse RNA-seq and
                ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
-               code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research.")
+               code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research."),
+               
+               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS: "),
+               tags$br(),tags$br(),
+               
+               tags$div(align ="center",img(src='phylogeny.png', align = "center", width=600))
       ),
       
       conditionalPanel(condition = "input.navigation_bar == 'genes'",
@@ -461,18 +472,19 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        tags$b("MARACAS"), " supports a wide range of microalge including:",tags$br(),
                        tags$ul(
                          tags$li("Ostreococcus tauri"),
+                         tags$li("Micromonas pusilla CCMP1545"),
+                         tags$li("Bathycoccus prasinos"),
+                         tags$li("Coccomyxa subellipsoidea"),
                          tags$li("Chlamydomonas reinhardtii"),
-                         tags$li("Haematococcus lacustris"),
-                         tags$li("Dunaliella salina"),
                          tags$li("Volvox Carteri"),
+                         tags$li("Dunaliella salina"),
+                         tags$li("Haematococcus lacustris"),
+                         tags$li("Chlomochloris zofingiensis"),
+                         tags$li("Klebsormidium nitens"),
+                         tags$li("Mesotaenium endlicherianum"),
+                         tags$li("Spirogloea muscicola"),
                          tags$li("Phaeodactylum tricornutum"),
                          tags$li("Nannochloropsis gaditana"),
-                         tags$li("Ostreococcus lucimarinus"),
-                         tags$li("Coccomyxa subellipsoidea"),
-                         tags$li("Bathycoccus prasinos"),
-                         tags$li("Klebsormidium nitens"),
-                         tags$li("Chlomochloris zofingiensis"),
-                         tags$li("Micromonas pusilla CCMP1545")
                        ),
                        tags$b("MARACAS"), " can be executed in a sequential mode in a laptop or server and 
                        in a distributed/parallel mode in a computer cluster.", tags$br()),
@@ -550,19 +562,20 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
         #Choose the target microalgae
         selectInput(inputId = "microalgae", label="Choose your favourite microalgae", 
 
-                  choices=c("Ostreococcus tauri" = "otauri",
-                            "Chlamydomonas reinhardtii" = "creinhardtii",
-                            "Dunaliella salina" = "dsalina",
-                            "Volvox Carteri" = "vcarteri",
-                            "Phaeodactylum tricornutum" = "ptricornutum",
-                            "Nannochloropsis gaditana" = "ngaditana",
-                            "Coccomyxa subellipsoidea" = "csubellipsoidea",
-                            "Bathycoccus prasinos" = "bathy",
-                            "Klebsormidium nitens" = "knitens",
-                            "Haematococcus lacustris" = "hlacustris",
-                            "Chlomochloris zofingiensis" = "zofi",
+                  choices=c("Ostreococcus tauri" = "otauri", 
                             "Micromonas pusilla CCMP1545" = "mpusilla",
-                            "Mesotaenium endlicherianum" = "mesotaenium"
+                            "Bathycoccus prasinos" = "bprasinos",
+                            "Coccomyxa subellipsoidea" = "csubellipsoidea",
+                            "Chlamydomonas reinhardtii" = "creinhardtii", 
+                            "Volvox carteri" = "vcarteri",
+                            "Dunaliella salina" = "dsalina",
+                            "Haematococcus lacustris" = "hlacustris",
+                            "Chromochloris zofingiensis" = "czofingiensis",
+                            "Klebsormidium nitens" = "knitens",
+                            "Mesotaenium endlicherianum" = "mendlicherianum",
+                            "Spirogloea muscicola" = "smuscicola",
+                            "Phaeodactylum tricornutum" = "ptricornutum",
+                            "Nannochloropsis gaditana" = "ngaditana"
                             ))),
 
      conditionalPanel(condition = "input.navigation_bar == 'genes'",    
