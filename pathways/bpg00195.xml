@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Jul 2, 2020 15:38:31 +0900 (GMT+9) -->
+<pathway name="path:bpg00195" org="bpg" number="00195"
+         title="Photosynthesis"
+         image="http://www.kegg.jp/kegg/pathway/bpg/bpg00195.png"
+         link="http://www.kegg.jp/kegg-bin/show_pathway?bpg00195">
+    <entry id="8" name="bpg:Bathy02g02090" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy02g02090">
+        <graphics name="Bathy02g02090" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="446" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="path:bpg00196" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg00196">
+        <graphics name="Photosynthesis - antenna proteins" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="322" y="159" width="105" height="25"/>
+    </entry>
+    <entry id="10" name="bpg:Bathy01g00780 bpg:BathyMg00130 bpg:BathyMg00262" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy01g00780+bpg:BathyMg00130+bpg:BathyMg00262">
+        <graphics name="Bathy01g00780..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="882" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="bpg:BathyCg00140" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00140">
+        <graphics name="atpI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="836" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="bpg:Bathy06g00630" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy06g00630">
+        <graphics name="Bathy06g00630" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="716" y="577" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="ko:K08904" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K08904">
+        <graphics name="K08904" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="308" y="579" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="bpg:Bathy07g04410" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy07g04410">
+        <graphics name="Bathy07g04410" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="579" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="bpg:Bathy01g06610" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy01g06610">
+        <graphics name="Bathy01g06610" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="216" y="579" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="bpg:Bathy04g01070" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy04g01070">
+        <graphics name="Bathy04g01070" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="216" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="bpg:Bathy03g05330" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy03g05330">
+        <graphics name="Bathy03g05330" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="170" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="ko:K02702" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02702">
+        <graphics name="K02702" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="446" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="bpg:Bathy02g03280 bpg:Bathy12g01870" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy02g03280+bpg:Bathy12g01870">
+        <graphics name="Bathy02g03280..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="446" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="cpd:C00005" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00005">
+        <graphics name="C00005" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="487" y="123" width="8" height="8"/>
+    </entry>
+    <entry id="21" name="cpd:C00006" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00006">
+        <graphics name="C00006" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="550" y="124" width="8" height="8"/>
+    </entry>
+    <entry id="22" name="bpg:Bathy09g00710" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy09g00710">
+        <graphics name="Bathy09g00710" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="528" y="213" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="cpd:C00080" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00080">
+        <graphics name="C00080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="413" y="402" width="8" height="8"/>
+    </entry>
+    <entry id="24" name="ko:K02110" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02110">
+        <graphics name="K02110" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="790" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="bpg:BathyCg00120" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00120">
+        <graphics name="atpE" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="bpg:Bathy02g04460" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy02g04460">
+        <graphics name="Bathy02g04460" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="bpg:Bathy02g04790" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy02g04790">
+        <graphics name="Bathy02g04790" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="652" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="28" name="ko:K02111" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02111">
+        <graphics name="K02111" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="606" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="29" name="bpg:BathyCg00110" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00110">
+        <graphics name="atpB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="560" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="bpg:Bathy15g02600" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy15g02600">
+        <graphics name="Bathy15g02600" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="413" y="340" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="cpd:C02185" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C02185">
+        <graphics name="C02185" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="332" y="294" width="8" height="8"/>
+    </entry>
+    <entry id="32" name="cpd:C02061" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C02061">
+        <graphics name="C02061" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="303" y="261" width="8" height="8"/>
+    </entry>
+    <entry id="33" name="cpd:C00034" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00034">
+        <graphics name="C00034" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="210" y="361" width="8" height="8"/>
+    </entry>
+    <entry id="34" name="cpd:C00001" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00001">
+        <graphics name="C00001" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="186" y="402" width="8" height="8"/>
+    </entry>
+    <entry id="35" name="cpd:C00007" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00007">
+        <graphics name="C00007" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="237" y="402" width="8" height="8"/>
+    </entry>
+    <entry id="36" name="path:bpg00195" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg00195">
+        <graphics name="TITLE:Photosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="113" y="58" width="145" height="25"/>
+    </entry>
+    <entry id="37" name="cpd:C00080" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00080">
+        <graphics name="C00080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="210" y="402" width="8" height="8"/>
+    </entry>
+    <entry id="38" name="cpd:C00080" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00080">
+        <graphics name="C00080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="533" y="124" width="8" height="8"/>
+    </entry>
+    <entry id="39" name="cpd:C00080" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00080">
+        <graphics name="C00080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="808" y="401" width="8" height="8"/>
+    </entry>
+    <entry id="40" name="cpd:C00080" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00080">
+        <graphics name="C00080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="413" y="197" width="8" height="8"/>
+    </entry>
+    <entry id="41" name="cpd:C00008" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00008">
+        <graphics name="C00008" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="747" y="66" width="8" height="8"/>
+    </entry>
+    <entry id="42" name="cpd:C00080" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00080">
+        <graphics name="C00080" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="807" y="62" width="8" height="8"/>
+    </entry>
+    <entry id="43" name="cpd:C00002" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00002">
+        <graphics name="C00002" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="859" y="62" width="8" height="8"/>
+    </entry>
+    <entry id="44" name="path:bpg00710" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg00710">
+        <graphics name="Carbon fixation in photosynthetic organisms" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="593" y="53" width="144" height="34"/>
+    </entry>
+    <entry id="45" name="bpg:BathyCg00250" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00250">
+        <graphics name="petB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="560" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="bpg:Bathy02g05300" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy02g05300">
+        <graphics name="Bathy02g05300" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="606" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="ko:K02634" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02634">
+        <graphics name="K02634" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="652" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="bpg:Bathy15g02600" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy15g02600">
+        <graphics name="Bathy15g02600" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="698" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="49" name="ko:K02642" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02642">
+        <graphics name="K02642" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="744" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="50" name="ko:K02643" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02643">
+        <graphics name="K02643" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="790" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="ko:K03689" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K03689">
+        <graphics name="K03689" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="836" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="52" name="ko:K02640" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02640">
+        <graphics name="K02640" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="882" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="53" name="bpg:Bathy10g00260" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy10g00260">
+        <graphics name="Bathy10g00260" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="560" y="577" width="46" height="17"/>
+    </entry>
+    <entry id="54" name="bpg:Bathy05g01380 bpg:Bathy05g03450 bpg:Bathy06g01620 bpg:Bathy09g01240" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy05g01380+bpg:Bathy05g03450+bpg:Bathy06g01620+bpg:Bathy09g01240">
+        <graphics name="Bathy05g01380..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="612" y="577" width="46" height="17"/>
+    </entry>
+    <entry id="55" name="bpg:Bathy09g00710" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy09g00710">
+        <graphics name="Bathy09g00710" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="664" y="577" width="46" height="17"/>
+    </entry>
+    <entry id="56" name="ko:K02690" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02690">
+        <graphics name="K02690" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="170" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="bpg:BathyCg00085" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00085">
+        <graphics name="psaC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="216" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="58" name="bpg:Bathy08g00350" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy08g00350">
+        <graphics name="Bathy08g00350" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="59" name="bpg:Bathy03g01910" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy03g01910">
+        <graphics name="Bathy03g01910" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="308" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="60" name="bpg:Bathy06g03860" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy06g03860">
+        <graphics name="Bathy06g03860" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="61" name="bpg:Bathy03g00890" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy03g00890">
+        <graphics name="Bathy03g00890" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="400" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="62" name="bpg:BathyCg00287" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00287">
+        <graphics name="psaI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="124" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="63" name="bpg:BathyCg00286" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00286">
+        <graphics name="psaJ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="170" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="64" name="bpg:Bathy06g01380" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy06g01380">
+        <graphics name="Bathy06g01380" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="216" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="65" name="bpg:Bathy14g02590" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy14g02590">
+        <graphics name="Bathy14g02590" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="66" name="bpg:BathyCg00284" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00284">
+        <graphics name="psaM" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="308" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="67" name="bpg:Bathy05g00070" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy05g00070">
+        <graphics name="Bathy05g00070" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="68" name="ko:K02689" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02689">
+        <graphics name="K02689" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="124" y="633" width="46" height="17"/>
+    </entry>
+    <entry id="69" name="bpg:BathyCg00305" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00305">
+        <graphics name="ycf9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="170" y="579" width="46" height="17"/>
+    </entry>
+    <entry id="70" name="ko:K02718" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02718">
+        <graphics name="K02718" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="262" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="71" name="bpg:BathyCg00125" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00125">
+        <graphics name="psbI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="72" name="bpg:Bathy04g04810" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy04g04810">
+        <graphics name="Bathy04g04810" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="400" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="73" name="ko:K02719" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02719">
+        <graphics name="K02719" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="308" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="74" name="ko:K02720" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02720">
+        <graphics name="K02720" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="354" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="75" name="bpg:Bathy14g01640" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy14g01640">
+        <graphics name="Bathy14g01640" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="400" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="76" name="ko:K02722" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02722">
+        <graphics name="K02722" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="446" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="77" name="bpg:Bathy07g04130" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy07g04130">
+        <graphics name="Bathy07g04130" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="124" y="579" width="46" height="17"/>
+    </entry>
+    <entry id="78" name="bpg:BathyCg00050" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00050">
+        <graphics name="psbH" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="308" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="79" name="bpg:Bathy16g01170" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy16g01170">
+        <graphics name="Bathy16g01170" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="124" y="562" width="46" height="17"/>
+    </entry>
+    <entry id="80" name="bpg:Bathy16g00520" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy16g00520">
+        <graphics name="Bathy16g00520" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="81" name="bpg:BathyCg00290" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00290">
+        <graphics name="psbK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="216" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="82" name="bpg:BathyCg00309" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00309">
+        <graphics name="psbJ" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="170" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="83" name="bpg:BathyCg00310" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00310">
+        <graphics name="psbL" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="124" y="545" width="46" height="17"/>
+    </entry>
+    <entry id="84" name="bpg:BathyCg00311" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00311">
+        <graphics name="psbF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="354" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="85" name="bpg:BathyCg00260" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00260">
+        <graphics name="psbE" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="308" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="86" name="bpg:BathyCg00240" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00240">
+        <graphics name="BathyCg00240" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="87" name="bpg:BathyCg00307" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00307">
+        <graphics name="psbC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="216" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="88" name="bpg:BathyCg00308" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00308">
+        <graphics name="psbD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="170" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="89" name="bpg:BathyCg00306" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:BathyCg00306">
+        <graphics name="psbA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="124" y="510" width="46" height="17"/>
+    </entry>
+    <entry id="100" name="bpg:Bathy01g00780 bpg:Bathy02g04460 bpg:Bathy02g04790 bpg:BathyCg00110 bpg:BathyCg00120 bpg:BathyCg00140 bpg:BathyMg00130 bpg:BathyMg00262" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy01g00780+bpg:Bathy02g04460+bpg:Bathy02g04790+bpg:BathyCg00110+bpg:BathyCg00120+bpg:BathyCg00140+bpg:BathyMg00130+bpg:BathyMg00262">
+        <graphics name="Bathy01g00780..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="808" y="106" width="46" height="17"/>
+    </entry>
+    <entry id="113" name="bpg:Bathy14g01750" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?bpg:Bathy14g01750">
+        <graphics name="Bathy14g01750" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="400" y="650" width="46" height="17"/>
+    </entry>
+    <entry id="114" name="cpd:C00009" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C00009">
+        <graphics name="C00009" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="763" y="66" width="8" height="8"/>
+    </entry>
+</pathway>

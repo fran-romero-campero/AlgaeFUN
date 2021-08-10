@@ -11,29 +11,29 @@ options(shiny.maxRequestSize=100*1024^2)
 ## Load necessary packages
 library(shinycssloaders)
 library(shiny)
-library(clusterProfiler)
-library(pathview)
-library(ChIPseeker)
-library(ChIPpeakAnno)
-library(rtracklayer)
-library(seqinr)
+#library(clusterProfiler)
+#library(pathview)
+#library(ChIPseeker)
+#library(ChIPpeakAnno)
+#library(rtracklayer)
+#library(seqinr)
 library(shinythemes)
 library(shinyjs)
 ## Load microalgae annotation packages
-library(org.Otauri.eg.db) ##install.packages(pkgs = "./packages/annotation_packages/org.Otauri.eg.db/",repos = NULL,type="source")
-library(org.MpusillaCCMP1545.eg.db)
-library(org.Bprasinos.eg.db)
-library(org.Csubellipsoidea.eg.db)
-library(org.Creinhardtii.eg.db)
-library(org.Vcarteri.eg.db)
-library(org.Dsalina.eg.db)
-library(org.Hlacustris.eg.db)
-library(org.Czofingiensis.eg.db)
-library(org.Knitens.eg.db)
-library(org.Mendlicherianum.eg.db)
-library(org.Smuscicola.eg.db)
-library(org.Ptricornutum.eg.db)
-library(org.Ngaditana.eg.db)
+# library(org.Otauri.eg.db) ##install.packages(pkgs = "./packages/annotation_packages/org.Otauri.eg.db/",repos = NULL,type="source")
+# library(org.MpusillaCCMP1545.eg.db)
+# library(org.Bprasinos.eg.db)
+# library(org.Csubellipsoidea.eg.db)
+# library(org.Creinhardtii.eg.db)
+# library(org.Vcarteri.eg.db)
+# library(org.Dsalina.eg.db)
+# library(org.Hlacustris.eg.db)
+# library(org.Czofingiensis.eg.db)
+# library(org.Knitens.eg.db)
+# library(org.Mendlicherianum.eg.db)
+# library(org.Smuscicola.eg.db)
+# library(org.Ptricornutum.eg.db)
+# library(org.Ngaditana.eg.db)
 
 ## Load microalgae genome annotation packages
 library(TxDb.Otauri.JGI)
@@ -410,7 +410,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                
                tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS: "),
                tags$br(),tags$br(),
-               
+               # 
                tags$div(align ="center",img(src='phylogeny.png', align = "center", width=600))
       ),
       
@@ -894,6 +894,9 @@ server <- shinyServer(function(input, output, session) {
   
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
+    # Load libraries
+    library(clusterProfiler)
+    library(pathview)
     
     # Remove previous results
     output$intro_go <- renderText(expr = "")
@@ -921,64 +924,90 @@ server <- shinyServer(function(input, output, session) {
     ## Select org.Db 
     if(input$microalgae == "otauri")
     {
+      library(org.Otauri.eg.db)
       org.db <- org.Otauri.eg.db
       microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
       gene.link.function <- ostta.gene.link
+    } else if (input$microalgae == "mpusilla")
+    {
+      library(org.MpusillaCCMP1545.eg.db)
+      org.db <- org.MpusillaCCMP1545.eg.db
+      microalgae.genes <- read.table(file = "universe/mpusilla_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
+    } else if (input$microalgae == "bprasinos")
+    {
+      library(org.Bprasinos.eg.db)
+      org.db <- org.Bprasinos.eg.db
+      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
+      gene.link.function <- bathy.gene.link
+    } else if (input$microalgae == "csubellipsoidea")
+    {
+      library(org.Csubellipsoidea.eg.db)
+      org.db <- org.Csubellipsoidea.eg.db
+      microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
     } else if (input$microalgae == "creinhardtii")
     {
+      library(org.Creinhardtii.eg.db)
       org.db <- org.Creinhardtii.eg.db
       microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
       gene.link.function <- phytozome.gene.link
-    } else if (input$microalgae == "dsalina")
-    {
-      org.db <- org.Dsalina.eg.db
-      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
-      gene.link.function <- phytozome.gene.link
     } else if (input$microalgae == "vcarteri")
     {
+      library(org.Vcarteri.eg.db)
       org.db <- org.Vcarteri.eg.db
       microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
       gene.link.function <- phytozome.gene.link
+    } else if (input$microalgae == "dsalina")
+    {
+      library(org.Dsalina.eg.db)
+      org.db <- org.Dsalina.eg.db
+      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
+      gene.link.function <- phytozome.gene.link
+    } else if (input$microalgae == "hlacustris")
+    {
+      library(org.Hlacustris.eg.db)
+      org.db <- org.Hlacustris.eg.db
+      microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T)[[1]]
+      gene.link.function <- ncbi.gene.link
+    } else if (input$microalgae == "czofingiensis")
+    {
+      library(org.Czofingiensis.eg.db)
+      org.db <- org.Czofingiensis.eg.db
+      microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T)[[1]]
+      gene.link.function <- zofi.gene.link
+    } else if (input$microalgae == "knitens")
+    {
+      library(org.Knitens.eg.db)
+      org.db <- org.Knitens.eg.db
+      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
+      gene.link.function <- knitens.gene.link
+    } else if (input$microalgae == "mendlicherianum")
+    {
+      library(org.Mendlicherianum.eg.db)
+      org.db <- org.Mendlicherianum.eg.db
+      microalgae.genes <- read.table(file = "universe/mesotaenium_universe.txt",as.is = T)[[1]]
+      gene.link.function <- no.gene.link
+    } else if (input$microalgae == "smuscicola")
+    {
+      library(org.Smuscicola.eg.db)
+      org.db <- org.Smuscicola.eg.db
+      microalgae.genes <- read.table(file = "universe/smuscicola_universe.txt",as.is = T)[[1]]
+      gene.link.function <- no.gene.link
     } else if (input$microalgae == "ptricornutum")
     {
+      library(org.Ptricornutum.eg.db)
       org.db <- org.Ptricornutum.eg.db
       microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
       gene.link.function <- phaeodactylum.gene.link
     } else if (input$microalgae == "ngaditana")
     {
+      library(org.Ngaditana.eg.db)
       org.db <- org.Ngaditana.eg.db
       microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
       gene.link.function <- ngaditana.gene.link
-    } else if (input$microalgae == "knitens")
-    {
-      org.db <- org.Knitens.eg.db
-      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
-      gene.link.function <- knitens.gene.link
-    }else if (input$microalgae == "bathy")
-    {
-      org.db <- org.Bprasinos.eg.db
-      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
-    }else if (input$microalgae == "csubellipsoidea")
-    {
-      org.db <- org.Csubellipsoidea.eg.db
-      microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
-      gene.link.function <- phytozome.gene.link
-    }else if (input$microalgae == "hlacustris")
-    {
-      org.db <- org.Hlacustris.eg.db
-      microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T)[[1]]
-      gene.link.function <- ncbi.gene.link
-    }else if (input$microalgae == "zofi")
-    {
-      org.db <- org.Czofingiensis.eg.db
-      microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T)[[1]]
-      gene.link.function <- zofi.gene.link
-    } else if (input$microalgae == "mpusilla")
-    {
-      org.db <- org.MpusillaCCMP1545.eg.db
-      microalgae.genes <- read.table(file = "universe/mpusilla_universe.txt",as.is = T)[[1]]
-      gene.link.function <- phytozome.gene.link
-    }
+    }  
+    
 
     ## Extract genes from text box or uploaded file
     if(is.null(input$gene_set_file))
@@ -993,7 +1022,7 @@ server <- shinyServer(function(input, output, session) {
     ## Select gene universe
     if(input$input_mode == "No")
     {
-      gene.universe <- unique(select(org.db,columns = c("GO"),keys=keys(org.db,keytype = "GID"))[["GID"]])
+      gene.universe <- microalgae.genes #unique(select(org.db,columns = c("GO"),keys=keys(org.db,keytype = "GID"))[["GID"]])
       universe.text <- " default universe."
     } else 
     {
@@ -1257,24 +1286,37 @@ with the corresponding GO term. Right click on the image to download it.")
         target.genes <- paste0("OT_",target.genes)
         gene.universe <- paste0("OT_",gene.universe)
         organism.id <- "ota"
-      } else if(input$microalgae == "creinhardtii")
+      } else if (input$microalgae == "mpusilla")
       {
-        cre.chlredraft.map <- select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
-        cre.ids <- cre.chlredraft.map$GID
-        chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
-        names(chlredraft.ids) <- cre.ids
-        names(cre.ids) <- chlredraft.ids
+        mpusilla.ko <- AnnotationDbi::select(org.MpusillaCCMP1545.eg.db,columns = c("KO"),keys=keys(org.MpusillaCCMP1545.eg.db,keytype = "GID"))
+        ko.universe <- mpusilla.ko$KO
+        ko.universe <- ko.universe[!is.na(ko.universe)]
         
-        target.genes <- chlredraft.ids[target.genes]
-        names(target.genes) <- NULL
+        target.ko <- subset(mpusilla.ko,GID %in% target.genes)$KO
+        target.ko <- target.ko[!is.na(target.ko)]
         
-        gene.universe <- chlredraft.ids[gene.universe]
-        names(gene.universe) <- NULL
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
-        organism.id <- "cre"
+        for(i in 1:nrow(pathway.enrichment))
+        {
+          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+          
+          current.genes <- c()
+          for(j in 1:length(current.Ks))
+          {
+            current.genes <- c(current.genes,subset(mpusilla.ko, KO == current.Ks[j])$GID)
+          }
+          
+          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+        }
+      } else if(input$microalgae == "bprasinos")
+      {
+        gene.universe <- AnnotationDbi::select(org.Bprasinos.eg.db,columns = c("GID"),keys=keys(org.Bprasinos.eg.db,keytype = "GID"))[[1]]
+
+        organism.id <- "bpg"
       } else if(input$microalgae == "vcarteri")
       {
-        vocar.volcadraft.map <- select(org.Vcarteri.eg.db,columns = c("VOLCADRAFT"),keys=keys(org.Vcarteri.eg.db,keytype = "GID"))
+        vocar.volcadraft.map <- AnnotationDbi::select(org.Vcarteri.eg.db,columns = c("VOLCADRAFT"),keys=keys(org.Vcarteri.eg.db,keytype = "GID"))
         vocar.ids <- vocar.volcadraft.map$GID
         volcadraft.ids <- vocar.volcadraft.map$VOLCADRAFT
         names(volcadraft.ids) <- vocar.ids
@@ -1287,9 +1329,24 @@ with the corresponding GO term. Right click on the image to download it.")
         names(gene.universe) <- NULL
         
         organism.id <- "vcn"
+      } else if(input$microalgae == "creinhardtii")
+      {
+        cre.chlredraft.map <- AnnotationDbi::select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
+        cre.ids <- cre.chlredraft.map$GID
+        chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
+        names(chlredraft.ids) <- cre.ids
+        names(cre.ids) <- chlredraft.ids
+        
+        target.genes <- chlredraft.ids[target.genes]
+        names(target.genes) <- NULL
+        
+        gene.universe <- chlredraft.ids[gene.universe]
+        names(gene.universe) <- NULL
+        
+        organism.id <- "cre"
       } else if(input$microalgae == "ptricornutum")
       {
-        phatri.draft.map <- select(org.Ptricornutum.eg.db,columns = c("PHATRIDRAFT"),keys=keys(org.Ptricornutum.eg.db,keytype = "GID"))
+        phatri.draft.map <- AnnotationDbi::select(org.Ptricornutum.eg.db,columns = c("PHATRIDRAFT"),keys=keys(org.Ptricornutum.eg.db,keytype = "GID"))
         phatri.ids <- phatri.draft.map$GID
         phatridraft.ids <- phatri.draft.map$PHATRIDRAFT
         names(phatridraft.ids) <- phatri.ids
@@ -1304,7 +1361,7 @@ with the corresponding GO term. Right click on the image to download it.")
         organism.id <- "pti"
       } else if(input$microalgae == "ngaditana")
       {
-        naga.draft.map <- select(org.Ngaditana.eg.db,columns = c("NAGADRAFT"),keys=keys(org.Ngaditana.eg.db,keytype = "GID"))
+        naga.draft.map <- AnnotationDbi::select(org.Ngaditana.eg.db,columns = c("NAGADRAFT"),keys=keys(org.Ngaditana.eg.db,keytype = "GID"))
         naga.ids <- naga.draft.map$GID
         nagadraft.ids <- naga.draft.map$NAGADRAFT
         names(nagadraft.ids) <- naga.ids
@@ -1319,7 +1376,7 @@ with the corresponding GO term. Right click on the image to download it.")
         organism.id <- "ngd"
       } else if(input$microalgae == "knitens")
       {
-        knitens.ko <- select(org.Knitens.eg.db,columns = c("KO"),keys=keys(org.Knitens.eg.db,keytype = "GID"))
+        knitens.ko <- AnnotationDbi::select(org.Knitens.eg.db,columns = c("KO"),keys=keys(org.Knitens.eg.db,keytype = "GID"))
         ko.universe <- knitens.ko$KO
         ko.universe <- ko.universe[!is.na(ko.universe)]
         
@@ -1342,7 +1399,7 @@ with the corresponding GO term. Right click on the image to download it.")
         }
       }else if(input$microalgae == "hlacustris")
       {
-        hlacustris.ko <- select(org.Hlacustris.eg.db,columns = c("KO"),keys=keys(org.Hlacustris.eg.db,keytype = "GID"))
+        hlacustris.ko <- AnnotationDbi::select(org.Hlacustris.eg.db,columns = c("KO"),keys=keys(org.Hlacustris.eg.db,keytype = "GID"))
         ko.universe <- hlacustris.ko$KO
         ko.universe <- ko.universe[!is.na(ko.universe)]
         
@@ -1362,9 +1419,9 @@ with the corresponding GO term. Right click on the image to download it.")
           }
           
           pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-        }}else if(input$microalgae == "zofi")
+        }}else if(input$microalgae == "czofingiensis")
       {
-        zofi.ko <- select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
+        zofi.ko <- AnnotationDbi::select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
         ko.universe <- zofi.ko$KO
         ko.universe <- ko.universe[!is.na(ko.universe)]
         
@@ -1385,31 +1442,7 @@ with the corresponding GO term. Right click on the image to download it.")
           
           pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
         }
-      } else if (input$microalgae == "mpusilla")
-      {
-        mpusilla.ko <- select(org.MpusillaCCMP1545.eg.db,columns = c("KO"),keys=keys(org.MpusillaCCMP1545.eg.db,keytype = "GID"))
-        ko.universe <- mpusilla.ko$KO
-        ko.universe <- ko.universe[!is.na(ko.universe)]
-        
-        target.ko <- subset(mpusilla.ko,GID %in% target.genes)$KO
-        target.ko <- target.ko[!is.na(target.ko)]
-        
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-        
-        for(i in 1:nrow(pathway.enrichment))
-        {
-          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-          
-          current.genes <- c()
-          for(j in 1:length(current.Ks))
-          {
-            current.genes <- c(current.genes,subset(mpusilla.ko, KO == current.Ks[j])$GID)
-          }
-          
-          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-        }
-      }
-        
+      }         
       
       ## Compute KEGG pathway enrichment
       if (input$microalgae != "hlacustris" && input$microalgae != "knitens" && 
@@ -1473,15 +1506,16 @@ with the corresponding GO term. Right click on the image to download it.")
           {
             kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
           }
-        }else if (input$microalgae == "hlacustris")
+        } else if (input$microalgae == "hlacustris")
         {
           kegg.enriched.genes <- pathway.enrichment.result$geneID
           for(i in 1:length(kegg.enriched.genes))
           {
             kegg.enriched.genes[i] <- paste(strsplit(kegg.enriched.genes[i],split="/")[[1]],collapse=" ")
           }
-        }else if (input$microalgae == "zofi" | 
-                      input$microalgae == "mpusilla")
+        } else if (input$microalgae == "czofingiensis" | 
+                  input$microalgae == "mpusilla" |
+                  input$microalgae == "bprasinos")
         {
           kegg.enriched.genes <- pathway.enrichment.result$geneID
           for(i in 1:length(kegg.enriched.genes))
@@ -1502,30 +1536,33 @@ with the corresponding GO term. Right click on the image to download it.")
         kegg.result.table.with.links <- pathways.result.table
         
         ## Add links to genes
-        if(input$microalgae == "otauri")
-        {
-          gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" | input$microalgae == "vcarteri" | 
-                      input$microalgae == "cocsu" | input$microalgae == "dsalina" |
-                      input$microalgae == "mpusilla")
-        {
-          gene.link.function <- phytozome.gene.link
-        } else if(input$microalgae == "ptricornutum")
-        {
-          gene.link.function <- phaeodactylum.gene.link
-        } else if(input$microalgae == "ngaditana")
-        {
-          gene.link.function <- ngaditana.gene.link
-        } else if(input$microalgae == "knitens")
-        {
-          gene.link.function <- knitens.gene.link
-        }else if(input$microalgae == "hlacustris")
-        {
-          gene.link.function <- ncbi.gene.link
-        }else if(input$microalgae == "zofi")
-        {
-          gene.link.function <- zofi.gene.link
-        }
+        # if(input$microalgae == "otauri")
+        # {
+        #   gene.link.function <- ostta.gene.link
+        # } else if(input$microalgae == "creinhardtii" | input$microalgae == "vcarteri" | 
+        #               input$microalgae == "csubellipsoidea" | input$microalgae == "dsalina" |
+        #               input$microalgae == "mpusilla")
+        # {
+        #   gene.link.function <- phytozome.gene.link
+        # } else if(input$microalgae == "bprasinos")
+        # {
+        #   gene.link.function <- bathy.gene.link
+        # } else if(input$microalgae == "ptricornutum")
+        # {
+        #   gene.link.function <- phaeodactylum.gene.link
+        # } else if(input$microalgae == "ngaditana")
+        # {
+        #   gene.link.function <- ngaditana.gene.link
+        # } else if(input$microalgae == "knitens")
+        # {
+        #   gene.link.function <- knitens.gene.link
+        # }else if(input$microalgae == "hlacustris")
+        # {
+        #   gene.link.function <- ncbi.gene.link
+        # }else if(input$microalgae == "czofi")
+        # {
+        #   gene.link.function <- zofi.gene.link
+        # }
         
         for(i in 1:length(kegg.enriched.genes))
         {
@@ -1561,7 +1598,7 @@ assocated to the enriched pathway represented in the corresponding row."
         
         ## Prepare gene set for representation
         if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
-           input$microalgae == "zofi" | input$microalgae == "mpusilla")
+           input$microalgae == "czofingiensis" | input$microalgae == "mpusilla")
         {
           genes.pathway <- rep(0, length(ko.universe))
           names(genes.pathway) <- ko.universe
@@ -1640,7 +1677,8 @@ assocated to the enriched pathway represented in the corresponding row."
             modules.enriched.genes[i] <- paste(naga.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
           }
         } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
-                      input$microalgae == "zofi" | input$microalgae == "mpusilla")
+                  input$microalgae == "czofingiensis" | input$microalgae == "mpusilla" |
+                  input$microalgae == "bprasinos")
         {
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
@@ -1661,30 +1699,30 @@ assocated to the enriched pathway represented in the corresponding row."
         modules.result.table.with.links <- modules.result.table
         
         ## Add links to genes
-        if(input$microalgae == "otauri")
-        {
-          gene.link.function <- ostta.gene.link
-        } else if(input$microalgae == "creinhardtii" | input$microalgae == "vcarteri"  | 
-                      input$microalgae == "cocsu" | input$microalgae == "dsalina" |
-                      input$microalgae == "mpusilla")
-        {
-          gene.link.function <- phytozome.gene.link
-        } else if(input$microalgae == "ptricornutum")
-        {
-          gene.link.function <- phaeodactylum.gene.link
-        } else if(input$microalgae == "ngaditana")
-        {
-          gene.link.function <- ngaditana.gene.link
-        } else if(input$microalgae == "knitens")
-        {
-          gene.link.function <- knitens.gene.link
-        }else if(input$microalgae == "hlacustris")
-        {
-          gene.link.function <- ncbi.gene.link
-        }else if(input$microalgae == "zofi")
-        {
-          gene.link.function <- zofi.gene.link
-        }
+        # if(input$microalgae == "otauri")
+        # {
+        #   gene.link.function <- ostta.gene.link
+        # } else if(input$microalgae == "creinhardtii" | input$microalgae == "vcarteri"  | 
+        #               input$microalgae == "cocsu" | input$microalgae == "dsalina" |
+        #               input$microalgae == "mpusilla")
+        # {
+        #   gene.link.function <- phytozome.gene.link
+        # } else if(input$microalgae == "ptricornutum")
+        # {
+        #   gene.link.function <- phaeodactylum.gene.link
+        # } else if(input$microalgae == "ngaditana")
+        # {
+        #   gene.link.function <- ngaditana.gene.link
+        # } else if(input$microalgae == "knitens")
+        # {
+        #   gene.link.function <- knitens.gene.link
+        # }else if(input$microalgae == "hlacustris")
+        # {
+        #   gene.link.function <- ncbi.gene.link
+        # }else if(input$microalgae == "zofi")
+        # {
+        #   gene.link.function <- zofi.gene.link
+        # }
         
         for(i in 1:length(modules.enriched.genes))
         {
@@ -1750,7 +1788,7 @@ assocated to the enriched pathway represented in the corresponding row."
       {
         organism.id <- "ngd"
       } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" |
-                    input$microalgae == "zofi" | input$microalgae == "mpusilla"
+                    input$microalgae == "czofingiensis" | input$microalgae == "mpusilla"
                     )
       {
         organism.id <- "ko"
