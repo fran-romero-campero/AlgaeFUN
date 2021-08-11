@@ -1601,7 +1601,6 @@ with the corresponding GO term. Right click on the image to download it.")
                                              "Enrichment (Target Ratio; BG Ration)","Genes")
         
         kegg.result.table.with.links <- pathways.result.table
-        
         ## Add links to genes
         # if(input$microalgae == "otauri")
         # {
@@ -1717,7 +1716,15 @@ assocated to the enriched pathway represented in the corresponding row."
         if (input$microalgae == "otauri")
         {
           modules.enriched.genes <- gsub(pattern="OT_",replacement="",x=gsub(pattern = "/",replacement = " ",x = modules.enrichment.result$geneID))
-        } else if (input$microalgae == "creinhardtii")
+        } else if (input$microalgae == "bprasinos")
+        {
+          modules.enriched.genes <- modules.enrichment.result$geneID
+          for(i in 1:length(modules.enriched.genes))
+          {
+            modules.enriched.genes[i] <- paste(strsplit(modules.enriched.genes[i],split="/")[[1]],collapse=" ")
+          }
+        }
+        else if (input$microalgae == "creinhardtii")
         {
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
@@ -1747,7 +1754,7 @@ assocated to the enriched pathway represented in the corresponding row."
           }
         } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
                   input$microalgae == "czofingiensis" | input$microalgae == "mpusilla" |
-                  input$microalgae == "bprasinos" | input$microalgae == "smuscicola"| 
+                  input$microalgae == "smuscicola"| 
                   input$microalgae == "mendlicherianum")
         {
           # modules.enriched.genes <- modules.enrichment.result$geneID
