@@ -36,20 +36,20 @@ library(shinyjs)
 # library(org.Ngaditana.eg.db)
 
 ## Load microalgae genome annotation packages
-library(TxDb.Otauri.JGI)
-library(TxDb.MpusillaCCMP1545.Phytozome)
-library(TxDb.Bprasinos.Orcae)
-library(TxDb.Csubellipsoidea.Phytozome)
-library(TxDb.Creinhardtii.Phytozome)
-library(TxDb.Vcarteri.Phytozome)
-library(TxDb.Dsalina.Phytozome)
-library(TxDb.Hlacustris.NCBI)
-library(TxDb.Czofingiensis.Phytozome)
-library(TxDb.Knitens.Phycocosm)
-library(TxDb.Mendlicherianum.pub)
-library(TxDb.Smuscicola.pub)
-library(TxDb.Ptricornutum.Ensembl.Protists)
-library(TxDb.Ngaditana.JGI)
+# library(TxDb.Otauri.JGI)
+# library(TxDb.MpusillaCCMP1545.Phytozome)
+# library(TxDb.Bprasinos.Orcae)
+# library(TxDb.Csubellipsoidea.Phytozome)
+# library(TxDb.Creinhardtii.Phytozome)
+# library(TxDb.Vcarteri.Phytozome)
+# library(TxDb.Dsalina.Phytozome)
+# library(TxDb.Hlacustris.NCBI)
+# library(TxDb.Czofingiensis.Phytozome)
+# library(TxDb.Knitens.Phycocosm)
+# library(TxDb.Mendlicherianum.pub)
+# library(TxDb.Smuscicola.pub)
+# library(TxDb.Ptricornutum.Ensembl.Protists)
+# library(TxDb.Ngaditana.JGI)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Micromonas pusilla CCMP1545",
@@ -123,6 +123,18 @@ mpusilla.gene.link <- function(gene.name)
   return(gene.link)
 }
 
+## Chlamydomonas reinhardtii gene link to Phytozome
+chlamy.gene.link <- function(gene.name)
+{
+  phytozome.link <- paste0("https://phytozome-next.jgi.doe.gov/report/gene/Creinhardtii_v5_6/",gene.name)
+  gene.link <- paste(c("<a href=\"",
+                       phytozome.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
 ## Dunaliella salina gene link to Phytozome
 dsalina.gene.link <- function(gene.name)
 {
@@ -176,7 +188,6 @@ ncbi.gene.link <- function(gene.name)
                      collapse="")
   return(gene.link)
 }
-
 
 #Bathy gene link to ORCAE
 bathy.gene.link <- function(gene.name)
@@ -929,7 +940,7 @@ server <- shinyServer(function(input, output, session) {
     {
       example.text <- paste(example.text,paste(example.genomic.regions[i,],collapse = "\t"),sep="\n")
     }
-    print(example.text)
+    #print(example.text)
     updateTextAreaInput(session=session, inputId = "genomic_regions",value = example.text)
   })
   
@@ -995,7 +1006,7 @@ server <- shinyServer(function(input, output, session) {
       library(org.Creinhardtii.eg.db)
       org.db <- org.Creinhardtii.eg.db
       microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
-      gene.link.function <- phytozome.gene.link
+      gene.link.function <- chlamy.gene.link
     } else if (input$microalgae == "vcarteri")
     {
       library(org.Vcarteri.eg.db)
@@ -1957,38 +1968,126 @@ assocated to the enriched pathway represented in the corresponding row."
     shinyjs::showElement(id = 'loading.chip')
     shinyjs::hideElement(id = 'ready.chip')
 
+    ## Load libraries
+    library(ChIPseeker)
+    library(ChIPpeakAnno)
+    library(rtracklayer)
+    library(seqinr)
+
     ## Select txdb 
     if(input$microalgae == "otauri")
     {
       gene.link.function <- ostta.gene.link
+      library("org.Otauri.eg.db")
+      library("TxDb.Otauri.JGI")
       txdb <- TxDb.Otauri.JGI
       org.db <- org.Otauri.eg.db
       microalgae.annotation <- read.table(file = "annotations/otauri_gene_annotation.tsv",sep="\t",header = T,as.is=T)
       microalgae.annotation.links <- read.table(file = "annotations/otauri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "creinhardtii")
+    } else if (input$microalgae == "mpusilla")
+    {
+      gene.link.function <- mpusilla.gene.link
+      library("org.MpusillaCCMP1545.eg.db")
+      library("org.MpusillaCCMP1545.eg.db")
+      org.db <- org.MpusillaCCMP1545.eg.db
+      txdb <- TxDb.MpusillaCCMP1545.Phytozome
+      microalgae.annotation <- read.table(file = "annotations/mpusilla_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+      microalgae.annotation.links <- read.table(file = "annotations/mpusilla_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+    } else if (input$microalgae == "bprasinos")
+    {
+      gene.link.function <- bathy.gene.link
+      library("org.Bprasinos.eg.db")
+      library("TxDb.Bprasinos.Orcae")
+      org.db <- org.Bprasinos.eg.db
+      txdb <- TxDb.Bprasinos.Orcae
+      microalgae.annotation <- read.table(file = "annotations/bprasinos_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/bprasinos_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "csubellipsoidea")
     {
       gene.link.function <- phytozome.gene.link
+      library("org.Csubellipsoidea.eg.db")
+      library("org.Csubellipsoidea.eg.db")
+      org.db <- org.Csubellipsoidea.eg.db
+      txdb <- TxDb.Csubellipsoidea.Phytozome
+      microalgae.annotation <- read.table(file = "annotations/csubellipsoidea_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/csubellipsoidea_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "creinhardtii")
+    {
+      gene.link.function <- chlamy.gene.link
+      library("org.Creinhardtii.eg.db")
+      library("TxDb.Creinhardtii.Phytozome")
       txdb <- TxDb.Creinhardtii.Phytozome
       org.db <- org.Creinhardtii.eg.db
       microalgae.annotation <- read.table(file = "annotations/creinhardtii_gene_annotation.tsv",sep="\t",header = T,as.is=T)
       microalgae.annotation.links <- read.table(file = "annotations/creinhardtii_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "dsalina")
-    {
-      gene.link.function <- dsalina.gene.link
-      txdb <- TxDb.Dsalina.Phytozome
-      org.db <- org.Dsalina.eg.db
-      microalgae.annotation <- read.table(file = "annotations/dsalina_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/dsalina_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
     } else if (input$microalgae == "vcarteri")
     {
-      gene.link.function <- phytozome.gene.link
+      gene.link.function <- vcarteri.gene.link
+      library("org.Vcarteri.eg.db")
+      library("TxDb.Vcarteri.Phytozome")
       txdb <- TxDb.Vcarteri.Phytozome
       org.db <- org.Vcarteri.eg.db
       microalgae.annotation <- read.table(file = "annotations/vcarteri_gene_annotation.tsv",sep="\t",header = T,as.is=T)
       microalgae.annotation.links <- read.table(file = "annotations/vcarteri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "dsalina")
+    {
+      gene.link.function <- dsalina.gene.link
+      library("org.Dsalina.eg.db")
+      library("TxDb.Dsalina.Phytozome")
+      txdb <- TxDb.Dsalina.Phytozome
+      org.db <- org.Dsalina.eg.db
+      microalgae.annotation <- read.table(file = "annotations/dsalina_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/dsalina_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "hlacustris")
+    {
+      gene.link.function <- ncbi.gene.link
+      library("org.Hlacustris.eg.db")
+      library("TxDb.Hlacustris.NCBI")
+      org.db <- org.Hlacustris.eg.db
+      txdb <- TxDb.Hlacustris.NCBI
+      microalgae.annotation <- read.table(file = "annotations/hlacustris_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/hlacustris_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "czofingiensis")
+    {
+      gene.link.function <- zofi.gene.link
+      library("org.Czofingiensis.eg.db")
+      library("TxDb.Czofingiensis.Phytozome")
+      org.db <- org.Czofingiensis.eg.db
+      txdb <- TxDb.Czofingiensis.Phytozome
+      microalgae.annotation <- read.table(file = "annotations/czofingiensis_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/czofingiensis_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "knitens")
+    {
+      gene.link.function <- no.gene.link
+      library("org.Knitens.eg.db")
+      library("TxDb.Knitens.Phycocosm")
+      org.db <- org.Knitens.eg.db
+      txdb <- TxDb.Knitens.Phycocosm
+      microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "mendlicherianum")
+    {
+      gene.link.function <- no.gene.link
+      library("org.Mendlicherianum.eg.db")
+      library("TxDb.Mendlicherianum.pub")
+      org.db <- org.Mendlicherianum.eg.db
+      txdb <- TxDb.Mendlicherianum.pub
+      #microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      #microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+    } else if (input$microalgae == "smuscicola")
+    {
+      gene.link.function <- no.gene.link
+      library("org.Smuscicola.eg.db")
+      library("TxDb.Smuscicola.pub")
+      org.db <- org.Smuscicola.eg.db
+      txdb <- TxDb.Smuscicola.pub
+      #microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
+      #microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
     } else if (input$microalgae == "ptricornutum")
     {
       gene.link.function <- phaeodactylum.gene.link
+      library("org.Ptricornutum.eg.db")
+      library("TxDb.Ptricornutum.Ensembl.Protists")
       txdb <- TxDb.Ptricornutum.Ensembl.Protists
       org.db <- org.Ptricornutum.eg.db
       microalgae.annotation <- read.table(file = "annotations/ptricornutum_gene_annotation.tsv",sep="\t",header = T,as.is=T)
@@ -1996,54 +2095,15 @@ assocated to the enriched pathway represented in the corresponding row."
     } else if (input$microalgae == "ngaditana")
     {
       gene.link.function <- ngaditana.gene.link
+      library("org.Ngaditana.eg.db")
+      library("TxDb.Ngaditana.JGI")
       txdb <- TxDb.Ngaditana.JGI
       org.db <- org.Ngaditana.eg.db
       microalgae.annotation <- read.table(file = "annotations/ngaditana_gene_annotation.tsv",sep="\t",header = T,as.is=T)
       microalgae.annotation.links <- read.table(file = "annotations/ngaditana_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "knitens")
-    {
-      gene.link.function <- knitens.gene.link
-      org.db <- org.Knitens.eg.db
-      txdb <- TxDb.Knitens.Phycocosm
-      microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "bathy")
-    {
-      gene.link.function <- bathy.gene.link
-      org.db <- org.Bprasinos.eg.db
-      txdb <- TxDb.Bprasinos.Orcae
-      microalgae.annotation <- read.table(file = "annotations/bprasinos_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/bprasinos_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    }else if (input$microalgae == "csubellipsoidea")
-    {
-      gene.link.function <- phytozome.gene.link
-      org.db <- org.Csubellipsoidea.eg.db
-      txdb <- TxDb.Csubellipsoidea.Phytozome
-      microalgae.annotation <- read.table(file = "annotations/csubellipsoidea_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/csubellipsoidea_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "czofingiensis")
-    {
-      gene.link.function <- zofi.gene.link
-      org.db <- org.Czofingiensis.eg.db
-      txdb <- TxDb.Czofingiensis.Phytozome
-      microalgae.annotation <- read.table(file = "annotations/czofingiensis_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/czofingiensis_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "hlacustris")
-    {
-      gene.link.function <- ncbi.gene.link
-      org.db <- org.Hlacustris.eg.db
-      txdb <- TxDb.Hlacustris.NCBI
-      microalgae.annotation <- read.table(file = "annotations/hlacustris_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/hlacustris_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
-    } else if (input$microalgae == "mpusilla")
-    {
-      gene.link.function <- phytozome.gene.link
-      org.db <- org.MpusillaCCMP1545.eg.db
-      txdb <- TxDb.MpusillaCCMP1545.Phytozome
-      microalgae.annotation <- read.table(file = "annotations/mpusilla_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
-      microalgae.annotation.links <- read.table(file = "annotations/mpusilla_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
-    }
-
+    } 
+    
+    
     ## Load reference genome for the chosen microalgae
     microalgae.genome.data <- read.fasta(file = paste(c("genomes/",input$microalgae,".fa"),collapse=""),
                                          seqtype = "DNA")
@@ -2409,8 +2469,8 @@ assocated to the enriched pathway represented in the corresponding row."
              labels = bquote(italic(.(gene.name))),cex = 1.7,font = 3)
         
         ## Extract bed file name 1 and read it
-        current.peaks <- read.table(file=input$genomic_regions_file$data,header = F, as.is = T)
-        peak.coordinates <- subset(current.peaks, V1 == range.to.plot$seqnames & V2 >= range.to.plot$start & V3 <= range.to.plot$end) 
+        current.peaks <- as.data.frame(genomic.regions)#read.table(file=input$genomic_regions_file$data,header = F, as.is = T)
+        peak.coordinates <- subset(current.peaks, seqnames == range.to.plot$seqnames & start >= range.to.plot$start & end <= range.to.plot$end) 
         current.peaks.to.plot <- peak.coordinates[,2:3]
         
         ## Transform coordinates 
