@@ -2208,9 +2208,10 @@ assocated to the enriched pathway represented in the corresponding row."
     genes <- unique(genes)
 
     ## Output table with gene annotation
-    genes.annotation.download <- microalgae.annotation[genes,] 
+    genes.annotation.download <- subset(microalgae.annotation, Gene.ID %in% genes) 
     genes.annotation.links <- microalgae.annotation.links[genes,]  
     rownames(genes.annotation.links) <- NULL
+    genes.annotation.links <- genes.annotation.links[!is.na(genes.annotation.links$Gene.ID),]
 
     ## Introductory text for target genes 
     annotated.genes.table.text <- "<b>The table below enumerates the potential gene targets associated with the input
@@ -2229,18 +2230,19 @@ assocated to the enriched pathway represented in the corresponding row."
       genes.annotation.links
     },escape=FALSE,options =list(pageLength = 10)) 
     
+
     ## Generate UI to download gene table from genomic annotation and creating a downlodable table
     output$download_gene_chip_table<- renderUI(
       tagList(downloadButton(outputId= "downloadGeneTargets", "Download Potential Gene Targets"),tags$br(),tags$br())
     )
-    
+
     ## Download result
     output$downloadGeneTargets <- downloadHandler(
       filename= function() {
         paste("annotated_genes_",microalgae.names[input$microalgae] , ".tsv", sep="")
       },
       content= function(file) {
-        write.table(x = genes.annotation.download,quote = F,sep = "\t",
+        write.table(x = genes.annotation.download, quote=F, sep="\t",#genes.annotation.download,quote = F,sep = "\t",
                     file=file,row.names=FALSE,col.names=TRUE)
       })
 

@@ -1,5 +1,10 @@
-library(TxDb.Knitens.Phycocosm)
-library(org.Knitens.eg.db)
+library(TxDb.Otauri.JGI)
+library(org.Otauri.eg.db)
+library(GO.db)
+
+gene.link.function <- ostta.gene.link
+txdb <- TxDb.Otauri.JGI
+org.db <- org.Otauri.eg.db
 
 split.commas <- function(annotation.str)
 {
@@ -9,11 +14,23 @@ split.commas <- function(annotation.str)
 go.link <- function(go.term)
 {
   link <- paste0("http://amigo.geneontology.org/amigo/term/", go.term)
-  complete.link <- paste(c("<a href=\"",
-                           link,
-                           "\" target=\"_blank\">",
-                           go.term, "</a>"),
-                         collapse = "")
+  
+  if(length(GOTERM[[go.term]]) > 0)
+  {
+    complete.link <- paste(c("<a href=\"",
+                             link,
+                             "\" target=\"_blank\">",
+                             paste(GOTERM[[go.term]]@Term,paste0("(",go.term,")"),sep=" "), "</a>"),
+                           collapse = "")
+  } else
+  {
+    complete.link <- paste(c("<a href=\"",
+                             link,
+                             "\" target=\"_blank\">",
+                             paste0("(",go.term,")"), "</a>"),
+                           collapse = "")
+  }
+  
   return(complete.link)
 }
 
@@ -34,7 +51,7 @@ ko.link <- function(ko.term)
 ## https://www.ncbi.nlm.nih.gov/Structure/cdd/KOG3720
 kog.link <- function(kog.term)
 {
-  link <- paste0("https://www.ncbi.nlm.nih.gov/Structure/cdd/KOG3720", kog.term)
+  link <- paste0("https://www.ncbi.nlm.nih.gov/Structure/cdd/", kog.term)
   complete.link <- paste(c("<a href=\"",
                            link,
                            "\" target=\"_blank\">",
@@ -87,16 +104,10 @@ no.link <- function(gene.name)
   return(gene.name)
 }
 
-gene.link.function <- no.link
-txdb <- TxDb.Knitens.Phycocosm
-org.db <- org.Knitens.eg.db
-
 ## Output table with gene annotation
 annotations <- intersect(c("GO", "KO", "KOG", "ENZYME", "PANTHER","PFAM"),columns(org.db))
-microalgae.annotation <- select(org.db,columns = annotations,keys=keys(org.db,keytype = "GID"))
+microalgae.annotation <- AnnotationDbi::select(org.db,columns = annotations,keys=keys(org.db,keytype = "GID"))
 genes.annotation <- microalgae.annotation
-
-head(genes.annotation)
 genes <- unique(genes.annotation$GID)
 length(genes)
 genes.annotation.download <- data.frame(matrix(nrow=length(genes),ncol=(length(annotations)+1)))
@@ -158,10 +169,10 @@ head(genes.annotation.download)
 rownames(genes.annotation.links) <- genes.annotation.download$`Gene ID`
 #head(genes.annotation.links)
 
-write.table(x = genes.annotation.download,file = "knitens_gene_annotation.tsv",sep="\t",row.names = FALSE,quote = F)
-res <- read.table(file = "knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+write.table(x = genes.annotation.download,file = "otauri_gene_annotation.tsv",sep="\t",row.names = FALSE,quote = F)
+res <- read.table(file = "otauri_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
 head(res)
 
-write.table(x = genes.annotation.links,file = "knitens_gene_annotation_links.tsv",sep="\t",quote=FALSE)
-res2 <- read.table(file = "knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+write.table(x = genes.annotation.links,file = "otauri_gene_annotation_links.tsv",sep="\t",quote=FALSE)
+res2 <- read.table(file = "otauri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
 head(res2)
