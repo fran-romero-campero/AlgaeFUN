@@ -123,6 +123,18 @@ mpusilla.gene.link <- function(gene.name)
   return(gene.link)
 }
 
+## Coccomixa subellipsoidea gene link to Phytozome
+csubellipsoidea.gene.link <- function(gene.name)
+{
+  phytozome.link <- paste0("https://phytozome-next.jgi.doe.gov/report/gene/CsubellipsoideaC_169_v2_0/",gene.name)
+  gene.link <- paste(c("<a href=\"",
+                       phytozome.link,
+                       "\" target=\"_blank\">",
+                       gene.name, "</a>"),
+                     collapse="")
+  return(gene.link)
+}
+
 ## Chlamydomonas reinhardtii gene link to Phytozome
 chlamy.gene.link <- function(gene.name)
 {
@@ -664,7 +676,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       #Choose genomic features
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
-                       checkboxGroupInput(inputId = "selected_genomic_features",selected = "Promoter", 
+                       checkboxGroupInput(inputId = "selected_genomic_features",selected = c("Promoter","5' UTR","Exon","Intron","3' UTR"), 
                                    label= "A gene will be associated to an input genomic locus
                                    when it overlaps one of the following gene features:",
                                    choices = c("Promoter","5' UTR","Exon","Intron","3' UTR")))
@@ -942,6 +954,11 @@ server <- shinyServer(function(input, output, session) {
     }
     #print(example.text)
     updateTextAreaInput(session=session, inputId = "genomic_regions",value = example.text)
+    bw.file <- paste(c("example_files/example_",input$microalgae,".bw"),collapse="")
+    if(file.exists(bw.file))
+    {
+      selected.bigwig.files <- bw.file
+    }
   })
   
   ## Actions to perform after click the go button
@@ -1000,7 +1017,7 @@ server <- shinyServer(function(input, output, session) {
       library(org.Csubellipsoidea.eg.db)
       org.db <- org.Csubellipsoidea.eg.db
       microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
-      gene.link.function <- phytozome.gene.link
+      gene.link.function <- csubellipsoidea.gene.link
     } else if (input$microalgae == "creinhardtii")
     {
       library(org.Creinhardtii.eg.db)
@@ -1982,17 +1999,17 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Otauri.JGI")
       txdb <- TxDb.Otauri.JGI
       org.db <- org.Otauri.eg.db
-      microalgae.annotation <- read.table(file = "annotations/otauri_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/otauri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/otauri_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/otauri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "mpusilla")
     {
       gene.link.function <- mpusilla.gene.link
       library("org.MpusillaCCMP1545.eg.db")
-      library("org.MpusillaCCMP1545.eg.db")
+      library("TxDb.MpusillaCCMP1545.Phytozome")
       org.db <- org.MpusillaCCMP1545.eg.db
       txdb <- TxDb.MpusillaCCMP1545.Phytozome
-      microalgae.annotation <- read.table(file = "annotations/mpusilla_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
-      microalgae.annotation.links <- read.table(file = "annotations/mpusilla_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+      microalgae.annotation <- read.table(file = "annotations/mpusilla_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "", quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/mpusilla_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "", quote="\"")
     } else if (input$microalgae == "bprasinos")
     {
       gene.link.function <- bathy.gene.link
@@ -2000,17 +2017,17 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Bprasinos.Orcae")
       org.db <- org.Bprasinos.eg.db
       txdb <- TxDb.Bprasinos.Orcae
-      microalgae.annotation <- read.table(file = "annotations/bprasinos_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/bprasinos_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/bprasinos_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/bprasinos_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "csubellipsoidea")
     {
-      gene.link.function <- phytozome.gene.link
+      gene.link.function <- csubellipsoidea.gene.link
       library("org.Csubellipsoidea.eg.db")
-      library("org.Csubellipsoidea.eg.db")
+      library("TxDb.Csubellipsoidea.Phytozome")
       org.db <- org.Csubellipsoidea.eg.db
       txdb <- TxDb.Csubellipsoidea.Phytozome
-      microalgae.annotation <- read.table(file = "annotations/csubellipsoidea_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/csubellipsoidea_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/csubellipsoidea_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/csubellipsoidea_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "creinhardtii")
     {
       gene.link.function <- chlamy.gene.link
@@ -2018,8 +2035,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Creinhardtii.Phytozome")
       txdb <- TxDb.Creinhardtii.Phytozome
       org.db <- org.Creinhardtii.eg.db
-      microalgae.annotation <- read.table(file = "annotations/creinhardtii_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/creinhardtii_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/creinhardtii_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/creinhardtii_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "vcarteri")
     {
       gene.link.function <- vcarteri.gene.link
@@ -2027,8 +2044,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Vcarteri.Phytozome")
       txdb <- TxDb.Vcarteri.Phytozome
       org.db <- org.Vcarteri.eg.db
-      microalgae.annotation <- read.table(file = "annotations/vcarteri_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/vcarteri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/vcarteri_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/vcarteri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "dsalina")
     {
       gene.link.function <- dsalina.gene.link
@@ -2036,8 +2053,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Dsalina.Phytozome")
       txdb <- TxDb.Dsalina.Phytozome
       org.db <- org.Dsalina.eg.db
-      microalgae.annotation <- read.table(file = "annotations/dsalina_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/dsalina_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/dsalina_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/dsalina_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "hlacustris")
     {
       gene.link.function <- ncbi.gene.link
@@ -2045,17 +2062,17 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Hlacustris.NCBI")
       org.db <- org.Hlacustris.eg.db
       txdb <- TxDb.Hlacustris.NCBI
-      microalgae.annotation <- read.table(file = "annotations/hlacustris_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/hlacustris_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/hlacustris_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/hlacustris_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "czofingiensis")
     {
-      gene.link.function <- zofi.gene.link
+      gene.link.function <- czofingiensis.gene.link
       library("org.Czofingiensis.eg.db")
       library("TxDb.Czofingiensis.Phytozome")
       org.db <- org.Czofingiensis.eg.db
       txdb <- TxDb.Czofingiensis.Phytozome
-      microalgae.annotation <- read.table(file = "annotations/czofingiensis_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/czofingiensis_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/czofingiensis_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/czofingiensis_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "knitens")
     {
       gene.link.function <- no.gene.link
@@ -2063,8 +2080,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Knitens.Phycocosm")
       org.db <- org.Knitens.eg.db
       txdb <- TxDb.Knitens.Phycocosm
-      microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "mendlicherianum")
     {
       gene.link.function <- no.gene.link
@@ -2072,8 +2089,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Mendlicherianum.pub")
       org.db <- org.Mendlicherianum.eg.db
       txdb <- TxDb.Mendlicherianum.pub
-      #microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      #microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/mendlicherianum_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/mendlicherianum_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "smuscicola")
     {
       gene.link.function <- no.gene.link
@@ -2081,8 +2098,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Smuscicola.pub")
       org.db <- org.Smuscicola.eg.db
       txdb <- TxDb.Smuscicola.pub
-      #microalgae.annotation <- read.table(file = "annotations/knitens_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      #microalgae.annotation.links <- read.table(file = "annotations/knitens_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/smuscicola_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/smuscicola_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "ptricornutum")
     {
       gene.link.function <- phaeodactylum.gene.link
@@ -2090,8 +2107,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Ptricornutum.Ensembl.Protists")
       txdb <- TxDb.Ptricornutum.Ensembl.Protists
       org.db <- org.Ptricornutum.eg.db
-      microalgae.annotation <- read.table(file = "annotations/ptricornutum_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/ptricornutum_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/ptricornutum_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/ptricornutum_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "ngaditana")
     {
       gene.link.function <- ngaditana.gene.link
@@ -2099,8 +2116,8 @@ assocated to the enriched pathway represented in the corresponding row."
       library("TxDb.Ngaditana.JGI")
       txdb <- TxDb.Ngaditana.JGI
       org.db <- org.Ngaditana.eg.db
-      microalgae.annotation <- read.table(file = "annotations/ngaditana_gene_annotation.tsv",sep="\t",header = T,as.is=T)
-      microalgae.annotation.links <- read.table(file = "annotations/ngaditana_gene_annotation_links.tsv",sep="\t",header = T,as.is=T)
+      microalgae.annotation <- read.table(file = "annotations/ngaditana_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
+      microalgae.annotation.links <- read.table(file = "annotations/ngaditana_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } 
     
     
@@ -2147,9 +2164,10 @@ assocated to the enriched pathway represented in the corresponding row."
                              downstream=input$promoter_length)
     
     ## Annotate genomic loci
-    peakAnno <- annotatePeak(peak = genomic.regions, tssRegion=c(-input$promoter_length, input$promoter_length),
+    peakAnno <- annotatePeak(peak = genomic.regions, 
+                             tssRegion=c(-input$promoter_length, input$promoter_length),
                              TxDb=txdb)
-    
+
     ## Introductory text for pie chart
     output$piechart.text <- renderText(expr = "<b>The following piechart represents the distribution of the 
     input genomic loci overlapping different gene features. For example, if a section appears corresponding to 
@@ -2173,9 +2191,10 @@ assocated to the enriched pathway represented in the corresponding row."
 
     ## Extract genes 
     peak.annotation <- as.data.frame(peakAnno)
+    
     simple.annotation <- sapply(X = as.vector(peak.annotation$annotation),FUN = extract.annotation)
     names(simple.annotation) <- NULL
-    
+
     genes.promoter <- peak.annotation$geneId[simple.annotation == "Promoter"]
     genes.5utr <- peak.annotation$geneId[simple.annotation == "5' UTR"]
     genes.3utr <- peak.annotation$geneId[simple.annotation == "3' UTR"]
@@ -2230,7 +2249,6 @@ assocated to the enriched pathway represented in the corresponding row."
       genes.annotation.links
     },escape=FALSE,options =list(pageLength = 10)) 
     
-
     ## Generate UI to download gene table from genomic annotation and creating a downlodable table
     output$download_gene_chip_table<- renderUI(
       tagList(downloadButton(outputId= "downloadGeneTargets", "Download Potential Gene Targets"),tags$br(),tags$br())
@@ -2430,20 +2448,22 @@ assocated to the enriched pathway represented in the corresponding row."
           
           polygon(x = exon.x, y = exon.y, col = "blue",border = "blue")
         }
-        
-        for(i in 1:nrow(cds.data.target.gene))
+
+        if(nrow(cds.data.target.gene) > 0)
         {
-          # Determine current cds start/end
-          current.cds.start <- cds.data.target.gene$start[i]
-          current.cds.end <- cds.data.target.gene$end[i]
-          
-          # Determine curret cds coordinates for the polygon and represent it
-          cds.x <- c(current.cds.start,current.cds.end,current.cds.end,current.cds.start)
-          cds.y <- c(gene.height + cds.width, gene.height + cds.width, gene.height - cds.width, gene.height - cds.width)
-          
-          polygon(x = cds.x, y = cds.y, col = "blue",border = "blue")
+          for(i in 1:nrow(cds.data.target.gene))
+          {
+            # Determine current cds start/end
+            current.cds.start <- cds.data.target.gene$start[i]
+            current.cds.end <- cds.data.target.gene$end[i]
+            
+            # Determine curret cds coordinates for the polygon and represent it
+            cds.x <- c(current.cds.start,current.cds.end,current.cds.end,current.cds.start)
+            cds.y <- c(gene.height + cds.width, gene.height + cds.width, gene.height - cds.width, gene.height - cds.width)
+            polygon(x = cds.x, y = cds.y, col = "blue",border = "blue")
+          }
         }
-        
+
         ## Draw arrow to represent transcription direction 
         if(target.gene.strand == "+")
         {
@@ -2469,10 +2489,10 @@ assocated to the enriched pathway represented in the corresponding row."
         ## Draw gene name
         text(x = current.length / 2, y = -33 , 
              labels = bquote(italic(.(gene.name))),cex = 1.7,font = 3)
-        
+
         ## Extract bed file name 1 and read it
         current.peaks <- as.data.frame(genomic.regions)#read.table(file=input$genomic_regions_file$data,header = F, as.is = T)
-        peak.coordinates <- subset(current.peaks, seqnames == range.to.plot$seqnames & start >= range.to.plot$start & end <= range.to.plot$end) 
+        peak.coordinates <- subset(current.peaks, seqnames == as.character(range.to.plot$seqnames) & start >= range.to.plot$start & end <= range.to.plot$end) 
         current.peaks.to.plot <- peak.coordinates[,2:3]
         
         ## Transform coordinates 

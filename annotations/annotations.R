@@ -1,10 +1,10 @@
-library(TxDb.Otauri.JGI)
-library(org.Otauri.eg.db)
+library(TxDb.Ngaditana.JGI)
+library(org.Ngaditana.eg.db)
 library(GO.db)
 
-gene.link.function <- ostta.gene.link
-txdb <- TxDb.Otauri.JGI
-org.db <- org.Otauri.eg.db
+gene.link.function <- ngaditana.gene.link
+txdb <- TxDb.Ngaditana.JGI
+org.db <- org.Ngaditana.eg.db
 
 split.commas <- function(annotation.str)
 {
@@ -169,10 +169,10 @@ head(genes.annotation.download)
 rownames(genes.annotation.links) <- genes.annotation.download$`Gene ID`
 #head(genes.annotation.links)
 
-write.table(x = genes.annotation.download,file = "otauri_gene_annotation.tsv",sep="\t",row.names = FALSE,quote = F)
-res <- read.table(file = "otauri_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+write.table(x = genes.annotation.download,file = "ngaditana_gene_annotation.tsv",sep="\t",row.names = FALSE,quote = F)
+res <- read.table(file = "ngaditana_gene_annotation.tsv",sep="\t",header = T,as.is=T,comment.char = "")
 head(res)
 
-write.table(x = genes.annotation.links,file = "otauri_gene_annotation_links.tsv",sep="\t",quote=FALSE)
-res2 <- read.table(file = "otauri_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "")
+write.table(x = genes.annotation.links,file = "ngaditana_gene_annotation_links.tsv",sep="\t",quote=FALSE)
+res2 <- read.table(file = "ngaditana_gene_annotation_links.tsv",sep="\t",header = T,as.is=T,comment.char = "", quote="\"")
 head(res2)
