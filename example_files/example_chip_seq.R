@@ -1,5 +1,5 @@
 ## Generate example of genomic loci
-library(TxDb.Smuscicola.pub)
+library(TxDb.B)
 txdb <- TxDb.Smuscicola.pub
 
 nrow(as.data.frame(cds(txdb)))

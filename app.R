@@ -2014,9 +2014,9 @@ assocated to the enriched pathway represented in the corresponding row."
     {
       gene.link.function <- bathy.gene.link
       library("org.Bprasinos.eg.db")
-      library("TxDb.Bprasinos.Orcae")
+      library("TxDb.Bprasinos.ORCAE")
       org.db <- org.Bprasinos.eg.db
-      txdb <- TxDb.Bprasinos.Orcae
+      txdb <- TxDb.Bprasinos.ORCAE
       microalgae.annotation <- read.table(file = "annotations/bprasinos_gene_annotation.tsv",sep="\t",header = T,as.is=T, quote="\"")
       microalgae.annotation.links <- read.table(file = "annotations/bprasinos_gene_annotation_links.tsv",sep="\t",header = T,as.is=T, quote="\"")
     } else if (input$microalgae == "csubellipsoidea")
