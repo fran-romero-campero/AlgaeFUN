@@ -21,10 +21,10 @@
 
 \note{
   This data package was made from resources at Phytozome on
-  2020-05-27 16:44:32 +0200 (Wed, 27 May 2020) and based on the Phytozome
+  2021-08-16 19:05:37 +0200 (Mon, 16 Aug 2021) and based on the Phytozome
 }
 
-\author{Ana B. Romero-Losada, Francisco J. Romero-Campero <fran@us.es> [cre]}
+\author{Francisco J. Romero-Campero <fran@us.es> [cre]}
 
 
 \seealso{
