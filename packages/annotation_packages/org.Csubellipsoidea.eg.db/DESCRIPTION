@@ -4,7 +4,7 @@ Description: Genome wide annotation for Coccomyxa subellipsoidea, primarily base
 Version: 0.1
 Author: Ana B. Romero-Losada
 Maintainer: Francisco J. Romero-Campero <fran@us.es>
-Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.44.0)
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.50.3)
 Suggests: DBI, annotate, RUnit
 Imports: methods, AnnotationDbi
 License: Artistic-2.0

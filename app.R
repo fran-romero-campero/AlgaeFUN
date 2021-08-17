@@ -939,7 +939,7 @@ server <- shinyServer(function(input, output, session) {
   ## Add an example of gene set to text area
   observeEvent(input$example_genes, {
     example.file <- paste(c("example_files/example_",input$microalgae,".txt"),collapse="")
-    example.genes <- read.table(file = example.file,header = F,as.is = T)[[1]]
+    example.genes <- read.table(file = example.file,header = F,as.is = T,comment.char="",quote="\"")[[1]]
     updateTextAreaInput(session=session, inputId = "genes",value = paste(example.genes,collapse="\n"))
   })
  
@@ -998,89 +998,88 @@ server <- shinyServer(function(input, output, session) {
     {
       library(org.Otauri.eg.db)
       org.db <- org.Otauri.eg.db
-      microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/otauri_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- ostta.gene.link
     } else if (input$microalgae == "mpusilla")
     {
       library(org.MpusillaCCMP1545.eg.db)
       org.db <- org.MpusillaCCMP1545.eg.db
-      microalgae.genes <- read.table(file = "universe/mpusilla_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/mpusilla_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- mpusilla.gene.link
     } else if (input$microalgae == "bprasinos")
     {
       library(org.Bprasinos.eg.db)
       org.db <- org.Bprasinos.eg.db
-      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/bathy_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- bathy.gene.link
     } else if (input$microalgae == "csubellipsoidea")
     {
       library(org.Csubellipsoidea.eg.db)
       org.db <- org.Csubellipsoidea.eg.db
-      microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/cocsu_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- csubellipsoidea.gene.link
     } else if (input$microalgae == "creinhardtii")
     {
       library(org.Creinhardtii.eg.db)
       org.db <- org.Creinhardtii.eg.db
-      microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/cre_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- chlamy.gene.link
     } else if (input$microalgae == "vcarteri")
     {
       library(org.Vcarteri.eg.db)
       org.db <- org.Vcarteri.eg.db
-      microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/vocar_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- vcarteri.gene.link
     } else if (input$microalgae == "dsalina")
     {
       library(org.Dsalina.eg.db)
       org.db <- org.Dsalina.eg.db
-      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/dusal_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- dsalina.gene.link
     } else if (input$microalgae == "hlacustris")
     {
       library(org.Hlacustris.eg.db)
       org.db <- org.Hlacustris.eg.db
-      microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/hlacustris_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- ncbi.gene.link
     } else if (input$microalgae == "czofingiensis")
     {
       library(org.Czofingiensis.eg.db)
       org.db <- org.Czofingiensis.eg.db
-      microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/zofi_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- czofingiensis.gene.link
     } else if (input$microalgae == "knitens")
     {
       library(org.Knitens.eg.db)
       org.db <- org.Knitens.eg.db
-      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/klebsor_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- no.gene.link
     } else if (input$microalgae == "mendlicherianum")
     {
       library(org.Mendlicherianum.eg.db)
       org.db <- org.Mendlicherianum.eg.db
-      microalgae.genes <- read.table(file = "universe/mesotaenium_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/mesotaenium_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- no.gene.link
     } else if (input$microalgae == "smuscicola")
     {
       library(org.Smuscicola.eg.db)
       org.db <- org.Smuscicola.eg.db
-      microalgae.genes <- read.table(file = "universe/smuscicola_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/smuscicola_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- no.gene.link
     } else if (input$microalgae == "ptricornutum")
     {
       library(org.Ptricornutum.eg.db)
       org.db <- org.Ptricornutum.eg.db
-      microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/phatri_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- phaeodactylum.gene.link
     } else if (input$microalgae == "ngaditana")
     {
       library(org.Ngaditana.eg.db)
       org.db <- org.Ngaditana.eg.db
-      microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T)[[1]]
+      microalgae.genes <- read.table(file = "universe/naga_universe.txt",as.is = T, comment.char = "", quote="\"")[[1]]
       gene.link.function <- ngaditana.gene.link
     }  
     
-
     ## Extract genes from text box or uploaded file
     if(is.null(input$gene_set_file))
     {
@@ -1088,7 +1087,7 @@ server <- shinyServer(function(input, output, session) {
                                                 fixed = TRUE)[1]))
     } else
     {
-      target.genes <- read.table(file=input$gene_set_file$datapath, header = F,as.is = TRUE)[[1]]
+      target.genes <- read.table(file=input$gene_set_file$datapath, header = F,as.is = TRUE,comment.char = "")[[1]]
     }
 
     ## Select gene universe
@@ -1400,6 +1399,29 @@ with the corresponding GO term. Right click on the image to download it.")
         names(gene.universe) <- NULL
         
         organism.id <- "vcn"
+      } else if (input$microalgae == "csubellipsoidea")
+      {
+        csubellipsoidea.ko <- AnnotationDbi::select(org.Csubellipsoidea.eg.db,columns = c("KO"),keys=keys(org.Csubellipsoidea.eg.db,keytype = "GID"))
+        ko.universe <- csubellipsoidea.ko$KO
+        ko.universe <- ko.universe[!is.na(ko.universe)]
+        
+        target.ko <- subset(csubellipsoidea.ko,GID %in% target.genes)$KO
+        target.ko <- target.ko[!is.na(target.ko)]
+        
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        
+        for(i in 1:nrow(pathway.enrichment))
+        {
+          current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
+          
+          current.genes <- c()
+          for(j in 1:length(current.Ks))
+          {
+            current.genes <- c(current.genes,subset(csubellipsoidea.ko, KO == current.Ks[j])$GID)
+          }
+          
+          pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
+        }
       } else if(input$microalgae == "creinhardtii")
       {
         cre.chlredraft.map <- AnnotationDbi::select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
@@ -1592,7 +1614,7 @@ with the corresponding GO term. Right click on the image to download it.")
       if (input$microalgae != "hlacustris" && input$microalgae != "knitens" && 
           input$microalgae != "czofingiensis" && input$microalgae != "mpusilla" &&
           input$microalgae != "mendlicherianum" && input$microalgae != "smuscicola" &&
-          input$microalgae != "dsalina")
+          input$microalgae != "dsalina" && input$microalgae != "csubellipsoidea")
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
                                          universe = gene.universe,qvalueCutoff = input$pvalue)
@@ -1664,7 +1686,8 @@ with the corresponding GO term. Right click on the image to download it.")
                   input$microalgae == "bprasinos" |
                   input$microalgae == "mendlicherianum" | 
                   input$microalgae == "smuscicola" |
-                  input$microalgae == "dsalina")
+                  input$microalgae == "dsalina" |
+                  input$microalgae == "csubellipsoidea")
         {
           kegg.enriched.genes <- pathway.enrichment.result$geneID
           for(i in 1:length(kegg.enriched.genes))
@@ -1748,7 +1771,7 @@ assocated to the enriched pathway represented in the corresponding row."
         if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
            input$microalgae == "czofingiensis" | input$microalgae == "mpusilla" |
            input$microalgae == "mendlicherianum" | input$microalgae == "smuscicola" |
-           input$microalgae == "dsalina")
+           input$microalgae == "dsalina" | input$microalgae == "csubellipsoidea")
         {
           genes.pathway <- rep(0, length(ko.universe))
           names(genes.pathway) <- ko.universe
@@ -1783,7 +1806,7 @@ assocated to the enriched pathway represented in the corresponding row."
       if( input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
           input$microalgae == "czofingiensis" | input$microalgae == "mpusilla" |
           input$microalgae == "mendlicherianum" | input$microalgae == "smuscicola" |
-          input$microalgae == "dsalina")
+          input$microalgae == "dsalina"| input$microalgae == "csubellipsoidea")
       {
         modules.enrichment <- enrichMKEGG(gene = target.ko, universe = ko.universe, organism = "ko", keyType = "kegg",minGSSize = 4)
       } else
@@ -1838,9 +1861,8 @@ assocated to the enriched pathway represented in the corresponding row."
           }
         } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" | 
                   input$microalgae == "czofingiensis" | input$microalgae == "mpusilla" |
-                  input$microalgae == "smuscicola"| 
-                  input$microalgae == "mendlicherianum" |
-                  input$microalgae == "dsalina")
+                  input$microalgae == "smuscicola"| input$microalgae == "mendlicherianum" |
+                  input$microalgae == "dsalina" | input$microalgae == "csubellipsoidea")
         {
           microalga.ko <- AnnotationDbi::select(org.db,columns = c("KO"),keys=keys(org.db,keytype = "GID"))
           modules.enriched.genes <- modules.enrichment.result$geneID
@@ -1959,7 +1981,7 @@ assocated to the enriched pathway represented in the corresponding row."
       } else if(input$microalgae == "knitens" | input$microalgae == "hlacustris" |
                 input$microalgae == "czofingiensis" | input$microalgae == "mpusilla" |
                 input$microalgae == "mendlicherianum" | input$microalgae == "smuscicola" |
-                input$microalgae == "dsalina"
+                input$microalgae == "dsalina" | input$microalgae == "csubellipsoidea"
                     )
       {
         organism.id <- "ko"
