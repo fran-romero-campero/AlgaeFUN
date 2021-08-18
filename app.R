@@ -759,8 +759,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                               htmlOutput(outputId = "textGOTable"),
                               tags$br(), tags$br(),
                               dataTableOutput(outputId = "output_go_table"),
-                              uiOutput(outputId = "download_ui_for_go_table"),
-                              htmlOutput(outputId = "revigo")
+                              uiOutput(outputId = "download_ui_for_go_table")#,
+                              #htmlOutput(outputId = "revigo")
                      ),
                      tabPanel(tags$b("GO Map"),
                               tags$br(),
@@ -904,7 +904,7 @@ server <- shinyServer(function(input, output, session) {
     output$textGOTable <- renderText(expr = "")
     output$output_go_table <- renderDataTable(expr = NULL)
     output$download_ui_for_go_table<- renderUI(expr = NULL)
-    output$revigo<- renderUI(expr = NULL)
+    #output$revigo<- renderUI(expr = NULL)
     output$go_graph <- renderText(expr = "")
     output$go.plot <- renderPlot(expr = NULL)
     output$barplot_text <- renderText("")
@@ -990,7 +990,7 @@ server <- shinyServer(function(input, output, session) {
     output$textGOTable <- renderText(expr = "")
     output$output_go_table <- renderDataTable("")
     output$download_ui_for_go_table<- renderUI(expr = NULL)
-    output$revigo<- renderUI(expr = NULL)
+    #output$revigo<- renderUI(expr = NULL)
     output$go_graph <- renderText(expr = "")
     output$go.plot <- renderPlot(expr = NULL)
     output$barplot_text <- renderText("")
@@ -1248,18 +1248,18 @@ annotated with the GO term represented in the corresponding row."
           })
         
         ## Link to REVIGO
-        revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
-
-        url1 <- tags$a("here", href="#", onclick="document.revigoForm.submit();")
-        url2 <- tags$form(
-          name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
-          tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
-                        style="visibility: hidden", revigo.data)
-        )
-
-        output$revigo<- renderUI(
-          tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
-        )
+        # revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+        # 
+        # url1 <- tags$a("here", href="#", onclick="document.revigoForm.submit();")
+        # url2 <- tags$form(
+        #   name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
+        #   tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
+        #                 style="visibility: hidden", revigo.data)
+        # )
+        # 
+        # output$revigo<- renderUI(
+        #   tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
+        # )
 
         go.graph.text <- "The following acyclic graph represents the GO term enrichment
         in the target gene set. Each node stands for a GO term. The color of each node
