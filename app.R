@@ -980,10 +980,8 @@ server <- shinyServer(function(input, output, session) {
   
   ## Actions to perform after click the go button
   observeEvent(input$go.button , {
-    
-    # Load libraries
-    library(clusterProfiler)
-    library(pathview)
+    shinyjs::showElement(id = 'loading.enrichment.go')
+    shinyjs::hideElement(id = 'ready.enrichment.go')
     
     # Remove previous results
     output$intro_go <- renderText(expr = "")
@@ -1011,6 +1009,10 @@ server <- shinyServer(function(input, output, session) {
     output$kegg_image <- renderImage(expr = NULL,deleteFile = T)
     output$text_module_kegg <- renderText(expr = "")
     output$output_module_table <- renderDataTable(expr = NULL)
+    
+    # Load libraries
+    library(clusterProfiler)
+    library(pathview)
       
     ## Select org.Db 
     if(input$microalgae == "otauri")
@@ -1168,9 +1170,6 @@ server <- shinyServer(function(input, output, session) {
       output$intro_go <- renderText(expr = go.intro.text)
 
       ## Perform GO enrichment
-      shinyjs::showElement(id = 'loading.enrichment.go')
-      shinyjs::hideElement(id = 'ready.enrichment.go')
-      
       enrich.go <- enrichGO(gene          = target.genes,
                             universe      = gene.universe,
                             OrgDb         = org.db,
