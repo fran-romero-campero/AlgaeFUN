@@ -899,6 +899,8 @@ server <- shinyServer(function(input, output, session) {
     shinyjs::hideElement(id = 'loading.enrichment.go')
     shinyjs::hideElement(id = 'ready.enrichment.go')
     output$intro_go <- renderText(expr = "")
+    output$gene_sanity_go <- renderText(expr = "")
+    output$wrong_genes_go  <- renderText(expr = "")
     output$textGOTable <- renderText(expr = "")
     output$output_go_table <- renderDataTable(expr = NULL)
     output$download_ui_for_go_table<- renderUI(expr = NULL)
@@ -929,6 +931,21 @@ server <- shinyServer(function(input, output, session) {
   ## Clear content of genomic regions set text area
   observeEvent(input$clear_genomic_regions, {
     updateTextAreaInput(session=session, inputId = "genomic_regions",value = "")
+    output$textTableAnnotatedGenes <- renderText(expr = "")
+    output$output_gene_chip_table <- renderDataTable(expr = NULL)
+    output$download_gene_chip_table <- renderUI(expr = NULL)
+    output$piechart.text <- renderText(expr = "")
+    output$annotation.pie.chart <- renderPlot(expr = NULL)
+    output$tss.distance.text <- renderText(expr = "")
+    output$distance.to.tss <- renderPlot(expr = NULL)
+    output$gene.signal.text <- renderText(expr = "")
+    output$annotated_genes <- renderUI(expr = NULL)
+    output$tss.signal.text <- renderText(expr = "")
+    output$tss_signal <- renderPlot(expr = NULL)
+    shinyjs::hideElement(id = 'loading.tss.signal')
+    shinyjs::hideElement(id = 'ready.tss.signal')
+    shinyjs::hideElement(id = 'loading.chip')
+    shinyjs::hideElement(id = 'ready.chip')
   })
 
   ## Clear content of universe set text area
@@ -970,6 +987,8 @@ server <- shinyServer(function(input, output, session) {
     
     # Remove previous results
     output$intro_go <- renderText(expr = "")
+    output$gene_sanity_go <- renderText(expr = "")
+    output$wrong_genes_go  <- renderText(expr = "")
     output$textGOTable <- renderText(expr = "")
     output$output_go_table <- renderDataTable("")
     output$download_ui_for_go_table<- renderUI(expr = NULL)
@@ -2003,6 +2022,23 @@ assocated to the enriched pathway represented in the corresponding row."
   
   ## Actions to perform after click on the genomic button
   observeEvent(input$genomic_button,{
+    
+    ## Remove previous results
+    output$textTableAnnotatedGenes <- renderText(expr = "")
+    output$output_gene_chip_table <- renderDataTable(expr = NULL)
+    output$download_gene_chip_table <- renderUI(expr = NULL)
+    output$piechart.text <- renderText(expr = "")
+    output$annotation.pie.chart <- renderPlot(expr = NULL)
+    output$tss.distance.text <- renderText(expr = "")
+    output$distance.to.tss <- renderPlot(expr = NULL)
+    output$gene.signal.text <- renderText(expr = "")
+    output$annotated_genes <- renderUI(expr = NULL)
+    output$tss.signal.text <- renderText(expr = "")
+    output$tss_signal <- renderPlot(expr = NULL)
+    shinyjs::hideElement(id = 'loading.tss.signal')
+    shinyjs::hideElement(id = 'ready.tss.signal')
+    shinyjs::hideElement(id = 'loading.chip')
+    shinyjs::hideElement(id = 'ready.chip')
     
     shinyjs::showElement(id = 'loading.chip')
     shinyjs::hideElement(id = 'ready.chip')
