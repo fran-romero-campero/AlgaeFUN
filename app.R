@@ -2046,6 +2046,7 @@ assocated to the enriched pathway represented in the corresponding row."
     library(ChIPseeker)
     library(ChIPpeakAnno)
     library(rtracklayer)
+    library(Biostrings)
     library(seqinr)
 
     ## Select txdb 
