@@ -786,14 +786,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                   plotOutput(outputId = "dot.plot",inline=TRUE)),
                               tags$br(),
                               tags$br(), tags$br()),
-                    tabPanel(tags$b("GO Emap"),
-                             tags$br(),
-                             htmlOutput(outputId = "emapplot_text"),
-                             tags$br(),
-                             div(style= "text-align: center;",
-                                 plotOutput(outputId = "emap.plot",inline=TRUE)),
-                             tags$br(),
-                             tags$br(), tags$br()),
+                    # tabPanel(tags$b("GO Emap"),
+                    #          tags$br(),
+                    #          htmlOutput(outputId = "emapplot_text"),
+                    #          tags$br(),
+                    #          div(style= "text-align: center;",
+                    #              plotOutput(outputId = "emap.plot",inline=TRUE)),
+                    #          tags$br(),
+                    #          tags$br(), tags$br()),
                     tabPanel(tags$b("GO Concept Map"),
                              tags$br(),
                              htmlOutput(outputId = "cnetplot_text"),
@@ -911,8 +911,8 @@ server <- shinyServer(function(input, output, session) {
     output$bar.plot <- renderPlot(expr = NULL)
     output$dotplot_text <- renderText("")
     output$dot.plot <- renderPlot(expr = NULL)
-    output$emapplot_text <- renderText("")
-    output$emap.plot <- renderPlot(expr = NULL)
+    #output$emapplot_text <- renderText("")
+    #output$emap.plot <- renderPlot(expr = NULL)
     output$cnetplot_text <- renderText("")
     output$cnet.plot <- renderPlot(expr = NULL)
     
@@ -997,8 +997,8 @@ server <- shinyServer(function(input, output, session) {
     output$bar.plot <- renderPlot(expr = NULL)
     output$dotplot_text <- renderText("")
     output$dot.plot <- renderPlot(expr = NULL)
-    output$emapplot_text <- renderText("")
-    output$emap.plot <- renderPlot(expr = NULL)
+    #output$emapplot_text <- renderText("")
+    #output$emap.plot <- renderPlot(expr = NULL)
     output$cnetplot_text <- renderText("")
     output$cnet.plot <- renderPlot(expr = NULL)
     
@@ -1306,19 +1306,19 @@ corresponding GO term and the total number of annotated genes in the target set.
             dotplot(enrich.go)
           })
 
-        output$emapplot_text <- renderText("The following figure consists of an enrichment map where nodes represent enriched GO terms. The
-        size of a node is proportional to the number of genes annotated with the corresponding GO term in the target set.
-The node colors represent the level of significance from less signficant in blue to more significant in red. Edges are drawn
-between two nodes when the corresponding GO terms are semantically related. Right click on the image to download it.")
-        
-        ##EMAP plot
-        output$emap.plot <- renderPlot(
-          width     = 870,
-          height    = 600,
-          res       = 120,
-          expr = {
-            emapplot(enrich.go)
-          })
+#         output$emapplot_text <- renderText("The following figure consists of an enrichment map where nodes represent enriched GO terms. The
+#         size of a node is proportional to the number of genes annotated with the corresponding GO term in the target set.
+# The node colors represent the level of significance from less signficant in blue to more significant in red. Edges are drawn
+# between two nodes when the corresponding GO terms are semantically related. Right click on the image to download it.")
+#         
+#         ##EMAP plot
+#         output$emap.plot <- renderPlot(
+#           width     = 870,
+#           height    = 600,
+#           res       = 120,
+#           expr = {
+#             emapplot(enrich.go)
+#           })
         
         output$cnetplot_text <- renderText("The following figure corresponds to a gene-concept network. The beige
 nodes represents GO terms and the grey nodes genes. An edge is drawn from a gene to a GO term when the gene is annotated
@@ -1344,8 +1344,8 @@ with the corresponding GO term. Right click on the image to download it.")
                                          in the input gene set.</b>")
         output$dotplot_text <- renderText(expr = "<b>No GO term enrichment detected 
                                          in the input gene set.</b>")
-        output$emapplot_text <- renderText(expr = "<b>No GO term enrichment detected 
-                                         in the input gene set.</b>")        
+        #output$emapplot_text <- renderText(expr = "<b>No GO term enrichment detected 
+        #                                 in the input gene set.</b>")        
         output$cnetplot_text <- renderText(expr = "<b>No GO term enrichment detected 
                                          in the input gene set.</b>")        
       }
