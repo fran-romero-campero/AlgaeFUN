@@ -600,7 +600,15 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        
       ),
       
-      
+      conditionalPanel(condition = "input.navigation_bar == 'tutorials'",
+                       tags$div(align="center",uiOutput("video_tutorial")),
+                       tags$div(align = "justify", 
+                                tags$br(),
+                                tags$br(),
+                                tags$div(tags$h4(tags$b("Above you can find a video tutorial on how to use the different tools implemented 
+                                in AlgaeFUN with MARACAS."))))
+                       
+      ),
       
     ),
     column(
@@ -891,6 +899,11 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
 ))
 
 server <- shinyServer(function(input, output, session) {
+  
+  ## video tutorial
+  output$video_tutorial <- renderUI({
+    HTML("<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZCWrqOxrdJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>")
+  })  
   
   ## Clear content of gene set text area and previous results
   observeEvent(input$clear_gene_set, {
