@@ -13,3 +13,7 @@ and ChIP-seq. AlgaeFUN provides tools to perform functional analysis and enrichm
 AlgaeFUN is fully developed using the R package Shiny, the complete code is available from this repository.
 
 [**Click here to access AlgaeFUN**](https://greennetwork.us.es/AlgaeFUN/)
+
+**Below you can find a video tutorial on how to use AlgaeFUN**:
+
+[![Alt text](https://img.youtube.com/vi/ZCWrqOxrdJM/0.jpg)](https://www.youtube.com/watch?v=ZCWrqOxrdJM)
