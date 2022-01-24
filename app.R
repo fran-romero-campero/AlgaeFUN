@@ -1045,6 +1045,12 @@ server <- shinyServer(function(input, output, session) {
     output$text_module_kegg <- renderText(expr = "")
     output$output_module_table <- renderDataTable(expr = NULL)
     
+    shinyjs::hideElement(id = 'ready.conversion')
+    shinyjs::hideElement(id = 'loading.conversion')
+    output$intro_conversion <- renderText(expr = "")
+    output$textconversionTable <- renderText(expr = "")
+    output$output_conversion_table <- renderDataTable(expr = NULL)
+    
     # Load libraries
     library(clusterProfiler)
     library(pathview)
@@ -1182,6 +1188,8 @@ server <- shinyServer(function(input, output, session) {
       output$wrong_genes_go <- renderText(expr = paste(wrong.genes,collapse="\n"))
       output$gene_sanity_kegg <-renderText(expr = gene.sanity.text)
       output$wrong_genes_kegg <- renderText(expr = paste(wrong.genes,collapse="\n"))
+      output$gene_sanity_conversion <-renderText(expr = gene.sanity.text)
+      output$wrong_genes_conversion <- renderText(expr = paste(wrong.genes,collapse="\n"))
     }
 
     ## GO term enirchment analysis
