@@ -954,6 +954,13 @@ server <- shinyServer(function(input, output, session) {
     output$kegg_image <- renderImage(expr = NULL,deleteFile = T)
     output$text_module_kegg <- renderText(expr = "")
     output$output_module_table <- renderDataTable(expr = NULL)
+    
+    shinyjs::hideElement(id = 'ready.conversion')
+    shinyjs::hideElement(id = 'loading.conversion')
+    output$intro_conversion <- renderText(expr = "")
+    output$textconversionTable <- renderText(expr = "")
+    output$output_conversion_table <- renderDataTable(expr = NULL)
+    
   })
   
   ## Clear content of genomic regions set text area
