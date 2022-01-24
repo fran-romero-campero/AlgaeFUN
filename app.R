@@ -850,11 +850,29 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           tags$br(), tags$br())
                      )
                      
+            ),
+            tabPanel(tags$b("Common IDs conversion"),
+                     shinyjs::useShinyjs(),
+                     hidden(div(id='loading.conversion',h3('Please be patient, computing conversion ...'))), 
+                     hidden(div(id='ready.conversion',h3('Your common IDs conversion is ready!'))), 
+                     htmlOutput(outputId = "gene_sanity_conversion"),
+                     tags$br(),
+                     htmlOutput(outputId = "intro_conversion"),
+                     tags$br(), tags$br(),
+                     tags$b("Common IDs conversion table."), 
+                     tags$br(),
+                     htmlOutput(outputId = "textconversionTable"),
+                     htmlOutput(outputId = "conversion_table_text"),
+                     tags$br(),
+                     dataTableOutput(outputId = "output_pathway_table"),
+                     br(), br(), br())
+                     
+                     
             )
             )
       ),
 
-      ## Main panel containing the results organized in different tabs for gene 
+      ## Main panel containing the results organized in different tabs for 
       ## genomic loci functional annotation
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
