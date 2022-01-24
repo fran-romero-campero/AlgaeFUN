@@ -26,6 +26,6 @@ for( i in 1:nrow(description_table))
 }
 colnames(modified_table) <- c("Gene", "Common ID or description")
 write.table(modified_table, file="mpusilla_IDs.tsv")
-new_table<-read.csv(file="bprasinos_IDs.csv", header = T, sep="\t")
+new_table<-read.csv(file="csubellipsoidea_IDs.txt", header = T, sep="\t")
 
 #primero fila despues columnas

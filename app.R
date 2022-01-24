@@ -2035,240 +2035,71 @@ assocated to the enriched pathway represented in the corresponding row."
         {
           description_table <- read.table(file="common_ids/otauri_IDs_good.tsv", header = T)
           target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          
         } else if (input$microalgae == "mpusilla")
         {
-          description_table <- read.table(file="mpusilla_IDs.tsv", header = T)
+          description_table <- read.table(file="common_ids/mpusilla_IDs.tsv", header = T)
           target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          
         } else if(input$microalgae == "bprasinos")
         {
-          description_table <- read.csv(file="bprasinos_IDs.csv", header = T, sep="\t")
+          description_table <- read.csv(file="common_ids/bprasinos_IDs.csv", header = T, sep="\t")
           target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          
         } else if(input$microalgae == "vcarteri")
         {
-          vocar.volcadraft.map <- AnnotationDbi::select(org.Vcarteri.eg.db,columns = c("VOLCADRAFT"),keys=keys(org.Vcarteri.eg.db,keytype = "GID"))
-          vocar.ids <- vocar.volcadraft.map$GID
-          volcadraft.ids <- vocar.volcadraft.map$VOLCADRAFT
-          names(volcadraft.ids) <- vocar.ids
-          names(vocar.ids) <- volcadraft.ids
+          description_table <- read.csv(file="vcarteri_IDs.txt", header = T, sep="\t")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
           
-          target.genes <- volcadraft.ids[target.genes]
-          names(target.genes) <- NULL
-          
-          gene.universe <- volcadraft.ids[gene.universe]
-          names(gene.universe) <- NULL
-          
-          organism.id <- "vcn"
         } else if (input$microalgae == "csubellipsoidea")
         {
-          csubellipsoidea.ko <- AnnotationDbi::select(org.Csubellipsoidea.eg.db,columns = c("KO"),keys=keys(org.Csubellipsoidea.eg.db,keytype = "GID"))
-          ko.universe <- csubellipsoidea.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
+          description_table <- read.csv(file="csubellipsoidea_IDs.txt", header = T, sep="\t")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
           
-          target.ko <- subset(csubellipsoidea.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
-          {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(csubellipsoidea.ko, KO == current.Ks[j])$GID)
-            }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }
         } else if(input$microalgae == "creinhardtii")
         {
-          cre.chlredraft.map <- AnnotationDbi::select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
-          cre.ids <- cre.chlredraft.map$GID
-          chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
-          names(chlredraft.ids) <- cre.ids
-          names(cre.ids) <- chlredraft.ids
+          description_table <- read.csv(file="creinhardtii_IDs.csv", header = F, sep="\t")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
           
-          target.genes <- chlredraft.ids[target.genes]
-          names(target.genes) <- NULL
-          
-          gene.universe <- chlredraft.ids[gene.universe]
-          names(gene.universe) <- NULL
-          
-          organism.id <- "cre"
         } else if(input$microalgae == "dsalina")
         {
-          dsalina.ko <- AnnotationDbi::select(org.Dsalina.eg.db,columns = c("KO"),keys=keys(org.Dsalina.eg.db,keytype = "GID"))
-          ko.universe <- dsalina.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
+          description_table <- read.csv(file="dsalina_IDs.txt", header = T, sep="\t")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
           
-          target.ko <- subset(dsalina.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
-          {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(dsalina.ko, KO == current.Ks[j])$GID)
-            }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }
-        } else if(input$microalgae == "ptricornutum")
-        {
-          phatri.draft.map <- AnnotationDbi::select(org.Ptricornutum.eg.db,columns = c("PHATRIDRAFT"),keys=keys(org.Ptricornutum.eg.db,keytype = "GID"))
-          phatri.ids <- phatri.draft.map$GID
-          phatridraft.ids <- phatri.draft.map$PHATRIDRAFT
-          names(phatridraft.ids) <- phatri.ids
-          names(phatri.ids) <- phatridraft.ids
-          
-          target.genes <- phatridraft.ids[target.genes]
-          names(target.genes) <- NULL
-          
-          gene.universe <- phatridraft.ids[gene.universe]
-          names(gene.universe) <- NULL
-          
-          organism.id <- "pti"
-        } else if(input$microalgae == "ngaditana")
-        {
-          naga.draft.map <- AnnotationDbi::select(org.Ngaditana.eg.db,columns = c("NAGADRAFT"),keys=keys(org.Ngaditana.eg.db,keytype = "GID"))
-          naga.ids <- naga.draft.map$GID
-          nagadraft.ids <- naga.draft.map$NAGADRAFT
-          names(nagadraft.ids) <- naga.ids
-          names(naga.ids) <- nagadraft.ids
-          
-          target.genes <- nagadraft.ids[target.genes]
-          names(target.genes) <- NULL
-          
-          gene.universe <- nagadraft.ids[gene.universe]
-          names(gene.universe) <- NULL
-          
-          organism.id <- "ngd"
         } else if(input$microalgae == "knitens")
         {
-          knitens.ko <- AnnotationDbi::select(org.Knitens.eg.db,columns = c("KO"),keys=keys(org.Knitens.eg.db,keytype = "GID"))
-          ko.universe <- knitens.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
+          description_table <- read.csv(file="knitens_IDs.txt", header = T, sep="\t")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
           
-          target.ko <- subset(knitens.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
-          {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(knitens.ko, KO == current.Ks[j])$GID)
-            }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }
-        } else if(input$microalgae == "mendlicherianum")
-        {
-          mendlicherianum.ko <- AnnotationDbi::select(org.Mendlicherianum.eg.db,columns = c("KO"),keys=keys(org.Mendlicherianum.eg.db,keytype = "GID"))
-          ko.universe <- mendlicherianum.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
-          
-          target.ko <- subset(mendlicherianum.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
-          {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(mendlicherianum.ko, KO == current.Ks[j])$GID)
-            }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }
-        } else if(input$microalgae == "smuscicola")
-        {
-          smuscicola.ko <- AnnotationDbi::select(org.Smuscicola.eg.db,columns = c("KO"),keys=keys(org.Smuscicola.eg.db,keytype = "GID"))
-          ko.universe <- smuscicola.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
-          
-          target.ko <- subset(smuscicola.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
-          {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(smuscicola.ko, KO == current.Ks[j])$GID)
-            }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }
         } else if(input$microalgae == "hlacustris")
         {
-          hlacustris.ko <- AnnotationDbi::select(org.Hlacustris.eg.db,columns = c("KO"),keys=keys(org.Hlacustris.eg.db,keytype = "GID"))
-          ko.universe <- hlacustris.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
+          description_table <- read.csv(file="hlacustris_IDs.csv", header = T, sep=",")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
           
-          target.ko <- subset(hlacustris.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          if(nrow(pathway.enrichment) > 1)
-          {
-            for(i in 1:nrow(pathway.enrichment))
-            {
-              current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-              
-              current.genes <- c()
-              for(j in 1:length(current.Ks))
-              {
-                current.genes <- c(current.genes,subset(hlacustris.ko, KO == current.Ks[j])$GID)
-              }
-              
-              pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-            }
-          }
         } else if(input$microalgae == "czofingiensis")
         {
-          zofi.ko <- AnnotationDbi::select(org.Czofingiensis.eg.db,columns = c("KO"),keys=keys(org.Czofingiensis.eg.db,keytype = "GID"))
-          ko.universe <- zofi.ko$KO
-          ko.universe <- ko.universe[!is.na(ko.universe)]
+          description_table <- read.csv(file="czofingiensis_IDs.txt", header = T, sep="\t")
+          target_conversion <- description_table[,target.genes]
+          colnames(target_conversion) <- c("Genes", "Common ID or description")
+        } else if (input$microalgae == "smuscicola" || input$microalgae == "mendlicherianum" || input$microalgae == "ngaditana" || input$microalgae == "ptricornutum")
+        {
+          conversion.intro.text <- paste(c("There is not data aviable to convert to common IDs the different gene names of the microalgae <b> <i>", 
+                                           microalgae.names[input$microalgae],
+                                           " </i> </b> "),collapse="") 
           
-          target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
-          target.ko <- target.ko[!is.na(target.ko)]
-          
-          pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
-          
-          for(i in 1:nrow(pathway.enrichment))
-          {
-            current.Ks <- strsplit(pathway.enrichment$geneID[i],split="/")[[1]]
-            
-            current.genes <- c()
-            for(j in 1:length(current.Ks))
-            {
-              current.genes <- c(current.genes,subset(zofi.ko, KO == current.Ks[j])$GID)
+          output$intro_conversion <- renderText(expr = conversion.intro.text)
+        }
             }
-            
-            pathway.enrichment$geneID[i] <- paste(intersect(unique(current.genes),target.genes),collapse="/")
-          }
-        }   
-      }
+    
     
     enriched.pathway.id <- reactive({ 
         if(is.null(input$kegg_pathway))
