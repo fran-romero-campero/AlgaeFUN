@@ -911,10 +911,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                tags$br(), 
                                plotOutput(outputId = "tss_signal"),
                                tags$br(), tags$br())
-                           )
-      )
-      )
-))
+                           ))
+      
+  ))
 
 server <- shinyServer(function(input, output, session) {
   
