@@ -848,12 +848,26 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           uiOutput(outputId = "kegg_module_selectize"),
                                           imageOutput("kegg_module_image"),
                                           tags$br(), tags$br())
-                     )
+                     )#closes tabset panel for KEGG results
                      
-            )
-            
-            )
-      ),
+            ),#closes tabs panel for kegg enrichment
+            tabPanel(tags$b("COMMON IDs CONVERSION"),
+                     shinyjs::useShinyjs(),
+                     hidden(div(id='loading.conversion',h3('Please be patient, computing common IDs conversion ...'))), 
+                     hidden(div(id='ready.conversion',h3('Your common IDs conversion is ready!'))), 
+                     htmlOutput(outputId = "gene_sanity_conversion"),
+                     htmlOutput(outputId = "wrong_genes_conversion"),
+                     tags$br(),
+                     htmlOutput(outputId = "intro_conversion"),
+                     tags$br(),
+                     tags$br(),
+                     htmlOutput(outputId = "textconversionTable"),
+                     tags$br(), tags$br(),
+                     dataTableOutput(outputId = "output_conversion_table"),
+                     uiOutput(outputId = "download_ui_for_conversion_table")
+            ) # close tabPanel for common IDs conversion
+            )#closes tab panel for GO, KEGG enrichment and common id conversion
+      ), #closes conditional panel for gene option
 
       ## Main panel containing the results organized in different tabs for gene 
       ## genomic loci functional annotation
