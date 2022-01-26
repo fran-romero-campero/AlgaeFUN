@@ -32,6 +32,7 @@ target.genes <- c("ostta17g01460", "ostta02g00080", "ostta06g03840", "ostta04g01
 conversion_d <- new_table$`Common ID or description`
 names(conversion_d) <- new_table$Genes
 final_conversion<-matrix(c(target.genes, conversion_d[target.genes]), ncol = 2, nrow = length(target.genes))
+final.conversion <- as.data.frame(final_conversion)
 colnames(final_conversion) <- c("Genes", "Common ID or description")
 
 #primero fila despues columnas
