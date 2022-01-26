@@ -2023,7 +2023,7 @@ assocated to the enriched pathway represented in the corresponding row."
         shinyjs::hideElement(id = 'ready.conversion')
         
         ## Intro text for conversion
-        conversion.intro.text <- paste(c("The tabs below present the results from the <b>common IDs conversion</b> 
+        conversion.intro.text <- paste(c("The table below present the results from the <b>common IDs conversion</b> 
                                       performed over the input target genes (<i>",
                                  paste(target.genes[1:3],collapse=" "),
                                  "</i> ...) from the microalgae <b> <i>", microalgae.names[input$microalgae],
@@ -2035,61 +2035,61 @@ assocated to the enriched pathway represented in the corresponding row."
         {
           description_table <- read.table(file="common_ids/otauri_IDs.tsv", header = T)
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if (input$microalgae == "mpusilla")
         {
           description_table <- read.table(file="common_ids/mpusilla_IDs.tsv", header = T)
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "bprasinos")
         {
           description_table <- read.csv(file="common_ids/bprasinos_IDs.csv", header = T, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "vcarteri")
         {
           description_table <- read.csv(file="vcarteri_IDs.txt", header = T, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if (input$microalgae == "csubellipsoidea")
         {
           description_table <- read.csv(file="csubellipsoidea_IDs.txt", header = T, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "creinhardtii")
         {
           description_table <- read.csv(file="creinhardtii_IDs.csv", header = F, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "dsalina")
         {
           description_table <- read.csv(file="dsalina_IDs.txt", header = T, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "knitens")
         {
           description_table <- read.csv(file="knitens_IDs.txt", header = T, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "hlacustris")
         {
           description_table <- read.csv(file="hlacustris_IDs.csv", header = T, sep=",")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "czofingiensis")
         {
           description_table <- read.csv(file="czofingiensis_IDs.txt", header = T, sep="\t")
           
-          colnames(target_conversion) <- c("Genes", "Common ID or description")
+          colnames(description_table) <- c("Genes", "Common ID or description")
         } else if (input$microalgae == "smuscicola" || input$microalgae == "mendlicherianum" || input$microalgae == "ngaditana" || input$microalgae == "ptricornutum")
         {
           conversion.intro.text <- paste(c("There is not data aviable to convert to common IDs the different gene names of the microalgae <b> <i>", 
@@ -2099,14 +2099,16 @@ assocated to the enriched pathway represented in the corresponding row."
           output$intro_conversion <- renderText(expr = conversion.intro.text)
         }
         
-        conversion_d <- description_table$`Common ID or description`
-        names(conversion_d) <- description_table$Genes
-        matrix_conversion<-matrix(c(target.genes, conversion_d[target.genes]), ncol = 2, nrow = length(target.genes))
-        colnames(matrix_conversion) <- c("Genes", "Common ID or description")
-        table_conversion <- as.data.frame(matrix_conversion)
-        output$output_conversion_table <- renderDataTable({
-          table_conversion
-        },escape=FALSE,options =list(pageLength = 5))
+        if (input$microalgae != "smuscicola" || input$microalgae != "mendlicherianum" || input$microalgae != "ngaditana" || input$microalgae != "ptricornutum")
+        
+        {
+          conversion_d <- description_table$`Common ID or description`
+          names(conversion_d) <- description_table$Genes
+          dataframe_conversion<-data.frame(target.genes, conversion_d[target.genes], stringsAsFactors = F)
+          colnames(dataframe_conversion) <- c("Genes","Common ID or description")
+          output$output_conversion_table <- renderDataTable({
+            dataframe_conversion
+          },escape=FALSE,options =list(pageLength = 15))
         
         ## Generate UI to download go enrichment table and creating a downlodable table
         output$download_ui_for_conversion_table<- renderUI(
@@ -2119,10 +2121,10 @@ assocated to the enriched pathway represented in the corresponding row."
             paste("conversion_common_IDs",microalgae.names[input$microalgae] , ".tsv", sep="")
           },
           content= function(file) {
-            write.table(x = table_conversion,quote = F,sep = "\t",
+            write.table(x = dataframe_conversion,quote = F,sep = "\t",
                         file=file,row.names=FALSE,col.names=TRUE)
           })
-        
+        }#cierra el if
             }
     
     
