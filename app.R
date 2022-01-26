@@ -20,7 +20,8 @@ library(shiny)
 library(shinythemes)
 library(shinyjs)
 ## Load microalgae annotation packages
-# library(org.Otauri.eg.db) ##install.packages(pkgs = "./packages/annotation_packages/org.Otauri.eg.db/",repos = NULL,type="source")
+# library(org.Otauri.eg.db) 
+##install.packages(pkgs = "./packages/annotation_packages/org.Vcarteri.eg.db/",repos = NULL,type="source")
 # library(org.MpusillaCCMP1545.eg.db)
 # library(org.Bprasinos.eg.db)
 # library(org.Csubellipsoidea.eg.db)
@@ -2051,43 +2052,43 @@ assocated to the enriched pathway represented in the corresponding row."
           
         } else if(input$microalgae == "vcarteri")
         {
-          description_table <- read.csv(file="vcarteri_IDs.txt", header = T, sep="\t")
+          description_table <- read.csv(file="common_ids/vcarteri_IDs.txt", header = T, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if (input$microalgae == "csubellipsoidea")
         {
-          description_table <- read.csv(file="csubellipsoidea_IDs.txt", header = T, sep="\t")
+          description_table <- read.csv(file="common_ids/csubellipsoidea_IDs.txt", header = T, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "creinhardtii")
         {
-          description_table <- read.csv(file="creinhardtii_IDs.csv", header = F, sep="\t")
+          description_table <- read.csv(file="common_ids/creinhardtii_IDs.csv", header = F, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "dsalina")
         {
-          description_table <- read.csv(file="dsalina_IDs.txt", header = T, sep="\t")
+          description_table <- read.csv(file="common_ids/dsalina_IDs.txt", header = T, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "knitens")
         {
-          description_table <- read.csv(file="knitens_IDs.txt", header = T, sep="\t")
+          description_table <- read.csv(file="common_ids/knitens_IDs.txt", header = T, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "hlacustris")
         {
-          description_table <- read.csv(file="hlacustris_IDs.csv", header = T, sep=",")
+          description_table <- read.csv(file="common_ids/hlacustris_IDs.csv", header = T, sep=",")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
           
         } else if(input$microalgae == "czofingiensis")
         {
-          description_table <- read.csv(file="czofingiensis_IDs.txt", header = T, sep="\t")
+          description_table <- read.csv(file="common_ids/czofingiensis_IDs.txt", header = T, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
         } else if (input$microalgae == "smuscicola" || input$microalgae == "mendlicherianum" || input$microalgae == "ngaditana" || input$microalgae == "ptricornutum")
