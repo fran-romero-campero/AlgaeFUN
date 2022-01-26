@@ -32,7 +32,12 @@ target.genes <- c("ostta17g01460", "ostta02g00080", "ostta06g03840", "ostta04g01
 conversion_d <- new_table$`Common ID or description`
 names(conversion_d) <- new_table$Genes
 conversion.d.target <-conversion_d[target.genes]
-final_conversion<-data.frame(conversion_d[target.genes], stringsAsFactors = F)
-colnames(final_conversion) <- c("Common ID or description")
+final_conversion<-data.frame(target.genes,conversion_d[target.genes], stringsAsFactors = F)
+colnames(final_conversion) <- c("Genes","Common ID or description")
+
+for(i in 1:length(target.genes))
+{
+  dataframe_conversion$Genes[i] <- paste(sapply(X = target.genes[i],FUN = gene.link.function),collapse=" ")
+}
 
 #primero fila despues columnas

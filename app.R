@@ -2106,8 +2106,16 @@ assocated to the enriched pathway represented in the corresponding row."
           names(conversion_d) <- description_table$Genes
           dataframe_conversion<-data.frame(target.genes, conversion_d[target.genes], stringsAsFactors = F)
           colnames(dataframe_conversion) <- c("Genes","Common ID or description")
+          ## Add link to genes
+          dataframe_conversion_links <- dataframe_conversion
+          for(i in 1:length(target.genes))
+          {
+            dataframe_conversion_links$Genes[i] <- paste(sapply(X = target.genes[i],FUN = gene.link.function),collapse=" ")
+          }
+          
+          
           output$output_conversion_table <- renderDataTable({
-            dataframe_conversion
+            dataframe_conversion_links
           },escape=FALSE,options =list(pageLength = 15))
         
         ## Generate UI to download go enrichment table and creating a downlodable table
