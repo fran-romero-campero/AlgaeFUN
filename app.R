@@ -2020,6 +2020,15 @@ assocated to the enriched pathway represented in the corresponding row."
       
       }else if ((input$analysis == "go" || input$analysis == "kegg" || input$analysis == "both") && (length(wrong.genes) == 0))
       {
+        if(input$microalgae == "smuscicola" || input$microalgae == "mendlicherianum" || input$microalgae == "ngaditana" || input$microalgae == "ptricornutum")
+        {
+          conversion.intro.text <- paste(c("There is not data aviable to convert to common IDs the different gene names of the microalgae <b> <i>", 
+                                           microalgae.names[input$microalgae],
+                                           " </i> </b> "),collapse="") 
+          
+          output$intro_conversion <- renderText(expr = conversion.intro.text)
+        }else
+        {
         shinyjs::showElement(id = 'loading.conversion')
         shinyjs::hideElement(id = 'ready.conversion')
         
@@ -2091,18 +2100,8 @@ assocated to the enriched pathway represented in the corresponding row."
           description_table <- read.csv(file="common_ids/czofingiensis_IDs.txt", header = T, sep="\t")
           
           colnames(description_table) <- c("Genes", "Common ID or description")
-        } else if (input$microalgae == "smuscicola" || input$microalgae == "mendlicherianum" || input$microalgae == "ngaditana" || input$microalgae == "ptricornutum")
-        {
-          conversion.intro.text <- paste(c("There is not data aviable to convert to common IDs the different gene names of the microalgae <b> <i>", 
-                                           microalgae.names[input$microalgae],
-                                           " </i> </b> "),collapse="") 
-          
-          output$intro_conversion <- renderText(expr = conversion.intro.text)
-        }
+        } 
         
-        if (input$microalgae != "smuscicola" || input$microalgae != "mendlicherianum" || input$microalgae != "ngaditana" || input$microalgae != "ptricornutum")
-        
-        {
           conversion_d <- description_table$`Common ID or description`
           names(conversion_d) <- description_table$Genes
           dataframe_conversion<-data.frame(target.genes, conversion_d[target.genes], stringsAsFactors = F)
@@ -2133,7 +2132,7 @@ assocated to the enriched pathway represented in the corresponding row."
             write.table(x = dataframe_conversion,quote = F,sep = "\t",
                         file=file,row.names=FALSE,col.names=TRUE)
           })
-        }#cierra el if
+        }#cierra el else
             }
     
     
