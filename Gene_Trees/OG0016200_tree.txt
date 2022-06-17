@@ -1,0 +1,1 @@
+(solanum_lycopersicum_proteome_first_transcript_Solyc06g066080.1.1:0.320053,(triticum_aestivum_proteome_first_transcript_Traes_5DL_497C59078:1.02768e-06,(triticum_aestivum_proteome_first_transcript_Traes_5BL_27472CB6F:0.038849,triticum_aestivum_proteome_first_transcript_Traes_5AL_A867E94E9:0.326735):0.053284):0.320053);

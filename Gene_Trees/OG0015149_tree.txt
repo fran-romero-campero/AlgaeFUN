@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000083S10014:0.088026,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g369720:0.712029,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g369850:0.685289,chromochloris_zofingiensis_proteome_first_transcript_Cz01g21250:1.50132e-06):0.61324):0.088026);

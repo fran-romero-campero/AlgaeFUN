@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta12g00370:0.720087,(klebsormidium_nitens_proteome_first_transcript_kfl00735_g3:3.82978e-06,(klebsormidium_nitens_proteome_first_transcript_kfl00110_0360:1.10902,(selaginella_moellendorffii_proteome_first_transcript_105729:0.83713,klebsormidium_nitens_proteome_first_transcript_kfl00957_0050:0.256343):0.363582):0.202106):0.720087);

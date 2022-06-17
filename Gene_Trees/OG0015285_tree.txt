@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta20g00310:0.589724,micromonas_pusilla_proteome_first_transcript_27340098:0.344478):0.560592,(chromochloris_zofingiensis_proteome_first_transcript_Cz04g13200:2.05539e-06,chlamydomonas_reinhardtii_proteome_first_transcript_Cre13.g584250:0.019735):0.560592);

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00254_0140:0.709246,(selaginella_moellendorffii_proteome_first_transcript_442018:0.857559,(marchantia_polymorpha_proteome_first_transcript_Mp7g08620:0.606908,marchantia_polymorpha_proteome_first_transcript_Mp5g24150:0.618177):0.104225):0.709246);

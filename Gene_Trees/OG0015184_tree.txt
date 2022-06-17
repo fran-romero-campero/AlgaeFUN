@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_proteome_first_transcript_Cz03g35020:2.87512e-06,chlamydomonas_reinhardtii_proteome_first_transcript_Cre14.g616900:0.02017):0.0317185,(physcomitrium_patens_proteome_first_transcript_Pp3s34_455:2.37667,marchantia_polymorpha_proteome_first_transcript_Mp6g05970:0.435015):0.0317185);

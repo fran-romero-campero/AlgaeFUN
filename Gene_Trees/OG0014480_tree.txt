@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_proteome_first_transcript_AT1G16730:0.501045,(marchantia_polymorpha_proteome_first_transcript_Mp6g13230:1.11181,(physcomitrium_patens_proteome_first_transcript_Pp3c2_5490:0.406576,ceratodon_purpureus_proteome_first_transcript_CepurR40.6G122500:0.408014):0.778122):0.501045);

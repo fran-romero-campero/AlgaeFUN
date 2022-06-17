@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp4g21640:0.779779,((triticum_aestivum_proteome_first_transcript_Traes_1BL_B69A67F52:0.244615,solanum_lycopersicum_proteome_first_transcript_Solyc08g075250.1.1:0.590057):0.406596,triticum_aestivum_proteome_first_transcript_Traes_1AL_E6ABEAFFD:0.05073):0.779779);

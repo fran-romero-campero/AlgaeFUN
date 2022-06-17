@@ -1,0 +1,1 @@
+((klebsormidium_nitens_proteome_first_transcript_kfl00015_0120:0.227554,klebsormidium_nitens_proteome_first_transcript_kfl00200_0090:0.203792):0.131368,(mesotaenium_endlicherianum_proteome_first_transcript_ME000184S02161:0.437373,marchantia_polymorpha_proteome_first_transcript_Mp5g07870:0.32206):0.131368);

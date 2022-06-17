@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00218_0050:1.46279e-06,((chlamydomonas_reinhardtii_proteome_first_transcript_Cre05.g246100:0.757774,chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g110650:1.46279e-06):0.470596,chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g119450:0.751698):1.46279e-06);

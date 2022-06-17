@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3c10_15084:0,((physcomitrium_patens_proteome_first_transcript_Pp3s638_22:0,physcomitrium_patens_proteome_first_transcript_Pp3c10_15080:0):0,(physcomitrium_patens_proteome_first_transcript_Pp3s677_10:0.092023,physcomitrium_patens_proteome_first_transcript_Pp3s1006_30:0):0):0);

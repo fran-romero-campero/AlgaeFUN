@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g115100:1.69418e-06,(ceratodon_purpureus_proteome_first_transcript_CepurR40.7G063500:0.807162,(ceratodon_purpureus_proteome_first_transcript_CepurR40.9G062100:0.210013,physcomitrium_patens_proteome_first_transcript_Pp3c2_38150:0.207632):0.789645):1.69418e-06);

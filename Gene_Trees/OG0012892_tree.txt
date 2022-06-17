@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_proteome_first_transcript_AT3G29785:0.317979,(physcomitrium_patens_proteome_first_transcript_Pp3c1_34850:0.433838,((physcomitrium_patens_proteome_first_transcript_Pp3c6_19300:0.210574,physcomitrium_patens_proteome_first_transcript_Pp3c6_7550:0.321941):0.17767,physcomitrium_patens_proteome_first_transcript_Pp3c15_12270:0.276054):0.021839):0.317979);

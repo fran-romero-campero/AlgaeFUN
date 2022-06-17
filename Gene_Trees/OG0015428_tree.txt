@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz15g08020:0.010988,((selaginella_moellendorffii_proteome_first_transcript_6301:0.434581,marchantia_polymorpha_proteome_first_transcript_Mp2g09460:0.389896):0.020696,klebsormidium_nitens_proteome_first_transcript_kfl00505_0080:0.5562):0.010988);

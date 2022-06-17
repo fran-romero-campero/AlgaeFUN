@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz04g33010:0.163598,((physcomitrium_patens_proteome_first_transcript_Pp3c2_17370:0.251505,physcomitrium_patens_proteome_first_transcript_Pp3c2_18930:0.033598):0.098379,triticum_aestivum_proteome_first_transcript_Traes_1AS_898DFB661:0.180018):0.163598);

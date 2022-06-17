@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000115S00007:0.9262,((solanum_lycopersicum_proteome_first_transcript_Solyc07g064540.3.1:0.099237,solanum_lycopersicum_proteome_first_transcript_Solyc12g043070.2.1:0.05569):0.598249,solanum_lycopersicum_proteome_first_transcript_Solyc09g042480.2.1:2.4962e-06):0.9262);

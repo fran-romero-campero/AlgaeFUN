@@ -1,0 +1,1 @@
+((triticum_aestivum_proteome_first_transcript_Traes_5BL_43BC70A681:0,triticum_aestivum_proteome_first_transcript_Traes_5BL_43BC70A68:0):0.229042,((ceratodon_purpureus_proteome_first_transcript_CepurR40.2G273700:0.039666,ceratodon_purpureus_proteome_first_transcript_CepurR40.N032500:0.120627):0.272461,physcomitrium_patens_proteome_first_transcript_Pp3c14_7420:0.362432):0.229042);

@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000445S07402:0.585919,((ceratodon_purpureus_proteome_first_transcript_CepurR40.3G180400:0.200563,physcomitrium_patens_proteome_first_transcript_Pp3c8_11550:0.236071):0.500146,solanum_lycopersicum_proteome_first_transcript_Solyc10g150128.1.1:0.564389):0.585919);

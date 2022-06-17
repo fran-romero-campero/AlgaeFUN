@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27343967:0.817246,(solanum_lycopersicum_proteome_first_transcript_Solyc05g055100.2.1:1.01823,(triticum_aestivum_proteome_first_transcript_Traes_4AL_F35369E96:0.025326,triticum_aestivum_proteome_first_transcript_Traes_4BS_DB7CBDAA9:0.021829):0.576298):0.817246);

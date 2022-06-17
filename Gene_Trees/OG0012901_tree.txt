@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_proteome_first_transcript_415943:0.691171,arabidopsis_thaliana_proteome_first_transcript_AT5G67600:0.290211):0.0558415,(arabidopsis_thaliana_proteome_first_transcript_AT3G57160:0.305391,(arabidopsis_thaliana_proteome_first_transcript_AT3G49845:0.580121,ceratodon_purpureus_proteome_first_transcript_CepurR40.1G220000:0.849219):0.053286):0.0558415);

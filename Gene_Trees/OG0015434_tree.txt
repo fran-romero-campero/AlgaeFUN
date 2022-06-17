@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz01g38210:0.355957,((triticum_aestivum_proteome_first_transcript_Traes_7AL_351C5BDB1:0.124513,triticum_aestivum_proteome_first_transcript_Traes_5DL_AB1A474E7:0.115843):0.276209,triticum_aestivum_proteome_first_transcript_Traes_2DS_604BB66D2:0.525047):0.355957);

@@ -1,0 +1,1 @@
+((physcomitrium_patens_proteome_first_transcript_Pp3c16_22680:0.535463,ostreococcus_tauri_proteome_first_transcript_ostta05g02860:0.922249):0.21852,(ceratodon_purpureus_proteome_first_transcript_CepurR40.5G080600:1.09607,chlamydomonas_reinhardtii_proteome_first_transcript_Cre10.g436450:2.53204e-06):0.21852);

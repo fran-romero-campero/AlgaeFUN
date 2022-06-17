@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta11g01140:0.624216,(klebsormidium_nitens_proteome_first_transcript_kfl00242_0160:0.637236,(klebsormidium_nitens_proteome_first_transcript_kfl00115_0230:0.412297,mesotaenium_endlicherianum_proteome_first_transcript_ME000175S02040:0.84548):0.134996):0.624216);

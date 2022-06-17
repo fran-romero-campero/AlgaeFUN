@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27345540:0.643,(spirogloea_muscicola_proteome_first_transcript_SM000140S00585:0.094714,(spirogloea_muscicola_proteome_first_transcript_SM004363S15733:0.136122,spirogloea_muscicola_proteome_first_transcript_SM004084S15259:0.076482):0.24247):0.643);

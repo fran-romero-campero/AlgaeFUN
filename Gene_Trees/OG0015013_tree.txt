@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000671S09020:0.40031,((ceratodon_purpureus_proteome_first_transcript_CepurR40.1G084000:0.31113,ceratodon_purpureus_proteome_first_transcript_CepurR40.4G069300:0.303439):0.408147,marchantia_polymorpha_proteome_first_transcript_Mp1g08470:0.94841):0.40031);

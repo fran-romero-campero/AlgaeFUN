@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_proteome_first_transcript_414604:1.00577,marchantia_polymorpha_proteome_first_transcript_Mp8g11740:1.1129):0.385761,((chromochloris_zofingiensis_proteome_first_transcript_Cz06g23200:4.1157e-06,chlamydomonas_reinhardtii_proteome_first_transcript_Cre14.g611100:0.031127):0.323304,micromonas_pusilla_proteome_first_transcript_27342163:0.902207):0.385761);

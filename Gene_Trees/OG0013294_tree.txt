@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta09g02830:0.502835,(ceratodon_purpureus_proteome_first_transcript_CepurR40.4G165200:1.85403,(marchantia_polymorpha_proteome_first_transcript_Mp4g23000:0.72021,(klebsormidium_nitens_proteome_first_transcript_kfl00843_0020:0.237527,klebsormidium_nitens_proteome_first_transcript_kfl00019_0650:0.482524):0.226157):0.140913):0.502835);

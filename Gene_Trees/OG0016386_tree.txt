@@ -1,0 +1,1 @@
+(triticum_aestivum_proteome_first_transcript_Traes_2DS_538378717:0.238704,(spirogloea_muscicola_proteome_first_transcript_SM001920S05194:0.082886,(spirogloea_muscicola_proteome_first_transcript_SM002561S08653:0.127711,spirogloea_muscicola_proteome_first_transcript_SM004234S16091:0.030798):0.016311):0.238704);

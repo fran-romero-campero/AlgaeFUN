@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00124_0025:1.07698,(triticum_aestivum_proteome_first_transcript_Traes_5AL_06DC5CDA7:0.084134,(triticum_aestivum_proteome_first_transcript_Traes_5DL_E88449625:0.06169,triticum_aestivum_proteome_first_transcript_Traes_5BL_5117B3E2A:0.046321):0.258484):1.07698);

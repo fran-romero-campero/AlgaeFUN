@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp1g14410:1.07694,(triticum_aestivum_proteome_first_transcript_Traes_6DL_F2F1B1D64:0.385506,(triticum_aestivum_proteome_first_transcript_Traes_6AL_24DC6EE55:0.379915,triticum_aestivum_proteome_first_transcript_Traes_6BL_75F8658A4:0.085073):0.054987):1.07694);

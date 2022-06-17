@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre17.g705050:0.291976,((spirogloea_muscicola_proteome_first_transcript_SM000154S01389:0.09294,spirogloea_muscicola_proteome_first_transcript_SM000062S19953:0.071476):0.057259,spirogloea_muscicola_proteome_first_transcript_SM000023S07568:8.05504e-07):0.291976);

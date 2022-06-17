@@ -1,0 +1,1 @@
+((physcomitrium_patens_proteome_first_transcript_Pp3c15_8900:0.324436,physcomitrium_patens_proteome_first_transcript_Pp3c9_15320:0.210089):0.076366,(ceratodon_purpureus_proteome_first_transcript_CepurR40.7G030300:0.340025,ceratodon_purpureus_proteome_first_transcript_CepurR40.1G320900:2.31028):0.076366);

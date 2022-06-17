@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000374S06657:1.07807,((ostreococcus_tauri_proteome_first_transcript_ostta01g00690:0.502361,micromonas_pusilla_proteome_first_transcript_27343089:0.570041):0.137394,(micromonas_pusilla_proteome_first_transcript_27342592:0.90269,ostreococcus_tauri_proteome_first_transcript_ostta01g04470:0.830669):0.502007):1.07807);

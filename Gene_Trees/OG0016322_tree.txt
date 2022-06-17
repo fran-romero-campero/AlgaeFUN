@@ -1,0 +1,1 @@
+(spirogloea_muscicola_proteome_first_transcript_SM000162S02387:0.569533,((spirogloea_muscicola_proteome_first_transcript_SM000076S21831:0.101211,spirogloea_muscicola_proteome_first_transcript_SM000030S11344:0.096278):0.087289,spirogloea_muscicola_proteome_first_transcript_SM000028S10123:0.028821):0.569533);

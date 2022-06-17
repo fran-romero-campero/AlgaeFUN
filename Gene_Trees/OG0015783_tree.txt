@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27339652:0.271297,(selaginella_moellendorffii_proteome_first_transcript_6518:0.237286,(triticum_aestivum_proteome_first_transcript_Traes_1DL_3D36999CD:0.134768,triticum_aestivum_proteome_first_transcript_Traes_1BL_BBC0C1E7F:0.205291):0.506266):0.271297);

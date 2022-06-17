@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz01g39170:9.40185e-07,((chlamydomonas_reinhardtii_proteome_first_transcript_Cre07.g313000:0.425039,chlamydomonas_reinhardtii_proteome_first_transcript_Cre05.g241635:0.426239):0.088907,chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g368300:0.419116):9.40185e-07);

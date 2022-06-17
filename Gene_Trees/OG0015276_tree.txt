@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_419836:0.612695,((chlamydomonas_reinhardtii_proteome_first_transcript_Cre05.g243801:1.57224e-06,chromochloris_zofingiensis_proteome_first_transcript_Cz10g18140:0.086062):0.901573,chromochloris_zofingiensis_proteome_first_transcript_Cz10g18150:1.57224e-06):0.612695);

@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp1g13930:0.603174,(chromochloris_zofingiensis_proteome_first_transcript_Cz03g29110:0.113607,(micromonas_pusilla_proteome_first_transcript_27342140:0.44337,(ostreococcus_tauri_proteome_first_transcript_ostta16g02415:0.458913,chlamydomonas_reinhardtii_proteome_first_transcript_Cre05.g236150:0.014613):0.025144):0.193262):0.603174);

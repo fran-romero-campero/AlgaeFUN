@@ -1,0 +1,1 @@
+((triticum_aestivum_proteome_first_transcript_Traes_4DL_53704DAED:0.577857,triticum_aestivum_proteome_first_transcript_Traes_5AL_18D0EFF29:0.201354):0.363905,(micromonas_pusilla_proteome_first_transcript_27344820:0.381319,ostreococcus_tauri_proteome_first_transcript_ostta18g00560:0.878974):0.363905);

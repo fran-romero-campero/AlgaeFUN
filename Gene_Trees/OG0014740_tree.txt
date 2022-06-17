@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_proteome_first_transcript_AT5G13220:0.747382,(triticum_aestivum_proteome_first_transcript_Traes_2AL_6CBE19B87:0.068533,(triticum_aestivum_proteome_first_transcript_Traes_2BL_E94651AAE:0.438711,triticum_aestivum_proteome_first_transcript_Traes_2DL_7DD4A39D4:0.062418):0.049256):0.747382);

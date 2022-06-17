@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl01814_0610:0.432892,(physcomitrium_patens_proteome_first_transcript_Pp3c7_12120:1.83941e-06,(arabidopsis_thaliana_proteome_first_transcript_AT5G09600:0,arabidopsis_thaliana_proteome_first_transcript_AT4G32210:0):0.985432):0.432892);

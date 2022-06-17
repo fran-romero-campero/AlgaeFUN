@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_426136:0.731388,(marchantia_polymorpha_proteome_first_transcript_Mp2g23110:0.778981,(physcomitrium_patens_proteome_first_transcript_Pp3c7_9780:0.082277,ceratodon_purpureus_proteome_first_transcript_CepurR40.9G042200:0.111098):0.370072):0.731388);

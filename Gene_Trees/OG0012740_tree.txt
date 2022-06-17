@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz04g33090:0.090729,(arabidopsis_thaliana_proteome_first_transcript_AT1G64253:0.45795,(arabidopsis_thaliana_proteome_first_transcript_AT1G49920:0.346654,(arabidopsis_thaliana_proteome_first_transcript_AT1G64255:0.293875,arabidopsis_thaliana_proteome_first_transcript_AT1G64260:0.249028):0.05182):0.189789):0.090729);

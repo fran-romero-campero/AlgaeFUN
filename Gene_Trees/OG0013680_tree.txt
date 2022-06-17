@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp5g24130:0.544395,(selaginella_moellendorffii_proteome_first_transcript_270727:0.051678,(selaginella_moellendorffii_proteome_first_transcript_402512:0.077947,(selaginella_moellendorffii_proteome_first_transcript_402494:1.05448,selaginella_moellendorffii_proteome_first_transcript_439888:2.39054e-06):0.076125):0.064287):0.544395);

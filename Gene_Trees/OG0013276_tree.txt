@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG252200:0.467793,((klebsormidium_nitens_proteome_first_transcript_kfl00763_g3:1.14762,klebsormidium_nitens_proteome_first_transcript_kfl00783_g4:0.671414):0.198356,(klebsormidium_nitens_proteome_first_transcript_kfl00072_0010:0.474886,klebsormidium_nitens_proteome_first_transcript_kfl00863_0045:0.681518):0.26098):0.467793);

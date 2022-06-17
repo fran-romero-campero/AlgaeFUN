@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00025_0140:0.200817,((chromochloris_zofingiensis_proteome_first_transcript_Cz01g46230:0.046225,chlamydomonas_reinhardtii_proteome_first_transcript_Cre03.g187200:9.61215e-07):0.225541,micromonas_pusilla_proteome_first_transcript_27341245:0.33404):0.200817);

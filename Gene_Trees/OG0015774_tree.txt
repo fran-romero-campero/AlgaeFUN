@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_proteome_first_transcript_270565:0.642591,selaginella_moellendorffii_proteome_first_transcript_407548:0.542197):0.17801,(ostreococcus_tauri_proteome_first_transcript_ostta02g04500:0.406322,micromonas_pusilla_proteome_first_transcript_27338645:0.597261):0.17801);

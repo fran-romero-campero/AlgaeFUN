@@ -1,0 +1,1 @@
+(spirogloea_muscicola_proteome_first_transcript_SM011092S18853:0.209224,(marchantia_polymorpha_proteome_first_transcript_Mp7g09520:1.54512,(triticum_aestivum_proteome_first_transcript_Traes_5AL_11EF1ED8A:0.01934,triticum_aestivum_proteome_first_transcript_Traes_5DL_36274FF93:0.012355):0.290763):0.209224);

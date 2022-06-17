@@ -1,0 +1,1 @@
+(triticum_aestivum_proteome_first_transcript_Traes_4DL_DDF95FBC8:0.668458,((ceratodon_purpureus_proteome_first_transcript_CepurR40.10G102800:0.937622,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G070300:2.51012e-06):0.576465,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G102700:0.160114):0.668458);

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00958_0030:0.141013,(((physcomitrium_patens_proteome_first_transcript_Pp3c11_21390:0.358977,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G237400:0.149548):0.038048,selaginella_moellendorffii_proteome_first_transcript_6722:0.414861):0.032671,marchantia_polymorpha_proteome_first_transcript_Mp4g00220:0.163683):0.141013);

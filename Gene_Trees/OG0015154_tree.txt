@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3s30_960:0.274684,(micromonas_pusilla_proteome_first_transcript_27345246:0.390621,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre07.g338451:0.00083,chromochloris_zofingiensis_proteome_first_transcript_Cz05g01180:1.11691e-06):0.176926):0.274684);

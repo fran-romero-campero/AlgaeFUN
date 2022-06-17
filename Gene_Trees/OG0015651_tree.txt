@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000213S03091:0.558408,(selaginella_moellendorffii_proteome_first_transcript_99131:0.938809,(marchantia_polymorpha_proteome_first_transcript_Mp4g18810:0.23687,marchantia_polymorpha_proteome_first_transcript_Mp4g21920:0.649745):0.853807):0.558408);

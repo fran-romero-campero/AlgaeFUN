@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g383000:2.31912e-06,(physcomitrium_patens_proteome_first_transcript_Pp3c15_4400:1.16188,(physcomitrium_patens_proteome_first_transcript_Pp3c22_17870:0.302044,physcomitrium_patens_proteome_first_transcript_Pp3c22_17873:2.31912e-06):1.3719):2.31912e-06);

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00637_0050:0.265628,(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G084500:0.691071,(mesotaenium_endlicherianum_proteome_first_transcript_ME000376S06495:0.587408,physcomitrium_patens_proteome_first_transcript_Pp3c21_13350:0.745041):0.324006):0.265628);

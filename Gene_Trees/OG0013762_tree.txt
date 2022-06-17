@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta18g01390:0.621686,micromonas_pusilla_proteome_first_transcript_27344668:0.922052):0.438469,(spirogloea_muscicola_proteome_first_transcript_SM000058S18497:2.75274e-06,(spirogloea_muscicola_proteome_first_transcript_SM000030S11473:0.085251,spirogloea_muscicola_proteome_first_transcript_SM000131S26716:0.027419):0.233434):0.438469);

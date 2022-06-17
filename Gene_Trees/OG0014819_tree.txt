@@ -1,0 +1,1 @@
+(spirogloea_muscicola_proteome_first_transcript_SM000120S25691:0.465467,(marchantia_polymorpha_proteome_first_transcript_Mp2g21890:0.692026,(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G120000:0.077789,physcomitrium_patens_proteome_first_transcript_Pp3c21_8250:0.492063):0.770307):0.465467);

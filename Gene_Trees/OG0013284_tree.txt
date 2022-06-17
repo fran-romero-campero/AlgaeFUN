@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27339788:0.299484,((klebsormidium_nitens_proteome_first_transcript_kfl00674_0050:0.855285,marchantia_polymorpha_proteome_first_transcript_Mp5g18950:0.845054):0.058746,(physcomitrium_patens_proteome_first_transcript_Pp3c15_19290:0.24224,ceratodon_purpureus_proteome_first_transcript_CepurR40.7G065300:0.249268):0.593648):0.299484);

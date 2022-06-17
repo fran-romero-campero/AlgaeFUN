@@ -1,0 +1,1 @@
+(solanum_lycopersicum_proteome_first_transcript_Solyc09g014470.2.1:0.32658,((selaginella_moellendorffii_proteome_first_transcript_422027:1.58804,(selaginella_moellendorffii_proteome_first_transcript_73314:0.229348,selaginella_moellendorffii_proteome_first_transcript_432635:0.53786):0.195064):0.280044,selaginella_moellendorffii_proteome_first_transcript_113945:0.097133):0.32658);

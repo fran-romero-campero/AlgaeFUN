@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp1g08620:0.198417,((physcomitrium_patens_proteome_first_transcript_Pp3c1_32270:0.08964,physcomitrium_patens_proteome_first_transcript_Pp3c2_5330:0.181724):0.232954,physcomitrium_patens_proteome_first_transcript_Pp3c14_14420:0.417653):0.198417);

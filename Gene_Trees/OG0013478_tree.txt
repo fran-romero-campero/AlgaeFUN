@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz15g12240:0.07079,((marchantia_polymorpha_proteome_first_transcript_Mpzg01090:0.281838,marchantia_polymorpha_proteome_first_transcript_Mp3g03040:0.38126):0.510788,(marchantia_polymorpha_proteome_first_transcript_Mp2g14650:0.445412,marchantia_polymorpha_proteome_first_transcript_Mp8g14270:0.302035):0.69282):0.07079);

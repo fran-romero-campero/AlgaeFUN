@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00090_0020:0.326633,((klebsormidium_nitens_proteome_first_transcript_kfl00046_0080:0.6869,klebsormidium_nitens_proteome_first_transcript_kfl00046_0085:0.614763):0.091507,(klebsormidium_nitens_proteome_first_transcript_kfl00046_0090:0.331438,klebsormidium_nitens_proteome_first_transcript_kfl00223_0040:0.458128):0.60446):0.326633);

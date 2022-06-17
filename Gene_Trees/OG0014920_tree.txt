@@ -1,0 +1,1 @@
+(spirogloea_muscicola_proteome_first_transcript_SM000094S24728:0.280901,(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG312600:0.138694,(ceratodon_purpureus_proteome_first_transcript_CepurR40.9G113700:0.002989,ceratodon_purpureus_proteome_first_transcript_CepurR40.9G112700:0.06436):0.018762):0.280901);

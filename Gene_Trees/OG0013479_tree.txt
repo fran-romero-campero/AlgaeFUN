@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00406_0060:0.343604,(((ostreococcus_tauri_proteome_first_transcript_ostta11g00850:0.372844,ostreococcus_tauri_proteome_first_transcript_ostta01g04300:0.09865):0.787192,ostreococcus_tauri_proteome_first_transcript_ostta01g04310:0.910451):0.908105,chromochloris_zofingiensis_proteome_first_transcript_Cz15g15200:0.364087):0.343604);

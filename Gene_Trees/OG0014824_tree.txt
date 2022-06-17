@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre03.g206750:0.088085,(marchantia_polymorpha_proteome_first_transcript_Mp2g23390:0.105163,(physcomitrium_patens_proteome_first_transcript_Pp3c26_260:0.045387,ceratodon_purpureus_proteome_first_transcript_CepurR40.8G086600:0.019465):0.062584):0.088085);

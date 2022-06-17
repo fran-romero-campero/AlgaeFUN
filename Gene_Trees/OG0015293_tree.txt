@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre13.g587350:2.30818e-06,(marchantia_polymorpha_proteome_first_transcript_Mp2g02940:1.27686,(klebsormidium_nitens_proteome_first_transcript_kfl00006_0240:0.364941,klebsormidium_nitens_proteome_first_transcript_kfl00405_0080:0.382798):0.923016):2.30818e-06);

@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz01g06180:1.56227e-06,(mesotaenium_endlicherianum_proteome_first_transcript_ME000069S09102:0.896691,(mesotaenium_endlicherianum_proteome_first_transcript_ME000070S09201:0.02051,mesotaenium_endlicherianum_proteome_first_transcript_ME000248S04257:0.032322):0.854163):1.56227e-06);

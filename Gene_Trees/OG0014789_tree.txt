@@ -1,0 +1,1 @@
+((solanum_lycopersicum_proteome_first_transcript_Solyc07g024040.2.1:0.171882,arabidopsis_thaliana_proteome_first_transcript_ATCG00510:0.126583):0.184054,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre03.g165100:0.23244,chromochloris_zofingiensis_proteome_first_transcript_Cz01g05275:6.66573e-07):0.184054);

@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre17.g727300:0.036758,(marchantia_polymorpha_proteome_first_transcript_Mp5g09670:0.212752,(selaginella_moellendorffii_proteome_first_transcript_230186:0.207019,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G143400:0.358752):0.003585):0.036758);

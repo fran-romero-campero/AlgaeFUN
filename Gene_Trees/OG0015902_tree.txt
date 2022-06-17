@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3c14_11277:0.104538,(solanum_lycopersicum_proteome_first_transcript_Solyc11g013860.1.1:0.857129,(triticum_aestivum_proteome_first_transcript_Traes_7AS_C3ACB11EF:0.393646,triticum_aestivum_proteome_first_transcript_Traes_4AL_0643CD387:0.272381):0.662221):0.104538);

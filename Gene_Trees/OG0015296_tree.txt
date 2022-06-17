@@ -1,0 +1,1 @@
+(triticum_aestivum_proteome_first_transcript_Traes_2DL_3AEEA1643:0.482536,(chromochloris_zofingiensis_proteome_first_transcript_Cz13g07030:1.24917e-06,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g095087:1.24917e-06,chromochloris_zofingiensis_proteome_first_transcript_Cz11g01080:0.284096):0.308032):0.482536);

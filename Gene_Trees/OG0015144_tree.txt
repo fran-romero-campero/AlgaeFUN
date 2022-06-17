@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_proteome_first_transcript_Cz08g10140:0.076594,chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g358650:1.77783e-06):0.100636,(klebsormidium_nitens_proteome_first_transcript_kfl00158_0050:0.414129,spirogloea_muscicola_proteome_first_transcript_SM000007S20945:1.16243):0.100636);

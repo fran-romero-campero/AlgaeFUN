@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G035700:0.068587,((physcomitrium_patens_proteome_first_transcript_Pp3c4_28680:0.069637,physcomitrium_patens_proteome_first_transcript_Pp3c26_12570:0.407629):0.070835,(physcomitrium_patens_proteome_first_transcript_Pp3c3_4270:0.114325,physcomitrium_patens_proteome_first_transcript_Pp3c13_7640:0.374815):0.039953):0.068587);

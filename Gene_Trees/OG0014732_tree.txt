@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.5G122300:0.60715,(arabidopsis_thaliana_proteome_first_transcript_AT5G06040:0.361425,(arabidopsis_thaliana_proteome_first_transcript_AT5G06020:0.397878,arabidopsis_thaliana_proteome_first_transcript_AT5G06030:0.173395):0.344616):0.60715);

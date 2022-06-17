@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000039S06705:0.655876,(solanum_lycopersicum_proteome_first_transcript_Solyc01g016390.4.1:0.499695,(triticum_aestivum_proteome_first_transcript_Traes_7DS_86644E603:0.28575,triticum_aestivum_proteome_first_transcript_Traes_7AS_96A285B52:0.047044):0.087786):0.655876);

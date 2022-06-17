@@ -1,0 +1,1 @@
+((micromonas_pusilla_proteome_first_transcript_27342603:0.790867,ostreococcus_tauri_proteome_first_transcript_ostta05g00050:0.624398):0.689002,(micromonas_pusilla_proteome_first_transcript_27348374:0.70091,ostreococcus_tauri_proteome_first_transcript_ostta06g00110:0.532306):0.689002);

@@ -1,0 +1,1 @@
+((ceratodon_purpureus_proteome_first_transcript_CepurR40.1G258100:0.111322,physcomitrium_patens_proteome_first_transcript_Pp3c3_35450:0.14189):0.116675,(solanum_lycopersicum_proteome_first_transcript_Solyc08g068580.4.1:0.2132,triticum_aestivum_proteome_first_transcript_Traes_7DL_1C33E7915:0.167606):0.116675);

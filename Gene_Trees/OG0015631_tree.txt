@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp2g18480:0.25748,((spirogloea_muscicola_proteome_first_transcript_SM000011S18973:0.414611,spirogloea_muscicola_proteome_first_transcript_SM002935S11251:0.052786):0.380378,spirogloea_muscicola_proteome_first_transcript_SM000026S08876:0.759049):0.25748);

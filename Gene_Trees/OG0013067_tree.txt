@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_98932:0.444095,(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G013300:0.310772,(ceratodon_purpureus_proteome_first_transcript_CepurR40.11G137100:0.142863,(physcomitrium_patens_proteome_first_transcript_Pp3c19_12781:0,physcomitrium_patens_proteome_first_transcript_Pp3c19_12780:0):0.20195):0.173085):0.444095);

@@ -1,0 +1,1 @@
+(spirogloea_muscicola_proteome_first_transcript_SM000262S09892:0.327004,((arabidopsis_thaliana_proteome_first_transcript_ATMG00030:0.277661,solanum_lycopersicum_proteome_first_transcript_Solyc10g048060.2.1:0.371605):0.338898,marchantia_polymorpha_proteome_first_transcript_Mp2g00390:0.2037):0.327004);

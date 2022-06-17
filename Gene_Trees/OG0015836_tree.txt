@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta13g02895:0.721453,(selaginella_moellendorffii_proteome_first_transcript_105776:1.19333,(selaginella_moellendorffii_proteome_first_transcript_52965:0.007225,selaginella_moellendorffii_proteome_first_transcript_116842:0.367105):1.3624):0.721453);

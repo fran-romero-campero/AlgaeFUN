@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_proteome_first_transcript_ME000011S00071:1.50704,mesotaenium_endlicherianum_proteome_first_transcript_ME000437S07234:0.838934):0.340628,(spirogloea_muscicola_proteome_first_transcript_SM004190S15588:0.066563,spirogloea_muscicola_proteome_first_transcript_SM004522S16129:0.049793):0.340628);

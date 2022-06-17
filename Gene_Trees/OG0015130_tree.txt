@@ -1,0 +1,1 @@
+((ceratodon_purpureus_proteome_first_transcript_CepurR40.7G043600:0.804723,klebsormidium_nitens_proteome_first_transcript_kfl00191_0020:0.784753):0.386149,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre01.g053360:3.24549e-06,ostreococcus_tauri_proteome_first_transcript_ostta03g03550:1.57161):0.386149);

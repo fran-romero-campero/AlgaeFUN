@@ -1,0 +1,1 @@
+((solanum_lycopersicum_proteome_first_transcript_Solyc12g099170.3.1:0.548273,arabidopsis_thaliana_proteome_first_transcript_AT5G49610:0.250875):0.580668,(marchantia_polymorpha_proteome_first_transcript_Mp1g15370:0.835873,marchantia_polymorpha_proteome_first_transcript_Mp1g17840:0.819481):0.580668);

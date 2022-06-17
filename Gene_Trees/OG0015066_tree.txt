@@ -1,0 +1,1 @@
+((spirogloea_muscicola_proteome_first_transcript_SM017194S03382:0.071851,mesotaenium_endlicherianum_proteome_first_transcript_ME1084981C05682:0.512803):0.173498,(ceratodon_purpureus_proteome_first_transcript_CepurR40.N007000:0,ceratodon_purpureus_proteome_first_transcript_CepurR40.N013200:0):0.173498);
