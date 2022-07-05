@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME1156431C09467:0.505597,((bathycoccus_prasinos_proteome_first_transcript_Bathy11g01440 length_404 _mRNA_ _n/a_  _fructose-bisphosphate aldolase_:0.170519,ostreococcus_tauri_proteome_first_transcript_ostta10g01470:0.114147):0.067864,micromonas_pusilla_proteome_first_transcript_27345002:0.160516):0.505597);

@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_UNPLg00739:1.39191e-06,((klebsormidium_nitens_proteome_first_transcript_kfl01472_0010:0.262029,klebsormidium_nitens_proteome_first_transcript_kfl00821_0030:0.441715):0.171766,klebsormidium_nitens_proteome_first_transcript_kfl00848_0030:0.562125):1.39191e-06);

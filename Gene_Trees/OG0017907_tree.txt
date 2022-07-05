@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_proteome_first_transcript_Cz11g03250:2.09644e-06,selaginella_moellendorffii_proteome_first_transcript_132594:1.06687):0.362698,(bathycoccus_prasinos_proteome_first_transcript_Bathy08g02460 length_503 _mRNA_ _n/a_  _6-phosphogluconolactonase_:0.304019,micromonas_pusilla_proteome_first_transcript_27338762:0.482422):0.362698);

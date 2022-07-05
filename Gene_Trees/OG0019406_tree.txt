@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00544_0060:0.843368,((micromonas_pusilla_proteome_first_transcript_27342467:3.73321e-06,micromonas_pusilla_proteome_first_transcript_27342595:1.53488):0.277368,micromonas_pusilla_proteome_first_transcript_27342661:1.2934):0.843368);

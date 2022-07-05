@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27340717:0.59468,(triticum_aestivum_proteome_first_transcript_Traes_7BS_3248E4560:0.707723,(triticum_aestivum_proteome_first_transcript_Traes_7AS_EBA4C4AFE:0.721872,triticum_aestivum_proteome_first_transcript_Traes_7BS_C8BA34B50:0.054028):0.25199):0.59468);
