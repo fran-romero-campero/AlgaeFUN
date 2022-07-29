@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3s34_640:0.550584,((ostreococcus_tauri_proteome_first_transcript_ostta08g01520:0.440939,bathycoccus_prasinos_proteome_first_transcript_Bathy17g00140 length_785 _mRNA_ _n/a_  _choline/carnitine/betaine transporter_:0.345881):0.047994,ostreococcus_tauri_proteome_first_transcript_ostta03g00510:0.567256):0.550584);

@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz10g24040:0.206601,((spirogloea_muscicola_proteome_first_transcript_SM000074S21691:0.157325,spirogloea_muscicola_proteome_first_transcript_SM000093S24448:0.050583):0.011628,spirogloea_muscicola_proteome_first_transcript_SM000136S00165:0.174881):0.206601);

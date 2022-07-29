@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00906_0030:0.457948,(spirogloea_muscicola_proteome_first_transcript_SM000141S00903:0.159305,(spirogloea_muscicola_proteome_first_transcript_SM000010S04265:0.077267,spirogloea_muscicola_proteome_first_transcript_SM000052S17763:1.21759e-06):0.067268):0.457948);

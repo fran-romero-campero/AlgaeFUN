@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta17g00160:0.422823,micromonas_pusilla_proteome_first_transcript_27341870:1.49975):0.0382205,(bathycoccus_prasinos_proteome_first_transcript_Bathy06g01910 length_220 _mRNA_ _n/a_  _HopJ type III effector protein_:0.422105,micromonas_pusilla_proteome_first_transcript_27343284:1.09321):0.0382205);

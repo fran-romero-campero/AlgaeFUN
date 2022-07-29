@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_proteome_first_transcript_Bathy13g00260 length_1650 _mRNA_ _n/a_  _peptidase S41_:0.493741,ostreococcus_tauri_proteome_first_transcript_ostta11g03240:0.492813):0.0786375,(micromonas_pusilla_proteome_first_transcript_27348663:2.17048,micromonas_pusilla_proteome_first_transcript_27340318:0.612056):0.0786375);

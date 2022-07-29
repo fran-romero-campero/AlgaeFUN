@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz13g05180:1.72698e-06,(micromonas_pusilla_proteome_first_transcript_27341196:0.641791,(ostreococcus_tauri_proteome_first_transcript_ostta11g02220:0.445442,bathycoccus_prasinos_proteome_first_transcript_Bathy13g00890 length_351 _mRNA_ _n/a_  _pseudouridine synthase Rlu family protein_:0.555295):0.134996):1.72698e-06);

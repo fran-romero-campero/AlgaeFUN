@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_proteome_first_transcript_Cre03.g155350:0.042386,chromochloris_zofingiensis_proteome_first_transcript_Cz13g08180:1.3946e-06):0.102295,(mesotaenium_endlicherianum_proteome_first_transcript_ME000415S07020:0.744155,klebsormidium_nitens_proteome_first_transcript_kfl00038_0060:0.445859):0.102295);
