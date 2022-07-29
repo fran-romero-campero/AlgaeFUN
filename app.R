@@ -1,7 +1,9 @@
 ## Authors: Ana B. Romero-Losada
 ##          Francisco J. Romero-Campero <fran@us.es>
-##          Pedro de los Reyes 
 ##          Christina Arvanitidou
+##          Marcos Ramos-Gonzalez
+##          Pedro de los Reyes 
+
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 
@@ -484,7 +486,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
                code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research."),
                
-               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS: "),
+               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS. 
+                        Our web tool also supports the generation of phylogenetic trees and the identification of potential orthologous genes using the functionality ",
+                        tags$b("Funtree"), " available from the navigation bar on the left."),
                tags$br(),tags$br(),
                # 
                tags$div(align ="center",img(src='phylogeny.png', align = "center", width=600))
@@ -510,30 +514,30 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       )),
       
       conditionalPanel(condition = "input.navigation_bar == 'funtree'",
-                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous proteins across different evolutionally 
-                       distant species given a target protein. To perform the analysis, please follow the next instructions:",
+                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous genes across different evolutionally 
+                       distant species given a target gene. To perform the analysis, please follow the next instructions:",
                                 tags$ol(
                                   tags$li("In the lower panel choose as many species as you wish to include in the tree.",),
                                   tags$li("Then write the ID of your gene of interest in the textbox, which has to correspond to one of the organisms selected
-                                  in the previous step. If not, please select it before continuing. An example for",tags$i("Marchantia polymorpha"), "appears in the 
-                                          text box."),
+                                  in the previous step. If not, please select it before continuing. An example for the ",tags$i("Arabidopsis thaliana  CCA1"), 
+                                  " gene (AT2G46830, Circadian Clock Associated 1) appears in the text box."),
                                   tags$li("Finally, click the", tags$b("Have Fun!"), "button to construct the tree. Each organism appears with an specific
                                           color detailed in legend and the target gene is highlighted in red. Also, a text box allows user to copy the names
                                           of all the detected orthologs in a simple way."))),
                        checkboxGroupInput(inputId = "selected_organisms",
-                                          selected = c("mp"), 
-                                          choiceNames = c("Marchantia", "Ostreococcus", "Arabidopsis",
-                                                          "Ceratodon", "Chlamydomonas", "Chromochloris",
-                                                          "Klebsormidium", "Mesotaenium", "Micromonas",
-                                                          "Physcomitrium", "Solanum", "Selaginella", 
-                                                          "Spirogloea", "Triticum", "Volvox", "Bathycoccus",
-                                                          "Ceratopteris", "Dunaliella", "Oryza", "Sphagum",
-                                                          "Thuja"), 
-                                          choiceValues=c("mp","ot","at","cp","cr", "cz", "kn", "me", "mi", 
-                                                         "pp", "sl", "sm", "sp", "ta", "vc", "bp", "cri",
-                                                         "ds", "os", "smag", "tp"),
+                                          selected = c("at","mp", "kn", "ot"),
+                                          choiceNames = c("Arabidopsis thaliana", "Bathycoccus prasinos", "Ceratodon purpureus", "Ceratopteris richardii",
+                                                          "Chlamydomonas reinhardtii", "Chromochloris zofingiensis","Dunaliella salina",
+                                                          "Klebsormidium nitens", "Marchantia polymorpha", "Mesotaenium endlicherianum",
+                                                          "Micromonas pusilla", "Oryza sativa", "Ostreococcus tauri",
+                                                          "Physcomitrium patens", "Selaginella moellendorfii", "Solanum lycopersicum",
+                                                          "Sphagum fallax","Spirogloea muscicola", "Thuja plicata",
+                                                          "Triticum aestivium", "Volvox carteri"),
+                                          choiceValues=c("at","bp","cp", "cri", "cr", "cz", "ds", "kn",
+                                                         "mp","me", "mi", "os","ot", "pp", "sm", "sl",
+                                                         "smag", "sp", "tp", "ta", "vc"),
                                           label= "Select the organisms to show in tree"),
-                       textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160"),
+                       textInput(inputId = "geneInt",value = "AT2G46830",label = NULL, placeholder = "AT2G46830"),
                        actionButton(inputId = "funtree_button",label = "Have fun!", icon("send")),
                        
       ),
@@ -3085,7 +3089,7 @@ assocated to the enriched pathway represented in the corresponding row."
     tree <- eventReactive(input$funtree_button,{
       
       gene.name.tree <- input$geneInt
-      
+
       # Load table with orthogroups information
       ortho.table <- read.csv("Gene_Trees/Orthogroups.tsv", header = T, sep = "\t", as.is = T,
                               fill = T, blank.lines.skip = F)
