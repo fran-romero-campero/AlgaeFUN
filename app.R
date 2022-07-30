@@ -465,7 +465,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                      "Gene Set Functional Analysis" = "genes",
                      "Genomic Loci Functional Analysis" = "chip",
                      "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
-                     "Funtree, Phylogenomic Analysis" = "funtree",
+                     "Funtree, Phylogenomic Analysis of Genes in Viridiplantae" = "funtree",
                      "Tutorials" = "tutorials",
                      "GitHub repository" = "github",
                      "Citation and Contact" = "citation"
@@ -515,7 +515,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       
       conditionalPanel(condition = "input.navigation_bar == 'funtree'",
                        tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous genes across different evolutionally 
-                       distant species given a target gene. To perform the analysis, please follow the next instructions:",
+                       distant species given a target gene. This tool is based on our phylogenomic analysis carried out using", 
+                                tags$b(tags$a(href="https://github.com/davidemms/OrthoFinder", "orthofinder")),
+                                "To perform the analysis, please follow the next instructions:",
                                 tags$ol(
                                   tags$li("In the lower panel choose as many species as you wish to include in the tree.",),
                                   tags$li("Then write the ID of your gene of interest in the textbox, which has to correspond to one of the organisms selected
