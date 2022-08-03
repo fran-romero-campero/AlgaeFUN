@@ -24,6 +24,8 @@ library(shinyjs)
 ## Load microalgae annotation packages
 # library(org.Otauri.eg.db) 
 ##install.packages(pkgs = "./packages/annotation_packages/org.Vcarteri.eg.db/",repos = NULL,type="source")
+##install.packages(pkgs = c("org.Bprasinos.eg.db", "org.Csubellipsoidea.eg.db", "org.Dsalina.eg.db", "org.Knitens.eg.db", "org.MpusillaCCMP1545.eg.db", "org.Otauri.eg.db", "org.Smuscicola.eg.db", "org.Creinhardtii.eg.db", "org.Czofingiensis.eg.db", "org.Hlacustris.eg.db", "org.Mendlicherianum.eg.db", "org.Ngaditana.eg.db", "org.Ptricornutum.eg.db", "org.Vcarteri.eg.db"),repos = NULL,type="source")
+##install.packages(pkgs = c("TxDb.Bprasinos.ORCAE", "TxDb.Czofingiensis.Phytozome", "TxDb.Knitens.Phycocosm", "TxDb.Ngaditana.JGI", "TxDb.Smuscicola.pub", "TxDb.Creinhardtii.Phytozome", "TxDb.Dsalina.Phytozome", "TxDb.Mendlicherianum.pub", "TxDb.Otauri.JGI", "TxDb.Vcarteri.Phytozome", "TxDb.Csubellipsoidea.Phytozome", "TxDb.Hlacustris.NCBI", "TxDb.MpusillaCCMP1545.Phytozome", "TxDb.Ptricornutum.Ensembl.Protists"),repos = NULL,type="source")
 # library(org.MpusillaCCMP1545.eg.db)
 # library(org.Bprasinos.eg.db)
 # library(org.Csubellipsoidea.eg.db)
