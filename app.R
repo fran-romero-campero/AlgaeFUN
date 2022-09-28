@@ -1288,7 +1288,8 @@ server <- shinyServer(function(input, output, session) {
       
       
       ## Generate ouput table
-      enrich.go.result <- as.data.frame(enrich.go)
+      enrich.go.result <- as.data.frame(enrich.go@result)
+      enrich.go.result <- subset(enrich.go.result, pvalue < input$pvalue)
 
       if(nrow(enrich.go.result) > 0)
       {
