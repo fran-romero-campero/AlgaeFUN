@@ -1283,6 +1283,7 @@ server <- shinyServer(function(input, output, session) {
                             ont           = input$ontology,
                             pAdjustMethod = "BH",
                             pvalueCutoff  = input$pvalue,
+                            qvalueCutoff = 1,
                             readable      = TRUE,
                             keyType = "GID")
       
@@ -1490,7 +1491,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(mpusilla.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1533,7 +1534,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(csubellipsoidea.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1571,7 +1572,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(dsalina.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1624,7 +1625,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(knitens.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1647,7 +1648,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(mendlicherianum.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1670,7 +1671,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(smuscicola.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1693,7 +1694,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(hlacustris.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         if(nrow(pathway.enrichment) > 1)
         {
@@ -1719,7 +1720,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05 )) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1742,7 +1743,7 @@ with the corresponding GO term. Right click on the image to download it.")
           input$microalgae != "dsalina" && input$microalgae != "csubellipsoidea")
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
-                                         universe = gene.universe,qvalueCutoff = input$pvalue)
+                                         universe = gene.universe,qvalueCutoff = 0.05) #input$pvalue)
       }
       shinyjs::showElement(id = 'ready.enrichment.kegg')
       shinyjs::hideElement(id = 'loading.enrichment.kegg')
