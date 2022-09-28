@@ -633,18 +633,17 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                 "and", tags$b("open science."),"Following our philosophy we have deposited our GitHub code 
                        into", tags$a(href="https://zenodo.org/record/4754516#.YJxLPSaxUws", target="_blank",tags$b("Zenodo")), ", a
                        general-purpose open-access repository developed under the", 
-                                tags$a(href="https://www.openaire.eu/", target="_blank", tags$b("European OpenAIRE program.")), "Meanwhile we publish 
-                       our work in a journal if you find", tags$b("AlgaeFUN with MARACAS"), "useful in your research we would be most grateful if you cite 
-                       our GitHub repository with a,", tags$b("DOI"),  "as follows:",
+                                tags$a(href="https://www.openaire.eu/", target="_blank", tags$b("European OpenAIRE program.")), "If you use AlgaeFUN with
+                                MARACAS in your research please cite us:",
                                 tags$br(),
                                 tags$br(),
-                                tags$div(tags$b("Romero-Losada, A.B., Arvanitidou, C., de los Reyes, P., 
-                                García-González, M., Romero-Campero, F.J. (2021) AlgaeFUN with MARACAS, microAlgae FUNctional 
-                                enrichment tool for MicroAlgae RnA-seq and Chip-seq AnalysiS v1.0, Zenodo, doi:10.5381/zenodo.4754516 doi:10.5381/zenodo.4752818"))),
-                       
+                                tags$div(tags$a(href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04639-5", target="_blank",
+                                tags$b("Romero-Losada, A.B., Arvanitidou, C., de los Reyes, P., García-González, M. & Romero-Campero, F.J. 
+                                ALGAEFUN with MARACAS, microALGAE FUNctional enrichment tool for MicroAlgae RnA-seq and Chip-seq AnalysiS. 
+                                BMC Bioinformatics 23, 113 (2022). https://doi.org/10.1186/s12859-022-04639-5")))),
                        tags$br(),
                        tags$br(),
-                       #tags$div(align="center", img(src='smiley.png', align = "center", width=200,hight=200)),
+                       tags$div("If you want to contact us send an email to:", img(src='email.png',width=100)),
                        tags$br()
                        
       ),
