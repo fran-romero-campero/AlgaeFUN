@@ -1743,7 +1743,7 @@ with the corresponding GO term. Right click on the image to download it.")
           input$microalgae != "dsalina" && input$microalgae != "csubellipsoidea")
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
-                                         universe = gene.universe,qvalueCutoff = 0.05) #input$pvalue)
+                                         universe = gene.universe,pvalueCutoff = input$pvalue, qvalueCutoff = 1)
       }
       shinyjs::showElement(id = 'ready.enrichment.kegg')
       shinyjs::hideElement(id = 'loading.enrichment.kegg')
