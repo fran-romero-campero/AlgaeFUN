@@ -1748,7 +1748,7 @@ with the corresponding GO term. Right click on the image to download it.")
       shinyjs::showElement(id = 'ready.enrichment.kegg')
       shinyjs::hideElement(id = 'loading.enrichment.kegg')
       
-      pathway.enrichment.result <- as.data.frame(pathway.enrichment)
+      pathway.enrichment.result <- as.data.frame(pathway.enrichment@results)
       if(nrow(pathway.enrichment.result) > 0)
       {
         kegg.intro.text <- paste(c("This tab presents the results from the <b>KEGG pathways/modules enrichment analysis</b> 
