@@ -51,16 +51,16 @@ library(shinyjs)
 # library(TxDb.Smuscicola.pub)
 # library(TxDb.Ptricornutum.Ensembl.Protists)
 # library(TxDb.Ngaditana.JGI)
-library(ape)
-library(ggtree)
-library(stringr)
-library(seqinr)
-library(MetBrewer)
-library(glue)
-library(ggplot2)
-library(shiny)
-library(shinythemes)
-library(patchwork)
+# library(ape)
+# library(ggtree)
+# library(stringr)
+# library(seqinr)
+# library(MetBrewer)
+# library(glue)
+# library(ggplot2)
+# library(shiny)
+# library(shinythemes)
+# library(patchwork)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Micromonas pusilla CCMP1545",
@@ -3071,6 +3071,17 @@ assocated to the enriched pathway represented in the corresponding row."
   
   # Activate Funtree panel when selected
   observeEvent(input$funtree_button, {
+    library(ape)
+    library(ggtree)
+    library(stringr)
+    library(seqinr)
+    library(MetBrewer)
+    library(glue)
+    library(ggplot2)
+    library(shiny)
+    library(shinythemes)
+    library(patchwork)
+    
     tree <- eventReactive(input$funtree_button,{
       
       gene.name.tree <- input$geneInt
@@ -3805,12 +3816,26 @@ assocated to the enriched pathway represented in the corresponding row."
                                tips_to_keep.sp(), tips_to_keep.ta(), tips_to_keep.vc(), tips_to_keep.bp(),
                                tips_to_keep.cri(), tips_to_keep.ds(), tips_to_keep.os(), tips_to_keep.smag(),
                                tips_to_keep.tp())
+<<<<<<< HEAD
       validate(need(length(tips_to_keep.global) > 1,"Unable to construct tree with a single tip, please select more
                     organisms or change the query name"))
      
       tips_to_drop <- setdiff(1:length(tree$tip.label), tips_to_keep.global)
       tree_reduced <- drop.tip(tree, tips_to_drop)
       return(tree_reduced)
+=======
+      
+      if (length(tips_to_keep.global) < 2)
+      {
+        cat("")
+      }
+      else 
+      {
+        tips_to_drop <- setdiff(1:length(tree$tip.label), tips_to_keep.global)
+        tree_reduced <- drop.tip(tree, tips_to_drop)
+        return(tree_reduced)
+      }
+>>>>>>> c5ecf22a023717fadc57a63ce1cc3971849e61b6
     })
     
     output$treeTips <- renderPrint({
