@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta12g01930:0.154223,((ostreococcus_tauri_proteome_first_transcript_ostta15g00720:0.648022,ostreococcus_tauri_proteome_first_transcript_ostta08g02350:1.00752e-06):0.188759,ostreococcus_tauri_proteome_first_transcript_ostta03g01330:1.00752e-06):0.154223);

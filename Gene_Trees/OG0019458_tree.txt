@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp4g13840:0.328849,((marchantia_polymorpha_proteome_first_transcript_Mp4g19320:0.831301,marchantia_polymorpha_proteome_first_transcript_Mp4g12910:0.908352):0.116808,marchantia_polymorpha_proteome_first_transcript_Mp4g13810:1.09448):0.328849);

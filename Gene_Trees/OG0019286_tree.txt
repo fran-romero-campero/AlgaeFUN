@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00012_0355:0.634073,(physcomitrium_patens_proteome_first_transcript_Pp3c12_18330:0.275111,(physcomitrium_patens_proteome_first_transcript_Pp3c14_5220:0.458152,physcomitrium_patens_proteome_first_transcript_Pp3c3_10990:0.456076):0.110105):0.634073);

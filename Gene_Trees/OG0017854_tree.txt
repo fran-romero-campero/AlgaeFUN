@@ -1,0 +1,1 @@
+((micromonas_pusilla_proteome_first_transcript_27348062:0.267859,bathycoccus_prasinos_proteome_first_transcript_Bathy03g00310 length_453 _mRNA_ _n/a_  _putative light-dependent protochlorophyllide oxido-reductase_:0.45517):0.013801,(micromonas_pusilla_proteome_first_transcript_27338878:1.42251,ostreococcus_tauri_proteome_first_transcript_ostta05g00530:0.375393):0.013801);

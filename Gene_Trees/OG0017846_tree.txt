@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00692_0060:1.29089,(micromonas_pusilla_proteome_first_transcript_27346387:0.425244,(ostreococcus_tauri_proteome_first_transcript_ostta07g02550:0.390415,bathycoccus_prasinos_proteome_first_transcript_Bathy02g03110 length_777 _mRNA_ _n/a_  _predicted protein_:0.702071):0.115582):1.29089);
