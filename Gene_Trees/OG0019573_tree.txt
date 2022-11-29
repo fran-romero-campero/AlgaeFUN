@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27342433:0.285867,(micromonas_pusilla_proteome_first_transcript_27342579:0.085692,(micromonas_pusilla_proteome_first_transcript_27343026:0.265942,micromonas_pusilla_proteome_first_transcript_27342875:0.237813):0.970538):0.285867);
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G110100:0.646354,(physcomitrium_patens_proteome_first_transcript_Pp3c9_17530:0.121749,(physcomitrium_patens_proteome_first_transcript_Pp3c17_8890:0.109938,physcomitrium_patens_proteome_first_transcript_Pp3c17_8900:0.205832):0.079139):0.646354);

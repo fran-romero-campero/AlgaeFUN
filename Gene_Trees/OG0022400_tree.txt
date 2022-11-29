@@ -1,0 +1,1 @@
+(triticum_aestivum_proteome_first_transcript_Traes_3AS_C7CA135E1:0.337064,((triticum_aestivum_proteome_first_transcript_Traes_3AS_524F03D45:0.56944,triticum_aestivum_proteome_first_transcript_Traes_3DS_1286108F0:0.60885):0.022905,triticum_aestivum_proteome_first_transcript_Traes_3DS_CFC93F8B4:0.202015):0.337064);

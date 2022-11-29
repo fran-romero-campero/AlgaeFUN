@@ -522,16 +522,20 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           of all the detected orthologs in a simple way."))),
                        checkboxGroupInput(inputId = "selected_organisms",
                                           selected = c("mp"), 
-                                          choiceNames = c("Marchantia", "Ostreococcus", "Arabidopsis",
-                                                          "Ceratodon", "Chlamydomonas", "Chromochloris",
-                                                          "Klebsormidium", "Mesotaenium", "Micromonas",
-                                                          "Physcomitrium", "Solanum", "Selaginella", 
-                                                          "Spirogloea", "Triticum", "Volvox", "Bathycoccus",
-                                                          "Ceratopteris", "Dunaliella", "Oryza", "Sphagum",
-                                                          "Thuja"), 
+                                          choiceNames = c("Marchantia polymorpha", "Ostreococcus tauri", "Arabidopsis thaliana",
+                                                          "Ceratodon purpureus", "Chlamydomonas reinhardtii", 
+                                                          "Chromochloris zofingiensis", "Klebsormidium nitens", 
+                                                          "Mesotaenium endlicherianum", "Micromonas pusilla",
+                                                          "Physcomitrium patens", "Solanum lycopersicum", "Selaginella moellendorffii", 
+                                                          "Spirogloea muscicola", "Triticum aestivum", 
+                                                          "Volvox carteri", "Bathycoccus prasinos",
+                                                          "Ceratopteris richardii", "Dunaliella salina", "Oryza sativa",
+                                                          "Sphagum magellanicum", "Thuja plicata", 
+                                                          "Anthoceros agrestis", "Raphidocelis subcapitata", 
+                                                          "Cycas panzhihuaensis", "Ulva mutabilis"), 
                                           choiceValues=c("mp","ot","at","cp","cr", "cz", "kn", "me", "mi", 
                                                          "pp", "sl", "sm", "sp", "ta", "vc", "bp", "cri",
-                                                         "ds", "os", "smag", "tp"),
+                                                         "ds", "os", "smag", "tp", "aa", "rs", "cyc", "um"),
                                           label= "Select the organisms to show in tree"),
                        textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160"),
                        actionButton(inputId = "funtree_button",label = "Have fun!", icon("send")),
@@ -3555,6 +3559,96 @@ assocated to the enriched pathway represented in the corresponding row."
       return(tips_to_keep.tp)
     })
     
+    tips_to_keep.aa <- reactive({
+      
+      tree <- tree()
+      # Selection of organisms
+      organisms.list <- c(input$selected_organisms)
+      
+      # Proper notation for each protein
+      tips_to_keep.aa <- c()
+      if ("aa" %in% organisms.list)
+      {
+        tips_to_keep.aa <- grep(pattern = "anthoceros",tree$tip.label)
+        if (length(tips_to_keep.aa) != 0)
+        {
+          aa.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[7]])
+          aa1 <- sapply(strsplit(as.character(aa.vec), "\\."), function(x) x[[3]])
+          aa2 <- sapply(strsplit(as.character(aa.vec), "\\."), function(x) x[[4]])
+          aa.v <- paste(aa1, aa2, sep = ".")
+          tree$tip.label[tips_to_keep.aa] <- aa.v
+        }
+      }
+      return(tips_to_keep.aa)
+    })
+    
+    tips_to_keep.um <- reactive({
+      
+      tree <- tree()
+      # Selection of organisms
+      organisms.list <- c(input$selected_organisms)
+      
+      # Proper notation for each protein
+      tips_to_keep.um <- c()
+      if ("um" %in% organisms.list)
+      {
+        tips_to_keep.um <- grep(pattern = "ulva",tree$tip.label)
+        if (length(tips_to_keep.um) != 0)
+        {
+          um.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[6]])
+          um.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[7]])
+          um2 <- sapply(strsplit(as.character(um.vec2), "\\."), function(x) x[[1]])
+          um.v <- paste(um.vec1, um2, sep = "_")
+          tree$tip.label[tips_to_keep.um] <- um.v
+        }
+      }
+      return(tips_to_keep.um)
+    })
+    
+    tips_to_keep.rs <- reactive({
+      
+      tree <- tree()
+      # Selection of organisms
+      organisms.list <- c(input$selected_organisms)
+      
+      # Proper notation for each protein
+      tips_to_keep.rs <- c()
+      if ("rs" %in% organisms.list)
+      {
+        tips_to_keep.rs <- grep(pattern = "raphidocelis",tree$tip.label)
+        if (length(tips_to_keep.rs) != 0)
+        {
+          rs.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[6]])
+          rs.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[7]])
+          rs.v <- paste(rs.vec1, rs.vec2, sep = "_")
+          tree$tip.label[tips_to_keep.rs] <- rs.v
+        }
+      }
+      return(tips_to_keep.rs)
+    })
+    
+    tips_to_keep.cyc <- reactive({
+      
+      tree <- tree()
+      # Selection of organisms
+      organisms.list <- c(input$selected_organisms)
+      
+      # Proper notation for each protein
+      tips_to_keep.cyc <- c()
+      if ("cyc" %in% organisms.list)
+      {
+        tips_to_keep.cyc <- grep(pattern = "cycas",tree$tip.label)
+        if (length(tips_to_keep.cyc) != 0)
+        {
+          cyc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[6]])
+          cyc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[7]])
+          cyc.v <- paste(cyc.vec1, cyc.vec2, sep = "_")
+          tree$tip.label[tips_to_keep.cyc] <- cyc.v
+        }
+      }
+      return(tips_to_keep.cyc)
+    })
+    
   # Create complete gene tree  
     tree_adj <- reactive({
       tree <- tree()
@@ -3792,6 +3886,56 @@ assocated to the enriched pathway represented in the corresponding row."
         }
       }
       
+      if ("aa" %in% organisms.list)
+      {
+        tips_to_keep.aa <- grep(pattern = "anthoceros",tree$tip.label)
+        if (length(tips_to_keep.aa) != 0)
+        {
+          aa.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[7]])
+          aa1 <- sapply(strsplit(as.character(aa.vec), "\\."), function(x) x[[3]])
+          aa2 <- sapply(strsplit(as.character(aa.vec), "\\."), function(x) x[[4]])
+          aa.v <- paste(aa1, aa2, sep = ".")
+          tree$tip.label[tips_to_keep.aa] <- aa.v
+        }
+      }
+      
+      if ("um" %in% organisms.list)
+      {
+        tips_to_keep.um <- grep(pattern = "ulva",tree$tip.label)
+        if (length(tips_to_keep.um) != 0)
+        {
+          um.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[6]])
+          um.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[7]])
+          um2 <- sapply(strsplit(as.character(um.vec2), "\\."), function(x) x[[1]])
+          um.v <- paste(um.vec1, um2, sep = "_")
+          tree$tip.label[tips_to_keep.um] <- um.v
+        }
+      }
+      
+      if ("rs" %in% organisms.list)
+      {
+        tips_to_keep.rs <- grep(pattern = "raphidocelis",tree$tip.label)
+        if (length(tips_to_keep.rs) != 0)
+        {
+          rs.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[6]])
+          rs.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[7]])
+          rs.v <- paste(rs.vec1, rs.vec2, sep = "_")
+          tree$tip.label[tips_to_keep.rs] <- rs.v
+        }
+      }
+      
+      if ("cyc" %in% organisms.list)
+      {
+        tips_to_keep.cyc <- grep(pattern = "cycas",tree$tip.label)
+        if (length(tips_to_keep.cyc) != 0)
+        {
+          cyc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[6]])
+          cyc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[7]])
+          cyc.v <- paste(cyc.vec1, cyc.vec2, sep = "_")
+          tree$tip.label[tips_to_keep.cyc] <- cyc.v
+        }
+      }
+      
       return(tree)
     })
     # Generate reduced tree when the corresponding button is activated
@@ -3804,7 +3948,8 @@ assocated to the enriched pathway represented in the corresponding row."
                                tips_to_keep.mi(), tips_to_keep.pp(), tips_to_keep.sl(), tips_to_keep.sm(),
                                tips_to_keep.sp(), tips_to_keep.ta(), tips_to_keep.vc(), tips_to_keep.bp(),
                                tips_to_keep.cri(), tips_to_keep.ds(), tips_to_keep.os(), tips_to_keep.smag(),
-                               tips_to_keep.tp())
+                               tips_to_keep.tp(), tips_to_keep.aa(), tips_to_keep.um(), tips_to_keep.rs(),
+                               tips_to_keep.cyc())
       validate(need(length(tips_to_keep.global) > 1,"Unable to construct tree with a single tip, please select more
                     organisms or change the query name"))
      
@@ -3861,6 +4006,10 @@ assocated to the enriched pathway represented in the corresponding row."
       tips_to_keep.os <- tips_to_keep.os()
       tips_to_keep.smag <- tips_to_keep.smag()
       tips_to_keep.tp <- tips_to_keep.tp()
+      tips_to_keep.aa <- tips_to_keep.aa()
+      tips_to_keep.um <- tips_to_keep.um()
+      tips_to_keep.rs <- tips_to_keep.rs()
+      tips_to_keep.cyc <- tips_to_keep.cyc()
       
       if (length(tree_reduced$tip.label) < 2)
       {
@@ -3984,8 +4133,28 @@ assocated to the enriched pathway represented in the corresponding row."
           }
           else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.tp])
           {
-            col.factor <- c(col.factor,"#67000D")
+            col.factor <- c(col.factor,"#67000d")
             org.factor <- c(org.factor,"Thuja")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.aa])
+          {
+            col.factor <- c(col.factor,"#5b2c6f")
+            org.factor <- c(org.factor,"Anthoceros")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.um])
+          {
+            col.factor <- c(col.factor,"#15e71b")
+            org.factor <- c(org.factor,"Ulva")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.rs])
+          {
+            col.factor <- c(col.factor,"#e67e22")
+            org.factor <- c(org.factor,"Raphidocelis")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cyc])
+          {
+            col.factor <- c(col.factor,"#873600")
+            org.factor <- c(org.factor,"Cycas")
           }
           
         }

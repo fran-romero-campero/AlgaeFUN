@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_138647:0.345001,(physcomitrium_patens_proteome_first_transcript_Pp3c6_8030:0.778783,(physcomitrium_patens_proteome_first_transcript_Pp3c2_34180:0.931506,physcomitrium_patens_proteome_first_transcript_Pp3c9_8540:0.463828):0.208293):0.345001);

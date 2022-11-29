@@ -1,0 +1,1 @@
+((solanum_lycopersicum_proteome_first_transcript_Solyc08g150126.1.1:0.148235,solanum_lycopersicum_proteome_first_transcript_Solyc01g150130.1.1:0.175941):0.272083,(physcomitrium_patens_proteome_first_transcript_Pp3c23_10250:0.69258,physcomitrium_patens_proteome_first_transcript_Pp3c24_6880:0.539404):0.272083);
