@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz05g28050:0.002879,(solanum_lycopersicum_proteome_first_transcript_Solyc05g017930.2.1:0.702516,(triticum_aestivum_proteome_first_transcript_Traes_1AL_792E76B4D:0.076683,triticum_aestivum_proteome_first_transcript_Traes_1BL_21A5AB8FB:0.128989):0.684627):0.002879);

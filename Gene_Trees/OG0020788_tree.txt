@@ -1,1 +1,0 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp4g02910:0.819701,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_01005:0.93194,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_02641:0.665194,raphidocelis_subcapitata_proteome_first_transcript_Rsub_09982:0.771717):0.224962):0.819701);

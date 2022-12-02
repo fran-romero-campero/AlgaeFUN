@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_proteome_first_transcript_Bathy06g00950 length_311 _mRNA_ _n/a_  _predicted protein_:0.883828,(micromonas_pusilla_proteome_first_transcript_27349252:0.800525,micromonas_pusilla_proteome_first_transcript_27339419:1.16397)n2:0.12933)n1:0.0708205,ostreococcus_tauri_proteome_first_transcript_ostta02g02940:0.812622)n0;

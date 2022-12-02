@@ -1,1 +1,0 @@
-((ulva_mutabilis_proteome_first_transcript_UM001_0265.1:1.56396,ulva_mutabilis_proteome_first_transcript_UM017_0044.1:3.03498e-06):0.590109,(chromochloris_zofingiensis_proteome_first_transcript_Cz07g14010:0.179389,raphidocelis_subcapitata_proteome_first_transcript_Rsub_10989:0.399191):0.590109);

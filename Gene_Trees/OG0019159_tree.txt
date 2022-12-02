@@ -1,1 +1,0 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000038l.245.1:0.855352,(marchantia_polymorpha_proteome_first_transcript_Mp4g23040:1.34227,(ceratodon_purpureus_proteome_first_transcript_CepurR40.6G077100:0.237668,physcomitrium_patens_proteome_first_transcript_Pp3c1_41170:0.063056):0.997478):0.855352);

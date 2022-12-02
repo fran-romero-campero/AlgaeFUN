@@ -1,0 +1,1 @@
+(solanum_lycopersicum_proteome_first_transcript_Solyc02g043950.1.1:0.230118,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_033272:9.08868e-07,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030575:0,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030585:0)n2:0.505383)n1:0.230118)n0;

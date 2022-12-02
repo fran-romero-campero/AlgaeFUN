@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000157S01559:0.60338,(klebsormidium_nitens_proteome_first_transcript_kfl00653_0110:1.18917,(klebsormidium_nitens_proteome_first_transcript_kfl00009_0360:0.719594,klebsormidium_nitens_proteome_first_transcript_kfl00058_g44:1.04038)n2:0.580021)n1:0.60338)n0;

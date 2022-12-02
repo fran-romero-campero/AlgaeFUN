@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_proteome_first_transcript_Cre11.g468000:1.75012e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_12826:0.914107,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_01798:0.596912,chromochloris_zofingiensis_proteome_first_transcript_Cz05g36070:1.75012e-06):0.385182):1.75012e-06);

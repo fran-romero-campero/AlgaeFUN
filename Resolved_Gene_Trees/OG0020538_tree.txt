@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_409900:0.446754,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_013084:0.663453,(triticum_aestivum_proteome_first_transcript_Traes_1DL_DC3620B43:0.429451,triticum_aestivum_proteome_first_transcript_Traes_1DL_0706A4E89:0.051581)n2:0.433543)n1:0.446754)n0;

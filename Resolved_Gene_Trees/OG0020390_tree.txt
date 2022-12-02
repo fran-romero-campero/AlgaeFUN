@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp6g10030:0.836176,(chromochloris_zofingiensis_proteome_first_transcript_Cz07g12220:0.052672,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_09580:0.062353,raphidocelis_subcapitata_proteome_first_transcript_Rsub_12506:0.482171)n2:0.0535746)n1:0.254918)n0;

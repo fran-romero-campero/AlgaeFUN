@@ -1,1 +1,0 @@
-(ulva_mutabilis_proteome_first_transcript_UM192_0006.1:0.134441,(ulva_mutabilis_proteome_first_transcript_UM192_0005.1:0.340127,((ulva_mutabilis_proteome_first_transcript_UM039_0046.1:0.351934,ulva_mutabilis_proteome_first_transcript_UM039_0044.1:0.54246):0.013613,ulva_mutabilis_proteome_first_transcript_UM192_0010.1:0.215908):0.025667):0.134441);

@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_012840:0.564222,((selaginella_moellendorffii_proteome_first_transcript_123655:0.251673,selaginella_moellendorffii_proteome_first_transcript_424099:0.389821):0.919021,selaginella_moellendorffii_proteome_first_transcript_138440:0.313874):0.564222);

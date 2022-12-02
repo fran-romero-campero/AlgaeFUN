@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000610S08683:0.720017,((ceratodon_purpureus_proteome_first_transcript_CepurR40.3G030500:0.181587,physcomitrium_patens_proteome_first_transcript_Pp3c24_16470:0.284688):0.283664,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000008l.171.1:0.61571):0.720017);

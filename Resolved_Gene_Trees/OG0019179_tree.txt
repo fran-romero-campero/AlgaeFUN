@@ -1,0 +1,1 @@
+(ulva_mutabilis_proteome_first_transcript_UM037_0051.1:0.683299,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000050l.697.1:1.10399,(klebsormidium_nitens_proteome_first_transcript_kfl00142_0080:1.17443,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_032449:0.025512)n2:0.224516)n1:0.683299)n0;

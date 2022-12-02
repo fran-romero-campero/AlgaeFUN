@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_proteome_first_transcript_Cz10g26150:0.1386,chromochloris_zofingiensis_proteome_first_transcript_Cz10g26160:0.101495):0.0110905,(klebsormidium_nitens_proteome_first_transcript_kfl00163_0220:0.261633,mesotaenium_endlicherianum_proteome_first_transcript_ME000329S05583:0.498019):0.0110905);

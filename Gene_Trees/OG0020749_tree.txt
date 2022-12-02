@@ -1,1 +1,0 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_00608:0.921543,((klebsormidium_nitens_proteome_first_transcript_kfl00579_0100:0.64132,klebsormidium_nitens_proteome_first_transcript_kfl00579_0030:0.479218):0.241798,mesotaenium_endlicherianum_proteome_first_transcript_ME000154S01456:0.857633):0.921543);

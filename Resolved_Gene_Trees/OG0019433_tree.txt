@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta08g01480:0.372894,bathycoccus_prasinos_proteome_first_transcript_Bathy08g02290 length_686 _mRNA_ _n/a_  _S-adenosyl-methyltransferase MraW_:0.45697)n1:0.041045,(micromonas_pusilla_proteome_first_transcript_27341484:0.449152,micromonas_pusilla_proteome_first_transcript_27342836:2.05923)n2:0.041045)n0;

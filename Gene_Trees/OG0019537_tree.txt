@@ -1,1 +1,0 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G252200:0.0110185,((ceratodon_purpureus_proteome_first_transcript_CepurR40.9G153600:2.6101,ceratodon_purpureus_proteome_first_transcript_CepurR40.2G256600:3.01322e-06):0.184747,ceratodon_purpureus_proteome_first_transcript_CepurR40.2G251700:0.242868):0.0110185);

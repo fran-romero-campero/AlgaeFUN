@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g099300:1.87513e-06,(ostreococcus_tauri_proteome_first_transcript_ostta14g00060:0.522627,(micromonas_pusilla_proteome_first_transcript_27345149:0.555771,bathycoccus_prasinos_proteome_first_transcript_Bathy05g05130 length_174 _mRNA_ _n/a_  _predicted protein_:0.691918)n2:0.143891)n1:1.87513e-06)n0;

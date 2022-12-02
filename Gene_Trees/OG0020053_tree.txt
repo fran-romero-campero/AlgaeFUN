@@ -1,1 +1,0 @@
-((chlamydomonas_reinhardtii_proteome_first_transcript_Cre06.g272150:1.96852e-06,ulva_mutabilis_proteome_first_transcript_UM149_0010.1:0.786703):0.062824,(mesotaenium_endlicherianum_proteome_first_transcript_ME000052S08167:0.572478,klebsormidium_nitens_proteome_first_transcript_kfl00073_0040:0.679163):0.062824);

@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27338862:0.392213,(ulva_mutabilis_proteome_first_transcript_UM049_0030.1:0.600342,(chromochloris_zofingiensis_proteome_first_transcript_Cz08g10090:2.68401e-06,raphidocelis_subcapitata_proteome_first_transcript_Rsub_07947:0.304021)n2:1.02466)n1:0.392213)n0;

@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta04g05040:0.828411,(chromochloris_zofingiensis_proteome_first_transcript_UNPLg00276:2.01446e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_08690:0.649989,raphidocelis_subcapitata_proteome_first_transcript_Rsub_08578:0.440806)n2:0.0489784)n1:0.12601)n0;

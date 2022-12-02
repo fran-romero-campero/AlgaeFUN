@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz10g08190:1.43723e-06,(bathycoccus_prasinos_proteome_first_transcript_Bathy14g01600 length_188 _mRNA_ _n/a_  _predicted protein_:0.743404,(micromonas_pusilla_proteome_first_transcript_27342876:0.165469,micromonas_pusilla_proteome_first_transcript_27340501:0.160774):0.590099):1.43723e-06);

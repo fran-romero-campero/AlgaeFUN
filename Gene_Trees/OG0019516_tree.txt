@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_proteome_first_transcript_412555:0.547299,(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G021800:0.863152,(ceratodon_purpureus_proteome_first_transcript_CepurR40.N002900:0,ceratodon_purpureus_proteome_first_transcript_CepurR40.6G043600:0):0.6109):0.547299);

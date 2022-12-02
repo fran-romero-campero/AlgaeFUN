@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_proteome_first_transcript_Rsub_11899:0.493802,(ulva_mutabilis_proteome_first_transcript_UM111_0017.1:0.233242,(ulva_mutabilis_proteome_first_transcript_UM111_0016.1:0.237498,ulva_mutabilis_proteome_first_transcript_UM061_0024.1:0.741371)n2:0.315925)n1:0.493802)n0;

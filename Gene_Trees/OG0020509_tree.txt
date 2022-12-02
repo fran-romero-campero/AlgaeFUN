@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021088:0.868101,(spirogloea_muscicola_proteome_first_transcript_SM000272S10267:0.110668,(spirogloea_muscicola_proteome_first_transcript_SM000006S19490:0.051325,spirogloea_muscicola_proteome_first_transcript_SM000008S22324:0.052624):0.019914):0.868101);

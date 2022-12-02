@@ -1,0 +1,1 @@
+(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000057l.335.1:0.584179,((marchantia_polymorpha_proteome_first_transcript_Mp3g03570:0.071451,marchantia_polymorpha_proteome_first_transcript_Mp3g03590:0.056535)n2:0.959961,marchantia_polymorpha_proteome_first_transcript_Mp3g03600:1.11933)n1:0.584179)n0;

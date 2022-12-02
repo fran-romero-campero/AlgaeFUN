@@ -1,1 +1,0 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000001l.198.1:0.152904,((selaginella_moellendorffii_proteome_first_transcript_107615:0.428526,triticum_aestivum_proteome_first_transcript_Traes_1DL_1AEFC9365:0.249192):0.068744,triticum_aestivum_proteome_first_transcript_Traes_3AL_705F1589D:0.18214):0.152904);

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00090_0260:0.766297,(ulva_mutabilis_proteome_first_transcript_UM034_0108.1:3.60082e-06,(ostreococcus_tauri_proteome_first_transcript_ostta03g05210:1.40009,micromonas_pusilla_proteome_first_transcript_27345252:1.4437)n2:0.099621)n1:0.766297)n0;

@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG211300:0.604884,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000002l.65.1:1.79551e-06,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000125l.10.1:0.322236,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000002l.626.1:0.193325)n2:0.522688)n1:0.604884)n0;

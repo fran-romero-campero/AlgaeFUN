@@ -3080,7 +3080,7 @@ assocated to the enriched pathway represented in the corresponding row."
       gene.name.tree <- input$geneInt
       
       # Load table with orthogroups information
-      ortho.table <- read.csv("Gene_Trees/Orthogroups.tsv", header = T, sep = "\t", as.is = T,
+      ortho.table <- read.csv("Resolved_Gene_Trees/Orthogroups.tsv", header = T, sep = "\t", as.is = T,
                               fill = T, blank.lines.skip = F)
       # Find orthogroup of target gene
       found <- F
@@ -3105,7 +3105,7 @@ assocated to the enriched pathway represented in the corresponding row."
                     lack of orthologs in the selected organisms"))
       
       # Load gene tree file
-      tree.name <- paste("Gene_Trees",paste(file.name, "tree.txt", sep = "_"), sep="/")
+      tree.name <- paste("Resolved_Gene_Trees",paste(file.name, "tree.txt", sep = "_"), sep="/")
       
       # Error if tree file not found
       validate(need(file.exists(tree.name),"No results for this query due to not supported gene name or 

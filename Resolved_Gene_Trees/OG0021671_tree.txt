@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_proteome_first_transcript_Rsub_06078:0.534331,((selaginella_moellendorffii_proteome_first_transcript_137927:2.98641e-06,selaginella_moellendorffii_proteome_first_transcript_137904:0.072955)n2:0.600131,selaginella_moellendorffii_proteome_first_transcript_126324:1.28942)n1:0.534331)n0;

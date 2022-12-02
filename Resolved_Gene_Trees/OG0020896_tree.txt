@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27343361:0.478303,(ulva_mutabilis_proteome_first_transcript_UM003_0184.1:0.326833,(ulva_mutabilis_proteome_first_transcript_UM003_0186.1:0.547507,ulva_mutabilis_proteome_first_transcript_UM003_0185.1:0.001)n2:0.319287)n1:0.478303)n0;

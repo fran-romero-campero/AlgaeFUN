@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG183400:0.191703,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_006989:0.526461,(triticum_aestivum_proteome_first_transcript_Traes_4DS_DD602A86C:0.012284,triticum_aestivum_proteome_first_transcript_Traes_4DS_EC8115DE9:8.49721e-07)n2:8.49721e-07)n1:0.142738)n0;

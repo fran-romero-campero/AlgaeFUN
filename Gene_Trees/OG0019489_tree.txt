@@ -1,1 +1,0 @@
-((micromonas_pusilla_proteome_first_transcript_27344571:1.62619,chlamydomonas_reinhardtii_proteome_first_transcript_Cre04.g229250:2.44115e-06):0.674659,(physcomitrium_patens_proteome_first_transcript_Pp3c21_11110:0.261518,ceratodon_purpureus_proteome_first_transcript_CepurR40.8G059200:0.132049):0.674659);

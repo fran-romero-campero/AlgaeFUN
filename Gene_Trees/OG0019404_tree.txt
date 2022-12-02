@@ -1,1 +1,0 @@
-(bathycoccus_prasinos_proteome_first_transcript_Bathy04g04070 length_545 _mRNA_ _n/a_  _grf-like transcription factor_:0.907898,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_003442:0.008483,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_003443:0.009098):0.643081,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026722:0.612383):0.907898);

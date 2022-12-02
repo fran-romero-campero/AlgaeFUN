@@ -1,0 +1,1 @@
+(ulva_mutabilis_proteome_first_transcript_UM055_0077.1:0.89588,(bathycoccus_prasinos_proteome_first_transcript_Bathy01g03530 length_274 _mRNA_ _n/a_  _predicted protein_:0.305428,(ostreococcus_tauri_proteome_first_transcript_ostta01g04420:0.346166,micromonas_pusilla_proteome_first_transcript_27339230:0.520827)n2:0.166164)n1:0.89588)n0;

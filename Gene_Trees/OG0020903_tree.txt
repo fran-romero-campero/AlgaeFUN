@@ -1,1 +1,0 @@
-((raphidocelis_subcapitata_proteome_first_transcript_Rsub_09886:0.515219,raphidocelis_subcapitata_proteome_first_transcript_Rsub_03982:0.510855):0.35498,(ostreococcus_tauri_proteome_first_transcript_ostta03g05840:0.86104,micromonas_pusilla_proteome_first_transcript_27345384:1.16944):0.35498);

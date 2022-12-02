@@ -1,1 +1,0 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_13200:0.657233,(bathycoccus_prasinos_proteome_first_transcript_Bathy03g03860 length_444 _mRNA_ _n/a_  _predicted protein_:0.635797,(micromonas_pusilla_proteome_first_transcript_27347854:0.621063,ostreococcus_tauri_proteome_first_transcript_ostta05g03070:0.325944):0.11407):0.657233);

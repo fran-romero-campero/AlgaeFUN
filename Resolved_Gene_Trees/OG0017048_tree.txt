@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.7G067000:1.0651,((marchantia_polymorpha_proteome_first_transcript_Mp2g10030:0.555924,(marchantia_polymorpha_proteome_first_transcript_Mp8g00850:0.27743,marchantia_polymorpha_proteome_first_transcript_Mp8g00840:0.387433)n3:0.480971)n2:0.222757,marchantia_polymorpha_proteome_first_transcript_Mp8g14810:0.354618)n1:1.0651)n0;

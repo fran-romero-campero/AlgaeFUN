@@ -1,0 +1,1 @@
+(ostreococcus_tauri_proteome_first_transcript_ostta16g00270:0.517825,(triticum_aestivum_proteome_first_transcript_Traes_3DL_9F53C66C6:0.304277,(arabidopsis_thaliana_proteome_first_transcript_AT5G12280:0.728815,arabidopsis_thaliana_proteome_first_transcript_AT5G06890:0.18151)n2:0.445005)n1:0.517825)n0;

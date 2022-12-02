@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000381S06597:0.39122,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_017461:0.61166,triticum_aestivum_proteome_first_transcript_Traes_6DL_1FC63BA14:0.519622)n2:0.167935,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000010l.81.1:1.81831e-06)n1:0.39122)n0;

@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_87880:0.161182,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030251:0.4121,(solanum_lycopersicum_proteome_first_transcript_Solyc01g102590.3.1:0.159828,solanum_lycopersicum_proteome_first_transcript_Solyc01g102560.2.1:0.010738)n2:0.407616)n1:0.161182)n0;

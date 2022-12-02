@@ -1,1 +1,0 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000044l.7.1:1.02664,((spirogloea_muscicola_proteome_first_transcript_SM000242S08499:0.295545,spirogloea_muscicola_proteome_first_transcript_SM000463S16147:0.706685):0.079856,spirogloea_muscicola_proteome_first_transcript_SM000463S16146:3.0078e-06):1.02664);

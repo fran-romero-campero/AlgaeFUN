@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_proteome_first_transcript_Rsub_08317:0.415294,((physcomitrium_patens_proteome_first_transcript_Pp3s34_610:0.243599,physcomitrium_patens_proteome_first_transcript_Pp3s34_170:0.254549)n2:0.700353,physcomitrium_patens_proteome_first_transcript_Pp3s34_504:1.16819)n1:0.415294)n0;

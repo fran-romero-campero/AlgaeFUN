@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00016_0310:0.567214,((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000058l.207.1:1.0759,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000008l.377.1:2.99809e-06)n2:0.266354,marchantia_polymorpha_proteome_first_transcript_Mp4g11630:1.0657)n1:0.567214)n0;

@@ -1,1 +1,0 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp4g17100:0.584851,((selaginella_moellendorffii_proteome_first_transcript_33492:0.20439,selaginella_moellendorffii_proteome_first_transcript_84896:0.444922):0.875478,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_000523:0.973136,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_000700:0.01798):0.136608):0.584851);

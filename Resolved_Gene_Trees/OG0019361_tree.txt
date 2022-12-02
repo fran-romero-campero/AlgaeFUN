@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_007728:0.694102,(arabidopsis_thaliana_proteome_first_transcript_AT5G67350:0.934532,(solanum_lycopersicum_proteome_first_transcript_Solyc02g092720.1.1:0.627,solanum_lycopersicum_proteome_first_transcript_Solyc03g150114.1.1:0.640038)n2:0.28221)n1:0.694102)n0;

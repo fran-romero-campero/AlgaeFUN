@@ -1,1 +1,0 @@
-(spirogloea_muscicola_proteome_first_transcript_SM000022S07130:0.393068,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_029589:0.776164,(triticum_aestivum_proteome_first_transcript_Traes_6AL_E35C8085A1:1e-06,triticum_aestivum_proteome_first_transcript_Traes_6AL_E35C8085A:0):0.780995):0.393068);

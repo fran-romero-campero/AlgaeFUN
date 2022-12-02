@@ -1,0 +1,1 @@
+(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000042l.373.1:0.39025,(mesotaenium_endlicherianum_proteome_first_transcript_ME000214S03274:0.970713,(mesotaenium_endlicherianum_proteome_first_transcript_ME000090S10179:0.662498,mesotaenium_endlicherianum_proteome_first_transcript_ME000448S07425:0.757333)n2:0.053891)n1:0.39025)n0;

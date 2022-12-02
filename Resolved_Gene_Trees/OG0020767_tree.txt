@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl01172_0010:0.777013,(selaginella_moellendorffii_proteome_first_transcript_412821:0.555736,(selaginella_moellendorffii_proteome_first_transcript_426530:0.074599,selaginella_moellendorffii_proteome_first_transcript_413765:0.086621)n2:0.327284)n1:0.777013)n0;

@@ -1,0 +1,1 @@
+(triticum_aestivum_proteome_first_transcript_Traes_3AS_CA2761AA2:0.283322,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_002538:0.967812,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_027426:0.337171,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_027429:0.372902)n2:0.423869)n1:0.283322)n0;

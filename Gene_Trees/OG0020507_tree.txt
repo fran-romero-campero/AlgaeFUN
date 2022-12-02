@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_proteome_first_transcript_82699:0.081925,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_020259:0.189019,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_020576:0.274325):0.494675,triticum_aestivum_proteome_first_transcript_Traes_6AL_ED63E89EA:0.68414):0.081925);

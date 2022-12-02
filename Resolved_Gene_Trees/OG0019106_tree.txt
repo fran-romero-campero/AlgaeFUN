@@ -1,0 +1,1 @@
+(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000006l.289.1:0.38714,(triticum_aestivum_proteome_first_transcript_Traes_3AL_19DF69E6B:0.038684,(triticum_aestivum_proteome_first_transcript_Traes_3B_19D35CCB6:0,triticum_aestivum_proteome_first_transcript_Traes_3DL_3C372F891:0)n2:0.02222)n1:0.38714)n0;

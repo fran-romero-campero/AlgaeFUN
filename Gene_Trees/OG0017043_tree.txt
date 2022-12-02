@@ -1,1 +1,0 @@
-(ostreococcus_tauri_proteome_first_transcript_ostta11g01570:0.524165,(marchantia_polymorpha_proteome_first_transcript_Mp4g15710:1.09921,(marchantia_polymorpha_proteome_first_transcript_MpVg00010:0.862916,(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG031900:0.134154,ceratodon_purpureus_proteome_first_transcript_CepurR40.VG134200:0.18385):0.840692):0.237488):0.524165);

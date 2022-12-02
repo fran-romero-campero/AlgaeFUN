@@ -1,1 +1,0 @@
-((klebsormidium_nitens_proteome_first_transcript_kfl00063_0230:0.426184,klebsormidium_nitens_proteome_first_transcript_kfl00063_0240:0.23961):0.50952,(selaginella_moellendorffii_proteome_first_transcript_442640:1.06169,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000119l.182.1:1.0499):0.50952);

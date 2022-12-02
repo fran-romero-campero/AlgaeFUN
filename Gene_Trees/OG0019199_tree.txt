@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_proteome_first_transcript_439574:0.574604,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000127l.17.1:0.357148,(physcomitrium_patens_proteome_first_transcript_Pp3c5_9110:0.515264,ceratodon_purpureus_proteome_first_transcript_CepurR40.6G176600:0.656526):0.6022):0.574604);

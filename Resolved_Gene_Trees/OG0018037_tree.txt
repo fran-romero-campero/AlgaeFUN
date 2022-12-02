@@ -1,0 +1,1 @@
+((micromonas_pusilla_proteome_first_transcript_27342090:0.693408,ostreococcus_tauri_proteome_first_transcript_ostta07g01460:0.415307)n1:0.65044,(ulva_mutabilis_proteome_first_transcript_UM022_0124.1:0.165693,(ulva_mutabilis_proteome_first_transcript_UM022_0121.1:0.044558,ulva_mutabilis_proteome_first_transcript_UM022_0125.1:0.072796)n3:0.360464)n2:0.65044)n0;

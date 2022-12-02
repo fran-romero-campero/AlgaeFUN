@@ -1,1 +1,0 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G101900:0.776858,(ostreococcus_tauri_proteome_first_transcript_ostta17g00020:0.539486,(bathycoccus_prasinos_proteome_first_transcript_Bathy06g00060 length_483 _mRNA_ _n/a_  _NAD-dependent epimerase/dehydratase_:0.714308,micromonas_pusilla_proteome_first_transcript_27347660:0.536468):0.163246):0.776858);

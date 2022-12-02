@@ -1,1 +1,0 @@
-((micromonas_pusilla_proteome_first_transcript_27345522:0.009123,micromonas_pusilla_proteome_first_transcript_27347046:1.21453):0.087513,(ostreococcus_tauri_proteome_first_transcript_ostta03g05170:0.161161,bathycoccus_prasinos_proteome_first_transcript_Bathy07g00760 length_761 _mRNA_ _n/a_  _oligoendopeptidase F_:0.198754):0.087513);

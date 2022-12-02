@@ -1,0 +1,1 @@
+(ulva_mutabilis_proteome_first_transcript_UM022_0224.1:0.562429,(klebsormidium_nitens_proteome_first_transcript_kfl00182_0150:1.60676,(marchantia_polymorpha_proteome_first_transcript_Mp5g14640:0.826376,selaginella_moellendorffii_proteome_first_transcript_92145:0.516265)n2:0.23812)n1:0.562429)n0;

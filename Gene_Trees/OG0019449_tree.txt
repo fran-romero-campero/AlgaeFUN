@@ -1,1 +1,0 @@
-(bathycoccus_prasinos_proteome_first_transcript_Bathy107g00020 length_345 _mRNA_ _n/a_  _6-aminohexanoate-dimer hydrolase_:0.553477,(klebsormidium_nitens_proteome_first_transcript_kfl00102_0070:0.073186,(klebsormidium_nitens_proteome_first_transcript_kfl00102_0080:0.529582,klebsormidium_nitens_proteome_first_transcript_kfl00157_0080:0.587882):0.551224):0.553477);

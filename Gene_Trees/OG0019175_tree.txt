@@ -1,1 +1,0 @@
-((marchantia_polymorpha_proteome_first_transcript_Mp4g14520:0.843517,selaginella_moellendorffii_proteome_first_transcript_402258:1.13881):0.041519,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_014443:0.863913,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000049l.58.1:1.24941):0.041519);

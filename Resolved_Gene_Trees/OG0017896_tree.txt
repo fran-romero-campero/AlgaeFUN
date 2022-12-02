@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00118_0120:0.684963,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_06160:0.437106,(ulva_mutabilis_proteome_first_transcript_UM047_0058.1:0.173874,(ulva_mutabilis_proteome_first_transcript_UM047_0060.1:0.163792,ulva_mutabilis_proteome_first_transcript_UM047_0056.1:0.199492)n3:0.0683)n2:0.421282)n1:0.684963)n0;

@@ -1,1 +1,0 @@
-((ulva_mutabilis_proteome_first_transcript_UM036_0093.1:0.462858,ulva_mutabilis_proteome_first_transcript_UM036_0092.1:0.575036):0.220054,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre03.g196300:1.91371e-06,raphidocelis_subcapitata_proteome_first_transcript_Rsub_10128:0.469835):0.220054);

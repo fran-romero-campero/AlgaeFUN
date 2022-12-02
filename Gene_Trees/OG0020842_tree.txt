@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME1136459C07620:0.353789,(triticum_aestivum_proteome_first_transcript_Traes_6BS_300536B67:0.448369,(triticum_aestivum_proteome_first_transcript_Traes_2AS_DEC213280:0.342452,triticum_aestivum_proteome_first_transcript_Traes_6BS_0FA160F34:0.152377):0.112961):0.353789);

@@ -1,1 +1,0 @@
-((raphidocelis_subcapitata_proteome_first_transcript_Rsub_03131:0.491527,(ulva_mutabilis_proteome_first_transcript_UM036_0029.1:1.49057,chromochloris_zofingiensis_proteome_first_transcript_Cz03g38110:4.26721e-06):0.046764):0.211339,(micromonas_pusilla_proteome_first_transcript_27340679:1.09696,ostreococcus_tauri_proteome_first_transcript_ostta12g01110:0.797594):0.211339);

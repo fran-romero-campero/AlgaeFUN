@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00573_0060:0.346341,((raphidocelis_subcapitata_proteome_first_transcript_Rsub_05991:0.345232,raphidocelis_subcapitata_proteome_first_transcript_Rsub_01210:0.364767)n2:0.094442,chromochloris_zofingiensis_proteome_first_transcript_Cz06g08080:1.45329e-06)n1:0.346341)n0;

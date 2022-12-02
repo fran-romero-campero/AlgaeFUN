@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz09g21020:0.254199,(ulva_mutabilis_proteome_first_transcript_UM029_0070.1:0.529041,((ulva_mutabilis_proteome_first_transcript_UM006_0087.1:0.193865,ulva_mutabilis_proteome_first_transcript_UM006_0088.1:0.186951)n3:0.341424,ulva_mutabilis_proteome_first_transcript_UM006_0090.1:0.305051)n2:0.402337)n1:0.254199)n0;

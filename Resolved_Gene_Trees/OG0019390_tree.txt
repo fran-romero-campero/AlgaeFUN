@@ -1,0 +1,1 @@
+(ulva_mutabilis_proteome_first_transcript_UM004_0276.1:0.359746,(ostreococcus_tauri_proteome_first_transcript_ostta05g03920:0.524757,(bathycoccus_prasinos_proteome_first_transcript_Bathy03g04710 length_372 _mRNA_ _n/a_  _jmjC domain-containing protein 8_:0.733869,micromonas_pusilla_proteome_first_transcript_27347289:0.432512)n2:0.089834)n1:0.359746)n0;

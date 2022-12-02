@@ -1,1 +1,0 @@
-((selaginella_moellendorffii_proteome_first_transcript_412538:0.869649,chromochloris_zofingiensis_proteome_first_transcript_UNPLg00867:0.075831):0.0641485,(chromochloris_zofingiensis_proteome_first_transcript_Cz12g13190:0.095073,selaginella_moellendorffii_proteome_first_transcript_427944:0.895008):0.0641485);

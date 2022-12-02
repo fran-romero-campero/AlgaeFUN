@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp3g24360:0.604622,((klebsormidium_nitens_proteome_first_transcript_kfl01565_0010:0.19816,klebsormidium_nitens_proteome_first_transcript_kfl01584_0010:0.60645)n2:0.575115,klebsormidium_nitens_proteome_first_transcript_kfl00639_0010:0.103204)n1:0.604622)n0;

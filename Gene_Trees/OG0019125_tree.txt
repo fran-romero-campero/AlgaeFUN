@@ -1,1 +1,0 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000116l.52.1:0.10326,((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000124l.88.1:0.290131,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000012l.472.1:0.171578):0.033847,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000124l.76.1:0.148015):0.10326);

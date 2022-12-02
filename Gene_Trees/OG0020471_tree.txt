@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_016808:2.28162e-06,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_016842:0.585779,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_016844:0.848189):0.469367,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_016804:0.456595):2.28162e-06);

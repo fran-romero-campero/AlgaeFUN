@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta01g05020:0.149762,bathycoccus_prasinos_proteome_first_transcript_Bathy01g02790 length_726 _mRNA_ _n/a_  _glutamine synthetase catalytic region_:0.187849)n1:0.0076555,(micromonas_pusilla_proteome_first_transcript_27342480:0.205342,micromonas_pusilla_proteome_first_transcript_27344795:0.350206)n2:0.0076555)n0;

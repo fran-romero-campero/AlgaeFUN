@@ -1,1 +1,0 @@
-((ostreococcus_tauri_proteome_first_transcript_ostta03g04460:0.518159,bathycoccus_prasinos_proteome_first_transcript_Bathy07g02120 length_254 _mRNA_ _n/a_  _unnamed protein product_:0.887194):0.36362,(marchantia_polymorpha_proteome_first_transcript_Mp2g00550:0.92741,klebsormidium_nitens_proteome_first_transcript_kfl00727_0060:1.02477):0.36362);

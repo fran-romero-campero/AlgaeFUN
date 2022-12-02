@@ -1,1 +1,0 @@
-(ulva_mutabilis_proteome_first_transcript_UM021_0155.1:1.49122,(klebsormidium_nitens_proteome_first_transcript_kfl00495_0010:0.995099,((spirogloea_muscicola_proteome_first_transcript_SM000006S19501:0.070639,spirogloea_muscicola_proteome_first_transcript_SM000085S23276:0.031359):0.018835,spirogloea_muscicola_proteome_first_transcript_SM000117S25502:0.036501):0.556097):1.49122);

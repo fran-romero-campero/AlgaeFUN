@@ -1,1 +1,0 @@
-(ostreococcus_tauri_proteome_first_transcript_ostta10g00450:0.942285,((ulva_mutabilis_proteome_first_transcript_UM013_0213.1:0.658903,ulva_mutabilis_proteome_first_transcript_UM013_0210.1:0.770726):0.496547,ulva_mutabilis_proteome_first_transcript_UM045_0013.1:1.01848):0.942285);
