@@ -1,0 +1,1 @@
+(ulva_mutabilis_proteome_first_transcript_UM005_0059.1:0.984017,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre06.g287600:0.005502,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_05328:0.805247,chromochloris_zofingiensis_proteome_first_transcript_Cz18g11210:2.77318e-06)n2:0.083376)n1:0.984017)n0;

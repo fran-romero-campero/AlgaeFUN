@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_47025:0.862069,(mesotaenium_endlicherianum_proteome_first_transcript_ME001756S01945:1.05074,(klebsormidium_nitens_proteome_first_transcript_kfl00093_0060:1.06506,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g16833:0.671225)n2:0.157232)n1:0.862069)n0;

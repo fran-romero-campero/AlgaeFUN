@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000104S10620:0.846429,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_949:0.82807,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_6684:0.588655,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_6686:0.627689)n2:0.395102)n1:0.846429)n0;

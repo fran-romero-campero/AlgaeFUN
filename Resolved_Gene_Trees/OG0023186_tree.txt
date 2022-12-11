@@ -1,0 +1,1 @@
+(azolla_filiculoides_proteome_first_transcript_Azfi_s0045.g029966:0.920812,((bathycoccus_prasinos_proteome_first_transcript_Bathy09g02950 length_1015 _mRNA_ _n/a_  _unknown protein_:1.26481,ostreococcus_tauri_proteome_first_transcript_ostta03g02800:1.29748)n2:0.276172,micromonas_pusilla_proteome_first_transcript_27345774:1.38148)n1:0.920812)n0;

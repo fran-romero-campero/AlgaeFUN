@@ -1,0 +1,1 @@
+((marchantia_polymorpha_proteome_first_transcript_Mp3g18680:0.694712,ceratodon_purpureus_proteome_first_transcript_CepurR40.4G003900:0.378835)n1:0.295322,(chromochloris_zofingiensis_proteome_first_transcript_Cz03g25030:2.2335e-06,bathycoccus_prasinos_proteome_first_transcript_Bathy95g00030 length_526 _mRNA_ _n/a_  _AcnD-accessory protein PrpF_:0.763982)n2:0.295322)n0;

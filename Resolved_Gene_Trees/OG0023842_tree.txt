@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre42.g760447:0.572405,((ulva_mutabilis_proteome_first_transcript_UM023_0097.1:0.191668,ulva_mutabilis_proteome_first_transcript_UM095_0050.1:0.624148)n2:0.147953,ulva_mutabilis_proteome_first_transcript_UM023_0098.1:1.05109)n1:0.572405)n0;

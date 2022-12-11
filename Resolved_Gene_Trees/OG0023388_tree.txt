@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy36g00110 length_454 _mRNA_ _n/a_  _DNA translocase ftsK_:0.083885,(mesostigma_viridae_proteome_first_transcript_Mv20289:0.543873,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_033187:0.155923,physcomitrium_patens_proteome_first_transcript_Pp3s30_1140:1.73775)n2:1.28072)n1:0.083885)n0;

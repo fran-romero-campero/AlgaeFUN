@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta02g05040:0.276126,bathycoccus_prasinos_proteome_first_transcript_Bathy14g01770 length_464 _mRNA_ _n/a_  _Na+/H+ antiporter NhaA_:0.443803)n1:0.206832,(micromonas_pusilla_proteome_first_transcript_27348172:0,micromonas_pusilla_proteome_first_transcript_27347197:0)n2:0.206832)n0;

@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0112s0004:0.348638,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_10680:0.955307,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48569:0.824719,mesostigma_viridae_proteome_first_transcript_Mv09865:1.30957)n2:0.10746)n1:0.348638)n0;

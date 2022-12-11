@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_12312:0.459388,((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0005.g002703:2.97171e-06,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_009040:0.098069)n2:0.342335,ulva_mutabilis_proteome_first_transcript_UM064_0014.1:1.63623)n1:0.459388)n0;

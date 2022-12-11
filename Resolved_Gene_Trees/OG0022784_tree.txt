@@ -1,0 +1,1 @@
+(zea_mays_proteome_first_transcript_Zm00001d002624:0.322973,(aegilops_tauschii_proteome_first_transcript_AET2Gv20891000.1:0.000129,(triticum_aestivum_proteome_first_transcript_Traes_2BL_39E151650:6.59011e-07,triticum_aestivum_proteome_first_transcript_Traes_2DL_709C81859:0.0005841)n2:6.49e-05)n1:0.373172)n0;

@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3s30_520:0.650933,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_6490:1.07959,(mesostigma_viridae_proteome_first_transcript_Mv07468:0.030888,mesostigma_viridae_proteome_first_transcript_Mv07468:0.134452)n2:1.2857)n1:0.650933)n0;

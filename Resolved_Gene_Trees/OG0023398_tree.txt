@@ -1,0 +1,1 @@
+((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_10358:0.290578,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_31367:0.531638)n1:0.017129,(bathycoccus_prasinos_proteome_first_transcript_Bathy83g00030 length_676 _mRNA_ _n/a_  _2_4-dienoyl-CoA reductase_:0.305468,klebsormidium_nitens_proteome_first_transcript_kfl00314_0050:1.68303)n2:0.017129)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_44201:0.652558,(porphyra_umbilicalis_proteome_first_transcript_Pum0337s0013:0.847147,(porphyra_umbilicalis_proteome_first_transcript_Pum0031s0087:0.525943,porphyra_umbilicalis_proteome_first_transcript_Pum0450s0002:0.521289)n2:0.434517)n1:0.652558)n0;

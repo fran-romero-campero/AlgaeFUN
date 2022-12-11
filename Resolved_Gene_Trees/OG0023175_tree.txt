@@ -1,0 +1,1 @@
+(azolla_filiculoides_proteome_first_transcript_Azfi_s0043.g026996:0.397946,(azolla_filiculoides_proteome_first_transcript_Azfi_s0484.g073380:0.607349,(azolla_filiculoides_proteome_first_transcript_Azfi_s0043.g026993:0.95769,azolla_filiculoides_proteome_first_transcript_Azfi_s0029.g024053:0.622999)n2:0.039872)n1:0.397946)n0;

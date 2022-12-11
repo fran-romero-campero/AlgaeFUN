@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4900:0.441155,((chromochloris_zofingiensis_proteome_first_transcript_Cz16g08210:1.91916e-06,raphidocelis_subcapitata_proteome_first_transcript_Rsub_00942:0.599317)n2:0.777102,chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g095600:1.91916e-06)n1:0.441155)n0;

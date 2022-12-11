@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3170:0.7299,(chromochloris_zofingiensis_proteome_first_transcript_Cz07g01090:1.56889e-06,chromochloris_zofingiensis_proteome_first_transcript_Cz07g01070:1.56889e-06)n2:1.56889e-06)n1:0.32413,klebsormidium_nitens_proteome_first_transcript_kfl00341_0020:0.806108)n0;

@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4175:0.32323,(arabidopsis_thaliana_proteome_first_transcript_AT3G28530:0.221754,(aegilops_tauschii_proteome_first_transcript_AET5Gv20455900.1:0.064298,triticum_aestivum_proteome_first_transcript_Traes_5BL_9B60E0BC7:0.347264)n2:0.19451)n1:0.32323)n0;

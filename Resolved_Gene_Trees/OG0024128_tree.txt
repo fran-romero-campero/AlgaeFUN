@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4329:0.524931,((spirogloea_muscicola_proteome_first_transcript_SM000114S24115:0.32077,spirogloea_muscicola_proteome_first_transcript_SM004909S17357:0.250111)n2:0.520384,spirogloea_muscicola_proteome_first_transcript_SM000060S19605:0.53017)n1:0.524931)n0;

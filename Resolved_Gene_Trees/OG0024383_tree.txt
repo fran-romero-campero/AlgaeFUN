@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2042:0.276078,((mesostigma_viridae_proteome_first_transcript_Mv06005:0.044673,mesostigma_viridae_proteome_first_transcript_Mv06005:2.22222e-06)n2:0.87003,micromonas_pusilla_proteome_first_transcript_27341758:0.756769)n1:0.276078)n0;

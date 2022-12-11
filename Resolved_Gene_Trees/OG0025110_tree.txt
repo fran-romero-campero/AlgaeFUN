@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_904:0.721062,((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7184:0.677202,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7028:1.33299)n2:0.096447,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_9434:1.25484)n1:0.721062)n0;

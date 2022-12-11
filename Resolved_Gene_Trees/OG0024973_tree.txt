@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_43791:0.294241,(micromonas_pusilla_proteome_first_transcript_27340557:0.86212,(mesostigma_viridae_proteome_first_transcript_Mv11390:0.093818,mesostigma_viridae_proteome_first_transcript_Mv11391:0.228703)n2:0.49572)n1:0.294241)n0;

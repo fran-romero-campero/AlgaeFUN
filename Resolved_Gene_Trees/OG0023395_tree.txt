@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_proteome_first_transcript_Bathy74g00010 length_195 _mRNA_ _n/a_  _urate catabolism protein_:0.148751,klebsormidium_nitens_proteome_first_transcript_kfl00007_0240:0.976621)n1:0.216751,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4857:0.403433,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_40052:0.280221)n2:0.216751)n0;

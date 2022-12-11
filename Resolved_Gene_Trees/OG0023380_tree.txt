@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv12296:0.551284,((ostreococcus_tauri_proteome_first_transcript_ostta07g04680:0.438376,bathycoccus_prasinos_proteome_first_transcript_Bathy17g02240 length_229 _mRNA_ _n/a_  _peptidylprolyl isomerase FKBP-type_:0.760209)n2:0.126267,micromonas_pusilla_proteome_first_transcript_27345493:0.975089)n1:0.551284)n0;

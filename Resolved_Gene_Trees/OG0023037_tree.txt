@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv17521:0.019635,mesostigma_viridae_proteome_first_transcript_Mv17521:0.011474)n1:0.718358,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000117l.124.1:1.35012,solanum_lycopersicum_proteome_first_transcript_Solyc01g057700.1.1:0.821793)n2:0.718358)n0;

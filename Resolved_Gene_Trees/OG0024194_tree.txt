@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_45495:0.497731,(chromochloris_zofingiensis_proteome_first_transcript_Cz05g32200:2.47068e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_05731:1.21436,raphidocelis_subcapitata_proteome_first_transcript_Rsub_13408:0.770021)n2:0.0855579)n1:0.264681)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00029_0040:0.516193,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2626:0.363032,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g10775:0.572911)n2:0.018883,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2793:0.32628)n1:0.516193)n0;

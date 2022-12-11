@@ -1,0 +1,1 @@
+(azolla_filiculoides_proteome_first_transcript_Azfi_s0001.g000272:0.277702,(triticum_aestivum_proteome_first_transcript_Traes_2DL_7D7B1B55D:0.213981,(triticum_aestivum_proteome_first_transcript_Traes_1BL_7A0E99B19:0.836149,triticum_aestivum_proteome_first_transcript_Traes_1DL_A3476090A:0.041412)n2:0.313573)n1:0.277702)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_32877:0.666839,((klebsormidium_nitens_proteome_first_transcript_kfl00008_0280:0.697831,klebsormidium_nitens_proteome_first_transcript_kfl00008_0550:0.716862)n2:0.2278,klebsormidium_nitens_proteome_first_transcript_kfl00784_0040:0.939453)n1:0.666839)n0;

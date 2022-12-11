@@ -1,0 +1,1 @@
+((micromonas_pusilla_proteome_first_transcript_27342350:0.747354,ostreococcus_tauri_proteome_first_transcript_ostta16g01510:0.430593)n1:0.126133,(mesostigma_viridae_proteome_first_transcript_Mv11521:0.815314,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_7975:0.923714)n2:0.126133)n0;

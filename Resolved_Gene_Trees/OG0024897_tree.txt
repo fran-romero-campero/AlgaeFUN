@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0154s0031:0.822419,((ulva_mutabilis_proteome_first_transcript_UM041_0052.1:0.817386,ulva_mutabilis_proteome_first_transcript_UM006_0077.1:0.9529)n2:0.526377,mesostigma_viridae_proteome_first_transcript_Mv03499:1.32457)n1:0.822419)n0;

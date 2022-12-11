@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_proteome_first_transcript_Rsub_07659:0.632348,((mesotaenium_endlicherianum_proteome_first_transcript_ME000324S05310:0.631782,mesotaenium_endlicherianum_proteome_first_transcript_ME000129S00313:1.02093)n2:0.186182,spirogloea_muscicola_proteome_first_transcript_SM000280S10716:0.692225)n1:0.632348)n0;

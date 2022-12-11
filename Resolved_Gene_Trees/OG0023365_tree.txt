@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g5265:0.733246,((ostreococcus_tauri_proteome_first_transcript_ostta05g01510:0.671695,micromonas_pusilla_proteome_first_transcript_27343904:0.58807)n2:0.03864,bathycoccus_prasinos_proteome_first_transcript_Bathy14g01720 length_292 _mRNA_ _n/a_  _predicted protein_:0.73778)n1:0.733246)n0;

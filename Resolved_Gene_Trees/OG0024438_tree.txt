@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0271s0004:0.663274,((micromonas_pusilla_proteome_first_transcript_27345886:1.0756,ostreococcus_tauri_proteome_first_transcript_ostta12g02870:1.04971)n2:0.10684,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6978:1.16753)n1:0.663274)n0;

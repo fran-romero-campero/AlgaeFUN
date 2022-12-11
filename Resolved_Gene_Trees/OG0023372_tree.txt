@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_proteome_first_transcript_Rsub_04818:0.784546,(bathycoccus_prasinos_proteome_first_transcript_Bathy16g00110 length_338 _mRNA_ _n/a_  _unnamed protein product_:0.609367,(ostreococcus_tauri_proteome_first_transcript_ostta16g00350:0.345726,ostreococcus_tauri_proteome_first_transcript_ostta13g02820:0.373451)n2:0.015038)n1:0.784546)n0;

@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0390s0013:0.739098,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g8617:0.461692,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g11256:0.193293,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g11263:0.190871)n2:0.269763)n1:0.739098)n0;

@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_008236:0.786873,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000050l.300.1:1.2615)n1:0.131315,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_2418:0.811656,mesostigma_viridae_proteome_first_transcript_Mv16112:0.912536)n2:0.131315)n0;

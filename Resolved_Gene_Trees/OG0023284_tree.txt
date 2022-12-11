@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_16140:0.221288,((micromonas_pusilla_proteome_first_transcript_27343244:0.247712,ostreococcus_tauri_proteome_first_transcript_ostta05g01070:0.194669)n2:0.041728,bathycoccus_prasinos_proteome_first_transcript_Bathy03g01110 length_451 _mRNA_ _n/a_  _uroporphyrinogen decarboxylase_:0.268019)n1:0.221288)n0;

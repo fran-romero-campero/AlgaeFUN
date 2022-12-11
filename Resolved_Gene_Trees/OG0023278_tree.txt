@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv18366:0.259334,(micromonas_pusilla_proteome_first_transcript_27346330:0.349269,(ostreococcus_tauri_proteome_first_transcript_ostta07g01100:0.627253,bathycoccus_prasinos_proteome_first_transcript_Bathy02g04740 length_353 _mRNA_ _n/a_  _ubiquinone/menaquinone biosynthesis methyltransferase_:0.798137)n2:0.113271)n1:0.259334)n0;

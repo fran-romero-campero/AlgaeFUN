@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_proteome_first_transcript_AT5G24830:0.928256,solanum_lycopersicum_proteome_first_transcript_Solyc03g120070.4.1:1.01403)n1:0.124157,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s2112.g028266:0.579658,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0010.g004608:0.077217)n2:0.124157)n0;

@@ -1,0 +1,1 @@
+(sorghum_bicolor_proteome_first_transcript_Sobic.009G115000:0.556088,(spirogloea_muscicola_proteome_first_transcript_SM006089S19299:0.152139,(spirogloea_muscicola_proteome_first_transcript_SM005961S19578:0.259739,spirogloea_muscicola_proteome_first_transcript_SM006095S19559:0.11631)n2:0.033935)n1:0.556088)n0;

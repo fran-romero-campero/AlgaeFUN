@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49693:1.1596,((klebsormidium_nitens_proteome_first_transcript_kfl00038_0225:0.416043,chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g364100:2.73524e-06)n2:0.148469,chromochloris_zofingiensis_proteome_first_transcript_Cz01g39100:2.73524e-06)n1:1.1596)n0;

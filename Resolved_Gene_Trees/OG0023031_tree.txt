@@ -1,0 +1,1 @@
+((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000103l.62.1:0.968517,klebsormidium_nitens_proteome_first_transcript_kfl00116_0025:1.01139)n1:0.726391,(mesostigma_viridae_proteome_first_transcript_Mv05100:0.014858,mesostigma_viridae_proteome_first_transcript_Mv05100:0.017513)n2:0.726391)n0;

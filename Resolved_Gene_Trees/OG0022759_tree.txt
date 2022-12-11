@@ -1,1 +1,1 @@
-(ulva_mutabilis_proteome_first_transcript_UM111_0040.1:0.284984,(ulva_mutabilis_proteome_first_transcript_UM127_0014.1:1.11695,(ulva_mutabilis_proteome_first_transcript_UM127_0010.1:0.217959,ulva_mutabilis_proteome_first_transcript_UM127_0013.1:0.228311)n2:0.364979)n1:0.284984)n0;
+((triticum_aestivum_proteome_first_transcript_Traes_7BL_F5BA5CF50:0.538255,aegilops_tauschii_proteome_first_transcript_AET7Gv21221800.1:0.040537)n1:0.349728,(zea_mays_proteome_first_transcript_Zm00001d018611:0.53358,sorghum_bicolor_proteome_first_transcript_Sobic.002G002300:0.266206)n2:0.349728)n0;

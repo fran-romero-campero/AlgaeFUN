@@ -1,0 +1,1 @@
+((ostreococcus_tauri_proteome_first_transcript_ostta06g03720:0.698632,bathycoccus_prasinos_proteome_first_transcript_Bathy05g04100 length_1280 _mRNA_ _n/a_  _unknown protein_:0.944058)n1:0.255404,(mesostigma_viridae_proteome_first_transcript_Mv19444:0.727665,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_793:1.00543)n2:0.255404)n0;

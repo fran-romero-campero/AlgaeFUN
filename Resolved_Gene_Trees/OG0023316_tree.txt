@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_31778:0.22164,(micromonas_pusilla_proteome_first_transcript_27345611:0.587811,(ostreococcus_tauri_proteome_first_transcript_ostta04g02870:0.394871,bathycoccus_prasinos_proteome_first_transcript_Bathy06g05180 length_411 _mRNA_ _n/a_  _predicted protein_:0.724289)n2:0.081257)n1:0.22164)n0;

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g19914:0.842549,((spirogloea_muscicola_proteome_first_transcript_SM000071S21046:0.06738,spirogloea_muscicola_proteome_first_transcript_SM000119S25659:0.112445)n2:1.07756,spirogloea_muscicola_proteome_first_transcript_SM000771S22555:2.16929e-06)n1:0.842549)n0;

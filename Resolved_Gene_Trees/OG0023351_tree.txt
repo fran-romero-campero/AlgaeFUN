@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv07973:0.458972,((bathycoccus_prasinos_proteome_first_transcript_Bathy11g01960 length_265 _mRNA_ _n/a_  _predicted protein_:0.646366,micromonas_pusilla_proteome_first_transcript_27343900:0.66891)n2:0.41515,ostreococcus_tauri_proteome_first_transcript_ostta10g01930:0.893938)n1:0.458972)n0;

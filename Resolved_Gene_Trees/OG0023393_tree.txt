@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy71g00020 length_505 _mRNA_ _n/a_  _homoserine dehydrogenase_:0.532151,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_2489:0.319252,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_26813:0.461995,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48694:0.3703)n2:0.0411444)n1:0.07159)n0;

@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_proteome_first_transcript_Rsub_00373:0.334349,((raphidocelis_subcapitata_proteome_first_transcript_Rsub_05191:0.026299,raphidocelis_subcapitata_proteome_first_transcript_Rsub_05195:0.023566)n2:2.32983,raphidocelis_subcapitata_proteome_first_transcript_Rsub_00374:0.153688)n1:0.334349)n0;

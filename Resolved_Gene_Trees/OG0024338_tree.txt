@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14974:0.557766,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g5277:0.492833,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g5253:0.247704,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23275:0.383667)n2:0.484514)n1:0.557766)n0;

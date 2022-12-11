@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy73g00020 length_729 _mRNA_ _n/a_  _malic enzyme_:0.486494,(chromochloris_zofingiensis_proteome_first_transcript_Cz06g32210:1.99151e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_12003:0.754423,raphidocelis_subcapitata_proteome_first_transcript_Rsub_06796:0.721699)n2:0.0801888)n1:0.54347)n0;

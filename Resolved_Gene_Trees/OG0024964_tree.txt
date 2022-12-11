@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv13625:0.126067,mesostigma_viridae_proteome_first_transcript_Mv13625:0.077988)n1:0.715105,(micromonas_pusilla_proteome_first_transcript_27345520:1.38562,ostreococcus_tauri_proteome_first_transcript_ostta10g01130:1.44596)n2:0.715105)n0;

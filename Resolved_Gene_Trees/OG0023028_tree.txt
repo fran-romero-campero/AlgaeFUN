@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy01g06450 length_188 _mRNA_ _n/a_  _histidine triad _HIT_ protein_:0.407419,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_8914:0.313331,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000085l.32.1:0.439626,mesostigma_viridae_proteome_first_transcript_Mv02208:0.458271)n2:0.057447)n1:0.407419)n0;

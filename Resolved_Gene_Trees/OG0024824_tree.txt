@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_bd_276:0.577294,((mesostigma_viridae_proteome_first_transcript_Mv21123:3.65518e-06,mesostigma_viridae_proteome_first_transcript_Mv16384:1.00639)n2:0.662858,mesostigma_viridae_proteome_first_transcript_Mv04944:0.963015)n1:0.577294)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv12220:0.690142,(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G166600:1.37841,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000049l.671.1:0.557195,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000005l.312.1:4.07422e-06)n2:0.812855)n1:0.690142)n0;
