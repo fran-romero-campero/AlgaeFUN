@@ -1,7 +1,9 @@
 ## Authors: Ana B. Romero-Losada
 ##          Francisco J. Romero-Campero <fran@us.es>
-##          Pedro de los Reyes 
 ##          Christina Arvanitidou
+##          Marcos Ramos-Gonzalez
+##          Pedro de los Reyes 
+
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 
@@ -22,6 +24,8 @@ library(shinyjs)
 ## Load microalgae annotation packages
 # library(org.Otauri.eg.db) 
 ##install.packages(pkgs = "./packages/annotation_packages/org.Vcarteri.eg.db/",repos = NULL,type="source")
+##install.packages(pkgs = c("org.Bprasinos.eg.db", "org.Csubellipsoidea.eg.db", "org.Dsalina.eg.db", "org.Knitens.eg.db", "org.MpusillaCCMP1545.eg.db", "org.Otauri.eg.db", "org.Smuscicola.eg.db", "org.Creinhardtii.eg.db", "org.Czofingiensis.eg.db", "org.Hlacustris.eg.db", "org.Mendlicherianum.eg.db", "org.Ngaditana.eg.db", "org.Ptricornutum.eg.db", "org.Vcarteri.eg.db"),repos = NULL,type="source")
+##install.packages(pkgs = c("TxDb.Bprasinos.ORCAE", "TxDb.Czofingiensis.Phytozome", "TxDb.Knitens.Phycocosm", "TxDb.Ngaditana.JGI", "TxDb.Smuscicola.pub", "TxDb.Creinhardtii.Phytozome", "TxDb.Dsalina.Phytozome", "TxDb.Mendlicherianum.pub", "TxDb.Otauri.JGI", "TxDb.Vcarteri.Phytozome", "TxDb.Csubellipsoidea.Phytozome", "TxDb.Hlacustris.NCBI", "TxDb.MpusillaCCMP1545.Phytozome", "TxDb.Ptricornutum.Ensembl.Protists"),repos = NULL,type="source")
 # library(org.MpusillaCCMP1545.eg.db)
 # library(org.Bprasinos.eg.db)
 # library(org.Csubellipsoidea.eg.db)
@@ -463,7 +467,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                      "Gene Set Functional Analysis" = "genes",
                      "Genomic Loci Functional Analysis" = "chip",
                      "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
-                     "Funtree, Phylogenomic Analysis" = "funtree",
+                     "Funtree, Phylogenomic Analysis of Genes in Viridiplantae" = "funtree",
                      "Tutorials" = "tutorials",
                      "GitHub repository" = "github",
                      "Citation and Contact" = "citation"
@@ -484,7 +488,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
                code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research."),
                
-               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS: "),
+               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS. 
+                        Our web tool also supports the generation of phylogenetic trees and the identification of potential orthologous genes using the functionality ",
+                        tags$b("Funtree"), " available from the navigation bar on the left."),
                tags$br(),tags$br(),
                # 
                tags$div(align ="center",img(src='phylogeny.png', align = "center", width=600))
@@ -510,13 +516,15 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       )),
       
       conditionalPanel(condition = "input.navigation_bar == 'funtree'",
-                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous proteins across different evolutionally 
-                       distant species given a target protein. To perform the analysis, please follow the next instructions:",
+                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous genes across different evolutionally 
+                       distant species given a target gene. This tool is based on our phylogenomic analysis carried out using", 
+                                tags$b(tags$a(href="https://github.com/davidemms/OrthoFinder", "orthofinder")),
+                                "To perform the analysis, please follow the next instructions:",
                                 tags$ol(
                                   tags$li("In the lower panel choose as many species as you wish to include in the tree.",),
                                   tags$li("Then write the ID of your gene of interest in the textbox, which has to correspond to one of the organisms selected
-                                  in the previous step. If not, please select it before continuing. An example for",tags$i("Marchantia polymorpha"), "appears in the 
-                                          text box."),
+                                  in the previous step. If not, please select it before continuing. An example for the ",tags$i("Arabidopsis thaliana  CCA1"), 
+                                  " gene (AT2G46830, Circadian Clock Associated 1) appears in the text box."),
                                   tags$li("Finally, click the", tags$b("Have Fun!"), "button to construct the tree. Each organism appears with an specific
                                           color detailed in legend and the target gene is highlighted in red. Also, a text box allows user to copy the names
                                           of all the detected orthologs in a simple way."))),
@@ -545,9 +553,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                                          "cri", "af", "sc",
                                                          "cyc", "tp", "ta",
                                                          "aegi", "os", "sb",
-                                                         "zm", "sl","at"),
+                                                         "zm", "sl","a
                                           label= "Select the organisms to show in tree"),
-                       textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160"),
+                       textInput(inputId = "geneInt",value = "AT2G46830",label = NULL, placeholder = "AT2G46830"),
                        actionButton(inputId = "funtree_button",label = "Have fun!", icon("send")),
                        
       ),
@@ -639,18 +647,17 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                 "and", tags$b("open science."),"Following our philosophy we have deposited our GitHub code 
                        into", tags$a(href="https://zenodo.org/record/4754516#.YJxLPSaxUws", target="_blank",tags$b("Zenodo")), ", a
                        general-purpose open-access repository developed under the", 
-                                tags$a(href="https://www.openaire.eu/", target="_blank", tags$b("European OpenAIRE program.")), "Meanwhile we publish 
-                       our work in a journal if you find", tags$b("AlgaeFUN with MARACAS"), "useful in your research we would be most grateful if you cite 
-                       our GitHub repository with a,", tags$b("DOI"),  "as follows:",
+                                tags$a(href="https://www.openaire.eu/", target="_blank", tags$b("European OpenAIRE program.")), "If you use AlgaeFUN with
+                                MARACAS in your research please cite us:",
                                 tags$br(),
                                 tags$br(),
-                                tags$div(tags$b("Romero-Losada, A.B., Arvanitidou, C., de los Reyes, P., 
-                                García-González, M., Romero-Campero, F.J. (2021) AlgaeFUN with MARACAS, microAlgae FUNctional 
-                                enrichment tool for MicroAlgae RnA-seq and Chip-seq AnalysiS v1.0, Zenodo, doi:10.5381/zenodo.4754516 doi:10.5381/zenodo.4752818"))),
-                       
+                                tags$div(tags$a(href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04639-5", target="_blank",
+                                tags$b("Romero-Losada, A.B., Arvanitidou, C., de los Reyes, P., García-González, M. & Romero-Campero, F.J. 
+                                ALGAEFUN with MARACAS, microALGAE FUNctional enrichment tool for MicroAlgae RnA-seq and Chip-seq AnalysiS. 
+                                BMC Bioinformatics 23, 113 (2022). https://doi.org/10.1186/s12859-022-04639-5")))),
                        tags$br(),
                        tags$br(),
-                       #tags$div(align="center", img(src='smiley.png', align = "center", width=200,hight=200)),
+                       tags$div("If you want to contact us send an email to:", img(src='email.png',width=100)),
                        tags$br()
                        
       ),
@@ -1289,12 +1296,14 @@ server <- shinyServer(function(input, output, session) {
                             ont           = input$ontology,
                             pAdjustMethod = "BH",
                             pvalueCutoff  = input$pvalue,
+                            qvalueCutoff = 1,
                             readable      = TRUE,
                             keyType = "GID")
       
       
       ## Generate ouput table
-      enrich.go.result <- as.data.frame(enrich.go)
+      enrich.go.result <- as.data.frame(enrich.go@result)
+      enrich.go.result <- subset(enrich.go.result, pvalue < input$pvalue)
 
       if(nrow(enrich.go.result) > 0)
       {
@@ -1496,7 +1505,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(mpusilla.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1539,7 +1548,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(csubellipsoidea.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1577,7 +1586,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(dsalina.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1630,7 +1639,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(knitens.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1653,7 +1662,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(mendlicherianum.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1676,7 +1685,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(smuscicola.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1699,7 +1708,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(hlacustris.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
         
         if(nrow(pathway.enrichment) > 1)
         {
@@ -1725,7 +1734,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05 )) #input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1748,12 +1757,12 @@ with the corresponding GO term. Right click on the image to download it.")
           input$microalgae != "dsalina" && input$microalgae != "csubellipsoidea")
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
-                                         universe = gene.universe,qvalueCutoff = input$pvalue)
+                                         universe = gene.universe,pvalueCutoff = input$pvalue, qvalueCutoff = 1)
       }
       shinyjs::showElement(id = 'ready.enrichment.kegg')
       shinyjs::hideElement(id = 'loading.enrichment.kegg')
       
-      pathway.enrichment.result <- as.data.frame(pathway.enrichment)
+      pathway.enrichment.result <- as.data.frame(pathway.enrichment@result)
       if(nrow(pathway.enrichment.result) > 0)
       {
         kegg.intro.text <- paste(c("This tab presents the results from the <b>KEGG pathways/modules enrichment analysis</b> 
@@ -3088,7 +3097,7 @@ assocated to the enriched pathway represented in the corresponding row."
     tree <- eventReactive(input$funtree_button,{
       
       gene.name.tree <- input$geneInt
-      
+
       # Load table with orthogroups information
       ortho.table <- read.csv("Resolved_Gene_Trees/Orthogroups.tsv", header = T, sep = "\t", as.is = T,
                               fill = T, blank.lines.skip = F)
