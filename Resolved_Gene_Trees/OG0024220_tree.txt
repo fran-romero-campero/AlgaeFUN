@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz17g00140:2.44379e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_07083:1.07422,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_10928:0.853658,raphidocelis_subcapitata_proteome_first_transcript_Rsub_07084:0.73114)n2:0.270086)n1:2.44379e-06)n0;
+(solanum_lycopersicum_Solyc07g032780:0.169942,((cycas_panzhihuaensis_CYCAS_010513:0.66206,cycas_panzhihuaensis_CYCAS_017828:0.961676)n2:0.122785,cycas_panzhihuaensis_CYCAS_000657:0.807272)n1:0.169942)n0;

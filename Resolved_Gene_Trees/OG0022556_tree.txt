@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c2_19470:0.299901,(aegilops_tauschii_proteome_first_transcript_AET5Gv20874700.1:0.052386,(zea_mays_proteome_first_transcript_Zm00001d045786:0.250697,zea_mays_proteome_first_transcript_Zm00001d014940:0.915542)n2:0.468496)n1:0.299901)n0;
+(sorghum_bicolor_Sobic.010G122666:0.244342,(aegilops_tauschii_AET7Gv20544300:0.171838,(triticum_aestivum_Traes_7BS_8D0007088:0.377882,triticum_aestivum_Traes_7BS_15A4A9BC5:0.084997)n2:0.372116)n1:0.244342)n0;

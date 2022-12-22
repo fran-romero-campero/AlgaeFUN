@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g21329:0.196396,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g4538:0.195298,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6830:0.159655)n2:0.069551,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g19846:1.82943)n1:0.196396)n0;
+((solanum_lycopersicum_Solyc08g069220:0.766958,solanum_lycopersicum_Solyc08g067170:2.67409e-06)n1:0.470684,(thuja_plicata_Thupl.29380708s0001:0.56756,cycas_panzhihuaensis_CYCAS_008820:0.480014)n2:0.470684)n0;

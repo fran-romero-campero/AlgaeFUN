@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00371_0140:0.881973,((klebsormidium_nitens_proteome_first_transcript_kfl00639_0020:1.1303,klebsormidium_nitens_proteome_first_transcript_kfl00492_0060:0.895827)n2:0.433313,klebsormidium_nitens_proteome_first_transcript_kfl00381_0090:1.66393)n1:0.881973)n0;
+(micromonas_pusilla_Micpu_27343092:0.396518,((micromonas_pusilla_Micpu_27344704:1.2925,micromonas_pusilla_Micpu_27346486:1.1904)n2:0.300027,micromonas_pusilla_Micpu_27342501:1.49763)n1:0.396518)n0;

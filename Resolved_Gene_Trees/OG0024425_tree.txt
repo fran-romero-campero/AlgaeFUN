@@ -1,1 +1,1 @@
-((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g4499:1.41133,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g917:0.765745)n1:0.084899,(micromonas_pusilla_proteome_first_transcript_27348848:1.06656,klebsormidium_nitens_proteome_first_transcript_kfl00372_0140:1.69895)n2:0.084899)n0;
+(mesotaenium_endlicherianum_ME000157S01551:0.483279,(klebsormidium_nitens_kfl00028_0180:0.821472,(klebsormidium_nitens_kfl00156_0220:0.506215,klebsormidium_nitens_kfl00536_0020:0.46987)n2:0.23125)n1:0.483279)n0;

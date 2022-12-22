@@ -1,1 +1,1 @@
-(zea_mays_proteome_first_transcript_Zm00001d010750:0.0958085,(zea_mays_proteome_first_transcript_Zm00001d029374:0.24516,(zea_mays_proteome_first_transcript_Zm00001d010734:0.240932,(zea_mays_proteome_first_transcript_Zm00001d015773:0.997697,zea_mays_proteome_first_transcript_Zm00001d017781:0.731666)n3:0.056914)n2:0.155827)n1:0.0958085)n0;
+(aegilops_tauschii_AET5Gv20822300:0.24222,((oryza_sativa_LOC_Os05g04890.1:0.266907,oryza_sativa_LOC_Os05g04914.1:0.120041)n2:0.121394,sorghum_bicolor_Sobic.002G135300:0.362037)n1:0.24222)n0;

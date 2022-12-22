@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026960:0.264402,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_027242:0.827609,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021794:0.946146)n2:0.15252,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026962:0.740809)n1:0.264402)n0;
+(marchantia_polymorpha_Mp4g02910:0.819701,(raphidocelis_subcapitata_Rsub_01005:0.93194,(raphidocelis_subcapitata_Rsub_09982:0.771717,raphidocelis_subcapitata_Rsub_02641:0.665194)n2:0.224962)n1:0.819701)n0;

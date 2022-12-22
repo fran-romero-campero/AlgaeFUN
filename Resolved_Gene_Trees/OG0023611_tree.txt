@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG019400:0.276472,((triticum_aestivum_proteome_first_transcript_Traes_3AS_5AE045E40:0.090901,triticum_aestivum_proteome_first_transcript_Traes_3AS_AFBB7B8BD:2.34549e-06)n2:0.867536,zea_mays_proteome_first_transcript_Zm00001d020897:0.854749)n1:0.276472)n0;
+((chlamydomonas_reinhardtii_Cre16.g678549:0.003648,chlamydomonas_reinhardtii_Cre16.g678661:0.001125)n1:0.187145,(chromochloris_zofingiensis_Cz18g00120:0.158088,raphidocelis_subcapitata_Rsub_07645:0.264845)n2:0.187145)n0;

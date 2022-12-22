@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_3B_4C5F15789:0.285293,((aegilops_tauschii_proteome_first_transcript_AET7Gv20280100.1:0.149738,aegilops_tauschii_proteome_first_transcript_AET3Gv20370200.1:0.389212)n2:0.302493,aegilops_tauschii_proteome_first_transcript_AET1Gv20456300.1:0.626775)n1:0.285293)n0;
+(solanum_lycopersicum_Solyc07g009440:0.574179,(aegilops_tauschii_AET7Gv21119400:0.045196,(triticum_aestivum_Traes_7DL_5CD87C9B8:0.303474,triticum_aestivum_Traes_7DL_79E128495:0.218141)n2:0.283309)n1:0.574179)n0;

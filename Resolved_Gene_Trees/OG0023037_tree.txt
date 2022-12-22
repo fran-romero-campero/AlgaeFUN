@@ -1,1 +1,1 @@
-((mesostigma_viridae_proteome_first_transcript_Mv17521:0.019635,mesostigma_viridae_proteome_first_transcript_Mv17521:0.011474)n1:0.718358,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000117l.124.1:1.35012,solanum_lycopersicum_proteome_first_transcript_Solyc01g057700.1.1:0.821793)n2:0.718358)n0;
+(cycas_panzhihuaensis_CYCAS_018977:0.46118,(ceratopteris_richardii_Ceric.04G015100:0.352987,(azolla_filiculoides_Azfi_s2932.g113765:0.427992,salvinia_cucullata_Sacu_v1.1_s0026.g009533:0.061917)n2:0.260529)n1:0.46118)n0;

@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz02g15140:1.53029e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_04800:0.764804,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_02052:0.17165,raphidocelis_subcapitata_proteome_first_transcript_Rsub_02051:0.121165)n2:0.608192)n1:1.53029e-06)n0;
+(cycas_panzhihuaensis_CYCAS_000038:0.32297,((cycas_panzhihuaensis_CYCAS_031730:0.729063,cycas_panzhihuaensis_CYCAS_018928:0.355346)n2:0.119141,cycas_panzhihuaensis_CYCAS_009525:0.790866)n1:0.32297)n0;

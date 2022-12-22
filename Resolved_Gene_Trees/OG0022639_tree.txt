@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG234900:0.155569,(aegilops_tauschii_proteome_first_transcript_AET1Gv20428700.1:0.08315,(triticum_aestivum_proteome_first_transcript_Traes_5BS_9FFFDDFAA:0.139273,triticum_aestivum_proteome_first_transcript_Traes_1BL_BAB666774:0.0273915)n2:0.0030435)n1:0.280623)n0;
+((cycas_panzhihuaensis_CYCAS_001065:0.793898,(ceratodon_purpureus_CepurR40.VG078500:0.600628,ceratodon_purpureus_CepurR40.8G097000:0.550844)n2:0.0612049)n1:0.0399825,aegilops_tauschii_AET6Gv20094800:0.435376)n0;

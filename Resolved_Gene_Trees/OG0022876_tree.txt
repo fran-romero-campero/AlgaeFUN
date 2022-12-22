@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_005317:0.720597,(aegilops_tauschii_proteome_first_transcript_AET4Gv20593100.1:0.008051,(triticum_aestivum_proteome_first_transcript_Traes_4BS_17861F122:0.14272,triticum_aestivum_proteome_first_transcript_Traes_4DL_EEC3DE452:9.56048e-07)n2:9.56048e-07)n1:0.086048)n0;
+(arabidopsis_thaliana_AT3G44580:0.434242,((arabidopsis_thaliana_AT3G30820:0.529624,arabidopsis_thaliana_AT3G44570:0.399165)n2:0.408379,arabidopsis_thaliana_AT2G14000:0.296906)n1:0.434242)n0;

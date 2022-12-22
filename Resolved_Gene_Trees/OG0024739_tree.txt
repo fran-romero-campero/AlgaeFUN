@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00620_0090:0.192794,((klebsormidium_nitens_proteome_first_transcript_kfl01353_0030:0.225039,klebsormidium_nitens_proteome_first_transcript_kfl01043_0050:0.085288)n2:0.270715,klebsormidium_nitens_proteome_first_transcript_kfl00778_0060:1.4188)n1:0.192794)n0;
+((porphyra_umbilicalis_Pum2386s0001:0.969666,porphyra_umbilicalis_Pum0313s0021:0.683016)n1:0.35799,(ostreococcus_tauri_ostta03g03650:0.8452,micromonas_pusilla_Micpu_27349086:0.825155)n2:0.35799)n0;

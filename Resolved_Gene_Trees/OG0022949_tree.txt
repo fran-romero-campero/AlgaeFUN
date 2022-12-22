@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000610S08683:0.720017,((physcomitrium_patens_proteome_first_transcript_Pp3c24_16470:0.284688,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G030500:0.181587)n2:0.283664,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000008l.171.1:0.61571)n1:0.720017)n0;
+((ceratopteris_richardii_Ceric.34G025800:0.351442,ceratopteris_richardii_Ceric.23G050400:0.3098)n1:0.12483,(salvinia_cucullata_Sacu_v1.1_s0007.g003797:0.281818,azolla_filiculoides_Azfi_s0013.g013350:0.997305)n2:0.12483)n0;

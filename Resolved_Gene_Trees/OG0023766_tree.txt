@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_proteome_first_transcript_Cre08.g368000:2.43615e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_02225:1.62756,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_04443:0.176298,raphidocelis_subcapitata_proteome_first_transcript_Rsub_04444:0.139785)n2:1.40169)n1:2.43615e-06)n0;
+(chlamydomonas_reinhardtii_Cre03.g162850:1.95388e-06,((volvox_carteri_Vocar.0032s0126:0.586924,volvox_carteri_Vocar.0032s0128:0.483983)n2:0.522588,volvox_carteri_Vocar.0005s0194:0.532571)n1:1.95388e-06)n0;

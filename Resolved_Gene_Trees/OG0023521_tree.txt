@@ -1,1 +1,1 @@
-((physcomitrium_patens_proteome_first_transcript_Pp3c13_910:0.186621,physcomitrium_patens_proteome_first_transcript_Pp3c23_18540:0.739108)n1:0.232033,(ceratodon_purpureus_proteome_first_transcript_CepurR40.3G247800:0.058324,ceratodon_purpureus_proteome_first_transcript_CepurR40.N039200:0.029981)n2:0.232033)n0;
+(ceratopteris_richardii_Ceric.10G079500:0.154185,((triticum_aestivum_Traes_2DS_CE7A57AB0:0.085694,triticum_aestivum_Traes_5DL_B884D7675:0.578608)n2:0.101738,cycas_panzhihuaensis_CYCAS_004156:0.682426)n1:0.154185)n0;

@@ -1,1 +1,1 @@
-(spirogloea_muscicola_proteome_first_transcript_SM000035S13110:0.811677,(spirogloea_muscicola_proteome_first_transcript_SM000035S13095:0.721552,(spirogloea_muscicola_proteome_first_transcript_SM000035S13103:0.441792,spirogloea_muscicola_proteome_first_transcript_SM000008S22153:0.397019)n2:0.249518)n1:0.811677)n0;
+(triticum_aestivum_Traes_5BS_4F379868D:0.189536,(triticum_aestivum_Traes_5DS_79F3C97A8:9.9726e-07,(triticum_aestivum_Traes_5BS_E42808E7F:0.482994,triticum_aestivum_Traes_5AS_BAA349B2E:0.038011)n2:0.187088)n1:0.189536)n0;

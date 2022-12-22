@@ -1,1 +1,1 @@
-(bathycoccus_prasinos_proteome_first_transcript_Bathy36g00110 length_454 _mRNA_ _n/a_  _DNA translocase ftsK_:0.083885,(mesostigma_viridae_proteome_first_transcript_Mv20289:0.543873,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_033187:0.155923,physcomitrium_patens_proteome_first_transcript_Pp3s30_1140:1.73775)n2:1.28072)n1:0.083885)n0;
+(sphangum_magellanicum_Sphmag05G138600:0.896953,(ceratodon_purpureus_CepurR40.5G083100:0.897983,(physcomitrium_patens_Pp3c6_6040:0.153921,physcomitrium_patens_Pp3c5_23850:0.590117)n2:0.0655686)n1:0.201985)n0;

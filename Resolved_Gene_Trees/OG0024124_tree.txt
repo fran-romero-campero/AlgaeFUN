@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2577:0.442695,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3877:0.619306,(mesostigma_viridae_proteome_first_transcript_Mv00600:1.07581,micromonas_pusilla_proteome_first_transcript_27340560:1.06983)n2:0.153849)n1:0.442695)n0;
+(phaeodactylum_tricornutum_Phatr2_47025:0.862069,(mesotaenium_endlicherianum_ME001756S01945:1.05074,(klebsormidium_nitens_kfl00093_0060:1.06506,cyanophora_paradoxa_Cyapar1_g16833:0.671225)n2:0.157232)n1:0.862069)n0;

@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27349088:0.82104,(azolla_filiculoides_proteome_first_transcript_Azfi_s0198.g057396:0.359316,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0049.g013655:1.49967,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0085.g018362:0.295249)n2:0.0328055)n1:1.38753)n0;
+(ceratodon_purpureus_CepurR40.VG030300:0.264715,((ceratodon_purpureus_CepurR40.VG310600:0.788369,ceratodon_purpureus_CepurR40.VG189500:1.08699)n2:0.014141,ceratodon_purpureus_CepurR40.2G226200:0.918318)n1:0.264715)n0;

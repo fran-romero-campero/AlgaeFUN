@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG211300:0.604884,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000002l.65.1:1.79551e-06,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000125l.10.1:0.322236,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000002l.626.1:0.193325)n2:0.522688)n1:0.604884)n0;
+(arabidopsis_thaliana_AT4G26450:1.34646,(cycas_panzhihuaensis_CYCAS_029981:0.247926,(thuja_plicata_Thupl.29361800s0004:0.105944,thuja_plicata_Thupl.29377309s0002:0.045198)n2:0.428488)n1:1.34646)n0;

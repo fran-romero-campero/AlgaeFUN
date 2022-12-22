@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_01642:1.07462,(klebsormidium_nitens_proteome_first_transcript_kfl00239_0090:0.655347,(spirogloea_muscicola_proteome_first_transcript_SM000007S20828:0.046104,spirogloea_muscicola_proteome_first_transcript_SM000004S15003:0.031934)n2:0.12892)n1:1.07462)n0;
+(mesotaenium_endlicherianum_ME000050S08036:0.893095,((spirogloea_muscicola_SM000108S14232:0.112696,spirogloea_muscicola_SM000307S11691:0.240443)n2:0.130409,spirogloea_muscicola_SM000016S01830:0.08107)n1:0.893095)n0;

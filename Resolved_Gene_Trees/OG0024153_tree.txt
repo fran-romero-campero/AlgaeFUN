@@ -1,1 +1,1 @@
-((micromonas_pusilla_proteome_first_transcript_27342350:0.747354,ostreococcus_tauri_proteome_first_transcript_ostta16g01510:0.430593)n1:0.126133,(mesostigma_viridae_proteome_first_transcript_Mv11521:0.815314,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_7975:0.923714)n2:0.126133)n0;
+(porphyra_umbilicalis_Pum1549s0001:0.310165,(cyanophora_paradoxa_Cyapar1_g20601:0.405191,(nannochloropsis_gaditana_Nangad1_5438:1.26244,phaeodactylum_tricornutum_Phatr2_27240:0.343446)n2:0.202136)n1:0.310165)n0;

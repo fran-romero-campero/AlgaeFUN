@@ -1,1 +1,1 @@
-(sorghum_bicolor_proteome_first_transcript_Sobic.003G162600:0.558814,((aegilops_tauschii_proteome_first_transcript_AET6Gv20867100.1:0.403933,aegilops_tauschii_proteome_first_transcript_AET6Gv20867300.1:0.326939)n2:0.102139,triticum_aestivum_proteome_first_transcript_Traes_6BL_5FCD51528:0.11164)n1:0.558814)n0;
+(aegilops_tauschii_AET7Gv20348200:0.257312,(triticum_aestivum_Traes_5DL_4D9BA79EF:0.58933,(triticum_aestivum_Traes_4BL_225D35079:0.086633,triticum_aestivum_Traes_3B_D79AEA2BF:0.082124)n2:0.573325)n1:0.257312)n0;

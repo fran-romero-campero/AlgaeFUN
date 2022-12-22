@@ -1,1 +1,1 @@
-(thuja_plicata_proteome_first_transcript_Thupl.29208802s0001.1.p pacid_44958795 transcript_Thupl.29208802s0001.1 locus_Thupl.29208802s0001 ID_Thupl.29208802s0001.1.v3.1 annot-version_v3.1:0.701549,(zea_mays_proteome_first_transcript_Zm00001d051315:0.579443,(zea_mays_proteome_first_transcript_Zm00001d053048:0.29811,zea_mays_proteome_first_transcript_Zm00001d042320:0.343321)n2:0.682339)n1:0.701549)n0;
+(ulva_mutabilis_UM120_0013:0.273882,(ulva_mutabilis_UM004_0160:1.00793,(ulva_mutabilis_UM146_0022:1.00692,ulva_mutabilis_UM001_0155:1.01523)n2:0.160724)n1:0.273882)n0;

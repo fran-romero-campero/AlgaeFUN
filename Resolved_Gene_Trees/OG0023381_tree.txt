@@ -1,1 +1,1 @@
-(bathycoccus_prasinos_proteome_first_transcript_Bathy17g02300 length_252 _mRNA_ _n/a_  _predicted protein_:1.10971,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23555:0.008145,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23553:0.11388)n2:0.308273,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23545:0.439667)n1:1.10971)n0;
+(marchantia_polymorpha_Mp5g02010:0.185369,(sphangum_magellanicum_Sphmag03G121100:0.158363,(physcomitrium_patens_Pp3c6_22680:0.166153,ceratodon_purpureus_CepurR40.5G031100:0.301784)n2:0.094412)n1:0.185369)n0;

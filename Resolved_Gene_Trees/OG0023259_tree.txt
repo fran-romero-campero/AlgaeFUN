@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_7670:0.522079,((bathycoccus_prasinos_proteome_first_transcript_Bathy01g00130 length_505 _mRNA_ _n/a_  _unnamed protein product_:0.354496,ostreococcus_tauri_proteome_first_transcript_ostta01g00070:0.266835)n2:0.040114,micromonas_pusilla_proteome_first_transcript_27343221:0.36757)n1:0.522079)n0;
+((physcomitrium_patens_Pp3c9_19670:0.627585,physcomitrium_patens_Pp3c15_19830:0.249661)n1:0.213113,(ceratodon_purpureus_CepurR40.7G122200:0.504066,ceratodon_purpureus_CepurR40.10G152200:0.622131)n2:0.213113)n0;

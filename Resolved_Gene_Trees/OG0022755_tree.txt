@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET6Gv20946400.1:0.278295,((physcomitrium_patens_proteome_first_transcript_Pp3c12_9150:0.762779,physcomitrium_patens_proteome_first_transcript_Pp3c19_13140:0.165543)n2:0.104659,physcomitrium_patens_proteome_first_transcript_Pp3c6_24190:0.68987)n1:0.278295)n0;
+((anthoceros_agrestis_AagrOXF_utg000014l.92:0.590202,(solanum_lycopersicum_Solyc07g039347:0.775849,solanum_lycopersicum_Solyc07g039343:1.04401)n2:0.116001)n1:0.035064,physcomitrium_patens_Pp3c2_27230:0.797975)n0;

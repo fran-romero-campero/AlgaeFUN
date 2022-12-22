@@ -1,9 +1,7 @@
 ## Authors: Ana B. Romero-Losada
 ##          Francisco J. Romero-Campero <fran@us.es>
-##          Christina Arvanitidou
-##          Marcos Ramos-Gonzalez
 ##          Pedro de los Reyes 
-
+##          Christina Arvanitidou
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 
@@ -24,8 +22,6 @@ library(shinyjs)
 ## Load microalgae annotation packages
 # library(org.Otauri.eg.db) 
 ##install.packages(pkgs = "./packages/annotation_packages/org.Vcarteri.eg.db/",repos = NULL,type="source")
-##install.packages(pkgs = c("org.Bprasinos.eg.db", "org.Csubellipsoidea.eg.db", "org.Dsalina.eg.db", "org.Knitens.eg.db", "org.MpusillaCCMP1545.eg.db", "org.Otauri.eg.db", "org.Smuscicola.eg.db", "org.Creinhardtii.eg.db", "org.Czofingiensis.eg.db", "org.Hlacustris.eg.db", "org.Mendlicherianum.eg.db", "org.Ngaditana.eg.db", "org.Ptricornutum.eg.db", "org.Vcarteri.eg.db"),repos = NULL,type="source")
-##install.packages(pkgs = c("TxDb.Bprasinos.ORCAE", "TxDb.Czofingiensis.Phytozome", "TxDb.Knitens.Phycocosm", "TxDb.Ngaditana.JGI", "TxDb.Smuscicola.pub", "TxDb.Creinhardtii.Phytozome", "TxDb.Dsalina.Phytozome", "TxDb.Mendlicherianum.pub", "TxDb.Otauri.JGI", "TxDb.Vcarteri.Phytozome", "TxDb.Csubellipsoidea.Phytozome", "TxDb.Hlacustris.NCBI", "TxDb.MpusillaCCMP1545.Phytozome", "TxDb.Ptricornutum.Ensembl.Protists"),repos = NULL,type="source")
 # library(org.MpusillaCCMP1545.eg.db)
 # library(org.Bprasinos.eg.db)
 # library(org.Csubellipsoidea.eg.db)
@@ -467,7 +463,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                      "Gene Set Functional Analysis" = "genes",
                      "Genomic Loci Functional Analysis" = "chip",
                      "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
-                     "Funtree, Phylogenomic Analysis of Genes in Viridiplantae" = "funtree",
+                     "Funtree, Phylogenomic Analysis" = "funtree",
                      "Tutorials" = "tutorials",
                      "GitHub repository" = "github",
                      "Citation and Contact" = "citation"
@@ -488,9 +484,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
                code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research."),
                
-               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS. 
-                        Our web tool also supports the generation of phylogenetic trees and the identification of potential orthologous genes using the functionality ",
-                        tags$b("Funtree"), " available from the navigation bar on the left."),
+               tags$div(align = "justify", "Below you can find the phylogenetic relationship between the different microalgae species supported in ALGAEFUN with MARACAS: "),
                tags$br(),tags$br(),
                # 
                tags$div(align ="center",img(src='phylogeny.png', align = "center", width=600))
@@ -516,15 +510,13 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       )),
       
       conditionalPanel(condition = "input.navigation_bar == 'funtree'",
-                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous genes across different evolutionally 
-                       distant species given a target gene. This tool is based on our phylogenomic analysis carried out using", 
-                                tags$b(tags$a(href="https://github.com/davidemms/OrthoFinder", "orthofinder")),
-                                "To perform the analysis, please follow the next instructions:",
+                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous proteins across different evolutionally 
+                       distant species given a target protein. To perform the analysis, please follow the next instructions:",
                                 tags$ol(
                                   tags$li("In the lower panel choose as many species as you wish to include in the tree.",),
                                   tags$li("Then write the ID of your gene of interest in the textbox, which has to correspond to one of the organisms selected
-                                  in the previous step. If not, please select it before continuing. An example for the ",tags$i("Arabidopsis thaliana  CCA1"), 
-                                  " gene (AT2G46830, Circadian Clock Associated 1) appears in the text box."),
+                                  in the previous step. If not, please select it before continuing. An example for",tags$i("Marchantia polymorpha"), "appears in the 
+                                          text box."),
                                   tags$li("Finally, click the", tags$b("Have Fun!"), "button to construct the tree. Each organism appears with an specific
                                           color detailed in legend and the target gene is highlighted in red. Also, a text box allows user to copy the names
                                           of all the detected orthologs in a simple way."))),
@@ -553,10 +545,10 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                                          "cri", "af", "sc",
                                                          "cyc", "tp", "ta",
                                                          "aegi", "os", "sb",
-                                                         "zm", "sl","a
+                                                         "zm", "sl","at"),
                                           label= "Select the organisms to show in tree"),
-                       textInput(inputId = "geneInt",value = "AT2G46830",label = NULL, placeholder = "AT2G46830"),
-                       actionButton(inputId = "funtree_button",label = "Have fun!", icon("send")),
+                       textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160"),
+                       actionButton(inputId = "funtree_button",label = "Have fun!", icon("send"))
                        
       ),
       
@@ -647,17 +639,18 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                 "and", tags$b("open science."),"Following our philosophy we have deposited our GitHub code 
                        into", tags$a(href="https://zenodo.org/record/4754516#.YJxLPSaxUws", target="_blank",tags$b("Zenodo")), ", a
                        general-purpose open-access repository developed under the", 
-                                tags$a(href="https://www.openaire.eu/", target="_blank", tags$b("European OpenAIRE program.")), "If you use AlgaeFUN with
-                                MARACAS in your research please cite us:",
+                                tags$a(href="https://www.openaire.eu/", target="_blank", tags$b("European OpenAIRE program.")), "Meanwhile we publish 
+                       our work in a journal if you find", tags$b("AlgaeFUN with MARACAS"), "useful in your research we would be most grateful if you cite 
+                       our GitHub repository with a,", tags$b("DOI"),  "as follows:",
                                 tags$br(),
                                 tags$br(),
-                                tags$div(tags$a(href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04639-5", target="_blank",
-                                tags$b("Romero-Losada, A.B., Arvanitidou, C., de los Reyes, P., García-González, M. & Romero-Campero, F.J. 
-                                ALGAEFUN with MARACAS, microALGAE FUNctional enrichment tool for MicroAlgae RnA-seq and Chip-seq AnalysiS. 
-                                BMC Bioinformatics 23, 113 (2022). https://doi.org/10.1186/s12859-022-04639-5")))),
+                                tags$div(tags$b("Romero-Losada, A.B., Arvanitidou, C., de los Reyes, P., 
+                                García-González, M., Romero-Campero, F.J. (2021) AlgaeFUN with MARACAS, microAlgae FUNctional 
+                                enrichment tool for MicroAlgae RnA-seq and Chip-seq AnalysiS v1.0, Zenodo, doi:10.5381/zenodo.4754516 doi:10.5381/zenodo.4752818"))),
+                       
                        tags$br(),
                        tags$br(),
-                       tags$div("If you want to contact us send an email to:", img(src='email.png',width=100)),
+                       #tags$div(align="center", img(src='smiley.png', align = "center", width=200,hight=200)),
                        tags$br()
                        
       ),
@@ -938,15 +931,58 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                        tabsetPanel(type = "tabs",
                           tabPanel(tags$b("Genes Tree"),
                                tags$br(), 
-                               verbatimTextOutput(outputId = "treeTips"), 
-                               tags$br(),
                                uiOutput(outputId = "download_tips"),
+                               tags$br(),
+                               verbatimTextOutput(outputId = "treeTips"),
                                tags$br(),
                                uiOutput(outputId = "download_tree"),
                                tags$br(),
                                plotOutput("treePlot")
-                               
-                               )
+                               ),
+                          tabPanel(tags$b("Pfam domains"),
+                                   tags$br(),
+                                   actionButton(inputId = "pfam_start",
+                                     label = "Show Gene Selection for Pfam", icon("send")),
+                                   tags$br(),
+                                   conditionalPanel(
+                                     condition = "input.pfam_start",
+                                     uiOutput(outputId = "selected_pfams"),
+                                     # checkboxGroupInput(inputId = "selected_pfams",
+                                     #                    selected = NULL,
+                                     #                    choiceNames = NULL,
+                                     #                    choiceValues= NULL,
+                                     #                    label = "Select the desired genes from the tree"),
+                                     actionButton(inputId = "pfam_selection",
+                                                  label = "Show Pfam Domains", icon("send")),
+                                   tags$br(),
+                                   tags$br(),
+                                   uiOutput(outputId = "download_ui_for_pfam_table"),
+                                   tags$br(),
+                                   dataTableOutput(outputId = "output_pfam_table"),
+                                   tags$br(),
+                                   tags$br(),
+                                   uiOutput(outputId = "pfam_down_button"),
+                                   tags$br(),
+                                   plotOutput("pfam_plot"),
+                                   tags$br()
+                                   
+                          )),
+                          tabPanel(tags$b("Multiple Sequence Alignments"),
+                                   tags$br(),
+                                   actionButton(inputId = "msa_start",
+                                                label = "Show Gene Selection for MSA", icon("send")),
+                                   tags$br(),
+                                   conditionalPanel(
+                                     condition = "input.msa_start",
+                                     uiOutput(outputId = "selected_msa"),
+                                     #uiOutput(outputId = "selected_type_msa"),
+                                     actionButton(inputId = "msa_selection",
+                                                  label = "Compute MSA", icon("send")),
+                                     tags$br(),
+                                     uiOutput(outputId = "msa_plot"),
+                                     verbatimTextOutput("msa_print"),
+                                     
+                                   ))
                        )),
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
@@ -1296,14 +1332,12 @@ server <- shinyServer(function(input, output, session) {
                             ont           = input$ontology,
                             pAdjustMethod = "BH",
                             pvalueCutoff  = input$pvalue,
-                            qvalueCutoff = 1,
                             readable      = TRUE,
                             keyType = "GID")
       
       
       ## Generate ouput table
-      enrich.go.result <- as.data.frame(enrich.go@result)
-      enrich.go.result <- subset(enrich.go.result, pvalue < input$pvalue)
+      enrich.go.result <- as.data.frame(enrich.go)
 
       if(nrow(enrich.go.result) > 0)
       {
@@ -1505,7 +1539,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(mpusilla.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1548,7 +1582,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(csubellipsoidea.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1586,7 +1620,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(dsalina.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1639,7 +1673,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(knitens.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1662,7 +1696,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(mendlicherianum.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1685,7 +1719,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(smuscicola.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1708,7 +1742,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(hlacustris.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05)) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         if(nrow(pathway.enrichment) > 1)
         {
@@ -1734,7 +1768,7 @@ with the corresponding GO term. Right click on the image to download it.")
         target.ko <- subset(zofi.ko,GID %in% target.genes)$KO
         target.ko <- target.ko[!is.na(target.ko)]
         
-        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = 0.05 )) #input$pvalue))
+        pathway.enrichment <- as.data.frame(enrichKEGG(gene = target.ko, organism = "ko", universe = ko.universe,qvalueCutoff = input$pvalue))
         
         for(i in 1:nrow(pathway.enrichment))
         {
@@ -1757,12 +1791,12 @@ with the corresponding GO term. Right click on the image to download it.")
           input$microalgae != "dsalina" && input$microalgae != "csubellipsoidea")
       {
         pathway.enrichment <- enrichKEGG(gene = target.genes, organism = organism.id, keyType = "kegg",
-                                         universe = gene.universe,pvalueCutoff = input$pvalue, qvalueCutoff = 1)
+                                         universe = gene.universe,qvalueCutoff = input$pvalue)
       }
       shinyjs::showElement(id = 'ready.enrichment.kegg')
       shinyjs::hideElement(id = 'loading.enrichment.kegg')
       
-      pathway.enrichment.result <- as.data.frame(pathway.enrichment@result)
+      pathway.enrichment.result <- as.data.frame(pathway.enrichment)
       if(nrow(pathway.enrichment.result) > 0)
       {
         kegg.intro.text <- paste(c("This tab presents the results from the <b>KEGG pathways/modules enrichment analysis</b> 
@@ -3094,10 +3128,10 @@ assocated to the enriched pathway represented in the corresponding row."
   
   # Activate Funtree panel when selected
   observeEvent(input$funtree_button, {
-    tree <- eventReactive(input$funtree_button,{
+    og.name <- eventReactive(input$funtree_button,{
       
       gene.name.tree <- input$geneInt
-
+      
       # Load table with orthogroups information
       ortho.table <- read.csv("Resolved_Gene_Trees/Orthogroups.tsv", header = T, sep = "\t", as.is = T,
                               fill = T, blank.lines.skip = F)
@@ -3123,6 +3157,11 @@ assocated to the enriched pathway represented in the corresponding row."
       validate(need(!is.null(file.name),"No results for this query due to not supported gene name or 
                     lack of orthologs in the selected organisms"))
       
+      return(file.name)
+    })
+    
+    tree <- reactive({
+      file.name <- og.name()
       # Load gene tree file
       tree.name <- paste("Resolved_Gene_Trees",paste(file.name, "tree.txt", sep = "_"), sep="/")
       
@@ -3132,6 +3171,19 @@ assocated to the enriched pathway represented in the corresponding row."
       
       tree <- read.tree(tree.name)
       return(tree)
+    })
+    
+    ortho_seq <- reactive({
+      file.name <- og.name()
+      # Load orthogroup sequences file
+      ortho.seq.name <- paste("Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/")
+      
+      # Error if tree file not found
+      validate(need(file.exists(ortho.seq.name),"No results for this query due to not supported gene name or 
+                    lack of orthologs in the selected organisms"))
+      
+      ortho_seq <- seqinr::read.fasta(ortho.seq.name, seqtype = "AA")
+      return(ortho_seq)
     })
     
     # Tips to keep of each species with proper notation
@@ -3583,7 +3635,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.mp <- grep(pattern = "marchantia",tree$tip.label) 
         if (length(tips_to_keep.mp) != 0)
         {
-          mp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mp]), "_"), function(x) x[[6]])
+          mp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mp]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.mp] <- mp.v
         }
       }
@@ -3593,7 +3645,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.ot <- grep(pattern = "ostreoco",tree$tip.label) 
         if (length(tips_to_keep.ot) != 0)
         {
-          ost.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ot]), "_"), function(x) x[[6]])
+          ost.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ot]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.ot] <- ost.v
         }
       }
@@ -3603,7 +3655,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.at <- grep(pattern = "arabidopsis",tree$tip.label) 
         if (length(tips_to_keep.at) != 0)
         {
-          arabi.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.at]), "_"), function(x) x[[6]])
+          arabi.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.at]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.at] <- arabi.v
         }
       }
@@ -3613,7 +3665,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.cp <- grep(pattern = "ceratodon",tree$tip.label) 
         if (length(tips_to_keep.cp) != 0)
         {
-          cer.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cp]), "_"), function(x) x[[6]])
+          cer.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cp]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.cp] <- cer.v
         }
       }
@@ -3623,7 +3675,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.cr <- grep(pattern = "chlamy",tree$tip.label)
         if (length(tips_to_keep.cr) != 0)
         {
-          chlamy.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cr]), "_"), function(x) x[[6]])
+          chlamy.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cr]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.cr] <- chlamy.v
         }
       }
@@ -3633,7 +3685,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.cz <- grep(pattern = "chromochloris",tree$tip.label) 
         if (length(tips_to_keep.cz) != 0)
         {
-          chromo.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cz]), "_"), function(x) x[[6]])
+          chromo.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cz]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.cz] <- chromo.v
         }
       }
@@ -3643,8 +3695,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.kn <- grep(pattern = "klebsormidium",tree$tip.label) 
         if (length(tips_to_keep.kn) != 0)
         {
-          klebs.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.kn]), "_"), function(x) x[[6]])
-          klebs.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.kn]), "_"), function(x) x[[7]])
+          klebs.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.kn]), "_"), function(x) x[[3]])
+          klebs.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.kn]), "_"), function(x) x[[4]])
           klebs.v <- paste(klebs.v1, klebs.v2, sep = "_")
           tree$tip.label[tips_to_keep.kn] <- klebs.v
         }
@@ -3655,7 +3707,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.me <- grep(pattern = "mesotaenium",tree$tip.label) 
         if (length(tips_to_keep.me) != 0)
         {
-          meso.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.me]), "_"), function(x) x[[6]])
+          meso.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.me]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.me] <- meso.v
         }
       }
@@ -3665,7 +3717,9 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.mi <- grep(pattern = "micromonas",tree$tip.label) 
         if (length(tips_to_keep.mi) != 0)
         {
-          micro.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mi]), "_"), function(x) x[[6]])
+          micro.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mi]), "_"), function(x) x[[3]])
+          micro.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mi]), "_"), function(x) x[[4]])
+          micro.v <- paste(micro.v1, micro.v2, sep = "_")
           tree$tip.label[tips_to_keep.mi] <- micro.v
         }
       }
@@ -3675,8 +3729,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.pp <- grep(pattern = "physcomitrium",tree$tip.label) 
         if (length(tips_to_keep.pp) != 0)
         {
-          phys.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pp]), "_"), function(x) x[[6]])
-          phys.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pp]), "_"), function(x) x[[7]])
+          phys.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pp]), "_"), function(x) x[[3]])
+          phys.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pp]), "_"), function(x) x[[4]])
           phys.v <- paste(phys.v1, phys.v2, sep = "_")
           tree$tip.label[tips_to_keep.pp] <- phys.v
         }
@@ -3687,7 +3741,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.sl <- grep(pattern = "solanum",tree$tip.label) 
         if (length(tips_to_keep.sl) != 0)
         {
-          sola.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sl]), "_"), function(x) x[[6]])
+          sola.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sl]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.sl] <- sola.v
         }
       }
@@ -3697,7 +3751,9 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.sm <- grep(pattern = "selaginella",tree$tip.label) 
         if (length(tips_to_keep.sm) != 0)
         {
-          sel.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sm]), "_"), function(x) x[[6]])
+          sel.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sm]), "_"), function(x) x[[3]])
+          sel.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sm]), "_"), function(x) x[[4]])
+          sel.v <- paste(sel.v1, sel.v2, sep = "_")
           tree$tip.label[tips_to_keep.sm] <- sel.v
         }
       }
@@ -3707,7 +3763,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.sp <- grep(pattern = "spirogloea",tree$tip.label) 
         if (length(tips_to_keep.sp) != 0)
         {
-          spiro.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sp]), "_"), function(x) x[[6]])
+          spiro.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sp]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.sp] <- spiro.v
         }
       }
@@ -3717,10 +3773,10 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.ta <- grep(pattern = "triticum",tree$tip.label) 
         if (length(tips_to_keep.ta) != 0)
         {
-          tri.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[6]])
-          tri.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[7]])
-          tri.v3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[8]])
-          tri.v <- paste(tri.v1,tri.v2,tri.v3, sep = "_")
+          tri.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[3]])
+          tri.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[4]])
+          tri.v3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ta]), "_"), function(x) x[[5]])
+          tri.v <- paste(tri.v1, tri.v2, tri.v3, sep = "_")
           tree$tip.label[tips_to_keep.ta] <- tri.v
         }
       }
@@ -3730,10 +3786,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.vc <- grep(pattern = "volvox",tree$tip.label)
         if (length(tips_to_keep.vc) != 0)
         {
-          vc.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.vc]), "_"), function(x) x[[6]])
-          vc1 <- sapply(strsplit(as.character(vc.vec), "\\."), function(x) x[[1]])
-          vc2 <- sapply(strsplit(as.character(vc.vec), "\\."), function(x) x[[2]])
-          vc.v <- paste(vc1, vc2, sep = ".")
+          vc.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.vc]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.vc] <- vc.v
         }
       }
@@ -3743,8 +3796,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.bp <- grep(pattern = "bathycoccus",tree$tip.label)
         if (length(tips_to_keep.bp) != 0)
         {
-          bp.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.bp]), "_"), function(x) x[[6]])
-          bp.v <- sapply(strsplit(as.character(bp.vec), "leng"), function(x) x[[1]])
+          bp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.bp]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.bp] <- bp.v
         }
       }
@@ -3754,10 +3806,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.cri <- grep(pattern = "ceratopteris",tree$tip.label)
         if (length(tips_to_keep.cri) != 0)
         {
-          cri.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cri]), "_"), function(x) x[[6]])
-          cri1 <- sapply(strsplit(as.character(cri.vec), "\\."), function(x) x[[1]])
-          cri2 <- sapply(strsplit(as.character(cri.vec), "\\."), function(x) x[[2]])
-          cri.v <- paste(cri1, cri2, sep = ".")
+          cri.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cri]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.cri] <- cri.v
         }
       }
@@ -3767,10 +3816,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.ds <- grep(pattern = "dunaliella",tree$tip.label)
         if (length(tips_to_keep.ds) != 0)
         {
-          ds.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ds]), "_"), function(x) x[[6]])
-          ds1 <- sapply(strsplit(as.character(ds.vec), "\\."), function(x) x[[1]])
-          ds2 <- sapply(strsplit(as.character(ds.vec), "\\."), function(x) x[[2]])
-          ds.v <- paste(ds1, ds2, sep = ".")
+          ds.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ds]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.ds] <- ds.v
         }
       }
@@ -3780,19 +3826,17 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.os <- grep(pattern = "oryza",tree$tip.label)
         if (length(tips_to_keep.os) != 0)
         {
-          os.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.os]), "_"), function(x) x[[7]])
-          os.v <- sapply(strsplit(as.character(os.vec), "\\."), function(x) x[[1]])
+          os.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.os]), "va_"), function(x) x[[2]])
           tree$tip.label[tips_to_keep.os] <- os.v
         }
       }
       
       if ("smag" %in% organisms.list)
       {
-        tips_to_keep.smag <- grep(pattern = "sphagum",tree$tip.label)
+        tips_to_keep.smag <- grep(pattern = "sphangum",tree$tip.label)
         if (length(tips_to_keep.smag) != 0)
         {
-          smag.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.smag]), "_"), function(x) x[[6]])
-          smag.v <- sapply(strsplit(as.character(smag.vec), "\\."), function(x) x[[1]])
+          smag.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.smag]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.smag] <- smag.v
         }
       }
@@ -3802,10 +3846,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.tp <- grep(pattern = "thuja",tree$tip.label)
         if (length(tips_to_keep.tp) != 0)
         {
-          tp.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.tp]), "_"), function(x) x[[6]])
-          tp1 <- sapply(strsplit(as.character(tp.vec), "\\."), function(x) x[[1]])
-          tp2 <- sapply(strsplit(as.character(tp.vec), "\\."), function(x) x[[2]])
-          tp.v <- paste(tp1, tp2, sep = ".")
+          tp.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.tp]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.tp] <- tp.v
         }
       }
@@ -3815,10 +3856,9 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.aa <- grep(pattern = "anthoceros",tree$tip.label)
         if (length(tips_to_keep.aa) != 0)
         {
-          aa.vec <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[7]])
-          aa1 <- sapply(strsplit(as.character(aa.vec), "\\."), function(x) x[[3]])
-          aa2 <- sapply(strsplit(as.character(aa.vec), "\\."), function(x) x[[4]])
-          aa.v <- paste(aa1, aa2, sep = ".")
+          aa.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[3]])
+          aa.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aa]), "_"), function(x) x[[4]])
+          aa.v <- paste(aa.v1, aa.v2, sep="_")
           tree$tip.label[tips_to_keep.aa] <- aa.v
         }
       }
@@ -3828,10 +3868,9 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.um <- grep(pattern = "ulva",tree$tip.label)
         if (length(tips_to_keep.um) != 0)
         {
-          um.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[6]])
-          um.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[7]])
-          um2 <- sapply(strsplit(as.character(um.vec2), "\\."), function(x) x[[1]])
-          um.v <- paste(um.vec1, um2, sep = "_")
+          um.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[3]])
+          um.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.um]), "_"), function(x) x[[4]])
+          um.v <- paste(um.vec1, um.vec2, sep = "_")
           tree$tip.label[tips_to_keep.um] <- um.v
         }
       }
@@ -3841,8 +3880,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.rs <- grep(pattern = "raphidocelis",tree$tip.label)
         if (length(tips_to_keep.rs) != 0)
         {
-          rs.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[6]])
-          rs.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[7]])
+          rs.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[3]])
+          rs.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.rs]), "_"), function(x) x[[4]])
           rs.v <- paste(rs.vec1, rs.vec2, sep = "_")
           tree$tip.label[tips_to_keep.rs] <- rs.v
         }
@@ -3853,8 +3892,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.cyc <- grep(pattern = "cycas",tree$tip.label)
         if (length(tips_to_keep.cyc) != 0)
         {
-          cyc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[6]])
-          cyc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[7]])
+          cyc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[3]])
+          cyc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyc]), "_"), function(x) x[[4]])
           cyc.v <- paste(cyc.vec1, cyc.vec2, sep = "_")
           tree$tip.label[tips_to_keep.cyc] <- cyc.v
         }
@@ -3865,7 +3904,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.pu <- grep(pattern = "porphyra",tree$tip.label)
         if (length(tips_to_keep.pu) != 0)
         {
-          pu.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pu]), "_"), function(x) x[[6]])
+          pu.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pu]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.pu] <- pu.vec1
         }
       }
@@ -3875,8 +3914,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.pt <- grep(pattern = "phaeodactylum",tree$tip.label)
         if (length(tips_to_keep.pt) != 0)
         {
-          pt.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pt]), "_"), function(x) x[[6]])
-          pt.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pt]), "_"), function(x) x[[7]])
+          pt.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pt]), "_"), function(x) x[[3]])
+          pt.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.pt]), "_"), function(x) x[[4]])
           pt.v <- paste(pt.vec1, pt.vec2, sep = "_")
           tree$tip.label[tips_to_keep.pt] <- pt.v
         }
@@ -3887,8 +3926,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.ng <- grep(pattern = "gaditana",tree$tip.label)
         if (length(tips_to_keep.ng) != 0)
         {
-          ng.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ng]), "_"), function(x) x[[6]])
-          ng.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ng]), "_"), function(x) x[[7]])
+          ng.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ng]), "_"), function(x) x[[3]])
+          ng.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ng]), "_"), function(x) x[[4]])
           ng.v <- paste(ng.vec1, ng.vec2, sep = "_")
           tree$tip.label[tips_to_keep.ng] <- ng.v
         }
@@ -3899,8 +3938,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.cyano <- grep(pattern = "cyanophora",tree$tip.label)
         if (length(tips_to_keep.cyano) != 0)
         {
-          cyano.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyano]), "_"), function(x) x[[6]])
-          cyano.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyano]), "_"), function(x) x[[7]])
+          cyano.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyano]), "_"), function(x) x[[3]])
+          cyano.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cyano]), "_"), function(x) x[[4]])
           cyano.v <- paste(cyano.vec1, cyano.vec2, sep = "_")
           tree$tip.label[tips_to_keep.cyano] <- cyano.v
         }
@@ -3911,8 +3950,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.ca <- grep(pattern = "chlorokybus",tree$tip.label)
         if (length(tips_to_keep.ca) != 0)
         {
-          ca.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ca]), "_"), function(x) x[[6]])
-          ca.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ca]), "_"), function(x) x[[7]])
+          ca.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ca]), "_"), function(x) x[[3]])
+          ca.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.ca]), "_"), function(x) x[[4]])
           ca.v <- paste(ca.vec1, ca.vec2, sep = "_")
           tree$tip.label[tips_to_keep.ca] <- ca.v
         }
@@ -3923,7 +3962,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.mv <- grep(pattern = "mesostigma",tree$tip.label)
         if (length(tips_to_keep.mv) != 0)
         {
-          mv.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mv]), "_"), function(x) x[[6]])
+          mv.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.mv]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.mv] <- mv.vec1
         }
       }
@@ -3933,8 +3972,8 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.af <- grep(pattern = "azolla",tree$tip.label)
         if (length(tips_to_keep.af) != 0)
         {
-          af.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.af]), "_"), function(x) x[[6]])
-          af.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.af]), "_"), function(x) x[[7]])
+          af.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.af]), "_"), function(x) x[[3]])
+          af.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.af]), "_"), function(x) x[[4]])
           af.v <- paste(af.vec1, af.vec2, sep = "_")
           tree$tip.label[tips_to_keep.af] <- af.v
         }
@@ -3945,9 +3984,10 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.sc <- grep(pattern = "salvinia",tree$tip.label)
         if (length(tips_to_keep.sc) != 0)
         {
-          sc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[6]])
-          sc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[8]])
-          sc.v <- paste(sc.vec1, sc.vec2, sep = "_")
+          sc.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[3]])
+          sc.vec2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[4]])
+          sc.vec3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sc]), "_"), function(x) x[[5]])
+          sc.v <- paste(sc.vec1, sc.vec2, sc.vec3, sep = "_")
           tree$tip.label[tips_to_keep.sc] <- sc.v
         }
       }
@@ -3957,8 +3997,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.aegi <- grep(pattern = "aegilops",tree$tip.label)
         if (length(tips_to_keep.aegi) != 0)
         {
-          aegi.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aegi]), "_"), function(x) x[[6]])
-          aegi.v <- sapply(strsplit(as.character(aegi.vec1), "[.]"), function(x) x[[1]])
+          aegi.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.aegi]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.aegi] <- aegi.v
         }
       }
@@ -3968,7 +4007,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.sb <- grep(pattern = "sorghum",tree$tip.label)
         if (length(tips_to_keep.sb) != 0)
         {
-          sb.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sb]), "_"), function(x) x[[6]])
+          sb.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sb]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.sb] <- sb.vec1
         }
       }
@@ -3978,7 +4017,7 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.zm <- grep(pattern = "mays",tree$tip.label)
         if (length(tips_to_keep.zm) != 0)
         {
-          zm.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.zm]), "_"), function(x) x[[6]])
+          zm.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.zm]), "_"), function(x) x[[3]])
           tree$tip.label[tips_to_keep.zm] <- zm.vec1
         }
       }
@@ -4005,6 +4044,16 @@ assocated to the enriched pathway represented in the corresponding row."
       tips_to_drop <- setdiff(1:length(tree$tip.label), tips_to_keep.global)
       tree_reduced <- drop.tip(tree, tips_to_drop)
       return(tree_reduced)
+    })
+    
+    ### Select orthogroup sequences based on the reduced tree
+    ortho_reduced <- eventReactive(input$funtree_button,{
+      
+      tree_reduced <- tree_reduced()
+      ortho_seq <- ortho_seq()
+      getName(ortho_seq)
+      ortho_reduced <- ortho_seq[tree_reduced$tip.label]
+      return(ortho_reduced)
     })
     
     output$treeTips <- renderPrint({
@@ -4274,6 +4323,8 @@ assocated to the enriched pathway represented in the corresponding row."
           
         }
         
+        
+        
         #Matrix with labels and colors and transform to dplyr format
         data.tree <- data.frame(node = 1:length(tree_reduced$tip.label), label = tree_reduced$tip.label,
                                 col = col.factor, org = org.factor)
@@ -4317,10 +4368,219 @@ assocated to the enriched pathway represented in the corresponding row."
     width = image_height()
     )
   
-  }
-  )
+  ###########################PFAM##################################
+    
+    output$selected_pfams <- renderUI({
+      selectInput(inputId = "selected_pfamsI",
+                         choices=tree_reduced()$tip.label,
+                         label = "Select the desired genes from the tree", selected = input$geneInt,
+                  multiple = T)
+      })
+    
+    total_table_pfam <- reactive({
+      ortho_reduced <- ortho_reduced()
+      sel_genes <- as.vector(input$selected_pfamsI)
+      
+      library(bio3d)
+      library(RCurl)
+      library(drawProteins)
+      library(ggplot2)
+      
+    # Get the sequences as a vector of strings
+
+
+    # Create data frame with proper columns
+    total_table_pfam <- data.frame(type=NA,
+                              description=NA,
+                              begin=NA, end=NA,
+                              length=NA,
+                              accession=NA, entryName=NA,
+                              taxid=NA, order=NA)
+
+    # Fill data frame with the information about domains obtained with hmmer
+    for (i in 1:length(sel_genes))
+    {
+      ortho_comp <- ortho_reduced[[sel_genes[i]]]
+      ortho_str <- getSequence(ortho_comp, as.string = T)
+      ortho_cha <- unlist(ortho_str)
+
+
+      hmmquery <- NA
+      try(hmmquery <- hmmer(ortho_cha, type = "hmmscan", db = "pfam", verbose = F), silent = T)
+
+      if (length(hmmquery) == 2)
+      {
+        url_og <- hmmquery$url
+        url_vec <- strsplit(url_og, split = "/")
+        url_vec[[1]][1] <- "https:"
+        url_vec[[1]][6] <- "download"
+        url_f <- paste0(url_vec[[1]], collapse = "/")
+        url_tsv <- paste0(c(url_f,"score?format=tsv"), collapse = "/")
+        tsv_res <- getURL(url_tsv)
+        res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
+        pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
+                                 description=c("Protein chain",res_pfam$Family.Accession),
+                                 begin=c(1, res_pfam$Env..Star), end=c(nchar(ortho_cha),res_pfam$Env..End),
+                                 length=c(nchar(ortho_cha)-1, res_pfam$Env..End-res_pfam$Env..Start),
+                                 accession=sel_genes[i], entryName=sel_genes[i],
+                                 taxid=c("Chain", res_pfam$Description), order=i)
+
+        total_table_pfam <- rbind(total_table_pfam, pfam_table)
+        
+      }
+      else
+      {
+        pfam_table <- data.frame(type="CHAIN",
+                                 description="Protein chain",
+                                 begin=1, end=nchar(ortho_cha),
+                                 length=nchar(ortho_cha)-1,
+                                 accession=sel_genes[i], entryName=sel_genes[i],
+                                 taxid="Chain", order=i)
+        total_table_pfam <- rbind(total_table_pfam, pfam_table)
+      }
+    }
+
+    total_table_pfam <- total_table_pfam[-1,]
+    
+    detach("package:bio3d", unload=TRUE)
+
+    return(total_table_pfam)
+
+  }) %>% bindEvent(input$pfam_selection)
+    
+    
+  observeEvent(input$pfam_selection,{
+
+    total_table_pfam <- total_table_pfam()
+    print(total_table_pfam)
+    # Now we can plot domains information as chains
+    pfplot <- draw_canvas(total_table_pfam)
+    pfplot <- draw_chains(pfplot, total_table_pfam)
+    pfplot <- draw_domains(pfplot, total_table_pfam, label_domains = F)
+    pfplot <- pfplot + theme_bw(base_size = 20) + # white background
+      theme(panel.grid.minor=element_blank(),
+            panel.grid.major=element_blank()) +
+      theme(axis.ticks = element_blank(),
+            axis.text.y = element_blank()) +
+      theme(panel.border = element_blank())
+    pfplot <- pfplot + labs(title = "Pfam domains")
+    pfplot <- pfplot + theme(legend.position="top") + labs(fill="")
+    pfam_height <- function(){50 + 800*length(total_table_pfam()$order[nrow(total_table_pfam())])}
+    pfam_width <- function(){800 + 40*length(unique(total_table_pfam()$description))}
+    output$pfam_plot <- renderPlot({
+      plot(pfplot)
+    }, height = pfam_height,
+    width = pfam_width
+    )
+    
+    output$pfam_down_button<- renderUI(
+      tagList(downloadButton(outputId= "pfam_download", "Download PFAM figures"))
+    )
+    
+    output$pfam_download <- downloadHandler(
+      filename= function() {
+        paste("pfam", ".pdf", sep="")
+      },
+      content= function(file) {
+        pdf(file, height = 5 + 1*length(total_table_pfam()$order[nrow(total_table_pfam())]),
+            width = 5 + 1.5*length(unique(total_table_pfam()$description)))
+        plot(pfplot)
+        dev.off()
+      })
+    
+    out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
+    colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+    
+    output$output_pfam_table <- renderDataTable({
+      out_pf_table 
+    },escape=FALSE,options =list(pageLength = 5))
+    
+    output$download_ui_for_pfam_table<- renderUI(
+      tagList(downloadButton(outputId= "downloadPFAMTable", "Download PFAM Table"),tags$br(),tags$br())
+    )
+    
+    ## Download result
+    output$downloadPFAMTable<- downloadHandler(
+      filename= function() {
+        paste("pfam_table", ".tsv", sep="")
+      },
+      content= function(file) {
+        write.table(x = out_pf_table,quote = F,sep = "\t",
+                    file=file,row.names=FALSE,col.names=TRUE)
+      })
+    
+  }) 
+
+############### MSA#################################
+  
+  output$selected_msa <- renderUI({
+    selectInput(inputId = "selected_msaI",
+                choices=tree_reduced()$tip.label,
+                label = "Select the desired genes from the tree to align", selected = input$geneInt,
+                multiple = T)
+  })
+  
+  alignseqs <- reactive({
+    
+    library(msa)
+    
+    selected_genes <- as.vector(input$selected_msaI)
+    file.name <- og.name()
+    # Define path to orthogroup sequences file
+    ortho.seq.name <- paste("Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/")
+    
+    # Read orthogroup sequences file and select the genes for alignment
+    mySequences1 <- readAAStringSet(ortho.seq.name)
+    mysubseqs <- mySequences1[selected_genes]
+    
+    alignseqs <- msa(mysubseqs, verbose = F)
+    
+    return(alignseqs)
+    
+  }) %>% bindEvent(input$msa_selection)
+
+  observeEvent(input$msa_selection,{
+    
+    alignseqs <- alignseqs()
+    
+    library(ggmsa)
+    class(alignseqs) <- "AAMultipleAlignment"
+    
+    for(i in 1:(ncol(alignseqs)%/%100 +1)){
+      assign(paste("msap", i, sep = ""), ggmsa(alignseqs, 1+(100*(i-1)), i*100, seq_name = TRUE, char_width = 0.5) +
+               geom_seqlogo(color = "Chemistry_AA"), envir = as.environment(1), pos=1)
+    }
+    
+    output$msa_plot<- renderUI(
+      tagList(downloadButton(outputId= "msa_download", "Download Colored MSA"))
+    )
+    output$msa_download <- downloadHandler(
+      filename= function() {
+        paste("msa", ".pdf", sep="")
+      },
+      content= function(file) {
+        pdf(file, height = 2+length(input$selected_msaI)*0.25, width = 16)
+        {
+        for(i in 1:(ncol(alignseqs)%/%100 +1)){
+        #   print(mget(paste0("msap", i)))
+        # }
+        print(mget(paste0("msap", i), envir = as.environment(1)))
+        }
+        dev.off()
+        }
+      })
+    
+    output$msa_print <- renderPrint({
+      class(alignseqs) <- "MsaAAMultipleAlignment"
+      cat(print(alignseqs, showConsensus=T, show="complete", 
+            halfNrow=ceiling(length(as.vector(input$selected_msaI))/2)))
+    })
   
   
+  })
+  
+  })
+  #################################################################
 })
 
 # Run the application 

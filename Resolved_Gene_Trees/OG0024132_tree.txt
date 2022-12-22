@@ -1,1 +1,1 @@
-((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7579:0.058839,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7580:0.007791)n1:0.687098,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4688:0.571929,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4683:0.460225)n2:0.687098)n0;
+(cyanophora_paradoxa_Cyapar1_g6246:0.477125,((cyanophora_paradoxa_Cyapar1_g17965:0.064267,cyanophora_paradoxa_Cyapar1_g17959:0.019419)n2:0.041815,cyanophora_paradoxa_Cyapar1_g3852:8.6e-05)n1:0.477125)n0;

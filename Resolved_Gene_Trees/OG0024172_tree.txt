@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz01g37090:0.437374,(triticum_aestivum_proteome_first_transcript_Traes_2DL_B46500829:0.01755,(triticum_aestivum_proteome_first_transcript_Traes_2DL_423A9E41F:0.029701,triticum_aestivum_proteome_first_transcript_Traes_2BL_34BA02CAC:0.119475)n2:0.133156)n1:0.437374)n0;
+(cyanophora_paradoxa_Cyapar1_g23042:0.661957,(micromonas_pusilla_Micpu_27344887:0.561714,(klebsormidium_nitens_kfl00007_0540:1.46832,mesostigma_viridae_Mv10424:1.32231)n2:0.074593)n1:0.661957)n0;

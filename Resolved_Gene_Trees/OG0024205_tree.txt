@@ -1,1 +1,1 @@
-((raphidocelis_subcapitata_proteome_first_transcript_Rsub_10301:0.625061,chromochloris_zofingiensis_proteome_first_transcript_Cz08g31120:2.3751e-06)n1:0.306688,(mesostigma_viridae_proteome_first_transcript_Mv01428:0.521924,mesostigma_viridae_proteome_first_transcript_Mv17430:0.841965)n2:0.306688)n0;
+(cyanophora_paradoxa_Cyapar1_g7713:0.527902,((porphyra_umbilicalis_Pum0074s0056:0.300633,porphyra_umbilicalis_Pum1927s0001:0.143272)n2:0.273467,porphyra_umbilicalis_Pum0459s0018:0.885136)n1:0.527902)n0;

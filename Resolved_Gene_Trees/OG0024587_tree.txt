@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME1140761C07676:0.214549,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030574:0,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030586:0)n2:0.923062,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0004.g002258:1.03403)n1:0.214549)n0;
+(mesostigma_viridae_Mv02977:0.307568,(mesostigma_viridae_Mv01391:0,(mesostigma_viridae_Mv01314:0,mesostigma_viridae_Mv13699:0)n2:0)n1:0.307568)n0;

@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4900:0.441155,((chromochloris_zofingiensis_proteome_first_transcript_Cz16g08210:1.91916e-06,raphidocelis_subcapitata_proteome_first_transcript_Rsub_00942:0.599317)n2:0.777102,chlamydomonas_reinhardtii_proteome_first_transcript_Cre02.g095600:1.91916e-06)n1:0.441155)n0;
+(phaeodactylum_tricornutum_Phatr2_38946:0.582638,(micromonas_pusilla_Micpu_27346508:0.531348,(chromochloris_zofingiensis_Cz05g01260:2.17425e-06,ulva_mutabilis_UM068_0052:0.497371)n2:0.092825)n1:0.582638)n0;

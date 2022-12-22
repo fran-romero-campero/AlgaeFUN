@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14483:0.101262,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23299:1.49304,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14476:0.103647)n2:0.150544,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14480:0.053348)n1:0.101262)n0;
+(marchantia_polymorpha_Mp6g20680:0.362691,(cycas_panzhihuaensis_CYCAS_027568:0.898441,(selaginella_moellendorffii_Selmo_405286:0.689129,selaginella_moellendorffii_Selmo_427439:1.0309)n2:0.114545)n1:0.219596)n0;

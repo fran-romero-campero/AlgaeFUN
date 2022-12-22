@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_6876:0.245428,((porphyra_umbilicalis_proteome_first_transcript_Pum0881s0001:0.373323,porphyra_umbilicalis_proteome_first_transcript_Pum0507s0012:0.375151)n2:0.105962,porphyra_umbilicalis_proteome_first_transcript_Pum2234s0001:0.755726)n1:0.245428)n0;
+(physcomitrium_patens_Pp3c7_25030:0.239365,(physcomitrium_patens_Pp3c7_3670:1.15175,(physcomitrium_patens_Pp3c19_1710:0.44566,physcomitrium_patens_Pp3c19_1730:0.141366)n2:0.493968)n1:0.239365)n0;

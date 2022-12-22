@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g12503:1.26988,(spirogloea_muscicola_proteome_first_transcript_SM000092S24496:2.86629e-06,(spirogloea_muscicola_proteome_first_transcript_SM000031S11576:0.17218,spirogloea_muscicola_proteome_first_transcript_SM000014S00220:0.044769)n2:0.133348)n1:1.26988)n0;
+(cycas_panzhihuaensis_CYCAS_021287:0.0984715,(cycas_panzhihuaensis_CYCAS_021286:0.440524,(cycas_panzhihuaensis_CYCAS_021291:0.761186,cycas_panzhihuaensis_CYCAS_021285:0.092839)n2:0.13947)n1:0.0984715)n0;

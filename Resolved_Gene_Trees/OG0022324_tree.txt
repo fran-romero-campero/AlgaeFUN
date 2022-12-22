@@ -1,1 +1,1 @@
-(zea_mays_proteome_first_transcript_Zm00001d040975:0.0694575,((zea_mays_proteome_first_transcript_Zm00001d051519:1.18344e-06,zea_mays_proteome_first_transcript_Zm00001d048664:0.355067)n2:0.22549,(zea_mays_proteome_first_transcript_Zm00001d002571:0.028711,zea_mays_proteome_first_transcript_Zm00001d045962:0.457187)n3:0.049875)n1:0.0694575)n0;
+(solanum_lycopersicum_Solyc07g053110:0.461706,(triticum_aestivum_Traes_5AL_F525493ED:0.707752,(aegilops_tauschii_AET5Gv20811300:0.481618,aegilops_tauschii_AET5Gv20810400:0.129538)n2:0.139028)n1:0.461706)n0;

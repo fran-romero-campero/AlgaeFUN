@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_010907:0.362874,((aegilops_tauschii_proteome_first_transcript_AET1Gv21038100.1:0.647574,aegilops_tauschii_proteome_first_transcript_AET7Gv21360600.1:0.666176)n2:0.514703,triticum_aestivum_proteome_first_transcript_Traes_6AS_99BFD46E6:1.03709)n1:0.362874)n0;
+(selaginella_moellendorffii_Selmo_48533:0.546751,((arabidopsis_thaliana_AT2G16880:0.585352,solanum_lycopersicum_Solyc01g111470:0.590591)n2:0.560899,thuja_plicata_Thupl.29378985s0011:0.566598)n1:0.546751)n0;

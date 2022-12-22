@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_2634:0,((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5999:0.685028,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4468:0.492815)n2:0.384256,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_2633:0)n1:0)n0;
+(physcomitrium_patens_Pp3c21_3550:3.98727e-07,((physcomitrium_patens_Pp3c21_3460:0.213782,physcomitrium_patens_Pp3c21_3620:3.98727e-07)n2:0.008913,physcomitrium_patens_Pp3c21_3560:0.193858)n1:3.98727e-07)n0;

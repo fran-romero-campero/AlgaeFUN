@@ -1,1 +1,1 @@
-(ostreococcus_tauri_proteome_first_transcript_ostta13g01790:0.01231,(ostreococcus_tauri_proteome_first_transcript_ostta09g03390:0.012545,(ostreococcus_tauri_proteome_first_transcript_ostta09g03290:0.423322,ostreococcus_tauri_proteome_first_transcript_ostta16g01140:5.14572e-07)n2:0.070846)n1:0.01231)n0;
+(solanum_lycopersicum_Solyc05g016260:0.463656,((triticum_aestivum_Traes_3AL_3E4E162EE:0.029517,triticum_aestivum_Traes_1BL_09E966560:0.725173)n2:0.083111,triticum_aestivum_Traes_3AL_4A93BA5FF:0.203529)n1:0.463656)n0;

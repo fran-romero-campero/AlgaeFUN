@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_97:0.317462,((bathycoccus_prasinos_proteome_first_transcript_Bathy12g00540 length_216 _mRNA_ _n/a_  _conserved hypothetical protein_:0.562657,ostreococcus_tauri_proteome_first_transcript_ostta14g01435:0.551619)n2:0.055502,micromonas_pusilla_proteome_first_transcript_27340937:0.237351)n1:0.317462)n0;
+(ceratodon_purpureus_CepurR40.6G137600:0.49421,((sphangum_magellanicum_Sphmag02G070500:0.011389,sphangum_magellanicum_Sphmag02G070600:0.007451)n2:0.019147,sphangum_magellanicum_Sphmag02G161700:0.052641)n1:0.49421)n0;

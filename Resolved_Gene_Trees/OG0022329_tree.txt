@@ -1,1 +1,1 @@
-(zea_mays_proteome_first_transcript_Zm00001d039357:0.081804,((zea_mays_proteome_first_transcript_Zm00001d002988:0.210731,(zea_mays_proteome_first_transcript_Zm00001d013763:0.424168,zea_mays_proteome_first_transcript_Zm00001d006641:0.428318)n3:0.263616)n2:0.1263,zea_mays_proteome_first_transcript_Zm00001d034820:0.09769)n1:0.081804)n0;
+((zea_mays_Zm00001d005686:0.50641,aegilops_tauschii_AET7Gv20748300:0.651556)n1:0.181725,(zea_mays_Zm00001d039507:0.156786,aegilops_tauschii_AET1Gv20676300:0.323028)n2:0.181725)n0;

@@ -1,1 +1,1 @@
-(ulva_mutabilis_proteome_first_transcript_UM015_0146.1:0.166378,(chromochloris_zofingiensis_proteome_first_transcript_Cz02g09090:1.0982e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_04931:0.390751,raphidocelis_subcapitata_proteome_first_transcript_Rsub_02910:0.088242)n2:0.375125)n1:0.166378)n0;
+((thuja_plicata_Thupl.28723828s0001:0.122368,thuja_plicata_Thupl.29378377s0003:0.254214)n1:0.108899,(cycas_panzhihuaensis_CYCAS_000319:0.262759,cycas_panzhihuaensis_CYCAS_000314:0.261929)n2:0.108899)n0;

@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7865:0.576384,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g4589:1.41481,(micromonas_pusilla_proteome_first_transcript_27347597:0.940472,mesostigma_viridae_proteome_first_transcript_Mv19405:1.00346)n2:0.54231)n1:0.576384)n0;
+((oryza_sativa_LOC_Os09g03500.1:1.52845,sorghum_bicolor_Sobic.004G260900:0.834058)n1:0.419731,(klebsormidium_nitens_kfl01002_0030:0.664329,klebsormidium_nitens_kfl00028_0450:0.840867)n2:0.419731)n0;

@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_38946:0.582638,(micromonas_pusilla_proteome_first_transcript_27346508:0.531348,(chromochloris_zofingiensis_proteome_first_transcript_Cz05g01260:2.17425e-06,ulva_mutabilis_proteome_first_transcript_UM068_0052.1:0.497371)n2:0.092825)n1:0.582638)n0;
+(cyanophora_paradoxa_Cyapar1_g4936:0.84217,(nannochloropsis_gaditana_Nangad1_10697:1.31609,(phaeodactylum_tricornutum_Phatr2_32914:0.41938,phaeodactylum_tricornutum_Phatr2_45008:0.601697)n2:0.0668552)n1:0.03506)n0;

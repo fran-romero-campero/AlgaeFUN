@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48307:0.690292,((chromochloris_zofingiensis_proteome_first_transcript_Cz05g29120:2.47733e-06,raphidocelis_subcapitata_proteome_first_transcript_Rsub_12724:0.34655)n2:0.212511,ulva_mutabilis_proteome_first_transcript_UM005_0172.1:0.578233)n1:0.690292)n0;
+(cyanophora_paradoxa_Cyapar1_g4608:0.40452,(cyanophora_paradoxa_Cyapar1_g4606:0.637391,(cyanophora_paradoxa_Cyapar1_g4609:0.353101,cyanophora_paradoxa_Cyapar1_g4602:0.219365)n2:0.815943)n1:0.40452)n0;

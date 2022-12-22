@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_2DS_3F47C9186:0.235523,(selaginella_moellendorffii_proteome_first_transcript_430934:0.318767,(selaginella_moellendorffii_proteome_first_transcript_430932:0.233886,selaginella_moellendorffii_proteome_first_transcript_430930:0.18859)n2:0.043713)n1:0.235523)n0;
+(sphangum_magellanicum_Sphmag03G136400:2.48684e-07,(sphangum_magellanicum_Sphmag03G136300:0.10308,(sphangum_magellanicum_Sphmag03G138300:0.010392,sphangum_magellanicum_Sphmag03G138400:0.00842)n2:0.127183)n1:2.48684e-07)n0;

@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_409945:0.5272,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_029523:0.659914,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0085.g018310:0.813268,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0025.g009254:1.21381)n2:0.072362)n1:0.5272)n0;
+(mesostigma_viridae_Mv22461:0,(mesostigma_viridae_Mv06047:0,(mesostigma_viridae_Mv22362:1.2586,mesostigma_viridae_Mv18200:0)n2:0)n1:0)n0;

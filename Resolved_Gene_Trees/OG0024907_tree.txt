@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_681:0.636695,((mesostigma_viridae_proteome_first_transcript_Mv14904:0.02307,mesostigma_viridae_proteome_first_transcript_Mv14904:0.071028)n2:0.663644,ulva_mutabilis_proteome_first_transcript_UM020_0036.1:0.917088)n1:0.636695)n0;
+(oryza_sativa_LOC_Os06g14770.1:0.0337405,(oryza_sativa_LOC_Os01g13670.1:0.041413,(oryza_sativa_LOC_Os09g31990.1:0.805141,oryza_sativa_LOC_Os09g32000.1:0.327723)n2:0.558861)n1:0.0337405)n0;

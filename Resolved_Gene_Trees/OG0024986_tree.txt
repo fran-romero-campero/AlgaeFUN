@@ -1,1 +1,1 @@
-((ulva_mutabilis_proteome_first_transcript_UM001_0226.1:0.293408,ulva_mutabilis_proteome_first_transcript_UM050_0036.1:0.271036)n1:0.718916,(mesostigma_viridae_proteome_first_transcript_Mv12482:0.826457,mesostigma_viridae_proteome_first_transcript_Mv11868:0.220638)n2:0.718916)n0;
+(oryza_sativa_LOC_Os06g03390.1:0.412836,(sorghum_bicolor_Sobic.010G015100:0.446386,(zea_mays_Zm00001d035988:0.37238,zea_mays_Zm00001d045521:0.371213)n2:0.0412459)n1:0.149813)n0;

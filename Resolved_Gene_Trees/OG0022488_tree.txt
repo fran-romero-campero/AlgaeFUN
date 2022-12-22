@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_4DS_8522964BE:0.000426,(aegilops_tauschii_proteome_first_transcript_AET4Gv20312100.1:4e-05,(aegilops_tauschii_proteome_first_transcript_AET2Gv20300500.1:0.056739,aegilops_tauschii_proteome_first_transcript_AET3Gv21023400.1:0.028229)n2:0.046014)n1:0.000426)n0;
+(aegilops_tauschii_AET6Gv20016900:0.829669,((oryza_sativa_LOC_Os08g24170.1:0.246036,oryza_sativa_LOC_Os08g24140.1:0.257938)n2:0.153639,oryza_sativa_LOC_Os08g23960.1:0.372349)n1:0.829669)n0;

@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27342557:0.768349,(micromonas_pusilla_proteome_first_transcript_27342849:4.15196e-06,(micromonas_pusilla_proteome_first_transcript_27343934:1.97851,micromonas_pusilla_proteome_first_transcript_27343916:1.66285)n2:0.41242)n1:0.768349)n0;
+(phaeodactylum_tricornutum_Phatr2_44201:0.652558,(porphyra_umbilicalis_Pum0337s0013:0.847147,(porphyra_umbilicalis_Pum0031s0087:0.525943,porphyra_umbilicalis_Pum0450s0002:0.521289)n2:0.434517)n1:0.652558)n0;

@@ -1,1 +1,1 @@
-((physcomitrium_patens_proteome_first_transcript_Pp3c15_19080:0.422883,ceratodon_purpureus_proteome_first_transcript_CepurR40.7G067100:0.228705)n1:0.233906,(physcomitrium_patens_proteome_first_transcript_Pp3c2_6180:0.803965,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G025000:0.579213)n2:0.233906)n0;
+(ceratopteris_richardii_Ceric.06G013200:0.058941,(ceratopteris_richardii_Ceric.05G090200:0.394723,(ceratopteris_richardii_Ceric.05G090300:0.653656,ceratopteris_richardii_Ceric.05G090000:0.29261)n2:0.074278)n1:0.058941)n0;

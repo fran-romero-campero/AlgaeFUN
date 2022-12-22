@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s0090.g042732:0.593897,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_011509:0.054927,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_011510:0.045542,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_011511:0.025892)n2:0.522866)n1:0.593897)n0;
+(selaginella_moellendorffii_Selmo_74439:0.38509,(sphangum_magellanicum_Sphmag02G118700:0.519494,(physcomitrium_patens_Pp3c21_9630:0.217177,ceratodon_purpureus_CepurR40.8G142900:0.185921)n2:0.301299)n1:0.38509)n0;

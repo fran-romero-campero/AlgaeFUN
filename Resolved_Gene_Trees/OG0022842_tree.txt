@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000013S00786:0.234201,(aegilops_tauschii_proteome_first_transcript_AET7Gv20475500.1:0.201562,(triticum_aestivum_proteome_first_transcript_Traes_5BL_E502846D0:0.358047,triticum_aestivum_proteome_first_transcript_Traes_3DS_AAE262914:0.172581)n2:0.0191757)n1:0.381161)n0;
+(arabidopsis_thaliana_AT1G26250:0.211934,((arabidopsis_thaliana_AT1G26240:0.147,arabidopsis_thaliana_AT4G08380:0.170508)n2:0.058493,arabidopsis_thaliana_AT4G08370:0.261978)n1:0.211934)n0;

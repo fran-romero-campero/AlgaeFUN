@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g22759:0.587681,((ostreococcus_tauri_proteome_first_transcript_ostta05g00440:0.811555,bathycoccus_prasinos_proteome_first_transcript_Bathy03g00400 length_330 _mRNA_ _n/a_  _N-terminal amidase_:0.663513)n2:0.247491,micromonas_pusilla_proteome_first_transcript_27339907:0.568137)n1:0.587681)n0;
+(ceratodon_purpureus_CepurR40.9G130100:0.024073,((ceratodon_purpureus_CepurR40.VG044800:0.398602,ceratodon_purpureus_CepurR40.5G152100:1.24406)n2:0.937111,ceratodon_purpureus_CepurR40.5G079500:0.027952)n1:0.024073)n0;

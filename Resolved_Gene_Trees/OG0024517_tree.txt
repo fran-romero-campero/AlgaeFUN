@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028865:0,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028849:4.63759e-07,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_032972:0.261509)n2:0.283945,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_019250:0)n1:0)n0;
+((marchantia_polymorpha_Mp5g15370:0.077932,marchantia_polymorpha_Mp1g21650:1.01166)n1:0.308492,(selaginella_moellendorffii_Selmo_80491:1.10111,selaginella_moellendorffii_Selmo_410602:1.46011)n2:0.308492)n0;

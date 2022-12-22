@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s0037.g025988:0.317066,(arabidopsis_thaliana_proteome_first_transcript_AT5G39715:0.969824,(triticum_aestivum_proteome_first_transcript_Traes_2DL_0F29AFB4F:0.405518,triticum_aestivum_proteome_first_transcript_Traes_7BL_71FFD7DB2:0.0319149)n2:0.0035461)n1:0.123665)n0;
+((ostreococcus_tauri_ostta09g02990:0.23731,(micromonas_pusilla_Micpu_27345050:0.702753,micromonas_pusilla_Micpu_27345479:0.946166)n2:0.10513)n1:0.242468,bathycoccus_prasinos_Bathy10g01520:0.724549)n0;

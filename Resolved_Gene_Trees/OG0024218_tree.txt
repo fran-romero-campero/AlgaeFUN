@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_UNPLg00428:1.89464e-06,(klebsormidium_nitens_proteome_first_transcript_kfl01072_0020:1.10406,(klebsormidium_nitens_proteome_first_transcript_kfl01072_0010:0.237851,klebsormidium_nitens_proteome_first_transcript_kfl00219_0040:0.00019)n2:1.07326)n1:1.89464e-06)n0;
+(triticum_aestivum_Traes_4AL_27E71F458:0.277032,((cycas_panzhihuaensis_CYCAS_033244:0.928767,cycas_panzhihuaensis_CYCAS_024178:0.000342)n2:0.236137,cycas_panzhihuaensis_CYCAS_000489:0.220045)n1:0.277032)n0;

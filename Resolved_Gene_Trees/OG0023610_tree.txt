@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG217600:0.562818,((ceratodon_purpureus_proteome_first_transcript_CepurR40.VG037800:0.523132,ceratodon_purpureus_proteome_first_transcript_CepurR40.VG271000:0.476593)n2:0.158837,ceratodon_purpureus_proteome_first_transcript_CepurR40.VG308700:0.658836)n1:0.562818)n0;
+(raphidocelis_subcapitata_Rsub_10278:0.331373,(dunaliella_salina_Dusal.0613s00006:0.397777,(chlamydomonas_reinhardtii_Cre16.g684950:1.51402e-06,volvox_carteri_Vocar.0042s0108:0.363013)n2:0.205672)n1:0.331373)n0;

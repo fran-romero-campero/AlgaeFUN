@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g24879:0.0519385,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g15342:0.354182,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g24877:0,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g24874:0)n2:0.795502)n1:0.0519385)n0;
+(selaginella_moellendorffii_Selmo_409945:0.5272,(cycas_panzhihuaensis_CYCAS_029523:0.659914,(salvinia_cucullata_Sacu_v1.1_s0085.g018310:0.813268,salvinia_cucullata_Sacu_v1.1_s0025.g009254:1.21381)n2:0.072362)n1:0.5272)n0;

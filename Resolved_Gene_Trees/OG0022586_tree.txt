@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET5Gv20355800.1:0.254711,(triticum_aestivum_proteome_first_transcript_Traes_2DL_C6D2F0F98:0.16154,(triticum_aestivum_proteome_first_transcript_Traes_2AL_FE3CA0848:0.159618,triticum_aestivum_proteome_first_transcript_Traes_2BL_1EED35680:0.039312)n2:0.097313)n1:0.254711)n0;
+(selaginella_moellendorffii_Selmo_432611:0.437945,(salvinia_cucullata_Sacu_v1.1_s0102.g019887:0.865974,(aegilops_tauschii_AET5Gv20609800:1.0659,oryza_sativa_LOC_Os09g30438.1:3.00958e-06)n2:0.342589)n1:0.437945)n0;

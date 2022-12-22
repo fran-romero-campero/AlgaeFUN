@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s0072.g036978:0.027543,(azolla_filiculoides_proteome_first_transcript_Azfi_s0072.g036965:0.051416,(azolla_filiculoides_proteome_first_transcript_Azfi_s0072.g036971:1.18171,azolla_filiculoides_proteome_first_transcript_Azfi_s0072.g036980:0.84036)n2:0.512337)n1:0.027543)n0;
+(ceratodon_purpureus_CepurR40.8G035300:0.326987,((physcomitrium_patens_Pp3c19_6229:0.028025,physcomitrium_patens_Pp3c24_17970:0.169782)n2:0.126004,physcomitrium_patens_Pp3c18_18530:0.038625)n1:0.326987)n0;

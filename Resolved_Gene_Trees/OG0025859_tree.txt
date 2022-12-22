@@ -1,1 +1,1 @@
-((zea_mays_proteome_first_transcript_Zm00001d021724:0.341463,zea_mays_proteome_first_transcript_Zm00001d016129:0.697651)n1:0.0633105,(sorghum_bicolor_proteome_first_transcript_Sobic.008G167000:0.313209,sorghum_bicolor_proteome_first_transcript_Sobic.004G172300:0.602831)n2:0.0633105)n0;
+(triticum_aestivum_Traes_7AL_1E9FBDD47:1.19486e-06,((triticum_aestivum_Traes_7BL_934073AA8:0.013987,triticum_aestivum_Traes_7DL_8368AB176:0.014059)n2:0.552618,triticum_aestivum_Traes_7DL_FB40F7015:0.832821)n1:1.19486e-06)n0;

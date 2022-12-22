@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030288:0.196942,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030289:0.016515,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030293:0.11803)n2:0.199762,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030291:0.06473)n1:0.196942)n0;
+(mesostigma_viridae_Mv16502:1.09199,(spirogloea_muscicola_SM000329S12569:0.031816,(spirogloea_muscicola_SM000065S20238:0.029844,spirogloea_muscicola_SM000233S07971:0.049688)n2:0.007648)n1:1.09199)n0;

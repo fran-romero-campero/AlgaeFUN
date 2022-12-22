@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g9354:0.828777,(klebsormidium_nitens_proteome_first_transcript_kfl00279_0110:0.812573,(spirogloea_muscicola_proteome_first_transcript_SM000099S25227:0.005643,spirogloea_muscicola_proteome_first_transcript_SM000129S26147:0.102523)n2:0.421019)n1:0.828777)n0;
+(klebsormidium_nitens_kfl00183_0050:0.174694,(klebsormidium_nitens_kfl01352_0010:0.669705,(klebsormidium_nitens_kfl00105_0240:0.966174,klebsormidium_nitens_kfl00628_0090:0.491193)n2:0.119275)n1:0.174694)n0;

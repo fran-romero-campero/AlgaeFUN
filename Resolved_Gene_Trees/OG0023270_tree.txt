@@ -1,1 +1,1 @@
-((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_1527:0.378387,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_44054:0.538807)n1:0.109482,(ostreococcus_tauri_proteome_first_transcript_ostta12g00770:0.24896,bathycoccus_prasinos_proteome_first_transcript_Bathy01g06980 length_545 _mRNA_ _n/a_  _predicted protein_:0.284075)n2:0.109482)n0;
+(ceratodon_purpureus_CepurR40.6G133400:0.096549,(ceratodon_purpureus_CepurR40.10G079600:1.15293,(ceratodon_purpureus_CepurR40.6G160800:0.049556,ceratodon_purpureus_CepurR40.6G156300:0.06196)n2:0.112201)n1:0.096549)n0;

@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET1Gv20427900.1:0.299706,(zea_mays_proteome_first_transcript_Zm00001d032506:0.252334,(sorghum_bicolor_proteome_first_transcript_Sobic.001G199700:0.623923,sorghum_bicolor_proteome_first_transcript_Sobic.001G199632:0.48123)n2:0.05347)n1:0.084258)n0;
+(arabidopsis_thaliana_AT2G31425:0.0655785,((arabidopsis_thaliana_AT2G31430:0.416088,arabidopsis_thaliana_AT3G55680:0.443385)n2:0.292728,arabidopsis_thaliana_AT2G31432:0.653786)n1:0.0655785)n0;

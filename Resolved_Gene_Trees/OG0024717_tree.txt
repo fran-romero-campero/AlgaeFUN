@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27347719:0.542399,(klebsormidium_nitens_proteome_first_transcript_kfl00273_0020:1.35827,(mesotaenium_endlicherianum_proteome_first_transcript_ME000100S10663:1.43798,mesostigma_viridae_proteome_first_transcript_Mv22090:0.815081)n2:0.044571)n1:0.542399)n0;
+(mesotaenium_endlicherianum_ME000255S04101:0.990303,((spirogloea_muscicola_SM000314S12175:0.187404,spirogloea_muscicola_SM000300S11716:0.050064)n2:0.079239,spirogloea_muscicola_SM000068S20647:0.146723)n1:0.990303)n0;

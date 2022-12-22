@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00940_0050:1.06089,((klebsormidium_nitens_proteome_first_transcript_kfl00419_0140:0.274783,klebsormidium_nitens_proteome_first_transcript_kfl01288_0010:0.313893)n2:0.141527,klebsormidium_nitens_proteome_first_transcript_kfl00189_0120:0.589138)n1:1.06089)n0;
+(mesotaenium_endlicherianum_ME000408S06883:0.762754,(triticum_aestivum_Traes_2AL_5F0887105:0.585282,(triticum_aestivum_Traes_2BL_81217530E:0.054466,triticum_aestivum_Traes_2DL_1ECF2963E:0.07636)n2:0.241393)n1:0.762754)n0;

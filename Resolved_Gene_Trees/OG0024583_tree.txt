@@ -1,1 +1,1 @@
-(spirogloea_muscicola_proteome_first_transcript_SM000022S07130:0.393068,((triticum_aestivum_proteome_first_transcript_Traes_6AL_E35C8085A:0,triticum_aestivum_proteome_first_transcript_Traes_6AL_E35C8085A1:0)n2:0.780995,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_029589:0.776165)n1:0.393068)n0;
+(nannochloropsis_gaditana_Nangad1_3214:0.60492,((mesostigma_viridae_Mv06633:0.193042,mesostigma_viridae_Mv06632:0.158391)n2:2.4095,mesostigma_viridae_Mv05926:2.12983)n1:0.60492)n0;

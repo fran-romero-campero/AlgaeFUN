@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME1136459C07620:0.334869,((triticum_aestivum_proteome_first_transcript_Traes_6BS_0FA160F34:0.153179,triticum_aestivum_proteome_first_transcript_Traes_2AS_DEC213280:0.34165)n2:0.113762,triticum_aestivum_proteome_first_transcript_Traes_6BS_300536B67:0.486208)n1:0.334869)n0;
+(oryza_sativa_LOC_Os11g40120.1:0.252601,((oryza_sativa_LOC_Os11g39760.1:0.784658,oryza_sativa_LOC_Os11g40560.1:1.15939)n2:0.397745,oryza_sativa_LOC_Os11g40130.1:0.299828)n1:0.252601)n0;

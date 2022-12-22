@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c4_3420:0.44005,(ceratodon_purpureus_proteome_first_transcript_CepurR40.4G214300:0.644564,(ceratodon_purpureus_proteome_first_transcript_CepurR40.4G214400:1.21656,ceratodon_purpureus_proteome_first_transcript_CepurR40.1G194600:0.836923)n2:0.170726)n1:0.44005)n0;
+(chlamydomonas_reinhardtii_Cre08.g368000:2.43615e-06,(raphidocelis_subcapitata_Rsub_02225:1.62756,(raphidocelis_subcapitata_Rsub_04443:0.176298,raphidocelis_subcapitata_Rsub_04444:0.139785)n2:1.40169)n1:2.43615e-06)n0;

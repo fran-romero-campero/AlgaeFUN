@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv24127:0.443034,((marchantia_polymorpha_proteome_first_transcript_Mp6g12060:0.625655,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000111l.59.1:0.49751)n2:0.094515,klebsormidium_nitens_proteome_first_transcript_kfl00118_0060:0.711876)n1:0.443034)n0;
+((ceratopteris_richardii_Ceric.14G033100:0.846796,ceratopteris_richardii_Ceric.1Z110200:0.844463)n1:0.316613,(azolla_filiculoides_Azfi_s0749.g085077:1.13661,salvinia_cucullata_Sacu_v1.1_s0129.g021964:1.43809)n2:0.316613)n0;

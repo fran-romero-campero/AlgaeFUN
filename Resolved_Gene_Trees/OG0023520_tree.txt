@@ -1,1 +1,1 @@
-((physcomitrium_patens_proteome_first_transcript_Pp3c8_20190:0.389389,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G013200:0.466562)n1:0.0629885,(ceratodon_purpureus_proteome_first_transcript_CepurR40.12G171000:0.621142,physcomitrium_patens_proteome_first_transcript_Pp3c20_10280:0.351445)n2:0.0629885)n0;
+(ceratopteris_richardii_Ceric.23G011400:1.21018,(spirogloea_muscicola_SM000192S04893:0.336433,(spirogloea_muscicola_SM000122S25791:0.074705,spirogloea_muscicola_SM000118S25611:0.160708)n2:0.121538)n1:1.21018)n0;

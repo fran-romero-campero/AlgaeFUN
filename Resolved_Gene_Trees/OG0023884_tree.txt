@@ -1,1 +1,1 @@
-((chlamydomonas_reinhardtii_proteome_first_transcript_Cre09.g392652:2.90312e-06,micromonas_pusilla_proteome_first_transcript_27346188:0.754901)n1:0.317943,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_1536:0.735961,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48106:0.971474)n2:0.317943)n0;
+(chromochloris_zofingiensis_Cz06g16010:0.0213675,(dunaliella_salina_Dusal.0084s00019:0.870451,(volvox_carteri_Vocar.0001s1139:0.213232,chlamydomonas_reinhardtii_Cre12.g558750:1.32425e-06)n2:0.237291)n1:0.0213675)n0;

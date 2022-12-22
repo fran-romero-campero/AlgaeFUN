@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT3G49305:0.0421715,(arabidopsis_thaliana_proteome_first_transcript_AT3G49270:0.606514,(arabidopsis_thaliana_proteome_first_transcript_AT3G49300:0.120853,arabidopsis_thaliana_proteome_first_transcript_AT3G49307:0.784089)n2:0.055923)n1:0.0421715)n0;
+((bathycoccus_prasinos_Bathy09g00980:0.460215,(micromonas_pusilla_Micpu_27344664:0.572479,micromonas_pusilla_Micpu_27348487:1.97008)n2:0.218898)n1:0.132888,ostreococcus_tauri_ostta18g01080:0.624472)n0;

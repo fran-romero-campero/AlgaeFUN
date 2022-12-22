@@ -1,1 +1,1 @@
-((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_43057:1.52192,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4478:1.11424)n1:0.0394595,(ulva_mutabilis_proteome_first_transcript_UM100_0041.1:1.49786,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g3669:1.60164)n2:0.0394595)n0;
+(klebsormidium_nitens_kfl00027_0130:0.246326,(klebsormidium_nitens_kfl00309_0080:0.455911,(klebsormidium_nitens_kfl00499_0040:0.376915,klebsormidium_nitens_kfl00719_0050:0.324951)n2:0.449577)n1:0.246326)n0;

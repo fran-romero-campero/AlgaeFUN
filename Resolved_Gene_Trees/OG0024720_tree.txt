@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00283_0180:0.781089,((spirogloea_muscicola_proteome_first_transcript_SM000086S23088:0.256933,spirogloea_muscicola_proteome_first_transcript_SM000391S15192:0.722539)n2:0.679301,spirogloea_muscicola_proteome_first_transcript_SM000369S13625:3.15178e-06)n1:0.781089)n0;
+(micromonas_pusilla_Micpu_27345672:2.07669e-06,((micromonas_pusilla_Micpu_27345309:0.440563,micromonas_pusilla_Micpu_27345296:0.01975)n2:0.992812,micromonas_pusilla_Micpu_27339267:1.11302)n1:2.07669e-06)n0;

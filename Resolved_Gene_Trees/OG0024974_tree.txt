@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0465s0005:0.562779,((mesostigma_viridae_proteome_first_transcript_Mv15560:0.009133,mesostigma_viridae_proteome_first_transcript_Mv15560:0.008822)n2:1.25098,micromonas_pusilla_proteome_first_transcript_27341562:0.65102)n1:0.562779)n0;
+(oryza_sativa_LOC_Os09g37800.1:0.184324,(zea_mays_Zm00001d021434:0.365586,(sorghum_bicolor_Sobic.002G289300:0.05615,sorghum_bicolor_Sobic.002G288500:0.047551)n2:0.124427)n1:0.184324)n0;

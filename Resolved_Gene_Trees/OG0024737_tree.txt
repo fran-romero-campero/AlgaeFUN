@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00558_0070:0.263337,(mesotaenium_endlicherianum_proteome_first_transcript_ME000175S02074:0.186929,(mesotaenium_endlicherianum_proteome_first_transcript_ME000200S02727:0.144628,mesotaenium_endlicherianum_proteome_first_transcript_ME000200S02731:0.061068)n2:0.275871)n1:0.263337)n0;
+((micromonas_pusilla_Micpu_27346977:0.949943,ostreococcus_tauri_ostta13g00060:0.813351)n1:0.218569,(phaeodactylum_tricornutum_Phatr2_47965:1.35948,phaeodactylum_tricornutum_Phatr2_48684:1.81919)n2:0.218569)n0;

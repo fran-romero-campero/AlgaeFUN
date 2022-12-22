@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s3480.g115843:0.0633285,(azolla_filiculoides_proteome_first_transcript_Azfi_s0164.g054297:0.101354,(azolla_filiculoides_proteome_first_transcript_Azfi_s0306.g063964:0.82072,azolla_filiculoides_proteome_first_transcript_Azfi_s0029.g024073:0.019749)n2:0.496466)n1:0.0633285)n0;
+(bathycoccus_prasinos_Bathy29g00070:0.559025,((chlamydomonas_reinhardtii_Cre07.g346450:1.93068e-06,volvox_carteri_Vocar.0011s0037:0.280173)n2:0.519807,dunaliella_salina_Dusal.0808s00007:0.026799)n1:0.559025)n0;

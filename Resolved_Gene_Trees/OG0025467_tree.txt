@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c5_820:1.22028e-06,(physcomitrium_patens_proteome_first_transcript_Pp3c6_28260:1.09956,(physcomitrium_patens_proteome_first_transcript_Pp3s423_10:0.163231,physcomitrium_patens_proteome_first_transcript_Pp3s423_30:1.22028e-06)n2:0.042513)n1:1.22028e-06)n0;
+(triticum_aestivum_Traes_7DS_ADA8AB1B4:0.526182,(sorghum_bicolor_Sobic.010G201332:0.32127,(zea_mays_GRMZM5G898442:0,zea_mays_GRMZM5G898466:0)n2:0.147555)n1:0.526182)n0;

@@ -1,1 +1,1 @@
-((ulva_mutabilis_proteome_first_transcript_UM031_0086.1:2.35331e-06,(mesostigma_viridae_proteome_first_transcript_Mv15521:0.812435,mesostigma_viridae_proteome_first_transcript_Mv11869:1.03636)n2:0.115151)n1:0.110539,chromochloris_zofingiensis_proteome_first_transcript_Cz03g40050:0.77657)n0;
+(cyanophora_paradoxa_Cyapar1_g3174:0.364856,((cyanophora_paradoxa_Cyapar1_g3176:1.54166,cyanophora_paradoxa_Cyapar1_g3175:2.99742e-06)n2:0.821359,cyanophora_paradoxa_Cyapar1_g3173:0.757442)n1:0.364856)n0;

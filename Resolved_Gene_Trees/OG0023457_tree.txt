@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G268700:0.335828,((physcomitrium_patens_proteome_first_transcript_Pp3c14_9100:0.235557,physcomitrium_patens_proteome_first_transcript_Pp3c17_11070:0.325356)n2:0.043914,physcomitrium_patens_proteome_first_transcript_Pp3c18_15110:0.674747)n1:0.335828)n0;
+(marchantia_polymorpha_Mp2g05380:0.469912,(thuja_plicata_Thupl.29377982s0001:0.43466,(cycas_panzhihuaensis_CYCAS_011811:0.383974,ceratopteris_richardii_Ceric.19G060600:1.55472)n2:0.238041)n1:0.469912)n0;

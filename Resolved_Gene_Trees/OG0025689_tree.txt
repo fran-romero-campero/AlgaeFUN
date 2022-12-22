@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_422726:0.37747,(solanum_lycopersicum_proteome_first_transcript_Solyc03g013080.1.1:0.423668,(triticum_aestivum_proteome_first_transcript_Traes_7AS_C73EFD021:0.001966,triticum_aestivum_proteome_first_transcript_Traes_7BS_1403E8C3C:0.012227)n2:0.140137)n1:0.37747)n0;
+(spirogloea_muscicola_SM000124S25899:0.033035,((spirogloea_muscicola_SM000079S22416:7.6047e-07,spirogloea_muscicola_SM000079S22419:0.282824)n2:0.399155,spirogloea_muscicola_SM000088S23719:0.074204)n1:0.033035)n0;

@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0266s0007:0.662281,((porphyra_umbilicalis_proteome_first_transcript_Pum0130s0004:3.26181e-06,porphyra_umbilicalis_proteome_first_transcript_Pum1321s0001:1.35688)n2:0.05141,porphyra_umbilicalis_proteome_first_transcript_Pum0111s0044:1.24624)n1:0.662281)n0;
+(zea_mays_Zm00001d038593:0.153562,(sorghum_bicolor_Sobic.009G185501:0.204904,(sorghum_bicolor_Sobic.009G185201:0.378472,sorghum_bicolor_Sobic.009G185400:0.665723)n2:0.204153)n1:0.153562)n0;

@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_018243:0.307247,(arabidopsis_thaliana_proteome_first_transcript_AT4G22870:0.18966,(zea_mays_proteome_first_transcript_Zm00001d048800:0.201192,zea_mays_proteome_first_transcript_Zm00001d038073:0.080426)n2:0.487862)n1:0.307247)n0;
+(phaeodactylum_tricornutum_Phatr2_7235:0.40906,((ostreococcus_tauri_ostta03g04070:0.188762,micromonas_pusilla_Micpu_27345412:0.294917)n2:0.013533,bathycoccus_prasinos_Bathy09g04320:0.407824)n1:0.40906)n0;

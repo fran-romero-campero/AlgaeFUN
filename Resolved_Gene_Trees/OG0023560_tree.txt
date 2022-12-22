@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00154_g8:0.553307,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G065200:0.420834,(physcomitrium_patens_proteome_first_transcript_Pp3c8_19220:1.78934e-06,physcomitrium_patens_proteome_first_transcript_Pp3c8_19350:0.369094)n2:0.0410105)n1:0.413079)n0;
+(chlamydomonas_reinhardtii_Cre07.g356550:3.16869e-06,(volvox_carteri_Vocar.0006s0016:1.46324,(volvox_carteri_Vocar.0051s0004:1.15633,volvox_carteri_Vocar.0051s0006:0.878574)n2:0.186653)n1:3.16869e-06)n0;

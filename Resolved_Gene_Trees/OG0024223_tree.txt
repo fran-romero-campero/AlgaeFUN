@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00170_0110:0.65057,(chromochloris_zofingiensis_proteome_first_transcript_Cz13g04100:2.98956e-06,(ulva_mutabilis_proteome_first_transcript_UM018_0115.1:1.27786,raphidocelis_subcapitata_proteome_first_transcript_Rsub_11637:0.432863)n2:0.090685)n1:0.65057)n0;
+(cycas_panzhihuaensis_CYCAS_011638:0.428811,(cycas_panzhihuaensis_CYCAS_012057:0.928394,(cycas_panzhihuaensis_CYCAS_010455:0.332149,cycas_panzhihuaensis_CYCAS_001682:1.21951)n2:0.049022)n1:0.428811)n0;

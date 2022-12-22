@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc02g043950.1.1:0.345946,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030575:0,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030585:0)n2:0.273727,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_033272:0.174905)n1:0.345946)n0;
+(mesostigma_viridae_Mv15959:0.370861,(mesostigma_viridae_Mv15977:0.605988,(mesostigma_viridae_Mv15919:0.9059,mesostigma_viridae_Mv20095:1.09324)n2:0.231926)n1:0.370861)n0;

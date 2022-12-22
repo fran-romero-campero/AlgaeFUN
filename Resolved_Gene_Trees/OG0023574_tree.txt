@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c12_5060:0.369513,(ceratodon_purpureus_proteome_first_transcript_CepurR40.4G079600:1.42263e-06,(ceratodon_purpureus_proteome_first_transcript_CepurR40.6G141400:0.289431,ceratodon_purpureus_proteome_first_transcript_CepurR40.12G041000:0.346781)n2:0.234017)n1:0.369513)n0;
+((chromochloris_zofingiensis_Cz12g01060:1.18812e-06,raphidocelis_subcapitata_Rsub_02527:0.692678)n1:0.253347,(volvox_carteri_Vocar.0034s0054:0.211897,chlamydomonas_reinhardtii_Cre07.g330650:0.015592)n2:0.253347)n0;

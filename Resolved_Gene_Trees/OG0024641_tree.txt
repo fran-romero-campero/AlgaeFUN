@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00285_0155:0.213891,(klebsormidium_nitens_proteome_first_transcript_kfl00149_0050:1.07492,(klebsormidium_nitens_proteome_first_transcript_kfl00285_0150:0.504119,klebsormidium_nitens_proteome_first_transcript_kfl00003_0510:0.713952)n2:0.285086)n1:0.213891)n0;
+(mesostigma_viridae_Mv10703:0.673622,((spirogloea_muscicola_SM000171S03236:0.076823,spirogloea_muscicola_SM000093S24421:0.062834)n2:0.031898,spirogloea_muscicola_SM000219S06691:0.100163)n1:0.673622)n0;

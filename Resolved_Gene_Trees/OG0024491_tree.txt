@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_423941:0.543211,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_011154:0.538723,(zea_mays_proteome_first_transcript_Zm00001d049979:0.552282,solanum_lycopersicum_proteome_first_transcript_Solyc03g115400.2.1:0.471407)n2:0.209667)n1:0.543211)n0;
+(klebsormidium_nitens_kfl01064_0040:0.034244,((klebsormidium_nitens_kfl01064_0030:0.561685,klebsormidium_nitens_kfl00389_0130:0.786753)n2:0.747473,klebsormidium_nitens_kfl01217_0030:0.087409)n1:0.034244)n0;

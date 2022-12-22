@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_4BL_6EDBB5BEB:0.401919,((marchantia_polymorpha_proteome_first_transcript_Mp6g17180:1.57536e-06,marchantia_polymorpha_proteome_first_transcript_Mp6g17150:0.24453)n2:0.230264,marchantia_polymorpha_proteome_first_transcript_Mp6g17140:0.331439)n1:0.401919)n0;
+(triticum_aestivum_Traes_6DL_61AA1956E:0.236739,(oryza_sativa_LOC_Os05g45120.1:0.057854,(oryza_sativa_LOC_Os09g30990.1:0.574307,oryza_sativa_LOC_Os10g02690.1:1.07858)n2:0.449447)n1:0.236739)n0;

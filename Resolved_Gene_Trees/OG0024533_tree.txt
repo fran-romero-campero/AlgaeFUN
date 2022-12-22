@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021088:0.866959,((spirogloea_muscicola_proteome_first_transcript_SM000006S19490:0.061876,spirogloea_muscicola_proteome_first_transcript_SM000008S22324:0.042073)n2:0.019914,spirogloea_muscicola_proteome_first_transcript_SM000272S10267:0.112952)n1:0.866959)n0;
+(marchantia_polymorpha_Mp3g20350:0.113851,(solanum_lycopersicum_Solyc01g088520:0.54675,(triticum_aestivum_Traes_2AL_2655769B3:0.026726,triticum_aestivum_Traes_2BL_F3BDF34C5:0.09791)n2:0.686902)n1:0.113851)n0;

@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_35318:1.16939,(mesostigma_viridae_proteome_first_transcript_Mv22300:0.078125,(mesostigma_viridae_proteome_first_transcript_Mv22300:0.028492,mesostigma_viridae_proteome_first_transcript_Mv22300:0.015179)n2:0.028874)n1:1.16939)n0;
+((sorghum_bicolor_Sobic.006G079800:0.465728,sorghum_bicolor_Sobic.006G081900:0.288642)n1:0.260728,(oryza_sativa_LOC_Os03g41290.1:0.721324,oryza_sativa_LOC_Os06g40220.1:0.262915)n2:0.260728)n0;

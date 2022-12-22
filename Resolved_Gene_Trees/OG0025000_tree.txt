@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000194S02592:0.389574,((mesotaenium_endlicherianum_proteome_first_transcript_ME000194S02590:0.549167,mesotaenium_endlicherianum_proteome_first_transcript_ME000091S10318:0.701577)n2:0.396215,mesotaenium_endlicherianum_proteome_first_transcript_ME000091S10314:2.04532e-06)n1:0.389574)n0;
+(oryza_sativa_LOC_Os06g29730.1:0.399483,(zea_mays_Zm00001d046474:0.347916,(sorghum_bicolor_Sobic.010G177800:0.871895,sorghum_bicolor_Sobic.010G178000:0.469131)n2:0.0521257)n1:0.039551)n0;

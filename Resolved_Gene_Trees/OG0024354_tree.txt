@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g17194:0.992502,((mesostigma_viridae_proteome_first_transcript_Mv13996:0.023803,mesostigma_viridae_proteome_first_transcript_Mv13996:4.5809e-06)n2:1.5316,klebsormidium_nitens_proteome_first_transcript_kfl00101_0110:1.04729)n1:0.992502)n0;
+(cycas_panzhihuaensis_CYCAS_004322:0.28245,((cycas_panzhihuaensis_CYCAS_004320:0.073647,cycas_panzhihuaensis_CYCAS_004323:0.316241)n2:0.551481,cycas_panzhihuaensis_CYCAS_004318:0.020851)n1:0.28245)n0;

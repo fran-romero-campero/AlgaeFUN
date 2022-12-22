@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp5g15660:0.212327,((marchantia_polymorpha_proteome_first_transcript_Mp4g19480:0.211441,marchantia_polymorpha_proteome_first_transcript_Mp4g19520:0.443663)n2:0.209491,marchantia_polymorpha_proteome_first_transcript_Mp4g19510:0.709348)n1:0.212327)n0;
+(nannochloropsis_gaditana_Nangad1_8765:0.683308,(phaeodactylum_tricornutum_Phatr2_35644:0.537896,(phaeodactylum_tricornutum_Phatr2_50344:0.004836,phaeodactylum_tricornutum_Phatr2_49354:3.14781e-06)n2:1.23904)n1:0.683308)n0;

@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00139_0115:0.788297,((klebsormidium_nitens_proteome_first_transcript_kfl00139_0280:0.397917,klebsormidium_nitens_proteome_first_transcript_kfl00139_0110:1.33251)n2:0.207825,klebsormidium_nitens_proteome_first_transcript_kfl00139_0290:0.10341)n1:0.788297)n0;
+(mesotaenium_endlicherianum_ME000207S02866:0.798948,((spirogloea_muscicola_SM000088S23726:0.167532,spirogloea_muscicola_SM000124S25914:0.080206)n2:0.072013,spirogloea_muscicola_SM000079S22407:0.083765)n1:0.798948)n0;

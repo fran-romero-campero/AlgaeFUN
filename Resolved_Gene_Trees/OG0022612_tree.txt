@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET6Gv20367300.1:0.116144,(triticum_aestivum_proteome_first_transcript_Traes_6BS_3BE190F11:7.28925e-07,(triticum_aestivum_proteome_first_transcript_Traes_4AL_11FA3B889:0.065889,triticum_aestivum_proteome_first_transcript_Traes_7BL_03FE32FEC:0.336864)n2:0.094133)n1:0.116144)n0;
+(mesotaenium_endlicherianum_ME000123S00268:0.112088,(ceratopteris_richardii_Ceric.15G008300:0.758595,(cycas_panzhihuaensis_CYCAS_008281:0.667577,aegilops_tauschii_AET1Gv20166900:2.11222e-06)n2:0.602995)n1:0.112088)n0;

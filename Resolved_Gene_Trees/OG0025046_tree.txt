@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000344S06024:0.424705,((spirogloea_muscicola_proteome_first_transcript_SM000167S02937:0.136705,spirogloea_muscicola_proteome_first_transcript_SM000184S03755:0.014026)n2:0.095845,spirogloea_muscicola_proteome_first_transcript_SM000211S06646:0.129634)n1:0.424705)n0;
+(phaeodactylum_tricornutum_Phatr2_47560:0.634481,((phaeodactylum_tricornutum_Phatr2_47574:0.106397,phaeodactylum_tricornutum_Phatr2_47570:0.070564)n2:1.31152,phaeodactylum_tricornutum_Phatr2_50133:1.75063)n1:0.634481)n0;

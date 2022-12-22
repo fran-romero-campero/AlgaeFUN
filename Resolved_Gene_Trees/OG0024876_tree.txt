@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv15299:7.88014e-07,((mesostigma_viridae_proteome_first_transcript_Mv15299:7.88014e-07,mesostigma_viridae_proteome_first_transcript_Mv15299:0.2256)n2:0.154556,mesostigma_viridae_proteome_first_transcript_Mv10056:0.535105)n1:7.88014e-07)n0;
+(oryza_sativa_LOC_Os07g23770.1:0.551568,(oryza_sativa_LOC_Os03g32290.1:0.502234,(oryza_sativa_LOC_Os03g27890.1:0.77038,oryza_sativa_LOC_Os01g19580.1:0.940836)n2:0.134695)n1:0.551568)n0;

@@ -1,1 +1,1 @@
-((marchantia_polymorpha_proteome_first_transcript_Mp5g15370:0.077932,marchantia_polymorpha_proteome_first_transcript_Mp1g21650:1.01166)n1:0.308492,(selaginella_moellendorffii_proteome_first_transcript_80491:1.10111,selaginella_moellendorffii_proteome_first_transcript_410602:1.46011)n2:0.308492)n0;
+(nannochloropsis_gaditana_Nangad1_2634:0,((nannochloropsis_gaditana_Nangad1_5999:0.685028,nannochloropsis_gaditana_Nangad1_4468:0.492815)n2:0.384256,nannochloropsis_gaditana_Nangad1_2633:0)n1:0)n0;

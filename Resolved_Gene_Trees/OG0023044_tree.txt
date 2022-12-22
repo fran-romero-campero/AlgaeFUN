@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT1G44980:0.306227,((arabidopsis_thaliana_proteome_first_transcript_AT1G11590:0.03661,arabidopsis_thaliana_proteome_first_transcript_AT4G03930:0.062446)n2:0.021693,arabidopsis_thaliana_proteome_first_transcript_AT3G27980:0.054705)n1:0.306227)n0;
+(bathycoccus_prasinos_Bathy01g01910:0.918867,((porphyra_umbilicalis_Pum0112s0016:0.044098,porphyra_umbilicalis_Pum0084s0044:0.260067)n2:1.20162,porphyra_umbilicalis_Pum0183s0007:2.78592e-06)n1:0.918867)n0;

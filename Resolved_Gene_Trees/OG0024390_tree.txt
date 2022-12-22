@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum1757s0001:0.590684,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4347:1.51477,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g21865:0.888282,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2692:0.370238)n2:0.0411376)n1:0.627936)n0;
+(dunaliella_salina_Dusal.0557s00009:0.250564,(dunaliella_salina_Dusal.0010s00047:1.01677,(dunaliella_salina_Dusal.0248s00008:1.44986,dunaliella_salina_Dusal.0507s00001:0.419794)n2:0.698077)n1:0.250564)n0;

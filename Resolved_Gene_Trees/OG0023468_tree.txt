@@ -1,1 +1,1 @@
-((klebsormidium_nitens_proteome_first_transcript_kfl00342_0050:0.553897,klebsormidium_nitens_proteome_first_transcript_kfl00056_0380:0.686506)n1:0.264508,(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G011400:0.065139,physcomitrium_patens_proteome_first_transcript_Pp3c9_9480:0.032035)n2:0.264508)n0;
+(ceratopteris_richardii_Ceric.13G044500:0.173385,((ceratopteris_richardii_Ceric.24G069600:0.171637,ceratopteris_richardii_Ceric.08G010600:0.358843)n2:0.130933,ceratopteris_richardii_Ceric.39G016600:0.255968)n1:0.173385)n0;

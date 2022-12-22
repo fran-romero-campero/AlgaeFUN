@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028009:0.0581635,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_024976:0.366839,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028719:0.888231,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026293:0.694146)n2:0.360771)n1:0.0581635)n0;
+(solanum_lycopersicum_Solyc01g106957:0.286018,(marchantia_polymorpha_Mp7g18040:0.649972,(physcomitrium_patens_Pp3c6_19501:0,physcomitrium_patens_Pp3c6_19500:0)n2:0.502376)n1:0.286018)n0;

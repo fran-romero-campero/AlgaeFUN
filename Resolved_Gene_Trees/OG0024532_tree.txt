@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc04g072650.1.1:0.860318,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_020708:0.214942,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_020710:0.194345,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_020709:0.076187)n2:0.047925)n1:0.860318)n0;
+(selaginella_moellendorffii_Selmo_441550:0.502519,(marchantia_polymorpha_Mp3g18210:0.660047,(marchantia_polymorpha_Mp5g05730:0.432044,marchantia_polymorpha_Mp5g05720:0.584738)n2:0.059359)n1:0.502519)n0;

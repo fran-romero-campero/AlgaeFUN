@@ -1,1 +1,1 @@
-((solanum_lycopersicum_proteome_first_transcript_Solyc10g083530.2.1:0.5414,solanum_lycopersicum_proteome_first_transcript_Solyc09g009220.4.1:0.434692)n1:0.169699,(arabidopsis_thaliana_proteome_first_transcript_AT5G03670:0.726741,arabidopsis_thaliana_proteome_first_transcript_AT2G36420:0.726165)n2:0.169699)n0;
+((cyanophora_paradoxa_Cyapar1_g7921:0.515853,cyanophora_paradoxa_Cyapar1_g7923:0.576801)n1:0.452109,(bathycoccus_prasinos_Bathy07g04050:1.11515,ostreococcus_tauri_ostta12g00570:1.29496)n2:0.452109)n0;

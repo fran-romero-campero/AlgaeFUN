@@ -1,1 +1,1 @@
-((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_001065:0.793898,(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG078500:0.600628,ceratodon_purpureus_proteome_first_transcript_CepurR40.8G097000:0.550844)n2:0.0612049)n1:0.0399825,aegilops_tauschii_proteome_first_transcript_AET6Gv20094800.1:0.435376)n0;
+(arabidopsis_thaliana_AT5G36690:0,(arabidopsis_thaliana_AT5G36780:0,(arabidopsis_thaliana_AT1G53110:1.0248,arabidopsis_thaliana_AT3G15340:0.187318)n2:0.287909)n1:0)n0;

@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz01g24040:1.85005e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_11689:0.679952,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_02738:0.636406,raphidocelis_subcapitata_proteome_first_transcript_Rsub_05204:0.604224)n2:0.030388)n1:1.85005e-06)n0;
+(cyanophora_paradoxa_Cyapar1_g23145:0.0668805,((cyanophora_paradoxa_Cyapar1_g23148:0.989404,cyanophora_paradoxa_Cyapar1_g23144:1.16946)n2:0.395284,cyanophora_paradoxa_Cyapar1_g23149:0.149116)n1:0.0668805)n0;

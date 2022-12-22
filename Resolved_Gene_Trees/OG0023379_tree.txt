@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27343741:0.408171,(bathycoccus_prasinos_proteome_first_transcript_Bathy17g01570 length_404 _mRNA_ _n/a_  _Lysyl hydroxylase _ISS__:0.749117,(ostreococcus_tauri_proteome_first_transcript_ostta02g03220:0.805846,ostreococcus_tauri_proteome_first_transcript_ostta02g05410:0.626275)n2:0.0695861)n1:0.086933)n0;
+(ceratodon_purpureus_CepurR40.4G108600:0.231456,(ceratodon_purpureus_CepurR40.4G110000:0.543059,(ceratodon_purpureus_CepurR40.4G099900:1.39846,ceratodon_purpureus_CepurR40.5G143100:0.658741)n2:0.141802)n1:0.231456)n0;

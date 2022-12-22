@@ -1,1 +1,1 @@
-((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_10034:0.342206,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_50189:0.672499)n1:0.110191,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_46794:0.980341,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_10035:1.48402)n2:0.110191)n0;
+(physcomitrium_patens_Pp3c22_13180:0.865054,(spirogloea_muscicola_SM000237S08148:0.354615,(spirogloea_muscicola_SM000255S08772:0.069396,spirogloea_muscicola_SM000195S05251:0.0965)n2:0.186467)n1:0.865054)n0;

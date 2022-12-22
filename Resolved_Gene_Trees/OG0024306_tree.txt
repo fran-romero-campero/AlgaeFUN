@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g13048:0.053316,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g19756:1.5619,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g16788:1.01998)n2:1.31059,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g13050:0.092665)n1:0.053316)n0;
+(cycas_panzhihuaensis_CYCAS_005121:0.476133,(cycas_panzhihuaensis_CYCAS_005968:1.14319,(cycas_panzhihuaensis_CYCAS_031986:0.502704,cycas_panzhihuaensis_CYCAS_023761:0.503967)n2:0.630907)n1:0.476133)n0;

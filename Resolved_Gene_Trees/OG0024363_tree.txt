@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_6367:0.835461,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g7231:0.735966,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g18458:0.372303)n2:0.104168,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g20679:1.02256)n1:0.835461)n0;
+(selaginella_moellendorffii_Selmo_428082:0.948287,((thuja_plicata_Thupl.29369726s0002:0.129577,thuja_plicata_Thupl.29377420s0012:0.030911)n2:0.417027,cycas_panzhihuaensis_CYCAS_007320:0.66006)n1:0.948287)n0;

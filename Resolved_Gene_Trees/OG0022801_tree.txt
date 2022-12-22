@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET7Gv20577400.1:0.000858,(triticum_aestivum_proteome_first_transcript_Traes_7AS_0535EFFBE:0.074414,(triticum_aestivum_proteome_first_transcript_Traes_7DS_BF90D232B:2.61359e-07,triticum_aestivum_proteome_first_transcript_Traes_7BS_512DAD90D:0.142044)n2:0.049947)n1:0.000858)n0;
+(anthoceros_agrestis_AagrOXF_utg000050l.414:0.50831,((azolla_filiculoides_Azfi_s0015.g013718:0.936157,salvinia_cucullata_Sacu_v1.1_s0023.g008829:1.2207)n2:0.026926,ceratopteris_richardii_Ceric.25G055100:1.16104)n1:0.50831)n0;

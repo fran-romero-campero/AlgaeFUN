@@ -1,1 +1,1 @@
-((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g10429:9.43251e-07,chlamydomonas_reinhardtii_proteome_first_transcript_Cre05.g248400:0.495574)n1:0.190683,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre05.g248450:0.495574,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14432:9.43251e-07)n2:0.190683)n0;
+((mesotaenium_endlicherianum_ME000219S03289:2.67364e-06,mesotaenium_endlicherianum_ME000219S03288:0.392177)n1:0.300411,(mesostigma_viridae_Mv14816:0.848062,chlorokybus_atmophyticus_Chlat1_5109:0.92332)n2:0.300411)n0;

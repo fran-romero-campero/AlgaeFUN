@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_2AS_64E0EF151:0.247315,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0004.g002224:0.003816,(azolla_filiculoides_proteome_first_transcript_Azfi_s1215.g099834:0.1206,azolla_filiculoides_proteome_first_transcript_Azfi_s0467.g072835:0.225314)n2:0.468511)n1:0.247315)n0;
+((physcomitrium_patens_Pp3c9_3340:0.201477,physcomitrium_patens_Pp3c15_17620:0.160033)n1:0.054596,(ceratodon_purpureus_CepurR40.7G099200:0.271771,ceratodon_purpureus_CepurR40.10G100800:0.38152)n2:0.054596)n0;

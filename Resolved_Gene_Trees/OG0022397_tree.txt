@@ -1,1 +1,1 @@
-((aegilops_tauschii_proteome_first_transcript_AET5Gv20052800.1:0.497379,aegilops_tauschii_proteome_first_transcript_AET7Gv20949300.1:2.26689e-06)n1:0.109057,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_006535:0.799041,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_032438:0.754027)n2:0.109057)n0;
+(aegilops_tauschii_AET4Gv20861100:0.223931,(aegilops_tauschii_AET4Gv20861400:0.476203,(aegilops_tauschii_AET4Gv20861700:0.408568,aegilops_tauschii_AET4Gv20862400:0.669465)n2:0.016327)n1:0.223931)n0;

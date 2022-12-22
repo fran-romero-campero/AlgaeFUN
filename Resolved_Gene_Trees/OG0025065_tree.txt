@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27343082:0.799627,(solanum_lycopersicum_proteome_first_transcript_Solyc07g150149.1.1:0.289311,(triticum_aestivum_proteome_first_transcript_Traes_7AL_E70933BD3:0.035288,triticum_aestivum_proteome_first_transcript_Traes_7BL_A84D60579:0.043721)n2:0.187077)n1:0.799627)n0;
+(phaeodactylum_tricornutum_Phatr2_49686:0.849864,((phaeodactylum_tricornutum_Phatr2_49558:1.22769,phaeodactylum_tricornutum_Phatr2_47724:0.824106)n2:0.270127,phaeodactylum_tricornutum_Phatr2_49781:0.353233)n1:0.849864)n0;

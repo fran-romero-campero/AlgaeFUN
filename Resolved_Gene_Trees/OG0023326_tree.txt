@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_10430:0.689447,(micromonas_pusilla_proteome_first_transcript_27348331:0.522927,(bathycoccus_prasinos_proteome_first_transcript_Bathy08g03000 length_693 _mRNA_ _n/a_  _predicted protein_:0.874479,ostreococcus_tauri_proteome_first_transcript_ostta04g03630:0.449333)n2:0.111634)n1:0.689447)n0;
+(marchantia_polymorpha_Mp1g25540:1.04329,((physcomitrium_patens_Pp3c13_1350:0.321728,physcomitrium_patens_Pp3c3_1600:0.366409)n2:0.310163,ceratodon_purpureus_CepurR40.1G012100:0.561437)n1:1.04329)n0;

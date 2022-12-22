@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv12220:0.690142,(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G166600:1.37841,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000049l.671.1:0.557195,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000005l.312.1:4.07422e-06)n2:0.812855)n1:0.690142)n0;
+(salvinia_cucullata_Sacu_v1.1_s0098.g019466:0.11385,(azolla_filiculoides_Azfi_s0127.g048672:0.421577,(azolla_filiculoides_Azfi_s0005.g009345:0.092533,azolla_filiculoides_Azfi_s0091.g042952:0.412037)n2:0.483594)n1:0.11385)n0;

@@ -1,1 +1,1 @@
-((chromochloris_zofingiensis_proteome_first_transcript_Cz11g08090:0.034756,marchantia_polymorpha_proteome_first_transcript_Mp8g02450:0.798904)n1:0.194434,(marchantia_polymorpha_proteome_first_transcript_Mp4g01050:0.46862,chromochloris_zofingiensis_proteome_first_transcript_Cz11g04010:0.071026)n2:0.194434)n0;
+(cyanophora_paradoxa_Cyapar1_g236:0.3879,((cyanophora_paradoxa_Cyapar1_g232:0.038712,cyanophora_paradoxa_Cyapar1_g245:0.024865)n2:0.010179,cyanophora_paradoxa_Cyapar1_g241:0.024478)n1:0.3879)n0;

@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_011941:0.104029,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_013598:0.416928,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_020983:0.075874)n2:0.122614,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_010172:0.102921)n1:0.104029)n0;
+(klebsormidium_nitens_kfl01230_0010:0.797987,((klebsormidium_nitens_kfl00336_0160:0.417221,klebsormidium_nitens_kfl00298_0060:0.386315)n2:0.259082,klebsormidium_nitens_kfl00902_0040:0.688583)n1:0.797987)n0;

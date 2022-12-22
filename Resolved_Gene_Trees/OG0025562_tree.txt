@@ -1,1 +1,1 @@
-(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0012.g005534:0.648305,((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0170.g024357:0.521558,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0025.g009316:0.501205)n2:0.143502,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0001.g000711:0.200606)n1:0.648305)n0;
+(sphangum_magellanicum_Sphmag15G007900:0.007111,(sphangum_magellanicum_Sphmag05G072900:0.312875,(sphangum_magellanicum_Sphmag03G014000:0.168363,sphangum_magellanicum_Sphmag02G192100:0.401221)n2:0.265937)n1:0.007111)n0;

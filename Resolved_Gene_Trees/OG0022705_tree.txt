@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET7Gv20433000.1:0.834872,(sorghum_bicolor_proteome_first_transcript_Sobic.006G055000:0.163938,(zea_mays_proteome_first_transcript_Zm00001d025255:0.259138,zea_mays_proteome_first_transcript_Zm00001d025253:0.419004)n2:0.046556)n1:0.366998)n0;
+(anthoceros_agrestis_AagrOXF_utg000002l.213:0.700944,(sphangum_magellanicum_Sphmag10G104900:1.8621e-06,(sphangum_magellanicum_Sphmag01G169800:0.091914,sphangum_magellanicum_Sphmag17G053800:0.352387)n2:0.10095)n1:0.700944)n0;

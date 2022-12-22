@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c12_16280:0,(physcomitrium_patens_proteome_first_transcript_Pp3c12_16190:0.110977,(physcomitrium_patens_proteome_first_transcript_Pp3c12_16200:0,physcomitrium_patens_proteome_first_transcript_Pp3c12_16320:0)n2:0)n1:0)n0;
+(sorghum_bicolor_Sobic.010G186100:0.276543,(zea_mays_Zm00001d046519:0.004236,(zea_mays_Zm00001d046518:0,zea_mays_Zm00001d046517:0)n2:0.010752)n1:0.276543)n0;

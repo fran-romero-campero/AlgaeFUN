@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_6117:0.431893,(physcomitrium_patens_proteome_first_transcript_Pp3c2_32600:0.21832,(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G203400:0.254751,ceratodon_purpureus_proteome_first_transcript_CepurR40.8G192700:0.021643)n2:0.037817)n1:0.431893)n0;
+(sphangum_magellanicum_Sphmag09G034000:0.236228,(ceratodon_purpureus_CepurR40.7G141100:0.261797,(physcomitrium_patens_Pp3c11_5571:0.002178,physcomitrium_patens_Pp3c11_5570:0.026931)n2:0.367682)n1:0.236228)n0;

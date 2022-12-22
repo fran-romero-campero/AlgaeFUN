@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0060s0006:0.0218805,((porphyra_umbilicalis_proteome_first_transcript_Pum0047s0007:0.870284,porphyra_umbilicalis_proteome_first_transcript_Pum0060s0007:0.556976)n2:0.420464,porphyra_umbilicalis_proteome_first_transcript_Pum0556s0003:0.016035)n1:0.0218805)n0;
+(triticum_aestivum_Traes_3B_218D75C3E:0.384124,(sorghum_bicolor_Sobic.009G227000:0.235914,(zea_mays_Zm00001d009508:0.215911,zea_mays_Zm00001d038963:0.19467)n2:0.02163)n1:0.014789)n0;

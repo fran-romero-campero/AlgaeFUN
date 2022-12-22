@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz08g29240:0.394612,((triticum_aestivum_proteome_first_transcript_Traes_3B_BE5E7B360:0.226451,triticum_aestivum_proteome_first_transcript_Traes_7AL_22DFDE2DC:0.291872)n2:0.045254,triticum_aestivum_proteome_first_transcript_Traes_2BL_58E6ED92C:0.143312)n1:0.394612)n0;
+(cyanophora_paradoxa_Cyapar1_g895:0.36192,(cyanophora_paradoxa_Cyapar1_g880:0.023081,(cyanophora_paradoxa_Cyapar1_g881:0.005319,cyanophora_paradoxa_Cyapar1_g897:3.4e-05)n2:0.022845)n1:0.36192)n0;

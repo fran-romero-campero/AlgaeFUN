@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_proteome_first_transcript_Cre07.g347450:0.226758,(chromochloris_zofingiensis_proteome_first_transcript_Cz12g12080:1.66497e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_03434:0.270494,raphidocelis_subcapitata_proteome_first_transcript_Rsub_03232:0.719775)n2:0.079975)n1:0.396015)n0;
+(ulva_mutabilis_UM028_0030:0.668041,((chlamydomonas_reinhardtii_Cre03.g145407:1.90548e-06,volvox_carteri_Vocar.0019s0023:0.414407)n2:0.407937,chromochloris_zofingiensis_Cz04g23170:1.90548e-06)n1:0.668041)n0;

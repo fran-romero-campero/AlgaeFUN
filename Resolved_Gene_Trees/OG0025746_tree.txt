@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc04g150107.1.1:0.0197265,(solanum_lycopersicum_proteome_first_transcript_Solyc04g011335.1.1:0.254968,(solanum_lycopersicum_proteome_first_transcript_Solyc04g150106.1.1:0.101642,solanum_lycopersicum_proteome_first_transcript_Solyc04g011337.1.1:0.065899)n2:1.39765)n1:0.0197265)n0;
+(thuja_plicata_Thupl.29381105s0001:0.201788,((thuja_plicata_Thupl.29335115s0002:0.000256,thuja_plicata_Thupl.29378893s0007:0.09738)n2:0.121944,thuja_plicata_Thupl.29381084s0004:0.031767)n1:0.201788)n0;

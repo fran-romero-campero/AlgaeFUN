@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s4316.g118720:0.536139,(physcomitrium_patens_proteome_first_transcript_Pp3c18_1620:0.157035,(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G116600:0.114745,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G000200:0.163177)n2:0.644753)n1:0.536139)n0;
+(sphangum_magellanicum_Sphmag13G100700:0.148159,(ceratodon_purpureus_CepurR40.10G030300:0.048909,(physcomitrium_patens_Pp3c15_17390:0.045312,physcomitrium_patens_Pp3c9_20960:0.063258)n2:0.008566)n1:0.148159)n0;

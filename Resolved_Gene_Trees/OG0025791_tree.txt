@@ -1,1 +1,1 @@
-(sorghum_bicolor_proteome_first_transcript_Sobic.010G056500:0.043322,((sorghum_bicolor_proteome_first_transcript_Sobic.010G056600:2.64857e-07,sorghum_bicolor_proteome_first_transcript_Sobic.010G056800:0.022181)n2:0.131105,sorghum_bicolor_proteome_first_transcript_Sobic.010G056900:0.029114)n1:0.043322)n0;
+(triticum_aestivum_Traes_2AS_4279F2876:0.462145,(thuja_plicata_Thupl.29377546s0017:0.566724,(thuja_plicata_Thupl.29381436s0005:0.639079,thuja_plicata_Thupl.29378112s0001:0.243721)n2:0.164172)n1:0.462145)n0;

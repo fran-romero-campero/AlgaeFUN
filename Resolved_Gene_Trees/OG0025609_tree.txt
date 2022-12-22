@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_410739:0.449003,((selaginella_moellendorffii_proteome_first_transcript_432385:0.735549,selaginella_moellendorffii_proteome_first_transcript_405267:0.467352)n2:0.754238,selaginella_moellendorffii_proteome_first_transcript_424205:0.746597)n1:0.449003)n0;
+(sphangum_magellanicum_Sphmag16G073200:0.570899,(thuja_plicata_Thupl.29379292s0001:0.012822,(thuja_plicata_Thupl.29378848s0002:0.247374,thuja_plicata_Thupl.29378848s0001:0.123498)n2:0.201606)n1:0.570899)n0;

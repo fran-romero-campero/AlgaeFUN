@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g8076:1.04956,(mesostigma_viridae_proteome_first_transcript_Mv02209:2.16063e-06,(mesostigma_viridae_proteome_first_transcript_Mv02209:2.16063e-06,mesostigma_viridae_proteome_first_transcript_Mv02209:0.066651)n2:0.014376)n1:1.04956)n0;
+(klebsormidium_nitens_kfl00552_0040:0.106011,((klebsormidium_nitens_kfl00099_0120:0.254414,klebsormidium_nitens_kfl00099_0110:0.354619)n2:0.303923,klebsormidium_nitens_kfl00372_0040:0.304351)n1:0.106011)n0;

@@ -1,1 +1,1 @@
-((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_35958:0.547387,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7426:0.367045)n1:0.228255,(chromochloris_zofingiensis_proteome_first_transcript_Cz02g00100:1.78009e-06,raphidocelis_subcapitata_proteome_first_transcript_Rsub_12195:0.649588)n2:0.228255)n0;
+(cycas_panzhihuaensis_CYCAS_025459:0.231049,(cycas_panzhihuaensis_CYCAS_029819:0.173434,(cycas_panzhihuaensis_CYCAS_000044:0.187123,cycas_panzhihuaensis_CYCAS_009089:0.13053)n2:0.158312)n1:0.231049)n0;

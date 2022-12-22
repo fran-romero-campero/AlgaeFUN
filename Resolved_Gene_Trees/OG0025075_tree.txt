@@ -1,1 +1,1 @@
-((porphyra_umbilicalis_proteome_first_transcript_Pum2386s0001:0.969666,porphyra_umbilicalis_proteome_first_transcript_Pum0313s0021:0.683016)n1:0.35799,(ostreococcus_tauri_proteome_first_transcript_ostta03g03650:0.8452,micromonas_pusilla_proteome_first_transcript_27349086:0.825155)n2:0.35799)n0;
+(physcomitrium_patens_Pp3c10_20601:0,((physcomitrium_patens_Pp3c10_17859:0.88193,physcomitrium_patens_Pp3c1_18910:0.236402)n2:0.912284,physcomitrium_patens_Pp3c10_20580:0)n1:0)n0;

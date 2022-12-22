@@ -1,1 +1,1 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000094l.90.1:0.549991,(aegilops_tauschii_proteome_first_transcript_AET3Gv20915800.1:0.449386,(triticum_aestivum_proteome_first_transcript_Traes_7AS_D43C03BC6:0.065883,triticum_aestivum_proteome_first_transcript_Traes_4AL_EE8BC5420:0.188352)n2:0.10524)n1:0.549991)n0;
+(sorghum_bicolor_Sobic.008G023100:0.615279,(triticum_aestivum_Traes_6DL_6CE682354:1.24796,(aegilops_tauschii_AET6Gv20593800:0.696013,aegilops_tauschii_AET6Gv20960200:0.852401)n2:0.0947112)n1:0.273907)n0;

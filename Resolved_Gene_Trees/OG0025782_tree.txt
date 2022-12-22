@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc01g056530.2.1:0.337245,(triticum_aestivum_proteome_first_transcript_Traes_6BS_9190A139B:0.305638,(triticum_aestivum_proteome_first_transcript_Traes_7AS_2753F0FDD:0.006441,triticum_aestivum_proteome_first_transcript_Traes_7AS_6BF0071BA:0.16229)n2:0.117345)n1:0.337245)n0;
+(thuja_plicata_Thupl.29381894s0001:1.84429e-06,(thuja_plicata_Thupl.29378236s0001:0.918292,(thuja_plicata_Thupl.29377002s0012:0.329815,thuja_plicata_Thupl.29381523s0003:0.205137)n2:0.602046)n1:1.84429e-06)n0;

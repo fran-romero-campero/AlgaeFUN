@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_43218:0.601534,(ulva_mutabilis_proteome_first_transcript_UM013_0034.1:0.862205,(micromonas_pusilla_proteome_first_transcript_27344416:0.476448,ostreococcus_tauri_proteome_first_transcript_ostta12g01480:0.42985)n2:0.455606)n1:0.601534)n0;
+(phaeodactylum_tricornutum_Phatr2_45729:0.48522,((phaeodactylum_tricornutum_Phatr2_bd_1155:0.004735,phaeodactylum_tricornutum_Phatr2_45721:0.005884)n2:1.06093,phaeodactylum_tricornutum_Phatr2_35568:0.773438)n1:0.48522)n0;

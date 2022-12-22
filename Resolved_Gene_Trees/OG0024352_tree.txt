@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g18761:0.621364,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23271:0.988604,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g17088:0.456184)n2:0.938248,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g18857:1.0963)n1:0.621364)n0;
+(cycas_panzhihuaensis_CYCAS_004174:0.456459,((oryza_sativa_LOC_Os02g46860.1:0.17494,triticum_aestivum_Traes_6AL_6EB10C68E:0.139061)n2:0.091089,solanum_lycopersicum_Solyc01g106200:0.224425)n1:0.456459)n0;

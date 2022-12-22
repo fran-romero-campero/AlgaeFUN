@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.11G075300:0.0107475,(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G144500:0.027511,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G329800:0.155889,ceratodon_purpureus_proteome_first_transcript_CepurR40.9G159700:0.175392)n2:0.171863)n1:0.0107475)n0;
+(phaeodactylum_tricornutum_Phatr2_7553:0.222074,(marchantia_polymorpha_Mp3g14880:0.764617,(ceratodon_purpureus_CepurR40.4G156800:0.243593,physcomitrium_patens_Pp3c4_16880:0.278309)n2:0.474)n1:0.222074)n0;

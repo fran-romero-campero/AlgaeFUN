@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz13g09040:0.0550135,(marchantia_polymorpha_proteome_first_transcript_Mp8g12880:0.311684,(ceratodon_purpureus_proteome_first_transcript_CepurR40.3G184700:0.203193,physcomitrium_patens_proteome_first_transcript_Pp3c6_16580:0.217045)n2:0.155556)n1:0.0550135)n0;
+(ceratopteris_richardii_Ceric.23G011000:0.032493,((ceratopteris_richardii_Ceric.23G010600:0.352244,ceratopteris_richardii_Ceric.14G064200:0.68607)n2:0.299295,ceratopteris_richardii_Ceric.23G010900:0.056055)n1:0.032493)n0;

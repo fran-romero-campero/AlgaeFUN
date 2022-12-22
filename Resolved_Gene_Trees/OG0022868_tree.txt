@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET2Gv20634600.1:0.512923,(zea_mays_proteome_first_transcript_Zm00001d053896:0.126809,(sorghum_bicolor_proteome_first_transcript_Sobic.003G134950:0.593878,sorghum_bicolor_proteome_first_transcript_Sobic.004G017700:0.0942273)n2:0.0104697)n1:0.72267)n0;
+((solanum_lycopersicum_Solyc11g011440:0.152185,solanum_lycopersicum_Solyc05g051240:0.131251)n1:0.0919835,(arabidopsis_thaliana_AT1G66180:0.113043,arabidopsis_thaliana_AT5G37540:0.11333)n2:0.0919835)n0;

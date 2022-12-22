@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET5Gv20682100.1:0.203763,(triticum_aestivum_proteome_first_transcript_Traes_5DL_5DAC7A4CF:9.12117e-07,(triticum_aestivum_proteome_first_transcript_Traes_5AL_3FE725FD4:0.404404,triticum_aestivum_proteome_first_transcript_Traes_5BL_2DA8896EE:0.065116)n2:0.058589)n1:0.203763)n0;
+(ceratopteris_richardii_Ceric.35G000700:0.246657,(aegilops_tauschii_AET2Gv20012500:0.023687,(triticum_aestivum_Traes_3B_CB1BC8CCF:0.451547,triticum_aestivum_Traes_2DS_801413892:0.0402282)n2:0.0044698)n1:0.496964)n0;

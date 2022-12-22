@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp7g05510:0,((marchantia_polymorpha_proteome_first_transcript_Mp7g04440:0.237706,marchantia_polymorpha_proteome_first_transcript_Mp7g04450:0.805767)n2:0.426788,marchantia_polymorpha_proteome_first_transcript_Mp7g05500:0)n1:0)n0;
+(oryza_sativa_LOC_Os03g41810.1:1.44805e-06,(oryza_sativa_LOC_Os11g19040.1:0.559663,(oryza_sativa_LOC_Os10g06920.1:0.423886,oryza_sativa_LOC_Os10g06900.1:0.31592)n2:0.305897)n1:1.44805e-06)n0;
