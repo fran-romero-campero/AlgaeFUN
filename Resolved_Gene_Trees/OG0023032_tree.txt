@@ -1,0 +1,1 @@
+((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0001.g000512:0.251969,azolla_filiculoides_proteome_first_transcript_Azfi_s0013.g013322:0.225979)n1:0.178597,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000103l.119.1:0.799662,marchantia_polymorpha_proteome_first_transcript_Mp2g01830:0.571268)n2:0.178597)n0;

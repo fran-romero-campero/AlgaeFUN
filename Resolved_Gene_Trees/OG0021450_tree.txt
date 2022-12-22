@@ -1,0 +1,1 @@
+((micromonas_pusilla_proteome_first_transcript_27347443:1.13346,micromonas_pusilla_proteome_first_transcript_27341917:0.731872)n1:1.02767,(mesostigma_viridae_proteome_first_transcript_Mv20829:0.106461,(mesostigma_viridae_proteome_first_transcript_Mv20829:0.023292,mesostigma_viridae_proteome_first_transcript_Mv20829:0.029385)n3:0.023637)n2:1.02767)n0;

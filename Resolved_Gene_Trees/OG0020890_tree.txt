@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_44387:0.546071,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3995:0.806872,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14041:0.66642,(mesostigma_viridae_proteome_first_transcript_Mv00844:0.745608,mesostigma_viridae_proteome_first_transcript_Mv14695:0.611289)n3:0.015361)n2:0.10769)n1:0.546071)n0;

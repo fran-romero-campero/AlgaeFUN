@@ -1,0 +1,1 @@
+(((micromonas_pusilla_proteome_first_transcript_27346977:0.932536,ostreococcus_tauri_proteome_first_transcript_ostta13g00060:0.830758)n2:0.452526,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48684:1.63395,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_47965:1.21263)n3:0.134737)n1:0.0888145,mesostigma_viridae_proteome_first_transcript_Mv10928:1.81677)n0;

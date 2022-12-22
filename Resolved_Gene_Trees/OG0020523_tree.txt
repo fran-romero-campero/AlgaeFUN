@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_proteome_first_transcript_Cre11.g479800:3.1756e-06,(zea_mays_proteome_first_transcript_Zm00001d024915:1.94642,(mesostigma_viridae_proteome_first_transcript_Mv15833:0.026649,(mesostigma_viridae_proteome_first_transcript_Mv15833:0.004561,mesostigma_viridae_proteome_first_transcript_Mv15833:0.020652)n3:0.049358)n2:1.81907)n1:3.1756e-06)n0;

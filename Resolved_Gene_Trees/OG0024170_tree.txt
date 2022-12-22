@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_proteome_first_transcript_Rsub_03234:0.336925,chromochloris_zofingiensis_proteome_first_transcript_Cz04g30200:2.45455e-06)n1:0.205888,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_40647:0.987423,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_3248:0.758291)n2:0.205888)n0;

@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy19g00320 length_316 _mRNA_ _n/a_  _unknown protein_:0.609129,(triticum_aestivum_proteome_first_transcript_Traes_2DS_AEF4C5864:1.19956,(mesostigma_viridae_proteome_first_transcript_Mv10337:0.015803,mesostigma_viridae_proteome_first_transcript_Mv10337:0.100913)n2:1.28923)n1:0.609129)n0;

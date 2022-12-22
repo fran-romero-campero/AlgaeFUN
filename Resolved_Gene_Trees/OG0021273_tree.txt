@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_1915:0.440287,(((klebsormidium_nitens_proteome_first_transcript_kfl00096_0140:1.06191,micromonas_pusilla_proteome_first_transcript_27341270:1.9198)n3:0.099203,ostreococcus_tauri_proteome_first_transcript_ostta08g00320:0.80117)n2:0.267126,ulva_mutabilis_proteome_first_transcript_UM040_0077.1:0.828844)n1:0.440287)n0;

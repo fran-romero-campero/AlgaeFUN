@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp8g06950:0.830395,((mesostigma_viridae_proteome_first_transcript_Mv25885:0.125745,(mesostigma_viridae_proteome_first_transcript_Mv25885:5.31488e-06,mesostigma_viridae_proteome_first_transcript_Mv25885:0.049836)n3:0.138307)n2:1.6911,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3464:1.66503)n1:0.830395)n0;

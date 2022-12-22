@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME000194S02592:0.389574,((mesotaenium_endlicherianum_proteome_first_transcript_ME000194S02590:0.549167,mesotaenium_endlicherianum_proteome_first_transcript_ME000091S10318:0.701577)n2:0.396215,mesotaenium_endlicherianum_proteome_first_transcript_ME000091S10314:2.04532e-06)n1:0.389574)n0;

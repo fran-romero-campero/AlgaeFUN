@@ -1,0 +1,1 @@
+(sorghum_bicolor_proteome_first_transcript_Sobic.002G129700:0.0255165,((sorghum_bicolor_proteome_first_transcript_Sobic.002G129600:0.338966,sorghum_bicolor_proteome_first_transcript_Sobic.002G356000:1.06819)n2:0.218932,sorghum_bicolor_proteome_first_transcript_Sobic.002G129500:0.028521)n1:0.0255165)n0;

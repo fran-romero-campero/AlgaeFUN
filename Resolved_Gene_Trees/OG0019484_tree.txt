@@ -1,0 +1,1 @@
+(klebsormidium_nitens_proteome_first_transcript_kfl00036_0190:0.603822,(zea_mays_proteome_first_transcript_Zm00001d048773:0.332763,((triticum_aestivum_proteome_first_transcript_Traes_4AL_70E837415:0,triticum_aestivum_proteome_first_transcript_Traes_4AL_70E8374151:0)n3:0.486136,aegilops_tauschii_proteome_first_transcript_AET7Gv21043200.1:0.052292)n2:0.120619)n1:0.603822)n0;

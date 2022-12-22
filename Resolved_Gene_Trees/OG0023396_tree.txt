@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g4695:0.638871,(bathycoccus_prasinos_proteome_first_transcript_Bathy76g00030 length_599 _mRNA_ _n/a_  _peptidoglycan synthetase FtsI_:0.891386,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s2951.g028505:1.25533,physcomitrium_patens_proteome_first_transcript_Pp3s30_360:0.822406)n2:0.566513)n1:0.638871)n0;

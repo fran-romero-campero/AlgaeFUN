@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_43903:0.187898,((ulva_mutabilis_proteome_first_transcript_UM007_0021.1:0.663944,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g23814:0.367526,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g18008:0.455476)n3:0.186837)n2:0.270624,micromonas_pusilla_proteome_first_transcript_27340293:1.42539)n1:0.187898)n0;

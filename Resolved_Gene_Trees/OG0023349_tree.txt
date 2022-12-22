@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5507:0.890664,((bathycoccus_prasinos_proteome_first_transcript_Bathy11g00980 length_549 _mRNA_ _n/a_  _predicted protein_:0.86608,ostreococcus_tauri_proteome_first_transcript_ostta10g01040:0.706912)n2:0.037439,micromonas_pusilla_proteome_first_transcript_27346196:0.765606)n1:0.890664)n0;

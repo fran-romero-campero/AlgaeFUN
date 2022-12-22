@@ -1,0 +1,1 @@
+(aegilops_tauschii_proteome_first_transcript_AET4Gv20843900.1:0.510053,(marchantia_polymorpha_proteome_first_transcript_Mp4g22620:0.733135,(marchantia_polymorpha_proteome_first_transcript_Mp4g06110:0.635201,(marchantia_polymorpha_proteome_first_transcript_Mp4g06100:0.358971,marchantia_polymorpha_proteome_first_transcript_Mp4g06070:0.510633)n3:0.195516)n2:0.056894)n1:0.510053)n0;

@@ -1,0 +1,1 @@
+(aegilops_tauschii_proteome_first_transcript_AET6Gv20946400.1:0.278295,((physcomitrium_patens_proteome_first_transcript_Pp3c12_9150:0.762779,physcomitrium_patens_proteome_first_transcript_Pp3c19_13140:0.165543)n2:0.104659,physcomitrium_patens_proteome_first_transcript_Pp3c6_24190:0.68987)n1:0.278295)n0;

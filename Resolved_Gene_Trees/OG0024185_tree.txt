@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv22966:0.052722,mesostigma_viridae_proteome_first_transcript_Mv22966:0.141312)n1:0.927316,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_06874:1.8972,chromochloris_zofingiensis_proteome_first_transcript_Cz16g09230:2.66772e-06)n2:0.927316)n0;

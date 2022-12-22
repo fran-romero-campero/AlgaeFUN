@@ -1,1 +1,0 @@
-(ostreococcus_tauri_proteome_first_transcript_ostta13g01990:0.899064,((triticum_aestivum_proteome_first_transcript_Traes_1BS_7564AC286:0.063545,triticum_aestivum_proteome_first_transcript_Traes_1DS_2E95E2653:0.048716):0.119178,triticum_aestivum_proteome_first_transcript_Traes_1AS_B10C8CD12:0.057627):0.899064);

@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_proteome_first_transcript_UNPLg00674:1.5132e-06,bathycoccus_prasinos_proteome_first_transcript_Bathy82g00020 length_321 _mRNA_ _n/a_  _C-methyltransferase_:0.848336)n1:0.387406,(mesostigma_viridae_proteome_first_transcript_Mv14567:0.123562,mesostigma_viridae_proteome_first_transcript_Mv14567:0.017234)n2:0.387406)n0;

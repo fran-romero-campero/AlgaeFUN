@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49592:0.938354,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_117:0.821937)n1:0.089957,(mesostigma_viridae_proteome_first_transcript_Mv17560:1.14071,micromonas_pusilla_proteome_first_transcript_27348533:0.893328)n2:0.089957)n0;

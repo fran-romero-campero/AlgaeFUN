@@ -1,0 +1,1 @@
+(sorghum_bicolor_proteome_first_transcript_Sobic.004G324500:0.862217,(zea_mays_proteome_first_transcript_Zm00001d036836:0.82742,(zea_mays_proteome_first_transcript_Zm00001d044643:0.150019,(zea_mays_proteome_first_transcript_Zm00001d036837:0.21195,zea_mays_proteome_first_transcript_Zm00001d045016:0.245298)n3:0.209968)n2:0.19543)n1:0.862217)n0;

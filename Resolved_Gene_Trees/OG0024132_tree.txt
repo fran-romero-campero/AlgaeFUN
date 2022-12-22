@@ -1,0 +1,1 @@
+((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7579:0.058839,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7580:0.007791)n1:0.687098,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4688:0.571929,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4683:0.460225)n2:0.687098)n0;

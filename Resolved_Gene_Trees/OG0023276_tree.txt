@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_10988:0.20317,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_13078:0.230558)n1:0.209841,(bathycoccus_prasinos_proteome_first_transcript_Bathy02g01650 length_598 _mRNA_ _n/a_  _xanthine/uracil/vitamin C permease_:1.1637,physcomitrium_patens_proteome_first_transcript_Pp3s34_270:1.55509)n2:0.209841)n0;

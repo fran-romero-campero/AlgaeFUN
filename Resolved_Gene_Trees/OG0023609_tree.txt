@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5196:0.967135,(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG279000:0.188359,(physcomitrium_patens_proteome_first_transcript_Pp3c26_11350:0.750686,physcomitrium_patens_proteome_first_transcript_Pp3c5_4760:0.146993)n2:0.0163326)n1:0.295109)n0;

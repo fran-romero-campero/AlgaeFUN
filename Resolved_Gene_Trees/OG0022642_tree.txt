@@ -1,0 +1,1 @@
+(aegilops_tauschii_proteome_first_transcript_AET2Gv20104900.1:0.0780375,((triticum_aestivum_proteome_first_transcript_Traes_2AS_F448BF1E0:0.154859,triticum_aestivum_proteome_first_transcript_Traes_2BS_934B43E01:0.109639)n2:0.104506,triticum_aestivum_proteome_first_transcript_Traes_2BS_2B879B58D:0.153509)n1:0.0780375)n0;

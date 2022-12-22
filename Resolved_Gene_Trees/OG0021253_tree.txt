@@ -1,0 +1,1 @@
+(((mesostigma_viridae_proteome_first_transcript_Mv02233:0.475029,mesostigma_viridae_proteome_first_transcript_Mv02233:4.37634e-06)n2:0.91688,klebsormidium_nitens_proteome_first_transcript_kfl00030_0040:1.02032)n1:0.134106,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_8374:1.12006,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5965:0.667337)n3:0.134106)n0;

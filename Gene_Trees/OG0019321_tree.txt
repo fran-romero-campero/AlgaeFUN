@@ -1,1 +1,0 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00085_0290:0.465803,(mesotaenium_endlicherianum_proteome_first_transcript_ME000133S00545:0.345598,(spirogloea_muscicola_proteome_first_transcript_SM000085S23201:0.437098,physcomitrium_patens_proteome_first_transcript_Pp3s34_480:1.53484):0.343533):0.465803);

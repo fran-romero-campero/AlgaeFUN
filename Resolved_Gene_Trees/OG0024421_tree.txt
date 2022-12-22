@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0176s0022:0.526317,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g337:0.707917,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_21181:1.03783,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5937:0.925926)n2:0.135908)n1:0.526317)n0;

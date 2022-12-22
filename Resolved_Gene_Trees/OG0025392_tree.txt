@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_43127:0.387979,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_39827:0.681118,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_34124:1.80711,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49211:0.670583)n2:0.103464)n1:0.387979)n0;

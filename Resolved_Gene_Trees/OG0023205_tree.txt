@@ -1,0 +1,1 @@
+((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0023.g008889:0.778881,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0253.g026795:0.039988)n1:0.587017,(azolla_filiculoides_proteome_first_transcript_Azfi_s2025.g108717:0.160383,azolla_filiculoides_proteome_first_transcript_Azfi_s0098.g043941:0.076934)n2:0.587017)n0;

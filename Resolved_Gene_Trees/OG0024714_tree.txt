@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv13570:4.83831e-06,mesostigma_viridae_proteome_first_transcript_Mv13570:0.055177)n1:0.715612,(klebsormidium_nitens_proteome_first_transcript_kfl00249_0150:1.69816,mesotaenium_endlicherianum_proteome_first_transcript_ME000167S01841:1.69907)n2:0.715612)n0;

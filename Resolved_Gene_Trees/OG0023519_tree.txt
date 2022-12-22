@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz13g09040:0.0550135,(marchantia_polymorpha_proteome_first_transcript_Mp8g12880:0.311684,(ceratodon_purpureus_proteome_first_transcript_CepurR40.3G184700:0.203193,physcomitrium_patens_proteome_first_transcript_Pp3c6_16580:0.217045)n2:0.155556)n1:0.0550135)n0;

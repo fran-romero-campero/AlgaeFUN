@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_44453:0.826298,(klebsormidium_nitens_proteome_first_transcript_kfl00475_0060:1.70748,(mesostigma_viridae_proteome_first_transcript_Mv15510:0.064063,(mesostigma_viridae_proteome_first_transcript_Mv15510:0.041775,mesostigma_viridae_proteome_first_transcript_Mv15510:0.018343)n3:0.057474)n2:1.73585)n1:0.826298)n0;

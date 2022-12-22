@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_013567:0.442767,(sorghum_bicolor_proteome_first_transcript_Sobic.009G091200:0.186562,(triticum_aestivum_proteome_first_transcript_Traes_4BS_58C121773:0,triticum_aestivum_proteome_first_transcript_Traes_4BL_58C121773:0)n2:0.214013)n1:0.442767)n0;

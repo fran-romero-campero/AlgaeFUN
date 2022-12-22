@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_proteome_first_transcript_428348:0.964647,selaginella_moellendorffii_proteome_first_transcript_412149:0.911097)n1:0.303432,(aegilops_tauschii_proteome_first_transcript_AET3Gv20873200.1:0.129731,aegilops_tauschii_proteome_first_transcript_AET6Gv20789300.1:0.416525)n2:0.303432)n0;

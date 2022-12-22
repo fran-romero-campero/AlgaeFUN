@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026600:0.603975,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G132400:1.86259e-06,(ceratodon_purpureus_proteome_first_transcript_CepurR40.4G068200:0.090814,ceratodon_purpureus_proteome_first_transcript_CepurR40.4G068600:0.085421)n2:0.483202)n1:0.603975)n0;

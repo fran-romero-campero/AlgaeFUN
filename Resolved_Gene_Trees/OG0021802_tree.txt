@@ -1,0 +1,1 @@
+(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0044.g012997:0.41021,(sorghum_bicolor_proteome_first_transcript_Sobic.006G139501:1.40037,(zea_mays_proteome_first_transcript_Zm00001d044372:1.00316,(zea_mays_proteome_first_transcript_Zm00001d038722:0.73486,zea_mays_proteome_first_transcript_Zm00001d033722:0.768007)n3:0.150851)n2:0.0167612)n1:0.062289)n0;

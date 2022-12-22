@@ -1,0 +1,1 @@
+(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000053l.3.1:0.494073,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_007671:0.823649,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_007678:0.162586,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_007662:0.606799)n2:0.36414)n1:0.494073)n0;

@@ -1,0 +1,1 @@
+(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0093.g019073:0.436644,(triticum_aestivum_proteome_first_transcript_Traes_4DL_7709E5A96:0.39536,(triticum_aestivum_proteome_first_transcript_Traes_4BL_2013B2E4F:0.172123,triticum_aestivum_proteome_first_transcript_Traes_4DL_EF569F8C9:0.126134)n2:0.437302)n1:0.436644)n0;

@@ -1,0 +1,1 @@
+(sorghum_bicolor_proteome_first_transcript_Sobic.010G244900:0.619308,(arabidopsis_thaliana_proteome_first_transcript_AT5G61990:0.990928,(solanum_lycopersicum_proteome_first_transcript_Solyc07g045400.1.1:0.690241,solanum_lycopersicum_proteome_first_transcript_Solyc03g118280.1.1:0.473114)n2:0.0525682)n1:0.305854)n0;

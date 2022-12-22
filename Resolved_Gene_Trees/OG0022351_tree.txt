@@ -1,0 +1,1 @@
+(aegilops_tauschii_proteome_first_transcript_AET6Gv20005400.1:0.231278,((aegilops_tauschii_proteome_first_transcript_AET6Gv20002100.1:0.332227,aegilops_tauschii_proteome_first_transcript_AET6Gv20030100.1:0.871786)n2:0.131477,aegilops_tauschii_proteome_first_transcript_AET4Gv20007300.1:0.087898)n1:0.231278)n0;

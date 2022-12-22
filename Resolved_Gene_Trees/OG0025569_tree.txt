@@ -1,0 +1,1 @@
+(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0013.g005739:0.440611,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0261.g026892:1.12783,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0832.g027761:0.26424,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0832.g027762:0.343832)n2:0.203611)n1:0.440611)n0;

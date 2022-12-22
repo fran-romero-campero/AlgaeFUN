@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv25469:0.117103,(mesostigma_viridae_proteome_first_transcript_Mv26166:6.2202e-07,(mesostigma_viridae_proteome_first_transcript_Mv25410:0.014836,mesostigma_viridae_proteome_first_transcript_Mv02857:0.352798)n2:0.029721)n1:0.117103)n0;

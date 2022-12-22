@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv25191:3.19287e-06,(mesostigma_viridae_proteome_first_transcript_Mv25191:0.184669,mesostigma_viridae_proteome_first_transcript_Mv25191:0.255565)n2:1.0953)n1:0.257595,(porphyra_umbilicalis_proteome_first_transcript_Pum0810s0004:1.07018,porphyra_umbilicalis_proteome_first_transcript_Pum0296s0006:0.962257)n3:0.257595)n0;

@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3c3_22170:0.125946,((aegilops_tauschii_proteome_first_transcript_AET5Gv21074800.1:0.180951,(aegilops_tauschii_proteome_first_transcript_AET6Gv20081000.1:0.212117,aegilops_tauschii_proteome_first_transcript_AET6Gv20080900.1:0.201159)n3:0.040958)n2:0.109246,zea_mays_proteome_first_transcript_Zm00001d026225:0.367785)n1:0.125946)n0;

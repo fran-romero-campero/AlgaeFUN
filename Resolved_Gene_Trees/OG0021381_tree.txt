@@ -1,0 +1,1 @@
+(ulva_mutabilis_proteome_first_transcript_UM149_0011.1:1.09131,((mesostigma_viridae_proteome_first_transcript_Mv04421:4.15852e-06,(mesostigma_viridae_proteome_first_transcript_Mv22891:0.014263,mesostigma_viridae_proteome_first_transcript_Mv22891:0.003578)n3:1.8892)n2:0.154475,mesostigma_viridae_proteome_first_transcript_Mv06069:0.338177)n1:1.09131)n0;

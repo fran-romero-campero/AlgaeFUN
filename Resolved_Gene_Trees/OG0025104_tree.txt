@@ -1,0 +1,1 @@
+((triticum_aestivum_proteome_first_transcript_Traes_1BL_B6A6BA8D3:0.154304,triticum_aestivum_proteome_first_transcript_Traes_1DL_01752E270:0.14452)n1:0.207464,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_14472:0.803397,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5479:1.19811)n2:0.207464)n0;

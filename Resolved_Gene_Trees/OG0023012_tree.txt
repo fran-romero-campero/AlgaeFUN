@@ -1,0 +1,1 @@
+(triticum_aestivum_proteome_first_transcript_Traes_6DL_A426BBEBB:0.309954,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000049l.812.1:0.602263,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G134800:0,ceratodon_purpureus_proteome_first_transcript_CepurR40.7G120300:0)n2:0.496214)n1:0.309954)n0;

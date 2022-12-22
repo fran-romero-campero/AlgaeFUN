@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_proteome_first_transcript_Cz06g31050:0.225341,mesostigma_viridae_proteome_first_transcript_Mv26243:0.244266)n1:0.0730085,(chromochloris_zofingiensis_proteome_first_transcript_Cz08g31260:0.226427,(mesostigma_viridae_proteome_first_transcript_Mv26350:0.12323,mesostigma_viridae_proteome_first_transcript_Mv25347:0.271606)n3:0.123878)n2:0.0730085)n0;

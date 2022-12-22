@@ -1,1 +1,0 @@
-(micromonas_pusilla_proteome_first_transcript_27346256:0.342488,(klebsormidium_nitens_proteome_first_transcript_kfl00067_0270:0.324541,(spirogloea_muscicola_proteome_first_transcript_SM000056S17962:0.06167,(spirogloea_muscicola_proteome_first_transcript_SM000072S21213:0.020447,spirogloea_muscicola_proteome_first_transcript_SM000003S11038:0.027434):0.017916):0.31682):0.342488);

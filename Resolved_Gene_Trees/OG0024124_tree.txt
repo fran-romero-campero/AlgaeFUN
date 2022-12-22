@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2577:0.442695,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3877:0.619306,(mesostigma_viridae_proteome_first_transcript_Mv00600:1.07581,micromonas_pusilla_proteome_first_transcript_27340560:1.06983)n2:0.153849)n1:0.442695)n0;

@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv10489:0.008639,(mesostigma_viridae_proteome_first_transcript_Mv10489:0.008045,mesostigma_viridae_proteome_first_transcript_Mv10489:0.004543)n2:0.007176)n1:0.838018,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_11814:1.36811,ulva_mutabilis_proteome_first_transcript_UM064_0066.1:1.74633)n3:0.838018)n0;

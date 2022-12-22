@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz04g15030:0.027194,(klebsormidium_nitens_proteome_first_transcript_kfl00181_0110:0.625279,(klebsormidium_nitens_proteome_first_transcript_kfl00181_0120:0.748551,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G220300:1.81026e-06):0.413124):0.027194);

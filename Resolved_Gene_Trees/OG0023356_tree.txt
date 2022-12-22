@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy124g00010 length_1105 _mRNA_ _n/a_  _UDP-glucose 6-dehydrogenase_:0.384757,((mesotaenium_endlicherianum_proteome_first_transcript_ME001781S02305:2.62383e-06,mesotaenium_endlicherianum_proteome_first_transcript_ME000950S10217:0.527529)n2:0.449005,mesostigma_viridae_proteome_first_transcript_Mv20331:0.943569)n1:0.384757)n0;

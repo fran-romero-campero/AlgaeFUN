@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7913:0.709317,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g14079:1.31696,(ceratodon_purpureus_proteome_first_transcript_CepurR40.3G090700:0,(ceratodon_purpureus_proteome_first_transcript_CepurR40.3G090800:0,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G090900:0)n3:0)n2:0.720485)n1:0.709317)n0;

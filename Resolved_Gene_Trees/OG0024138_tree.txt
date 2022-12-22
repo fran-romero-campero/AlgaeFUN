@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_proteome_first_transcript_ME000219S03289:2.67364e-06,mesotaenium_endlicherianum_proteome_first_transcript_ME000219S03288:0.392177)n1:0.300411,(mesostigma_viridae_proteome_first_transcript_Mv14816:0.848062,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5109:0.92332)n2:0.300411)n0;

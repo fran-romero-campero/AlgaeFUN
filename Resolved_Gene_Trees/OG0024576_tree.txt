@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028740:0.531707,(solanum_lycopersicum_proteome_first_transcript_Solyc12g150105.1.1:0.295889,(triticum_aestivum_proteome_first_transcript_Traes_1DS_179567794:0.481858,triticum_aestivum_proteome_first_transcript_Traes_7BL_CD7564E75:0.733584)n2:0.0815093)n1:0.184748)n0;

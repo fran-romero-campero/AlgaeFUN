@@ -1,0 +1,1 @@
+((spirogloea_muscicola_proteome_first_transcript_SM004182S15633:3.41601e-06,spirogloea_muscicola_proteome_first_transcript_SM007213S21269:0.268389)n1:0.536593,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4463:1.0471,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_42980:1.08446)n2:0.536593)n0;

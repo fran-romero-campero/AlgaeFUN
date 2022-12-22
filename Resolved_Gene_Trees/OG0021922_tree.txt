@@ -1,0 +1,1 @@
+(solanum_lycopersicum_proteome_first_transcript_Solyc04g049220.3.1:0.240742,((zea_mays_proteome_first_transcript_Zm00001d016605:0.153988,(zea_mays_proteome_first_transcript_Zm00001d016508:0.079668,zea_mays_proteome_first_transcript_Zm00001d019396:0.15572)n3:0.041836)n2:0.072827,triticum_aestivum_proteome_first_transcript_Traes_4DL_ABB2D082F:0.105963)n1:0.240742)n0;

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g24467:0.456471,(mesostigma_viridae_proteome_first_transcript_Mv09376:0.036439,(mesostigma_viridae_proteome_first_transcript_Mv09376:1.17819e-06,mesostigma_viridae_proteome_first_transcript_Mv09376:0.131148)n2:0.129389)n1:0.456471)n0;

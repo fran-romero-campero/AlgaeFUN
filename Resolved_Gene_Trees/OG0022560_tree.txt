@@ -1,0 +1,1 @@
+(zea_mays_proteome_first_transcript_Zm00001d034619:0.504015,(aegilops_tauschii_proteome_first_transcript_AET7Gv21303800.1:0.498429,(aegilops_tauschii_proteome_first_transcript_AET6Gv20351600.1:0.76724,aegilops_tauschii_proteome_first_transcript_AET1Gv20989300.1:0.546759)n2:0.163742)n1:0.504015)n0;

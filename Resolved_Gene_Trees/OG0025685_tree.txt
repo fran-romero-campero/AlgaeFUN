@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_proteome_first_transcript_422466:0.135666,selaginella_moellendorffii_proteome_first_transcript_407065:0.595796)n1:0.539088,(triticum_aestivum_proteome_first_transcript_Traes_2DS_AAD6B1C32:0.087385,sorghum_bicolor_proteome_first_transcript_Sobic.002G319600:0.293478)n2:0.539088)n0;

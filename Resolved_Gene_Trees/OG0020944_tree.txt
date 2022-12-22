@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv12427:0.349387,mesostigma_viridae_proteome_first_transcript_Mv12428:0.170592)n1:0.120197,(ulva_mutabilis_proteome_first_transcript_UM022_0147.1:0.497098,(chromochloris_zofingiensis_proteome_first_transcript_Cz14g18120:0.416475,chromochloris_zofingiensis_proteome_first_transcript_Cz06g22020:2.01702e-06)n3:2.01702e-06)n2:0.481089)n0;

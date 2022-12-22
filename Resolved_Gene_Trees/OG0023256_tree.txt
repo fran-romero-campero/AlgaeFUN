@@ -1,0 +1,1 @@
+(azolla_filiculoides_proteome_first_transcript_Azfi_s2990.g113932:0.521909,(selaginella_moellendorffii_proteome_first_transcript_122946:0.221052,(selaginella_moellendorffii_proteome_first_transcript_121183:0.098369,selaginella_moellendorffii_proteome_first_transcript_121240:0.134166)n2:0.185475)n1:0.521909)n0;

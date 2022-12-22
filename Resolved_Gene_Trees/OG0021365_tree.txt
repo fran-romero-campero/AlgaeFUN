@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3c7_14860:1.06286,(mesostigma_viridae_proteome_first_transcript_Mv01069:2.17153e-06,((mesostigma_viridae_proteome_first_transcript_Mv01069:0.060222,mesostigma_viridae_proteome_first_transcript_Mv01069:2.17153e-06)n3:0.09028,mesostigma_viridae_proteome_first_transcript_Mv01069:2.17153e-06)n2:0.085738)n1:1.06286)n0;

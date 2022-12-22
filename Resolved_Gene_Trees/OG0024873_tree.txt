@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv05059:1.04126,(triticum_aestivum_proteome_first_transcript_Traes_7BS_E33CBE41D:0.005977,(triticum_aestivum_proteome_first_transcript_Traes_7AS_B0B69CDCF:0.27027,triticum_aestivum_proteome_first_transcript_Traes_7DS_C1DCFDA6D:0.124345)n2:0.165638)n1:1.04126)n0;

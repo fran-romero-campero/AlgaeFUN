@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0161s0045:0.328869,((bathycoccus_prasinos_proteome_first_transcript_Bathy01g04930 length_95 _mRNA_ _n/a_  _ribosomal protein L31_:0.369035,ostreococcus_tauri_proteome_first_transcript_ostta08g01980:0.375455)n2:0.029719,micromonas_pusilla_proteome_first_transcript_27341743:0.48749)n1:0.328869)n0;

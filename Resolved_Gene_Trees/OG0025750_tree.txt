@@ -1,0 +1,1 @@
+(solanum_lycopersicum_proteome_first_transcript_Solyc04g150142.1.1:0.476315,((sorghum_bicolor_proteome_first_transcript_Sobic.001G239300:0.08848,sorghum_bicolor_proteome_first_transcript_Sobic.009G080800:0.030472)n2:0.303647,sorghum_bicolor_proteome_first_transcript_Sobic.006G061900:0.169025)n1:0.476315)n0;

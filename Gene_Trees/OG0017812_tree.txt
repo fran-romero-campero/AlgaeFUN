@@ -1,1 +1,0 @@
-(spirogloea_muscicola_proteome_first_transcript_SM000064S19741:0.046882,((triticum_aestivum_proteome_first_transcript_Traes_4DL_76AB4AA97:0.112903,physcomitrium_patens_proteome_first_transcript_Pp3s62_110:0.153302):0.099627,arabidopsis_thaliana_proteome_first_transcript_AT5G14900:0.387436):0.046882);

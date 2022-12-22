@@ -1,0 +1,1 @@
+((spirogloea_muscicola_proteome_first_transcript_SM009187S24543:0.749888,spirogloea_muscicola_proteome_first_transcript_SM011086S18854:2.31104e-06)n1:0.091863,(azolla_filiculoides_proteome_first_transcript_Azfi_s0045.g029779:0.815057,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0001.g000322:0.807783)n2:0.091863)n0;

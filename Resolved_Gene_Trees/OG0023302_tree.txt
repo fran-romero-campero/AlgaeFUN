@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_42968:0.417148,(bathycoccus_prasinos_proteome_first_transcript_Bathy04g04510 length_758 _mRNA_ _n/a_  _predicted protein_:1.06238,(micromonas_pusilla_proteome_first_transcript_27344913:1.08823,micromonas_pusilla_proteome_first_transcript_27344753:0.830264)n2:0.0922516)n1:0.525133)n0;

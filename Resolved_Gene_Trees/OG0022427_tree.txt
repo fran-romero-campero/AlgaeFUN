@@ -1,0 +1,1 @@
+(aegilops_tauschii_proteome_first_transcript_AET4Gv20195700.1:0.405858,(zea_mays_proteome_first_transcript_Zm00001d053042:0.220129,(sorghum_bicolor_proteome_first_transcript_Sobic.005G060400:0.360464,sorghum_bicolor_proteome_first_transcript_Sobic.005G060300:0.242421)n2:0.0269357)n1:0.050228)n0;

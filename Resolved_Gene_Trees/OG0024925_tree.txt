@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv14175:0.898997,(spirogloea_muscicola_proteome_first_transcript_SM004930S17361:2.17609e-06,(spirogloea_muscicola_proteome_first_transcript_SM004906S17369:0.09292,spirogloea_muscicola_proteome_first_transcript_SM005014S17844:0.17833)n2:0.138226)n1:0.898997)n0;

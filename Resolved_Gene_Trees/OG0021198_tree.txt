@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_033275:0.794938,(physcomitrium_patens_proteome_first_transcript_Pp3c21_2784:-0,(physcomitrium_patens_proteome_first_transcript_Pp3c21_2741:0,(physcomitrium_patens_proteome_first_transcript_Pp3c21_2740:0,physcomitrium_patens_proteome_first_transcript_Pp3c21_2780:0)n3:0)n2:0)n1:0.794938)n0;

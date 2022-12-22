@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_proteome_first_transcript_ME1083561C05686:0.532932,(zea_mays_proteome_first_transcript_Zm00001d009905:0.68439,(zea_mays_proteome_first_transcript_Zm00001d050876:0.399067,(zea_mays_proteome_first_transcript_Zm00001d042871:0.663047,zea_mays_proteome_first_transcript_Zm00001d024552:0.148037)n3:0.159147)n2:0.336436)n1:0.532932)n0;

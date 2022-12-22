@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7868:1.01921,(sorghum_bicolor_proteome_first_transcript_Sobic.008G036200:0.876121,(zea_mays_proteome_first_transcript_Zm00001d023406:0.806911,(zea_mays_proteome_first_transcript_Zm00001d023401:0.123558,zea_mays_proteome_first_transcript_Zm00001d023412:0.127986)n3:0.367024)n2:0.25502)n1:1.01921)n0;

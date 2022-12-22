@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv03618:0.098584,mesostigma_viridae_proteome_first_transcript_Mv03618:0.014153)n1:0.934967,(klebsormidium_nitens_proteome_first_transcript_kfl00088_g15:0.205783,(klebsormidium_nitens_proteome_first_transcript_kfl00781_0020:0.404382,klebsormidium_nitens_proteome_first_transcript_kfl00700_0010:0.282421)n3:0.236289)n2:0.934967)n0;

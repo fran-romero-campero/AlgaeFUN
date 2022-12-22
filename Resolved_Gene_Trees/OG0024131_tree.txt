@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_8747:0.527555,((chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_6431:1.15384,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4494:1.07877)n2:0.111913,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_8744:0.809097)n1:0.527555)n0;

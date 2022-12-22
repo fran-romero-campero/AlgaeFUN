@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv22414:0.067447,mesostigma_viridae_proteome_first_transcript_Mv22414:0.026208)n1:0.722387,(micromonas_pusilla_proteome_first_transcript_27340900:1.2894,ulva_mutabilis_proteome_first_transcript_UM003_0218.1:1.48605)n2:0.722387)n0;

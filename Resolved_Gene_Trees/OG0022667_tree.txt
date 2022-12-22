@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv08467:0.741998,(aegilops_tauschii_proteome_first_transcript_AET2Gv20173400.1:0.075068,(triticum_aestivum_proteome_first_transcript_Traes_2DS_8F973CFFF:0.409046,triticum_aestivum_proteome_first_transcript_Traes_2BS_708555CAC:0.0475578)n2:0.0052842)n1:0.110842)n0;

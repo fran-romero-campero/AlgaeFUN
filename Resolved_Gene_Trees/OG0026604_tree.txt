@@ -1,0 +1,1 @@
+(zea_mays_proteome_first_transcript_Zm00001d000036:0.0244835,(zea_mays_proteome_first_transcript_Zm00001d044539:0.089807,(zea_mays_proteome_first_transcript_Zm00001d046411:0.57264,zea_mays_proteome_first_transcript_Zm00001d046689:0.003567)n2:0.043567)n1:0.0244835)n0;

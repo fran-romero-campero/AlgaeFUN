@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_018243:0.307247,(arabidopsis_thaliana_proteome_first_transcript_AT4G22870:0.18966,(zea_mays_proteome_first_transcript_Zm00001d048800:0.201192,zea_mays_proteome_first_transcript_Zm00001d038073:0.080426)n2:0.487862)n1:0.307247)n0;

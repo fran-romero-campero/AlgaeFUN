@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5658:0.670159,((mesostigma_viridae_proteome_first_transcript_Mv17398:0.002905,mesostigma_viridae_proteome_first_transcript_Mv17398:0.225011)n2:0.082176,mesostigma_viridae_proteome_first_transcript_Mv17398:0.088938)n1:0.670159)n0;

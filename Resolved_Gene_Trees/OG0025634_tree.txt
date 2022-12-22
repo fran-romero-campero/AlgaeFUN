@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_403458:0.0056605,((selaginella_moellendorffii_proteome_first_transcript_403456:0.419412,selaginella_moellendorffii_proteome_first_transcript_432649:0.029372)n2:0.007489,selaginella_moellendorffii_proteome_first_transcript_403462:0.060796)n1:0.0056605)n0;

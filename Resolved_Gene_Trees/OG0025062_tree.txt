@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27343026:0.132971,((micromonas_pusilla_proteome_first_transcript_27342433:0.571734,micromonas_pusilla_proteome_first_transcript_27342579:0.085692)n2:0.970538,micromonas_pusilla_proteome_first_transcript_27342875:0.237813)n1:0.132971)n0;

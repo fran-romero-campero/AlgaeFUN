@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_47122:0.794833,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_47471:0.904453)n1:0.337101,(mesostigma_viridae_proteome_first_transcript_Mv13975:1.52623,ulva_mutabilis_proteome_first_transcript_UM057_0063.1:1.30697)n2:0.337101)n0;

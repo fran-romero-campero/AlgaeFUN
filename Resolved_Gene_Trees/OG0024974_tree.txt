@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0465s0005:0.562779,((mesostigma_viridae_proteome_first_transcript_Mv15560:0.009133,mesostigma_viridae_proteome_first_transcript_Mv15560:0.008822)n2:1.25098,micromonas_pusilla_proteome_first_transcript_27341562:0.65102)n1:0.562779)n0;

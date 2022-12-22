@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_proteome_first_transcript_Cz10g19060:0.077182,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_11623:0.486655,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_08493:0.494042,raphidocelis_subcapitata_proteome_first_transcript_Rsub_02789:0.347815)n2:0.062348)n1:0.077182)n0;

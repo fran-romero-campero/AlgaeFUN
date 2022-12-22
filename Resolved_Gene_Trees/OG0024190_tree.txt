@@ -1,0 +1,1 @@
+((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_10094:0,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_10095:0)n1:0.938477,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_08331:1.5788,chromochloris_zofingiensis_proteome_first_transcript_Cz03g33030:2.51824e-06)n2:0.938477)n0;

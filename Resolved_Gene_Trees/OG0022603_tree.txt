@@ -1,0 +1,1 @@
+(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG178900:0.115817,(aegilops_tauschii_proteome_first_transcript_AET0Gv20160000.1:0.367728,(triticum_aestivum_proteome_first_transcript_Traes_6AS_5BD050138:0.930245,triticum_aestivum_proteome_first_transcript_Traes_6AS_DD79F4468:0.256782)n2:0.0285313)n1:0.661297)n0;

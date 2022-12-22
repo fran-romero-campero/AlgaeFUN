@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_44666:0.857569,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_617:2.58972e-06,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4163:0.759648,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5729:2.58972e-06)n2:1.07604)n1:0.857569)n0;

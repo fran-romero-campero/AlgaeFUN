@@ -1,0 +1,1 @@
+((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_574:0.321087,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_38009:0.952649)n1:0.493273,(ceratodon_purpureus_proteome_first_transcript_CepurR40.9G041400:0,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G024400:0,ceratodon_purpureus_proteome_first_transcript_CepurR40.8G060100:0)n3:0)n2:0.493273)n0;

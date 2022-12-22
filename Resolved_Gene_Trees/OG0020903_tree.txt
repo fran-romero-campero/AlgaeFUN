@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_7009:0.880084,((zea_mays_proteome_first_transcript_Zm00001d029250:3.05033e-06,zea_mays_proteome_first_transcript_Zm00001d029316:0.49501)n2:0.156064,(zea_mays_proteome_first_transcript_Zm00001d038502:0.25798,zea_mays_proteome_first_transcript_Zm00001d014927:0.071524)n3:0.336231)n1:0.880084)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv08290:0.133755,(zea_mays_proteome_first_transcript_Zm00001d039640:0.470372,(triticum_aestivum_proteome_first_transcript_Traes_5AS_3A71BBA3E:0.538339,selaginella_moellendorffii_proteome_first_transcript_133845:0.514576)n2:0.250887)n1:0.133755)n0;

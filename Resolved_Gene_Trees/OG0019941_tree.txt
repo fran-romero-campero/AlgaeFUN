@@ -1,0 +1,1 @@
+(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000109l.46.1:0.9617,(mesostigma_viridae_proteome_first_transcript_Mv01814:1.10198,(mesostigma_viridae_proteome_first_transcript_Mv19450:0.015203,(mesostigma_viridae_proteome_first_transcript_Mv19450:0.001198,mesostigma_viridae_proteome_first_transcript_Mv19450:1.4e-05)n3:0.026418)n2:1.21287)n1:0.9617)n0;

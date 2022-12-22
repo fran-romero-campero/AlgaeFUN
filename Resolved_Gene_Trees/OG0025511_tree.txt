@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_proteome_first_transcript_Pum0056s0024:0.354511,((porphyra_umbilicalis_proteome_first_transcript_Pum0023s0010:1.10397,porphyra_umbilicalis_proteome_first_transcript_Pum0386s0007:0.638297)n2:0.27242,porphyra_umbilicalis_proteome_first_transcript_Pum0058s0017:1.00909)n1:0.354511)n0;

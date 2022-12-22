@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7023:0.898945,(physcomitrium_patens_proteome_first_transcript_Pp3c3_240:0.349568,(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G130100:0.110957,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G053300:2.04853e-06)n2:2.04853e-06)n1:0.71659)n0;

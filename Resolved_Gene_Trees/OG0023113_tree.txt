@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_proteome_first_transcript_AT3G07290:1.27537,triticum_aestivum_proteome_first_transcript_Traes_7BL_7D6A00C8C:0.361619)n1:0.0632,(selaginella_moellendorffii_proteome_first_transcript_417683:1.23798,selaginella_moellendorffii_proteome_first_transcript_90583:1.09954)n2:0.0632)n0;

@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv09899:0.26654,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_6456:1.12511)n1:0.232593,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000118l.98.1:0.22407,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000118l.95.1:0.137333)n2:0.232593)n0;

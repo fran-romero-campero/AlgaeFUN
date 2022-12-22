@@ -1,0 +1,1 @@
+(solanum_lycopersicum_proteome_first_transcript_Solyc10g005220.3.1:0.701468,((arabidopsis_thaliana_proteome_first_transcript_AT4G20160:1.07145,arabidopsis_thaliana_proteome_first_transcript_AT5G44690:1.20548)n2:0.354466,(arabidopsis_thaliana_proteome_first_transcript_AT1G30860:0.417911,arabidopsis_thaliana_proteome_first_transcript_AT2G34920:0.501718)n3:0.352228)n1:0.701468)n0;

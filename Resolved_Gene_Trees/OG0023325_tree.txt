@@ -1,0 +1,1 @@
+(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7446:0.970073,(micromonas_pusilla_proteome_first_transcript_27341494:0.585558,(ostreococcus_tauri_proteome_first_transcript_ostta08g01440:1.05826,bathycoccus_prasinos_proteome_first_transcript_Bathy08g02330 length_2234 _mRNA_ _n/a_  _membrane protein_:0.705031)n2:0.050638)n1:0.970073)n0;

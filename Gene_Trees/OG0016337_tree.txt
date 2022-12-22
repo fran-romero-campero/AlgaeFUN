@@ -1,1 +1,0 @@
-(micromonas_pusilla_proteome_first_transcript_27343954:0.332543,((klebsormidium_nitens_proteome_first_transcript_kfl00401_0015:0.492613,chromochloris_zofingiensis_proteome_first_transcript_Cz04g26120:0.048384):0.155461,(selaginella_moellendorffii_proteome_first_transcript_81700:0.182568,selaginella_moellendorffii_proteome_first_transcript_405642:0.373865):0.199787):0.332543);

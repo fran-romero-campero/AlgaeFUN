@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27343484:0.510056,((mesostigma_viridae_proteome_first_transcript_Mv00359:0.017035,(mesostigma_viridae_proteome_first_transcript_Mv00359:0.077258,mesostigma_viridae_proteome_first_transcript_Mv00359:0.021957)n3:0.057161)n2:1.45567,klebsormidium_nitens_proteome_first_transcript_kfl00230_0120:1.57888)n1:0.510056)n0;

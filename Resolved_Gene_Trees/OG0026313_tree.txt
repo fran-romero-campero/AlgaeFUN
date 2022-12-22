@@ -1,0 +1,1 @@
+(zea_mays_proteome_first_transcript_Zm00001d014170:0.293318,((triticum_aestivum_proteome_first_transcript_Traes_5AL_31B02F2C9:0.032541,triticum_aestivum_proteome_first_transcript_Traes_1BL_4D07FD325:0.013268)n2:0.177634,triticum_aestivum_proteome_first_transcript_Traes_4AL_DBDF5E0A7:0.081786)n1:0.293318)n0;

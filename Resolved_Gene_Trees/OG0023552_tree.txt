@@ -1,0 +1,1 @@
+(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0008.g004092:1.12398,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G057700:0.530292,(physcomitrium_patens_proteome_first_transcript_Pp3c3_9440:0.912554,physcomitrium_patens_proteome_first_transcript_Pp3c4_27940:0.612015)n2:0.0680017)n1:0.360509)n0;

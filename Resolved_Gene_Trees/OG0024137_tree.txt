@@ -1,0 +1,1 @@
+((mesostigma_viridae_proteome_first_transcript_Mv00257:0.914662,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5083:0.834129)n1:0.173145,(spirogloea_muscicola_proteome_first_transcript_SM000142S00538:0.796881,klebsormidium_nitens_proteome_first_transcript_kfl00041_0170:0.611098)n2:0.173145)n0;

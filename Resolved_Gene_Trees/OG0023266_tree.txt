@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5507:0.368522,((bathycoccus_prasinos_proteome_first_transcript_Bathy01g03100 length_263 _mRNA_ _n/a_  _predicted protein_:0.811035,ostreococcus_tauri_proteome_first_transcript_ostta01g04780:0.750474)n2:0.277977,micromonas_pusilla_proteome_first_transcript_27343251:0.923262)n1:0.368522)n0;

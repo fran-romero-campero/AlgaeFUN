@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_proteome_first_transcript_139067:0.291792,(zea_mays_proteome_first_transcript_Zm00001d012509:0.250846,(zea_mays_proteome_first_transcript_Zm00001d015676:0.0818,(zea_mays_proteome_first_transcript_Zm00001d009915:0.009182,zea_mays_proteome_first_transcript_Zm00001d026086:0.377543)n3:0.033722)n2:0.025881)n1:0.291792)n0;

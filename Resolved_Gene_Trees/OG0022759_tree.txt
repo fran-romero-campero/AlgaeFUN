@@ -1,0 +1,1 @@
+((triticum_aestivum_proteome_first_transcript_Traes_7BL_F5BA5CF50:0.538255,aegilops_tauschii_proteome_first_transcript_AET7Gv21221800.1:0.040537)n1:0.349728,(zea_mays_proteome_first_transcript_Zm00001d018611:0.53358,sorghum_bicolor_proteome_first_transcript_Sobic.002G002300:0.266206)n2:0.349728)n0;

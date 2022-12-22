@@ -1,0 +1,1 @@
+(mesostigma_viridae_proteome_first_transcript_Mv17437:0.318012,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000111l.234.1:0.456775,(spirogloea_muscicola_proteome_first_transcript_SM000008S22154:0.094483,spirogloea_muscicola_proteome_first_transcript_SM000035S13088:0.032733)n2:0.324007)n1:0.318012)n0;

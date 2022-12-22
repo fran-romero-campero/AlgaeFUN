@@ -1,1 +1,0 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT1G24380:0.0092535,((arabidopsis_thaliana_proteome_first_transcript_AT4G10230:0.033929,arabidopsis_thaliana_proteome_first_transcript_AT2G13760:0.21861):0.021548,arabidopsis_thaliana_proteome_first_transcript_AT1G66235:1.47401):0.0092535);

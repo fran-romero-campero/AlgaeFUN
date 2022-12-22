@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_7148:0.649239,klebsormidium_nitens_proteome_first_transcript_kfl00221_0020:1.38267)n1:0.047593,(ostreococcus_tauri_proteome_first_transcript_ostta08g01880:1.31705,micromonas_pusilla_proteome_first_transcript_27342001:1.26317)n2:0.047593)n0;
