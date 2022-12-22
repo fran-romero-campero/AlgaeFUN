@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc12g070123.1.1:0.284706,(aegilops_tauschii_proteome_first_transcript_AET2Gv20047200.1:0.426317,(triticum_aestivum_proteome_first_transcript_Traes_2DS_CF71FEFEC:0.448588,triticum_aestivum_proteome_first_transcript_Traes_7DS_664703616:1.34139e-06)n2:1.34139e-06)n1:0.325968)n0;
+((solanum_lycopersicum_Solyc12g006840:0.396458,solanum_lycopersicum_Solyc03g120110:0.36807)n1:0.193147,(arabidopsis_thaliana_AT3G16030:0.235793,arabidopsis_thaliana_AT1G67520:0.316215)n2:0.193147)n0;

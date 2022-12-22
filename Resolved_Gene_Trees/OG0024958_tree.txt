@@ -1,1 +1,1 @@
-((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_47122:0.794833,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_47471:0.904453)n1:0.337101,(mesostigma_viridae_proteome_first_transcript_Mv13975:1.52623,ulva_mutabilis_proteome_first_transcript_UM057_0063.1:1.30697)n2:0.337101)n0;
+(salvinia_cucullata_Sacu_v1.1_s0119.g021287:0.564333,(oryza_sativa_LOC_Os02g01880.1:0.207093,(triticum_aestivum_Traes_7BS_92CFD676A:0.02796,triticum_aestivum_Traes_7DS_41EECC708:0.129285)n2:0.180219)n1:0.564333)n0;

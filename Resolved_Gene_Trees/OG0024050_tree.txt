@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g11905:0.699917,(chlamydomonas_reinhardtii_proteome_first_transcript_Cre10.g419950:3.20264e-06,(klebsormidium_nitens_proteome_first_transcript_kfl00310_0070:1.25775,klebsormidium_nitens_proteome_first_transcript_kfl00625_0040:1.09957)n2:0.219448)n1:0.699917)n0;
+(cyanophora_paradoxa_Cyapar1_g23482:0,((cyanophora_paradoxa_Cyapar1_g11584:0.694081,cyanophora_paradoxa_Cyapar1_g684:0.769872)n2:0.302298,cyanophora_paradoxa_Cyapar1_g23515:0)n1:0)n0;

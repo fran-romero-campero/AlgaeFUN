@@ -1,1 +1,1 @@
-((micromonas_pusilla_proteome_first_transcript_27340368:1.55869,micromonas_pusilla_proteome_first_transcript_27338799:1.15135)n1:0.781101,(mesostigma_viridae_proteome_first_transcript_Mv01872:0.247307,mesostigma_viridae_proteome_first_transcript_Mv01872:4.33106e-06)n2:0.781101)n0;
+((triticum_aestivum_Traes_5BL_41B61C58F1:0,triticum_aestivum_Traes_5BL_41B61C58F:0)n1:0.31716,(oryza_sativa_LOC_Os03g08030.1:2.04459,oryza_sativa_LOC_Os02g15160.1:0.447029)n2:0.31716)n0;

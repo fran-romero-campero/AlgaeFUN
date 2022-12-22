@@ -1,1 +1,1 @@
-((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49807:0.001214,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48037:0.0017)n1:0.717472,(ostreococcus_tauri_proteome_first_transcript_ostta06g00370:0.96978,bathycoccus_prasinos_proteome_first_transcript_Bathy04g03620 length_346 _mRNA_ _n/a_  _predicted protein_:0.024053)n2:0.717472)n0;
+((physcomitrium_patens_Pp3c16_11870:0.508945,physcomitrium_patens_Pp3c27_4500:0.650375)n1:0.413853,(ceratodon_purpureus_CepurR40.3G235100:0.796685,ceratodon_purpureus_CepurR40.VG285500:0.044374)n2:0.413853)n0;

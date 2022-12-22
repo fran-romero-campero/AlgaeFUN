@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG293300:0.0119015,((ceratodon_purpureus_proteome_first_transcript_CepurR40.9G148700:0.008497,ceratodon_purpureus_proteome_first_transcript_CepurR40.7G003600:0.013473)n2:0.009478,ceratodon_purpureus_proteome_first_transcript_CepurR40.VG090800:0.841997)n1:0.0119015)n0;
+(selaginella_moellendorffii_Selmo_422093:0.881794,((ceratopteris_richardii_Ceric.17G059100:0.608195,ceratopteris_richardii_Ceric.26G044700:0.19833)n2:0.245321,ceratopteris_richardii_Ceric.26G044800:0.137445)n1:0.881794)n0;

@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp6g02090:0.011814,(marchantia_polymorpha_proteome_first_transcript_Mp6g02070:0.106081,(marchantia_polymorpha_proteome_first_transcript_Mp6g02060:0.152474,marchantia_polymorpha_proteome_first_transcript_Mp8g09570:0.49943)n2:0.083502)n1:0.011814)n0;
+((sorghum_bicolor_Sobic.003G162700:0.615013,zea_mays_Zm00001d040826:0.488662)n1:0.0936935,(oryza_sativa_ChrUn.fgenesh.mRNA.73:0,oryza_sativa_ChrUn.fgenesh.mRNA.68:0)n2:0.0936935)n0;

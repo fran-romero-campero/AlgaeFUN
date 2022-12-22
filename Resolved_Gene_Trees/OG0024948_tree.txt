@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv16128:0.0238535,((mesostigma_viridae_proteome_first_transcript_Mv16128:0.075065,mesostigma_viridae_proteome_first_transcript_Mv16128:1.87927e-07)n2:0.076606,mesostigma_viridae_proteome_first_transcript_Mv16128:0.000566)n1:0.0238535)n0;
+((oryza_sativa_LOC_Os03g01140.1:0.321812,(triticum_aestivum_Traes_2DL_E2EECD96C:0.566215,triticum_aestivum_Traes_4BL_75D0C2439:0.413336)n2:0.0459262)n1:0.086034,zea_mays_Zm00001d035070:0.358092)n0;

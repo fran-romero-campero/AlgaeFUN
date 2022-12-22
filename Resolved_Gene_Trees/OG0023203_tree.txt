@@ -1,1 +1,1 @@
-(spirogloea_muscicola_proteome_first_transcript_SM000054S18031:0.386479,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_017909:1.05747,azolla_filiculoides_proteome_first_transcript_Azfi_s0095.g043584:0.304312)n2:0.091552,triticum_aestivum_proteome_first_transcript_Traes_5AL_CFC483466:0.148306)n1:0.386479)n0;
+(ceratodon_purpureus_CepurR40.7G057800:0.451441,((ceratodon_purpureus_CepurR40.7G086500:0.534379,ceratodon_purpureus_CepurR40.1G259000:0.887632)n2:0.236813,ceratodon_purpureus_CepurR40.8G071400:0.690571)n1:0.451441)n0;

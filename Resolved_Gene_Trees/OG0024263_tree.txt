@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0390s0013:0.739098,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g8617:0.461692,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g11256:0.193293,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g11263:0.190871)n2:0.269763)n1:0.739098)n0;
+(cycas_panzhihuaensis_CYCAS_016783:0.380725,(thuja_plicata_Thupl.29378896s0073:0.145739,(thuja_plicata_Thupl.29378896s0074:0.634833,thuja_plicata_Thupl.29378896s0071:0.194319)n2:0.099724)n1:0.380725)n0;

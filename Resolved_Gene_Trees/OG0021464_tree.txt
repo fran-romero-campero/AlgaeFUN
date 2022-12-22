@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv09167:0.19277,(((mesostigma_viridae_proteome_first_transcript_Mv09165:0.601523,mesostigma_viridae_proteome_first_transcript_Mv09169:0.792465)n3:0.63764,mesostigma_viridae_proteome_first_transcript_Mv09168:0.82848)n2:0.183129,mesostigma_viridae_proteome_first_transcript_Mv09166:0.478933)n1:0.19277)n0;
+(physcomitrium_patens_Pp3c10_15084:0,((physcomitrium_patens_Pp3s677_10:0.092023,physcomitrium_patens_Pp3c10_15080:-0)n2:0,(physcomitrium_patens_Pp3s638_22:0,physcomitrium_patens_Pp3s1006_30:0)n3:0)n1:0)n0;

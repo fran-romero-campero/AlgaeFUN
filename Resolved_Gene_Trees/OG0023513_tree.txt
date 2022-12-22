@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.VG126900:0.0115465,((ceratodon_purpureus_proteome_first_transcript_CepurR40.6G227100:0.00172,ceratodon_purpureus_proteome_first_transcript_CepurR40.3G040100:0.002384)n2:0.008531,ceratodon_purpureus_proteome_first_transcript_CepurR40.VG146000:0.207905)n1:0.0115465)n0;
+(ceratopteris_richardii_Ceric.33G053600:0.471008,(spirogloea_muscicola_SM000549S17877:0.12128,(spirogloea_muscicola_SM000324S12588:0.054309,spirogloea_muscicola_SM000003S11094:0.021561)n2:0.048706)n1:0.471008)n0;

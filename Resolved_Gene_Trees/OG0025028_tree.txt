@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000063S08943:0.594965,((spirogloea_muscicola_proteome_first_transcript_SM000005S17332:0.035864,spirogloea_muscicola_proteome_first_transcript_SM000053S17397:0.073116)n2:0.024538,spirogloea_muscicola_proteome_first_transcript_SM000194S04825:0.10434)n1:0.594965)n0;
+(triticum_aestivum_Traes_3DS_38318173A:0.110731,(oryza_sativa_LOC_Os11g20310.1:1.23895,(zea_mays_Zm00001d034623:0.387595,zea_mays_Zm00001d033392:0.0456489)n2:0.0050721)n1:0.193382)n0;

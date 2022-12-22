@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_45091:0.71992,(micromonas_pusilla_proteome_first_transcript_27348113:0.64156,(ulva_mutabilis_proteome_first_transcript_UM005_0310.1:0.666978,ulva_mutabilis_proteome_first_transcript_UM019_0050.1:1.37726)n2:0.401843)n1:0.71992)n0;
+(physcomitrium_patens_Pp3c10_4180:0.143876,(physcomitrium_patens_Pp3c10_3230:0.385045,(physcomitrium_patens_Pp3c16_2790:0.75697,physcomitrium_patens_Pp3c25_1380:0.239256)n2:0.299939)n1:0.143876)n0;

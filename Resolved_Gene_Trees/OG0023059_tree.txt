@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT1G26250:0.211934,((arabidopsis_thaliana_proteome_first_transcript_AT1G26240:0.147,arabidopsis_thaliana_proteome_first_transcript_AT4G08380:0.170508)n2:0.058493,arabidopsis_thaliana_proteome_first_transcript_AT4G08370:0.261978)n1:0.211934)n0;
+((ostreococcus_tauri_ostta11g03150:0.543911,bathycoccus_prasinos_Bathy02g01290:0.742332)n1:0.269477,(phaeodactylum_tricornutum_Phatr2_47096:0.84541,phaeodactylum_tricornutum_Phatr2_37201:0.93667)n2:0.269477)n0;

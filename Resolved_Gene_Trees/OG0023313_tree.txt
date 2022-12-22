@@ -1,1 +1,1 @@
-(bathycoccus_prasinos_proteome_first_transcript_Bathy06g02480 length_418 _mRNA_ _n/a_  _hypothetical protein CHLNCDRAFT_134209_:0.66657,(mesostigma_viridae_proteome_first_transcript_Mv08396:1.39362e-06,(mesostigma_viridae_proteome_first_transcript_Mv08396:0.002523,mesostigma_viridae_proteome_first_transcript_Mv08396:0.05)n2:0.008149)n1:0.66657)n0;
+(physcomitrium_patens_Pp3c16_18920:0.191193,((ceratodon_purpureus_CepurR40.3G171900:0.182314,ceratodon_purpureus_CepurR40.4G124400:0.16287)n2:0.06477,ceratodon_purpureus_CepurR40.1G276300:0.199048)n1:0.191193)n0;

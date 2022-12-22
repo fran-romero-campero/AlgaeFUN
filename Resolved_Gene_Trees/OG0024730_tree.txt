@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00451_0070:0.78413,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_32665:0.91145,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_6805:0.02373,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_6806:0.004129)n2:0.865255)n1:0.78413)n0;
+(micromonas_pusilla_Micpu_27343600:0.608124,((ulva_mutabilis_UM134_0022:0.218894,ulva_mutabilis_UM134_0021:1.47609e-06)n2:0.069232,ulva_mutabilis_UM134_0019:1.47609e-06)n1:0.608124)n0;

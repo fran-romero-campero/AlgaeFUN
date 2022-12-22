@@ -1,1 +1,1 @@
-((porphyra_umbilicalis_proteome_first_transcript_Pum0086s0010:0.884211,porphyra_umbilicalis_proteome_first_transcript_Pum0861s0007:0.471341)n1:0.157143,(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_2856:0.641611,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_54499:0.931036)n2:0.157143)n0;
+(physcomitrium_patens_Pp3c21_830:0.555511,((sphangum_magellanicum_Sphmag08G133000:1.99818e-06,sphangum_magellanicum_Sphmag08G132900:0.190923)n2:0.518899,sphangum_magellanicum_Sphmag02G171400:0.30303)n1:0.555511)n0;

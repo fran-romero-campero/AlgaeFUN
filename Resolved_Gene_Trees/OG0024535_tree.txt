@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021313:0.126091,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021315:0.420244,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021316:0.362971)n2:0.408103,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021314:0.334027)n1:0.126091)n0;
+(mesostigma_viridae_Mv24204:1.22748,((thuja_plicata_Thupl.29378499s0006:0.111997,thuja_plicata_Thupl.29378499s0004:0.026136)n2:1.09411,marchantia_polymorpha_Mp3g21310:1.24977)n1:1.22748)n0;

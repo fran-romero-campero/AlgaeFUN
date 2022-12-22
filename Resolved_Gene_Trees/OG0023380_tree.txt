@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv12296:0.551284,((ostreococcus_tauri_proteome_first_transcript_ostta07g04680:0.438376,bathycoccus_prasinos_proteome_first_transcript_Bathy17g02240 length_229 _mRNA_ _n/a_  _peptidylprolyl isomerase FKBP-type_:0.760209)n2:0.126267,micromonas_pusilla_proteome_first_transcript_27345493:0.975089)n1:0.551284)n0;
+((ceratodon_purpureus_CepurR40.5G114000:0.303805,physcomitrium_patens_Pp3c25_11300:0.251771)n1:0.431126,(sphangum_magellanicum_Sphmag18G086000:0.399894,sphangum_magellanicum_Sphmag14G060900:0.437192)n2:0.431126)n0;

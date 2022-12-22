@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET7Gv21173700.1:0.292919,(aegilops_tauschii_proteome_first_transcript_AET2Gv21297500.1:0.315713,(aegilops_tauschii_proteome_first_transcript_AET3Gv20566500.1:0.314595,aegilops_tauschii_proteome_first_transcript_AET6Gv20365300.1:0.256172)n2:0.159056)n1:0.292919)n0;
+(aegilops_tauschii_AET7Gv20668600:0.283257,((sorghum_bicolor_Sobic.007G175500:0.139594,zea_mays_Zm00001d032005:0.238041)n2:0.357498,oryza_sativa_LOC_Os08g43740.1:0.379474)n1:0.283257)n0;

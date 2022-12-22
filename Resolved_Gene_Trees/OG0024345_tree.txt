@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g1739:0.0130245,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g1563:1.4261e-06,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g22151:0.669631)n2:0.160821,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g1738:0.638246)n1:0.0130245)n0;
+(thuja_plicata_Thupl.29381464s0001:0.678976,((cycas_panzhihuaensis_CYCAS_030127:1.79407e-06,cycas_panzhihuaensis_CYCAS_030128:0.305715)n2:0.123405,cycas_panzhihuaensis_CYCAS_030129:0.046002)n1:0.678976)n0;

@@ -1,1 +1,1 @@
-(zea_mays_proteome_first_transcript_Zm00001d014556:0.0200705,(sorghum_bicolor_proteome_first_transcript_Sobic.006G118850:0.642408,(sorghum_bicolor_proteome_first_transcript_Sobic.010G241700:0.168021,sorghum_bicolor_proteome_first_transcript_Sobic.010G241800:0.274766)n2:0.38675)n1:0.0200705)n0;
+(thuja_plicata_Thupl.29377957s0001:0.0630685,((thuja_plicata_Thupl.29377954s0001:0.483433,thuja_plicata_Thupl.29377957s0002:0.164161)n2:0.070116,thuja_plicata_Thupl.29378798s0003:0.216531)n1:0.0630685)n0;

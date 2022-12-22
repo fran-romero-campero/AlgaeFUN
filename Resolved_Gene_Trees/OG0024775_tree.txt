@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp6g10280:0.278294,(marchantia_polymorpha_proteome_first_transcript_Mp4g20540:1.05713,(marchantia_polymorpha_proteome_first_transcript_Mp4g02420:0.439644,marchantia_polymorpha_proteome_first_transcript_Mp6g05390:0.57938)n2:0.31553)n1:0.278294)n0;
+(nannochloropsis_gaditana_Nangad1_8160:0,(nannochloropsis_gaditana_Nangad1_8161:0,(nannochloropsis_gaditana_Nangad1_8163:0,nannochloropsis_gaditana_Nangad1_8162:0)n2:0)n1:0)n0;

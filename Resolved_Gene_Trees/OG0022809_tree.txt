@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET2Gv20617700.1:0.0782455,(triticum_aestivum_proteome_first_transcript_Traes_3DL_F28E6CE46:0.477491,(triticum_aestivum_proteome_first_transcript_Traes_4AL_2EBA96358:0.005128,triticum_aestivum_proteome_first_transcript_Traes_2DL_6B5326677:0.142228)n2:0.042025)n1:0.0782455)n0;
+((cyanophora_paradoxa_Cyapar1_g20909:0.073068,cyanophora_paradoxa_Cyapar1_g20913:0.129316)n1:0.660465,(selaginella_moellendorffii_Selmo_4482:2.76558e-06,anthoceros_agrestis_AagrOXF_utg000083l.245:1.24704)n2:0.660465)n0;

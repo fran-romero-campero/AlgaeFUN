@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_010738:0.286058,((triticum_aestivum_proteome_first_transcript_Traes_7DS_D6F2F8B45:1.57097e-06,triticum_aestivum_proteome_first_transcript_Traes_3AL_9ADFB3DEA:0.539272)n2:0.310318,triticum_aestivum_proteome_first_transcript_Traes_4BS_2F7CA2DBD:0.188992)n1:0.286058)n0;
+(klebsormidium_nitens_kfl00695_0060:0.024645,((klebsormidium_nitens_kfl00371_0050:0.485231,klebsormidium_nitens_kfl00360_0150:0.414717)n2:0.73763,klebsormidium_nitens_kfl01232_0020:1.36366)n1:0.024645)n0;

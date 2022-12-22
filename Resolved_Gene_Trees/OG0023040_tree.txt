@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_439574:0.574604,(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000127l.17.1:0.357148,(ceratodon_purpureus_proteome_first_transcript_CepurR40.6G176600:0.656526,physcomitrium_patens_proteome_first_transcript_Pp3c5_9110:0.515264)n2:0.6022)n1:0.574604)n0;
+(azolla_filiculoides_Azfi_s4316.g118720:0.536139,(physcomitrium_patens_Pp3c18_1620:0.157035,(ceratodon_purpureus_CepurR40.2G116600:0.114745,ceratodon_purpureus_CepurR40.10G000200:0.163177)n2:0.644753)n1:0.536139)n0;

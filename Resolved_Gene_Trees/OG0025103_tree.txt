@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_5147:0.78179,(triticum_aestivum_proteome_first_transcript_Traes_7DS_F6E757359:0.009474,(triticum_aestivum_proteome_first_transcript_Traes_7BS_593B01A68:0.306356,triticum_aestivum_proteome_first_transcript_Traes_7AS_3AB25BFAB:0.07063)n2:0.164897)n1:0.78179)n0;
+(sphangum_magellanicum_Sphmag05G005300:0.261126,(physcomitrium_patens_Pp3c19_20484:0.529621,(physcomitrium_patens_Pp3c4_19021:0.064719,physcomitrium_patens_Pp3c4_19030:0.59151)n2:0.351456)n1:0.261126)n0;

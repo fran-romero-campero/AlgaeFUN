@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp3g11070:0.0600155,((marchantia_polymorpha_proteome_first_transcript_Mp2g01670:0.433602,marchantia_polymorpha_proteome_first_transcript_Mp3g19700:0.516875)n2:0.338296,marchantia_polymorpha_proteome_first_transcript_Mp3g11060:0.125061)n1:0.0600155)n0;
+(raphidocelis_subcapitata_Rsub_06680:0.976612,((nannochloropsis_gaditana_Nangad1_2902:0,nannochloropsis_gaditana_Nangad1_2903:0)n2:0.743284,phaeodactylum_tricornutum_Phatr2_45778:0.847171)n1:0.976612)n0;

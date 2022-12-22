@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00653_g1:0.148665,(klebsormidium_nitens_proteome_first_transcript_kfl00730_0030:1.14598,(klebsormidium_nitens_proteome_first_transcript_kfl00792_g1:0.854603,klebsormidium_nitens_proteome_first_transcript_kfl00962_0010:1.07468)n2:0.035764)n1:0.148665)n0;
+(nannochloropsis_gaditana_Nangad1_7345:0.104991,(nannochloropsis_gaditana_Nangad1_3518:0.504618,(nannochloropsis_gaditana_Nangad1_5185:0.375694,nannochloropsis_gaditana_Nangad1_10458:0.466923)n2:0.097646)n1:0.104991)n0;

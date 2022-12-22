@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_1978:0.656791,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_008874:1.80022,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000063l.38.1:1.79981)n2:0.047865,klebsormidium_nitens_proteome_first_transcript_kfl00462_0045:1.66146)n1:0.656791)n0;
+(ceratopteris_richardii_Ceric.27G067100:0.422951,(azolla_filiculoides_Azfi_s0301.g063688:0.806679,(salvinia_cucullata_Sacu_v1.1_s0021.g008505:0.97225,salvinia_cucullata_Sacu_v1.1_s0042.g012770:0.0216855)n2:0.0024095)n1:0.195806)n0;

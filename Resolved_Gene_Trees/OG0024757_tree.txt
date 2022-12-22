@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp3g12290:0.075871,(marchantia_polymorpha_proteome_first_transcript_Mp3g12300:0.231708,(marchantia_polymorpha_proteome_first_transcript_Mp1g24390:0.089875,marchantia_polymorpha_proteome_first_transcript_Mp3g12280:0.261959)n2:0.029482)n1:0.075871)n0;
+((porphyra_umbilicalis_Pum0086s0010:0.884211,porphyra_umbilicalis_Pum0861s0007:0.471341)n1:0.157143,(nannochloropsis_gaditana_Nangad1_2856:0.641611,phaeodactylum_tricornutum_Phatr2_54499:0.931036)n2:0.157143)n0;

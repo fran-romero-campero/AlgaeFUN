@@ -1,1 +1,1 @@
-(ulva_mutabilis_proteome_first_transcript_UM001_0507.1:0.709965,(micromonas_pusilla_proteome_first_transcript_27343996:0.717125,(bathycoccus_prasinos_proteome_first_transcript_Bathy11g01790 length_492 _mRNA_ _n/a_  _predicted protein_:0.396845,ostreococcus_tauri_proteome_first_transcript_ostta10g01790:0.923648)n2:0.367401)n1:0.709965)n0;
+(cycas_panzhihuaensis_CYCAS_026600:0.603975,(ceratodon_purpureus_CepurR40.1G132400:1.86259e-06,(ceratodon_purpureus_CepurR40.4G068200:0.090814,ceratodon_purpureus_CepurR40.4G068600:0.085421)n2:0.483202)n1:0.603975)n0;

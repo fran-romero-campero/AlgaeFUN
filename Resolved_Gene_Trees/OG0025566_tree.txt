@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_7DS_32322428E:0.432988,((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0008.g004258:0.745614,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0187.g025093:1.08006)n2:0.112373,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0137.g022490:0.513189)n1:0.432988)n0;
+(sphangum_magellanicum_Sphmag05G134900:0.279089,(sphangum_magellanicum_Sphmag08G043600:0.535981,(sphangum_magellanicum_Sphmag05G113600:0.451995,sphangum_magellanicum_Sphmag02G029400:0.461926)n2:0.09663)n1:0.279089)n0;

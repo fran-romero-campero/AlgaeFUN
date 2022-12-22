@@ -1,1 +1,1 @@
-((aegilops_tauschii_proteome_first_transcript_AET2Gv20044700.1:0.287887,aegilops_tauschii_proteome_first_transcript_AET4Gv20082100.1:0.141741)n1:0.0774245,(triticum_aestivum_proteome_first_transcript_Traes_2AS_E86358445:0.031866,triticum_aestivum_proteome_first_transcript_Traes_2BS_03EACFC0E:0.024534)n2:0.0774245)n0;
+((salvinia_cucullata_Sacu_v1.1_s0018.g007628:0.51335,salvinia_cucullata_Sacu_v1.1_s0058.g014874:0.447752)n1:0.418156,(aegilops_tauschii_AET5Gv20350100:1.79783e-06,triticum_aestivum_Traes_5DL_C5780ABE7:0.169954)n2:0.418156)n0;

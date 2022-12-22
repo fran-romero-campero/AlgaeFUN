@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl01064_0040:0.034244,((klebsormidium_nitens_proteome_first_transcript_kfl01064_0030:0.561685,klebsormidium_nitens_proteome_first_transcript_kfl00389_0130:0.786753)n2:0.747473,klebsormidium_nitens_proteome_first_transcript_kfl01217_0030:0.087409)n1:0.034244)n0;
+(micromonas_pusilla_Micpu_27343082:0.799627,(solanum_lycopersicum_Solyc07g150149:0.289311,(triticum_aestivum_Traes_7AL_E70933BD3:0.035288,triticum_aestivum_Traes_7BL_A84D60579:0.043721)n2:0.187077)n1:0.799627)n0;

@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.6G206900:0.144336,(physcomitrium_patens_proteome_first_transcript_Pp3c14_2780:0.421889,(physcomitrium_patens_proteome_first_transcript_Pp3c2_13990:0.338904,physcomitrium_patens_proteome_first_transcript_Pp3c1_22440:0.190045)n2:0.076849)n1:0.144336)n0;
+(klebsormidium_nitens_kfl01005_g1:0.396286,(chlamydomonas_reinhardtii_Cre07.g317000:0.24262,(volvox_carteri_Vocar.0022s0063:0.22546,volvox_carteri_Vocar.0156s0001:1.06454e-06)n2:1.06454e-06)n1:0.261519)n0;

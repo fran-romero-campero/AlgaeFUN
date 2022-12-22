@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_03197:0.479368,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_03199:0.73751,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_12576:0.821247,raphidocelis_subcapitata_proteome_first_transcript_Rsub_03403:0.830114)n2:0.055677)n1:0.479368)n0;
+(sorghum_bicolor_Sobic.006G026100:0.126516,((zea_mays_Zm00001d004331:0.835069,zea_mays_Zm00001d016724:0.308811)n2:0.358479,zea_mays_Zm00001d004328:0.272961)n1:0.126516)n0;

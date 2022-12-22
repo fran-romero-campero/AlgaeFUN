@@ -1,1 +1,1 @@
-((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0096.g019356:0.460734,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0050.g013780:0.04578)n1:0.25839,(azolla_filiculoides_proteome_first_transcript_Azfi_s0159.g053985:0.372642,azolla_filiculoides_proteome_first_transcript_Azfi_s0159.g053986:0.910662)n2:0.25839)n0;
+(ceratodon_purpureus_CepurR40.2G132700:0.415707,(volvox_carteri_Vocar.0011s0160:0.300262,(volvox_carteri_Vocar.0008s0157:0.428335,volvox_carteri_Vocar.0011s0172:0.421316)n2:0.271227)n1:0.415707)n0;

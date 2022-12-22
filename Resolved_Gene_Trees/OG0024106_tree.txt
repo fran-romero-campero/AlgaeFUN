@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g17773:0.33004,((mesotaenium_endlicherianum_proteome_first_transcript_ME000074S09437:0.445619,klebsormidium_nitens_proteome_first_transcript_kfl00659_0030:0.362884)n2:0.362101,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_1927:0.646019)n1:0.33004)n0;
+(cyanophora_paradoxa_Cyapar1_g20704:0.413271,((cyanophora_paradoxa_Cyapar1_g20045:0.419315,cyanophora_paradoxa_Cyapar1_g14578:0.530914)n2:0.111885,cyanophora_paradoxa_Cyapar1_g3725:0.443885)n1:0.413271)n0;

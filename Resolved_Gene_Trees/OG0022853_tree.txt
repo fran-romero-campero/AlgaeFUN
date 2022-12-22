@@ -1,1 +1,1 @@
-(zea_mays_proteome_first_transcript_Zm00001d010873:0.387697,((triticum_aestivum_proteome_first_transcript_Traes_1DS_7925FE276:0.002909,triticum_aestivum_proteome_first_transcript_Traes_1AS_8E65DC41A:0.116455)n2:0.170649,aegilops_tauschii_proteome_first_transcript_AET1Gv20229300.1:0.058716)n1:0.387697)n0;
+(arabidopsis_thaliana_AT2G13125:0.391282,(arabidopsis_thaliana_AT1G47700:1.36326e-06,(arabidopsis_thaliana_AT1G47680:0.644607,arabidopsis_thaliana_AT1G47690:1.36326e-06)n2:0.063904)n1:0.391282)n0;

@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_7023:0.898945,(physcomitrium_patens_proteome_first_transcript_Pp3c3_240:0.349568,(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G130100:0.110957,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G053300:2.04853e-06)n2:2.04853e-06)n1:0.71659)n0;
+(ceratopteris_richardii_Ceric.1Z291200:0.248273,(triticum_aestivum_Traes_2DL_93086FACB:0.36338,(triticum_aestivum_Traes_5BL_3A61355FC:0.488896,triticum_aestivum_Traes_5AL_90EFBE96B:0.197069)n2:0.371962)n1:0.248273)n0;

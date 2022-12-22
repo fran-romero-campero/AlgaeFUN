@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv20771:0.016936,(mesostigma_viridae_proteome_first_transcript_Mv20771:0.035213,(mesostigma_viridae_proteome_first_transcript_Mv20771:2.02783e-07,mesostigma_viridae_proteome_first_transcript_Mv20771:0.076175)n2:0.068373)n1:0.016936)n0;
+(oryza_sativa_LOC_Os02g48040.1:0.363748,(sorghum_bicolor_Sobic.005G068500:0.770746,(sorghum_bicolor_Sobic.005G068600:0.88563,sorghum_bicolor_Sobic.005G067933:0.929598)n2:0.021943)n1:0.363748)n0;

@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000408S06883:0.762754,(triticum_aestivum_proteome_first_transcript_Traes_2AL_5F0887105:0.585282,(triticum_aestivum_proteome_first_transcript_Traes_2BL_81217530E:0.054466,triticum_aestivum_proteome_first_transcript_Traes_2DL_1ECF2963E:0.07636)n2:0.241393)n1:0.762754)n0;
+(phaeodactylum_tricornutum_Phatr2_54749:0.730383,(phaeodactylum_tricornutum_Phatr2_44912:0.257449,(phaeodactylum_tricornutum_Phatr2_41350:1.31176,phaeodactylum_tricornutum_Phatr2_35620:1.39978)n2:0.13282)n1:0.730383)n0;

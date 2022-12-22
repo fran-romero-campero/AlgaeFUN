@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT1G25112:0,(arabidopsis_thaliana_proteome_first_transcript_AT1G24851:0,(arabidopsis_thaliana_proteome_first_transcript_AT1G25025:0,arabidopsis_thaliana_proteome_first_transcript_AT1G25180:0)n2:0)n1:0)n0;
+(bathycoccus_prasinos_Bathy02g00450:0.991924,(dunaliella_salina_Dusal.0066s00025:1.06061,(volvox_carteri_Vocar.0017s0022:0.568861,chlamydomonas_reinhardtii_Cre12.g532800:4.09382e-06)n2:0.573902)n1:0.991924)n0;

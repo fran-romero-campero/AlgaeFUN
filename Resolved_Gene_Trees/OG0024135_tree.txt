@@ -1,1 +1,1 @@
-((chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_4836:1.51202,chromochloris_zofingiensis_proteome_first_transcript_Cz11g14050:2.45167e-06)n1:0.904228,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49357:0.002017,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_50346:0.001968)n2:0.904228)n0;
+((cyanophora_paradoxa_Cyapar1_g18184:3.91767e-06,cyanophora_paradoxa_Cyapar1_g18182:1.37303)n1:0.046307,(mesostigma_viridae_Mv14222:1.27657,klebsormidium_nitens_kfl00004_0190:1.26492)n2:0.046307)n0;

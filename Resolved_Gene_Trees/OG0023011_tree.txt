@@ -1,1 +1,1 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000049l.734.1:0.240202,(triticum_aestivum_proteome_first_transcript_Traes_7AS_15546E52B:0.253491,(zea_mays_proteome_first_transcript_Zm00001d014514:0.216872,zea_mays_proteome_first_transcript_Zm00001d014833:0.089434)n2:0.058924)n1:0.240202)n0;
+(azolla_filiculoides_Azfi_s0230.g059209:0.37963,(ceratopteris_richardii_Ceric.11G012200:0.381261,(ceratopteris_richardii_Ceric.03G079400:0.442729,ceratopteris_richardii_Ceric.11G012100:0.17252)n2:0.236854)n1:0.37963)n0;

@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00025_0030:3.09749e-06,((klebsormidium_nitens_proteome_first_transcript_kfl01265_0020:1.08685,klebsormidium_nitens_proteome_first_transcript_kfl00552_0030:0.863658)n2:0.90857,klebsormidium_nitens_proteome_first_transcript_kfl00552_0020:0.410264)n1:3.09749e-06)n0;
+(mesotaenium_endlicherianum_ME000036S06259:0.013709,(mesotaenium_endlicherianum_ME000264S04319:0.170953,(mesotaenium_endlicherianum_ME000036S06261:0.32926,mesotaenium_endlicherianum_ME000036S06254:1.62879e-06)n2:1.18003)n1:0.013709)n0;

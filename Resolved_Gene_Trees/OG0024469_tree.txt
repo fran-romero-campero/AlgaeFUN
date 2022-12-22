@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_003282:0.151468,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_014688:0.79896,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_003281:0.798667,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_006017:1.00033)n2:0.052268)n1:0.151468)n0;
+(micromonas_pusilla_Micpu_27342865:0.45991,(klebsormidium_nitens_kfl00208_0180:1.04108,(spirogloea_muscicola_SM000068S20558:0.081351,spirogloea_muscicola_SM000120S25706:0.308481)n2:0.57127)n1:0.45991)n0;

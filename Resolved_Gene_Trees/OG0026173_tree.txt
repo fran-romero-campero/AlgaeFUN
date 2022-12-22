@@ -1,1 +1,1 @@
-(thuja_plicata_proteome_first_transcript_Thupl.29381181s0007.1.p pacid_44997775 transcript_Thupl.29381181s0007.1 locus_Thupl.29381181s0007 ID_Thupl.29381181s0007.1.v3.1 annot-version_v3.1:0.462711,(zea_mays_proteome_first_transcript_Zm00001d027244:0.042472,(zea_mays_proteome_first_transcript_Zm00001d002717:0.073606,zea_mays_proteome_first_transcript_Zm00001d053999:0.192901)n2:0.037076)n1:0.462711)n0;
+(zea_mays_Zm00001d045907:1.68509e-06,(zea_mays_Zm00001d015602:0.471848,(zea_mays_Zm00001d044756:0.489209,zea_mays_Zm00001d021265:0.335068)n2:0.506652)n1:1.68509e-06)n0;

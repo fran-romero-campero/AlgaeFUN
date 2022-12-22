@@ -1,1 +1,1 @@
-((azolla_filiculoides_proteome_first_transcript_Azfi_s0003.g008102:0.602904,azolla_filiculoides_proteome_first_transcript_Azfi_s0003.g008107:1.76732e-06)n1:0.359104,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0026.g009573:0.227522,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0045.g013247:0.232717)n2:0.359104)n0;
+((bathycoccus_prasinos_Bathy13g01400:1.02219,ostreococcus_tauri_ostta11g01950:1.0284)n1:0.0757945,(micromonas_pusilla_Micpu_27340216:1.22985,micromonas_pusilla_Micpu_27348687:1.19148)n2:0.0757945)n0;

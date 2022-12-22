@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27340111:0.679787,((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_8034:0.149341,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_8033:0.136213)n2:0.577386,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_35118:0.487278)n1:0.679787)n0;
+(phaeodactylum_tricornutum_Phatr2_48064:0.634074,((phaeodactylum_tricornutum_Phatr2_33704:0.294794,phaeodactylum_tricornutum_Phatr2_33677:0.170293)n2:0.597152,phaeodactylum_tricornutum_Phatr2_49427:0.920406)n1:0.634074)n0;

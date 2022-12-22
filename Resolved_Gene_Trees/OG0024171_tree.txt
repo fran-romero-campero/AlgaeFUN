@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz04g01250:0.212628,(spirogloea_muscicola_proteome_first_transcript_SM000037S13491:0.181478,(spirogloea_muscicola_proteome_first_transcript_SM000006S19345:0.037777,spirogloea_muscicola_proteome_first_transcript_SM000021S06453:0.057926)n2:0.111866)n1:0.212628)n0;
+((klebsormidium_nitens_kfl00103_0140:1.08881,cyanophora_paradoxa_Cyapar1_g23024:1.00566)n1:0.0292925,(nannochloropsis_gaditana_Nangad1_2492:1.10344,phaeodactylum_tricornutum_Phatr2_42428:1.12115)n2:0.0292925)n0;

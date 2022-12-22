@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.7G092200:0.011784,(ceratodon_purpureus_proteome_first_transcript_CepurR40.11G157800:4.6173e-08,(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G123900:4.6173e-08,ceratodon_purpureus_proteome_first_transcript_CepurR40.9G090700:0.022634)n2:2.9e-05)n1:0.011784)n0;
+(ceratopteris_richardii_Ceric.01G089200:0.437588,(solanum_lycopersicum_Solyc12g011037:0.797459,(triticum_aestivum_Traes_7DS_553FF7B75:0.214029,triticum_aestivum_Traes_7BS_9BD9CE0EC:0.1958)n2:0.187688)n1:0.437588)n0;

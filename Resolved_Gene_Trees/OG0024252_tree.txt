@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00029_0040:0.516193,((cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2626:0.363032,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g10775:0.572911)n2:0.018883,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g2793:0.32628)n1:0.516193)n0;
+(cycas_panzhihuaensis_CYCAS_010738:0.286058,((triticum_aestivum_Traes_7DS_D6F2F8B45:1.57097e-06,triticum_aestivum_Traes_3AL_9ADFB3DEA:0.539272)n2:0.310318,triticum_aestivum_Traes_4BS_2F7CA2DBD:0.188992)n1:0.286058)n0;

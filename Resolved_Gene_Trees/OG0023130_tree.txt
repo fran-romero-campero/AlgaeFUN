@@ -1,1 +1,1 @@
-((solanum_lycopersicum_proteome_first_transcript_Solyc09g010350.4.1:0.596785,arabidopsis_thaliana_proteome_first_transcript_AT5G13660:0.875882)n1:0.067652,(solanum_lycopersicum_proteome_first_transcript_Solyc06g075790.3.1:0.477761,arabidopsis_thaliana_proteome_first_transcript_AT5G59830:0.476808)n2:0.067652)n0;
+(bathycoccus_prasinos_Bathy109g00030:0.347479,(bathycoccus_prasinos_Bathy109g00010:0.470762,(bathycoccus_prasinos_Bathy97g00020:1.17916,bathycoccus_prasinos_Bathy52g00090:1.16712)n2:0.500586)n1:0.347479)n0;

@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g22189:0.002361,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g4685:0.310957,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g8864:1.71053,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g5189:0.56103)n2:0.458995)n1:0.002361)n0;
+(dunaliella_salina_Dusal.0058s00018:0.292118,(dunaliella_salina_Dusal.1468s00002:0.512725,(dunaliella_salina_Dusal.0067s00016:1.05787,dunaliella_salina_Dusal.0998s00002:0.591765)n2:0.119137)n1:0.292118)n0;

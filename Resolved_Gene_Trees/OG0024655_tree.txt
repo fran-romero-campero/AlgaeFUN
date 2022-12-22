@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00014_0010:0.600293,(ostreococcus_tauri_proteome_first_transcript_ostta10g01530:0.519047,(micromonas_pusilla_proteome_first_transcript_27344736:0.445437,micromonas_pusilla_proteome_first_transcript_27345029:0.253577)n2:0.0281752)n1:1.08121)n0;
+((spirogloea_muscicola_SM004522S16129:0.046455,spirogloea_muscicola_SM004190S15588:0.0699)n1:0.403241,(mesotaenium_endlicherianum_ME000437S07234:0.713707,mesotaenium_endlicherianum_ME000011S00071:1.63226)n2:0.403241)n0;

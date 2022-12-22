@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_8613:1.08689,((solanum_lycopersicum_proteome_first_transcript_Solyc12g019200.2.1:0.040254,solanum_lycopersicum_proteome_first_transcript_Solyc12g019190.1.1:0.026492)n2:0.223259,solanum_lycopersicum_proteome_first_transcript_Solyc12g019144.1.1:0.328997)n1:1.08689)n0;
+(physcomitrium_patens_Pp3c15_19540:0,(physcomitrium_patens_Pp3c11_18420:1.7064,(physcomitrium_patens_Pp3c15_19480:0,physcomitrium_patens_Pp3c15_19570:0)n2:0)n1:0)n0;

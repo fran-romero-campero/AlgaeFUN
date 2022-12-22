@@ -1,1 +1,1 @@
-((ostreococcus_tauri_proteome_first_transcript_ostta19g00070:1.51053,bathycoccus_prasinos_proteome_first_transcript_Bathy19g00040 length_671 _mRNA_ _n/a_  _unknown protein_:1.78073)n1:0.127919,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_06900:0.438181,raphidocelis_subcapitata_proteome_first_transcript_Rsub_06808:0.200562)n2:0.127919)n0;
+(sphangum_magellanicum_Sphmag11G106400:0.316096,(physcomitrium_patens_Pp3c6_13470:0.18115,(ceratodon_purpureus_CepurR40.5G123700:0.485115,ceratodon_purpureus_CepurR40.VG183100:0.183095)n2:0.0203439)n1:0.076624)n0;

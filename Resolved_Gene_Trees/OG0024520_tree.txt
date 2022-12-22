@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_019283:0.000206,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_019473:0.520137,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_013157:1.21711)n2:0.154735,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_030447:0.006244)n1:0.000206)n0;
+(sphangum_magellanicum_Sphmag06G134200:0.340719,((marchantia_polymorpha_Mp2g05980:2.09089e-06,marchantia_polymorpha_Mp2g05940:0.50277)n2:0.146786,marchantia_polymorpha_Mp4g00760:0.833351)n1:0.340719)n0;

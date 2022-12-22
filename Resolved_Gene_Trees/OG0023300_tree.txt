@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_10126:0.502054,((bathycoccus_prasinos_proteome_first_transcript_Bathy04g03790 length_106 _mRNA_ _n/a_  _predicted protein_:0.255119,ostreococcus_tauri_proteome_first_transcript_ostta05g00320:0.434059)n2:0.138251,micromonas_pusilla_proteome_first_transcript_27338660:0.293379)n1:0.502054)n0;
+(ceratodon_purpureus_CepurR40.VG126900:0.0115465,((ceratodon_purpureus_CepurR40.6G227100:0.00172,ceratodon_purpureus_CepurR40.3G040100:0.002384)n2:0.008531,ceratodon_purpureus_CepurR40.VG146000:0.207905)n1:0.0115465)n0;

@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c9_21600:0,(physcomitrium_patens_proteome_first_transcript_Pp3c9_21650:0.179718,(physcomitrium_patens_proteome_first_transcript_Pp3c9_21580:0,physcomitrium_patens_proteome_first_transcript_Pp3s50_100:0)n2:0)n1:0)n0;
+(solanum_lycopersicum_Solyc10g047740:0.452389,(solanum_lycopersicum_Solyc10g047700:0.145839,(solanum_lycopersicum_Solyc10g047770:0.662538,solanum_lycopersicum_Solyc10g047780:1.10527)n2:0.101998)n1:0.452389)n0;

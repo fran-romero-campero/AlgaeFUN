@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT1G23450:0.615028,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021541:0.181963,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021956:0.621952)n2:0.84326,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_031354:0.851535)n1:0.615028)n0;
+(ulva_mutabilis_UM055_0077:0.89588,((micromonas_pusilla_Micpu_27339230:0.508303,ostreococcus_tauri_ostta01g04420:0.35869)n2:0.166163,bathycoccus_prasinos_Bathy01g03530:0.305428)n1:0.89588)n0;

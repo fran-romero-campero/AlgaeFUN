@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000438S07272:1.15762,((spirogloea_muscicola_proteome_first_transcript_SM000078S22097:0.241552,spirogloea_muscicola_proteome_first_transcript_SM000111S18805:0.18929)n2:0.028962,spirogloea_muscicola_proteome_first_transcript_SM000187S03887:0.227928)n1:1.15762)n0;
+((sphangum_magellanicum_Sphmag04G000400:1.60655,sphangum_magellanicum_Sphmag17G073800:1.6649)n1:0.0327675,(ostreococcus_tauri_ostta19g00450:4.34202e-06,ostreococcus_tauri_ostta11g03290:1.65779)n2:0.0327675)n0;

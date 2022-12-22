@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27342707:0.693151,(bathycoccus_prasinos_proteome_first_transcript_Bathy04g02070 length_1538 _mRNA_ _n/a_  _unknown protein_:2.16542,(ostreococcus_tauri_proteome_first_transcript_ostta13g02570:1.03422,ostreococcus_tauri_proteome_first_transcript_ostta13g03080:0.373648)n2:0.838123)n1:0.693151)n0;
+(sphangum_magellanicum_Sphmag11G112900:0.549049,(ceratodon_purpureus_CepurR40.3G242200:0.247496,(physcomitrium_patens_Pp3c21_14340:0.45077,physcomitrium_patens_Pp3c19_19140:0.869056)n2:0.0965618)n1:0.306)n0;

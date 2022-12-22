@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc12g042170.3.1:0.669396,(mesostigma_viridae_proteome_first_transcript_Mv09909:0.53428,(mesostigma_viridae_proteome_first_transcript_Mv09910:0.216544,mesostigma_viridae_proteome_first_transcript_Mv09910:0.07047)n2:0.263028)n1:0.669396)n0;
+(oryza_sativa_LOC_Os01g66530.1:0.419449,(sorghum_bicolor_Sobic.003G382600:0.1923,(zea_mays_Zm00001d042574:0.218487,zea_mays_Zm00001d012194:0.341678)n2:0.053353)n1:0.419449)n0;

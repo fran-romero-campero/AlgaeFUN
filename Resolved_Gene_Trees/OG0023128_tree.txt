@@ -1,1 +1,1 @@
-((solanum_lycopersicum_proteome_first_transcript_Solyc03g025490.3.1:0.226832,solanum_lycopersicum_proteome_first_transcript_Solyc01g094590.4.1:0.474942)n1:0.0228195,(arabidopsis_thaliana_proteome_first_transcript_AT5G51310:0.369182,arabidopsis_thaliana_proteome_first_transcript_AT4G23340:0.258582)n2:0.0228195)n0;
+(micromonas_pusilla_Micpu_27345525:0.398388,(bathycoccus_prasinos_Bathy09g04340:0.723509,(ostreococcus_tauri_ostta03g04100:0.019613,ostreococcus_tauri_ostta03g04110:0.324431)n2:0.355541)n1:0.398388)n0;

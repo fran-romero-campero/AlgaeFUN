@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_03262:0.106553,((raphidocelis_subcapitata_proteome_first_transcript_Rsub_03259:0.406572,raphidocelis_subcapitata_proteome_first_transcript_Rsub_07664:1.31264)n2:0.051289,raphidocelis_subcapitata_proteome_first_transcript_Rsub_03263:0.177854)n1:0.106553)n0;
+(sorghum_bicolor_Sobic.002G129700:0.0255165,((sorghum_bicolor_Sobic.002G129600:0.338966,sorghum_bicolor_Sobic.002G356000:1.06819)n2:0.218932,sorghum_bicolor_Sobic.002G129500:0.028521)n1:0.0255165)n0;

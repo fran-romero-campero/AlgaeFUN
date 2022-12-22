@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0457s0004:0.392763,(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48999:0.82071,(ulva_mutabilis_proteome_first_transcript_UM031_0054.1:1.30554,ulva_mutabilis_proteome_first_transcript_UM031_0053.1:0.524662)n2:0.0582958)n1:0.161021)n0;
+(solanum_lycopersicum_Solyc00g125980:0.22943,(solanum_lycopersicum_Solyc11g030800:1.4817e-06,(solanum_lycopersicum_Solyc03g063505:0.221365,solanum_lycopersicum_Solyc00g500315:0.640957)n2:0.384706)n1:0.22943)n0;

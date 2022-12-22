@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_4AL_27E71F458:0.277032,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_033244:0.928767,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_024178:0.000342)n2:0.236137,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_000489:0.220045)n1:0.277032)n0;
+(klebsormidium_nitens_kfl00127_0110:0.842407,(mesotaenium_endlicherianum_ME000210S03220:0.733707,(spirogloea_muscicola_SM000008S22176:0.103992,spirogloea_muscicola_SM000035S13062:0.062933)n2:1.21655)n1:0.842407)n0;

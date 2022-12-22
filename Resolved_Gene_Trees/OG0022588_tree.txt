@@ -1,1 +1,1 @@
-((triticum_aestivum_proteome_first_transcript_Traes_6BS_A757EC1CB:0.108219,aegilops_tauschii_proteome_first_transcript_AET2Gv20138800.1:0.508846)n1:0.451437,(triticum_aestivum_proteome_first_transcript_Traes_6DS_62C6E25CA:2.16185e-06,aegilops_tauschii_proteome_first_transcript_AET6Gv20266600.1:1.21775)n2:0.451437)n0;
+(thuja_plicata_Thupl.29379376s0006:0.0959715,(aegilops_tauschii_AET6Gv20649000:1.5239e-06,(triticum_aestivum_Traes_3AS_1B147B660:0.683196,triticum_aestivum_Traes_6BL_5068A26B6:0.217173)n2:0.0241303)n1:0.5297)n0;

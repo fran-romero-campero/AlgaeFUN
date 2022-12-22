@@ -1,1 +1,1 @@
-((chromochloris_zofingiensis_proteome_first_transcript_UNPLg00674:1.5132e-06,bathycoccus_prasinos_proteome_first_transcript_Bathy82g00020 length_321 _mRNA_ _n/a_  _C-methyltransferase_:0.848336)n1:0.387406,(mesostigma_viridae_proteome_first_transcript_Mv14567:0.123562,mesostigma_viridae_proteome_first_transcript_Mv14567:0.017234)n2:0.387406)n0;
+(ceratodon_purpureus_CepurR40.VG217600:0.562818,((ceratodon_purpureus_CepurR40.VG037800:0.523132,ceratodon_purpureus_CepurR40.VG271000:0.476593)n2:0.158837,ceratodon_purpureus_CepurR40.VG308700:0.658836)n1:0.562818)n0;

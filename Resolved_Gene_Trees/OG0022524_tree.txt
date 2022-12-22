@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET1Gv20003900.1:0.0516255,(triticum_aestivum_proteome_first_transcript_Traes_1AS_9623EDCAC:0.19526,(triticum_aestivum_proteome_first_transcript_Traes_1DS_E3F89AD1A:1.72258e-06,triticum_aestivum_proteome_first_transcript_Traes_1AS_86F5932C6:1.26315)n2:0.513875)n1:0.0516255)n0;
+(marchantia_polymorpha_Mp1g21710:0.314462,((zea_mays_Zm00001d053074:0.567238,aegilops_tauschii_AET1Gv20501800:0.019562)n2:0.212218,ceratopteris_richardii_Ceric.28G010200:0.418237)n1:0.314462)n0;

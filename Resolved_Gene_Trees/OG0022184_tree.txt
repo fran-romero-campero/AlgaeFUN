@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_1DL_22249DAFB:0.217295,((zea_mays_proteome_first_transcript_Zm00001d044804:0.313536,(zea_mays_proteome_first_transcript_Zm00001d039248:0.284622,zea_mays_proteome_first_transcript_Zm00001d002048:0.327807)n3:0.150343)n2:0.180064,zea_mays_proteome_first_transcript_Zm00001d039244:0.046402)n1:0.217295)n0;
+(triticum_aestivum_Traes_5DL_294E38CD8:0.102227,((aegilops_tauschii_AET6Gv20947000:0.429612,aegilops_tauschii_AET6Gv21018200:0.281818)n2:0.846987,aegilops_tauschii_AET5Gv21144300:0.143237)n1:0.102227)n0;

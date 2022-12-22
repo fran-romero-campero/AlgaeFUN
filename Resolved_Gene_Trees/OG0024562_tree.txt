@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_014067:0.417791,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_032094:0.977778,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028750:0.47377,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_028761:0.420203)n2:0.183623)n1:0.417791)n0;
+(mesostigma_viridae_Mv01233:0.398686,((mesostigma_viridae_Mv10607:0.101813,mesostigma_viridae_Mv00221:0.044082)n2:0.119606,mesostigma_viridae_Mv22756:0.086988)n1:0.398686)n0;

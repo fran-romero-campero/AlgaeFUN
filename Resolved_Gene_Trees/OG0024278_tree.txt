@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g11620:0.893096,((nanochloropsis_gaditana_proteome_first_transcript_Nangad1_3822:0.12776,nanochloropsis_gaditana_proteome_first_transcript_Nangad1_3823:4.24374e-06)n2:1.24114,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_48390:1.10447)n1:0.893096)n0;
+(cycas_panzhihuaensis_CYCAS_028838:2.26995e-07,(cycas_panzhihuaensis_CYCAS_019173:0.067135,(cycas_panzhihuaensis_CYCAS_019229:2.26995e-07,cycas_panzhihuaensis_CYCAS_019174:0.16138)n2:0.00152)n1:2.26995e-07)n0;

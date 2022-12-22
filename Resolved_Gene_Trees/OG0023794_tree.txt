@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv21827:0.688949,((raphidocelis_subcapitata_proteome_first_transcript_Rsub_03501:0.121326,raphidocelis_subcapitata_proteome_first_transcript_Rsub_03493:0.206692)n2:1.14983,chlamydomonas_reinhardtii_proteome_first_transcript_Cre11.g478050:2.58857e-06)n1:0.688949)n0;
+(phaeodactylum_tricornutum_Phatr2_37253:0.625597,(dunaliella_salina_Dusal.0946s00001:1.25973,(chlamydomonas_reinhardtii_Cre03.g178400:3.62253e-06,volvox_carteri_Vocar.0015s0347:0.471948)n2:0.682233)n1:0.625597)n0;

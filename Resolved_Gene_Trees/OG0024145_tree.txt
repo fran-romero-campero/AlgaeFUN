@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_618:0.673756,(mesostigma_viridae_proteome_first_transcript_Mv13944:1.50018,(mesostigma_viridae_proteome_first_transcript_Mv26569:0.088783,mesostigma_viridae_proteome_first_transcript_Mv26569:0.076386)n2:1.25918)n1:0.673756)n0;
+(cyanophora_paradoxa_Cyapar1_g19907:0.0025075,((cyanophora_paradoxa_Cyapar1_g19909:0.109784,cyanophora_paradoxa_Cyapar1_g19910:0.418444)n2:0.013619,cyanophora_paradoxa_Cyapar1_g19908:0.004384)n1:0.0025075)n0;

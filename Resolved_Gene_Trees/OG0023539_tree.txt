@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp1g25540:1.04329,((physcomitrium_patens_proteome_first_transcript_Pp3c13_1350:0.321728,physcomitrium_patens_proteome_first_transcript_Pp3c3_1600:0.366409)n2:0.310163,ceratodon_purpureus_proteome_first_transcript_CepurR40.1G012100:0.561437)n1:1.04329)n0;
+(ceratopteris_richardii_Ceric.14G009100:0.384705,(triticum_aestivum_Traes_7AS_BE2AA7ACB:0.565116,(thuja_plicata_Thupl.29377558s0018:0.168653,thuja_plicata_Thupl.29355941s0001:0.64284)n2:0.257673)n1:0.384705)n0;

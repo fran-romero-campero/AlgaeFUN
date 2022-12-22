@@ -1,1 +1,1 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000022l.72.1:0.030388,((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000012l.102.1:0.627681,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000049l.710.1:1.01261)n2:0.441421,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000001l.301.1:0.116738)n1:0.030388)n0;
+(cycas_panzhihuaensis_CYCAS_018243:0.307247,(arabidopsis_thaliana_AT4G22870:0.18966,(zea_mays_Zm00001d048800:0.201192,zea_mays_Zm00001d038073:0.080426)n2:0.487862)n1:0.307247)n0;

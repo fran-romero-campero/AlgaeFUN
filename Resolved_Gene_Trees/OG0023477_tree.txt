@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c15_12250:0.385441,(ceratodon_purpureus_proteome_first_transcript_CepurR40.7G130200:0.457285,(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G040100:0.801328,ceratodon_purpureus_proteome_first_transcript_CepurR40.10G040200:0.646036)n2:0.260595)n1:0.385441)n0;
+(klebsormidium_nitens_kfl00286_0060:0.488943,(ceratopteris_richardii_Ceric.09G028700:1.0688,(cycas_panzhihuaensis_CYCAS_012026:0.226856,thuja_plicata_Thupl.29381667s0001:0.239974)n2:0.173185)n1:0.488943)n0;

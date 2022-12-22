@@ -1,1 +1,1 @@
-(sorghum_bicolor_proteome_first_transcript_Sobic.005G196400:0.127827,((sorghum_bicolor_proteome_first_transcript_Sobic.007G134140:0.227803,sorghum_bicolor_proteome_first_transcript_Sobic.007G134180:0.15954)n2:0.54882,sorghum_bicolor_proteome_first_transcript_Sobic.010G225175:0.525025)n1:0.127827)n0;
+(thuja_plicata_Thupl.29377558s0012:2.03147e-06,(thuja_plicata_Thupl.29378905s0005:1.39227,(thuja_plicata_Thupl.29377402s0017:0.443037,thuja_plicata_Thupl.29377917s0003:2.03147e-06)n2:0.288931)n1:2.03147e-06)n0;

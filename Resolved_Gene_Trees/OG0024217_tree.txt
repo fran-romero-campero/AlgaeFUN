@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz02g18100:1.4649e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_05123:0.543018,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_13107:0.490508,raphidocelis_subcapitata_proteome_first_transcript_Rsub_05933:0.463833)n2:0.016534)n1:1.4649e-06)n0;
+(cycas_panzhihuaensis_CYCAS_000419:0.18888,(oryza_sativa_LOC_Os01g73370.1:0.623654,(triticum_aestivum_Traes_2DS_A45234F2D:0.659205,triticum_aestivum_Traes_2DS_6384C3FE1:0.289523)n2:0.391021)n1:0.18888)n0;

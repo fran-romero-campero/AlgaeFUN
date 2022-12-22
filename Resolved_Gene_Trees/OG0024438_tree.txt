@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0271s0004:0.663274,((micromonas_pusilla_proteome_first_transcript_27345886:1.0756,ostreococcus_tauri_proteome_first_transcript_ostta12g02870:1.04971)n2:0.10684,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6978:1.16753)n1:0.663274)n0;
+(mesostigma_viridae_Mv04153:0.332893,(klebsormidium_nitens_kfl00086_0100:0.214579,(spirogloea_muscicola_SM000174S03330:0.012304,spirogloea_muscicola_SM000120S25677:0.02039)n2:0.42517)n1:0.332893)n0;

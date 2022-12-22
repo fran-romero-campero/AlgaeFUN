@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_35564:0.643803,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6991:1.20525,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g18464:0.825425,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g3486:0.740715)n2:0.302237)n1:0.643803)n0;
+(cycas_panzhihuaensis_CYCAS_007569:0.155896,((cycas_panzhihuaensis_CYCAS_007567:0.404164,cycas_panzhihuaensis_CYCAS_007568:0.13022)n2:0.110279,cycas_panzhihuaensis_CYCAS_007571:0.387265)n1:0.155896)n0;

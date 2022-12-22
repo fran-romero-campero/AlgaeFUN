@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000422S07084:0.611449,(spirogloea_muscicola_proteome_first_transcript_SM002553S08654:0.195799,(spirogloea_muscicola_proteome_first_transcript_SM000968S25057:0.197887,spirogloea_muscicola_proteome_first_transcript_SM001354S00429:0.073609)n2:0.152279)n1:0.611449)n0;
+(oryza_sativa_LOC_Os12g11990.1:0.0100955,(oryza_sativa_LOC_Os12g11620.1:0.180751,(oryza_sativa_LOC_Os12g11980.1:0.013544,oryza_sativa_LOC_Os12g11610.1:0.023434)n2:0.132172)n1:0.0100955)n0;

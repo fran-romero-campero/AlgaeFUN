@@ -1,1 +1,1 @@
-((salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0119.g021347:1.14196,azolla_filiculoides_proteome_first_transcript_Azfi_s0157.g053763:1.11415)n1:0.131694,(azolla_filiculoides_proteome_first_transcript_Azfi_s0246.g060062:1.66447,salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0002.g000845:1.49957)n2:0.131694)n0;
+(sphangum_magellanicum_Sphmag02G205000:0.270255,(physcomitrium_patens_Pp3c10_6530:0.274155,(ceratodon_purpureus_CepurR40.1G093500:0.478104,ceratodon_purpureus_CepurR40.2G283400:0.197025)n2:0.0218917)n1:0.385557)n0;

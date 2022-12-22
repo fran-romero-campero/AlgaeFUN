@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_08317:0.415294,(physcomitrium_patens_proteome_first_transcript_Pp3s34_504:1.16819,(physcomitrium_patens_proteome_first_transcript_Pp3s34_170:0.254549,physcomitrium_patens_proteome_first_transcript_Pp3s34_610:0.243599)n2:0.700353)n1:0.415294)n0;
+(sorghum_bicolor_Sobic.005G025600:0.629328,((sorghum_bicolor_Sobic.010G017501:0.003596,sorghum_bicolor_Sobic.010G017700:0.004387)n2:1.13156,sorghum_bicolor_Sobic.008G177001:0.737702)n1:0.629328)n0;

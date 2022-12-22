@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6737:0.194776,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6710:0.242708,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g22543:1.12867,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g6705:0.030825)n2:0.266249)n1:0.194776)n0;
+(dunaliella_salina_Dusal.0016s00022:0.234441,(spirogloea_muscicola_SM000005S17242:0.208522,(triticum_aestivum_Traes_2DS_DF389D07D:0.049339,triticum_aestivum_Traes_2BS_DEC12328A:0.007165)n2:0.356101)n1:0.234441)n0;

@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp5g23210:0.0464005,((marchantia_polymorpha_proteome_first_transcript_Mp5g23220:0.084185,marchantia_polymorpha_proteome_first_transcript_Mp5g23230:0.062826)n2:0.00748,marchantia_polymorpha_proteome_first_transcript_Mp4g07710:1.49338)n1:0.0464005)n0;
+(nannochloropsis_gaditana_Nangad1_8619:0.56618,(spirogloea_muscicola_SM000410S15574:0.868859,(spirogloea_muscicola_SM000025S08410:0.292476,spirogloea_muscicola_SM000027S09566:0.176718)n2:0.547194)n1:0.56618)n0;

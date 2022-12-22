@@ -1,1 +1,1 @@
-(aegilops_tauschii_proteome_first_transcript_AET4Gv20200700.1:0.296247,(oryza_sativa_proteome_first_transcript_LOC_Os11g07950.1 pacid_33162506 transcript_LOC_Os11g07950.1 locus_LOC_Os11g07950 ID_LOC_Os11g07950.1.MSUv7.0 annot-version_v7.0:0.620779,(sorghum_bicolor_proteome_first_transcript_Sobic.005G063100:0.274405,zea_mays_proteome_first_transcript_Zm00001d053068:0.195816)n2:0.485768)n1:0.296247)n0;
+(arabidopsis_thaliana_AT1G25112:0,(arabidopsis_thaliana_AT1G24851:0,(arabidopsis_thaliana_AT1G25025:0,arabidopsis_thaliana_AT1G25180:0)n2:0)n1:0)n0;

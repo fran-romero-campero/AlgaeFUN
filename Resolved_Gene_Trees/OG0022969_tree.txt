@@ -1,1 +1,1 @@
-((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000014l.92.1:0.590202,(solanum_lycopersicum_proteome_first_transcript_Solyc07g039347.1.1:0.775849,solanum_lycopersicum_proteome_first_transcript_Solyc07g039343.1.1:1.04401)n2:0.116001)n1:0.035064,physcomitrium_patens_proteome_first_transcript_Pp3c2_27230:0.797975)n0;
+((ceratopteris_richardii_Ceric.17G030200:0.300864,ceratopteris_richardii_Ceric.07G018300:0.299272)n1:0.078314,(azolla_filiculoides_Azfi_s0046.g030119:0.302202,salvinia_cucullata_Sacu_v1.1_s0048.g013535:0.356899)n2:0.078314)n0;

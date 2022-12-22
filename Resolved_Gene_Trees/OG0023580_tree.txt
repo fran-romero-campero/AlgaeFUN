@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.12G180700:0.432609,((ceratodon_purpureus_proteome_first_transcript_CepurR40.11G066300:0.494061,ceratodon_purpureus_proteome_first_transcript_CepurR40.11G066200:0.161736)n2:0.783811,ceratodon_purpureus_proteome_first_transcript_CepurR40.12G032600:0.401196)n1:0.432609)n0;
+((mesostigma_viridae_Mv19805:0.63485,mesostigma_viridae_Mv03061:0.832825)n1:0.66618,(chlamydomonas_reinhardtii_Cre07.g327600:3.27686e-06,volvox_carteri_Vocar.0009s0127:0.665103)n2:0.66618)n0;

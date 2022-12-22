@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_proteome_first_transcript_Cre04.g213650:0.224087,(porphyra_umbilicalis_proteome_first_transcript_Pum0151s0010:0.9773,(porphyra_umbilicalis_proteome_first_transcript_Pum0135s0045:0.682169,porphyra_umbilicalis_proteome_first_transcript_Pum2164s0001:0.757716)n2:0.469976)n1:0.224087)n0;
+(cyanophora_paradoxa_Cyapar1_g8997:0.557806,((cyanophora_paradoxa_Cyapar1_g17005:0.270228,cyanophora_paradoxa_Cyapar1_g12477:0.279708)n2:0.205951,cyanophora_paradoxa_Cyapar1_g14873:0.402259)n1:0.557806)n0;

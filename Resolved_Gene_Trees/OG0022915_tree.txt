@@ -1,1 +1,1 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000002l.643.1:0.476417,((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000079l.25.1:0.500706,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000092l.23.1:0.256089)n2:0.226254,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000032l.53.1:0.09068)n1:0.476417)n0;
+(arabidopsis_thaliana_AT5G26717:0.0616465,(arabidopsis_thaliana_AT5G26692:0.00882,(arabidopsis_thaliana_AT5G58412:0.959437,arabidopsis_thaliana_AT5G26673:0.523835)n2:0.279803)n1:0.0616465)n0;

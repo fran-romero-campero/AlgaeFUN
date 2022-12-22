@@ -1,1 +1,1 @@
-((triticum_aestivum_proteome_first_transcript_Traes_3DS_F73ACCBEE:0.548071,aegilops_tauschii_proteome_first_transcript_AET3Gv20288000.1:1.39371e-06)n1:0.138809,(aegilops_tauschii_proteome_first_transcript_AET3Gv20287800.1:0.820296,triticum_aestivum_proteome_first_transcript_Traes_3DS_A2415873A:1.39371e-06)n2:0.138809)n0;
+(anthoceros_agrestis_AagrOXF_utg000104l.61:0.566635,((anthoceros_agrestis_AagrOXF_utg000104l.24:0.909125,anthoceros_agrestis_AagrOXF_utg000104l.31:3.13982e-06)n2:0.266398,anthoceros_agrestis_AagrOXF_utg000050l.34:1.18775)n1:0.566635)n0;

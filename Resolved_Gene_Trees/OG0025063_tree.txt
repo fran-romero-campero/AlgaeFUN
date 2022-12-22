@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27343092:0.396518,((micromonas_pusilla_proteome_first_transcript_27344704:1.2925,micromonas_pusilla_proteome_first_transcript_27346486:1.1904)n2:0.300027,micromonas_pusilla_proteome_first_transcript_27342501:1.49763)n1:0.396518)n0;
+(phaeodactylum_tricornutum_Phatr2_49286:0.063267,((phaeodactylum_tricornutum_Phatr2_44510:0.326999,phaeodactylum_tricornutum_Phatr2_49287:0.583164)n2:0.15117,phaeodactylum_tricornutum_Phatr2_33118:0.452493)n1:0.063267)n0;

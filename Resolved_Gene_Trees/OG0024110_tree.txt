@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0629s0002:0.67305,(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g16994:0.950395,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_2423:0.101358,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_2419:0.159051)n2:0.216517)n1:0.67305)n0;
+(dunaliella_salina_Dusal.0003s00030:0.876007,((cyanophora_paradoxa_Cyapar1_g19494:0.223571,cyanophora_paradoxa_Cyapar1_g14919:0.335737)n2:0.234629,cyanophora_paradoxa_Cyapar1_g3502:0.441467)n1:0.876007)n0;

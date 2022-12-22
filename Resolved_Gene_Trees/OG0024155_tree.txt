@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_8699:0.865741,(mesostigma_viridae_proteome_first_transcript_Mv08392:0.055154,(mesostigma_viridae_proteome_first_transcript_Mv08392:0.186815,mesostigma_viridae_proteome_first_transcript_Mv08392:0.025492)n2:0.028668)n1:0.865741)n0;
+((nannochloropsis_gaditana_Nangad1_2262:1.36374,(cyanophora_paradoxa_Cyapar1_g20797:0.301394,cyanophora_paradoxa_Cyapar1_g20798:0.592292)n2:0.0658102)n1:0.0178975,phaeodactylum_tricornutum_Phatr2_42841:1.49055)n0;

@@ -1,1 +1,1 @@
-((mesostigma_viridae_proteome_first_transcript_Mv00257:0.914662,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5083:0.834129)n1:0.173145,(spirogloea_muscicola_proteome_first_transcript_SM000142S00538:0.796881,klebsormidium_nitens_proteome_first_transcript_kfl00041_0170:0.611098)n2:0.173145)n0;
+(porphyra_umbilicalis_Pum1714s0002:0.4922,((cyanophora_paradoxa_Cyapar1_g3275:1.00271,cyanophora_paradoxa_Cyapar1_g18319:1.13879)n2:0.107799,nannochloropsis_gaditana_Nangad1_1302:0.805422)n1:0.4922)n0;

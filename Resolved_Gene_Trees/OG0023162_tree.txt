@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s0235.g059469:0.083995,(azolla_filiculoides_proteome_first_transcript_Azfi_s0011.g012657:0.364651,(azolla_filiculoides_proteome_first_transcript_Azfi_s0841.g088789:0.896661,azolla_filiculoides_proteome_first_transcript_Azfi_s0685.g082064:0.993362)n2:0.978081)n1:0.083995)n0;
+(mesostigma_viridae_Mv21780:0.382049,(ostreococcus_tauri_ostta12g00340:0.649309,(micromonas_pusilla_Micpu_27342055:0.536937,bathycoccus_prasinos_Bathy16g00450:0.519379)n2:0.021166)n1:0.382049)n0;

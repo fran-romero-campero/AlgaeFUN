@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0483s0008:0.156123,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_2226:0.770469,(mesostigma_viridae_proteome_first_transcript_Mv05472:0.408091,cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g19369:0.630475)n2:0.078537)n1:0.156123)n0;
+(cyanophora_paradoxa_Cyapar1_g7073:0.324892,((cyanophora_paradoxa_Cyapar1_g20574:0.783137,cyanophora_paradoxa_Cyapar1_g14849:0.693499)n2:0.261726,cyanophora_paradoxa_Cyapar1_g7072:1.05359)n1:0.324892)n0;

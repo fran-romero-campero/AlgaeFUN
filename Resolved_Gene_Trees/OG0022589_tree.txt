@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.4G158500:0.213748,((zea_mays_proteome_first_transcript_Zm00001d040187:0.52089,triticum_aestivum_proteome_first_transcript_Traes_4AL_E2BACF604:0.088105)n2:0.042797,aegilops_tauschii_proteome_first_transcript_AET4Gv20109700.1:0.247367)n1:0.213748)n0;
+(nannochloropsis_gaditana_Nangad1_4175:0.32323,(arabidopsis_thaliana_AT3G28530:0.221754,(aegilops_tauschii_AET5Gv20455900:0.064298,triticum_aestivum_Traes_5BL_9B60E0BC7:0.347264)n2:0.19451)n1:0.32323)n0;

@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_proteome_first_transcript_AT2G31335:0.194102,(arabidopsis_thaliana_proteome_first_transcript_AT1G06137:0.242049,(arabidopsis_thaliana_proteome_first_transcript_AT2G31345:0.163167,arabidopsis_thaliana_proteome_first_transcript_AT1G06135:0.140849)n2:0.179702)n1:0.194102)n0;
+(chlorokybus_atmophyticus_Chlat1_7670:0.522079,((bathycoccus_prasinos_Bathy01g00130:0.354496,ostreococcus_tauri_ostta01g00070:0.266835)n2:0.040114,micromonas_pusilla_Micpu_27343221:0.36757)n1:0.522079)n0;

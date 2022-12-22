@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00706_0010:0.735857,(mesotaenium_endlicherianum_proteome_first_transcript_ME000280S04678:1.03968,(spirogloea_muscicola_proteome_first_transcript_SM000161S02417:0.077634,spirogloea_muscicola_proteome_first_transcript_SM000297S10930:0.062185)n2:0.814595)n1:0.735857)n0;
+(nannochloropsis_gaditana_Nangad1_8473:0.654559,((nannochloropsis_gaditana_Nangad1_9291:0.8847,nannochloropsis_gaditana_Nangad1_10831:1.21784)n2:0.134889,nannochloropsis_gaditana_Nangad1_748:1.36626)n1:0.654559)n0;

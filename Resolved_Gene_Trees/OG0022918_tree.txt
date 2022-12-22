@@ -1,1 +1,1 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00098_0220:1.04832,((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000126l.263.1:0.425658,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000002l.671.1:0.04414)n2:1.06469,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000101l.75.1:0.447132)n1:1.04832)n0;
+(arabidopsis_thaliana_AT5G52900:0.402817,((solanum_lycopersicum_Solyc06g036460:0.786712,solanum_lycopersicum_Solyc01g095240:1.10969)n2:0.28926,solanum_lycopersicum_Solyc03g007775:0.502294)n1:0.402817)n0;

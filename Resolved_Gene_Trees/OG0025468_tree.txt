@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c11_310:0.312022,(solanum_lycopersicum_proteome_first_transcript_Solyc01g014350.1.1:0.505594,(zea_mays_proteome_first_transcript_Zm00001d008373:1.43337e-06,zea_mays_proteome_first_transcript_Zm00001d011977:0.009461)n2:0.297877)n1:0.312022)n0;
+(zea_mays_Zm00001d016275:0.161059,(sorghum_bicolor_Sobic.010G121900:0.206497,(sorghum_bicolor_Sobic.008G026000:0.140543,sorghum_bicolor_Sobic.008G030300:0.119114)n2:0.010892)n1:0.161059)n0;

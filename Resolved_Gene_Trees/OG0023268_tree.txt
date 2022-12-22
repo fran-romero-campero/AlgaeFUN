@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_proteome_first_transcript_Pum0161s0045:0.328869,((bathycoccus_prasinos_proteome_first_transcript_Bathy01g04930 length_95 _mRNA_ _n/a_  _ribosomal protein L31_:0.369035,ostreococcus_tauri_proteome_first_transcript_ostta08g01980:0.375455)n2:0.029719,micromonas_pusilla_proteome_first_transcript_27341743:0.48749)n1:0.328869)n0;
+(sphangum_magellanicum_Sphmag06G019600:0.332264,(physcomitrium_patens_Pp3c9_2890:0.163742,(ceratodon_purpureus_CepurR40.7G129800:0.203331,ceratodon_purpureus_CepurR40.10G086300:0.141574)n2:0.0157304)n1:0.002898)n0;

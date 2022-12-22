@@ -1,1 +1,1 @@
-(mesostigma_viridae_proteome_first_transcript_Mv21780:0.382049,(ostreococcus_tauri_proteome_first_transcript_ostta12g00340:0.649309,(micromonas_pusilla_proteome_first_transcript_27342055:0.536937,bathycoccus_prasinos_proteome_first_transcript_Bathy16g00450 length_306 _mRNA_ _n/a_  _peptide methionine sulfoxide reductase_:0.519379)n2:0.021166)n1:0.382049)n0;
+(cycas_panzhihuaensis_CYCAS_001336:1.4291,(sphangum_magellanicum_Sphmag17G067600:0.185743,(physcomitrium_patens_Pp3c22_14550:0.212767,ceratodon_purpureus_CepurR40.11G171500:0.131491)n2:0.11966)n1:1.4291)n0;

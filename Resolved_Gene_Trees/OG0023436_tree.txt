@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G045300:0.0041685,(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G062100:0.925738,(ceratodon_purpureus_proteome_first_transcript_CepurR40.2G044700:0.130039,ceratodon_purpureus_proteome_first_transcript_CepurR40.7G102300:0.917751)n2:0.144173)n1:0.0041685)n0;
+((thuja_plicata_Thupl.29379007s0005:0.348836,thuja_plicata_Thupl.29381270s0002:0.141753)n1:0.499385,(ceratopteris_richardii_Ceric.26G039800:0.258533,ceratopteris_richardii_Ceric.28G061300:0.582531)n2:0.499385)n0;

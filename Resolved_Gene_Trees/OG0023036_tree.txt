@@ -1,1 +1,1 @@
-(anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000116l.64.1:0.041758,((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000116l.57.1:0.257999,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000116l.63.1:0.149751)n2:0.081787,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000116l.62.1:0.294845)n1:0.041758)n0;
+(azolla_filiculoides_Azfi_s2700.g112751:0.307539,((zea_mays_Zm00001d043021:0.405107,zea_mays_Zm00001d042356:0.146508)n2:0.598282,thuja_plicata_Thupl.29382225s0001:0.25058)n1:0.307539)n0;

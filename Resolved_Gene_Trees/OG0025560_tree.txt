@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_proteome_first_transcript_Rsub_09660:0.0299835,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_09661:0.10202,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_09629:0.212648,raphidocelis_subcapitata_proteome_first_transcript_Rsub_09655:0.170252)n2:0.058915)n1:0.0299835)n0;
+(sphangum_magellanicum_Sphmag15G066900:0.08649,((sphangum_magellanicum_Sphmag14G105700:0.267508,sphangum_magellanicum_Sphmag14G105800:0.56775)n2:0.294559,sphangum_magellanicum_Sphmag11G071700:0.722143)n1:0.08649)n0;

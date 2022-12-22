@@ -1,1 +1,1 @@
-(micromonas_pusilla_proteome_first_transcript_27347600:0.665825,((ostreococcus_tauri_proteome_first_transcript_ostta02g03520:0,ostreococcus_tauri_proteome_first_transcript_ostta15g02580:0)n2:0.966705,bathycoccus_prasinos_proteome_first_transcript_Bathy03g02280 length_895 _mRNA_ _n/a_  _predicted protein_:1.15632)n1:0.665825)n0;
+(ceratodon_purpureus_CepurR40.9G022400:0.310173,(physcomitrium_patens_Pp3c7_24580:1.3969e-06,(physcomitrium_patens_Pp3c6_12210:0.54126,physcomitrium_patens_Pp3c5_18220:0.065208)n2:0.177594)n1:0.310173)n0;

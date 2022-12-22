@@ -1,1 +1,1 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc05g016260.3.1:0.463656,((triticum_aestivum_proteome_first_transcript_Traes_3AL_3E4E162EE:0.029517,triticum_aestivum_proteome_first_transcript_Traes_1BL_09E966560:0.725173)n2:0.083111,triticum_aestivum_proteome_first_transcript_Traes_3AL_4A93BA5FF:0.203529)n1:0.463656)n0;
+(spirogloea_muscicola_SM000361S13806:0.579572,((spirogloea_muscicola_SM000370S13772:0.291861,spirogloea_muscicola_SM000394S14740:0.312398)n2:0.356537,spirogloea_muscicola_SM000370S13773:0.416879)n1:0.579572)n0;

@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g5826:1.15655,((mesostigma_viridae_proteome_first_transcript_Mv00179:0.044695,mesostigma_viridae_proteome_first_transcript_Mv00179:0.041455)n2:0.294059,mesostigma_viridae_proteome_first_transcript_Mv00178:0.371177)n1:1.15655)n0;
+(klebsormidium_nitens_kfl00050_g18:0.909088,(spirogloea_muscicola_SM000206S06272:0.162688,(spirogloea_muscicola_SM000222S07003:0.165846,spirogloea_muscicola_SM002081S06294:0.150169)n2:0.027125)n1:0.909088)n0;

@@ -1,1 +1,1 @@
-((anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000007l.2.1:0.213887,anthoceros_agrestis_proteome_first_transcript_AagrOXF_evm.model.utg000020l.10.1:0.563216)n1:0.36255,(zea_mays_proteome_first_transcript_Zm00001d024058:2.23478e-06,zea_mays_proteome_first_transcript_Zm00001d036006:0.743407)n2:0.36255)n0;
+(ceratopteris_richardii_Ceric.02G007200:0.692298,(azolla_filiculoides_Azfi_s0013.g013307:1.16714,(salvinia_cucullata_Sacu_v1.1_s0001.g000482:1.5257,salvinia_cucullata_Sacu_v1.1_s0104.g020093:1.14903)n2:0.127669)n1:0.13434)n0;

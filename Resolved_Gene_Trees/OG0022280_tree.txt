@@ -1,1 +1,1 @@
-(ulva_mutabilis_proteome_first_transcript_UM027_0002.1:0.112287,(((ulva_mutabilis_proteome_first_transcript_UM151_0015.1:0.236067,ulva_mutabilis_proteome_first_transcript_UM151_0014.1:0.142019)n3:0.428844,ulva_mutabilis_proteome_first_transcript_UM027_0003.1:1.71004e-06)n2:0.155771,ulva_mutabilis_proteome_first_transcript_UM151_0013.1:0.532133)n1:0.112287)n0;
+(aegilops_tauschii_AET7Gv20460900:0.0666305,((aegilops_tauschii_AET7Gv20460300:0.095993,aegilops_tauschii_AET7Gv20574900:0.266519)n2:0.03273,aegilops_tauschii_AET7Gv20460700:0.093775)n1:0.0666305)n0;

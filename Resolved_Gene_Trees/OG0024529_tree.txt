@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_7DL_2A27E826D:0.462084,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_019821:0.443974,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026984:2.50471e-06)n2:0.41772,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_026983:0.867231)n1:0.462084)n0;
+(marchantia_polymorpha_Mp3g03550:0.204478,((marchantia_polymorpha_Mp3g03560:0.121514,marchantia_polymorpha_Mp3g03580:0.073212)n2:0.466696,marchantia_polymorpha_Mp2g26470:0.526952)n1:0.204478)n0;

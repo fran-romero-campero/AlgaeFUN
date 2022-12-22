@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_6933:0.855596,(triticum_aestivum_proteome_first_transcript_Traes_6DL_E84B04F49:0.005283,(triticum_aestivum_proteome_first_transcript_Traes_6AS_0A93464E7:0.096435,triticum_aestivum_proteome_first_transcript_Traes_4DS_4D166CAB5:0.04327)n2:0.014041)n1:0.855596)n0;
+(physcomitrium_patens_Pp3c2_5580:0.533543,((physcomitrium_patens_Pp3c16_2157:0.632859,physcomitrium_patens_Pp3c7_23280:0.865005)n2:0.299694,physcomitrium_patens_Pp3c23_16220:0.748462)n1:0.533543)n0;

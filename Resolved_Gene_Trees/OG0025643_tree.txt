@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_99342:0.0709225,((selaginella_moellendorffii_proteome_first_transcript_105500:0.025603,selaginella_moellendorffii_proteome_first_transcript_103051:0.699864)n2:0.287282,selaginella_moellendorffii_proteome_first_transcript_415459:0.82956)n1:0.0709225)n0;
+(spirogloea_muscicola_SM000090S24281:0.0340915,(spirogloea_muscicola_SM000155S01680:0.164329,(spirogloea_muscicola_SM000016S01903:0.034414,spirogloea_muscicola_SM000225S07015:2.75023e-07)n2:0.00951)n1:0.0340915)n0;

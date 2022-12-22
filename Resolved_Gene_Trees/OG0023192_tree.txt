@@ -1,1 +1,1 @@
-(azolla_filiculoides_proteome_first_transcript_Azfi_s1215.g099836:0.13957,((azolla_filiculoides_proteome_first_transcript_Azfi_s0208.g058018:0.134014,azolla_filiculoides_proteome_first_transcript_Azfi_s0052.g031544:0.22442)n2:0.087442,azolla_filiculoides_proteome_first_transcript_Azfi_s0485.g073391:0.513298)n1:0.13957)n0;
+((chlamydomonas_reinhardtii_Cre05.g239450:2.76663e-06,volvox_carteri_Vocar.0003s0420:0.580771)n1:0.992168,(ceratodon_purpureus_CepurR40.8G174200:0.152857,physcomitrium_patens_Pp3c2_27000:0.181056)n2:0.992168)n0;

@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_428799:0.249322,((selaginella_moellendorffii_proteome_first_transcript_409471:0.111706,selaginella_moellendorffii_proteome_first_transcript_416100:0.030529)n2:0.794495,selaginella_moellendorffii_proteome_first_transcript_419059:0.18553)n1:0.249322)n0;
+(sphangum_magellanicum_Sphmag01G020700:0.010025,((sphangum_magellanicum_Sphmag01G044600:0.045191,sphangum_magellanicum_Sphmag01G021300:0.01247)n2:0.007184,sphangum_magellanicum_Sphmag18G079300:0.197707)n1:0.010025)n0;

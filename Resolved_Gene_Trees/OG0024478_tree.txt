@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_021553:0.482923,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_014062:0.44621,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_009140:0.241887)n2:0.246687,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_013583:0.58028)n1:0.482923)n0;
+(mesostigma_viridae_Mv25447:0.787705,(klebsormidium_nitens_kfl00263_0200:1.62456,(klebsormidium_nitens_kfl00435_0010:1.01326,klebsormidium_nitens_kfl00435_0020:1.40218)n2:1.10739)n1:0.787705)n0;

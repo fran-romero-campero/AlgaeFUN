@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49286:0.063267,((phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_44510:0.326999,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49287:0.583164)n2:0.15117,phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_33118:0.452493)n1:0.063267)n0;
+(solanum_lycopersicum_Solyc09g064750:0.128097,((solanum_lycopersicum_Solyc06g008057:0.011651,solanum_lycopersicum_Solyc02g150135:0.02774)n2:0.010736,solanum_lycopersicum_Solyc02g088080:0.35109)n1:0.128097)n0;

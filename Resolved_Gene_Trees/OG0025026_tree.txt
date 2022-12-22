@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_proteome_first_transcript_ME000126S00225:0.620337,((zea_mays_proteome_first_transcript_Zm00001d005384:0.003894,zea_mays_proteome_first_transcript_Zm00001d015942:0.009798)n2:0.169857,zea_mays_proteome_first_transcript_Zm00001d010532:0.000969)n1:0.620337)n0;
+(oryza_sativa_LOC_Os11g08680.1:0.018289,(oryza_sativa_LOC_Os11g08930.1:0.030629,(oryza_sativa_LOC_Os11g08860.1:0.004671,oryza_sativa_LOC_Os11g36230.1:1.57727)n2:0.009169)n1:0.018289)n0;

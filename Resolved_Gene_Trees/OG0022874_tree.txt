@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_proteome_first_transcript_Cz09g26140:0.0046155,(arabidopsis_thaliana_proteome_first_transcript_AT3G19350:0.777005,(aegilops_tauschii_proteome_first_transcript_AET4Gv20524600.1:0.112946,triticum_aestivum_proteome_first_transcript_Traes_4DL_CA58A2B49:0.286236)n2:0.329021)n1:0.0046155)n0;
+(arabidopsis_thaliana_AT2G04622:0.297129,((arabidopsis_thaliana_AT3G03826:0.335042,arabidopsis_thaliana_AT5G43695:0.333792)n2:0.031817,arabidopsis_thaliana_AT3G03828:0.483334)n1:0.297129)n0;

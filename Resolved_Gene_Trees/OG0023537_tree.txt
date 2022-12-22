@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3c11_22386:0.702149,(ceratodon_purpureus_proteome_first_transcript_CepurR40.6G224000:0.147703,(ceratodon_purpureus_proteome_first_transcript_CepurR40.6G055600:0.109448,ceratodon_purpureus_proteome_first_transcript_CepurR40.1G002900:0.024827)n2:0.196886)n1:0.702149)n0;
+(cycas_panzhihuaensis_CYCAS_020476:0.478558,(ceratopteris_richardii_Ceric.14G012200:1.29723,(salvinia_cucullata_Sacu_v1.1_s0017.g007262:0.431725,salvinia_cucullata_Sacu_v1.1_s0080.g017942:0.269263)n2:0.64316)n1:0.478558)n0;

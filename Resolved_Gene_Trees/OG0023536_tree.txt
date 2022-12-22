@@ -1,1 +1,1 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp2g22880:0.884899,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G009700:0.570918,(physcomitrium_patens_proteome_first_transcript_Pp3c3_890:2.08987e-06,physcomitrium_patens_proteome_first_transcript_Pp3c13_2040:0.279393)n2:0.0310437)n1:0.614361)n0;
+(ceratopteris_richardii_Ceric.04G050300:0.222833,((salvinia_cucullata_Sacu_v1.1_s0141.g022755:0.152962,salvinia_cucullata_Sacu_v1.1_s0141.g022753:0.303374)n2:0.375136,salvinia_cucullata_Sacu_v1.1_s0030.g010340:0.831373)n1:0.222833)n0;

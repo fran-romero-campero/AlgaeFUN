@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3365:0.26103,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_3998:0.175362,(chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_1838:0.248032,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_9223:0.43841)n2:0.269566)n1:0.26103)n0;
+(cyanophora_paradoxa_Cyapar1_g14395:0.233531,(cyanophora_paradoxa_Cyapar1_g24869:0.130131,(cyanophora_paradoxa_Cyapar1_g15018:1.0874,cyanophora_paradoxa_Cyapar1_g23378:0.461418)n2:0.26438)n1:0.233531)n0;

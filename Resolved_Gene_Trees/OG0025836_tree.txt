@@ -1,1 +1,1 @@
-(sorghum_bicolor_proteome_first_transcript_Sobic.009G115000:0.556088,(spirogloea_muscicola_proteome_first_transcript_SM006089S19299:0.152139,(spirogloea_muscicola_proteome_first_transcript_SM005961S19578:0.259739,spirogloea_muscicola_proteome_first_transcript_SM006095S19559:0.11631)n2:0.033935)n1:0.556088)n0;
+(thuja_plicata_Thupl.29381028s0009:0.159151,((thuja_plicata_Thupl.29381028s0008:0.141962,thuja_plicata_Thupl.29381028s0010:0.290838)n2:0.312107,thuja_plicata_Thupl.29381028s0007:0.340124)n1:0.159151)n0;

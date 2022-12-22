@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_proteome_first_transcript_Cre16.g675700:0.0679435,(chromochloris_zofingiensis_proteome_first_transcript_Cz14g25190:1.40324e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_04932:0.746961,raphidocelis_subcapitata_proteome_first_transcript_Rsub_02919:0.507906)n2:0.056434)n1:0.085135)n0;
+(cyanophora_paradoxa_Cyapar1_g2649:0.549338,(mesostigma_viridae_Mv22963:1.10536,(chlamydomonas_reinhardtii_Cre10.g457850:3.17041e-06,volvox_carteri_Vocar.0020s0137:0.237423)n2:0.739259)n1:0.549338)n0;

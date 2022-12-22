@@ -1,1 +1,1 @@
-(bathycoccus_prasinos_proteome_first_transcript_Bathy10g02860 length_947 _mRNA_ _n/a_  _hypothetical protein DICPUDRAFT_87341_:0.846032,((mesostigma_viridae_proteome_first_transcript_Mv08804:0.008175,mesostigma_viridae_proteome_first_transcript_Mv08804:0.018566)n2:0.030057,mesostigma_viridae_proteome_first_transcript_Mv08804:0.072798)n1:0.846032)n0;
+(klebsormidium_nitens_kfl00154_g8:0.553307,(ceratodon_purpureus_CepurR40.1G065200:0.420834,(physcomitrium_patens_Pp3c8_19220:1.78934e-06,physcomitrium_patens_Pp3c8_19350:0.369094)n2:0.0410105)n1:0.413079)n0;

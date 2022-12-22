@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_005142:0.304476,((cycas_panzhihuaensis_proteome_first_transcript_CYCAS_009416:0.350402,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_009064:0.750133)n2:0.274536,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_022385:0.601752)n1:0.304476)n0;
+(phaeodactylum_tricornutum_Phatr2_42500:0.440964,(klebsormidium_nitens_kfl00659_0010:0.673636,(klebsormidium_nitens_kfl00252_0010:0.296077,klebsormidium_nitens_kfl00252_0030:2.28214e-06)n2:0.454536)n1:0.440964)n0;

@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_4982:1.09082,(chromochloris_zofingiensis_proteome_first_transcript_Cz13g05250:3.63879e-06,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_07020:1.356,raphidocelis_subcapitata_proteome_first_transcript_Rsub_00003:0.81987)n2:0.0910967)n1:0.833418)n0;
+(cycas_panzhihuaensis_CYCAS_022258:0.082502,(cycas_panzhihuaensis_CYCAS_009384:0.192879,(cycas_panzhihuaensis_CYCAS_001860:0.92065,cycas_panzhihuaensis_CYCAS_005470:0.6018)n2:0.544323)n1:0.082502)n0;

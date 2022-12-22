@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_2BS_28E457A06:0.09091,((triticum_aestivum_proteome_first_transcript_Traes_2BS_185B3430E:0.006043,triticum_aestivum_proteome_first_transcript_Traes_2BS_82FC84B75:0.007272)n2:0.01505,triticum_aestivum_proteome_first_transcript_Traes_2AS_15593A369:0.416063)n1:0.09091)n0;
+(zea_mays_Zm00001d033672:0.0242345,((zea_mays_Zm00001d010151:0.422798,zea_mays_Zm00001d019496:1.51255)n2:0.145458,zea_mays_Zm00001d015834:0.788426)n1:0.0242345)n0;

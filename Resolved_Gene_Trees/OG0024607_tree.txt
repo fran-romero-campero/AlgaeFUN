@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_2DS_EEE59C2E7:0.45509,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_008791:1.92394e-06,(cycas_panzhihuaensis_proteome_first_transcript_CYCAS_008736:0.272477,cycas_panzhihuaensis_proteome_first_transcript_CYCAS_008789:0.50763)n2:0.50149)n1:0.45509)n0;
+(mesostigma_viridae_Mv01781:0.0031915,((mesostigma_viridae_Mv04796:0.676023,mesostigma_viridae_Mv19150:0.574527)n2:0.649912,mesostigma_viridae_Mv06593:0.00892)n1:0.0031915)n0;

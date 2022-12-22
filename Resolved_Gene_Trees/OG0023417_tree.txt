@@ -1,1 +1,1 @@
-(ceratodon_purpureus_proteome_first_transcript_CepurR40.8G175500:0.309458,(physcomitrium_patens_proteome_first_transcript_Pp3c21_5600:0.717804,(physcomitrium_patens_proteome_first_transcript_Pp3c22_4590:0.390959,physcomitrium_patens_proteome_first_transcript_Pp3c19_6950:0.383802)n2:0.111925)n1:0.309458)n0;
+(ceratodon_purpureus_CepurR40.4G182600:0.529879,(sphangum_magellanicum_Sphmag15G033400:1.89802e-06,(sphangum_magellanicum_Sphmag11G077200:0.79935,sphangum_magellanicum_Sphmag02G132600:0.002468)n2:0.211805)n1:0.529879)n0;

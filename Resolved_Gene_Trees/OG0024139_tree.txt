@@ -1,1 +1,1 @@
-(nanochloropsis_gaditana_proteome_first_transcript_Nangad1_305:0.644631,(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s2619.g028416:1.23397,(chromochloris_zofingiensis_proteome_first_transcript_Cz07g06190:0.104139,chlorokybus_atmophyticus_proteome_first_transcript_Chlat1_5205:0.239974)n2:0.835063)n1:0.644631)n0;
+(phaeodactylum_tricornutum_Phatr2_35564:0.643803,(cyanophora_paradoxa_Cyapar1_g6991:1.20525,(cyanophora_paradoxa_Cyapar1_g18464:0.825425,cyanophora_paradoxa_Cyapar1_g3486:0.740715)n2:0.302237)n1:0.643803)n0;

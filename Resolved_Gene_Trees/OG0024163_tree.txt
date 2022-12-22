@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_proteome_first_transcript_Phatr2_49277:0.805519,(chromochloris_zofingiensis_proteome_first_transcript_Cz15g12240:3.16413e-06,(marchantia_polymorpha_proteome_first_transcript_Mpzg01090:0.182212,marchantia_polymorpha_proteome_first_transcript_Mp3g03040:0.480886)n2:0.978089)n1:0.805519)n0;
+(cyanophora_paradoxa_Cyapar1_g21990:0.876954,(triticum_aestivum_Traes_7AS_177356128:2.45623e-06,(triticum_aestivum_Traes_7DS_22BB72EAC:0.040719,triticum_aestivum_Traes_7BS_E27A1E5DD:0.340797)n2:0.368838)n1:0.876954)n0;

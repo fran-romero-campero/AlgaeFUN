@@ -1,1 +1,1 @@
-(salvinia_cucullata_proteome_first_transcript_Sacu_v1.1_s0008.g004092:1.12398,(ceratodon_purpureus_proteome_first_transcript_CepurR40.1G057700:0.530292,(physcomitrium_patens_proteome_first_transcript_Pp3c3_9440:0.912554,physcomitrium_patens_proteome_first_transcript_Pp3c4_27940:0.612015)n2:0.0680017)n1:0.360509)n0;
+((chlamydomonas_reinhardtii_Cre09.g396800:0.013621,volvox_carteri_Vocar.0008s0241:0.516885)n1:0.252507,(volvox_carteri_Vocar.0020s0048:0.284574,chlamydomonas_reinhardtii_Cre08.g365065:1.29004e-06)n2:0.252507)n0;

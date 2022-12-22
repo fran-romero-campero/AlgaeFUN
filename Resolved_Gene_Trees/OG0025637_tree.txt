@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_410933:0.0123985,(selaginella_moellendorffii_proteome_first_transcript_432128:0.044957,(selaginella_moellendorffii_proteome_first_transcript_430658:0.05385,selaginella_moellendorffii_proteome_first_transcript_403246:0.022854)n2:0.003997)n1:0.0123985)n0;
+(triticum_aestivum_Traes_4BL_9A5A51DCB:0.50088,(spirogloea_muscicola_SM000014S00319:0.060578,(spirogloea_muscicola_SM000038S14343:0.097078,spirogloea_muscicola_SM000016S01929:0.02763)n2:0.109376)n1:0.50088)n0;

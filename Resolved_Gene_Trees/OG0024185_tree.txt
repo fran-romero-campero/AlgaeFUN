@@ -1,1 +1,1 @@
-((mesostigma_viridae_proteome_first_transcript_Mv22966:0.052722,mesostigma_viridae_proteome_first_transcript_Mv22966:0.141312)n1:0.927316,(raphidocelis_subcapitata_proteome_first_transcript_Rsub_06874:1.8972,chromochloris_zofingiensis_proteome_first_transcript_Cz16g09230:2.66772e-06)n2:0.927316)n0;
+(cyanophora_paradoxa_Cyapar1_g2750:0.076294,(cyanophora_paradoxa_Cyapar1_g2751:0.138763,(cyanophora_paradoxa_Cyapar1_g2754:0.306805,cyanophora_paradoxa_Cyapar1_g2753:0.1999)n2:0.24574)n1:0.076294)n0;

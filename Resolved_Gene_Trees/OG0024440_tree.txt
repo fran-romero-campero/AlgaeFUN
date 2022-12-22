@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_proteome_first_transcript_Cyapar1_g7713:0.527902,((porphyra_umbilicalis_proteome_first_transcript_Pum0074s0056:0.300633,porphyra_umbilicalis_proteome_first_transcript_Pum1927s0001:0.143272)n2:0.273467,porphyra_umbilicalis_proteome_first_transcript_Pum0459s0018:0.885136)n1:0.527902)n0;
+(klebsormidium_nitens_kfl00098_0290:0.665699,(spirogloea_muscicola_SM007925S22548:0.066051,(spirogloea_muscicola_SM000028S10144:0.262185,spirogloea_muscicola_SM000030S11342:0.243952)n2:1.06781)n1:0.665699)n0;
