@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "https://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Sep 17, 2020 14:22:28 +0900 (GMT+9) -->
+<pathway name="path:cre03060" org="cre" number="03060"
+         title="Protein export"
+         image="https://www.kegg.jp/kegg/pathway/cre/cre03060.png"
+         link="https://www.kegg.jp/kegg-bin/show_pathway?cre03060">
+    <entry id="5" name="ko:K03425" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03425">
+        <graphics name="K03425" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="105" y="429" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="ko:K01983" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K01983">
+        <graphics name="K01983" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="154" y="257" width="46" height="17"/>
+    </entry>
+    <entry id="7" name="cre:CHLRE_06g251900v5 cre:CHLRE_16g690200v5 cre:CHLRE_17g729800v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_06g251900v5+cre:CHLRE_16g690200v5+cre:CHLRE_17g729800v5">
+        <graphics name="CHLRE_06g251900v5..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="105" y="196" width="46" height="17"/>
+    </entry>
+    <entry id="8" name="ko:K03117" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03117">
+        <graphics name="K03117" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="150" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="9" name="cre:CHLRE_03g145887v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_03g145887v5">
+        <graphics name="CHLRE_03g145887v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="195" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="10" name="cre:CHLRE_10g438550v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_10g438550v5">
+        <graphics name="CHLRE_10g438550v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="105" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="11" name="cre:CHLRE_12g517900v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_12g517900v5">
+        <graphics name="CHLRE_12g517900v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="105" y="217" width="46" height="17"/>
+    </entry>
+    <entry id="12" name="ko:K03076" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03076">
+        <graphics name="K03076" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="105" y="154" width="46" height="17"/>
+    </entry>
+    <entry id="13" name="ko:K03073" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03073">
+        <graphics name="K03073" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="151" y="154" width="46" height="17"/>
+    </entry>
+    <entry id="14" name="ko:K03075" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03075">
+        <graphics name="K03075" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="197" y="154" width="46" height="17"/>
+    </entry>
+    <entry id="15" name="ko:K03072 ko:K03074 ko:K12257" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03072+K03074+K12257">
+        <graphics name="K03072..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="105" y="175" width="46" height="17"/>
+    </entry>
+    <entry id="16" name="ko:K03210" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03210">
+        <graphics name="K03210" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="151" y="175" width="46" height="17"/>
+    </entry>
+    <entry id="17" name="cre:CHLRE_07g344350v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_07g344350v5">
+        <graphics name="CHLRE_07g344350v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="103" y="513" width="46" height="17"/>
+    </entry>
+    <entry id="18" name="ko:K03101" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03101">
+        <graphics name="K03101" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="155" y="513" width="46" height="17"/>
+    </entry>
+    <entry id="19" name="cre:CHLRE_01g031200v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_01g031200v5">
+        <graphics name="CHLRE_01g031200v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="274" width="46" height="17"/>
+    </entry>
+    <entry id="20" name="cre:CHLRE_03g182500v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_03g182500v5">
+        <graphics name="CHLRE_03g182500v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="346" y="257" width="46" height="17"/>
+    </entry>
+    <entry id="21" name="cre:CHLRE_06g267100v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_06g267100v5">
+        <graphics name="CHLRE_06g267100v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="346" y="274" width="46" height="17"/>
+    </entry>
+    <entry id="22" name="cre:CHLRE_11g479750v5 cre:CHLRE_13g569200v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_11g479750v5+cre:CHLRE_13g569200v5">
+        <graphics name="CHLRE_11g479750v5..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="395" y="274" width="46" height="17"/>
+    </entry>
+    <entry id="23" name="cre:CHLRE_02g095070v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_02g095070v5">
+        <graphics name="CHLRE_02g095070v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="395" y="257" width="46" height="17"/>
+    </entry>
+    <entry id="24" name="cre:CHLRE_16g683950v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_16g683950v5">
+        <graphics name="CHLRE_16g683950v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="25" name="cre:CHLRE_12g546250v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_12g546250v5">
+        <graphics name="CHLRE_12g546250v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="257" width="46" height="17"/>
+    </entry>
+    <entry id="26" name="ko:K03071" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03071">
+        <graphics name="K03071" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="154" y="217" width="46" height="17"/>
+    </entry>
+    <entry id="27" name="path:cre03060" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre03060">
+        <graphics name="TITLE:Protein export" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="108" y="58" width="136" height="25"/>
+    </entry>
+    <entry id="29" name="cre:CHLRE_11g479750v5 cre:CHLRE_13g569200v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_11g479750v5+cre:CHLRE_13g569200v5">
+        <graphics name="CHLRE_11g479750v5..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="105" y="257" width="46" height="17"/>
+    </entry>
+    <entry id="30" name="cre:CHLRE_05g241450v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_05g241450v5">
+        <graphics name="CHLRE_05g241450v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="105" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="cre:CHLRE_02g084050v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_02g084050v5">
+        <graphics name="CHLRE_02g084050v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="181" width="46" height="17"/>
+    </entry>
+    <entry id="32" name="cre:CHLRE_16g657850v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_16g657850v5">
+        <graphics name="CHLRE_16g657850v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="181" width="46" height="17"/>
+    </entry>
+    <entry id="33" name="ko:K12946" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K12946">
+        <graphics name="K12946" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="295" y="513" width="46" height="17"/>
+    </entry>
+    <entry id="34" name="cre:CHLRE_12g524200v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_12g524200v5">
+        <graphics name="CHLRE_12g524200v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="340" y="513" width="46" height="17"/>
+    </entry>
+    <entry id="35" name="cre:CHLRE_03g171350v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_03g171350v5">
+        <graphics name="CHLRE_03g171350v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="154" width="46" height="17"/>
+    </entry>
+    <entry id="36" name="cre:CHLRE_14g620400v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_14g620400v5">
+        <graphics name="CHLRE_14g620400v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="386" y="513" width="46" height="17"/>
+    </entry>
+    <entry id="37" name="cre:CHLRE_09g406800v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_09g406800v5">
+        <graphics name="CHLRE_09g406800v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="432" y="513" width="46" height="17"/>
+    </entry>
+    <entry id="38" name="cre:CHLRE_11g467655v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_11g467655v5">
+        <graphics name="CHLRE_11g467655v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="295" y="535" width="46" height="17"/>
+    </entry>
+    <entry id="39" name="cre:CHLRE_01g027100v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_01g027100v5">
+        <graphics name="CHLRE_01g027100v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="341" y="535" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="cre:CHLRE_17g718350v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_17g718350v5">
+        <graphics name="CHLRE_17g718350v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="cre:CHLRE_07g318450v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_07g318450v5">
+        <graphics name="CHLRE_07g318450v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="343" y="154" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="cre:CHLRE_16g680230v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_16g680230v5">
+        <graphics name="CHLRE_16g680230v5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="389" y="154" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="cre:CHLRE_02g080600v5 cre:CHLRE_02g080700v5" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?cre:CHLRE_02g080600v5+cre:CHLRE_02g080700v5">
+        <graphics name="CHLRE_02g080600v5..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="297" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="51" name="ko:K13301" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K13301">
+        <graphics name="K13301" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="203" y="217" width="46" height="17"/>
+    </entry>
+</pathway>

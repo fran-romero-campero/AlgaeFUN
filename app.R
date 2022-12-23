@@ -403,6 +403,21 @@ reverse.complement <- function(dna.sequence)
   return(c2s(comp(rev(s2c(dna.sequence)),forceToLower = FALSE)))
 }
 
+## Functions to convert Cre ids to CHLREv5 ids used in KEGG and viceversa
+cre2chlrev5 <- function(cre.gene.id)
+{
+ chr.part <- paste0("CHLRE_",substring(text = strsplit(cre.gene.id, split="\\.")[[1]][1],first = 4,last = 5))
+ gene.part <- paste0(strsplit(cre.gene.id, split="\\.")[[1]][2],"v5")
+ return(paste0(chr.part,gene.part))
+}
+
+chlrev52cre <- function(chlre.gene.id)
+{
+ chr.part <- paste0("Cre",substr(x = strsplit(chlre.gene.id,split = "_")[[1]][2],start = 1,stop = 2))
+ gene.part <- substr(x = strsplit(chlre.gene.id,split = "_")[[1]][2],start = 3,stop = 9)
+ return(paste(chr.part,gene.part,sep="."))
+}
+
 ## Load Position Weight Matrices needed in DNA binding motifs search
 ## Open file connection
 con <- file("jaspar_motifs/pfm_plants_20180911.txt",open = "r")
@@ -822,8 +837,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                               htmlOutput(outputId = "textGOTable"),
                               tags$br(), tags$br(),
                               dataTableOutput(outputId = "output_go_table"),
-                              uiOutput(outputId = "download_ui_for_go_table")#,
-                              #htmlOutput(outputId = "revigo")
+                              uiOutput(outputId = "download_ui_for_go_table"),
+                              htmlOutput(outputId = "revigo")
                      ),
                      tabPanel(tags$b("GO Map"),
                               tags$br(),
@@ -849,14 +864,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                   plotOutput(outputId = "dot.plot",inline=TRUE)),
                               tags$br(),
                               tags$br(), tags$br()),
-                    # tabPanel(tags$b("GO Emap"),
-                    #          tags$br(),
-                    #          htmlOutput(outputId = "emapplot_text"),
-                    #          tags$br(),
-                    #          div(style= "text-align: center;",
-                    #              plotOutput(outputId = "emap.plot",inline=TRUE)),
-                    #          tags$br(),
-                    #          tags$br(), tags$br()),
+                    tabPanel(tags$b("GO Emap"),
+                             tags$br(),
+                             htmlOutput(outputId = "emapplot_text"),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 plotOutput(outputId = "emap.plot",inline=TRUE)),
+                             tags$br(),
+                             tags$br(), tags$br()),
                     tabPanel(tags$b("GO Concept Map"),
                              tags$br(),
                              htmlOutput(outputId = "cnetplot_text"),
@@ -944,6 +959,10 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                    actionButton(inputId = "pfam_start",
                                      label = "Show Gene Selection for Pfam", icon("send")),
                                    tags$br(),
+                                   tags$br(),
+                                   tags$br(),
+                                   tags$br(),
+                                   tags$br(),
                                    conditionalPanel(
                                      condition = "input.pfam_start",
                                      uiOutput(outputId = "selected_pfams"),
@@ -971,6 +990,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                    tags$br(),
                                    actionButton(inputId = "msa_start",
                                                 label = "Show Gene Selection for MSA", icon("send")),
+                                   tags$br(),
+                                   tags$br(),
+                                   tags$br(),
                                    tags$br(),
                                    conditionalPanel(
                                      condition = "input.msa_start",
@@ -1045,15 +1067,15 @@ server <- shinyServer(function(input, output, session) {
     output$textGOTable <- renderText(expr = "")
     output$output_go_table <- renderDataTable(expr = NULL)
     output$download_ui_for_go_table<- renderUI(expr = NULL)
-    #output$revigo<- renderUI(expr = NULL)
+    output$revigo<- renderUI(expr = NULL)
     output$go_graph <- renderText(expr = "")
     output$go.plot <- renderPlot(expr = NULL)
     output$barplot_text <- renderText("")
     output$bar.plot <- renderPlot(expr = NULL)
     output$dotplot_text <- renderText("")
     output$dot.plot <- renderPlot(expr = NULL)
-    #output$emapplot_text <- renderText("")
-    #output$emap.plot <- renderPlot(expr = NULL)
+    output$emapplot_text <- renderText("")
+    output$emap.plot <- renderPlot(expr = NULL)
     output$cnetplot_text <- renderText("")
     output$cnet.plot <- renderPlot(expr = NULL)
     
@@ -1138,15 +1160,15 @@ server <- shinyServer(function(input, output, session) {
     output$textGOTable <- renderText(expr = "")
     output$output_go_table <- renderDataTable("")
     output$download_ui_for_go_table<- renderUI(expr = NULL)
-    #output$revigo<- renderUI(expr = NULL)
+    output$revigo<- renderUI(expr = NULL)
     output$go_graph <- renderText(expr = "")
     output$go.plot <- renderPlot(expr = NULL)
     output$barplot_text <- renderText("")
     output$bar.plot <- renderPlot(expr = NULL)
     output$dotplot_text <- renderText("")
     output$dot.plot <- renderPlot(expr = NULL)
-    #output$emapplot_text <- renderText("")
-    #output$emap.plot <- renderPlot(expr = NULL)
+    output$emapplot_text <- renderText("")
+    output$emap.plot <- renderPlot(expr = NULL)
     output$cnetplot_text <- renderText("")
     output$cnet.plot <- renderPlot(expr = NULL)
     
@@ -1166,6 +1188,7 @@ server <- shinyServer(function(input, output, session) {
     
     # Load libraries
     library(clusterProfiler)
+    library(enrichplot)
     library(pathview)
       
     ## Select org.Db 
@@ -1403,19 +1426,19 @@ annotated with the GO term represented in the corresponding row."
                         file=file,row.names=FALSE,col.names=TRUE)
           })
         
-        ## Link to REVIGO
-        # revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
-        # 
-        # url1 <- tags$a("here", href="#", onclick="document.revigoForm.submit();")
-        # url2 <- tags$form(
-        #   name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
-        #   tags$textarea(name="inputGoList", rows="1", cols="8", class="revigoText",
-        #                 style="visibility: hidden", revigo.data)
-        # )
-        # 
-        # output$revigo<- renderUI(
-        #   tagList("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2)
-        # )
+        # Link to REVIGO
+        revigo.data <- paste(revigo.data <- apply(go.result.table[,c("GO ID", "q-value")], 1, paste, collapse = " "), collapse="\n")
+
+        url1 <- tags$a("here", href="#", onclick="document.revigoForm.submit();")
+        url2 <- tags$form(
+          name="revigoForm", action="http://revigo.irb.hr/", method="post", target="_blank",
+          tags$textarea(name="goList", rows="10", cols="80", class="revigoText",
+                        style="visibility: hidden", revigo.data)
+        )
+
+        output$revigo<- renderUI(
+          tagList(tags$b("The enriched GO terms above may be redundant. Visualize these results in REViGO in order to remove redundancy. Click", url1, url2))
+        )
 
         go.graph.text <- "The following acyclic graph represents the GO term enrichment
         in the target gene set. Each node stands for a GO term. The color of each node
@@ -1462,19 +1485,19 @@ corresponding GO term and the total number of annotated genes in the target set.
             dotplot(enrich.go)
           })
 
-#         output$emapplot_text <- renderText("The following figure consists of an enrichment map where nodes represent enriched GO terms. The
-#         size of a node is proportional to the number of genes annotated with the corresponding GO term in the target set.
-# The node colors represent the level of significance from less signficant in blue to more significant in red. Edges are drawn
-# between two nodes when the corresponding GO terms are semantically related. Right click on the image to download it.")
-#         
-#         ##EMAP plot
-#         output$emap.plot <- renderPlot(
-#           width     = 870,
-#           height    = 600,
-#           res       = 120,
-#           expr = {
-#             emapplot(enrich.go)
-#           })
+        output$emapplot_text <- renderText("The following figure consists of an enrichment map where nodes represent enriched GO terms. The
+        size of a node is proportional to the number of genes annotated with the corresponding GO term in the target set.
+The node colors represent the level of significance from less signficant in blue to more significant in red. Edges are drawn
+between two nodes when the corresponding GO terms are semantically related. Right click on the image to download it.")
+
+        ##EMAP plot
+        output$emap.plot <- renderPlot(
+          width     = 870,
+          height    = 600,
+          res       = 120,
+          expr = {
+           emapplot(pairwise_termsim(enrich.go))
+          })
         
         output$cnetplot_text <- renderText("The following figure corresponds to a gene-concept network. The beige
 nodes represents GO terms and the grey nodes genes. An edge is drawn from a gene to a GO term when the gene is annotated
@@ -1500,8 +1523,8 @@ with the corresponding GO term. Right click on the image to download it.")
                                          in the input gene set.</b>")
         output$dotplot_text <- renderText(expr = "<b>No GO term enrichment detected 
                                          in the input gene set.</b>")
-        #output$emapplot_text <- renderText(expr = "<b>No GO term enrichment detected 
-        #                                 in the input gene set.</b>")        
+        output$emapplot_text <- renderText(expr = "<b>No GO term enrichment detected 
+                                         in the input gene set.</b>")        
         output$cnetplot_text <- renderText(expr = "<b>No GO term enrichment detected 
                                          in the input gene set.</b>")        
       }
@@ -1598,16 +1621,19 @@ with the corresponding GO term. Right click on the image to download it.")
         }
       } else if(input$microalgae == "creinhardtii")
       {
-        cre.chlredraft.map <- AnnotationDbi::select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
-        cre.ids <- cre.chlredraft.map$GID
-        chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
-        names(chlredraft.ids) <- cre.ids
-        names(cre.ids) <- chlredraft.ids
-        
-        target.genes <- chlredraft.ids[target.genes]
+        target.genes <- sapply(X = target.genes,FUN = cre2chlrev5)
+        # 
+        # cre.chlredraft.map <- AnnotationDbi::select(org.Creinhardtii.eg.db,columns = c("CHLREDRAFT"),keys=keys(org.Creinhardtii.eg.db,keytype = "GID"))
+        # cre.ids <- cre.chlredraft.map$GID
+        # chlredraft.ids <- cre.chlredraft.map$CHLREDRAFT
+        # names(chlredraft.ids) <- cre.ids
+        # names(cre.ids) <- chlredraft.ids
+        # 
+        # target.genes <- chlredraft.ids[target.genes]
         names(target.genes) <- NULL
         
-        gene.universe <- chlredraft.ids[gene.universe]
+        #gene.universe <- chlredraft.ids[gene.universe]
+        gene.universe <- sapply(X = gene.universe,FUN = cre2chlrev5)
         names(gene.universe) <- NULL
         
         organism.id <- "cre"
@@ -1818,7 +1844,8 @@ with the corresponding GO term. Right click on the image to download it.")
           kegg.enriched.genes <- pathway.enrichment.result$geneID
           for(i in 1:length(kegg.enriched.genes))
           {
-            kegg.enriched.genes[i] <- paste(cre.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+            #kegg.enriched.genes[i] <- paste(cre.ids[strsplit(kegg.enriched.genes[i],split="/")[[1]]],collapse=" ")
+            kegg.enriched.genes[i] <- paste(sapply(X = strsplit(kegg.enriched.genes[i],split="/")[[1]],FUN = chlrev52cre),collapse=" ")
           }
         } else if (input$microalgae == "vcarteri")
         {
@@ -2010,7 +2037,9 @@ assocated to the enriched pathway represented in the corresponding row."
           modules.enriched.genes <- modules.enrichment.result$geneID
           for(i in 1:length(modules.enriched.genes))
           {
-            modules.enriched.genes[i] <- paste(cre.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+            #modules.enriched.genes[i] <- paste(cre.ids[strsplit(modules.enriched.genes[i],split="/")[[1]]],collapse=" ")
+            modules.enriched.genes[i] <- paste(sapply(X = strsplit(modules.enriched.genes[i],split="/")[[1]],FUN = chlrev52cre),collapse=" ")
+            
           }
         } else if(input$microalgae == "vcarteri")
         {
