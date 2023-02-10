@@ -1,0 +1,1 @@
+(physcomitrium_patens_proteome_first_transcript_Pp3c23_12020:0.952422,(triticum_aestivum_proteome_first_transcript_Traes_4DL_4F32E7029:0.071596,(triticum_aestivum_proteome_first_transcript_Traes_2AS_21069441E:0.112103,triticum_aestivum_proteome_first_transcript_Traes_2DS_88B399936:0.116689):0.167621):0.952422);

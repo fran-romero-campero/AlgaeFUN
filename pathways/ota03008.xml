@@ -10,8 +10,8 @@
         <graphics name="TITLE:Ribosome biogenesis in eukaryotes" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="195" y="58" width="310" height="25"/>
     </entry>
-    <entry id="56" name="ota:OstapCr01 ota:OstapCr06 ota:OstapMr01 ota:OstapMr02 ota:OstapMr05 ota:OstapMr06" type="gene"
-        link="https://www.kegg.jp/dbget-bin/www_bget?ota:OstapCr01+ota:OstapCr06+ota:OstapMr01+ota:OstapMr02+ota:OstapMr05+ota:OstapMr06">
+    <entry id="56" name="ota:OstapCr01 ota:OstapCr06" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?ota:OstapCr01+ota:OstapCr06">
         <graphics name="rrs..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="66" y="156" width="46" height="17"/>
     </entry>
@@ -20,8 +20,8 @@
         <graphics name="K01986" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="121" y="156" width="46" height="17"/>
     </entry>
-    <entry id="58" name="ota:OstapCr02 ota:OstapCr05 ota:OstapMr03 ota:OstapMr04" type="gene"
-        link="https://www.kegg.jp/dbget-bin/www_bget?ota:OstapCr02+ota:OstapCr05+ota:OstapMr03+ota:OstapMr04">
+    <entry id="58" name="ota:OstapCr02 ota:OstapCr05 ota:OstapMr04" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?ota:OstapCr02+ota:OstapCr05+ota:OstapMr04">
         <graphics name="rrl..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="176" y="156" width="46" height="17"/>
     </entry>

@@ -1,0 +1,1 @@
+(micromonas_pusilla_proteome_first_transcript_27343741:0.408171,((bathycoccus_prasinos_proteome_first_transcript_Bathy17g01570 length_404 _mRNA_ _n/a_  _Lysyl hydroxylase _ISS__:0.749117,ostreococcus_tauri_proteome_first_transcript_ostta02g05410:0.695861):0.086933,ostreococcus_tauri_proteome_first_transcript_ostta02g03220:0.805846):0.408171);

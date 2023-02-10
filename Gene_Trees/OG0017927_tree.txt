@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_proteome_first_transcript_Bathy12g00100 length_261 _mRNA_ _n/a_  _unknown protein_:0.686431,((ostreococcus_tauri_proteome_first_transcript_ostta17g02365:0.626945,ostreococcus_tauri_proteome_first_transcript_ostta17g02370:0.274575):0.453687,ostreococcus_tauri_proteome_first_transcript_ostta17g02380:0.704027):0.686431);

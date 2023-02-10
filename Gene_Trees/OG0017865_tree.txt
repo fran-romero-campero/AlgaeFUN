@@ -1,0 +1,1 @@
+(spirogloea_muscicola_proteome_first_transcript_SM008458S23315:0.327236,((bathycoccus_prasinos_proteome_first_transcript_Bathy04g01060 length_609 _mRNA_ _n/a_  _DNA primase large subunit_:1.0468,ostreococcus_tauri_proteome_first_transcript_ostta08g01110:0.84337):0.09638,micromonas_pusilla_proteome_first_transcript_27341654:1.14589):0.327236);

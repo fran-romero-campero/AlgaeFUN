@@ -1,0 +1,1 @@
+(marchantia_polymorpha_proteome_first_transcript_Mp6g09390:0.371428,(ceratodon_purpureus_proteome_first_transcript_CepurR40.10G016200:0.425478,(physcomitrium_patens_proteome_first_transcript_Pp3c17_14500:0.334554,ceratodon_purpureus_proteome_first_transcript_CepurR40.2G049600:0.24124):0.411482):0.371428);
