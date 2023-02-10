@@ -879,6 +879,14 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                              div(style= "text-align: center;",
                                  plotOutput(outputId = "cnet.plot",inline=TRUE)),
                              tags$br(),
+                             tags$br(),tags$br()),
+                    tabPanel(tags$b("GO Tree Map"),
+                             tags$br(),
+                             htmlOutput(outputId = "treemapplot_text"),
+                             tags$br(),
+                             div(style= "text-align: center;",
+                                 plotOutput(outputId = "treemap.plot",inline=TRUE)),
+                             tags$br(),
                              tags$br(),tags$br())
                     ) # close tabsetPanel for go result
                   ), # close tabPanel for GO ENRICHMENT
@@ -1052,7 +1060,9 @@ server <- shinyServer(function(input, output, session) {
   
   ## video tutorial
   output$video_tutorial <- renderUI({
-    HTML("<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZCWrqOxrdJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>")
+    HTML("<ifra
+         
+         me width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZCWrqOxrdJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>")
   })  
   
   ## Clear content of gene set text area and previous results
@@ -1078,6 +1088,8 @@ server <- shinyServer(function(input, output, session) {
     output$emap.plot <- renderPlot(expr = NULL)
     output$cnetplot_text <- renderText("")
     output$cnet.plot <- renderPlot(expr = NULL)
+    output$treemapplot_text <- renderText("")
+    output$treemap.plot  <- renderPlot(expr = NULL)
     
     shinyjs::hideElement(id = 'ready.enrichment.kegg')
     shinyjs::hideElement(id = 'loading.enrichment.kegg')
@@ -1468,7 +1480,7 @@ annotated with the GO term represented in the corresponding row."
           height    = 600,
           res       = 120,
           expr = {
-            barplot(enrich.go,drop=TRUE,showCategory = 10)
+            barplot(enrich.go,drop=TRUE,showCategory = 20)
           })
         
         output$dotplot_text <- renderText("In the following dotplot each dot represents a significantly enriched 
@@ -1482,7 +1494,7 @@ corresponding GO term and the total number of annotated genes in the target set.
           height    = 600,
           res       = 120,
           expr = {
-            dotplot(enrich.go)
+            dotplot(enrich.go,showCategory = 20)
           })
 
         output$emapplot_text <- renderText("The following figure consists of an enrichment map where nodes represent enriched GO terms. The
@@ -1494,9 +1506,9 @@ between two nodes when the corresponding GO terms are semantically related. Righ
         output$emap.plot <- renderPlot(
           width     = 870,
           height    = 600,
-          res       = 120,
+          res       = 80,
           expr = {
-           emapplot(pairwise_termsim(enrich.go))
+           emapplot(pairwise_termsim(enrich.go),showCategory = 20)
           })
         
         output$cnetplot_text <- renderText("The following figure corresponds to a gene-concept network. The beige
@@ -1511,8 +1523,32 @@ with the corresponding GO term. Right click on the image to download it.")
           height    = 600,
           res       = 120,
           expr = {
-            cnetplot(enrich.go)
+            cnetplot(enrich.go,showCategory = 20)
           })
+
+
+        ##TREEMAP plot
+        output$treemapplot_text <- renderText("The following figure corresponds 
+        to a tree plot. GO terms with high semantic similarity are grouped together.
+        In this way GO term enrichments are summarized removing redundancy among them.
+        Each group of GO terms with semantic similarity are represent by a colored 
+        rectangle. Tree leaves represent GO terms. Leaves sizes are proportional 
+        to the number of genes in the inputted gene set annotated with the corresponding
+        GO term. Leaves color represent the level of significance. Right click on 
+        the image to download it.")
+        
+        
+        ##TREEMAP plot
+        output$treemap.plot <- renderPlot(
+         width     = 870,
+         height    = 600,
+         res       = 80,
+         expr = {
+          treeplot(pairwise_termsim(enrich.go),showCategory = 20)
+         })
+        
+        
+        
       } else
       {
         output$textGOTable <- renderText(expr = "<b>No GO term enrichment detected 
