@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.12G031200:0.0219,ceratopteris_richardii_Ceric.14G034400:0.03676)n1:0.328255,(marchantia_polymorpha_Mp5g04680:0.47744,(sphagnum_magellanicum_Sphmag01G121100:0.37667,(ceratodon_purpureus_CepurR40.3G127400:0.10913,physcomitrium_patens_Pp3c24_11860:0.15934)n4:0.4588)n3:0.63061)n2:0.328255)n0;

@@ -1,0 +1,1 @@
+((aegilops_tauschii_AET1Gv20415500:0.32769,aegilops_tauschii_AET5Gv20939100:0.62007)n1:0.595115,(arabidopsis_thaliana_AT1G48620:0.42546,arabidopsis_thaliana_AT3G18035:0.11396)n2:0.595115)n0;

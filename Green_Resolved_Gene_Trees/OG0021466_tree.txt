@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1159640:1.20929,klebsormidium_nitens_kfl00422_0050:0.43548)n1:0.040475,(micromonas_pusilla_Micpu_27348225:1.7093,(mesotaenium_endlicherianum_ME000058S08617:0.18728,mesotaenium_endlicherianum_ME000413S07059:0.11749)n3:0.68176)n2:0.040475)n0;

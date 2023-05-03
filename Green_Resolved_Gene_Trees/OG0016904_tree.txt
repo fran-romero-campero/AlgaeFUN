@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy04g00630:0.91219,(chlorokybus_atmophyticus_Chlat1_8224:1.11765,mesostigma_viridae_Mv08719:0.68202)n2:0.15005)n1:0.051985,((mesostigma_viridae_Mv14875:0.7637,mesostigma_viridae_Mv01636:0.80356)n4:0.08473,(bathycoccus_prasinos_Bathy14g02520:1.13506,bathycoccus_prasinos_Bathy08g02940:0.834804)n5:0.092756)n3:0.27507)n0;

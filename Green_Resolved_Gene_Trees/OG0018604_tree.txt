@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27341196:0.52852,(bathycoccus_prasinos_Bathy13g00890:0.68677,ostreococcus_tauri_ostta11g02220:0.3808)n2:0.28148)n1:0.184015,(chromochloris_zofingiensis_Cz13g05180:0.37782,(raphidocelis_subcapitata_Rsub_05552:0.53947,scenedesmus_obliquus_SZX78267:0.39301)n4:0.08615)n3:0.184015)n0;

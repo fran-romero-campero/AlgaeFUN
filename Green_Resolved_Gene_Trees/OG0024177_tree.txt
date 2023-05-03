@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc06g005740:0.19359,solanum_lycopersicum_Solyc06g005730:0.08514)n1:0.67972,(chlamydomonas_reinhardtii_Cre07.g328250:0.41661,volvox_carteri_Vocar.0017s0079:0.52139)n2:0.67972)n0;

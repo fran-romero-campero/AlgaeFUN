@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_7BL_3D1107B64:0.00055,triticum_aestivum_Traes_7AL_CD8FA61A6:0.00055)n1:0.27549,(ulva_mutabilis_UM010_0198:1.11287,(haematococcus_lacustris_GFH10935:0.00055,haematococcus_lacustris_GFH26716:0.05635)n3:0.32203)n2:0.27549)n0;

@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp4g16690:1.06566,mesostigma_viridae_Mv07434:0.53724)n1:0.13125,(ostreococcus_tauri_ostta03g02020:0.24195,(bathycoccus_prasinos_Bathy12g03020:0.54374,((micromonas_pusilla_Micpu_27339715:1.08449,micromonas_pusilla_Micpu_27340069:0.99769)n5:0.83729,micromonas_pusilla_Micpu_27349126:0.12739)n4:0.09694)n3:0.07111)n2:0.13125)n0;

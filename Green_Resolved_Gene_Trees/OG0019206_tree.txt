@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1317762:0.16831,coccomyxa_subellipsoidea_Cosub3_1327972:0.95963)n1:0.197655,((mesotaenium_endlicherianum_ME000063S08931:1.0451,coccomyxa_subellipsoidea_Cosub3_1162956:0.44959)n3:0.15619,(coccomyxa_subellipsoidea_Cosub3_1089975:0.23498,mesostigma_viridae_Mv07647:1.19532)n4:0.13928)n2:0.197655)n0;

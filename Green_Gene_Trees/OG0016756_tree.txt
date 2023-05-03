@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv00175:0.34847,(chara_braunii_Chabra1_g30804:0.3895,(anthoceros_agrestis_AagrOXF_utg000018l.414:0.41717,((sphagnum_magellanicum_Sphmag19G029400:0.29869,(ceratodon_purpureus_CepurR40.12G038700:0.10035,physcomitrium_patens_Pp3c24_520:0.10399)1:0.24879)0.98:0.16354,marchantia_polymorpha_Mp6g09200:0.43921)0.824:0.06608)0.893:0.12373)1:0.34847);

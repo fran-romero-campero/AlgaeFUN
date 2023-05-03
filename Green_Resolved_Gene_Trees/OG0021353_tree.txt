@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_5329:0.368535,(klebsormidium_nitens_kfl00150_0230:0.42874,(triticum_aestivum_Traes_4AS_61BC2709B:0.03151,(triticum_aestivum_Traes_4DL_E3D64F445:0.00927,triticum_aestivum_Traes_4BL_E463C3B8B:0.00055)n3:0.00053)n2:1.10043)n1:0.368535)n0;

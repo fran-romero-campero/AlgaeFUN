@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz15g03180:0.31755,(scenedesmus_obliquus_SZX77294:0.24968,ulva_mutabilis_UM038_0042:0.92415)n2:0.11725)n1:0.252105,(chlorokybus_atmophyticus_Chlat1_59:0.7403,(klebsormidium_nitens_kfl00233_0100:0.74591,(mesotaenium_endlicherianum_ME000360S06219:0.48317,mesotaenium_endlicherianum_ME000657S08870:0.581103)n5:0.064567)n4:0.14434)n3:0.252105)n0;

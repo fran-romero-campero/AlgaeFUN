@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz08g04010:0.452195,(haematococcus_lacustris_GFH07613:0.80391,(haematococcus_lacustris_GFH12255:0.65772,(haematococcus_lacustris_GFH10041:0.01689,haematococcus_lacustris_GFH27966:0.00294)n3:0.39577)n2:0.16927)n1:0.452195)n0;

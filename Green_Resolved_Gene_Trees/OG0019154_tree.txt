@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz04g31050:0.356905,(triticum_aestivum_Traes_3DS_C24F94E99:0.24543,((sorghum_bicolor_Sobic.002G146200:0.19475,sorghum_bicolor_Sobic.002G119800:0.01635)n3:0.06193,(sorghum_bicolor_Sobic.005G112900:0.00055,sorghum_bicolor_Sobic.001G467700:0.02826)n4:0.04817)n2:0.46105)n1:0.356905)n0;

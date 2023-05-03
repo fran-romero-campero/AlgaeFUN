@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH28592:0.130655,(anthoceros_agrestis_AagrOXF_utg000109l.250:0.46227,(chara_braunii_Chabra1_g21221:0.11795,triticum_aestivum_Traes_4DS_D51D7B378:0.25418)n2:0.23683)n1:0.130655)n0;

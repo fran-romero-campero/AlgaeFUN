@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000006l.199:0.483945,(marchantia_polymorpha_Mp8g03210:0.63955,(ceratodon_purpureus_CepurR40.5G121200:0.13182,(physcomitrium_patens_Pp3c25_7040:0.20006,physcomitrium_patens_Pp3c16_18430:0.17707)0.992:0.09441)0.995:0.38456)1:0.483945);

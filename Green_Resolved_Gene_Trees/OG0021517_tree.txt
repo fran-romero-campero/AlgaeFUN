@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH17515:0.311175,(cycas_panzhihuaensis_CYCAS_011154:0.33169,(solanum_lycopersicum_Solyc03g115400:0.34297,(selaginella_moellendorffii_Selmo_423941:0.49118,zea_mays_Zm00001d049979:0.26907)n3:0.34101)n2:0.17047)n1:0.311175)n0;

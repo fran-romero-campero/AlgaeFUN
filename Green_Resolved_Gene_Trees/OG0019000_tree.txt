@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX61742:0.36481,(raphidocelis_subcapitata_Rsub_12876:0.07681,(raphidocelis_subcapitata_Rsub_12873:0.07888,raphidocelis_subcapitata_Rsub_01735:0.05962)n3:0.06839)n2:0.15919)n1:0.19893,(chlamydomonas_reinhardtii_Cre13.g588271:0.47874,dunaliella_salina_Dusal.0412s00011:0.47097)n4:0.19893)n0;

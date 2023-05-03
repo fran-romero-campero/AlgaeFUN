@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM012_0133:0.46079,(scenedesmus_obliquus_SZX63415:0.26787,(chromochloris_zofingiensis_Cz13g16070:0.43537,raphidocelis_subcapitata_Rsub_04568:0.36382)n2:0.09849)n1:0.46079)n0;

@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000008l.140:0.453645,((sorghum_bicolor_Sobic.005G210200:0.13775,zea_mays_Zm00001d007708:0.09566)n2:0.48379,(arabidopsis_thaliana_AT1G61475:0.92735,((triticum_aestivum_Traes_3AL_42388BD27:0.05164,triticum_aestivum_Traes_3B_679F96E23:0.02866)n5:0.00908,triticum_aestivum_Traes_3DL_6AB4F414F:0.000495)n4:5.5e-05)n3:0.12615)n1:0.453645)n0;

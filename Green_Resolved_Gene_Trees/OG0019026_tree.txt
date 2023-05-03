@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1343143:0.683955,(chlamydomonas_reinhardtii_Cre02.g113626:0.5459,(volvox_carteri_Vocar.0679s0001:0.53707,((volvox_carteri_Vocar.0007s0129:0.22617,volvox_carteri_Vocar.0008s0283:0.3302)n4:0.33508,volvox_carteri_Vocar.0017s0108:0.497223)n3:0.0497223)n2:0.0055247)n1:0.19773)n0;

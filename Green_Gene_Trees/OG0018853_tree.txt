@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g38721:0.73245,(mesostigma_viridae_Mv14311:0.20654,mesostigma_viridae_Mv12334:0.08523)1:0.42793)0.854:0.059805,(mesotaenium_endlicherianum_ME000184S02160:1.07377,(chlorokybus_atmophyticus_Chlat1_4186:0.54604,chlorokybus_atmophyticus_Chlat1_4224:0.77198)0.969:0.27905)0.854:0.059805);

@@ -1,0 +1,1 @@
+(((spirogloea_muscicola_SM000001S04664:0.63632,spirogloea_muscicola_SM000060S19659:0.59811)n2:0.27109,((chlorokybus_atmophyticus_Chlat1_4402:0.5739,klebsormidium_nitens_kfl00481_0110:0.21839)n4:0.37781,chlorokybus_atmophyticus_Chlat1_4393:0.589203)n3:0.065467)n1:0.164755,mesotaenium_endlicherianum_ME000092S10286:0.62843)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00043_0070:0.549355,(sphagnum_magellanicum_Sphmag19G044800:0.41357,(anthoceros_agrestis_AagrOXF_utg000083l.92:0.44096,((thuja_plicata_Thupl.29377002s0002:0.29763,(arabidopsis_thaliana_AT3G26090:0.29052,solanum_lycopersicum_Solyc05g014160:0.2506)n5:0.39676)n4:0.33013,selaginella_moellendorffii_Selmo_109334:0.49508)n3:0.09814)n2:0.12869)n1:0.549355)n0;

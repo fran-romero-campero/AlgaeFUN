@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy18g00740:0.74133,(salvinia_cucullata_Sacu_v1.1_s0063.g015714:0.58595,(ceratopteris_richardii_Ceric.22G024000:0.65747,(selaginella_moellendorffii_Selmo_41586:0.00705,selaginella_moellendorffii_Selmo_124564:0.00055)n3:0.84714)n2:0.22089)n1:0.74133)n0;

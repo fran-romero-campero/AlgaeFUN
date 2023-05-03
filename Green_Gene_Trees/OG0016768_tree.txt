@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000044l.7:0.92374,sorghum_bicolor_Sobic.006G030300:0.54758)0.976:0.13499,((micromonas_pusilla_Micpu_27341835:0.20313,(micromonas_pusilla_Micpu_27341290:0.00054,micromonas_pusilla_Micpu_27341441:0.00055)1:0.47727)1:0.41957,(chlamydomonas_reinhardtii_Cre17.g720300:0.80485,micromonas_pusilla_Micpu_27341602:1.74875)0.745:0.16176)0.976:0.13499);

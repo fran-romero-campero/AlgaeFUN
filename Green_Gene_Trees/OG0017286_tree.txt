@@ -1,0 +1,1 @@
+(((chlamydomonas_reinhardtii_Cre03.g155850:0.24616,volvox_carteri_Vocar.0019s0062:0.27923)0.903:0.17425,(haematococcus_lacustris_GFH33761:0.69923,dunaliella_salina_Dusal.0254s00002:0.49686)0.85:0.28275)0.999:0.219195,(raphidocelis_subcapitata_Rsub_11928:0.58046,(chromochloris_zofingiensis_Cz14g04090:0.44589,scenedesmus_obliquus_SZX63398:0.41114)0.505:0.07418)0.999:0.219195);

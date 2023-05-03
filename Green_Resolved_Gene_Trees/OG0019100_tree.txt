@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00031_0240:0.81037,((chlamydomonas_reinhardtii_Cre12.g559200:0.65348,volvox_carteri_Vocar.0001s1176:0.45739)n2:0.46643,(dunaliella_salina_Dusal.0207s00003:1.28634,(chromochloris_zofingiensis_Cz06g33020:0.89645,scenedesmus_obliquus_SZX71387:0.90398)n4:0.43484)n3:0.07004)n1:0.81037)n0;

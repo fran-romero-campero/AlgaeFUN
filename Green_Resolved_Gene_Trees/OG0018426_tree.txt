@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000050l.159:0.551095,((triticum_aestivum_Traes_7DS_E7727DE56:0.00055,triticum_aestivum_Traes_7BS_C9F4BC10E:0.01356)n2:0.48535,(arabidopsis_thaliana_AT1G47580:0.52438,(cycas_panzhihuaensis_CYCAS_011360:0.16596,cycas_panzhihuaensis_CYCAS_024440:0.28146)n4:0.41449)n3:0.22243)n1:0.551095)n0;

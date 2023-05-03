@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp5g22630:0.50603,(sphagnum_magellanicum_Sphmag03G055700:0.44084,(physcomitrium_patens_Pp3c2_18440:0.45887,(sphagnum_magellanicum_Sphmag06G066600:0.23787,sphagnum_magellanicum_Sphmag08G087500:0.08176)0.999:0.46695)0.026:0.13193)1:0.50603);

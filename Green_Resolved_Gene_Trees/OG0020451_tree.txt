@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET4Gv20022400:0.25662,(cycas_panzhihuaensis_CYCAS_023312:0.10885,(cycas_panzhihuaensis_CYCAS_024099:0.07272,(cycas_panzhihuaensis_CYCAS_014251:0.06337,cycas_panzhihuaensis_CYCAS_002783:0.55715)n3:0.06052)n2:0.01454)n1:0.25662)n0;

@@ -1,0 +1,1 @@
+(((cycas_panzhihuaensis_CYCAS_014743:0.24161,cycas_panzhihuaensis_CYCAS_014744:0.16705)n2:1.05356,(sphagnum_magellanicum_Sphmag05G003500:0.47548,sphagnum_magellanicum_Sphmag06G066800:1.13637)n3:0.126263)n1:0.38914,azolla_filiculoides_Azfi_s0003.g007677:0.62563)n0;

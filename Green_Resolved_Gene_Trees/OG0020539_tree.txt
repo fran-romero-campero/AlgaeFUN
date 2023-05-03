@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000085l.23:1.2208,triticum_aestivum_Traes_3DS_0A0650113:0.69383)n1:0.08377,(spirogloea_muscicola_SM005750S18607:0.07191,(spirogloea_muscicola_SM005905S19702:0.12482,spirogloea_muscicola_SM005747S18612:0.05859)n3:0.00054)n2:0.08377)n0;

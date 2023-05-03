@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM133_0008:0.433845,(mesotaenium_endlicherianum_ME000020S03154:0.6199,(spirogloea_muscicola_SM000096S24901:0.04426,(spirogloea_muscicola_SM000022S07288:0.10757,spirogloea_muscicola_SM000102S09224:0.05536)n3:0.02035)n2:0.54327)n1:0.433845)n0;

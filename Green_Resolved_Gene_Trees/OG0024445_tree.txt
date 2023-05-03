@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_8358:0.513235,(chromochloris_zofingiensis_Cz16g07260:0.85128,(dunaliella_salina_Dusal.0280s00013:0.52389,haematococcus_lacustris_GFH13580:0.49913)n2:0.35102)n1:0.513235)n0;

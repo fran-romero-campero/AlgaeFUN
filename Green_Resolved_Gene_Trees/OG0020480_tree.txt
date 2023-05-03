@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000006l.1175:0.743495,(triticum_aestivum_Traes_5AL_31E76DE84:0.00055,(triticum_aestivum_Traes_5AL_59805206E:0.00055,(triticum_aestivum_Traes_5BL_625657BE4:0.026,triticum_aestivum_Traes_5DL_79C75BD5A:0.04955)n3:0.2387)n2:0.04399)n1:0.743495)n0;

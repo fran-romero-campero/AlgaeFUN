@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_4AL_6401281CF:0.13476,((ceratodon_purpureus_CepurR40.1G229800:0,ceratodon_purpureus_CepurR40.1G230300:0,ceratodon_purpureus_CepurR40.1G229400:0,ceratodon_purpureus_CepurR40.1G230700:0)n2:0.03672,sphagnum_magellanicum_Sphmag02G120400:0.08865)n1:0.13476)n0;

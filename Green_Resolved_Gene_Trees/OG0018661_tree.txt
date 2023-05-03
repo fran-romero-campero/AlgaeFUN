@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX72495:0.770995,(chara_braunii_Chabra1_g24186:1.26647,((ceratodon_purpureus_CepurR40.10G085700:0.29126,ceratodon_purpureus_CepurR40.1G265200:0.40322)n3:0.22718,(marchantia_polymorpha_Mp4g00050:0.3636,marchantia_polymorpha_Mp4g00060:0.48235)n4:0.3218)n2:0.30715)n1:0.770995)n0;

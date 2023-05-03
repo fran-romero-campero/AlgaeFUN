@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv26163:0.4576,dunaliella_salina_Dusal.0031s00012:0.4834)0.805:0.046345,(scenedesmus_obliquus_SZX67691:0.40074,(anthoceros_agrestis_AagrOXF_utg000003l.41:0.24968,chromochloris_zofingiensis_Cz07g10050:0.25038)0.555:0.06886)0.805:0.046345);

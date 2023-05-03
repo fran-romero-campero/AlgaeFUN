@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag17G086200:0.83725,(anthoceros_agrestis_AagrOXF_utg000006l.134:0.46021,((anthoceros_agrestis_AagrOXF_utg000018l.335:0.46232,anthoceros_agrestis_AagrOXF_utg000085l.132:0.52236)n3:0.07225,(anthoceros_agrestis_AagrOXF_utg000068l.22:0.13298,anthoceros_agrestis_AagrOXF_utg000080l.31:0.11458)n4:0.3096)n2:0.12495)n1:0.83725)n0;

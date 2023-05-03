@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz10g08190:0.84106,(bathycoccus_prasinos_Bathy14g01600:0.81738,(micromonas_pusilla_Micpu_27340501:0.02626,micromonas_pusilla_Micpu_27342876:0.03303)n2:0.14583)n1:0.84106)n0;

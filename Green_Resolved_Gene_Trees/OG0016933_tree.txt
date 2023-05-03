@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz01g27080:1.23559,((bathycoccus_prasinos_Bathy93g00010:0.38897,(physcomitrium_patens_Pp3s96_60:0.00357,physcomitrium_patens_Pp3s96_50:0.01697)n3:0.71523)n2:0.041425,((physcomitrium_patens_Pp3s34_490:0.5765,physcomitrium_patens_Pp3s30_390:0.19264)n5:0.44449,bathycoccus_prasinos_Bathy93g00020:0.37856)n4:0.057204)n1:0.006356)n0;

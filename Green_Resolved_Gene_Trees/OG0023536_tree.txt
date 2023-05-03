@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0214.g058321:0.35234,azolla_filiculoides_Azfi_s0424.g069225:0.13758)n1:0.35343,(physcomitrium_patens_Pp3c8_8870:0.00054,physcomitrium_patens_Pp3c8_8500:0.01654)n2:0.35343)n0;

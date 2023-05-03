@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH16827:0.46873,(chromochloris_zofingiensis_Cz18g00030:0.52558,(raphidocelis_subcapitata_Rsub_03644:0.61759,scenedesmus_obliquus_SZX65620:0.77146)n2:0.17607)n1:0.46873)n0;

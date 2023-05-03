@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_032425:0.369705,(raphidocelis_subcapitata_Rsub_08052:0.87631,(dunaliella_salina_Dusal.0987s00001:0.47552,(chromochloris_zofingiensis_Cz14g19310:0.1176,(haematococcus_lacustris_GFH27663:0.45337,raphidocelis_subcapitata_Rsub_08053:0.33574)0.887:0.15714)0.953:0.29799)0.732:0.27982)1:0.369705);

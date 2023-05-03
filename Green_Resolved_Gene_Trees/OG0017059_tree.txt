@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv15292:0.53049,micromonas_pusilla_Micpu_27348840:0.4464)n1:0.090765,((chara_braunii_Chabra1_g6341:0.58037,klebsormidium_nitens_kfl00434_0050:0.22172)n3:0.10239,(coccomyxa_subellipsoidea_Cosub3_1256381:0.3334,(raphidocelis_subcapitata_Rsub_00823:0.35805,scenedesmus_obliquus_SZX68024:0.32292)n5:0.21296)n4:0.06248)n2:0.090765)n0;

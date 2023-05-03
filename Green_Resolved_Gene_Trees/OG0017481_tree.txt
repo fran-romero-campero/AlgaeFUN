@@ -1,0 +1,1 @@
+((oryza_sativa_LOC_Os04g28270.1:0.33354,triticum_aestivum_Traes_6AL_0B3170437:0.29435)n1:0.21471,(dunaliella_salina_Dusal.0480s00010:0.63312,(haematococcus_lacustris_GFH06636:0.49138,(haematococcus_lacustris_GFH30714:0.1971,(haematococcus_lacustris_GFH18704:0.05272,haematococcus_lacustris_GFH19374:0.09781)n5:0.01017)n4:0.580293)n3:0.064477)n2:0.29996)n0;

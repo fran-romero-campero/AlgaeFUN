@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz03g34050:0.51657,haematococcus_lacustris_GFH27503:0.38883)n1:0.079795,((klebsormidium_nitens_kfl00115_0140:0.52584,physcomitrium_patens_Pp3c25_14650:0.71774)n3:0.1554,(selaginella_moellendorffii_Selmo_440007:0.02856,selaginella_moellendorffii_Selmo_437314:0.09316)n4:0.7243)n2:0.079795)n0;

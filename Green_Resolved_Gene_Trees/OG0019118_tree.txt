@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv04746:0.476945,((chlorokybus_atmophyticus_Chlat1_2702:0.47942,chlorokybus_atmophyticus_Chlat1_7503:0.49994)n2:0.62389,(chlorokybus_atmophyticus_Chlat1_2111:1.06499,(chlorokybus_atmophyticus_Chlat1_3090:0.30213,chlorokybus_atmophyticus_Chlat1_6359:0.38945)n4:0.49418)n3:0.15287)n1:0.476945)n0;

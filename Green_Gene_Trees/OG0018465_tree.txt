@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT1G51920:0.235125,(cycas_panzhihuaensis_CYCAS_017012:0.37657,((thuja_plicata_Thupl.29378590s0001:0.02776,thuja_plicata_Thupl.29377339s0001:0.03221)0.727:0.05255,(thuja_plicata_Thupl.29377339s0004:0.16266,thuja_plicata_Thupl.29377339s0002:0.08704)0.865:0.11092)0.965:0.34401)1:0.235125);

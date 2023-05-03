@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz15g22030:0.392465,(klebsormidium_nitens_kfl00403_0060:0.67317,((ceratodon_purpureus_CepurR40.2G098300:0.78286,(ceratodon_purpureus_CepurR40.3G172000:0.2295,ceratodon_purpureus_CepurR40.11G032600:0.40267)n4:0.19359)n3:0.11155,(marchantia_polymorpha_Mp4g17350:0.78098,sphagnum_magellanicum_Sphmag02G002200:0.31005)n5:0.21075)n2:0.92902)n1:0.392465)n0;

@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy19g00550:0.46366,((scenedesmus_obliquus_SZX73977:0.41524,scenedesmus_obliquus_SZX66756:0.38434)n2:1.16682,(coccomyxa_subellipsoidea_Cosub3_1261342:0.64963,(coccomyxa_subellipsoidea_Cosub3_1327799:0.0146,coccomyxa_subellipsoidea_Cosub3_1401668:0.05287)n4:0.66599)n3:0.42704)n1:0.46366)n0;

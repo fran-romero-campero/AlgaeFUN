@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc02g067770:0.807655,((thuja_plicata_Thupl.29380194s0002:0.02962,(thuja_plicata_Thupl.29377612s0001:0.15805,thuja_plicata_Thupl.29379524s0001:0.9043)n3:0.32624)n2:0.04246,(thuja_plicata_Thupl.29380718s0006:0.05186,thuja_plicata_Thupl.29378774s0005:0.05798)n4:0.00158)n1:0.807655)n0;

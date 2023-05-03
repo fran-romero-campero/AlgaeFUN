@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_27395:0.510005,(coccomyxa_subellipsoidea_Cosub3_697616:0.53667,(bathycoccus_prasinos_Bathy07g01560:1.17634,(haematococcus_lacustris_GFH33104:0.44548,(haematococcus_lacustris_GFH22805:0.00055,haematococcus_lacustris_GFH29378:0.00512)n4:0.10699)n3:0.36728)n2:0.09949)n1:0.510005)n0;

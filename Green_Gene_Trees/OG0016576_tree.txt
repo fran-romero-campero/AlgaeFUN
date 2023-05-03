@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH20976:0.365505,(cycas_panzhihuaensis_CYCAS_009886:0.25277,(zea_mays_Zm00001d020956:0.25327,(((aegilops_tauschii_AET4Gv20882800:0.12916,triticum_aestivum_Traes_3AL_104EB430A:0.07835)0.435:0.07118,triticum_aestivum_Traes_3DL_BA576CBCD:0.01917)0:0.03867,arabidopsis_thaliana_AT4G32208:0.35693)0.951:0.15045)0.929:0.19061)1:0.365505);

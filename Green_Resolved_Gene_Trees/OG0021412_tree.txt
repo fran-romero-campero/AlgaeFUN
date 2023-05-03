@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv16904:0.680725,(haematococcus_lacustris_GFH21769:0.75301,(chromochloris_zofingiensis_Cz10g20200:0.57373,(raphidocelis_subcapitata_Rsub_05072:0.8604,scenedesmus_obliquus_SZX65483:0.44902)n3:0.11834)n2:0.31041)n1:0.680725)n0;

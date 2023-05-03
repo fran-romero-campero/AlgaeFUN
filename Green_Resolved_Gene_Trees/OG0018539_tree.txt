@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_v1.1_s0109.g020501:0.4612,(azolla_filiculoides_Azfi_s0108.g045213:0.02669,azolla_filiculoides_Azfi_s0931.g093073:0.00189)n2:0.47591)n1:0.620105,(chlamydomonas_reinhardtii_Cre07.g320050:0.42421,(chlamydomonas_reinhardtii_Cre01.g011800:0.24457,chlamydomonas_reinhardtii_Cre01.g011850:0.30532)n4:0.6771)n3:0.620105)n0;

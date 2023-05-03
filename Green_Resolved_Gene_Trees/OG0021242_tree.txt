@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre02.g142700:0.70718,(mesotaenium_endlicherianum_ME000010S10837:0.55327,(spirogloea_muscicola_SM000226S07413:0.0053,(spirogloea_muscicola_SM000043S15868:0.02871,spirogloea_muscicola_SM000031S11619:0.03344)n3:0.01143)n2:0.52681)n1:0.70718)n0;

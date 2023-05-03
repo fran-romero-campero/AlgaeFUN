@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre10.g422750:0.73417,(ostreococcus_tauri_ostta04g00890:0.35157,(micromonas_pusilla_Micpu_27339232:0.33022,micromonas_pusilla_Micpu_27346176:0.389259)n2:0.043251)n1:0.63925)n0;

@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta11g01780:0.039575,((ostreococcus_tauri_ostta02g01500:0.18961,(ostreococcus_tauri_ostta16g02510:0.1308,ostreococcus_tauri_ostta19g00570:0.00055)n3:0.0129)n2:0.02481,(ostreococcus_tauri_ostta02g00450:0.30329,ostreococcus_tauri_ostta19g00430:0.04843)n4:0.01635)n1:0.039575)n0;

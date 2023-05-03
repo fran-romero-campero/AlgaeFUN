@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp7g00850:0.55689,(oryza_sativa_LOC_Os11g41500.1:0.45869,(sorghum_bicolor_Sobic.008G004700:0.34788,zea_mays_Zm00001d046887:0.20877)n2:0.1274)n1:0.55689)n0;

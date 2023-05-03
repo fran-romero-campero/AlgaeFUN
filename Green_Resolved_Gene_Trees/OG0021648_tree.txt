@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH06356:0.6183,scenedesmus_obliquus_SZX73146:0.47748)n1:0.27969,(spirogloea_muscicola_SM000086S23042:0.07496,(spirogloea_muscicola_SM000002S05503:0.05848,spirogloea_muscicola_SM000406S15597:0.04858)n3:0.01853)n2:0.27969)n0;

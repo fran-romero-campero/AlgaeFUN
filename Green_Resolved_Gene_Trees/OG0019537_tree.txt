@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c1_23090:0.233295,(oryza_sativa_LOC_Os01g51632.1:0.19722,((triticum_aestivum_Traes_5BL_77A44D868:0.25331,(triticum_aestivum_Traes_3DL_7F2900E33:0.00375,triticum_aestivum_Traes_3AL_5FE3D0E5F:0.00054)n4:0.08734)n3:0.18215,triticum_aestivum_Traes_1AL_2A1F22E15:0.212139)n2:0.023571)n1:0.38259)n0;

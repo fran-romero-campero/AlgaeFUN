@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv02656:0.68192,(coccomyxa_subellipsoidea_Cosub3_1327591:0.81638,((chlamydomonas_reinhardtii_Cre08.g358537:0.22186,volvox_carteri_Vocar.0003s0251:0.37605)n3:0.2757,(chlamydomonas_reinhardtii_Cre02.g080400:0.17866,volvox_carteri_Vocar.0009s0160:0.34207)n4:0.41212)n2:0.37428)n1:0.68192)n0;

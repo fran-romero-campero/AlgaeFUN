@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy06g03030:1.29454,((scenedesmus_obliquus_SZX59829:0.00055,scenedesmus_obliquus_SZX77240:0.00055)n3:1.0362,(dunaliella_salina_Dusal.0195s00001:1.47375,volvox_carteri_Vocar.0002s0625:0.60945)n4:0.14054)n2:0.57508)n1:0.29317,(klebsormidium_nitens_kfl00558_0050:0.48551,klebsormidium_nitens_kfl00839_0060:0.23926)n5:0.29317)n0;

@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c10_16160:0.203695,(solanum_lycopersicum_Solyc09g005470:0.09568,((arabidopsis_thaliana_AT2G28755:0.50414,(aegilops_tauschii_AET2Gv20222400:0.02134,aegilops_tauschii_AET4Gv20525200:0.000459)n4:5.1e-05)n3:0.54292,(triticum_aestivum_Traes_4DL_1D4A338DE:0.17216,triticum_aestivum_Traes_2AS_216467F1E:0.043929)n5:0.004881)n2:0.16781)n1:0.14314)n0;

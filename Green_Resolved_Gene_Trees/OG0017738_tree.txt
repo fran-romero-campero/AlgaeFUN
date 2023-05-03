@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_93238:0.99161,triticum_aestivum_Traes_3DL_0AB2D430B:0.77284)n1:0.56808,((spirogloea_muscicola_SM000290S10905:0.00055,(spirogloea_muscicola_SM004977S17370:0.04048,spirogloea_muscicola_SM005016S17512:0.07804)n4:0.1269)n3:0.02143,(spirogloea_muscicola_SM000151S01472:0.04122,spirogloea_muscicola_SM000083S22780:0.09499)n5:0.05386)n2:0.56808)n0;

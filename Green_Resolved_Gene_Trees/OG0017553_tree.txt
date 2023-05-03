@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp4g00520:0.78264,(thuja_plicata_Thupl.29342442s0003:0.05891,(thuja_plicata_Thupl.29378135s0024:0.07253,(thuja_plicata_Thupl.29378135s0021:0.02834,(thuja_plicata_Thupl.29378135s0026:0.06672,(thuja_plicata_Thupl.29377900s0003:0.05426,thuja_plicata_Thupl.29362707s0001:0.12851)n5:0.09505)n4:0.01421)n3:0.02287)n2:0.00275)n1:0.78264)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH07062:0.428935,((salvinia_cucullata_Sacu_v1.1_s0205.g025736:0,salvinia_cucullata_Sacu_v1.1_s0540.g027484:0)n2:0.42795,(triticum_aestivum_Traes_2BS_F9F811144:0.04889,triticum_aestivum_Traes_2AS_5A921E630:0.02259)n3:0.4264)n1:0.428935)n0;

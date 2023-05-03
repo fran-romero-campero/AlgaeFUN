@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1279312:0.44793,(dunaliella_salina_Dusal.0003s00034:1.21049,(chlamydomonas_reinhardtii_Cre17.g735850:0.27998,(volvox_carteri_Vocar.0017s0156:0.43718,volvox_carteri_Vocar.0017s0155:0.441837)n3:0.049093)n2:0.09057)n1:0.44793)n0;

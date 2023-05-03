@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag17G069200:0.269565,(ceratopteris_richardii_Ceric.03G054800:0.80364,(cycas_panzhihuaensis_CYCAS_026590:0.49626,(aegilops_tauschii_AET6Gv20931700:0.00054,triticum_aestivum_Traes_6DL_2FAFF5EBD:0.17075)n3:1.02727)n2:0.22341)n1:0.269565)n0;

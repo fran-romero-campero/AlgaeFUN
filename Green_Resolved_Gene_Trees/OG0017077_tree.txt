@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre06.g272150:1.62532,mesostigma_viridae_Mv07611:0.77572)n1:0.1465,((coccomyxa_subellipsoidea_Cosub3_1274443:0.67319,ulva_mutabilis_UM149_0010:0.65426)n3:0.22807,(chara_braunii_Chabra1_g31404:0.49851,(klebsormidium_nitens_kfl00073_0040:0.78747,mesotaenium_endlicherianum_ME000052S08167:0.71685)n5:0.16886)n4:0.10488)n2:0.1465)n0;

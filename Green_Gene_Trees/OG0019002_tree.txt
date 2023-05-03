@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre13.g584200:0.61802,klebsormidium_nitens_kfl00694_0040:0.76311)0.361:0.015535,(klebsormidium_nitens_kfl00243_0010:0.98665,(raphidocelis_subcapitata_Rsub_08088:0.92055,(mesostigma_viridae_Mv09251:1.0036,mesostigma_viridae_Mv09656:0.7123)0.578:0.06565)0.936:0.1237)0.361:0.015535);

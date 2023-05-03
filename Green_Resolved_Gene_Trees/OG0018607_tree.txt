@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy18g00770:1.3097,(coccomyxa_subellipsoidea_Cosub3_1207509:0.21464,coccomyxa_subellipsoidea_Cosub3_1207520:0.08773)n2:0.82772)n1:0.35859,(chara_braunii_Chabra1_g16975:0.2074,(chara_braunii_Chabra1_g45393:0.56854,chara_braunii_Chabra1_g24103:0.42661)n4:0.18151)n3:0.35859)n0;

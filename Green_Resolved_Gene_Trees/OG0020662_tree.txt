@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0064.g035562:0.27124,(haematococcus_lacustris_GFH14857:1.04547,(haematococcus_lacustris_GFH21772:0.02915,haematococcus_lacustris_GFH22083:0.00054)n3:0.883935)n2:0.098215)n1:0.37144,mesotaenium_endlicherianum_ME000328S05633:0.11438)n0;

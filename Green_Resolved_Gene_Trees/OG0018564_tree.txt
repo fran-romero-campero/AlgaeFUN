@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy02g00140:0.79662,micromonas_pusilla_Micpu_27339794:0.648)n1:0.44743,(chromochloris_zofingiensis_Cz01g23190:0.57568,(chlamydomonas_reinhardtii_Cre03.g184300:0.68356,(dunaliella_salina_Dusal.0038s00031:0.58588,haematococcus_lacustris_GFH08568:0.81113)n4:0.14815)n3:0.18531)n2:0.44743)n0;

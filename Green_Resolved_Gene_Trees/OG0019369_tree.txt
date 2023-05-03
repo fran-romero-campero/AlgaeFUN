@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc03g122100:0.42613,(haematococcus_lacustris_GFH28828:0.24325,haematococcus_lacustris_GFH32177:0.188316)n2:0.020924)n1:0.13001,(sorghum_bicolor_Sobic.002G401301:0.0914,(triticum_aestivum_Traes_2DS_B898D36BE:0.01064,triticum_aestivum_Traes_2BS_C8BF7ABEB:0.02836)n4:0.10747)n3:0.08778)n0;

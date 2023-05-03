@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_5205:0.51676,chromochloris_zofingiensis_Cz07g06190:0.43473)n1:0.00846,(salvinia_cucullata_Sacu_v1.1_s2619.g028416:1.47509,coccomyxa_subellipsoidea_Cosub3_1213457:0.37909)n2:0.00846)n0;

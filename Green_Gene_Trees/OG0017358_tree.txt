@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_4969:0.62065,mesostigma_viridae_Mv19024:0.68547)1:0.286635,((coccomyxa_subellipsoidea_Cosub3_1162979:0.71628,dunaliella_salina_Dusal.0480s00004:1.12045)0.862:0.13944,(chromochloris_zofingiensis_UNPLg00010:0.427,(dunaliella_salina_Dusal.0522s00010:1.25065,scenedesmus_obliquus_SZX62768:0.35324)0.945:0.30434)0.995:0.32704)1:0.286635);

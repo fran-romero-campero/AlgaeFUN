@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv04245:0.40277,(aegilops_tauschii_AET4Gv20319700:0.12449,(selaginella_moellendorffii_Selmo_410444:0.60071,(zea_mays_Zm00001d031915:0.37427,(zea_mays_Zm00001d045003:0.03122,zea_mays_Zm00001d016734:0.03349)n4:0.00055)n3:0.7071)n2:0.26728)n1:0.40277)n0;

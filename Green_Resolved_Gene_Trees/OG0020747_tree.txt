@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv20767:0.38775,mesostigma_viridae_Mv20769:0.15403)n1:0.522535,(bathycoccus_prasinos_Bathy10g04040:0.42987,(micromonas_pusilla_Micpu_27340157:0.47478,ostreococcus_tauri_ostta09g00330:0.37089)n3:0.17626)n2:0.522535)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH13193:0.26243,((triticum_aestivum_Traes_7AS_7A92A513A:0.59523,(cycas_panzhihuaensis_CYCAS_029943:0.72946,thuja_plicata_Thupl.29377643s0001:0.50306)n3:0.17949)n2:0.09828,(aegilops_tauschii_AET3Gv20988100:0.34201,aegilops_tauschii_AET3Gv20385500:0.159831)n4:0.017759)n1:0.03757)n0;

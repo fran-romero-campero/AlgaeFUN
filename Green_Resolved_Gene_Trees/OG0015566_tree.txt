@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy11g01540:0.840735,(klebsormidium_nitens_kfl00371_0110:1.84481,((mesostigma_viridae_Mv11281:0.53472,mesostigma_viridae_Mv11284:0.33679)n3:0.23548,(mesostigma_viridae_Mv19737:0.42836,(mesostigma_viridae_Mv02383:0.35028,(mesostigma_viridae_Mv04115:0.16387,mesostigma_viridae_Mv04116:0.12782)n6:0.25525)n5:0.09334)n4:0.142002)n2:0.015778)n1:0.12278)n0;

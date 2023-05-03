@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.2G277900:0.08442,physcomitrium_patens_Pp3c14_3690:0.25703)n1:0.38143,(anthoceros_agrestis_AagrOXF_utg000100l.54:1.70903,(anthoceros_agrestis_AagrOXF_utg000100l.55:0.00055,(anthoceros_agrestis_AagrOXF_utg000050l.684:0.02622,anthoceros_agrestis_AagrOXF_utg000076l.33:0.01082)n4:0.01504)n3:0.68477)n2:0.38143)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00395_0130:0.55564,triticum_aestivum_Traes_2AL_1170A98B2:0.70341)n1:0.569895,(haematococcus_lacustris_GFH25755:0.49019,(haematococcus_lacustris_GFH16520:0.0498,(haematococcus_lacustris_GFH21174:0,haematococcus_lacustris_GFH24255:0)n4:0.00055)n3:0.30087)n2:0.569895)n0;

@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz13g09040:0.390195,(marchantia_polymorpha_Mp8g12880:0.38199,(ceratodon_purpureus_CepurR40.3G184700:0.25997,physcomitrium_patens_Pp3c6_16580:0.22161)n2:0.21778)n1:0.390195)n0;

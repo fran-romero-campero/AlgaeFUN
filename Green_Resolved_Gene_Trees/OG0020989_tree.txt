@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.11G008600:0.14821,(cycas_panzhihuaensis_CYCAS_026951:0.83338,((solanum_lycopersicum_Solyc00g500316:0.00055,solanum_lycopersicum_Solyc00g244290:0.00055)n3:0.00054,solanum_lycopersicum_Solyc03g063510:0.143352)n2:0.015928)n1:0.30379)n0;

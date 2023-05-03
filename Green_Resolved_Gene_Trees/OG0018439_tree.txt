@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX59463:1.09573,(bathycoccus_prasinos_Bathy25g00170:0.86665,chlamydomonas_reinhardtii_Cre08.g362600:1.01385)n2:0.56741)n1:0.28816,(marchantia_polymorpha_Mp2g08550:0.37017,(anthoceros_agrestis_AagrOXF_utg000083l.306:0.40458,thuja_plicata_Thupl.29332566s0001:0.53815)n4:0.09646)n3:0.28816)n0;

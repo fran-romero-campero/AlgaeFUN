@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz17g15090:0.55609,(micromonas_pusilla_Micpu_27343702:0.50667,((micromonas_pusilla_Micpu_27348273:0.67759,micromonas_pusilla_Micpu_27343742:0.14095)n3:0.02103,(micromonas_pusilla_Micpu_27346471:0.22949,(micromonas_pusilla_Micpu_27341702:0.02065,micromonas_pusilla_Micpu_27343785:0.04458)n5:0.40359)n4:0.05129)n2:0.18439)n1:0.55609)n0;

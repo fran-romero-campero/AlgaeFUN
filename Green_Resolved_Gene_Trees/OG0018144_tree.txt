@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH08788:0.37995,(thuja_plicata_Thupl.7062816s0001:0.02484,((aegilops_tauschii_AET2Gv21150400:0.00055,triticum_aestivum_Traes_2DL_13F6542FC:0.00055)n3:0.03683,(aegilops_tauschii_AET7Gv21164800:0.0673,triticum_aestivum_Traes_1BL_C5E0E9FE8:0.171963)n4:0.019107)n2:0.27826)n1:0.37995)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH31774:0.33986,(cycas_panzhihuaensis_CYCAS_025804:0.54534,(sphagnum_magellanicum_Sphmag04G010800:0.00055,(sphagnum_magellanicum_Sphmag04G031300:0.00675,sphagnum_magellanicum_Sphmag04G028900:0.0306)n3:0.01872)n2:0.33717)n1:0.33986)n0;

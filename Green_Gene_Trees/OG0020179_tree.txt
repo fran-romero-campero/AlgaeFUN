@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0090s00025:0.873595,(triticum_aestivum_Traes_7DS_D7710AC8D:0.00054,((triticum_aestivum_Traes_7BS_87FD2CF24:0.01925,triticum_aestivum_Traes_7AS_8BC5997EE:0.01985)0.997:0.03116,aegilops_tauschii_AET7Gv20312600:0.00055)0.574:0.00298)1:0.873595);

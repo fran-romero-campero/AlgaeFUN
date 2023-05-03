@@ -1,0 +1,1 @@
+((ostreococcus_tauri_ostta04g04530:0.44459,(micromonas_pusilla_Micpu_27348408:0.47593,bathycoccus_prasinos_Bathy08g04210:0.88143)0.855:0.1155)1:0.340135,(scenedesmus_obliquus_SZX73879:0.25955,(dunaliella_salina_Dusal.0323s00004:0.89757,(chlamydomonas_reinhardtii_Cre09.g407400:0.56591,raphidocelis_subcapitata_Rsub_08620:0.45107)0.701:0.06095)0.948:0.17632)1:0.340135);

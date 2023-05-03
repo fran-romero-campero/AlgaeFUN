@@ -1,0 +1,1 @@
+(((bathycoccus_prasinos_Bathy04g03040:0.24821,ostreococcus_tauri_ostta11g01140:0.20856)n2:1.06275,volvox_carteri_Vocar.0021s0040:0.65011)n1:0.036075,((mesotaenium_endlicherianum_ME000175S02039:0.50624,klebsormidium_nitens_kfl00115_0230:0.27427)n4:0.12943,(klebsormidium_nitens_kfl00242_0160:0.61453,mesotaenium_endlicherianum_ME000175S02040:0.220671)n5:0.024519)n3:0.036075)n0;

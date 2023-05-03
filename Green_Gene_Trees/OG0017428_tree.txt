@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp2g25290:0.875955,(cycas_panzhihuaensis_CYCAS_009182:0.14048,(cycas_panzhihuaensis_CYCAS_011052:0.09136,(cycas_panzhihuaensis_CYCAS_009181:0.01031,((thuja_plicata_Thupl.29378377s0005:0.70414,cycas_panzhihuaensis_CYCAS_009175:0.10907)0.928:0.13204,cycas_panzhihuaensis_CYCAS_009183:0.00055)0.703:0.02225)1:0.59952)0.602:0.10605)1:0.875955);

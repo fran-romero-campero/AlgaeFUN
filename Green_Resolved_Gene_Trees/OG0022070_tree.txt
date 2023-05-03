@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c17_7450:0.10086,physcomitrium_patens_Pp3c14_11480:0.15149)n1:0.27211,(sphagnum_magellanicum_Sphmag06G113700:0.09049,(sphagnum_magellanicum_Sphmag10G052000:0.17266,sphagnum_magellanicum_Sphmag15G070600:0.07949)n3:0.03112)n2:0.27211)n0;

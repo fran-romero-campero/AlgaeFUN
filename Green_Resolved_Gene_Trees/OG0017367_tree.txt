@@ -1,0 +1,1 @@
+((volvox_carteri_Vocar.0001s0972:0.44209,(volvox_carteri_Vocar.0001s0371:0.01746,volvox_carteri_Vocar.0014s0293:0.04488)n2:0.246)n1:0.235115,(scenedesmus_obliquus_SZX77760:0.63079,(chromochloris_zofingiensis_Cz04g16110:0.20356,(chromochloris_zofingiensis_Cz04g16120:0.29757,chromochloris_zofingiensis_Cz17g07050:0.15296)n5:0.11188)n4:0.89842)n3:0.235115)n0;

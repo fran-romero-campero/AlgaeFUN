@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX72910:0.642715,(volvox_carteri_Vocar.0008s0403:0.75763,(dunaliella_salina_Dusal.0016s00021:0.82092,((haematococcus_lacustris_GFH07115:0.01053,haematococcus_lacustris_GFH12671:0.03396)n4:0.49021,haematococcus_lacustris_GFH15503:0.174735)n3:0.019415)n2:0.11744)n1:0.642715)n0;

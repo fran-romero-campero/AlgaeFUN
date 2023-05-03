@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv18973:0.664655,(raphidocelis_subcapitata_Rsub_10755:0.00364,((raphidocelis_subcapitata_Rsub_10754:0.16476,raphidocelis_subcapitata_Rsub_13429:0.23016)n3:0.02485,(raphidocelis_subcapitata_Rsub_13419:0.08325,raphidocelis_subcapitata_Rsub_06890:0.04046)n4:0.01212)n2:0.02282)n1:0.664655)n0;

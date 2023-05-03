@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM018_0133:0.223495,(coccomyxa_subellipsoidea_Cosub3_1189786:0.29758,(dunaliella_salina_Dusal.0482s00012:0.34644,(haematococcus_lacustris_GFH05991:0.00055,haematococcus_lacustris_GFH06842:0.01506)n3:0.26316)n2:0.17394)n1:0.223495)n0;

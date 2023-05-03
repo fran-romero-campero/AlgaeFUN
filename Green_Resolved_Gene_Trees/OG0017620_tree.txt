@@ -1,0 +1,1 @@
+(oryza_sativa_LOC_Os10g24340.1:0.09087,(oryza_sativa_ChrSy.fgenesh.mRNA.29:0.39312,(oryza_sativa_LOC_Os03g22130.1:0.03476,(oryza_sativa_LOC_Os07g26860.1:0.61631,(oryza_sativa_LOC_Os04g22290.1:0.00056,(oryza_sativa_LOC_Os08g26150.1:0.12606,oryza_sativa_LOC_Os06g32520.1:1.42055)n5:0.30758)n4:0.37141)n3:0.0005)n2:0.05512)n1:0.09087)n0;

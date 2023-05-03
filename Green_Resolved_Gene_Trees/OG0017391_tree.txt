@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM001_0110:0.578565,(dunaliella_salina_Dusal.0410s00013:0.72912,((chromochloris_zofingiensis_Cz07g14040:1.04453,scenedesmus_obliquus_SZX59399:0.44693)n3:0.51948,(volvox_carteri_Vocar.0007s0046:0.96214,(haematococcus_lacustris_GFH11003:0.00962,haematococcus_lacustris_GFH31027:0.0409)n5:0.5433)n4:0.09592)n2:0.11026)n1:0.578565)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv01591:0.368955,(micromonas_pusilla_Micpu_27339011:0.69652,(chlamydomonas_reinhardtii_Cre16.g680005:0.38867,volvox_carteri_Vocar.0058s0023:0.39087)n2:0.31702)n1:0.368955)n0;

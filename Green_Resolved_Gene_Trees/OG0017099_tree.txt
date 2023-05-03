@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00158_0050:0.39083,spirogloea_muscicola_SM000007S20945:1.26132)n1:0.18681,(raphidocelis_subcapitata_Rsub_07949:0.43993,((volvox_carteri_Vocar.0064s0030:0.54194,chlamydomonas_reinhardtii_Cre08.g358650:0.34317)n4:0.16559,(chromochloris_zofingiensis_Cz08g10140:0.58224,dunaliella_salina_Dusal.0206s00014:0.85541)n5:0.11388)n3:0.06794)n2:0.18681)n0;

@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag12G021500:0.472245,(salvinia_cucullata_Sacu_v1.1_s0067.g016306:0.30853,((triticum_aestivum_Traes_1AL_6C25C81BB:0.02049,triticum_aestivum_Traes_1BL_96B3BBD54:0.04174)n3:0.13577,triticum_aestivum_Traes_5DL_B8863E2E0:0.73674)n2:0.08186)n1:0.24588)n0;

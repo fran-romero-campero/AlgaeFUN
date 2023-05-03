@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00024_0470:0.6124,klebsormidium_nitens_kfl00454_0130:1.05579)n1:0.261105,((chromochloris_zofingiensis_Cz14g21020:0.63185,scenedesmus_obliquus_SZX79515:0.71969)n3:0.52876,(bathycoccus_prasinos_Bathy13g00570:0.42739,(micromonas_pusilla_Micpu_27340172:0.64851,ostreococcus_tauri_ostta11g02880:0.31822)n5:0.20632)n4:0.50737)n2:0.261105)n0;

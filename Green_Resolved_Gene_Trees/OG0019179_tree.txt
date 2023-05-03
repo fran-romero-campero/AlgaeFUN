@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27346508:0.304575,(coccomyxa_subellipsoidea_Cosub3_1289700:0.35322,(ulva_mutabilis_UM068_0052:0.58682,(chromochloris_zofingiensis_Cz05g01260:0.30565,(scenedesmus_obliquus_SZX78413:0,scenedesmus_obliquus_SZX68979:0)n4:0.30271)n3:0.17158)n2:0.09868)n1:0.304575)n0;

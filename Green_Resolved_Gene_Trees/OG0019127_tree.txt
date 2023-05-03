@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27347446:0.216655,((spirogloea_muscicola_SM000093S24416:0.01437,(spirogloea_muscicola_SM000171S03242:0.15215,spirogloea_muscicola_SM000219S06700:0.03159)n3:0.02615)n2:0.69538,(chlorokybus_atmophyticus_Chlat1_4566:0.28078,chlorokybus_atmophyticus_Chlat1_877:0.61432)n4:0.15526)n1:0.216655)n0;

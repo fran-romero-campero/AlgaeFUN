@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1157502:0.64163,((mesostigma_viridae_Mv07242:0.30912,mesostigma_viridae_Mv17474:0.3601)n2:0.36178,(klebsormidium_nitens_kfl00001_0380:0.66332,(chara_braunii_Chabra1_g4444:0.59005,chara_braunii_Chabra1_g31101:0.64259)n4:0.26766)n3:0.37902)n1:0.64163)n0;

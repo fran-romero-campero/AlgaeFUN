@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_ATMG00040:0.41164,sorghum_bicolor_Sobic.008G029600:0.91027)0.869:0.089945,(aegilops_tauschii_AET4Gv20294500:0.30255,(arabidopsis_thaliana_AT2G07777:0.00573,arabidopsis_thaliana_ATMG01090:0.00183)0.789:0.06873)0.869:0.089945);

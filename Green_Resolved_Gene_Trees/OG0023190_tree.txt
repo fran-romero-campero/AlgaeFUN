@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH29391:0.110205,(ceratopteris_richardii_Ceric.1Z325800:0.23008,(aegilops_tauschii_AET3Gv20085100:0.03182,triticum_aestivum_Traes_4BS_322CD6BA5:0.00677)n2:0.18317)n1:0.110205)n0;

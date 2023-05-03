@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_000189:0.030575,(cycas_panzhihuaensis_CYCAS_032279:0.00054,(cycas_panzhihuaensis_CYCAS_033241:0.01974,(cycas_panzhihuaensis_CYCAS_000188:0.00965,(cycas_panzhihuaensis_CYCAS_033242:0.01713,(cycas_panzhihuaensis_CYCAS_001905:0.62849,cycas_panzhihuaensis_CYCAS_000190:0.04687)0.762:0.01092)0.732:0.011)0.753:0.00922)0.947:0.2228)1:0.030575);

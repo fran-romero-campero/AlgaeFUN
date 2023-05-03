@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT3G07290:0.50036,(selaginella_moellendorffii_Selmo_90583:0.77067,selaginella_moellendorffii_Selmo_417683:0.957087)n2:0.106343)n1:0.18257,triticum_aestivum_Traes_7BL_7D6A00C8C:0.42452)n0;

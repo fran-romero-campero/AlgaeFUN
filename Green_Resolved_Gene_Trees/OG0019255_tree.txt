@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_016809:0.242025,(triticum_aestivum_Traes_1AL_CCD30138D:0.33694,(oryza_sativa_LOC_Os09g16150.1:0.39317,(oryza_sativa_LOC_Os02g52060.1:0.05151,(oryza_sativa_LOC_Os07g26450.1:0.84571,oryza_sativa_LOC_Os02g31980.1:0.08904)n4:0.00054)n3:0.15255)n2:0.41634)n1:0.242025)n0;

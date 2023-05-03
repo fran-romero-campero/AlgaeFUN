@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv12763:0.74023,(scenedesmus_obliquus_SZX62917:0.32214,(coccomyxa_subellipsoidea_Cosub3_1204794:1.25267,(dunaliella_salina_Dusal.0641s00001:0.77258,(chlamydomonas_reinhardtii_Cre12.g513800:0.24931,volvox_carteri_Vocar.0006s0296:0.19258)n4:0.15727)n3:0.13156)n2:0.19945)n1:0.74023)n0;

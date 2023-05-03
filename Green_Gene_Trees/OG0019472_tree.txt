@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv01872:0.610425,(ostreococcus_tauri_ostta04g01845:0.00054,(micromonas_pusilla_Micpu_27339641:0.89582,(ostreococcus_tauri_ostta04g02420:0.7008,(ostreococcus_tauri_ostta03g00010:0.0885,ostreococcus_tauri_ostta04g02450:0.06944)0.571:0.04655)0.908:0.31734)1:1.15044)1:0.610425);

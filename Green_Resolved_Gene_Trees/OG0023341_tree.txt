@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv17437:0.456385,(anthoceros_agrestis_AagrOXF_utg000111l.234:0.64222,(spirogloea_muscicola_SM000008S22154:0.0126,spirogloea_muscicola_SM000035S13088:0.03045)n2:0.33525)n1:0.456385)n0;

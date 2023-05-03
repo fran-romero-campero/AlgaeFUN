@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM007_0170:0.194605,(coccomyxa_subellipsoidea_Cosub3_1175133:0.6183,((dunaliella_salina_Dusal.0117s00024:0.3006,haematococcus_lacustris_GFH19548:1.03145)n3:0.86165,(chlamydomonas_reinhardtii_Cre16.g686550:0.21133,volvox_carteri_Vocar.0042s0074:0.2314)n4:0.48821)n2:0.39446)n1:0.194605)n0;

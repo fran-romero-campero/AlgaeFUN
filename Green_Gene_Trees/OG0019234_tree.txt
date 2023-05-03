@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c12_3890:0.1181,(physcomitrium_patens_Pp3c15_2360:0.09272,physcomitrium_patens_Pp3c15_2341:0.00055)0.968:0.31959)1:0.63009,(selaginella_moellendorffii_Selmo_71477:0.73204,(cycas_panzhihuaensis_CYCAS_003489:0.29169,thuja_plicata_Thupl.29378781s0003:0.17171)0.202:0.09619)1:0.63009);

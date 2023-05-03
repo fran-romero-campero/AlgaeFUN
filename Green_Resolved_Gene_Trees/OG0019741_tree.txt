@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.010G049700:0.12525,(sorghum_bicolor_Sobic.010G051900:0.63427,sorghum_bicolor_Sobic.010G049600:0.23284)n2:0.13389)n1:0.055625,(zea_mays_Zm00001d036267:0.0452,(zea_mays_Zm00001d036272:0.03457,zea_mays_Zm00001d036270:0.00837)n4:0.09127)n3:0.055625)n0;

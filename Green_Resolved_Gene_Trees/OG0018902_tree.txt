@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre14.g629050:0.71314,chlamydomonas_reinhardtii_Cre17.g724100:0.60511)n1:0.34127,(coccomyxa_subellipsoidea_Cosub3_1172613:0.19372,(coccomyxa_subellipsoidea_Cosub3_1329609:0.51513,(coccomyxa_subellipsoidea_Cosub3_1089882:0.29463,coccomyxa_subellipsoidea_Cosub3_1172603:0.33561)n4:0.22693)n3:0.0666)n2:0.34127)n0;

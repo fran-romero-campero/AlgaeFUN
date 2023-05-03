@@ -1,0 +1,1 @@
+(((klebsormidium_nitens_kfl00817_0020:1.21557,scenedesmus_obliquus_SZX68879:1.21414)0.925:0.32549,(micromonas_pusilla_Micpu_27347899:0.94513,(dunaliella_salina_Dusal.0063s00024:0.9886,raphidocelis_subcapitata_Rsub_05303:0.65152)0.847:0.20895)0.241:0.03724)0.826:0.06994,(mesostigma_viridae_Mv01889:0.95287,micromonas_pusilla_Micpu_27348675:0.72796)0.826:0.06994);

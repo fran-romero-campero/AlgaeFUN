@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv02233:0.707935,(klebsormidium_nitens_kfl00030_0040:1.1517,((chara_braunii_Chabra1_g32326:0.43309,((chara_braunii_Chabra1_g38570:0.04298,chara_braunii_Chabra1_g38574:0.08739)n5:0.4396,(chara_braunii_Chabra1_g59536:0.13192,chara_braunii_Chabra1_g39125:0.50846)n6:0.27338)n4:0.2972)n3:0.16136,chara_braunii_Chabra1_g36220:0.92952)n2:0.10328)n1:0.09341)n0;

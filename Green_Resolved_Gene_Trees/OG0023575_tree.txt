@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy01g03340:0.75833,ostreococcus_tauri_ostta01g04580:0.59703)n1:0.154555,(chara_braunii_Chabra1_g45687:1.11062,chlorokybus_atmophyticus_Chlat1_5941:0.41787)n2:0.154555)n0;

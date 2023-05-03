@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_04044:0.83072,(coccomyxa_subellipsoidea_Cosub3_1178000:0.71656,(dunaliella_salina_Dusal.0163s00016:0.40512,volvox_carteri_Vocar.0018s0240:0.57986)n3:0.46627)n2:0.274)n1:0.494005,(spirogloea_muscicola_SM000001S04774:0.07109,(spirogloea_muscicola_SM000127S26648:0.09968,spirogloea_muscicola_SM000044S15974:0.05178)n5:0.04748)n4:0.494005)n0;

@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g22871:0.39351,((aegilops_tauschii_AET5Gv20209000:0.05947,triticum_aestivum_Traes_5AS_76D508CE1:0.09926)n2:0.60012,(thuja_plicata_Thupl.29379152s0004:0.09419,thuja_plicata_Thupl.29380857s0007:0.04836)n3:0.47049)n1:0.39351)n0;

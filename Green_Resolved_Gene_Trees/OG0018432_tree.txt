@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1309309:0.65895,(physcomitrium_patens_Pp3c2_21690:0.2632,(anthoceros_agrestis_AagrOXF_utg000061l.69:0.79825,(sphagnum_magellanicum_Sphmag05G107900:0.12224,(ceratodon_purpureus_CepurR40.9G008300:0.21649,ceratodon_purpureus_CepurR40.11G122100:0.20634)n4:0.09233)n3:0.17624)n2:0.10064)n1:0.65895)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00275_0090:0.987965,(sorghum_bicolor_Sobic.003G284600:0.26504,(triticum_aestivum_Traes_3B_291136FD3:0.0225,(triticum_aestivum_Traes_3DL_C7592B4A1:0.01726,triticum_aestivum_Traes_3AL_C6FD80045:0.01682)n3:0.0018)n2:0.28479)n1:0.987965)n0;

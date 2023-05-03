@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc05g005060:0.361985,(cycas_panzhihuaensis_CYCAS_015206:0.11261,((cycas_panzhihuaensis_CYCAS_015205:0.02051,cycas_panzhihuaensis_CYCAS_015265:0.04602)n3:0.04865,cycas_panzhihuaensis_CYCAS_015266:0.10562)n2:0.01431)n1:0.361985)n0;

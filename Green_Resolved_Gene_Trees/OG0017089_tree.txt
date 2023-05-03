@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1241357:0.4163,(klebsormidium_nitens_kfl00188_0120:0.51139,(chara_braunii_Chabra1_g45398:0.51781,(cycas_panzhihuaensis_CYCAS_023018:0.81455,(mesotaenium_endlicherianum_ME000422S07088:0.21361,(mesotaenium_endlicherianum_ME000422S07080:0.24299,mesotaenium_endlicherianum_ME000422S07082:0.13153)n5:0.18289)n4:0.51078)n3:0.24869)n2:0.16856)n1:0.4163)n0;

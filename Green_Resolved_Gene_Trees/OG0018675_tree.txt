@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00233_0030:0.51182,((ceratopteris_richardii_Ceric.05G097100:0.90774,(ceratodon_purpureus_CepurR40.3G041500:0.0731,ceratodon_purpureus_CepurR40.12G183700:0.27835)n3:0.51703)n2:0.17163,(salvinia_cucullata_Sacu_v1.1_s0073.g017067:0.62765,selaginella_moellendorffii_Selmo_431747:0.64638)n4:0.17152)n1:0.51182)n0;

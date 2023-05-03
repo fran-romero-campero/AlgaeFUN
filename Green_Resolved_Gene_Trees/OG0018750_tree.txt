@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000331S05598:0.20669,((oryza_sativa_LOC_Os03g38920.1:0.69621,(triticum_aestivum_Traes_3B_A3C46D6AE:0.4318,triticum_aestivum_Traes_3DL_364B4963F:0.145584)n3:0.016176)n2:0.39128,(ceratopteris_richardii_Ceric.03G050600:0.05787,ceratopteris_richardii_Ceric.1Z179800:0.01368)n4:0.40567)n1:0.20669)n0;

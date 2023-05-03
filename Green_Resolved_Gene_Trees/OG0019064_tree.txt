@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_235:0.403075,(scenedesmus_obliquus_SZX65621:1.41739,(ulva_mutabilis_UM001_0624:1.02236,(volvox_carteri_Vocar.0001s0723:0.28659,(chlamydomonas_reinhardtii_Cre01.g035650:0.53582,chlamydomonas_reinhardtii_Cre01.g035700:0.21398)n4:0.26467)n3:0.33549)n2:0.13536)n1:0.403075)n0;

@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc04g025710:0.63468,spirogloea_muscicola_SM001516S01689:0.12464)n1:0.19798,(haematococcus_lacustris_GFH22112:0.00055,haematococcus_lacustris_GFH22117:0.00054)n2:0.19798)n0;

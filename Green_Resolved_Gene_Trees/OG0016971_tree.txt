@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp2g09300:0.87068,marchantia_polymorpha_Mp5g04890:1.10637)n1:0.40391,(ceratodon_purpureus_CepurR40.VG114400:0.04046,((ceratodon_purpureus_CepurR40.VG032000:0.03199,ceratodon_purpureus_CepurR40.VG192200:0.00797)n4:0.01616,(ceratodon_purpureus_CepurR40.3G202700:0.00803,ceratodon_purpureus_CepurR40.VG016200:0.03143)n5:0.00398)n3:0.0869)n2:0.40391)n0;

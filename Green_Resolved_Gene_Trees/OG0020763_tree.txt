@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy17g00600:0.484565,(klebsormidium_nitens_kfl00056_0160:0.73863,(mesostigma_viridae_Mv12479:0.53227,(chlorokybus_atmophyticus_Chlat1_8940:0.74953,mesotaenium_endlicherianum_ME000403S06863:0.65118)n3:0.25944)n2:0.9804)n1:0.484565)n0;

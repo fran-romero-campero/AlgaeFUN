@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv14004:0.0372,mesostigma_viridae_Mv08176:0.07117)n1:0.424515,(coccomyxa_subellipsoidea_Cosub3_1384800:0.9481,(ulva_mutabilis_UM009_0093:0.74205,ulva_mutabilis_UM015_0075:0.77567)n3:0.15155)n2:0.424515)n0;

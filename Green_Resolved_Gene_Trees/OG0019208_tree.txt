@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1105729:0.82584,coccomyxa_subellipsoidea_Cosub3_1377787:0.86983)n1:0.298175,((klebsormidium_nitens_kfl00336_0050:0.36311,klebsormidium_nitens_kfl01313_0020:0.30466)n3:0.49811,(klebsormidium_nitens_kfl00718_0050:0.64049,klebsormidium_nitens_kfl00949_0020:0.5622)n4:0.12873)n2:0.298175)n0;

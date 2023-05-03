@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000038l.96:0.65772,anthoceros_agrestis_AagrOXF_utg000038l.88:0.20796)n1:0.400465,(triticum_aestivum_Traes_4DL_8A589714B:0.00055,(triticum_aestivum_Traes_4BL_9B25CE02C:0.03987,triticum_aestivum_Traes_4DL_DD4620E07:0.03731)n3:0.07745)n2:0.400465)n0;

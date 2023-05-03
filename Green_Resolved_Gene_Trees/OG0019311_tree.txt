@@ -1,0 +1,1 @@
+(((haematococcus_lacustris_GFH14962:0.08184,haematococcus_lacustris_GFH30188:0.03891)n2:0.42879,(dunaliella_salina_Dusal.0198s00008:0.45944,volvox_carteri_Vocar.0003s0424:0.29103)n3:0.07888)n1:0.13312,(raphidocelis_subcapitata_Rsub_07349:0.53123,scenedesmus_obliquus_SZX66737:0.38396)n4:0.13312)n0;

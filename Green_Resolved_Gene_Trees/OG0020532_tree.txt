@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000063l.94:0.49701,marchantia_polymorpha_Mp8g03170:0.60577)n1:0.3439,(ceratopteris_richardii_Ceric.13G043900:0.60956,(azolla_filiculoides_Azfi_s0100.g044223:0.69641,salvinia_cucullata_Sacu_v1.1_s0174.g024498:0.58646)n3:0.4372)n2:0.3439)n0;

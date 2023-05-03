@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_134781:0.573305,(physcomitrium_patens_Pp3c15_860:0.87775,((physcomitrium_patens_Pp3c4_14498:0.27622,physcomitrium_patens_Pp3c2_2550:0.26781)n3:0.15075,(physcomitrium_patens_Pp3c1_21690:0.10892,physcomitrium_patens_Pp3c1_9166:0.45795)n4:0.07037)n2:0.00055)n1:0.573305)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH20284:0.263765,((solanum_lycopersicum_Solyc07g065770:0.27009,(triticum_aestivum_Traes_7AS_7A237402A:0.48868,(triticum_aestivum_Traes_7AL_3FCCB8565:0.05231,triticum_aestivum_Traes_7BL_29A5DB0A1:0.07036)n4:0.396783)n3:0.044087)n2:0.2977,(mesotaenium_endlicherianum_ME000243S03983:0.46689,thuja_plicata_Thupl.29379343s0009:0.92966)n5:0.60412)n1:0.2553)n0;

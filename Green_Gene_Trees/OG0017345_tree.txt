@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_9230:0.56318,(chlorokybus_atmophyticus_Chlat1_1026:0.73263,chlorokybus_atmophyticus_Chlat1_3206:1.28061)0.862:0.26949)0.944:0.169135,(raphidocelis_subcapitata_Rsub_07848:0.70165,(scenedesmus_obliquus_SZX62022:1.00446,(chromochloris_zofingiensis_Cz15g21170:0.82857,scenedesmus_obliquus_SZX74140:0.4457)0.737:0.16196)0.801:0.17948)0.944:0.169135);

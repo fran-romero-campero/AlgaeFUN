@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET1Gv20283200:0.575075,(chromochloris_zofingiensis_Cz05g31160:0.47901,(haematococcus_lacustris_GFH21936:0.0112,haematococcus_lacustris_GFH25207:0.00055)n2:0.16903)n1:0.575075)n0;

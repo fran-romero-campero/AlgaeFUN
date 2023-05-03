@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre07.g327750:0.804035,(mesostigma_viridae_Mv17148:0.61093,((mesostigma_viridae_Mv17149:0.89995,(mesostigma_viridae_Mv03197:0.15376,(mesostigma_viridae_Mv07941:0.01226,mesostigma_viridae_Mv15537:0.01524)1:0.1378)0.988:0.22163)0.643:0.06394,(mesostigma_viridae_Mv14310:0.5277,mesostigma_viridae_Mv10359:0.14396)1:0.38657)0.998:0.54089)1:0.804035);

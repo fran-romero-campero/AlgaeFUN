@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT3G11591:1.03997,cycas_panzhihuaensis_CYCAS_021582:0.04563)n1:0.593635,(marchantia_polymorpha_Mp2g20750:0.58479,sphagnum_magellanicum_Sphmag05G122200:0.60826)n2:0.593635)n0;

@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_9244:0.93844,coccomyxa_subellipsoidea_Cosub3_1165498:0.46982)n1:0.03554,(klebsormidium_nitens_kfl00066_0200:0.43686,(chromochloris_zofingiensis_Cz11g06120:0.23807,(scenedesmus_obliquus_SZX75712:0.2327,(haematococcus_lacustris_GFH06085:0.00054,haematococcus_lacustris_GFH06433:0.06381)n5:0.59269)n4:0.13326)n3:0.22742)n2:0.03554)n0;

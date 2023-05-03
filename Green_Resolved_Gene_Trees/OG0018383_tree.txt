@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy19g00710:0.75807,(anthoceros_agrestis_AagrOXF_utg000126l.240:0.27735,(anthoceros_agrestis_AagrOXF_utg000006l.1193:0.41818,((anthoceros_agrestis_AagrOXF_utg000063l.420:0.1173,anthoceros_agrestis_AagrOXF_utg000100l.255:0.02329)n4:0.03196,anthoceros_agrestis_AagrOXF_utg000104l.93:0.00055)n3:0.00054)n2:0.265)n1:0.75807)n0;

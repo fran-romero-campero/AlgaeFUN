@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g38488:0.81128,klebsormidium_nitens_kfl00073_0260:0.91488)n1:0.12165,(volvox_carteri_Vocar.0022s0096:0.35884,(chlamydomonas_reinhardtii_Cre02.g084200:0.49482,chlamydomonas_reinhardtii_Cre02.g084100:0.18819)n3:0.02091)n2:0.09059)n0;

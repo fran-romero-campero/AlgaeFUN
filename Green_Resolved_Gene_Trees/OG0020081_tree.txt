@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp4g00690:0.521675,(thuja_plicata_Thupl.29379900s0001:0.39206,(aegilops_tauschii_AET7Gv21033200:0.19332,(triticum_aestivum_Traes_7AL_4F1E01CA5:0.05897,triticum_aestivum_Traes_7BL_EF96B493B:0.027423)n3:0.003047)n2:0.05574)n1:0.521675)n0;

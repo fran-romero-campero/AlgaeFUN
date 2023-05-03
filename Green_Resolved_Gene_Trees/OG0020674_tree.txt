@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.02G071300:0.47663,(ceratopteris_richardii_Ceric.36G035100:0.44891,ceratopteris_richardii_Ceric.09G090100:0.37599)n2:0.53587)n1:0.0709,(azolla_filiculoides_Azfi_s0138.g051080:0.73902,salvinia_cucullata_Sacu_v1.1_s0055.g014335:0.50047)n3:0.0709)n0;

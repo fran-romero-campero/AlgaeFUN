@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00050_0200:1.0924,mesostigma_viridae_Mv01619:0.51199)0.9:0.10408,(ulva_mutabilis_UM009_0118:0.82129,((chlamydomonas_reinhardtii_Cre03.g153700:0.2678,volvox_carteri_Vocar.0019s0124:0.30382)1:0.34161,(dunaliella_salina_Dusal.0611s00006:0.38273,haematococcus_lacustris_GFH11021:0.24146)0.941:0.14003)0.99:0.31278)0.9:0.10408);

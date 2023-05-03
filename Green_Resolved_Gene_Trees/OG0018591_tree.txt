@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1246376:0.70854,(raphidocelis_subcapitata_Rsub_10430:0.70174,scenedesmus_obliquus_SZX64380:0.68482)n2:0.39066)n1:0.119895,(micromonas_pusilla_Micpu_27348331:0.50412,(bathycoccus_prasinos_Bathy08g03000:0.77652,ostreococcus_tauri_ostta04g03630:0.40522)n4:0.18863)n3:0.119895)n0;

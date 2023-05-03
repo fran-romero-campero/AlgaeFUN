@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0170.g055590:0.05058,salvinia_cucullata_Sacu_v1.1_s0419.g027357:0.55418)1:0.65876,(cycas_panzhihuaensis_CYCAS_013273:0.01845,(cycas_panzhihuaensis_CYCAS_031901:0.15327,(cycas_panzhihuaensis_CYCAS_023290:0.05957,(cycas_panzhihuaensis_CYCAS_000172:0.11682,cycas_panzhihuaensis_CYCAS_020948:0.12446)0.741:0.02012)0.919:0.05635)0.653:0.12615)1:0.65876);

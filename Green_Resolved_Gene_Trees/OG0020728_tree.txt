@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy06g02380:0.350405,((chara_braunii_Chabra1_g38560:0.18044,chara_braunii_Chabra1_g49055:0.07744)n2:1.18114,(mesostigma_viridae_Mv06199:0.30289,mesostigma_viridae_Mv19553:0.16031)n3:0.48127)n1:0.350405)n0;

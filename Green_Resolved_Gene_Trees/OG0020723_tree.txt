@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy04g04070:0.505015,(zea_mays_Zm00001d032838:0.37851,(cycas_panzhihuaensis_CYCAS_026722:0.46747,(cycas_panzhihuaensis_CYCAS_003442:0.01552,cycas_panzhihuaensis_CYCAS_003443:0.00533)n3:0.45548)n2:0.61781)n1:0.505015)n0;

@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0391s00015:0.54277,(haematococcus_lacustris_GFH24115:0.00053,haematococcus_lacustris_GFH31900:0.04491)n2:0.41636)n1:0.361795,(aegilops_tauschii_AET1Gv20960800:0.08323,(triticum_aestivum_Traes_1DL_1847B3E29:0.00055,(triticum_aestivum_Traes_1AL_5727A45FB:0.058,triticum_aestivum_Traes_1BL_B3057FFDE:0.018612)n5:0.0018612)n4:0.0002068)n3:0.10407)n0;

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1167086:0.44175,(haematococcus_lacustris_GFH15334:1.23737,(raphidocelis_subcapitata_Rsub_06270:0.54114,(dunaliella_salina_Dusal.0372s00011:1.1277,(chromochloris_zofingiensis_Cz09g19260:0.77856,(scenedesmus_obliquus_SZX71628:0.86681,dunaliella_salina_Dusal.0320s00004:0.95035)n5:0.13695)n4:0.136359)n3:0.015151)n2:0.07936)n1:0.18198)n0;

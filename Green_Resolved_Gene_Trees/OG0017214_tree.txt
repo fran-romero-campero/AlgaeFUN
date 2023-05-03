@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27345303:0.40011,selaginella_moellendorffii_Selmo_158115:1.45262)n1:0.231905,(raphidocelis_subcapitata_Rsub_07640:0.43526,(mesostigma_viridae_Mv22512:0.9211,(haematococcus_lacustris_GFH13768:0.45557,(chlamydomonas_reinhardtii_Cre17.g726950:0.66508,volvox_carteri_Vocar.0019s0037:0.49076)n5:0.1487)n4:0.08939)n3:0.15831)n2:0.231905)n0;

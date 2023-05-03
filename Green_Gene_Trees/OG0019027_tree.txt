@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_4900:0.727625,(chlamydomonas_reinhardtii_Cre02.g095600:0.86546,((scenedesmus_obliquus_SZX69465:0.35096,scenedesmus_obliquus_SZX75861:0.39576)0.384:0.01078,(raphidocelis_subcapitata_Rsub_00942:0.70102,chromochloris_zofingiensis_Cz16g08210:0.41215)0.784:0.17374)0.989:0.4789)1:0.727625);

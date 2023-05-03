@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv22342:0.750475,((coccomyxa_subellipsoidea_Cosub3_1325725:0.65017,coccomyxa_subellipsoidea_Cosub3_606560:0.21758)n2:0.36988,(coccomyxa_subellipsoidea_Cosub3_1388496:0.5039,coccomyxa_subellipsoidea_Cosub3_1398568:0.4662)n3:0.50413)n1:0.750475)n0;

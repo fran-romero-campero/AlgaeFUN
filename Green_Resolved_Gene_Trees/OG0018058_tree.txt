@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0535.g076093:0.567745,((oryza_sativa_LOC_Os11g19490.1:0.14269,((triticum_aestivum_Traes_2BL_50E968BFA:0.02122,triticum_aestivum_Traes_2DL_B320A2B24:0.000495)n4:5.5e-05,triticum_aestivum_Traes_4AL_D46D81AD0:0.136566)n3:0.015174)n2:0.1722,aegilops_tauschii_AET2Gv20980900:0.00054)n1:0.567745)n0;

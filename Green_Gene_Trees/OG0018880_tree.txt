@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_10540:0.77557,(chromochloris_zofingiensis_Cz14g13250:1.1261,scenedesmus_obliquus_SZX74382:0.72388)0.869:0.13768)0.904:0.073105,(dunaliella_salina_Dusal.0040s00028:1.34898,(chlamydomonas_reinhardtii_Cre07.g335550:0.54673,volvox_carteri_Vocar.0011s0111:0.66009)0.999:0.34312)0.904:0.073105);

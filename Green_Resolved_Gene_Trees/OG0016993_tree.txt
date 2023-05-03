@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00170_0090:0.471665,((chara_braunii_Chabra1_g20342:1.69321,mesotaenium_endlicherianum_ME000137S00595:0.47101)n2:0.23022,(sphagnum_magellanicum_Sphmag14G069400:0.45052,(ceratodon_purpureus_CepurR40.12G183800:0.29972,(physcomitrium_patens_Pp3c20_1240:0.23469,physcomitrium_patens_Pp3c23_21680:0.14934)n5:0.04252)n4:0.20165)n3:0.2024)n1:0.471665)n0;

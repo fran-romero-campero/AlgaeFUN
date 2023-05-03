@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_02829:0.84139,(haematococcus_lacustris_GFH06887:0.00055,haematococcus_lacustris_GFH15748:0.00055)n2:0.70758)n1:0.338005,(micromonas_pusilla_Micpu_27348173:0.60427,(bathycoccus_prasinos_Bathy05g00790:0.57553,ostreococcus_tauri_ostta14g00040:0.5053)n4:0.0562)n3:0.338005)n0;

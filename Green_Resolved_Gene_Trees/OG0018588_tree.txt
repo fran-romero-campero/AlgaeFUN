@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM084_0030:1.062,(chromochloris_zofingiensis_Cz06g23040:0.9022,coccomyxa_subellipsoidea_Cosub3_688356:0.6352)n2:0.21948)n1:0.149985,(ostreococcus_tauri_ostta15g02910:0.57718,(bathycoccus_prasinos_Bathy08g00090:0.69755,micromonas_pusilla_Micpu_27341099:0.79437)n4:0.15169)n3:0.149985)n0;

@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_v1.1_s0169.g024328:0,salvinia_cucullata_Sacu_v1.1_s2896.g028491:0)n1:0.459485,(sphagnum_magellanicum_Sphmag19G016000:0.93483,(ceratodon_purpureus_CepurR40.7G142200:0.5451,(physcomitrium_patens_Pp3c11_8360:0.22455,physcomitrium_patens_Pp3c7_20230:0.27207)n4:0.03023)n3:0.14881)n2:0.459485)n0;

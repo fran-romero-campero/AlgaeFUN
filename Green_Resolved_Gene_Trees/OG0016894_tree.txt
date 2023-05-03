@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp7g16650:0.79721,(azolla_filiculoides_Azfi_s0276.g061459:1.10566,(ceratopteris_richardii_Ceric.08G070800:0.55429,(cycas_panzhihuaensis_CYCAS_030102:0.20715,(cycas_panzhihuaensis_CYCAS_018873:0.86486,(cycas_panzhihuaensis_CYCAS_025265:0.03703,cycas_panzhihuaensis_CYCAS_025268:0.27112)n5:0.22733)n4:0.6863)n3:0.80828)n2:0.14199)n1:0.79721)n0;

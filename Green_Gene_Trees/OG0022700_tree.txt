@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM007455S21908:0.61561,(aegilops_tauschii_AET5Gv20006300:0.00054,(solanum_lycopersicum_Solyc01g087270:1.20266,aegilops_tauschii_AET5Gv20004200:0.00056)0.971:0.12259)1:0.61561);

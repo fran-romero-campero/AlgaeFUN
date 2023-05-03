@@ -1,0 +1,1 @@
+(volvox_carteri_Vocar.0028s0154:0.38361,((haematococcus_lacustris_GFH23607:0.58494,(haematococcus_lacustris_GFH21264:0.72926,haematococcus_lacustris_GFH23755:0.07285)n3:0.43684)n2:0.01271,(haematococcus_lacustris_GFH16300:0.32603,(haematococcus_lacustris_GFH10610:0.55162,haematococcus_lacustris_GFH20710:0.04999)n5:0.24725)n4:0.32668)n1:0.38361)n0;

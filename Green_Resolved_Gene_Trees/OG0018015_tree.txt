@@ -1,0 +1,1 @@
+((oryza_sativa_ChrUn.fgenesh.mRNA.35:0.76871,(aegilops_tauschii_AET7Gv20008800:0.56718,aegilops_tauschii_AET1Gv20957200:0.371358)n2:0.041262)n1:0.13384,(zea_mays_Zm00001d004337:0.08076,(sorghum_bicolor_Sobic.005G221000:0.17296,sorghum_bicolor_Sobic.006G025200:0.026397)n4:0.002933)n3:0.29439)n0;

@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.35G030200:0.18069,(cycas_panzhihuaensis_CYCAS_028178:0.56005,(oryza_sativa_LOC_Os04g04230.1:0.43623,(zea_mays_Zm00001d022623:0.20058,(zea_mays_Zm00001d023458:0.02296,zea_mays_Zm00001d027592:0.22408)n4:0.429786)n3:0.047754)n2:0.14416)n1:0.18069)n0;

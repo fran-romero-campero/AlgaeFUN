@@ -1,0 +1,1 @@
+(((chlamydomonas_reinhardtii_Cre12.g557503:0.0856,volvox_carteri_Vocar.0007s0037:0.12623)n2:0.57622,((mesostigma_viridae_Mv05461:0.41161,(mesostigma_viridae_Mv09954:0.25183,(mesostigma_viridae_Mv09949:0.64552,mesostigma_viridae_Mv09922:0.22163)n6:0.12388)n5:0.07107)n4:0.5962,mesostigma_viridae_Mv08018:0.656145)n3:0.072905)n1:0.11104,micromonas_pusilla_Micpu_27348940:1.16523)n0;

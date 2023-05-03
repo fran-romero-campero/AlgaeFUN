@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz03g36080:0.622275,(dunaliella_salina_Dusal.0424s00010:0.33166,(haematococcus_lacustris_GFH17908:0.00868,haematococcus_lacustris_GFH19360:0.29329)n2:1.15934)n1:0.622275)n0;

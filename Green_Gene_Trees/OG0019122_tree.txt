@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_2743:0.506415,(coccomyxa_subellipsoidea_Cosub3_1196183:0.82098,(chromochloris_zofingiensis_Cz06g17110:0.62345,(micromonas_pusilla_Micpu_27343676:0.85929,(dunaliella_salina_Dusal.0630s00010:0.88292,haematococcus_lacustris_GFH14664:0.22414)0.769:0.11463)0.961:0.22357)0.9:0.19157)1:0.506415);

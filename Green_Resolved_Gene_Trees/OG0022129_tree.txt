@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX74652:0.51006,((triticum_aestivum_Traes_5DS_C7E051A60:0.00055,triticum_aestivum_Traes_5BS_86FF4A304:0.04865)n2:0.00054,(triticum_aestivum_Traes_5AS_2C1A7EF50:0.00054,triticum_aestivum_Traes_5AS_2B7692892:0.00809)n3:0.06949)n1:0.51006)n0;

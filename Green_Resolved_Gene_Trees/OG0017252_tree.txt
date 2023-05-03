@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27345905:0.570285,((dunaliella_salina_Dusal.0915s00008:0.92494,haematococcus_lacustris_GFH11062:0.37242)n2:0.17747,((chlamydomonas_reinhardtii_Cre02.g112800:0.18767,volvox_carteri_Vocar.0001s1586:0.31792)n4:0.24796,(chromochloris_zofingiensis_Cz11g07160:0.47876,scenedesmus_obliquus_SZX76645:0.45088)n5:0.19147)n3:0.10083)n1:0.570285)n0;

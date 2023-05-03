@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM023_0092:0.257665,((mesostigma_viridae_Mv09276:0.00838,(mesostigma_viridae_Mv04979:0.00633,mesostigma_viridae_Mv08208:0.05717)n3:0.00865)n2:0.89643,(azolla_filiculoides_Azfi_s0570.g077841:0.59192,(thuja_plicata_Thupl.29380573s0007:0.66703,salvinia_cucullata_Sacu_v1.1_s0112.g020757:0.73538)n5:0.21012)n4:1.10267)n1:0.257665)n0;

@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000147S01099:0.220375,(anthoceros_agrestis_AagrOXF_utg000041l.123:0.42275,(ceratopteris_richardii_Ceric.22G043600:0.55629,(sphagnum_magellanicum_Sphmag09G070300:0.5395,(ceratodon_purpureus_CepurR40.8G059800:0.06915,physcomitrium_patens_Pp3c21_11050:0.08252)0.988:0.28226)0.899:0.15957)0.79:0.11083)1:0.220375);

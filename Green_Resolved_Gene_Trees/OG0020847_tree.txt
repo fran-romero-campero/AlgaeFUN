@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g20115:0.696915,((physcomitrium_patens_Pp3c1_13830:0.18868,physcomitrium_patens_Pp3c11_15530:0.53659)n2:0.04585,(ceratodon_purpureus_CepurR40.9G042900:0.37704,ceratodon_purpureus_CepurR40.4G120800:0.1794)n3:0.03671)n1:0.696915)n0;

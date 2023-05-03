@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00098_0230:0.81506,(marchantia_polymorpha_Mp2g05050:0.12254,((marchantia_polymorpha_Mp1g28400:0.03393,marchantia_polymorpha_Mp1g28410:0.06585)0.992:0.06388,(marchantia_polymorpha_Mp1g28420:0.08078,marchantia_polymorpha_Mp8g15380:0.2016)0.999:0.08547)0.872:0.0378)1:0.81506);

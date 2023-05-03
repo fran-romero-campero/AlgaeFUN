@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp7g14150:0.81002,ostreococcus_tauri_ostta19g00310:0.95806)n1:0.33704,(chara_braunii_Chabra1_g44:0.4809,(bathycoccus_prasinos_Bathy08g00590:0.7564,mesostigma_viridae_Mv01739:0.43044)n3:0.2642)n2:0.33704)n0;

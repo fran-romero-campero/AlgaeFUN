@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz03g05180:0.357645,((ceratodon_purpureus_CepurR40.VG050300:0.05944,ceratodon_purpureus_CepurR40.VG325600:0.03561)n2:0.16779,(zea_mays_Zm00001d009671:0.07739,(zea_mays_Zm00001d003115:0.02254,zea_mays_Zm00001d033424:0.02588)n4:0.04043)n3:0.46818)n1:0.357645)n0;

@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_3748:0.77385,mesostigma_viridae_Mv16671:0.68721)n1:0.33576,(ulva_mutabilis_UM009_0010:0.76278,((chlamydomonas_reinhardtii_Cre16.g657950:0.31271,volvox_carteri_Vocar.0004s0085:0.42239)n4:0.31286,(chromochloris_zofingiensis_Cz10g13090:0.34029,scenedesmus_obliquus_SZX70829:0.45701)n5:0.26845)n3:0.17269)n2:0.33576)n0;

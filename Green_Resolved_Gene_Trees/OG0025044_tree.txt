@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH21415:0.50812,haematococcus_lacustris_GFH21973:0.83104)n1:0.36905,(sphagnum_magellanicum_Sphmag02G091400:0.33024,triticum_aestivum_Traes_3B_CCAD3339E:0.36621)n2:0.36905)n0;

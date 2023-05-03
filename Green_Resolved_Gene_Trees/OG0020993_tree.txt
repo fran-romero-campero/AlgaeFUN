@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH05939:0.32131,(ceratopteris_richardii_Ceric.26G068700:0.23704,(marchantia_polymorpha_Mp4g03240:0.63156,(sphagnum_magellanicum_Sphmag03G008100:0.51508,triticum_aestivum_Traes_3DL_2F30F7D2D:0.15945)n3:0.39793)n2:0.28756)n1:0.32131)n0;

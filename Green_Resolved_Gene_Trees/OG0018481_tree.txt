@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_4DL_C6F63B317:1.03464,(arabidopsis_thaliana_AT2G17525:0.32905,(solanum_lycopersicum_Solyc09g061760:0.06113,solanum_lycopersicum_Solyc09g061790:0.12764)n3:0.24579)n2:0.27756)n1:0.20805,(cycas_panzhihuaensis_CYCAS_025438:0.26849,thuja_plicata_Thupl.29378803s0020:0.42584)n4:0.20805)n0;

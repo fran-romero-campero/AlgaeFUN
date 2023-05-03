@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM001_0530:0.77217,((chlamydomonas_reinhardtii_Cre01.g010250:0.43795,chlamydomonas_reinhardtii_Cre01.g009700:0.48469)n2:0.24591,(volvox_carteri_Vocar.0013s0056:0.24259,volvox_carteri_Vocar.0013s0054:0.327447)n3:0.036383)n1:0.10494)n0;

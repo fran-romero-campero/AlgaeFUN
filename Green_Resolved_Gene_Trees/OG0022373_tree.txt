@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM001523S01624:0.00628,spirogloea_muscicola_SM002173S06582:0.00055)n1:0.07425,(zea_mays_Zm00001d007315:0.18536,(triticum_aestivum_Traes_5DS_42A1A9BAA:0.02059,triticum_aestivum_Traes_5BS_45F7A8F84:0.00095)n3:0.09333)n2:0.07425)n0;

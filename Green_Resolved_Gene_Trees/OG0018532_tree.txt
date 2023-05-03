@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.14G034700:0.437645,(salvinia_cucullata_Sacu_v1.1_s0162.g023963:0.80197,((salvinia_cucullata_Sacu_v1.1_s0032.g010940:0.40411,azolla_filiculoides_Azfi_s0081.g038612:0.29722)n3:0.0755,(salvinia_cucullata_Sacu_v1.1_s0041.g012566:0.07535,azolla_filiculoides_Azfi_s0118.g046647:0.182547)n4:0.020283)n2:0.19744)n1:0.437645)n0;

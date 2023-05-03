@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c5_6220:0.41906,(sphagnum_magellanicum_Sphmag09G005400:0.2395,sphagnum_magellanicum_Sphmag12G094700:0.23263)n2:0.30031)n1:0.37125,(coccomyxa_subellipsoidea_Cosub3_1334930:0.0965,(coccomyxa_subellipsoidea_Cosub3_1351834:0.31795,coccomyxa_subellipsoidea_Cosub3_1136549:0.15655)n4:0.08965)n3:0.37125)n0;

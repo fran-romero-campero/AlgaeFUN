@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_410401:0.384275,(marchantia_polymorpha_Mp1g11580:0.79971,(anthoceros_agrestis_AagrOXF_utg000081l.241:1.06251,(anthoceros_agrestis_AagrOXF_utg000081l.249:0.15377,(anthoceros_agrestis_AagrOXF_utg000003l.644:0.20963,anthoceros_agrestis_AagrOXF_utg000081l.242:0.12999)n4:0.11192)n3:0.2629)n2:0.59555)n1:0.384275)n0;

@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g66657:0.53415,((klebsormidium_nitens_kfl00015_0120:0.20089,klebsormidium_nitens_kfl00200_0090:0.22904)n3:0.34933,klebsormidium_nitens_kfl00003_0650:0.501813)n2:0.055757)n1:0.04243,(mesotaenium_endlicherianum_ME000184S02161:0.4269,(anthoceros_agrestis_AagrOXF_utg000118l.70:0.31714,marchantia_polymorpha_Mp5g07870:0.25677)n5:0.15201)n4:0.15591)n0;

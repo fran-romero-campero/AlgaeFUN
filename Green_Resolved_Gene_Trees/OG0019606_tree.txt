@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c2_19770:0.37955,((triticum_aestivum_Traes_4BL_75F74B734:0.06967,triticum_aestivum_Traes_4DL_18854454B:0.52505)n2:0.1244,(zea_mays_Zm00001d044714:0.01003,(zea_mays_Zm00001d036492:0.09956,zea_mays_Zm00001d011129:0.093879)n4:0.0093879)n3:0.0010431)n1:0.05517)n0;

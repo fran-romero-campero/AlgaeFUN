@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g53678:0.48217,((mesotaenium_endlicherianum_ME000093S10394:1.21257,(marchantia_polymorpha_Mp2g13840:0.62807,sphagnum_magellanicum_Sphmag13G035200:0.94651)n3:0.26899)n2:0.17565,(spirogloea_muscicola_SM000333S12553:0.08377,(spirogloea_muscicola_SM000009S23579:0.05217,spirogloea_muscicola_SM000084S23165:0.06039)n5:0.01571)n4:0.59105)n1:0.48217)n0;

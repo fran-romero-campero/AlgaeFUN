@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz04g33090:0.991615,(arabidopsis_thaliana_AT1G49920:0.27919,(arabidopsis_thaliana_AT1G64260:0.19719,(arabidopsis_thaliana_AT1G64253:0.37382,arabidopsis_thaliana_AT1G64255:0.25718)n3:0.06593)n2:0.09985)n1:0.991615)n0;

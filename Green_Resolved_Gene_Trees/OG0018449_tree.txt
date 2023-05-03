@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX65885:0.54773,scenedesmus_obliquus_SZX79043:0.34927)n1:0.32331,(anthoceros_agrestis_AagrOXF_utg000119l.92:0.1998,((physcomitrium_patens_Pp3c20_7850:0.2209,sphagnum_magellanicum_Sphmag02G043600:0.16522)n4:0.08828,marchantia_polymorpha_Mp5g01370:0.21318)n3:0.05065)n2:0.32331)n0;

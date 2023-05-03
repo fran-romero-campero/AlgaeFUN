@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_014320:0.74515,(sphagnum_magellanicum_Sphmag04G116000:0.3968,(ceratodon_purpureus_CepurR40.4G201700:0.19143,(physcomitrium_patens_Pp3c4_6290:0.00055,physcomitrium_patens_Pp3c4_6280:0.02281)n3:0.34688)n2:0.44881)n1:0.74515)n0;

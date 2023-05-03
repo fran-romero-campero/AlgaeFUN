@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c18_12290:1.59349,marchantia_polymorpha_Mp2g24960:0.34437)n1:0.043935,(sorghum_bicolor_Sobic.010G021401:0.43142,(sorghum_bicolor_Sobic.003G065001:0.22176,(sorghum_bicolor_Sobic.003G367401:0.09096,sorghum_bicolor_Sobic.009G152901:0.02506)n4:0.11987)n3:0.23654)n2:0.043935)n0;

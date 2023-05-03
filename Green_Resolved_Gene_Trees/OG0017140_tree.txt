@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00282_0170:0.6588,((haematococcus_lacustris_GFH29481:0.00055,haematococcus_lacustris_GFH30280:0.4669)n2:0.37702,((chlamydomonas_reinhardtii_Cre14.g617250:0.36569,volvox_carteri_Vocar.0002s0366:0.25422)n4:0.2354,(raphidocelis_subcapitata_Rsub_05256:0.32334,chromochloris_zofingiensis_Cz09g03320:0.41713)n5:0.23396)n3:0.15852)n1:0.6588)n0;

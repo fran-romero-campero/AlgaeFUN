@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM004262S15735:0.21665,((zea_mays_Zm00001d039210:0.36191,(zea_mays_Zm00001d020041:0.08855,zea_mays_Zm00001d009280:0.05802)0.981:0.29871)0.878:0.12529,(selaginella_moellendorffii_Selmo_86312:0.17602,triticum_aestivum_Traes_6DL_0711F00D6:0.12787)0.943:0.18365)1:0.21665);

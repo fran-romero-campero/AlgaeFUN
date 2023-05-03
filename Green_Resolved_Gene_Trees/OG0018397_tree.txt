@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH30885:0.21201,haematococcus_lacustris_GFH17560:0.74461)n1:0.06874,(mesostigma_viridae_Mv01995:0.58833,(sphagnum_magellanicum_Sphmag10G060300:0.61488,(anthoceros_agrestis_AagrOXF_utg000012l.330:0.52132,anthoceros_agrestis_AagrOXF_utg000091l.28:0.390555)n4:0.043395)n3:0.37217)n2:0.06874)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_3778:0.514315,((haematococcus_lacustris_GFH14255:0.41942,haematococcus_lacustris_GFH21933:0.56867)n2:0.52168,(chromochloris_zofingiensis_Cz17g15180:0.33383,raphidocelis_subcapitata_Rsub_02196:1.08448)n3:0.31141)n1:0.514315)n0;

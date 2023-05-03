@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.28G032500:0.36584,(oryza_sativa_LOC_Os03g27550.1:0.25268,(triticum_aestivum_Traes_1DL_61F642A4D:0.26181,triticum_aestivum_Traes_4BL_51104502F:0.57764)n2:0.00054)n1:0.36584)n0;

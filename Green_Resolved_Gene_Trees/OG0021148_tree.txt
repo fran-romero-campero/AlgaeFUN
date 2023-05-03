@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre16.g654000:0,chlamydomonas_reinhardtii_Cre12.g553300:0)n1:0.578005,(solanum_lycopersicum_Solyc02g021670:0.74635,(triticum_aestivum_Traes_2BL_214764690:0.00055,triticum_aestivum_Traes_2DL_4DA6C6B05:0.32078)n3:0.155)n2:0.578005)n0;

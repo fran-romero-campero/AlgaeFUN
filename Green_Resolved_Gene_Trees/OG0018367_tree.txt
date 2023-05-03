@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00128_0250:0.355525,((spirogloea_muscicola_SM000082S22888:0.00058,(spirogloea_muscicola_SM000053S17381:0.03477,spirogloea_muscicola_SM000057S18407:0.01843)n3:0.02986)n2:0.92991,(anthoceros_agrestis_AagrOXF_utg000003l.585:0.89091,ceratopteris_richardii_Ceric.02G004300:0.95973)n4:0.16706)n1:0.355525)n0;

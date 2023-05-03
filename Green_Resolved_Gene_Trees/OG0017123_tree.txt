@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_6413:0.29693,chlorokybus_atmophyticus_Chlat1_6414:0.4131)n1:0.6971,(chromochloris_zofingiensis_Cz09g06010:1.15978,((volvox_carteri_Vocar.0024s0112:0.00723,volvox_carteri_Vocar.0024s0111:0.02795)n4:0.33227,(chlamydomonas_reinhardtii_Cre07.g317864:0.35828,chlamydomonas_reinhardtii_Cre03.g168300:0.1384)n5:0.10513)n3:0.2588)n2:0.6971)n0;

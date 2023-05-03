@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy95g00030:0.53045,chromochloris_zofingiensis_Cz03g25030:0.75436)n1:0.288685,(ceratodon_purpureus_CepurR40.4G003900:0.31359,marchantia_polymorpha_Mp3g18680:0.46604)n2:0.288685)n0;

@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy107g00050:0.89846,ostreococcus_tauri_ostta04g01340:1.22721)n1:0.23517,(coccomyxa_subellipsoidea_Cosub3_1241762:0.21048,coccomyxa_subellipsoidea_Cosub3_1241765:0.12721)n2:0.23517)n0;

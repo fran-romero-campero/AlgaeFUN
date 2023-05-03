@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv20369:0.491115,(dunaliella_salina_Dusal.0467s00010:0.33102,((chromochloris_zofingiensis_Cz03g28050:0,chromochloris_zofingiensis_Cz03g28110:0)n3:0.24395,(raphidocelis_subcapitata_Rsub_03191:0.43792,scenedesmus_obliquus_SZX64545:0.26495)n4:0.1169)n2:0.20735)n1:0.491115)n0;

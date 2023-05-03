@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM011_0210:0.51717,ulva_mutabilis_UM011_0211:0.37118)n1:0.489765,((dunaliella_salina_Dusal.1439s00001:0.14876,dunaliella_salina_Dusal.0024s00019:0.15122)n3:1.35135,(chromochloris_zofingiensis_Cz11g03340:0.49381,scenedesmus_obliquus_SZX60462:0.47458)n4:0.1786)n2:0.489765)n0;

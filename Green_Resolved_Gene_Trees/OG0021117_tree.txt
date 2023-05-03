@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre11.g482400:0.4047,(klebsormidium_nitens_kfl00939_0010:0.7052,(chlorokybus_atmophyticus_Chlat1_6326:0.7728,(chlorokybus_atmophyticus_Chlat1_1413:0.41852,chlorokybus_atmophyticus_Chlat1_1711:0.47428)n3:0.34937)n2:0.3992)n1:0.4047)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH31108:0.311205,(solanum_lycopersicum_Solyc02g083220:0.52557,(spirogloea_muscicola_SM011092S18853:0.12536,(aegilops_tauschii_AET5Gv21118600:0.03772,(triticum_aestivum_Traes_5AL_11EF1ED8A:0.01041,triticum_aestivum_Traes_5DL_36274FF93:0.00055)n4:0.01389)n3:0.38002)n2:0.04712)n1:0.311205)n0;

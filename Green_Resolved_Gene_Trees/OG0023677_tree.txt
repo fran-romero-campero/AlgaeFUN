@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy19g00070:0.91839,ostreococcus_tauri_ostta19g00100:0.58865)n1:0.44227,(dunaliella_salina_Dusal.1311s00001:0.00055,dunaliella_salina_Dusal.1074s00002:0.02719)n2:0.44227)n0;

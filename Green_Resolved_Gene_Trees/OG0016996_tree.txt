@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz06g12010:0.5517,coccomyxa_subellipsoidea_Cosub3_1183008:0.5876)n1:0.182995,(mesostigma_viridae_Mv07450:0.90969,(marchantia_polymorpha_Mp4g15090:0.41083,(ceratodon_purpureus_CepurR40.11G156200:0.19619,(physcomitrium_patens_Pp3c6_6160:0.16226,physcomitrium_patens_Pp3c1_10830:0.01556)n5:0.061)n4:0.70958)n3:0.20837)n2:0.182995)n0;

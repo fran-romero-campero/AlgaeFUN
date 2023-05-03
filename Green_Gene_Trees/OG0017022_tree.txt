@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g812:0.528935,(solanum_lycopersicum_Solyc05g026060:0.7028,(triticum_aestivum_Traes_1AS_528871466:0.3325,((zea_mays_Zm00001d004397:0.08273,(ceratopteris_richardii_Ceric.19G026600:0.70349,zea_mays_Zm00001d032106:0.01349)0.793:0.02052)0.682:0.01127,zea_mays_Zm00001d039736:0.09386)0.954:0.16109)0.94:0.31844)1:0.528935);

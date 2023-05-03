@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0903s00002:0.73025,haematococcus_lacustris_GFH16873:0.57231)n1:0.46107,(chlamydomonas_reinhardtii_Cre16.g680850:0.47886,volvox_carteri_Vocar.0018s0155:0.53426)n2:0.46107)n0;

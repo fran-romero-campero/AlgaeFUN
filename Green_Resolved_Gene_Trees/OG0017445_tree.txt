@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM004197S15253:0.00339,(spirogloea_muscicola_SM004355S15700:0.25367,spirogloea_muscicola_SM004556S16096:0.08855)n2:0.15328)n1:0.18017,(cycas_panzhihuaensis_CYCAS_024630:0.39382,(thuja_plicata_Thupl.29343338s0001:0.16724,(triticum_aestivum_Traes_6BS_EC67767AA:0.14721,triticum_aestivum_Traes_6AS_BC6C6225E:0.00055)n5:0.32704)n4:0.09105)n3:0.18017)n0;

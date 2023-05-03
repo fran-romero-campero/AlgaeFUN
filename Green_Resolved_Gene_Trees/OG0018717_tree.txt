@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.11G129700:1.01494,(chara_braunii_Chabra1_g32017:0.22226,klebsormidium_nitens_kfl00183_g3:0.25572)n2:0.47414)n1:0.09893,(dunaliella_salina_Dusal.0655s00007:0.47172,(chlamydomonas_reinhardtii_Cre09.g404351:0.55763,chlamydomonas_reinhardtii_Cre13.g572600:0.60694)n4:0.15404)n3:0.09893)n0;

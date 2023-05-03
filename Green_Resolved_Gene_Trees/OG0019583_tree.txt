@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta02g00040:0.6369,(spirogloea_muscicola_SM003935S15175:0.18776,(spirogloea_muscicola_SM004060S15685:0.12047,(spirogloea_muscicola_SM000185S04058:0.04725,(spirogloea_muscicola_SM004013S15592:0.03564,spirogloea_muscicola_SM000261S09968:0.09294)n4:0.01191)n3:0.12785)n2:0.25217)n1:0.6369)n0;

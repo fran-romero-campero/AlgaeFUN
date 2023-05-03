@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv11395:0.25971,((chlamydomonas_reinhardtii_Cre02.g095137:0.12026,(volvox_carteri_Vocar.0001s1094:0.09626,volvox_carteri_Vocar.0028s0137:0.04353)n3:0.08891)n2:0.26312,(raphidocelis_subcapitata_Rsub_00352:0.29044,scenedesmus_obliquus_SZX75549:0.21904)n4:0.10222)n1:0.25971)n0;

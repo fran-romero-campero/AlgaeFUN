@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000126S26311:0.39587,((ceratodon_purpureus_CepurR40.11G146300:0.11492,physcomitrium_patens_Pp3c22_17340:0.30456)0.991:0.44019,((sphagnum_magellanicum_Sphmag04G144800:0.07098,sphagnum_magellanicum_Sphmag16G091500:0.07046)1:0.64588,(cycas_panzhihuaensis_CYCAS_025705:1.04689,marchantia_polymorpha_Mp5g17530:0.64033)0.823:0.17401)0.398:0.04411)1:0.39587);

@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT1G65425:0.677395,(sphagnum_magellanicum_Sphmag07G032500:0.6209,((sphagnum_magellanicum_Sphmag02G157100:0.25819,sphagnum_magellanicum_Sphmag01G028200:0.07283)n3:0.45705,(sphagnum_magellanicum_Sphmag14G097200:0.43356,sphagnum_magellanicum_Sphmag06G056900:0.44696)n4:0.17932)n2:0.3009)n1:0.677395)n0;

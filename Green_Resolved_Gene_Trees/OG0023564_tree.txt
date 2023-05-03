@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_018977:0.506685,(ceratopteris_richardii_Ceric.04G015100:0.44151,(azolla_filiculoides_Azfi_s2932.g113765:0.28814,salvinia_cucullata_Sacu_v1.1_s0026.g009533:0.26214)n2:0.1949)n1:0.506685)n0;

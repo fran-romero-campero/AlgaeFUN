@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv20550:0.331845,((klebsormidium_nitens_kfl00063_0230:0.16642,klebsormidium_nitens_kfl00063_0240:0.1205)n2:0.73241,(chara_braunii_Chabra1_g26193:0.81028,(anthoceros_agrestis_AagrOXF_utg000119l.182:0.59239,selaginella_moellendorffii_Selmo_442640:0.61957)n4:0.33408)n3:0.43638)n1:0.331845)n0;

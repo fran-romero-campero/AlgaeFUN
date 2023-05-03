@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre03.g155250:0.54807,(haematococcus_lacustris_GFH18667:0.0492,haematococcus_lacustris_GFH26818:0.00054)n2:0.95307)n1:0.169775,(raphidocelis_subcapitata_Rsub_08568:0.50338,(chromochloris_zofingiensis_Cz14g09130:0.39231,(scenedesmus_obliquus_SZX62041:0,scenedesmus_obliquus_SZX77453:0)n5:0.44309)n4:0.24702)n3:0.169775)n0;

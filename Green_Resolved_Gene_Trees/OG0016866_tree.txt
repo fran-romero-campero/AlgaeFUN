@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c14_11277:0.208105,((cycas_panzhihuaensis_CYCAS_010326:0.49427,(azolla_filiculoides_Azfi_s0010.g012187:0.83781,salvinia_cucullata_Sacu_v1.1_s0126.g021782:0.34895)n3:0.11343)n2:0.10268,(solanum_lycopersicum_Solyc11g013860:0.86759,(thuja_plicata_Thupl.29377901s0005:0.05759,thuja_plicata_Thupl.29377901s0002:0.27861)n5:0.71549)n4:0.11314)n1:0.208105)n0;

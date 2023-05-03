@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET5Gv21152000:0.44451,((chlamydomonas_reinhardtii_Cre13.g584450:0.45714,dunaliella_salina_Dusal.0404s00011:0.58768)n2:0.21203,(chromochloris_zofingiensis_Cz07g25310:0.49867,scenedesmus_obliquus_SZX70667:0.74419)n3:0.28146)n1:0.44451)n0;

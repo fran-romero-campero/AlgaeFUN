@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH13877:0.48932,(haematococcus_lacustris_GFH06387:0.04517,haematococcus_lacustris_GFH07326:0.03955)n2:0.83185)n1:0.32931,(scenedesmus_obliquus_SZX77956:0.57256,(chromochloris_zofingiensis_Cz06g28040:0.23166,chromochloris_zofingiensis_Cz06g35270:0.77938)n4:0.4317)n3:0.32931)n0;

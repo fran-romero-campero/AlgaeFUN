@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00017_0300:0.87978,(chlamydomonas_reinhardtii_Cre17.g718450:1.07639,(scenedesmus_obliquus_SZX61087:0.54234,(chromochloris_zofingiensis_Cz03g28170:0.97274,(raphidocelis_subcapitata_Rsub_03184:0.65687,raphidocelis_subcapitata_Rsub_01421:0.357048)n4:0.039672)n3:0.13464)n2:0.16669)n1:0.87978)n0;

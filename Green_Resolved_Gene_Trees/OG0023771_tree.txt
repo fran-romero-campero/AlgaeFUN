@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.02G056200:0.4004,salvinia_cucullata_Sacu_v1.1_s0017.g007347:0.43673)n1:0.52341,(ceratodon_purpureus_CepurR40.10G006900:0.38461,sphagnum_magellanicum_Sphmag06G038500:0.56448)n2:0.52341)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_4103:0.36352,(klebsormidium_nitens_kfl00014_0370:0.78397,(mesotaenium_endlicherianum_ME000010S10846:0.42563,(marchantia_polymorpha_Mp2g19900:0.45177,(sphagnum_magellanicum_Sphmag10G076000:0.47079,(ceratodon_purpureus_CepurR40.7G186500:0.13731,physcomitrium_patens_Pp3c7_17980:0.20407)n5:0.07779)n4:0.1347)n3:0.2359)n2:0.32017)n1:0.36352)n0;

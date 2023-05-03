@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM005_0180:0.35642,((dunaliella_salina_Dusal.3386s00001:0.08101,dunaliella_salina_Dusal.1573s00002:0.11467)n2:1.00078,(chlamydomonas_reinhardtii_Cre01.g005543:0.3776,(volvox_carteri_Vocar.0050s0052:0.16542,(volvox_carteri_Vocar.0014s0043:0.09388,volvox_carteri_Vocar.0056s0019:0.03228)n5:0.02079)n4:0.39262)n3:0.198)n1:0.35642)n0;

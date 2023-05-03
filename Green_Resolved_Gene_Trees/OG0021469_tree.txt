@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1186950:0.45468,(mesostigma_viridae_Mv13982:0.89843,(spirogloea_muscicola_SM000163S02303:0.01078,(spirogloea_muscicola_SM000010S04290:0.01501,spirogloea_muscicola_SM000052S17736:0.02587)n3:0.01904)n2:0.74205)n1:0.45468)n0;

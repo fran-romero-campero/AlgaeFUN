@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.K024300:0.14368,(cycas_panzhihuaensis_CYCAS_009899:0.88905,((thuja_plicata_Thupl.29350596s0002:0.00054,thuja_plicata_Thupl.29380995s0010:1.37616)n3:0.63298,thuja_plicata_Thupl.29381192s0003:0.13527)n2:0.2015)n1:0.14368)n0;

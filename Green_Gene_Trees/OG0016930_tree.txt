@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy30g00140:0.50883,physcomitrium_patens_Pp3s32_693:1.19004)0.681:0.04905,(bathycoccus_prasinos_Bathy30g00210:0.61471,(bathycoccus_prasinos_Bathy78g00020:0.59764,(spirogloea_muscicola_SM000172S03049:0.01455,(spirogloea_muscicola_SM000003S11219:0.07225,spirogloea_muscicola_SM000032S12164:0.01492)0.718:0.00533)1:0.64164)0.88:0.27637)0.681:0.04905);

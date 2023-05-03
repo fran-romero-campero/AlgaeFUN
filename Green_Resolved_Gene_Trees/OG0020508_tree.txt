@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000018l.310:0.573385,((azolla_filiculoides_Azfi_s0006.g009869:0.21024,salvinia_cucullata_Sacu_v1.1_s0241.g026632:0.55423)n2:0.46428,(ceratopteris_richardii_Ceric.39G001200:0.86408,ceratopteris_richardii_Ceric.34G029900:0.555543)n3:0.061727)n1:0.15347)n0;

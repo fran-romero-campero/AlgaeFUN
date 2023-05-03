@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc01g006320:0.479115,(arabidopsis_thaliana_AT3G20610:0.40705,(arabidopsis_thaliana_AT3G20590:0.13399,arabidopsis_thaliana_AT3G20600:0.07796)n2:0.17788)n1:0.479115)n0;

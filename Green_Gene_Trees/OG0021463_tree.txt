@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_2AL_2F70A0C8F:0.3678,(coccomyxa_subellipsoidea_Cosub3_1131194:0.16968,(haematococcus_lacustris_GFH29676:0.43293,(dunaliella_salina_Dusal.4122s00001:0.2853,haematococcus_lacustris_GFH13168:0.6244)0.771:0.13505)0.773:0.10762)1:0.3678);

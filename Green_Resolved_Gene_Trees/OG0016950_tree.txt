@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_2491:0.795525,((sphagnum_magellanicum_Sphmag15G090400:0.33931,(ceratodon_purpureus_CepurR40.2G196400:0.17041,physcomitrium_patens_Pp3c14_7930:0.25554)n3:0.22737)n2:0.24959,(mesotaenium_endlicherianum_ME000155S01397:0.46211,(chara_braunii_Chabra1_g50667:0.46512,klebsormidium_nitens_kfl00114_0080:0.46638)n5:0.17781)n4:0.14498)n1:0.795525)n0;

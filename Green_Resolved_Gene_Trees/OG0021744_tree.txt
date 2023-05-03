@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta19g00600:0.981285,(klebsormidium_nitens_kfl00543_0040:0.58896,(klebsormidium_nitens_kfl00186_0210:0.32338,(klebsormidium_nitens_kfl00053_0150:0.20705,klebsormidium_nitens_kfl00053_0170:0.0652)n3:0.61145)n2:0.11454)n1:0.981285)n0;

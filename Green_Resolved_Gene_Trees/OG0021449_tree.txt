@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM018_0022:0.39838,((haematococcus_lacustris_GFH07745:0.12124,haematococcus_lacustris_GFH11918:0.00054)n2:0.7531,(chromochloris_zofingiensis_Cz13g06230:0.66978,raphidocelis_subcapitata_Rsub_02332:0.62686)n3:0.53541)n1:0.39838)n0;

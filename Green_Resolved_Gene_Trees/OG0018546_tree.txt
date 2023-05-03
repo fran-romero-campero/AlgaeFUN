@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz03g34230:0.21766,(mesostigma_viridae_Mv18675:1.20349,(marchantia_polymorpha_Mp4g02070:0.56948,(ceratopteris_richardii_Ceric.35G031100:0.51465,(azolla_filiculoides_Azfi_s0163.g054236:0.07005,azolla_filiculoides_Azfi_s0671.g081787:1.1546)n4:0.39498)n3:0.13912)n2:0.30985)n1:0.21766)n0;

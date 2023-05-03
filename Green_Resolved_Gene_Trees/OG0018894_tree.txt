@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1310939:0.439645,((chlamydomonas_reinhardtii_Cre14.g627050:0.4884,volvox_carteri_Vocar.0023s0036:0.36302)n2:0.92116,(raphidocelis_subcapitata_Rsub_04478:0.57894,(chromochloris_zofingiensis_Cz07g25300:0.48861,scenedesmus_obliquus_SZX63379:0.33359)n4:0.16016)n3:0.18369)n1:0.439645)n0;

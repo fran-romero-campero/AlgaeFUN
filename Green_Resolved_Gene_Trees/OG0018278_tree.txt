@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000019l.93:0.422605,(aegilops_tauschii_AET1Gv20598000:0.37657,(selaginella_moellendorffii_Selmo_18538:0.64279,(triticum_aestivum_Traes_3B_0DDC8BCD9:0.17594,(triticum_aestivum_Traes_2DS_D7BC03D2B:0.11273,triticum_aestivum_Traes_3AS_A86A96722:0.05289)n4:0.12459)n3:0.36397)n2:0.21285)n1:0.422605)n0;

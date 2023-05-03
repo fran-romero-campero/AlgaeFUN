@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.3239s00001:0.38523,dunaliella_salina_Dusal.0174s00017:0.38607)n1:0.64959,((ceratodon_purpureus_CepurR40.3G110300:0.05235,(ceratodon_purpureus_CepurR40.1G003000:0.01017,ceratodon_purpureus_CepurR40.6G055800:0.00055)n4:0.24183)n3:0.10695,(sphagnum_magellanicum_Sphmag15G066700:0.5591,physcomitrium_patens_Pp3c11_23570:0.14465)n5:0.03802)n2:0.64959)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00118_0210:0.58235,mesotaenium_endlicherianum_ME000175S02043:0.90759)n1:0.16011,(chlorokybus_atmophyticus_Chlat1_2407:1.06169,(chlorokybus_atmophyticus_Chlat1_677:0.98033,(chlorokybus_atmophyticus_Chlat1_5423:0.48352,chlorokybus_atmophyticus_Chlat1_9039:0.14656)n4:0.44173)n3:0.13651)n2:0.16011)n0;

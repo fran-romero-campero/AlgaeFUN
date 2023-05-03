@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH28772:0.19472,(anthoceros_agrestis_AagrOXF_utg000002l.400:0.24002,(triticum_aestivum_Traes_5AL_A9E479D22:0.03682,(triticum_aestivum_Traes_4AS_0D27A3F17:0.08824,(triticum_aestivum_Traes_3DS_FD7A15B00:0.00592,triticum_aestivum_Traes_3DS_4A5DC45A4:0.01514)n4:0.02266)n3:0.05268)n2:0.20702)n1:0.19472)n0;

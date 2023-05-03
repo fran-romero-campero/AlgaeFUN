@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX78026:0.3279,(raphidocelis_subcapitata_Rsub_02779:1.16059,((raphidocelis_subcapitata_Rsub_10145:0.23975,raphidocelis_subcapitata_Rsub_11371:0.29885)n3:0.4169,(raphidocelis_subcapitata_Rsub_13214:0.51816,raphidocelis_subcapitata_Rsub_09299:0.29173)n4:0.43887)n2:0.17783)n1:0.3279)n0;

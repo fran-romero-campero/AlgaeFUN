@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc02g071020:0.91364,((spirogloea_muscicola_SM000033S12314:0.24978,spirogloea_muscicola_SM000293S10921:0.00054)n2:0.27408,(spirogloea_muscicola_SM000183S03996:0.07852,spirogloea_muscicola_SM000228S07373:0.15719)n3:0.36672)n1:0.91364)n0;

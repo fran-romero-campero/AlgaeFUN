@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv17729:0.509405,(coccomyxa_subellipsoidea_Cosub3_1345583:1.11764,((chromochloris_zofingiensis_Cz04g40010:0.60193,scenedesmus_obliquus_SZX62128:0.71154)n3:0.32051,(chlamydomonas_reinhardtii_Cre17.g727050:0.31462,volvox_carteri_Vocar.0014s0107:0.40467)n4:0.37114)n2:0.1518)n1:0.509405)n0;

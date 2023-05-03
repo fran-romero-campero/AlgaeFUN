@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv10070:1.52421,klebsormidium_nitens_kfl00470_0030:0.35633)n1:0.00987,(chlamydomonas_reinhardtii_Cre01.g025350:0.53266,scenedesmus_obliquus_SZX59914:0.49739)n2:0.00987)n0;

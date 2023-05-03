@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000002l.37:0.51436,anthoceros_agrestis_AagrOXF_utg000002l.39:0.48736)n1:0.10799,(coccomyxa_subellipsoidea_Cosub3_1329437:0.49768,(dunaliella_salina_Dusal.0166s00011:0.72907,(chlamydomonas_reinhardtii_Cre09.g412400:0.73785,scenedesmus_obliquus_SZX79461:0.93433)n4:0.2351)n3:0.27822)n2:0.10799)n0;

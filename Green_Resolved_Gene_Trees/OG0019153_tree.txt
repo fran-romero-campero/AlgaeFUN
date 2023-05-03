@@ -1,0 +1,1 @@
+(((chromochloris_zofingiensis_Cz04g23250:0.25633,scenedesmus_obliquus_SZX74933:0.35291)n2:0.08731,(raphidocelis_subcapitata_Rsub_04400:0.23689,raphidocelis_subcapitata_Rsub_03290:0.59752)n3:0.19562)n1:0.0512,(haematococcus_lacustris_GFH09679:0.88592,volvox_carteri_Vocar.0019s0185:0.64981)n4:0.0512)n0;

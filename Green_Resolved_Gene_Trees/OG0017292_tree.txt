@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_6295:0.73588,klebsormidium_nitens_kfl00323_0100:0.73121)n1:0.323395,(chromochloris_zofingiensis_Cz07g12050:0.92709,((chlamydomonas_reinhardtii_Cre01.g020650:0.24659,volvox_carteri_Vocar.0045s0046:0.49241)n4:0.44843,(dunaliella_salina_Dusal.0009s00040:0.88165,ulva_mutabilis_UM005_0171:0.83283)n5:0.20411)n3:0.24292)n2:0.323395)n0;

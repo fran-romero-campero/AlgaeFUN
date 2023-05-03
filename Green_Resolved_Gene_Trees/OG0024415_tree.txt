@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz07g01070:0.79466,chromochloris_zofingiensis_Cz07g01090:0.22127)n1:0.23046,(chlorokybus_atmophyticus_Chlat1_3170:0.46862,klebsormidium_nitens_kfl00341_0020:1.25094)n2:0.23046)n0;

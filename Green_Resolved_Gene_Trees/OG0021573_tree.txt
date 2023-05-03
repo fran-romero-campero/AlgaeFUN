@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_442417:0.40217,selaginella_moellendorffii_Selmo_420495:0.59509)n1:0.184745,(salvinia_cucullata_Sacu_v1.1_s0130.g022006:0.56022,(cycas_panzhihuaensis_CYCAS_029802:0.16057,thuja_plicata_Thupl.29382418s0003:0.21704)n3:0.2618)n2:0.184745)n0;

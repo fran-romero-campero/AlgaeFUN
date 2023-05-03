@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT4G16835:0.3557,((sorghum_bicolor_Sobic.004G255300:0.02849,zea_mays_Zm00001d017894:0.03654)n2:0.07041,(oryza_sativa_LOC_Os08g05750.1:0.07546,(triticum_aestivum_Traes_7BL_0C69C13AE:0.01945,(triticum_aestivum_Traes_7DL_1D00B334F:0.00447,triticum_aestivum_Traes_7AL_8C73DEC63:0.0369)n5:0.00053)n4:0.09274)n3:0.05542)n1:0.3557)n0;

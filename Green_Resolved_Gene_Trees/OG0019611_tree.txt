@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c11_6110:0.42453,(thuja_plicata_Thupl.28221764s0001:0.72875,(triticum_aestivum_Traes_5DL_486030A9C:0.72956,(triticum_aestivum_Traes_7BL_C83501617:0.01201,(triticum_aestivum_Traes_7AL_432085C4D1:0.00055,triticum_aestivum_Traes_7DL_180BCE2DA:0.00055)n4:0.00055)n3:0.45921)n2:0.36917)n1:0.42453)n0;

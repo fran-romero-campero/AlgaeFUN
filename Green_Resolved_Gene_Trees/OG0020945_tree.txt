@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.28G038700:0.46849,((thuja_plicata_Thupl.29381919s0006:0.53941,thuja_plicata_Thupl.29380192s0011:0.27356)n2:0.15387,(cycas_panzhihuaensis_CYCAS_004087:0.44041,cycas_panzhihuaensis_CYCAS_013058:0.144936)n3:0.016104)n1:0.44493)n0;

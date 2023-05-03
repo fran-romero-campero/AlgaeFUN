@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH19653:0.06665,haematococcus_lacustris_GFH26391:0.03343)1:0.644795,(aegilops_tauschii_AET2Gv20573000:0.11895,(zea_mays_Zm00001d048578:0.03997,(zea_mays_Zm00001d008884:0.01871,zea_mays_Zm00001d030797:0.02825)0.504:0.02907)0.918:0.18827)1:0.644795);

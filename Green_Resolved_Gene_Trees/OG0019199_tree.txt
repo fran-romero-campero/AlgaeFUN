@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_UNPLg00146:0.89716,((klebsormidium_nitens_kfl00702_0050:0.39493,(klebsormidium_nitens_kfl00809_0050:0.07608,klebsormidium_nitens_kfl01019_0040:0.02256)n3:0.43685)n2:0.11574,(klebsormidium_nitens_kfl00219_0460:0.0756,klebsormidium_nitens_kfl00677_0180:0.02408)n4:0.04179)n1:0.89716)n0;

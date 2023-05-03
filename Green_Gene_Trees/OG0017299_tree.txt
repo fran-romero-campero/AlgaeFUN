@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1310031:0.32078,((chlamydomonas_reinhardtii_Cre10.g422500:0.48396,volvox_carteri_Vocar.0016s0083:0.34959)1:0.42785,((chromochloris_zofingiensis_Cz07g14130:0.54019,haematococcus_lacustris_GFH11957:1.22949)0.821:0.19056,(chromochloris_zofingiensis_Cz07g14140:0.59758,raphidocelis_subcapitata_Rsub_09377:0.62777)0.63:0.06317)0.875:0.10183)1:0.32078);

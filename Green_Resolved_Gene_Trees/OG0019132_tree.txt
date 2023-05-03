@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27349035:0.97953,(dunaliella_salina_Dusal.0007s00003:1.21008,ulva_mutabilis_UM076_0008:0.94686)n2:0.33797)n1:0.03894,(mesostigma_viridae_Mv16606:0.66,(klebsormidium_nitens_kfl00038_0120:1.07128,chlorokybus_atmophyticus_Chlat1_5559:0.66769)n4:0.09988)n3:0.03894)n0;

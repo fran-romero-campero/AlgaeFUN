@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.23G015900:0.83015,salvinia_cucullata_Sacu_v1.1_s0028.g009873:0.49276)n1:0.4123,(cycas_panzhihuaensis_CYCAS_011416:0.18106,((thuja_plicata_Thupl.29381014s0006:0.85442,thuja_plicata_Thupl.29380157s0002:1.10646)n4:0.72712,thuja_plicata_Thupl.29378953s0001:0.370818)n3:0.041202)n2:0.74958)n0;

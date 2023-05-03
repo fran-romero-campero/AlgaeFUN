@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.21G027600:0.374855,(aegilops_tauschii_AET4Gv20542000:0.30292,(solanum_lycopersicum_Solyc05g018484:0.57152,solanum_lycopersicum_Solyc04g039693:0.97843)n2:0.46514)n1:0.374855)n0;

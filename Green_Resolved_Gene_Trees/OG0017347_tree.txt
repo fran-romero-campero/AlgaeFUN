@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0006.g003329:0.72644,(chlorokybus_atmophyticus_Chlat1_1161:0.00055,((chlorokybus_atmophyticus_Chlat1_425:0.00055,(chlorokybus_atmophyticus_Chlat1_344:0.14825,chlorokybus_atmophyticus_Chlat1_6:0.00055)n4:0.00054)n3:0.48328,(chlorokybus_atmophyticus_Chlat1_2415:0.04229,chlorokybus_atmophyticus_Chlat1_6177:0.0053)n5:0.22689)n2:0.09861)n1:0.72644)n0;

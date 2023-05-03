@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX76815:0.404005,(solanum_lycopersicum_Solyc12g009550:0.64707,(azolla_filiculoides_Azfi_s0004.g008618:0.2111,azolla_filiculoides_Azfi_s0004.g008620:0.03816)n2:0.59966)n1:0.404005)n0;

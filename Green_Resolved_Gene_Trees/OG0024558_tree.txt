@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz14g14160:0.55839,dunaliella_salina_Dusal.0008s00024:0.74163)n1:0.44682,(coccomyxa_subellipsoidea_Cosub3_1288277:0.00055,coccomyxa_subellipsoidea_Cosub3_665852:0.11779)n2:0.44682)n0;

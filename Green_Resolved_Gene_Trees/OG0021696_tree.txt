@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c23_13720:0.16632,physcomitrium_patens_Pp3c12_22677:1.16407)n1:0.54981,(haematococcus_lacustris_GFH19581:0.00053,(haematococcus_lacustris_GFH16215:0.09056,haematococcus_lacustris_GFH19577:0.09447)n3:0.21792)n2:0.54981)n0;

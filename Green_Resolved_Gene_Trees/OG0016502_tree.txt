@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29377508s0001:0.167005,(((triticum_aestivum_Traes_3AS_597DE2DD5:0.23532,triticum_aestivum_Traes_1AS_00BDFED7E:0.05851)n3:0.05029,(aegilops_tauschii_AET2Gv20193300:1.01232,sorghum_bicolor_Sobic.003G157200:0.26972)n4:0.15755)n2:0.10894,(arabidopsis_thaliana_AT1G32880:0.42518,arabidopsis_thaliana_AT5G49305:0.50095)n5:0.15771)n1:0.167005)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_2454:0.30502,((scenedesmus_obliquus_SZX77266:0.69467,dunaliella_salina_Dusal.0004s00040:1.04809)n2:0.26332,(micromonas_pusilla_Micpu_27344976:0.4411,(bathycoccus_prasinos_Bathy02g05430:0.93858,ostreococcus_tauri_ostta07g00500:0.52158)n4:0.09172)n3:0.33417)n1:0.30502)n0;

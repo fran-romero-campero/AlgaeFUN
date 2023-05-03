@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp6g11860:0.324155,((thuja_plicata_Thupl.29377128s0009:0.0482,thuja_plicata_Thupl.28752822s0001:0.00055)n2:0.24575,(triticum_aestivum_Traes_1AS_364A126B4:0.06366,triticum_aestivum_Traes_1AS_B1C792D5A:0.207225)n3:0.023025)n1:0.25394)n0;

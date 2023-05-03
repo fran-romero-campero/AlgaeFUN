@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_104853:0.2328,(thuja_plicata_Thupl.29378039s0006:0.34903,(solanum_lycopersicum_Solyc07g055410:0.2628,(triticum_aestivum_Traes_3AS_F23FF3FFA:0.00859,triticum_aestivum_Traes_3AS_7C308CAAC:0.00055)0.977:0.32187)0.833:0.1456)1:0.2328);

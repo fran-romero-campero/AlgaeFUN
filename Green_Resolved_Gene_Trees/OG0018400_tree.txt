@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000018l.396:0.38784,((selaginella_moellendorffii_Selmo_7436:0.18234,selaginella_moellendorffii_Selmo_7445:0.22648)n2:0.2462,(cycas_panzhihuaensis_CYCAS_018823:0.03904,(cycas_panzhihuaensis_CYCAS_018821:0.05717,cycas_panzhihuaensis_CYCAS_018825:0.00055)n4:0.03141)n3:0.56735)n1:0.38784)n0;

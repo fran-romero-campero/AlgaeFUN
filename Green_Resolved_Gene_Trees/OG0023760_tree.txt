@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH13279:0.80068,micromonas_pusilla_Micpu_27347501:0.85922)n1:0.174325,(ceratodon_purpureus_CepurR40.10G021900:0.01885,ceratodon_purpureus_CepurR40.4G105500:0.00055)n2:0.174325)n0;

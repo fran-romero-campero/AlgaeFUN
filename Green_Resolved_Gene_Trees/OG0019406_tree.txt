@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_05025:0.50554,scenedesmus_obliquus_SZX62727:0.45258)n1:0.205975,(marchantia_polymorpha_Mp1g17415:0.4433,(marchantia_polymorpha_Mp1g25000:0.35577,(marchantia_polymorpha_Mp2g22130:0,marchantia_polymorpha_Mp2g22150:0)n4:0.20175)n3:0.3227)n2:0.205975)n0;

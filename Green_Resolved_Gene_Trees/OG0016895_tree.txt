@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX69456:0.664825,(((azolla_filiculoides_Azfi_s0559.g076924:0,azolla_filiculoides_Azfi_s0703.g082640:0)n3:0.18174,(salvinia_cucullata_Sacu_v1.1_s0007.g003508:0.82832,(salvinia_cucullata_Sacu_v1.1_s0050.g013870:0.29322,salvinia_cucullata_Sacu_v1.1_s0837.g027769:0.00054)n5:0.222822)n4:0.024758)n2:0.61546,cycas_panzhihuaensis_CYCAS_011613:0.8892)n1:0.664825)n0;

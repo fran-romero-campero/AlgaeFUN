@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0309s00004:0.357435,(chara_braunii_Chabra1_g26165:0.93569,(triticum_aestivum_Traes_5DL_BFF6ED3B7:0.30404,((zea_mays_Zm00001d033191:0.00054,zea_mays_Zm00001d011954:0.00055)n4:0.03707,(zea_mays_Zm00001d007601:0.01107,(zea_mays_Zm00001d035606:0.00054,zea_mays_Zm00001d035607:0.00055)n6:0.01663)n5:0.062271)n3:0.006919)n2:0.18301)n1:0.357435)n0;

@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_5AL_8080B4ED5:0.00055,triticum_aestivum_Traes_5DL_8ED8376D9:0.06632)n1:0.4147,(dunaliella_salina_Dusal.0625s00002:0.68581,(chlamydomonas_reinhardtii_Cre13.g581750:0.49987,volvox_carteri_Vocar.0001s0108:0.46116)n3:0.76209)n2:0.4147)n0;

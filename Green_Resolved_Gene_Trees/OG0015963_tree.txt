@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz19g07100:0.87124,scenedesmus_obliquus_SZX75021:0.67123)n1:0.367695,((ulva_mutabilis_UM036_0004:0.04999,ulva_mutabilis_UM042_0035:0.06919)n3:0.03621,((ulva_mutabilis_UM022_0067:0.0676,ulva_mutabilis_UM059_0014:0.50487)n5:0.05409,(ulva_mutabilis_UM029_0068:0.14898,ulva_mutabilis_UM085_0028:0.21953)n6:0.04815)n4:0.07619)n2:0.367695)n0;

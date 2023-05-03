@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27346020:0.88767,ostreococcus_tauri_ostta15g00910:0.5803)n1:0.391125,(dunaliella_salina_Dusal.0041s00009:0.98887,(chlamydomonas_reinhardtii_Cre07.g323700:0.39238,(chromochloris_zofingiensis_Cz01g15080:0.7288,scenedesmus_obliquus_SZX63263:0.24792)n4:0.40652)n3:0.21991)n2:0.391125)n0;

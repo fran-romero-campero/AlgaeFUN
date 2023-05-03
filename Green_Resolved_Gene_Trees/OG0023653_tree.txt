@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM001_0507:0.793975,(bathycoccus_prasinos_Bathy11g01790:0.49156,(ostreococcus_tauri_ostta10g01790:0.72745,micromonas_pusilla_Micpu_27343996:0.68471)n2:0.19582)n1:0.793975)n0;

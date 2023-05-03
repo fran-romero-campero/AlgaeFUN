@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv09038:0.233175,(micromonas_pusilla_Micpu_27345630:0.80638,(bathycoccus_prasinos_Bathy47g00090:1.43131,(dunaliella_salina_Dusal.0645s00009:0.83596,(ulva_mutabilis_UM030_0073:0.20506,(ulva_mutabilis_UM030_0071:0.064,ulva_mutabilis_UM030_0072:0.12617)n5:0.12207)n4:0.49553)n3:0.22404)n2:0.23921)n1:0.233175)n0;

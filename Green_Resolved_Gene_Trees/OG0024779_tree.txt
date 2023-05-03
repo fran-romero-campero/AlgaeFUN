@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_023007:0.14144,(triticum_aestivum_Traes_5AL_1FA541114:0.06721,(zea_mays_Zm00001d047430:0.20577,zea_mays_Zm00001d014103:0.01169)n2:0.15421)n1:0.14144)n0;

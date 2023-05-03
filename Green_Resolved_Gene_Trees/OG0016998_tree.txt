@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_08954:0.77898,(marchantia_polymorpha_Mp8g05350:0.76433,((sphagnum_magellanicum_Sphmag16G057300:0.37283,(ceratodon_purpureus_CepurR40.VG263100:0.1398,physcomitrium_patens_Pp3c11_20960:0.22992)n4:0.0604)n3:0.06821,(ceratodon_purpureus_CepurR40.5G127400:0.31934,sphagnum_magellanicum_Sphmag07G028100:0.429759)n5:0.047751)n2:0.43204)n1:0.77898)n0;

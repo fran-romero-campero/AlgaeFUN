@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_026600:0.771915,(ceratodon_purpureus_CepurR40.1G132400:0.21498,(ceratodon_purpureus_CepurR40.4G068200:0.00534,ceratodon_purpureus_CepurR40.4G068600:0.04808)n2:0.06229)n1:0.771915)n0;

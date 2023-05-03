@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.009G115000:0.263165,(mesotaenium_endlicherianum_ME000104S10601:0.68811,(spirogloea_muscicola_SM006089S19299:0.03745,(spirogloea_muscicola_SM005961S19578:0.00055,spirogloea_muscicola_SM006095S19559:0.00055)n3:0.12504)n2:0.40686)n1:0.263165)n0;

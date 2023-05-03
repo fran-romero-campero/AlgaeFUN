@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0119.g021287:0.34591,(solanum_lycopersicum_Solyc06g082110:0.05059,(arabidopsis_thaliana_AT3G24260:0.28036,arabidopsis_thaliana_AT3G28870:0.10372)n2:0.7762)n1:0.34591)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv18234:0.438445,(klebsormidium_nitens_kfl00094_0160:1.06997,(anthoceros_agrestis_AagrOXF_utg000010l.569:1.02562,(ceratopteris_richardii_Ceric.28G016200:0.54577,(azolla_filiculoides_Azfi_s0035.g025651:0.33271,salvinia_cucullata_Sacu_v1.1_s0106.g020258:0.25643)n4:0.19927)n3:0.57642)n2:0.33125)n1:0.438445)n0;

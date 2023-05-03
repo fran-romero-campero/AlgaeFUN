@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz13g03020:0.26537,coccomyxa_subellipsoidea_Cosub3_1173620:0.40182)n1:0.23078,(spirogloea_muscicola_SM000196S05382:0.01335,(spirogloea_muscicola_SM000084S23101:0.06857,spirogloea_muscicola_SM000051S17597:0.02885)n3:0.00055)n2:0.23078)n0;

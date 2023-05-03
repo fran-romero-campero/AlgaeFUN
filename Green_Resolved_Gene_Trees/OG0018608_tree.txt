@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy19g00250:1.09021,((raphidocelis_subcapitata_Rsub_12609:0.16722,raphidocelis_subcapitata_Rsub_06816:0.19384)n2:0.54023,(raphidocelis_subcapitata_Rsub_11735:0.08099,(raphidocelis_subcapitata_Rsub_03666:0.09473,raphidocelis_subcapitata_Rsub_03665:0.09429)n4:0.0331)n3:0.04396)n1:1.09021)n0;

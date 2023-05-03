@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME1145557C09452:0.82381,(spirogloea_muscicola_SM000045S16229:0.01369,(spirogloea_muscicola_SM000004S15108:0.02138,spirogloea_muscicola_SM000013S26436:0.08214)n3:0.05104)n2:0.50093)n1:0.243735,(chara_braunii_Chabra1_g39075:0.29039,(chara_braunii_Chabra1_g8826:1.46769,chara_braunii_Chabra1_g3397:0.30034)n5:0.27725)n4:0.243735)n0;

@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s2295.g110291:0.00053,physcomitrium_patens_Pp3c14_5230:0.11744)n1:0.283935,(dunaliella_salina_Dusal.0424s00003:0.24213,haematococcus_lacustris_GFH10441:0.17244)n2:0.283935)n0;

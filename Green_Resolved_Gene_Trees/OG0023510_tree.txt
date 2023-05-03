@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0074.g037486:0.44607,(zea_mays_Zm00001d024216:0.01082,(sorghum_bicolor_Sobic.004G346800:0.1748,sorghum_bicolor_Sobic.007G135400:0.06358)n2:0.36024)n1:0.44607)n0;

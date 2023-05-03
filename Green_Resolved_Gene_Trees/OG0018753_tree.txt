@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv15967:0.00055,mesostigma_viridae_Mv22655:0.0229)n1:0.645745,(klebsormidium_nitens_kfl00034_0250:0.73124,(marchantia_polymorpha_Mp2g01040:0.81413,(ceratopteris_richardii_Ceric.31G043100:0.72084,physcomitrium_patens_Pp3c14_13390:0.64599)n4:0.15452)n3:0.22225)n2:0.645745)n0;

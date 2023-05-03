@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3s155_60:0.861265,(haematococcus_lacustris_GFH16724:0.4754,(dunaliella_salina_Dusal.0815s00006:0.46353,((chlamydomonas_reinhardtii_Cre02.g112400:0.28483,volvox_carteri_Vocar.0001s1668:0.25809)n4:0.41651,(chromochloris_zofingiensis_UNPLg00681:0.43913,raphidocelis_subcapitata_Rsub_03284:0.6255)n5:0.20899)n3:0.20203)n2:0.11692)n1:0.861265)n0;

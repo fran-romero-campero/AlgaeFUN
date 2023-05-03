@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g51410:0.56712,(chlamydomonas_reinhardtii_Cre12.g488400:0.37575,(volvox_carteri_Vocar.0016s0120:0.5603,(raphidocelis_subcapitata_Rsub_10816:0.38082,(chromochloris_zofingiensis_Cz03g29130:0.32216,scenedesmus_obliquus_SZX78577:0.55897)n4:0.0601)n3:0.2903)n2:0.20844)n1:0.56712)n0;

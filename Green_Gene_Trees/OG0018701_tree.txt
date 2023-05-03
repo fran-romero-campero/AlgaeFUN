@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_413468:0.704675,((physcomitrium_patens_Pp3c11_5140:0.72548,physcomitrium_patens_Pp3c7_23710:0.50175)0.835:0.21332,(ceratodon_purpureus_CepurR40.1G142300:0.21996,(physcomitrium_patens_Pp3c7_23720:0.39695,physcomitrium_patens_Pp3c11_5130:0.31531)0.966:0.1607)0.708:0.31442)1:0.704675);

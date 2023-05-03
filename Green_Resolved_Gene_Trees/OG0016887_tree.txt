@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g42040:0.626115,(marchantia_polymorpha_Mp2g10130:0.47276,((cycas_panzhihuaensis_CYCAS_026428:0.61437,selaginella_moellendorffii_Selmo_402052:0.5067)n3:0.0712,(ceratopteris_richardii_Ceric.04G002500:0.64632,(azolla_filiculoides_Azfi_s0148.g053108:0.22797,salvinia_cucullata_Sacu_v1.1_s0116.g021085:0.497)n5:0.3901)n4:0.44074)n2:0.1609)n1:0.626115)n0;

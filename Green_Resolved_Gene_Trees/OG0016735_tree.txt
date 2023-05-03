@@ -1,0 +1,1 @@
+((sphagnum_magellanicum_Sphmag07G043600:0.32776,(triticum_aestivum_Traes_5DL_7196046FD:0.37829,(sorghum_bicolor_Sobic.002G180200:0.06102,zea_mays_Zm00001d020214:0.01968)n3:0.23467)n2:0.6104)n1:0.11041,(thuja_plicata_Thupl.29381716s0006:0.44175,(anthoceros_agrestis_AagrOXF_utg000006l.849:0.5506,marchantia_polymorpha_Mp1g09890:0.21687)n5:0.00057)n4:0.11041)n0;

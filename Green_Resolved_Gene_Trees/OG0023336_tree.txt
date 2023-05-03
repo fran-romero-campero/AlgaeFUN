@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0013.g013322:0.1962,salvinia_cucullata_Sacu_v1.1_s0001.g000512:0.275)n1:0.26962,(anthoceros_agrestis_AagrOXF_utg000103l.119:0.79869,marchantia_polymorpha_Mp2g01830:0.62263)n2:0.26962)n0;

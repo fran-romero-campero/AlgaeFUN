@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv02730:0.277225,(((haematococcus_lacustris_GFH14087:0.36717,scenedesmus_obliquus_SZX60626:0.49002)n3:0.07548,coccomyxa_subellipsoidea_Cosub3_1198504:0.47806)n2:0.18343,(ostreococcus_tauri_ostta18g01930:0.56176,(bathycoccus_prasinos_Bathy09g00200:0.72618,micromonas_pusilla_Micpu_27344830:0.47145)n5:0.1223)n4:0.28388)n1:0.277225)n0;

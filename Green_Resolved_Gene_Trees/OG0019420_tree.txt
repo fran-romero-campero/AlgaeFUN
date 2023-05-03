@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000093S24408:0.80715,(spirogloea_muscicola_SM000219S06674:0.02001,spirogloea_muscicola_SM005536S17898:0.0359)n2:0.08647)n1:0.278025,(marchantia_polymorpha_Mp5g23070:0.18564,(physcomitrium_patens_Pp3c7_30:0.25084,sphagnum_magellanicum_Sphmag18G020800:0.36363)n4:0.11733)n3:0.278025)n0;

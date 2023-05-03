@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1119920:0.86709,(micromonas_pusilla_Micpu_27345253:0.62779,(bathycoccus_prasinos_Bathy07g02250:0.66779,ostreococcus_tauri_ostta03g04630:0.46575)0.998:0.36848)1:0.6035)0.981:0.168925,(chlorokybus_atmophyticus_Chlat1_703:1.00471,mesostigma_viridae_Mv11326:0.83739)0.981:0.168925);

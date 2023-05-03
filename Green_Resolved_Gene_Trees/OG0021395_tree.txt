@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0065s00038:0.56127,((chromochloris_zofingiensis_Cz03g13030:1.38097,raphidocelis_subcapitata_Rsub_10052:0.76047)n2:0.19925,(scenedesmus_obliquus_SZX74705:0.00055,scenedesmus_obliquus_SZX61391:0.00058)n3:0.33731)n1:0.56127)n0;

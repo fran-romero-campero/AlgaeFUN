@@ -1,0 +1,1 @@
+((oryza_sativa_ChrUn.fgenesh.mRNA.41:0,oryza_sativa_LOC_Os10g07606.1:0)n1:0.529945,((zea_mays_Zm00001d024549:0.03018,zea_mays_Zm00001d024548:0.11588)n3:0.10204,(sorghum_bicolor_Sobic.007G047000:0.00054,sorghum_bicolor_Sobic.007G046800:0.717489)n4:0.079721)n2:0.01053)n0;

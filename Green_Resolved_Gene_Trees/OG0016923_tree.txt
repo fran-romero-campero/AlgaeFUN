@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy12g01840:0.98784,ostreococcus_tauri_ostta14g02600:1.10204)n1:0.30451,(chlorokybus_atmophyticus_Chlat1_1245:1.15625,((klebsormidium_nitens_kfl00241_0130:0.14873,klebsormidium_nitens_kfl00241_0140:0.21146)n4:0.30068,(klebsormidium_nitens_kfl00036_0050:0.48182,klebsormidium_nitens_kfl00241_0150:0.32369)n5:0.15231)n3:0.78621)n2:0.30451)n0;

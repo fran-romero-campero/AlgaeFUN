@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp2g23150:0.70158,(anthoceros_agrestis_AagrOXF_utg000126l.220:0.85075,anthoceros_agrestis_AagrOXF_utg000126l.221:0.450936)n2:0.050104)n1:0.1533,(sphagnum_magellanicum_Sphmag14G059500:0.24084,sphagnum_magellanicum_Sphmag03G065700:0.09622)n3:0.22604)n0;

@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre02.g084600:0.34551,volvox_carteri_Vocar.0004s0514:0.36466)1:0.59885,(spirogloea_muscicola_SM000080S22931:0.09299,(spirogloea_muscicola_SM000048S16508:0.07389,spirogloea_muscicola_SM000049S16771:0.09889)0.798:0.04469)1:0.59885);

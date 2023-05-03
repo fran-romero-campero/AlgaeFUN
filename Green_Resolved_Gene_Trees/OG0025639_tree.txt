@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc07g150118:0.296295,(physcomitrium_patens_Pp3c14_7730:0.62262,(physcomitrium_patens_Pp3c20_14250:0.4874,physcomitrium_patens_Pp3c9_10920:0.48235)n2:0.0104)n1:0.296295)n0;

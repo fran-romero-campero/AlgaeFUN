@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27346511:0.75315,(chlamydomonas_reinhardtii_Cre10.g425300:0.2407,volvox_carteri_Vocar.0005s0347:0.2356)n2:0.2576)n1:0.0962,((chara_braunii_Chabra1_g71074:0.68839,mesotaenium_endlicherianum_ME000613S08764:0.73683)n4:0.11877,(azolla_filiculoides_Azfi_s0116.g046323:0.33913,salvinia_cucullata_Sacu_v1.1_s0021.g008506:0.29644)n5:0.76035)n3:0.0962)n0;

@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy12g03490:1.10766,(micromonas_pusilla_Micpu_27340782:0.38755,ostreococcus_tauri_ostta05g00060:0.53044)n2:0.32815)n1:0.31133,(mesotaenium_endlicherianum_ME000135S00631:0.57498,(spirogloea_muscicola_SM000008S22155:0.08771,spirogloea_muscicola_SM000035S13086:0.04363)n4:0.6715)n3:0.31133)n0;

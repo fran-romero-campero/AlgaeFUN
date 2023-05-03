@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_2670:0.85955,marchantia_polymorpha_Mp6g20240:0.00055)n1:0.095115,(chlorokybus_atmophyticus_Chlat1_526:0.21753,(marchantia_polymorpha_Mp3g20670:0.12741,marchantia_polymorpha_Mp6g20250:0.139005)n3:0.015445)n2:0.17443)n0;

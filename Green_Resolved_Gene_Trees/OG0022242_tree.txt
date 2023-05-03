@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_1AL_965913274:0.03051,triticum_aestivum_Traes_1DL_AE37F82E6:0.07108)n1:0.21291,(solanum_lycopersicum_Solyc01g014820:0.11588,(solanum_lycopersicum_Solyc04g050700:0.03202,solanum_lycopersicum_Solyc08g062900:0.25605)n3:0.14524)n2:0.21291)n0;

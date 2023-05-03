@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp7g10050:0.7581,sphagnum_magellanicum_Sphmag06G116100:0.91928)n1:0.416305,(arabidopsis_thaliana_AT5G08770:0.73831,(cycas_panzhihuaensis_CYCAS_010743:0.30864,thuja_plicata_Thupl.29379191s0010:0.17123)n3:0.33393)n2:0.416305)n0;

@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM036_0118:0.576525,((haematococcus_lacustris_GFH06098:0.02531,haematococcus_lacustris_GFH22996:0.15184)n2:0.2041,(haematococcus_lacustris_GFH10316:0.08839,(haematococcus_lacustris_GFH27468:0.07496,(haematococcus_lacustris_GFH06090:0.03803,haematococcus_lacustris_GFH19185:0.04163)n5:0.06298)n4:0.09821)n3:0.34144)n1:0.576525)n0;

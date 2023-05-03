@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000070S09203:0.705245,((ulva_mutabilis_UM065_0016:0.1748,(ulva_mutabilis_UM065_0015:0.22465,ulva_mutabilis_UM065_0017:0.17462)n3:0.02156)n2:0.78296,(chromochloris_zofingiensis_Cz11g13190:0.35339,chromochloris_zofingiensis_Cz17g15060:0.20856)n4:0.76106)n1:0.705245)n0;

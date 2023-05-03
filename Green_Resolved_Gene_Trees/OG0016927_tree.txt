@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_09339:0.26618,(chlamydomonas_reinhardtii_Cre16.g663150:0.45204,scenedesmus_obliquus_SZX60240:0.26012)n2:0.12461)n1:0.16042,((ostreococcus_tauri_ostta07g00230:0.3681,(micromonas_pusilla_Micpu_27345271:0.95294,micromonas_pusilla_Micpu_27345123:0.246501)n5:0.027389)n4:0.12097,bathycoccus_prasinos_Bathy17g00350:0.46935)n3:0.16042)n0;

@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz10g18150:0.4673,(((volvox_carteri_Vocar.0055s0027:0.00283,volvox_carteri_Vocar.0055s0037:0.02844)n3:0.44489,(dunaliella_salina_Dusal.0986s00003:0.32089,dunaliella_salina_Dusal.0986s00001:0.462222)n4:0.051358)n2:0.16372,haematococcus_lacustris_GFH05679:0.35725)n1:0.11303)n0;

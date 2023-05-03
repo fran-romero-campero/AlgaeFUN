@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s1601.g104555:0.36121,salvinia_cucullata_Sacu_v1.1_s0167.g024201:0.68483)n1:0.034715,(triticum_aestivum_Traes_5DS_51F474DBB:0.73376,(aegilops_tauschii_AET5Gv21075800:0.25785,(zea_mays_Zm00001d023871:0.41901,(zea_mays_Zm00001d049033:0.47412,zea_mays_Zm00001d029163:0.031977)n5:0.0031977)n4:0.0003553)n3:0.0485)n2:0.10997)n0;

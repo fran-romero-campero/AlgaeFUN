@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv20822:0.202885,(micromonas_pusilla_Micpu_27345212:0.61849,(chromochloris_zofingiensis_Cz08g15280:0.41407,(haematococcus_lacustris_GFH12833:0.80629,(chlamydomonas_reinhardtii_Cre13.g576000:0.21401,volvox_carteri_Vocar.0001s0161:0.27822)n4:0.40071)n3:0.17529)n2:0.2366)n1:0.202885)n0;

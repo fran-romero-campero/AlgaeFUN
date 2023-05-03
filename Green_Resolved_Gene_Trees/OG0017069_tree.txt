@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_100:0.220205,(chara_braunii_Chabra1_g16846:0.27675,((mesotaenium_endlicherianum_ME1044879C03918:0.07335,mesotaenium_endlicherianum_ME000314S05150:0.67934)n3:0.06548,(spirogloea_muscicola_SM000130S27081:0.0196,(spirogloea_muscicola_SM000083S22733:0.00053,spirogloea_muscicola_SM000101S09258:0.03258)n5:0.00147)n4:0.19725)n2:0.08905)n1:0.220205)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv04024:0.62319,((chlamydomonas_reinhardtii_Cre14.g629200:0.2586,volvox_carteri_Vocar.0022s0018:0.46825)n2:0.40836,(ulva_mutabilis_UM077_0014:0.83262,(chromochloris_zofingiensis_Cz07g21230:0.43574,scenedesmus_obliquus_SZX71708:0.49576)n4:0.46323)n3:0.21364)n1:0.62319)n0;

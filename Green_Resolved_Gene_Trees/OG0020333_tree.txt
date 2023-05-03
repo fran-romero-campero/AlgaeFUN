@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_031246:0.20047,(aegilops_tauschii_AET5Gv20944400:0.53642,(triticum_aestivum_Traes_3DS_E1385C166:0.16644,(triticum_aestivum_Traes_4BL_1FFBBECCF:0.00687,triticum_aestivum_Traes_4DL_F9EFC2171:0.02464)n3:0.255951)n2:0.028439)n1:0.19686)n0;

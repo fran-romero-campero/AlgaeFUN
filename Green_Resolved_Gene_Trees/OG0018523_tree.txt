@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp2g22050:0.38152,((cycas_panzhihuaensis_CYCAS_023368:0.29856,thuja_plicata_Thupl.29379572s0006:0.48597)n2:0.43576,(ceratopteris_richardii_Ceric.08G019500:0.90078,(azolla_filiculoides_Azfi_s0040.g026599:0.37123,salvinia_cucullata_Sacu_v1.1_s0159.g023824:0.57918)n4:0.2976)n3:0.95948)n1:0.38152)n0;

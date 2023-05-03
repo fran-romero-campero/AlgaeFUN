@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre10.g466600:0.553795,((raphidocelis_subcapitata_Rsub_03472:0.56759,raphidocelis_subcapitata_Rsub_08209:0.52156)n2:0.16118,((scenedesmus_obliquus_SZX65948:0,scenedesmus_obliquus_SZX75288:0)n4:0.42215,(chromochloris_zofingiensis_Cz03g28250:0.39034,chromochloris_zofingiensis_Cz08g06050:0.4172)n5:0.24161)n3:0.11146)n1:0.553795)n0;

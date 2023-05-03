@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_8081:0.49317,(klebsormidium_nitens_kfl00166_0120:0.16336,klebsormidium_nitens_kfl00166_0130:0.23204)n2:0.64612)n1:0.0542,((bathycoccus_prasinos_Bathy04g04280:0.42647,ostreococcus_tauri_ostta02g04350:0.47522)n4:0.31087,(chromochloris_zofingiensis_Cz10g06060:1.46545,chromochloris_zofingiensis_Cz16g20020:0.901566)n5:0.100174)n3:0.57782)n0;

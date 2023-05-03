@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.05G036000:0.21622,ceratopteris_richardii_Ceric.16G081200:0.11592)n1:0.38499,(physcomitrium_patens_Pp3c16_13690:1.11614,(physcomitrium_patens_Pp3c20_13440:0.27925,(physcomitrium_patens_Pp3c11_8760:0.16138,physcomitrium_patens_Pp3c16_70:0.39446)n4:0.32349)n3:0.15456)n2:0.38499)n0;

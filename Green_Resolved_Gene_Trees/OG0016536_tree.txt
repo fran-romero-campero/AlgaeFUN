@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0132.g022197:0.13151,((cycas_panzhihuaensis_CYCAS_015012:0.28858,cycas_panzhihuaensis_CYCAS_010933:0.73868)n2:0.242,(aegilops_tauschii_AET7Gv20976900:0.00055,(triticum_aestivum_Traes_6DL_A72132FC8:0.0541,(triticum_aestivum_Traes_3B_50A6F9CD1:0.04425,triticum_aestivum_Traes_7BL_3E14B874B:0.000486)n5:4.86e-05)n4:5.4e-06)n3:0.02906)n1:0.13151)n0;

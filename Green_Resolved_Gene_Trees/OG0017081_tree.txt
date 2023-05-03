@@ -1,0 +1,1 @@
+(((chlorokybus_atmophyticus_Chlat1_2426:0.46874,mesostigma_viridae_Mv21101:0.43539)n2:0.11454,(chara_braunii_Chabra1_g36224:1.40286,chara_braunii_Chabra1_g49422:0.87203)n3:0.1489)n1:0.24292,(mesostigma_viridae_Mv00562:0.49021,(chlorokybus_atmophyticus_Chlat1_5793:0.83477,klebsormidium_nitens_kfl00666_0050:0.58393)n5:0.0583245)n4:0.0064805)n0;

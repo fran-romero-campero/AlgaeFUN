@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME000288S04887:0.49373,selaginella_moellendorffii_Selmo_121544:0.46973)n1:0.172535,(micromonas_pusilla_Micpu_27340847:0.49389,(haematococcus_lacustris_GFH29102:0.21613,(haematococcus_lacustris_GFH18639:0.00279,haematococcus_lacustris_GFH18640:0.07541)n4:0.00054)n3:0.57344)n2:0.172535)n0;

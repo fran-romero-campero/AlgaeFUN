@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_868638:0.229325,(chlorokybus_atmophyticus_Chlat1_5741:0.75316,(spirogloea_muscicola_SM000088S23725:0.11134,(spirogloea_muscicola_SM000079S22455:0.53269,(spirogloea_muscicola_SM000079S22453:0.09177,spirogloea_muscicola_SM000124S25933:0.08574)0.918:0.21319)0.08:0.05192)0.987:0.68414)1:0.229325);

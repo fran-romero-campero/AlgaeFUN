@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00024_0280:0.2879,(scenedesmus_obliquus_SZX73570:0.99335,(chromochloris_zofingiensis_UNPLg00005:0.60118,((chromochloris_zofingiensis_Cz03g23120:0.08286,chromochloris_zofingiensis_Cz03g23110:0.07932)0.996:0.39772,raphidocelis_subcapitata_Rsub_12347:1.20002)0.85:0.12065)0.895:0.19387)1:0.2879);

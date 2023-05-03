@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0205s00001:0.478355,((selaginella_moellendorffii_Selmo_5251:0.45692,(selaginella_moellendorffii_Selmo_4907:0.00054,(selaginella_moellendorffii_Selmo_7175:0.0211,selaginella_moellendorffii_Selmo_4909:0.01071)n4:0.01591)n3:0.60971)n2:0.296,(chlorokybus_atmophyticus_Chlat1_7998:1.05356,triticum_aestivum_Traes_4AL_C43A8327A:0.52919)n5:0.24648)n1:0.478355)n0;

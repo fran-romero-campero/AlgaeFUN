@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv14098:0.76014,dunaliella_salina_Dusal.0046s00012:1.01926)n1:0.068315,((chlamydomonas_reinhardtii_Cre06.g278095:0.29368,chlamydomonas_reinhardtii_Cre06.g278089:0.29762)n3:0.62356,(chara_braunii_Chabra1_g45699:1.08135,klebsormidium_nitens_kfl00017_0130:0.5286)n4:0.31505)n2:0.068315)n0;

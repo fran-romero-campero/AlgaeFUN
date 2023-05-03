@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0215.g058434:0.38146,(cycas_panzhihuaensis_CYCAS_029418:0.20034,((thuja_plicata_Thupl.29380179s0003:0.03378,thuja_plicata_Thupl.29380179s0002:0.0362)n3:0.10309,(thuja_plicata_Thupl.29382035s0001:0.02183,(thuja_plicata_Thupl.29382035s0002:0.03007,thuja_plicata_Thupl.29378359s0006:0.00793)n5:0.04128)n4:0.13019)n2:0.21905)n1:0.38146)n0;

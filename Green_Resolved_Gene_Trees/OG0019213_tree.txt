@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00079_0170:0.60114,micromonas_pusilla_Micpu_27348965:0.71715)n1:0.08933,((mesostigma_viridae_Mv26552:0.57007,mesostigma_viridae_Mv06336:0.39572)n3:0.77607,(coccomyxa_subellipsoidea_Cosub3_1206803:0.37305,coccomyxa_subellipsoidea_Cosub3_1326709:0.48386)n4:0.31957)n2:0.08933)n0;

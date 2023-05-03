@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1382469:0.586435,(volvox_carteri_Vocar.0007s0358:0.60789,(dunaliella_salina_Dusal.0077s00032:0.50715,(haematococcus_lacustris_GFH15107:0.05836,haematococcus_lacustris_GFH19929:0.05115)n3:0.26413)n2:0.33883)n1:0.586435)n0;

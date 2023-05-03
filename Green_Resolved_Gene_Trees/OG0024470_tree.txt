@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c1_700:0.288445,(chromochloris_zofingiensis_UNPLg00023:0.12764,(haematococcus_lacustris_GFH32052:0.273,haematococcus_lacustris_GFH30431:0.158679)n2:0.017631)n1:0.05783)n0;

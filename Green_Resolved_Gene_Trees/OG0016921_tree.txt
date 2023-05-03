@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy11g03780:0.20479,ostreococcus_tauri_ostta10g03280:0.27851)n1:0.22256,(dunaliella_salina_Dusal.0271s00009:0.42489,((coccomyxa_subellipsoidea_Cosub3_1322329:0.16563,coccomyxa_subellipsoidea_Cosub3_1327784:0.07522)n4:0.46856,(raphidocelis_subcapitata_Rsub_08307:0.54696,scenedesmus_obliquus_SZX65459:0.4388)n5:0.34647)n3:0.06995)n2:0.22256)n0;

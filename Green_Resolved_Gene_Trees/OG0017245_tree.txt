@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27346530:0.4847,((scenedesmus_obliquus_SZX76411:0.30402,raphidocelis_subcapitata_Rsub_12266:0.57699)n2:0.15513,((volvox_carteri_Vocar.0054s0036:0.00055,volvox_carteri_Vocar.0054s0038:0.00055)n4:0.52786,(coccomyxa_subellipsoidea_Cosub3_1224956:0.70131,chlamydomonas_reinhardtii_Cre02.g142950:0.69348)n5:0.07206)n3:0.09416)n1:0.4847)n0;

@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX59478:0.97435,(chlamydomonas_reinhardtii_Cre02.g095550:0.03775,chlamydomonas_reinhardtii_Cre02.g095250:0.05305)n2:0.90418)n1:0.115515,(mesostigma_viridae_Mv17256:0.79023,(mesostigma_viridae_Mv07282:0.51392,(mesostigma_viridae_Mv01936:0.30742,mesostigma_viridae_Mv02779:0.23096)n5:0.31109)n4:0.3336)n3:0.115515)n0;

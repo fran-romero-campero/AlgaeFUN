@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT5G10430:0.08494,(arabidopsis_thaliana_AT5G65390:0.16097,(arabidopsis_thaliana_AT2G22470:0.11529,arabidopsis_thaliana_AT4G40090:0.32712)n2:0.32681)n1:0.08494)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_4725:0.6519,((coccomyxa_subellipsoidea_Cosub3_1281276:0.66697,coccomyxa_subellipsoidea_Cosub3_1281913:0.98515)n2:0.37326,(ulva_mutabilis_UM138_0018:0.43555,ulva_mutabilis_UM138_0019:0.17557)n3:0.40231)n1:0.6519)n0;

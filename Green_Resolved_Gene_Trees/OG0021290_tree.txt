@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre01.g031700:0.98014,(klebsormidium_nitens_kfl00558_0070:0.60525,(mesotaenium_endlicherianum_ME000175S02074:0.14425,(mesotaenium_endlicherianum_ME000200S02727:0.06645,mesotaenium_endlicherianum_ME000200S02731:0.05603)n3:0.290844)n2:0.032316)n1:0.05292)n0;

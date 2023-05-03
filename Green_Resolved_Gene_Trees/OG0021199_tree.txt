@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv07210:0.45521,(dunaliella_salina_Dusal.0224s00006:0.82448,(chlamydomonas_reinhardtii_Cre17.g738751:0.45285,(volvox_carteri_Vocar.0003s0342:0.4096,volvox_carteri_Vocar.0003s0344:0.11598)n3:0.21404)n2:0.23948)n1:0.45521)n0;

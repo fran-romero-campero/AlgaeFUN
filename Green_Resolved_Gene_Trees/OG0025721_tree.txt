@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM054_0024:0.50905,(raphidocelis_subcapitata_Rsub_07789:0.22753,(scenedesmus_obliquus_SZX65956:0.15338,scenedesmus_obliquus_SZX72071:0.48387)n2:0.19755)n1:0.50905)n0;

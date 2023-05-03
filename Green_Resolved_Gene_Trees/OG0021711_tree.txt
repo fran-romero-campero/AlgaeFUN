@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH22739:0.32216,(triticum_aestivum_Traes_1BS_4FC420ED5:0.22322,(sorghum_bicolor_Sobic.003G292932:0.55845,(salvinia_cucullata_Sacu_v1.1_s1161.g027960:0.48574,zea_mays_Zm00001d005806:0.14251)n3:0.16176)n2:0.03031)n1:0.32216)n0;

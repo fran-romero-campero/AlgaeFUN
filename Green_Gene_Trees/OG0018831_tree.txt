@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g18920:0.752705,((haematococcus_lacustris_GFH19323:0.01329,haematococcus_lacustris_GFH33735:0.00055)0.659:0.05458,(haematococcus_lacustris_GFH19322:0.96516,(haematococcus_lacustris_GFH15426:0.03116,haematococcus_lacustris_GFH26579:0.00054)0.83:0.23059)0.333:0.20116)1:0.752705);

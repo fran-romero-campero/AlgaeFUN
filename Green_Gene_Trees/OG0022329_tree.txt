@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag06G112000:0.22841,(thuja_plicata_Thupl.29381460s0002:0.00055,(thuja_plicata_Thupl.29376983s0002:0.12156,(triticum_aestivum_Traes_4DS_21FFF1A18:0.03585,triticum_aestivum_Traes_4BS_0176AAC0C:0.01845)1:0.60008)0.288:0.15404)1:0.22841);

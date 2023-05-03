@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv11362:0.460585,((chromochloris_zofingiensis_Cz10g13030:0.63811,scenedesmus_obliquus_SZX70823:0.35712)n2:0.43052,(dunaliella_salina_Dusal.0234s00003:0.57012,(chlamydomonas_reinhardtii_Cre12.g555378:0.52743,volvox_carteri_Vocar.0007s0026:0.36398)n4:0.25622)n3:0.12558)n1:0.460585)n0;

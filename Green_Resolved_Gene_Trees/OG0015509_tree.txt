@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0008.g011485:0.36639,(triticum_aestivum_Traes_7AL_C2E746BAB:0.34674,(oryza_sativa_LOC_Os10g25180.1:0.80375,(zea_mays_Zm00001d013770:0.07289,((zea_mays_Zm00001d018768:0,zea_mays_Zm00001d003169:0)n5:0.00781,(zea_mays_Zm00001d042595:0.01995,zea_mays_Zm00001d013924:0.02205)n6:0.06309)n4:0.02992)n3:0.31435)n2:0.29649)n1:0.36639)n0;

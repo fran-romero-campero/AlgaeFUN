@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv00721:0.44601,(chromochloris_zofingiensis_Cz04g31270:0.46378,(dunaliella_salina_Dusal.0330s00017:0.40247,(haematococcus_lacustris_GFH11238:0.00055,(haematococcus_lacustris_GFH09330:0.00054,haematococcus_lacustris_GFH11239:0.38989)n4:0.05443)n3:0.38117)n2:0.37865)n1:0.44601)n0;

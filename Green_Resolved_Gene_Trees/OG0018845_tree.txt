@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g79181:0.09217,(thuja_plicata_Thupl.29380655s0002:0.35377,(zea_mays_Zm00001d044824:0.21303,(triticum_aestivum_Traes_7BS_D16D42853:0.00055,(triticum_aestivum_Traes_7AS_3C7802ADD:0.00054,triticum_aestivum_Traes_7DS_AA53CFBC0:0.03693)n4:0.00055)n3:0.05219)n2:0.32612)n1:0.09217)n0;

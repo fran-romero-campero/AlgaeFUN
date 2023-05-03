@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_v1.1_s0001.g000335:0.85775,((triticum_aestivum_Traes_4BL_15DBF043B:0.23114,triticum_aestivum_Traes_1BS_D6FEB35D7:0.24173)n3:0.27968,triticum_aestivum_Traes_4BS_0307B74B2:0.38781)n2:0.04309)n1:0.109385,(ceratopteris_richardii_Ceric.1Z108300:0.53546,thuja_plicata_Thupl.29381597s0001:0.50888)n4:0.29041)n0;

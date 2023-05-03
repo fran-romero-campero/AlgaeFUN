@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.010G244900:0.45423,(arabidopsis_thaliana_AT5G61990:0.71963,(solanum_lycopersicum_Solyc03g118280:0.39583,solanum_lycopersicum_Solyc07g045400:0.666666)n2:0.074074)n1:0.13574)n0;

@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH07109:0.04762,haematococcus_lacustris_GFH27643:0.03288)n1:0.632175,((ceratodon_purpureus_CepurR40.VG111000:0.26658,physcomitrium_patens_Pp3c23_15400:1.03152)n3:0.66479,(thuja_plicata_Thupl.29378161s0022:0.24624,thuja_plicata_Thupl.29378743s0005:0.34949)n4:0.56619)n2:0.632175)n0;

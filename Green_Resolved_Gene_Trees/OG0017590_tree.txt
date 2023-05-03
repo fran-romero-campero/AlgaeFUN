@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv12146:0.91412,((sorghum_bicolor_Sobic.010G241900:0.07095,zea_mays_Zm00001d014555:0.06261)n2:0.13141,(oryza_sativa_LOC_Os06g47750.1:0.08019,(oryza_sativa_LOC_Os06g47720.1:0.10985,(oryza_sativa_LOC_Os06g47700.1:0.04557,oryza_sativa_LOC_Os06g47740.1:0.07469)n5:0.04804)n4:0.02425)n3:0.09374)n1:0.91412)n0;

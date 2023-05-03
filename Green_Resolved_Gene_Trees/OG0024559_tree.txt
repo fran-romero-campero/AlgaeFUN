@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz14g19090:0.53799,raphidocelis_subcapitata_Rsub_05850:0.36368)n1:0.31929,(haematococcus_lacustris_GFH08226:0.00055,haematococcus_lacustris_GFH29018:0.00055)n2:0.31929)n0;

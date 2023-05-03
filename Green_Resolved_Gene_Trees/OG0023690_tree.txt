@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.8G174200:0.17314,physcomitrium_patens_Pp3c2_27000:0.14846)n1:0.558025,(chlamydomonas_reinhardtii_Cre05.g239450:0.40995,volvox_carteri_Vocar.0003s0420:0.33921)n2:0.558025)n0;

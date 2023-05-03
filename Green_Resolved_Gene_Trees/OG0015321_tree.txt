@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29380879s0004:1.17802,thuja_plicata_Thupl.29378511s0006:1.2616)n1:0.051275,(((oryza_sativa_LOC_Os01g72030.1:0,oryza_sativa_LOC_Os11g02590.1:0)n4:0.0141,(oryza_sativa_LOC_Os09g15960.1:0.10102,oryza_sativa_LOC_Os08g34230.1:0.04418)n5:0.01148)n3:0.18667,(aegilops_tauschii_AET1Gv20589100:1.08215,aegilops_tauschii_AET3Gv20551000:1.311)n6:0.145667)n2:0.29175)n0;

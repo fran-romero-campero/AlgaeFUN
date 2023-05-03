@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH11449:0.00055,(haematococcus_lacustris_GFH06112:0.06833,haematococcus_lacustris_GFH27682:0.00306)n2:0.09964)n1:0.20647,(mesotaenium_endlicherianum_ME000244S04038:0.26379,(triticum_aestivum_Traes_7AS_D5D81566C:0.25668,triticum_aestivum_Traes_1AS_B7E1EBBEE:0.70424)n4:0.05943)n3:0.20647)n0;

@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.30G071200:0.8291,sphagnum_magellanicum_Sphmag08G113600:0.61534)n1:0.07027,(mesotaenium_endlicherianum_ME000401S07009:0.53122,(spirogloea_muscicola_SM000151S01504:0.0352,(spirogloea_muscicola_SM000278S10018:0.01878,spirogloea_muscicola_SM000174S03355:0.03592)n4:0.00055)n3:0.50456)n2:0.07027)n0;

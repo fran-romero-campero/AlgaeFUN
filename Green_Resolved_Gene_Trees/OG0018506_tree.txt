@@ -1,0 +1,1 @@
+(((sorghum_bicolor_Sobic.002G131600:0.00053,zea_mays_Zm00001d019645:0.21075)n2:1.0352,(arabidopsis_thaliana_AT5G63150:0.53277,solanum_lycopersicum_Solyc02g067910:0.51813)n3:0.306)n1:0.197125,(cycas_panzhihuaensis_CYCAS_029816:0.5813,thuja_plicata_Thupl.29379169s0011:0.32569)n4:0.197125)n0;

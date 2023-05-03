@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_48533:0.63133,(thuja_plicata_Thupl.29378985s0011:0.66612,(arabidopsis_thaliana_AT2G16880:0.30571,solanum_lycopersicum_Solyc01g111470:0.57981)n2:0.43367)n1:0.63133)n0;

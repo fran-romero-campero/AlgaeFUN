@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta16g02345:0.27851,(bathycoccus_prasinos_Bathy01g02730:0.434,(bathycoccus_prasinos_Bathy12g00850:0.81296,bathycoccus_prasinos_Bathy16g02010:0.89793)n2:0.12793)n1:0.27851)n0;

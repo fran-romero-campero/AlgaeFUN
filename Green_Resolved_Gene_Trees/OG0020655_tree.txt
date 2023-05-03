@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g52745:0.63709,((cycas_panzhihuaensis_CYCAS_013518:0.27427,thuja_plicata_Thupl.29184701s0001:0.21181)n2:0.42758,(azolla_filiculoides_Azfi_s0035.g025550:0.45782,ceratopteris_richardii_Ceric.18G012100:0.42956)n3:0.29182)n1:0.63709)n0;

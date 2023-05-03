@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00004_0150:0.59651,mesostigma_viridae_Mv19226:0.71353)n1:0.24643,(chlamydomonas_reinhardtii_Cre12.g509800:0.39259,(chromochloris_zofingiensis_Cz04g21210:0.20739,(raphidocelis_subcapitata_Rsub_01877:0.33285,scenedesmus_obliquus_SZX74822:0.12486)n4:0.06575)n3:0.11898)n2:0.24643)n0;

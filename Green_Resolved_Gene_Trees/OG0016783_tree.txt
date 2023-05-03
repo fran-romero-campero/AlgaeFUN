@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00030_0350:0.48782,(anthoceros_agrestis_AagrOXF_utg000083l.25:0.64782,(cycas_panzhihuaensis_CYCAS_031001:0.18861,thuja_plicata_Thupl.29381818s0002:0.18796)n3:0.40162)n2:0.30108)n1:0.790675,(micromonas_pusilla_Micpu_27348364:0.39379,(bathycoccus_prasinos_Bathy08g03920:0.32552,ostreococcus_tauri_ostta04g04350:0.36954)n5:0.06824)n4:0.790675)n0;

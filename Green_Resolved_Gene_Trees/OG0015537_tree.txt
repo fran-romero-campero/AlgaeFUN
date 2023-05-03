@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_v1.1_s0013.g005837:0.48961,azolla_filiculoides_Azfi_s0738.g084632:0.94678)n1:0.027985,(((zea_mays_Zm00001d049971:0.06559,zea_mays_Zm00001d016728:0.00055)n4:0.65706,((zea_mays_Zm00001d021013:0,zea_mays_Zm00001d046577:0)n6:0.00759,zea_mays_Zm00001d028032:0.0893)n5:0.06244)n3:0.73579,solanum_lycopersicum_Solyc07g026720:0.25607)n2:0.027985)n0;

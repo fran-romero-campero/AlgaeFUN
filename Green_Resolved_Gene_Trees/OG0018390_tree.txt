@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000008l.37:1.08104,marchantia_polymorpha_Mp6g09210:0.73785)n1:0.15131,(mesotaenium_endlicherianum_ME000010S10832:0.93128,(spirogloea_muscicola_SM000043S15873:0.02793,(spirogloea_muscicola_SM000031S11633:0.05041,spirogloea_muscicola_SM000226S07406:0.02621)n4:0.04089)n3:1.05649)n2:0.15131)n0;

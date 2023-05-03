@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1188768:0.75941,(chlamydomonas_reinhardtii_Cre16.g678900:0.66779,scenedesmus_obliquus_SZX63664:0.53844)n2:0.25568)n1:0.215445,(spirogloea_muscicola_SM000141S00852:0.06212,(spirogloea_muscicola_SM000002S05793:0.05919,spirogloea_muscicola_SM000064S19816:0.04675)n4:0.0005)n3:0.215445)n0;

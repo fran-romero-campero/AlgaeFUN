@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0037.g025988:0.204915,(arabidopsis_thaliana_AT5G39715:1.05306,(triticum_aestivum_Traes_2DL_0F29AFB4F:0.45865,triticum_aestivum_Traes_7BL_71FFD7DB2:0.000495)n2:5.5e-05)n1:0.16583)n0;

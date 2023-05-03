@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc11g032010:0.39593,solanum_lycopersicum_Solyc01g057700:0.4797)n1:0.62807,(((micromonas_pusilla_Micpu_27348367:0.87731,micromonas_pusilla_Micpu_27348431:0.62342)n4:0.54559,ulva_mutabilis_UM095_0025:0.7371)n3:0.05264,(chlamydomonas_reinhardtii_Cre03.g197500:0.26483,volvox_carteri_Vocar.0011s0173:0.22189)n5:0.26716)n2:0.62807)n0;
