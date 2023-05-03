@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM065_0025:0.124004,((dunaliella_salina_Dusal.0062s00012:0.638406,(raphidocelis_subcapitata_Rsub_11437:0.532092,chromochloris_zofingiensis_Cz06g29060:1.93319e-06)n3:0.304533)n2:0.162991,chlamydomonas_reinhardtii_Cre03.g143847:0.155101)n1:0.124004)n0;

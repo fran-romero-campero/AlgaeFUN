@@ -1,1 +1,0 @@
-(ceratodon_purpureus_CepurR40.8G114100:0.591394,((anthoceros_agrestis_AagrOXF_utg000116l.104:0.948632,anthoceros_agrestis_AagrOXF_utg000116l.116:0.570329)n2:0.027052,(anthoceros_agrestis_AagrOXF_utg000116l.115:0.582734,(anthoceros_agrestis_AagrOXF_utg000116l.109:0.998577,anthoceros_agrestis_AagrOXF_utg000116l.118:0.822953)n4:0.038654)n3:0.112732)n1:0.591394)n0;

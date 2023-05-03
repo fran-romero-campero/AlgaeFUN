@@ -1,1 +1,0 @@
-(bathycoccus_prasinos_Bathy08g01470:0.38939,(marchantia_polymorpha_Mp1g27270:0.366753,((sphangum_magellanicum_Sphmag15G004300:0.185801,sphangum_magellanicum_Sphmag15G045000:0.384353)n3:0.231809,(physcomitrium_patens_Pp3c16_20080:0.207858,ceratodon_purpureus_CepurR40.10G116200:0.171426)n4:0.147951)n2:0.035973)n1:0.38939)n0;

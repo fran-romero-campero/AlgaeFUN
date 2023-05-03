@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl01009_0030:0.143211,(klebsormidium_nitens_kfl00492_0080:0.280851,(klebsormidium_nitens_kfl01201_0010:0.097305,((klebsormidium_nitens_kfl01277_0010:0.8895,klebsormidium_nitens_kfl01041_0020:1.21327)n4:0.494263,(klebsormidium_nitens_kfl00684_0030:0.124786,klebsormidium_nitens_kfl01290_0010:0.260022)n5:0.695192)n3:0.429024)n2:0.173267)n1:0.143211)n0;

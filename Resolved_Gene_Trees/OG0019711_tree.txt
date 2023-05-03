@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3892:0.266124,(ceratopteris_richardii_Ceric.1Z068300:2.07028e-06,((anthoceros_agrestis_AagrOXF_utg000005l.210:0.11527,anthoceros_agrestis_AagrOXF_utg000005l.213:0.133451)n3:0.294114,anthoceros_agrestis_AagrOXF_utg000133l.55:1.02433)n2:0.113815)n1:0.164934)n0;

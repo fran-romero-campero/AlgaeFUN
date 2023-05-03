@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_10499:0.539659,(dunaliella_salina_Dusal.0689s00002:1.28916,((mesostigma_viridae_Mv14053:0.955504,(micromonas_pusilla_Micpu_27346667:0.331973,micromonas_pusilla_Micpu_27346086:0.743909)n4:0.0826566)n3:0.194644,(cyanophora_paradoxa_Cyapar1_g2130:0.760195,cyanophora_paradoxa_Cyapar1_g16865:0.664485)n5:0.570336)n2:0.076433)n1:0.539659)n0;

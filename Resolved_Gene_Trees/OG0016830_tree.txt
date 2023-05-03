@@ -1,1 +1,0 @@
-((micromonas_pusilla_Micpu_27342088:1.21766,ostreococcus_tauri_ostta16g01630:0.43018)n1:0.122581,(ostreococcus_tauri_ostta15g02540:1.00951,((micromonas_pusilla_Micpu_27342263:1.52853,micromonas_pusilla_Micpu_27342789:0.862765)n4:0.222591,(micromonas_pusilla_Micpu_27343267:0.808963,micromonas_pusilla_Micpu_27342419:0.71031)n5:0.251066)n3:0.0278962)n2:0.480877)n0;

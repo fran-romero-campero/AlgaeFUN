@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre17.g720100:0.0919375,((volvox_carteri_Vocar.0264s0001:1.48106,volvox_carteri_Vocar.0021s0121:0.108268)n2:0.084325,(volvox_carteri_Vocar.0264s0002:0.076594,(volvox_carteri_Vocar.0021s0118:0.16968,volvox_carteri_Vocar.0021s0122:0.283505)n4:0.076304)n3:0.13275)n1:0.0919375)n0;

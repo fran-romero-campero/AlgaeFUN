@@ -1,1 +1,0 @@
-(ceratodon_purpureus_CepurR40.4G178500:0.690847,(selaginella_moellendorffii_Selmo_420115:0.387852,((klebsormidium_nitens_kfl00248_0180:1.13164,chromochloris_zofingiensis_Cz06g34280:3.47755e-06)n3:0.166531,(chromochloris_zofingiensis_Cz06g34290:3.47755e-06,klebsormidium_nitens_kfl00152_0070:0.9914)n4:0.367857)n2:0.040873)n1:0.262421)n0;

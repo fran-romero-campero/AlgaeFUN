@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_Selmo_423941:0.543211,(cycas_panzhihuaensis_CYCAS_011154:0.538723,(zea_mays_Zm00001d049979:0.552282,solanum_lycopersicum_Solyc03g115400:0.471407)n2:0.209667)n1:0.543211)n0;

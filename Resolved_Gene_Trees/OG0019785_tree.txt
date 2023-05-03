@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g4896:0.848273,((chlorokybus_atmophyticus_Chlat1_7439:1.473,klebsormidium_nitens_kfl00753_0040:1.57638)n2:0.058613,(anthoceros_agrestis_AagrOXF_utg000116l.269:0.240689,marchantia_polymorpha_Mp2g10120:1.7679)n3:0.102274)n1:0.848273)n0;

@@ -1,1 +1,0 @@
-((chlorokybus_atmophyticus_Chlat1_4836:1.51202,chromochloris_zofingiensis_Cz11g14050:2.45167e-06)n1:0.904228,(phaeodactylum_tricornutum_Phatr2_49357:0.002017,phaeodactylum_tricornutum_Phatr2_50346:0.001968)n2:0.904228)n0;

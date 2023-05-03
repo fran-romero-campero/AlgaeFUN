@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz01g37090:0.437374,(triticum_aestivum_Traes_2DL_B46500829:0.01755,(triticum_aestivum_Traes_2DL_423A9E41F:0.029701,triticum_aestivum_Traes_2BL_34BA02CAC:0.119475)n2:0.133156)n1:0.437374)n0;

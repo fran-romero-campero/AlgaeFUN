@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g17773:0.33004,((mesotaenium_endlicherianum_ME000074S09437:0.445619,klebsormidium_nitens_kfl00659_0030:0.362884)n2:0.362101,chlorokybus_atmophyticus_Chlat1_1927:0.646019)n1:0.33004)n0;

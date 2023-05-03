@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl00113_0220:0.64171,((ceratopteris_richardii_Ceric.13G012000:0.543486,azolla_filiculoides_Azfi_s0503.g073919:0.947407)n2:0.181073,salvinia_cucullata_Sacu_v1.1_s0104.g020077:0.601443)n1:0.64171)n0;

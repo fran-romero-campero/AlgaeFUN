@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_Cz04g30060:2.73197e-06,ulva_mutabilis_UM092_0032:1.07042)n1:0.0472345,(((raphidocelis_subcapitata_Rsub_10639:0.252523,chromochloris_zofingiensis_Cz02g36080:2.73197e-06)n4:0.274538,chlamydomonas_reinhardtii_Cre02.g083650:2.73197e-06)n3:0.491252,ulva_mutabilis_UM022_0032:1.02527)n2:0.0472345)n0;

@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g21631:0.788697,cyanophora_paradoxa_Cyapar1_g4921:0.871717)n1:0.206534,((raphidocelis_subcapitata_Rsub_09394:0.441637,chromochloris_zofingiensis_Cz13g06080:5.47917e-06)n3:0.883485,(cycas_panzhihuaensis_CYCAS_033190:0.468627,dunaliella_salina_Dusal.0610s00003:1.45594)n4:0.273581)n2:0.206534)n0;

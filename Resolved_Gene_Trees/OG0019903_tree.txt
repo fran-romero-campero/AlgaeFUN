@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv10461:0.887744,(mesotaenium_endlicherianum_ME000442S07478:1.39373,(marchantia_polymorpha_Mp5g02390:1.35937,(ceratopteris_richardii_Ceric.06G053900:1.25691,azolla_filiculoides_Azfi_s0043.g027112:0.846801)n3:0.132536)n2:0.05077)n1:0.887744)n0;

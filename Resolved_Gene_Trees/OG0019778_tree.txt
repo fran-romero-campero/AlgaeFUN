@@ -1,1 +1,0 @@
-(anthoceros_agrestis_AagrOXF_utg000100l.217:0.750447,((ulva_mutabilis_UM014_0069:1.52075,(raphidocelis_subcapitata_Rsub_00349:1.11631,raphidocelis_subcapitata_Rsub_05086:1.12659)n3:0.125177)n2:0.103447,chromochloris_zofingiensis_Cz10g17160:4.98957e-06)n1:0.750447)n0;

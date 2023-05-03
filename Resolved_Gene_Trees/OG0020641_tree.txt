@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g17457:0.396701,cyanophora_paradoxa_Cyapar1_g12454:0.533139)n1:0.341299,((klebsormidium_nitens_kfl00378_g19:0.928541,selaginella_moellendorffii_Selmo_408655:0.744245)n3:0.131973,chlamydomonas_reinhardtii_Cre10.g454200:3.08147e-06)n2:0.341299)n0;

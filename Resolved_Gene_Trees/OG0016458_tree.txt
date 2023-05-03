@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g7700:0.841055,((ulva_mutabilis_UM002_0358:0.922586,((raphidocelis_subcapitata_Rsub_01412:0.426429,chromochloris_zofingiensis_Cz03g28120:0.052706)n4:0.471284,chromochloris_zofingiensis_Cz03g28060:0.211367)n3:0.0234852)n2:0.211881,(chlamydomonas_reinhardtii_Cre17.g718400:4.58536e-06,volvox_carteri_Vocar.0004s0149:0.379275)n5:0.213667)n1:0.841055)n0;

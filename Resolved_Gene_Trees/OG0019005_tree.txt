@@ -1,1 +1,0 @@
-(((triticum_aestivum_Traes_3B_6ACAF6BA4:0.016447,triticum_aestivum_Traes_3AS_0362B6EA8:0.017641)n2:0.02366,triticum_aestivum_Traes_3DS_E159D4203:0.090674)n1:0.161403,(sorghum_bicolor_Sobic.003G027500:0.028678,(zea_mays_Zm00001d008875:0.086354,zea_mays_Zm00001d039427:0.0503838)n4:0.0055982)n3:0.024613)n0;

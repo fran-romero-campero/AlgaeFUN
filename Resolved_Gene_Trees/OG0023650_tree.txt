@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre06.g287950:0.557609,((mesostigma_viridae_Mv00843:0.381182,mesostigma_viridae_Mv19740:0.215753)n2:0.209128,mesostigma_viridae_Mv00841:0.940965)n1:0.557609)n0;

@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_4480:0.328309,(klebsormidium_nitens_kfl00530_0060:0.744595,(chlorokybus_atmophyticus_Chlat1_4840:0.608687,(mesostigma_viridae_Mv10334:1.1196,micromonas_pusilla_Micpu_27340910:0.97649)n3:0.091304)n2:0.155144)n1:0.328309)n0;

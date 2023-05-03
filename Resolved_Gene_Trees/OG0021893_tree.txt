@@ -1,1 +1,0 @@
-(thuja_plicata_Thupl.29380359s0007:0.621575,(triticum_aestivum_Traes_5DL_9193DDDA1:0.330108,((triticum_aestivum_Traes_4BS_D1977ADC5:0.203171,triticum_aestivum_Traes_4AL_42B8CC574:0.509096)n3:0.102543,triticum_aestivum_Traes_4AL_D9F082CFF:0.358936)n2:0.027499)n1:0.621575)n0;

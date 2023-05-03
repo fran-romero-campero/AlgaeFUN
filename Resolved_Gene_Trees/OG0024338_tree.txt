@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp7g08060:0.448044,(cycas_panzhihuaensis_CYCAS_028813:0.705831,(triticum_aestivum_Traes_7DS_BA6561276:1.37789e-06,triticum_aestivum_Traes_7AS_5D02AD4FE:0.0490491)n2:0.0054499)n1:0.224034)n0;

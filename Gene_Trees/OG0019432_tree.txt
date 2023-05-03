@@ -1,1 +1,0 @@
-(marchantia_polymorpha_proteome_first_transcript_Mp2g22130:0,((marchantia_polymorpha_proteome_first_transcript_Mp1g17415:0.743582,marchantia_polymorpha_proteome_first_transcript_Mp1g25000:0.391265):0.15112,marchantia_polymorpha_proteome_first_transcript_Mp2g22150:0):0);

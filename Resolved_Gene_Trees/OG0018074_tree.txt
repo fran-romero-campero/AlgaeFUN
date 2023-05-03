@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_Cz04g35160:0.308443,chlamydomonas_reinhardtii_Cre16.g669500:0.120955)n1:0.0334455,(chlamydomonas_reinhardtii_Cre14.g634150:1.50912e-06,(chromochloris_zofingiensis_Cz11g04180:0.270417,(chromochloris_zofingiensis_Cz11g04140:0.447803,chromochloris_zofingiensis_UNPLg00749:0.148527)n4:0.0148527)n3:0.0016503)n2:0.328053)n0;

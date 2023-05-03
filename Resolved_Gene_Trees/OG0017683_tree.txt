@@ -1,1 +1,0 @@
-(salvinia_cucullata_Sacu_v1.1_s0209.g025855:0.286156,((anthoceros_agrestis_AagrOXF_utg000087l.155:0.71545,(physcomitrium_patens_Pp3c18_15220:0.353504,(sphangum_magellanicum_Sphmag04G090400:0.317929,sphangum_magellanicum_Sphmag15G016500:0.228088)n4:0.155605)n3:0.011704)n2:0.077023,marchantia_polymorpha_Mp1g08360:0.578913)n1:0.286156)n0;

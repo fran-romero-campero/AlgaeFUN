@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3509:1.05668,(cyanophora_paradoxa_Cyapar1_g13973:1.53495,(klebsormidium_nitens_kfl00043_g21:1.38457,(mesostigma_viridae_Mv12501:1.29922,(bathycoccus_prasinos_Bathy03g02740:1.3219,micromonas_pusilla_Micpu_27347662:0.958517)n4:0.393104)n3:0.157224)n2:0.261508)n1:1.05668)n0;

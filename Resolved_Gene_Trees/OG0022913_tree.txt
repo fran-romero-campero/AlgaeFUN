@@ -1,1 +1,0 @@
-(arabidopsis_thaliana_AT4G26450:1.34646,(cycas_panzhihuaensis_CYCAS_029981:0.247926,(thuja_plicata_Thupl.29361800s0004:0.105944,thuja_plicata_Thupl.29377309s0002:0.045198)n2:0.428488)n1:1.34646)n0;

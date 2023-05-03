@@ -1,1 +1,0 @@
-(salvinia_cucullata_Sacu_v1.1_s0060.g015246:0.460433,((thuja_plicata_Thupl.29377837s0006:0.033131,(thuja_plicata_Thupl.29371624s0006:0.086351,thuja_plicata_Thupl.29380148s0012:0.045539)n3:0.029549)n2:0.033909,cycas_panzhihuaensis_CYCAS_033026:0.983997)n1:0.460433)n0;

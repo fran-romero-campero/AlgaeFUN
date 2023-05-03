@@ -1,1 +1,0 @@
-(ostreococcus_tauri_ostta07g02490:0.918041,(chlamydomonas_reinhardtii_Cre02.g109450:0.109848,((chlamydomonas_reinhardtii_Cre18.g748547:0.396983,volvox_carteri_Vocar.0035s0083:3.10553e-06)n3:0.212609,(chlamydomonas_reinhardtii_Cre18.g748747:0.198439,volvox_carteri_Vocar.0035s0082:0.166186)n4:0.0184651)n2:0.222928)n1:0.918041)n0;

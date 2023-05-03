@@ -1,1 +1,0 @@
-((phaeodactylum_tricornutum_Phatr2_43057:1.52192,nannochloropsis_gaditana_Nangad1_4478:1.11424)n1:0.0394595,(ulva_mutabilis_UM100_0041:1.49786,cyanophora_paradoxa_Cyapar1_g3669:1.60164)n2:0.0394595)n0;

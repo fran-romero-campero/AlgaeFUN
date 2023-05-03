@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g8269:0.415596,((volvox_carteri_Vocar.0018s0244:0.04364,chlamydomonas_reinhardtii_Cre16.g690431:0.005039)n2:0.082404,(dunaliella_salina_Dusal.0163s00015:0.14269,(chromochloris_zofingiensis_Cz12g02030:1.34515e-06,raphidocelis_subcapitata_Rsub_09396:0.226501)n4:0.05429)n3:0.018224)n1:0.415596)n0;

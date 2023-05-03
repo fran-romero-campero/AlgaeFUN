@@ -1,1 +1,0 @@
-((chlamydomonas_reinhardtii_Cre02.g082651:4.63069e-06,(dunaliella_salina_Dusal.0283s00014:1.04348,volvox_carteri_Vocar.0004s0505:1.11996)n2:0.030759)n1:0.280652,((ostreococcus_tauri_ostta16g00260:0.676419,micromonas_pusilla_Micpu_27339772:0.790347)n4:0.108506,bathycoccus_prasinos_Bathy15g00590:0.812681)n3:0.280652)n0;

@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_4873:0.221281,((zea_mays_Zm00001d029672:0.359077,(triticum_aestivum_Traes_5DL_82F8AB2EA:0.575695,triticum_aestivum_Traes_6BL_46BD5946F:0.146669)n3:0.0162966)n2:0.299385,dunaliella_salina_Dusal.0523s00009:0.394924)n1:0.221281)n0;

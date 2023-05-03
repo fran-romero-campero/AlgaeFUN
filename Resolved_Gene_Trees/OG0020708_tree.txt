@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_44921:1.46396,(mesostigma_viridae_Mv22741:0.91398,((chlorokybus_atmophyticus_Chlat1_9224:0.836663,chlorokybus_atmophyticus_Chlat1_2678:1.11127)n3:0.316842,chlorokybus_atmophyticus_Chlat1_2679:1.10337)n2:0.122596)n1:0.288814)n0;

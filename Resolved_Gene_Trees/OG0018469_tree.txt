@@ -1,1 +1,0 @@
-((nannochloropsis_gaditana_Nangad1_4596:0.556541,phaeodactylum_tricornutum_Phatr2_5527:0.467525)n1:0.0240185,(cyanophora_paradoxa_Cyapar1_g8030:0.801246,((mesotaenium_endlicherianum_ME000025S04433:0.324225,spirogloea_muscicola_SM000414S15655:0.608763)n4:0.018308,klebsormidium_nitens_kfl00001_0260:0.310769)n3:0.110363)n2:0.0240185)n0;

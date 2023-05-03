@@ -1,1 +1,0 @@
-(((volvox_carteri_Vocar.0017s0055:0.237501,chlamydomonas_reinhardtii_Cre16.g656050:0.11778)n2:1.06064,((raphidocelis_subcapitata_Rsub_03265:0.871958,chromochloris_zofingiensis_Cz04g21120:5.97507e-06)n4:0.146623,dunaliella_salina_Dusal.1050s00003:1.35668)n3:0.093328)n1:0.132863,(ostreococcus_tauri_ostta04g00050:1.07607,micromonas_pusilla_Micpu_27344303:1.03675)n5:0.132863)n0;

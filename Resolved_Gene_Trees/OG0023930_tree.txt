@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g16265:0.108731,((mesostigma_viridae_Mv17439:0.187367,chlorokybus_atmophyticus_Chlat1_7543:0.289306)n2:0.010848,micromonas_pusilla_Micpu_27342477:0.229758)n1:0.108731)n0;

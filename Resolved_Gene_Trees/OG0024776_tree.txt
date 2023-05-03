@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_8357:0.936243,(phaeodactylum_tricornutum_Phatr2_bd_1581:0.056521,(phaeodactylum_tricornutum_Phatr2_49128:0.119939,phaeodactylum_tricornutum_Phatr2_bd_1580:0.143289)n2:0.106084)n1:0.936243)n0;

@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g20054:0.29888,(chlorokybus_atmophyticus_Chlat1_7631:0.380008,(chlamydomonas_reinhardtii_Cre05.g246900:1.36657e-06,volvox_carteri_Vocar.0026s0060:0.466055)n2:0.034033)n1:0.29888)n0;

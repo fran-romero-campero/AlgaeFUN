@@ -1,1 +1,0 @@
-(((micromonas_pusilla_Micpu_27341811:1.44433,raphidocelis_subcapitata_Rsub_03248:0.959812)n2:0.207388,(chlamydomonas_reinhardtii_Cre10.g456650:0.037039,volvox_carteri_Vocar.0034s0010:0.352201)n3:0.677267)n1:0.043867,(mesostigma_viridae_Mv02388:0.786083,klebsormidium_nitens_kfl00223_0100:0.820441)n4:0.043867)n0;

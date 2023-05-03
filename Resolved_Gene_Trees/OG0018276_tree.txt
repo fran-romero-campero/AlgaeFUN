@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0229s0023:0.681538,(((raphidocelis_subcapitata_Rsub_09133:0.269799,(volvox_carteri_Vocar.0013s0210:0.510786,chlamydomonas_reinhardtii_Cre04.g217946:5.02071e-06)n4:0.191266)n3:0.299502,ulva_mutabilis_UM095_0043:1.07477)n2:0.364615,physcomitrium_patens_Pp3s46_430:1.01994)n1:0.681538)n0;

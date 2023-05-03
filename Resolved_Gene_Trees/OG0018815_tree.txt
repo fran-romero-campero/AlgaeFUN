@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_54800:0.591028,(((spirogloea_muscicola_SM000005S17282:0.025027,(spirogloea_muscicola_SM000041S15512:0.163838,spirogloea_muscicola_SM004667S16800:0.21037)n4:0.047954)n3:0.160902,spirogloea_muscicola_SM000060S19609:0.201273)n2:0.462434,raphidocelis_subcapitata_Rsub_04376:1.23443)n1:0.591028)n0;

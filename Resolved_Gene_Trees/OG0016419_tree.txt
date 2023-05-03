@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0930s0004:0.290473,(((chromochloris_zofingiensis_Cz04g29070:0.04094,raphidocelis_subcapitata_Rsub_09406:0.31202)n3:0.050259,nannochloropsis_gaditana_Nangad1_9058:0.768403)n2:0.03101,(chlamydomonas_reinhardtii_Cre16.g675900:3.13093e-06,(volvox_carteri_Vocar.0018s0192:0.857861,volvox_carteri_Vocar.0835s0001:0.586611)n5:0.065179)n4:0.160129)n1:0.290473)n0;

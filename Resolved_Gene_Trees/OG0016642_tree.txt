@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g15819:0.078078,(((cyanophora_paradoxa_Cyapar1_g15821:0.005228,cyanophora_paradoxa_Cyapar1_g15817:0.108734)n3:0.146878,cyanophora_paradoxa_Cyapar1_g15815:0.168675)n2:0.132335,(cyanophora_paradoxa_Cyapar1_g14469:1.0467,(cyanophora_paradoxa_Cyapar1_g15812:3.66908e-06,cyanophora_paradoxa_Cyapar1_g20038:0.997241)n5:0.601604)n4:0.555691)n1:0.078078)n0;

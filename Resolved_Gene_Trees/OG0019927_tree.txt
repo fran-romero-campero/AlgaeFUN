@@ -1,1 +1,0 @@
-((nannochloropsis_gaditana_Nangad1_7821:0.503411,phaeodactylum_tricornutum_Phatr2_36970:1.30943)n1:0.025378,(azolla_filiculoides_Azfi_s0336.g065543:1.5843,(selaginella_moellendorffii_Selmo_101549:1.29333,mesostigma_viridae_Mv16510:1.41399)n3:0.040234)n2:0.025378)n0;

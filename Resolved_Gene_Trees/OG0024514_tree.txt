@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp1g08540:0.677229,(sphangum_magellanicum_Sphmag02G183300:0.075437,(sphangum_magellanicum_Sphmag16G040700:0.164255,sphangum_magellanicum_Sphmag12G021900:0.123742)n2:0.049689)n1:0.677229)n0;

@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3490:0.409291,(oryza_sativa_LOC_Os11g05552.1:0.158203,(triticum_aestivum_Traes_4DS_C6648E862:0.018854,(triticum_aestivum_Traes_4BS_7111CD972:0,triticum_aestivum_Traes_4BS_7111CD9721:0)n3:0.024861)n2:0.117151)n1:0.409291)n0;

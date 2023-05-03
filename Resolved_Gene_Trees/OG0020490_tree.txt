@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_8634:0.79119,(raphidocelis_subcapitata_Rsub_13357:1.42837,((chlamydomonas_reinhardtii_Cre17.g724950:4.02223e-06,volvox_carteri_Vocar.0001s1446:0.525332)n3:0.760586,chromochloris_zofingiensis_Cz06g26210:4.02223e-06)n2:0.097352)n1:0.79119)n0;

@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_49769:0.74121,(solanum_lycopersicum_Solyc01g067020:1.50872,(arabidopsis_thaliana_AT1G11130:1.68996,(oryza_sativa_LOC_Os10g18990.1:1.32099,(zea_mays_Zm00001d048745:0.757545,triticum_aestivum_Traes_1DL_FF82312FC:0.958671)n4:0.117748)n3:0.227291)n2:0.101819)n1:0.74121)n0;

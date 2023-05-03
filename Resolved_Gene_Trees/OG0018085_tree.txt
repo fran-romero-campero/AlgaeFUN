@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre16.g677317:4.07381e-06,(((klebsormidium_nitens_kfl00247_0035:0.550777,(klebsormidium_nitens_kfl00247_0110:0.229171,klebsormidium_nitens_kfl00247_0130:0.370275)n4:0.674955)n3:0.1496,klebsormidium_nitens_kfl00092_0170:1.02801)n2:0.115324,klebsormidium_nitens_kfl00092_0180:1.05986)n1:4.07381e-06)n0;

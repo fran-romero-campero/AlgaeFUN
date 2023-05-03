@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv20550:0.574126,((anthoceros_agrestis_AagrOXF_utg000119l.182:1.06215,selaginella_moellendorffii_Selmo_442640:1.04943)n2:0.497439,(klebsormidium_nitens_kfl00063_0240:0.23077,klebsormidium_nitens_kfl00063_0230:0.435024)n3:0.524347)n1:0.574126)n0;

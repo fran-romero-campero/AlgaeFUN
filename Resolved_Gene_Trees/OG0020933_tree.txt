@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp5g18820:0.591166,(cycas_panzhihuaensis_CYCAS_003290:0.880074,((selaginella_moellendorffii_Selmo_445363:0.20979,selaginella_moellendorffii_Selmo_439284:0.068776)n3:0.778997,selaginella_moellendorffii_Selmo_414363:0.859619)n2:0.213566)n1:0.591166)n0;

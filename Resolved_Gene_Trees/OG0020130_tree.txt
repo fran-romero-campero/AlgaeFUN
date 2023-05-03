@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0317s0016:0.144811,(cyanophora_paradoxa_Cyapar1_g6615:0.20438,(ceratodon_purpureus_CepurR40.9G044500:1.88494,(nannochloropsis_gaditana_Nangad1_9716:0.304233,phaeodactylum_tricornutum_Phatr2_18087:0.123148)n3:0.225229)n2:0.090359)n1:0.144811)n0;

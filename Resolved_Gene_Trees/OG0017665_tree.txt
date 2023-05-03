@@ -1,1 +1,0 @@
-((selaginella_moellendorffii_Selmo_110264:0.424927,triticum_aestivum_Traes_5DL_76D25E73F:0.565543)n1:0.081886,(anthoceros_agrestis_AagrOXF_utg000049l.803:0.378684,((anthoceros_agrestis_AagrOXF_utg000049l.799:0.606026,anthoceros_agrestis_AagrOXF_utg000049l.805:0.107145)n4:0.146394,anthoceros_agrestis_AagrOXF_utg000091l.339:0.037906)n3:0.365706)n2:0.081886)n0;

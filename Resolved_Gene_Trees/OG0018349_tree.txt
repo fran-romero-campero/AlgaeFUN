@@ -1,1 +1,0 @@
-((((mesostigma_viridae_Mv20857:0.169933,mesostigma_viridae_Mv20856:0.120907)n3:0.082557,mesostigma_viridae_Mv09331:0.477166)n2:0.672364,chromochloris_zofingiensis_Cz18g04140:2.68624e-06)n1:0.462622,(porphyra_umbilicalis_Pum0135s0029:0.255075,porphyra_umbilicalis_Pum1647s0001:0.309023)n4:0.462622)n0;

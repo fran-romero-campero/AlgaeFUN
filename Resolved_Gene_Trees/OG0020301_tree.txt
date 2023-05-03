@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre08.g378300:1.70811e-06,(ulva_mutabilis_UM001_0478:0.683493,((ulva_mutabilis_UM001_0479:0.184533,ulva_mutabilis_UM001_0476:0.124067)n3:0.133193,ulva_mutabilis_UM001_0480:0.462342)n2:0.277792)n1:1.70811e-06)n0;

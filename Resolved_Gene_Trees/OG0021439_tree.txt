@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_40492:0.519825,(ostreococcus_tauri_ostta05g00370:1.04613,(raphidocelis_subcapitata_Rsub_06897:0.241216,(raphidocelis_subcapitata_Rsub_12939:0.390841,raphidocelis_subcapitata_Rsub_13420:0.274368)n3:0.651108)n2:0.569447)n1:0.519825)n0;

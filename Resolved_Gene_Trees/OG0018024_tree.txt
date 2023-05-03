@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.06G047900:0.339057,((marchantia_polymorpha_Mp1g08620:0.501519,((physcomitrium_patens_Pp3c1_32270:0.125861,physcomitrium_patens_Pp3c2_5330:0.145503)n4:0.094318,physcomitrium_patens_Pp3c14_14420:0.549872)n3:0.059014)n2:0.056996,sphangum_magellanicum_Sphmag04G012000:0.363072)n1:0.339057)n0;

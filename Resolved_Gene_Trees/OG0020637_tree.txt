@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre10.g466600:0.054226,((chromochloris_zofingiensis_Cz08g06050:0.395301,raphidocelis_subcapitata_Rsub_03472:0.11032)n2:0.328884,(chromochloris_zofingiensis_Cz03g28250:0.088092,raphidocelis_subcapitata_Rsub_08209:0.485688)n3:0.201059)n1:0.054226)n0;

@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_2693:0.475747,((chromochloris_zofingiensis_Cz05g34100:2.52186e-06,raphidocelis_subcapitata_Rsub_03394:0.478769)n2:0.049708,(dunaliella_salina_Dusal.0127s00024:0.611672,ulva_mutabilis_UM022_0084:0.468871)n3:0.039905)n1:0.475747)n0;

@@ -1,1 +1,0 @@
-((sorghum_bicolor_Sobic.001G132200:0.177171,zea_mays_Zm00001d033553:0.144605)n1:0.551902,(aegilops_tauschii_AET1Gv21049100:0.032142,(triticum_aestivum_Traes_1BL_8D7875F34:0.192169,triticum_aestivum_Traes_1DL_AD1D08A18:0.0027936)n3:0.0003104)n2:0.347271)n0;

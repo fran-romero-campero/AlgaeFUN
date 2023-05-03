@@ -1,1 +1,0 @@
-(aegilops_tauschii_AET7Gv20119700:0.524438,((((ulva_mutabilis_UM097_0018:0.308811,ulva_mutabilis_UM097_0019:0.1804)n4:0.205292,ulva_mutabilis_UM097_0021:0.508853)n3:0.39815,ulva_mutabilis_UM097_0020:0.3587)n2:0.236267,(chromochloris_zofingiensis_Cz02g23130:4.10703e-06,raphidocelis_subcapitata_Rsub_08097:0.676942)n5:0.320608)n1:0.524438)n0;

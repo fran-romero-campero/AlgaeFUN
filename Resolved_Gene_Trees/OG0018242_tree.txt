@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre01.g047100:0.150806,((ostreococcus_tauri_ostta17g00760:0.614862,micromonas_pusilla_Micpu_27339924:0.871201)n2:0.166286,(ostreococcus_tauri_ostta11g03170:0.628689,(micromonas_pusilla_Micpu_27342806:0,micromonas_pusilla_Micpu_27342478:0)n4:0.921515)n3:0.102391)n1:0.150806)n0;

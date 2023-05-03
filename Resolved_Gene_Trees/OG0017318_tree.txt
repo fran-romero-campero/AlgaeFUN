@@ -1,1 +1,0 @@
-(aegilops_tauschii_AET4Gv20022300:0.597588,(solanum_lycopersicum_Solyc02g092170:1.3856e-06,(solanum_lycopersicum_Solyc03g113110:0.001475,(solanum_lycopersicum_Solyc06g054040:0.004197,(solanum_lycopersicum_Solyc05g007700:0.154037,solanum_lycopersicum_Solyc11g017210:1.3856e-06)n4:0.033296)n3:0.012983)n2:0.014863)n1:0.597588)n0;

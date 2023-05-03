@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv09409:0.617243,(physcomitrium_patens_Pp3c5_14180:0.711858,(salvinia_cucullata_Sacu_v1.1_s0009.g004564:0.87652,((triticum_aestivum_Traes_6BS_733A3D6A2:3.74625e-06,triticum_aestivum_Traes_3B_B10E034B3:0.041844)n4:0.276592,triticum_aestivum_Traes_3B_938E72F54:0.236106)n3:0.026234)n2:0.346698)n1:0.617243)n0;

@@ -1,1 +1,0 @@
-((triticum_aestivum_Traes_6DL_015CD83D7:0.478306,((thuja_plicata_Thupl.29377773s0004:0.168733,thuja_plicata_Thupl.29382367s0003:0.318554)n3:0.802219,thuja_plicata_Thupl.29382367s0002:0.2248)n2:0.0249778)n1:0.09374,(zea_mays_Zm00001d034854:0.542638,sorghum_bicolor_Sobic.005G093600:0.504528)n4:0.402998)n0;

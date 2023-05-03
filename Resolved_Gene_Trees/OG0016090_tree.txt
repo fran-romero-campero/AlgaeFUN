@@ -1,1 +1,0 @@
-(((ostreococcus_tauri_ostta04g04350:0.382823,micromonas_pusilla_Micpu_27348364:0.375907)n2:0.03864,bathycoccus_prasinos_Bathy08g03920:0.286451)n1:0.850747,(klebsormidium_nitens_kfl00030_0350:0.59212,((cycas_panzhihuaensis_CYCAS_031001:0.220496,thuja_plicata_Thupl.29381818s0002:0.179525)n5:0.351028,anthoceros_agrestis_AagrOXF_utg000083l.25:0.598174)n4:0.102968)n3:0.850747)n0;

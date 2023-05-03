@@ -1,1 +1,0 @@
-(((bathycoccus_prasinos_Bathy04g02060:0.543863,(ostreococcus_tauri_ostta03g00590:0.481763,micromonas_pusilla_Micpu_27346087:0.506654)n3:0.116545)n2:0.266002,ulva_mutabilis_UM098_0002:2.14652)n1:0.150889,(phaeodactylum_tricornutum_Phatr2_bd_1587:0.00278,phaeodactylum_tricornutum_Phatr2_bd_1571:0.001905)n4:0.150889)n0;

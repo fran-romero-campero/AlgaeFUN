@@ -1,1 +1,0 @@
-(((porphyra_umbilicalis_Pum0207s0001:0.483488,porphyra_umbilicalis_Pum0404s0002:0.552082)n2:0.174531,(porphyra_umbilicalis_Pum0077s0038:0.98663,porphyra_umbilicalis_Pum0072s0050:0.727378)n3:0.108917)n1:0.0799275,(micromonas_pusilla_Micpu_27345358:0.979691,(cyanophora_paradoxa_Cyapar1_g10244:1.10528,klebsormidium_nitens_kfl00024_0510:0.896626)n5:0.084728)n4:0.0799275)n0;

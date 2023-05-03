@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g9276:0.438947,(((chlamydomonas_reinhardtii_Cre12.g509800:0.053622,(chromochloris_zofingiensis_Cz04g21210:2.3775e-06,raphidocelis_subcapitata_Rsub_01877:0.257646)n4:0.010803)n3:0.215216,klebsormidium_nitens_kfl00004_0150:0.519098)n2:0.099978,mesostigma_viridae_Mv19226:0.380316)n1:0.438947)n0;

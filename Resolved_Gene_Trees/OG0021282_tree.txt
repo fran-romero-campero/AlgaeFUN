@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_2040:0.432945,(nannochloropsis_gaditana_Nangad1_1850:0.285357,((nannochloropsis_gaditana_Nangad1_8921:0.106021,nannochloropsis_gaditana_Nangad1_9986:0.105868)n3:0.015729,nannochloropsis_gaditana_Nangad1_2218:0.077178)n2:0.126375)n1:0.432945)n0;

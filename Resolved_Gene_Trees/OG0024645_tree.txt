@@ -1,1 +1,0 @@
-((nannochloropsis_gaditana_Nangad1_8990:0.448125,mesostigma_viridae_Mv22504:1.2226)n1:0.041392,(micromonas_pusilla_Micpu_27338700:1.17051,phaeodactylum_tricornutum_Phatr2_50373:1.1033)n2:0.041392)n0;

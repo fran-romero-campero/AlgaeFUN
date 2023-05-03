@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv00742:0.72322,((ostreococcus_tauri_ostta04g00040:0.599969,bathycoccus_prasinos_Bathy18g00990:0.626483)n2:0.087627,((chromochloris_zofingiensis_Cz10g26030:3.8259e-06,raphidocelis_subcapitata_Rsub_01686:0.44535)n4:0.031919,(chlamydomonas_reinhardtii_Cre12.g500050:3.8259e-06,volvox_carteri_Vocar.0006s0416:0.489864)n5:0.159744)n3:0.173792)n1:0.72322)n0;

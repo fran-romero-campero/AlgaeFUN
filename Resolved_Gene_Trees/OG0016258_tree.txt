@@ -1,1 +1,0 @@
-((bathycoccus_prasinos_Bathy57g00030:1.20412,raphidocelis_subcapitata_Rsub_05735:0.546314)n1:0.0982555,((micromonas_pusilla_Micpu_27344655:0.942343,dunaliella_salina_Dusal.0183s00013:1.06333)n3:0.082347,(volvox_carteri_Vocar.0006s0150:0.074155,(chlamydomonas_reinhardtii_Cre14.g627455:0.31842,chlamydomonas_reinhardtii_Cre14.g626433:0.286578)n5:0.031842)n4:0.355912)n2:0.0982555)n0;

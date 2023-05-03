@@ -1,1 +1,0 @@
-((nannochloropsis_gaditana_Nangad1_493:0.507793,phaeodactylum_tricornutum_Phatr2_5288:0.457849)n1:0.0513925,((chlorokybus_atmophyticus_Chlat1_1416:0.417829,mesotaenium_endlicherianum_ME000252S04184:0.507771)n3:0.057666,mesostigma_viridae_Mv05092:1.22887)n2:0.0513925)n0;

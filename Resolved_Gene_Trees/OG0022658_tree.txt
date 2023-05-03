@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz09g26140:0.0046155,(arabidopsis_thaliana_AT3G19350:0.777005,(aegilops_tauschii_AET4Gv20524600:0.112946,triticum_aestivum_Traes_4DL_CA58A2B49:0.286236)n2:0.329021)n1:0.0046155)n0;

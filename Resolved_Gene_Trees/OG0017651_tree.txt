@@ -1,1 +1,0 @@
-(((cycas_panzhihuaensis_CYCAS_002823:0.22523,thuja_plicata_Thupl.29382313s0014:0.847494)n2:0.353564,marchantia_polymorpha_Mp1g06720:0.566656)n1:0.028689,(anthoceros_agrestis_AagrOXF_utg000024l.85:0.728873,(salvinia_cucullata_Sacu_v1.1_s0008.g004288:0.475059,ceratopteris_richardii_Ceric.02G003000:0.595602)n4:0.206974)n3:0.028689)n0;

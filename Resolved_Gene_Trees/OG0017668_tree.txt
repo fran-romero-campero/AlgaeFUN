@@ -1,1 +1,0 @@
-(anthoceros_agrestis_AagrOXF_utg000050l.327:0.629423,((volvox_carteri_Vocar.0002s0332:0.407235,((bathycoccus_prasinos_Bathy11g03330:1.35547,chlamydomonas_reinhardtii_Cre06.g272600:0.146544)n4:0.257524,chlamydomonas_reinhardtii_Cre06.g271550:4.38218e-06)n3:4.38218e-06)n2:0.287769,raphidocelis_subcapitata_Rsub_00561:0.703605)n1:0.629423)n0;

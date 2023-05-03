@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_55097:0.0964225,((phaeodactylum_tricornutum_Phatr2_54954:0.246905,phaeodactylum_tricornutum_Phatr2_bd_1570:0.243041)n2:0.026735,(phaeodactylum_tricornutum_Phatr2_44251:0.031961,phaeodactylum_tricornutum_Phatr2_48291:0.027717)n3:0.209136)n1:0.0964225)n0;

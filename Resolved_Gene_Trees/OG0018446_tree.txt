@@ -1,1 +1,0 @@
-(((phaeodactylum_tricornutum_Phatr2_34208:0.105664,phaeodactylum_tricornutum_Phatr2_34273:0.770969)n2:0.102769,phaeodactylum_tricornutum_Phatr2_34209:0.00985)n1:0.055835,(micromonas_pusilla_Micpu_27339760:0.780013,(cyanophora_paradoxa_Cyapar1_g18891:0.842112,klebsormidium_nitens_kfl00182_0260:0.963025)n4:0.135029)n3:0.055835)n0;

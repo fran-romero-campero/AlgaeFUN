@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM026_0045:0.373589,((chromochloris_zofingiensis_Cz19g06270:0.170912,raphidocelis_subcapitata_Rsub_03063:0.208222)n2:0.398486,(chromochloris_zofingiensis_Cz07g13170:0.138126,(raphidocelis_subcapitata_Rsub_08892:0.193863,raphidocelis_subcapitata_Rsub_05808:0.0759807)n4:0.0084423)n3:0.157404)n1:0.373589)n0;

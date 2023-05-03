@@ -1,1 +1,0 @@
-((micromonas_pusilla_Micpu_27339977:1.17662,ostreococcus_tauri_ostta01g03730:0.981323)n1:0.254202,((chlamydomonas_reinhardtii_Cre03.g173950:3.41514e-06,volvox_carteri_Vocar.0015s0177:0.407948)n3:0.692201,chromochloris_zofingiensis_Cz15g11110:3.41514e-06)n2:0.254202)n0;

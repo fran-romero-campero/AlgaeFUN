@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_Selmo_429215:0.0388385,(thuja_plicata_Thupl.29379201s0027:1.17808,(cycas_panzhihuaensis_CYCAS_000846:0.811617,(cycas_panzhihuaensis_CYCAS_025612:0.684333,((cycas_panzhihuaensis_CYCAS_014947:0.780044,cycas_panzhihuaensis_CYCAS_019628:0.656591)n5:0.160857,cycas_panzhihuaensis_CYCAS_000786:1.00805)n4:0.212838)n3:0.0212838)n2:0.00236487)n1:0.310569)n0;

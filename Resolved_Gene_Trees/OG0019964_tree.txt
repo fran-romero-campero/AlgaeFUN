@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_4860:0.675714,(ulva_mutabilis_UM005_0182:0.802257,(micromonas_pusilla_Micpu_27347565:0.358367,(ostreococcus_tauri_ostta05g04120:0.367919,bathycoccus_prasinos_Bathy03g04850:0.747566)n3:0.079389)n2:0.357973)n1:0.675714)n0;

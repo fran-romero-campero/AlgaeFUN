@@ -1,1 +1,0 @@
-(triticum_aestivum_Traes_6AS_8CE75E342:0.427329,((spirogloea_muscicola_SM003119S12256:0.567003,spirogloea_muscicola_SM000182S03951:0.511189)n2:0.50553,(spirogloea_muscicola_SM004080S15414:0.274626,spirogloea_muscicola_SM004426S16323:0.524469)n3:0.095971)n1:0.427329)n0;

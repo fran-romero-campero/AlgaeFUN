@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_142:0.667053,(dunaliella_salina_Dusal.0069s00002:0.920822,(volvox_carteri_Vocar.0023s0105:0.883112,(chromochloris_zofingiensis_Cz07g30130:4.02601e-06,raphidocelis_subcapitata_Rsub_01263:0.472512)n3:0.146056)n2:0.288917)n1:0.667053)n0;

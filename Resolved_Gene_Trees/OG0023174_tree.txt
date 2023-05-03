@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv20393:0.496397,((bathycoccus_prasinos_Bathy22g00180:1.07292,bathycoccus_prasinos_Bathy37g00140:1.42331)n2:0.204602,bathycoccus_prasinos_Bathy48g00070:1.07277)n1:0.496397)n0;

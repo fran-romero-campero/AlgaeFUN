@@ -1,1 +1,0 @@
-(((azolla_filiculoides_Azfi_s0743.g084787:0.157203,azolla_filiculoides_Azfi_s1467.g103478:0.072106)n2:0.231656,salvinia_cucullata_Sacu_v1.1_s0123.g021505:0.829425)n1:0.55918,(selaginella_moellendorffii_Selmo_410693:0.622362,selaginella_moellendorffii_Selmo_408674:1.05262)n3:0.55918)n0;

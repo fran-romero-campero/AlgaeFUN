@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv01727:0.462579,phaeodactylum_tricornutum_Phatr2_44980:0.622907)n1:0.035706,(raphidocelis_subcapitata_Rsub_10236:0.253283,(micromonas_pusilla_Micpu_27345874:0.36165,((ostreococcus_tauri_ostta12g02910:0.194414,nannochloropsis_gaditana_Nangad1_9539:1.32432)n5:0.080441,bathycoccus_prasinos_Bathy09g04470:0.299472)n4:0.127739)n3:0.124131)n2:0.035706)n0;

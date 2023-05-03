@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_UNPLg00867:0.075831,selaginella_moellendorffii_Selmo_412538:0.869649)n1:0.064149,(chromochloris_zofingiensis_Cz12g13190:0.095073,selaginella_moellendorffii_Selmo_427944:0.895008)n2:0.064149)n0;

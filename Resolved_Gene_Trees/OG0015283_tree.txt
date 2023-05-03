@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g21987:0.271509,((mesostigma_viridae_Mv10371:0.392188,((mesostigma_viridae_Mv06493:0.205467,mesostigma_viridae_Mv06708:0.059065)n4:0.237333,mesostigma_viridae_Mv12436:0.410218)n3:0.140187)n2:0.677817,(ulva_mutabilis_UM001_0218:1.39914,(ulva_mutabilis_UM007_0049:1.22195,ulva_mutabilis_UM001_0221:0.783675)n6:0.23838)n5:0.135973)n1:0.271509)n0;

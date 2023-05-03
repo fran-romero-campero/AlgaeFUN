@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g6762:0.448997,(klebsormidium_nitens_kfl00050_0200:0.963783,(mesostigma_viridae_Mv01619:0.492226,(((chlamydomonas_reinhardtii_Cre03.g153700:4.56629e-06,volvox_carteri_Vocar.0019s0124:0.668715)n5:0.231439,dunaliella_salina_Dusal.0611s00006:0.435886)n4:0.311506,ulva_mutabilis_UM009_0118:0.816602)n3:0.086667)n2:0.022275)n1:0.448997)n0;

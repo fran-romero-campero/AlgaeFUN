@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_36197:0.396341,((chromochloris_zofingiensis_Cz09g08090:2.60087e-06,(raphidocelis_subcapitata_Rsub_11048:0.808237,raphidocelis_subcapitata_Rsub_01466:0.02997)n3:0.435037)n2:0.147524,mesostigma_viridae_Mv08987:0.531791)n1:0.396341)n0;

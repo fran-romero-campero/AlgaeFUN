@@ -1,1 +1,0 @@
-(triticum_aestivum_Traes_1AL_1BE23E937:0.330022,((anthoceros_agrestis_AagrOXF_utg000011l.219:0.321834,(anthoceros_agrestis_AagrOXF_utg000083l.416:0.38792,anthoceros_agrestis_AagrOXF_utg000083l.415:0.112403)n3:0.214854)n2:0.511343,anthoceros_agrestis_AagrOXF_utg000005l.485:0.649714)n1:0.330022)n0;

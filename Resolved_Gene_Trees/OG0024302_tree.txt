@@ -1,1 +1,0 @@
-((cycas_panzhihuaensis_CYCAS_022047:0.881569,cycas_panzhihuaensis_CYCAS_022143:0.892934)n1:0.150663,(micromonas_pusilla_Micpu_27348834:0.678899,dunaliella_salina_Dusal.0128s00007:0.241859)n2:0.150663)n0;

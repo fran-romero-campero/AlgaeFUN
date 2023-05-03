@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME000346S05947:0.723784,(((physcomitrium_patens_Pp3c3_6190:0.4498,physcomitrium_patens_Pp3c13_3940:0.310647)n3:0.119267,ceratodon_purpureus_CepurR40.1G082800:0.352032)n2:0.669976,sphangum_magellanicum_Sphmag08G062500:1.15481)n1:0.723784)n0;

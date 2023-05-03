@@ -1,1 +1,0 @@
-(sorghum_bicolor_Sobic.010G155401:1.12039,(cycas_panzhihuaensis_CYCAS_000404:0.124797,(((cycas_panzhihuaensis_CYCAS_000406:0.623777,(cycas_panzhihuaensis_CYCAS_000408:0.699309,cycas_panzhihuaensis_CYCAS_000400:0.73467)n5:0.092879)n4:0.103044,cycas_panzhihuaensis_CYCAS_000401:0.10305)n3:0.101919,cycas_panzhihuaensis_CYCAS_000409:0.235748)n2:0.121745)n1:1.12039)n0;

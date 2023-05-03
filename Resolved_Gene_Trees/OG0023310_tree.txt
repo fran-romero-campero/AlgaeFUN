@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz04g15030:0.215865,(ceratodon_purpureus_CepurR40.3G220300:1.71522e-06,(klebsormidium_nitens_kfl00181_0110:0.363003,klebsormidium_nitens_kfl00181_0120:0.672888)n2:0.0747653)n1:0.418876)n0;

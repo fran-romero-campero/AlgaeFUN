@@ -1,1 +1,0 @@
-(azolla_filiculoides_Azfi_s0595.g078821:0.591324,((triticum_aestivum_Traes_4DL_D0A5CD2DF:0.237838,triticum_aestivum_Traes_4BS_A67D12313:0.073847)n2:0.413736,thuja_plicata_Thupl.29380995s0015:0.600522)n1:0.591324)n0;

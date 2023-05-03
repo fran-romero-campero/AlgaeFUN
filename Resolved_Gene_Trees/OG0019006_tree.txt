@@ -1,1 +1,0 @@
-(sorghum_bicolor_Sobic.001G539300:0.351954,((sorghum_bicolor_Sobic.009G068350:0.588671,(sorghum_bicolor_Sobic.009G107140:0.751375,sorghum_bicolor_Sobic.003G276200:0.349303)n3:0.3024)n2:0.009901,(sorghum_bicolor_Sobic.009G055500:0.42752,sorghum_bicolor_Sobic.007G113500:0.957725)n4:0.013901)n1:0.351954)n0;

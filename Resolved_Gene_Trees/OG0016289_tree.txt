@@ -1,1 +1,0 @@
-(((ceratodon_purpureus_CepurR40.10G137000:0.811266,sphangum_magellanicum_Sphmag11G096800:0.838915)n2:0.114745,(ceratodon_purpureus_CepurR40.4G052800:1.04045,sphangum_magellanicum_Sphmag19G072300:0.940807)n3:0.122508)n1:0.017659,(marchantia_polymorpha_Mp8g17300:0.736329,(marchantia_polymorpha_Mp8g13530:0.144659,marchantia_polymorpha_Mp8g06860:0.214892)n5:0.607989)n4:0.017659)n0;

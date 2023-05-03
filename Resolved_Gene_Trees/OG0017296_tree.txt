@@ -1,1 +1,0 @@
-((triticum_aestivum_Traes_3AL_2AF594324:0.862405,((oryza_sativa_LOC_Os01g73830.1:0.735785,oryza_sativa_LOC_Os01g73640.1:0.914369)n3:0.371903,oryza_sativa_LOC_Os05g08230.1:0.958014)n2:0.106446)n1:0.0845645,(aegilops_tauschii_AET3Gv21168300:0.050693,aegilops_tauschii_AET3Gv21167500:0.465307)n4:0.743196)n0;

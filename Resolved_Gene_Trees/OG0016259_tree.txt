@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv17452:0.309588,mesostigma_viridae_Mv14701:0.264167)n1:0.234152,((bathycoccus_prasinos_Bathy83g00040:1.02591,(chromochloris_zofingiensis_Cz12g05030:2.6525e-06,chromochloris_zofingiensis_Cz12g05040:2.6525e-06)n4:2.6525e-06)n3:0.366201,(chlamydomonas_reinhardtii_Cre16.g690767:0.032347,volvox_carteri_Vocar.0018s0238:0.199628)n5:0.437393)n2:0.188435)n0;

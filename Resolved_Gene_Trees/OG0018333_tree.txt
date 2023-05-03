@@ -1,1 +1,0 @@
-((ulva_mutabilis_UM003_0233:0.257375,ulva_mutabilis_UM025_0019:0.325458)n1:0.413668,(chlorokybus_atmophyticus_Chlat1_4681:1.43693,((mesostigma_viridae_Mv12442:0.302279,mesostigma_viridae_Mv02048:0.423898)n4:0.082501,mesostigma_viridae_Mv02049:0.990567)n3:0.110063)n2:0.299874)n0;

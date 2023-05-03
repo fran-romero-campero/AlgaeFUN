@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum1084s0003:0.162324,(ulva_mutabilis_UM109_0045:0.352138,(bathycoccus_prasinos_Bathy43g00010:0.58657,(chromochloris_zofingiensis_Cz03g10140:1.98682e-06,phaeodactylum_tricornutum_Phatr2_41079:0.513244)n3:0.186761)n2:0.148813)n1:0.162324)n0;

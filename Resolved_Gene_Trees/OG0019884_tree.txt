@@ -1,1 +1,0 @@
-(sphangum_magellanicum_Sphmag09G043300:0.813269,((salvinia_cucullata_Sacu_v1.1_s0091.g018802:0.497071,(azolla_filiculoides_Azfi_s0374.g067216:0.313832,azolla_filiculoides_Azfi_s0006.g010010:0.337226)n3:0.0374695)n2:0.122204,ceratopteris_richardii_Ceric.27G053900:0.385732)n1:0.381743)n0;

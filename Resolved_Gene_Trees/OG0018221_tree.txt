@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g23812:0.74366,(ulva_mutabilis_UM079_0022:1.09819,((mesostigma_viridae_Mv00002:1.30631,chromochloris_zofingiensis_Cz01g15210:4.88909e-06)n3:0.161479,(dunaliella_salina_Dusal.0895s00006:0.752238,chlamydomonas_reinhardtii_Cre03.g181100:4.88909e-06)n4:0.552302)n2:0.162976)n1:0.74366)n0;

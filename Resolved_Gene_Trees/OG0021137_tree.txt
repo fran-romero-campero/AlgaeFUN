@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_8715:0.927924,(mesostigma_viridae_Mv15126:0.551874,(klebsormidium_nitens_kfl00826_0070:0.378923,(mesotaenium_endlicherianum_ME000484S07921:0.336789,marchantia_polymorpha_Mp8g03870:0.368478)n3:0.065415)n2:0.10916)n1:0.927924)n0;

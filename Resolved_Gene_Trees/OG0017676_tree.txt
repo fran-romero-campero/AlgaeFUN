@@ -1,1 +1,0 @@
-(anthoceros_agrestis_AagrOXF_utg000081l.90:0.412925,((klebsormidium_nitens_kfl00085_0060:0.186143,(klebsormidium_nitens_kfl00049_g19:0.110209,klebsormidium_nitens_kfl00650_0090:0.144774)n3:0.074866)n2:0.224026,(klebsormidium_nitens_kfl00212_0120:1.09971,klebsormidium_nitens_kfl00162_0070:3.32893e-06)n4:0.874544)n1:0.412925)n0;

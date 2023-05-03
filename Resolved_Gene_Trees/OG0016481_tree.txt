@@ -1,1 +1,0 @@
-((raphidocelis_subcapitata_Rsub_07849:1.08162,((porphyra_umbilicalis_Pum2634s0001:0.936685,chlamydomonas_reinhardtii_Cre02.g143367:5.04473e-06)n3:0.105932,porphyra_umbilicalis_Pum0407s0001:1.19377)n2:0.132641)n1:0.0266895,(volvox_carteri_Vocar.0013s0040:0.906762,(volvox_carteri_Vocar.0032s0038:0.047627,volvox_carteri_Vocar.0032s0037:0.042286)n5:0.721157)n4:0.217099)n0;

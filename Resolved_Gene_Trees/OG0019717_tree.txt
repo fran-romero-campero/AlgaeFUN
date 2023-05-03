@@ -1,1 +1,0 @@
-((ceratopteris_richardii_Ceric.30G043400:0.248231,salvinia_cucullata_Sacu_v1.1_s0189.g025175:0.261899)n1:0.207945,(sphangum_magellanicum_Sphmag13G112300:0.97779,(anthoceros_agrestis_AagrOXF_utg000085l.44:1.13878,anthoceros_agrestis_AagrOXF_utg000006l.836:0.684024)n3:0.0760027)n2:0.10099)n0;

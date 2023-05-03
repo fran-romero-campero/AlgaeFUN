@@ -1,1 +1,0 @@
-(raphidocelis_subcapitata_Rsub_01635:0.937801,((oryza_sativa_LOC_Os04g24170.1:0.261977,(aegilops_tauschii_AET2Gv20614500:8e-06,(triticum_aestivum_Traes_2AL_A2B46F76D:0.0161,(triticum_aestivum_Traes_2BL_25BC0239B:0.01641,triticum_aestivum_Traes_2DL_8787DCFD7:0.001206)n5:0.0001206)n4:1.34e-05)n3:0.006585)n2:0.834872,arabidopsis_thaliana_AT2G24350:1.06546)n1:0.937801)n0;

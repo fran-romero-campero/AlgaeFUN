@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv11429:1.47174,cyanophora_paradoxa_Cyapar1_g817:1.25758)n1:0.062771,(nannochloropsis_gaditana_Nangad1_5108:1.44519,(phaeodactylum_tricornutum_Phatr2_32710:0.132288,phaeodactylum_tricornutum_Phatr2_43493:0.219354)n3:0.994064)n2:0.062771)n0;

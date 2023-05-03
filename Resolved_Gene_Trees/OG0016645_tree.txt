@@ -1,1 +1,0 @@
-(volvox_carteri_Vocar.0082s0023:0.822626,(cyanophora_paradoxa_Cyapar1_g9472:0.002321,(((cyanophora_paradoxa_Cyapar1_g1568:0,cyanophora_paradoxa_Cyapar1_g5988:0)n4:0.01618,cyanophora_paradoxa_Cyapar1_g1733:0.00292)n3:0.016031,(cyanophora_paradoxa_Cyapar1_g22150:0.339245,cyanophora_paradoxa_Cyapar1_g279:0.149749)n5:0.034061)n2:0.051403)n1:0.822626)n0;

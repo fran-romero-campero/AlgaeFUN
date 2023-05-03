@@ -1,1 +1,0 @@
-((sphangum_magellanicum_Sphmag19G090900:0.099681,sphangum_magellanicum_Sphmag08G091600:0.070531)n1:0.403651,(aegilops_tauschii_AET3Gv20956800:1.24698e-06,(triticum_aestivum_Traes_2AL_8D96797EF:0.459197,triticum_aestivum_Traes_3B_88DAF5617:0.0472428)n3:0.0052492)n2:0.165895)n0;

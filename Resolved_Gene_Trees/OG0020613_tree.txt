@@ -1,1 +1,0 @@
-(volvox_carteri_Vocar.0071s0029:0.105969,((chlamydomonas_reinhardtii_Cre01.g054600:2.94281e-06,dunaliella_salina_Dusal.0404s00012:0.659748)n2:0.262745,(dunaliella_salina_Dusal.2256s00001:1.43107,chlamydomonas_reinhardtii_Cre01.g054550:2.94281e-06)n3:0.55129)n1:0.0612544)n0;

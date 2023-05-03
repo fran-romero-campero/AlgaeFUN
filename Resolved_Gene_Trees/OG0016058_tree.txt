@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g22723:0.335624,(mesostigma_viridae_Mv00175:0.494943,(anthoceros_agrestis_AagrOXF_utg000018l.414:0.366781,(((physcomitrium_patens_Pp3c24_520:0.111246,ceratodon_purpureus_CepurR40.12G038700:0.118607)n5:0.21256,sphangum_magellanicum_Sphmag19G029400:0.302081)n4:0.085627,marchantia_polymorpha_Mp6g09200:0.383989)n3:0.017997)n2:0.097656)n1:0.335624)n0;

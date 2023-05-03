@@ -1,1 +1,0 @@
-((((oryza_sativa_LOC_Os11g06830.1:0.114588,oryza_sativa_LOC_Os06g48740.1:0.257655)n3:0.251212,(oryza_sativa_LOC_Os03g18050.1:0.134183,oryza_sativa_LOC_Os03g25289.1:0.063454)n4:0.461272)n2:0.383876,triticum_aestivum_Traes_5AL_1B724E174:0.531053)n1:0.14079,(azolla_filiculoides_Azfi_s0215.g058410:0.656584,salvinia_cucullata_Sacu_v1.1_s0086.g018434:0.83598)n5:0.14079)n0;

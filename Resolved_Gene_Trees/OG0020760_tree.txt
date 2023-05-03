@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz03g34050:2.38698e-06,((klebsormidium_nitens_kfl00115_0140:0.664416,physcomitrium_patens_Pp3c25_14650:0.641652)n2:0.236851,(selaginella_moellendorffii_Selmo_437314:0.249161,selaginella_moellendorffii_Selmo_440007:0.125901)n3:0.778309)n1:2.38698e-06)n0;

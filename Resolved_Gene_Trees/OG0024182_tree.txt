@@ -1,1 +1,0 @@
-((phaeodactylum_tricornutum_Phatr2_45608:0.004503,phaeodactylum_tricornutum_Phatr2_35345:0.012564)n1:0.712934,(cyanophora_paradoxa_Cyapar1_g24079:1.27349,cyanophora_paradoxa_Cyapar1_g24077:0.085639)n2:0.712934)n0;

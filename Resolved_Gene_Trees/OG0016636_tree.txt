@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM034_0053:0.803828,((cyanophora_paradoxa_Cyapar1_g19082:1.36835,(cyanophora_paradoxa_Cyapar1_g23811:1.38595,(cyanophora_paradoxa_Cyapar1_g12397:0.162945,(cyanophora_paradoxa_Cyapar1_g12394:0.047742,cyanophora_paradoxa_Cyapar1_g12404:0.200464)n5:0.233875)n4:0.63472)n3:0.093889)n2:0.075535,cyanophora_paradoxa_Cyapar1_g12401:5.66508e-06)n1:0.803828)n0;

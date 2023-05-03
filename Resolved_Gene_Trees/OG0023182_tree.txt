@@ -1,1 +1,0 @@
-(bathycoccus_prasinos_Bathy71g00020:0.532151,(nannochloropsis_gaditana_Nangad1_2489:0.319252,(phaeodactylum_tricornutum_Phatr2_26813:0.461995,phaeodactylum_tricornutum_Phatr2_48694:0.3703)n2:0.0411444)n1:0.07159)n0;

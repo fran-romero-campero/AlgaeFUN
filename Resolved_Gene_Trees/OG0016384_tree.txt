@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g20594:0.394711,(micromonas_pusilla_Micpu_27338947:0.307667,(klebsormidium_nitens_kfl00260_0080:0.359282,((spirogloea_muscicola_SM001100S18757:0.003185,spirogloea_muscicola_SM001546S01437:0.231057)n4:0.510152,(volvox_carteri_Vocar.0053s0046:0.206246,chlamydomonas_reinhardtii_Cre08.g376900:0.057366)n5:0.219102)n3:0.146033)n2:0.035567)n1:0.394711)n0;

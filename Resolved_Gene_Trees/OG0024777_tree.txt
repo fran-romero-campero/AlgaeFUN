@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_8613:1.08689,((solanum_lycopersicum_Solyc12g019200:0.040254,solanum_lycopersicum_Solyc12g019190:0.026492)n2:0.223259,solanum_lycopersicum_Solyc12g019144:0.328997)n1:1.08689)n0;

@@ -1,1 +1,0 @@
-((raphidocelis_subcapitata_Rsub_00265:0.71032,dunaliella_salina_Dusal.0391s00012:0.909689)n1:0.183779,((bathycoccus_prasinos_Bathy01g01680:0.918149,ostreococcus_tauri_ostta01g01810:0.675101)n3:0.041966,(micromonas_pusilla_Micpu_27341250:1.09359,micromonas_pusilla_Micpu_27342754:0.474191)n4:0.0526879)n2:0.542432)n0;

@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.16G018700:0.595246,(((triticum_aestivum_Traes_2AS_518EB6304:0.060325,triticum_aestivum_Traes_6BS_2A7AE08BD:0.033703)n3:0.22932,triticum_aestivum_Traes_2BS_F932AE3B2:1.71281e-06)n2:0.188286,triticum_aestivum_Traes_2DL_0F187B4DA:0.040539)n1:0.595246)n0;

@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_43791:0.298551,((mesostigma_viridae_Mv11390:0.090131,mesostigma_viridae_Mv11391:0.23239)n2:0.49572,micromonas_pusilla_Micpu_27340557:0.8535)n1:0.298551)n0;

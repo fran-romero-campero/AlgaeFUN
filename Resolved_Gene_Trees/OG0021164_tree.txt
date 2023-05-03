@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv05485:0.912784,(micromonas_pusilla_Micpu_27339369:1.43391,micromonas_pusilla_Micpu_27348429:0.937872)n2:0.104208)n1:0.0680385,(sphangum_magellanicum_Sphmag20G019400:0.377183,marchantia_polymorpha_Mp8g08730:0.819801)n3:0.2492)n0;

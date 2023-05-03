@@ -1,1 +1,0 @@
-(((phaeodactylum_tricornutum_Phatr2_36633:1.26838,(micromonas_pusilla_Micpu_27344122:0.897455,cyanophora_paradoxa_Cyapar1_g588:1.54357)n3:0.030405)n2:0.016559,chlamydomonas_reinhardtii_Cre03.g151100:1.17318)n1:0.121662,(porphyra_umbilicalis_Pum1041s0005:1.08501,(porphyra_umbilicalis_Pum1041s0004:0.610404,porphyra_umbilicalis_Pum1041s0003:0.624351)n5:0.447468)n4:0.121662)n0;

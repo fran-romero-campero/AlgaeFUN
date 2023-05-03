@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME000039S06705:0.349442,((triticum_aestivum_Traes_7AS_96A285B52:0.226992,solanum_lycopersicum_Solyc01g016390:0.414432)n2:0.250629,(triticum_aestivum_Traes_6BL_48BD962F6:0.764951,solanum_lycopersicum_Solyc01g068430:0.628178)n3:0.0697975)n1:0.349442)n0;

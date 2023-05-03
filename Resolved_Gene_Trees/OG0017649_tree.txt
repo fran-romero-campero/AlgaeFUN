@@ -1,1 +1,0 @@
-((physcomitrium_patens_Pp3c5_5590:0.468648,anthoceros_agrestis_AagrOXF_utg000101l.78:0.80459)n1:0.029582,(((marchantia_polymorpha_Mp1g07210:0.953644,marchantia_polymorpha_Mp1g14690:0.84895)n4:0.070789,physcomitrium_patens_Pp3c6_28740:3.96554e-06)n3:0.032273,anthoceros_agrestis_AagrOXF_utg000018l.120:0.946629)n2:0.029582)n0;

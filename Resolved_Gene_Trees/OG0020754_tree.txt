@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_Cz11g03340:3.10442e-06,(dunaliella_salina_Dusal.1439s00001:0.428058,dunaliella_salina_Dusal.0024s00019:0.593393)n2:0.989389)n1:0.373555,(ulva_mutabilis_UM011_0211:0.296485,ulva_mutabilis_UM011_0210:0.477511)n3:0.373555)n0;

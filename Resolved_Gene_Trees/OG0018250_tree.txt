@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0208s0032:0.452475,(ulva_mutabilis_UM080_0039:0.436203,(((dunaliella_salina_Dusal.0087s00008:0.396384,nannochloropsis_gaditana_Nangad1_1176:0.416937)n4:0.049408,chlamydomonas_reinhardtii_Cre01.g036950:2.50431e-06)n3:0.041292,raphidocelis_subcapitata_Rsub_01254:0.331212)n2:0.039196)n1:0.452475)n0;

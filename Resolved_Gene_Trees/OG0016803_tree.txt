@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv07232:0.011128,(mesostigma_viridae_Mv07233:0.020186,(mesostigma_viridae_Mv18886:0.352303,(mesostigma_viridae_Mv19239:0.321749,(mesostigma_viridae_Mv08820:0.74021,(mesostigma_viridae_Mv03477:0.418062,mesostigma_viridae_Mv18144:0.260327)n5:0.148805)n4:0.166863)n3:0.063121)n2:0.591765)n1:0.011128)n0;

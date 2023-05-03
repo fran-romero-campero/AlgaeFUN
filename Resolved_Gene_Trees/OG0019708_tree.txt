@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum2681s0001:0.329315,(physcomitrium_patens_Pp3c15_10830:0.620159,((anthoceros_agrestis_AagrOXF_utg000003l.133:0.464805,triticum_aestivum_Traes_4DS_88B2B1D0C:0.246392)n3:0.045856,thuja_plicata_Thupl.28911028s0001:0.263574)n2:0.039242)n1:0.329315)n0;

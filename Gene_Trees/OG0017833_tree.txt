@@ -1,1 +1,0 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3s92_30:0.950325,((bathycoccus_prasinos_proteome_first_transcript_Bathy01g01690 length_341 _mRNA_ _n/a_  _predicted protein_:0.374662,ostreococcus_tauri_proteome_first_transcript_ostta01g01820:0.360891):0.204692,micromonas_pusilla_proteome_first_transcript_27345052:0.469294):0.950325);

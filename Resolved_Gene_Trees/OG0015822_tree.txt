@@ -1,1 +1,0 @@
-(((aegilops_tauschii_AET2Gv20012000:0.148362,(sorghum_bicolor_Sobic.006G009800:0.089972,(zea_mays_Zm00001d004496:0.144151,zea_mays_Zm00001d024879:0.210136)n4:0.0233484)n3:0.005316)n2:0.23363,triticum_aestivum_Traes_2DS_88075F0F3:2.42362e-06)n1:0.188282,(solanum_lycopersicum_Solyc04g081380:0.672417,arabidopsis_thaliana_AT1G75717:0.537884)n5:0.188282)n0;

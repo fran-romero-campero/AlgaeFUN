@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_Selmo_409945:0.5272,(cycas_panzhihuaensis_CYCAS_029523:0.659914,(salvinia_cucullata_Sacu_v1.1_s0085.g018310:0.813268,salvinia_cucullata_Sacu_v1.1_s0025.g009254:1.21381)n2:0.072362)n1:0.5272)n0;

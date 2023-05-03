@@ -1,1 +1,0 @@
-((ulva_mutabilis_UM119_0023:0.760683,((volvox_carteri_Vocar.0026s0080:0.557277,chlamydomonas_reinhardtii_Cre10.g443100:4.26998e-06)n3:0.165489,dunaliella_salina_Dusal.1180s00003:0.640733)n2:0.158598)n1:0.15163,(nannochloropsis_gaditana_Nangad1_8567:0.966222,phaeodactylum_tricornutum_Phatr2_40329:0.877589)n4:0.15163)n0;

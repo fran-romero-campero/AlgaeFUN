@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_1052:0.59218,(mesotaenium_endlicherianum_ME000175S02043:1.08249,(chlorokybus_atmophyticus_Chlat1_5423:0.078979,(chlorokybus_atmophyticus_Chlat1_2407:1.16897,(chlorokybus_atmophyticus_Chlat1_9039:0.947974,chlorokybus_atmophyticus_Chlat1_677:1.09368)n4:0.059456)n3:0.211302)n2:0.10044)n1:0.59218)n0;

@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g1324:0.502531,(mesostigma_viridae_Mv15740:0.630831,(micromonas_pusilla_Micpu_27346429:1.19022,((volvox_carteri_Vocar.0002s0250:0.459774,chlamydomonas_reinhardtii_Cre06.g278176:5.0126e-06)n4:0.712957,(chromochloris_zofingiensis_Cz09g19250:5.0126e-06,raphidocelis_subcapitata_Rsub_00336:0.872371)n5:0.257533)n3:0.204348)n2:0.198519)n1:0.502531)n0;

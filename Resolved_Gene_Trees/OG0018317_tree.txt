@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz03g03100:3.20556e-06,(((chlorokybus_atmophyticus_Chlat1_1725:0.649622,chlorokybus_atmophyticus_Chlat1_1723:0.632743)n3:0.138102,chlorokybus_atmophyticus_Chlat1_3631:0.565288)n2:0.02001,(chlorokybus_atmophyticus_Chlat1_3633:0.555625,chlorokybus_atmophyticus_Chlat1_3625:0.671669)n4:0.178945)n1:3.20556e-06)n0;

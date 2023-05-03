@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g13737:0.447253,((mesostigma_viridae_Mv05596:0.536663,klebsormidium_nitens_kfl00650_0040:0.922913)n2:0.099661,((chlamydomonas_reinhardtii_Cre15.g638551:4.44654e-06,volvox_carteri_Vocar.0012s0012:0.297865)n4:0.717493,(raphidocelis_subcapitata_Rsub_09266:0.076526,raphidocelis_subcapitata_Rsub_09258:0.147206)n5:0.645136)n3:0.124083)n1:0.447253)n0;

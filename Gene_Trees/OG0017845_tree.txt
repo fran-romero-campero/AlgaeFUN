@@ -1,1 +1,0 @@
-((ostreococcus_tauri_proteome_first_transcript_ostta15g00830:0.086222,micromonas_pusilla_proteome_first_transcript_27344090:0.101748):0.018589,(micromonas_pusilla_proteome_first_transcript_27340656:0.753393,bathycoccus_prasinos_proteome_first_transcript_Bathy02g02290 length_436 _mRNA_ _n/a_  _O-acetylhomoserine/O-acetylserine sulfhydrylase_:0.168286):0.018589);

@@ -1,1 +1,0 @@
-(((ostreococcus_tauri_ostta12g01540:0.823971,micromonas_pusilla_Micpu_27344489:0.679503)n2:0.197743,bathycoccus_prasinos_Bathy07g03250:0.710531)n1:0.257071,(((volvox_carteri_Vocar.0005s0256:0.311765,chlamydomonas_reinhardtii_Cre10.g429850:4.81692e-06)n5:0.376926,raphidocelis_subcapitata_Rsub_12331:0.518341)n4:0.057783,dunaliella_salina_Dusal.0637s00003:0.704068)n3:0.257071)n0;

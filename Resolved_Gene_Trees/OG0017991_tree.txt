@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.30G054500:0.0788865,(((ceratopteris_richardii_Ceric.23G044800:0.001608,ceratopteris_richardii_Ceric.23G044900:0.00322)n3:0.718859,ceratopteris_richardii_Ceric.1Z055400:0.329375)n2:0.441681,(ceratopteris_richardii_Ceric.03G013800:1.14643,ceratopteris_richardii_Ceric.09G041000:1.18322)n4:0.498486)n1:0.0788865)n0;

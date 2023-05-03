@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0464s0009:0.89605,(((bathycoccus_prasinos_Bathy01g05100:0.567704,micromonas_pusilla_Micpu_27341289:0.884787)n3:0.095193,ostreococcus_tauri_ostta08g02150:0.814925)n2:0.367404,ulva_mutabilis_UM094_0039:1.60817)n1:0.89605)n0;

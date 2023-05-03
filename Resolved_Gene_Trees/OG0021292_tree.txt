@@ -1,1 +1,0 @@
-(oryza_sativa_LOC_Os09g10800.1:0.323456,(((oryza_sativa_LOC_Os03g30320.1:0.678849,oryza_sativa_LOC_Os12g36360.1:0.728861)n3:0.246413,oryza_sativa_LOC_Os12g16020.1:0.604464)n2:0.100396,oryza_sativa_ChrUn.fgenesh.mRNA.37:1.07334)n1:0.323456)n0;

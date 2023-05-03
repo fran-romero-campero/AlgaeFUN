@@ -1,1 +1,0 @@
-(((volvox_carteri_Vocar.0001s0477:0.290058,chlamydomonas_reinhardtii_Cre01.g068012:0.00347)n2:1.2058,azolla_filiculoides_Azfi_s0228.g059086:1.59036)n1:0.011869,((ceratopteris_richardii_Ceric.15G077000:1.74236,ulva_mutabilis_UM030_0049:1.5263)n4:0.013458,cycas_panzhihuaensis_CYCAS_002021:1.59728)n3:0.011869)n0;

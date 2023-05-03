@@ -1,1 +1,0 @@
-(ceratodon_purpureus_CepurR40.1G314900:0,(ceratodon_purpureus_CepurR40.VG102000:0,((ceratodon_purpureus_CepurR40.1G276900:0.005682,ceratodon_purpureus_CepurR40.2G228600:4.745e-08)n3:6e-06,((ceratodon_purpureus_CepurR40.VG186700:0.021298,ceratodon_purpureus_CepurR40.VG272100:4.745e-08)n5:0.01473,ceratodon_purpureus_CepurR40.VG057600:0.005877)n4:0.000165)n2:0)n1:0)n0;

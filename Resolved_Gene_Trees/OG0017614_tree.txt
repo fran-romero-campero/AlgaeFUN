@@ -1,1 +1,0 @@
-(spirogloea_muscicola_SM010721S14107:0.276749,((anthoceros_agrestis_AagrOXF_utg000003l.574:1.11506,anthoceros_agrestis_AagrOXF_utg000003l.575:3.38434e-06)n2:0.722377,(anthoceros_agrestis_AagrOXF_utg000012l.385:0.56758,(anthoceros_agrestis_AagrOXF_utg000012l.384:0.139619,anthoceros_agrestis_AagrOXF_utg000012l.382:0.135673)n4:0.130808)n3:0.149953)n1:0.276749)n0;

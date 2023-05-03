@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g9437:0.336452,(ceratopteris_richardii_Ceric.34G064900:0.158256,(anthoceros_agrestis_AagrOXF_utg000012l.217:0.090747,(triticum_aestivum_Traes_5AL_72C0BFCDD:0.160502,triticum_aestivum_Traes_5BL_F30545076:0.241271)n3:0.099566)n2:0.628753)n1:0.336452)n0;

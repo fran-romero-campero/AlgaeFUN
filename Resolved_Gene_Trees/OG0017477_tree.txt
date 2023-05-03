@@ -1,1 +1,0 @@
-(((zea_mays_Zm00001d027370:0.326239,sorghum_bicolor_Sobic.001G531000:0.272436)n2:0.505627,(oryza_sativa_LOC_Os03g49240.1:1.04513,oryza_sativa_LOC_Os03g02660.1:0.088915)n3:0.435498)n1:0.22782,(triticum_aestivum_Traes_4DL_3DF578C9F:0.192144,aegilops_tauschii_AET4Gv20821300:0.153625)n4:0.22782)n0;

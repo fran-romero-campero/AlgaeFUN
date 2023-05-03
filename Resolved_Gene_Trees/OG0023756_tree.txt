@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre02.g142700:0.0550005,((cyanophora_paradoxa_Cyapar1_g24875:0.066534,cyanophora_paradoxa_Cyapar1_g24878:0.073654)n2:0.783391,cyanophora_paradoxa_Cyapar1_g15204:0.736446)n1:0.0550005)n0;

@@ -1,1 +1,0 @@
-(sorghum_bicolor_Sobic.002G153050:0.617105,(oryza_sativa_LOC_Os12g22360.1:1.14287,(oryza_sativa_LOC_Os11g20740.1:0.112644,(oryza_sativa_ChrUn.fgenesh.mRNA.6:0.910759,(oryza_sativa_ChrSy.fgenesh.mRNA.79:0.672919,(oryza_sativa_ChrUn.fgenesh.mRNA.28:0.493,oryza_sativa_ChrSy.fgenesh.mRNA.2:0.75479)n5:0.246854)n4:0.256635)n3:0.212775)n2:0.047349)n1:0.617105)n0;

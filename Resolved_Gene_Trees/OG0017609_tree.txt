@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM041_0032:0.70484,((thuja_plicata_Thupl.29378060s0003:1.69657,(salvinia_cucullata_Sacu_v1.1_s0007.g003735:1.37651,salvinia_cucullata_Sacu_v1.1_s0009.g004367:1.07399)n3:0.119332)n2:0.027103,(anthoceros_agrestis_AagrOXF_utg000002l.603:1.67221,selaginella_moellendorffii_Selmo_96294:0.946183)n4:0.061374)n1:0.70484)n0;

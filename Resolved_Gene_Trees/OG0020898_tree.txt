@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_45257:0.563194,(cyanophora_paradoxa_Cyapar1_g22588:1.09011,((marchantia_polymorpha_Mp3g12330:0.746869,marchantia_polymorpha_Mp3g22410:0.640563)n3:0.254136,marchantia_polymorpha_Mp3g12320:0.573006)n2:0.0636673)n1:0.098945)n0;

@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_12550:0.464178,((selaginella_moellendorffii_Selmo_84896:0.441196,selaginella_moellendorffii_Selmo_33492:0.208116)n2:0.843711,(marchantia_polymorpha_Mp4g17100:1.12707,(cycas_panzhihuaensis_CYCAS_000523:0.948678,cycas_panzhihuaensis_CYCAS_000700:0.042438)n4:0.153585)n3:0.037556)n1:0.464178)n0;

@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0818s0005:0.499165,((chromochloris_zofingiensis_Cz13g00070:3.4543e-06,klebsormidium_nitens_kfl00121_0100:1.17422)n2:0.149034,(chlamydomonas_reinhardtii_Cre17.g746947:3.4543e-06,volvox_carteri_Vocar.0039s0018:1.00863)n3:0.723173)n1:0.499165)n0;

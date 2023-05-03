@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_8997:0.715617,((raphidocelis_subcapitata_Rsub_08287:0.799468,micromonas_pusilla_Micpu_27341994:1.52859)n2:0.003633,chromochloris_zofingiensis_Cz01g13140:3.41322e-06)n1:0.715617)n0;

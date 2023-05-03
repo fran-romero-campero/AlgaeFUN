@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl00100_0070:0.944038,((selaginella_moellendorffii_Selmo_440912:0.644244,(anthoceros_agrestis_AagrOXF_utg000001l.423:1.24438,(anthoceros_agrestis_AagrOXF_utg000001l.424:0.473278,marchantia_polymorpha_Mp4g05100:0.662362)n4:0.064818)n3:0.007202)n2:0.111343,cycas_panzhihuaensis_CYCAS_005021:0.915661)n1:0.883303)n0;

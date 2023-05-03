@@ -1,1 +1,0 @@
-(solanum_lycopersicum_proteome_first_transcript_Solyc07g009447.1.1:0.242679,((solanum_lycopersicum_proteome_first_transcript_Solyc10g049474.1.1:0.934016,solanum_lycopersicum_proteome_first_transcript_Solyc10g049997.1.1:0.533544):0.055464,solanum_lycopersicum_proteome_first_transcript_Solyc07g150131.1.1:0.702328):0.242679);

@@ -1,1 +1,0 @@
-(((cycas_panzhihuaensis_CYCAS_010743:0.195725,thuja_plicata_Thupl.29379191s0010:0.333878)n2:0.609585,arabidopsis_thaliana_AT5G08770:0.779887)n1:0.126644,(sphangum_magellanicum_Sphmag06G116100:0.901254,marchantia_polymorpha_Mp7g10050:1.06889)n3:0.126644)n0;

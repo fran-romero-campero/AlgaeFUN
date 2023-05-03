@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g20438:0.427281,((volvox_carteri_Vocar.0001s0750:0.704948,chlamydomonas_reinhardtii_Cre01.g041583:1.47121e-06)n2:0.429152,chromochloris_zofingiensis_Cz10g15060:1.47121e-06)n1:0.427281)n0;

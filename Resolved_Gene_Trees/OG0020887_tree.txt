@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv17795:0.984592,(cyanophora_paradoxa_Cyapar1_g21600:0.89876,(cyanophora_paradoxa_Cyapar1_g9323:0.448884,(cyanophora_paradoxa_Cyapar1_g24521:0.083765,cyanophora_paradoxa_Cyapar1_g19999:0.070375)n3:0.583488)n2:0.144388)n1:0.984592)n0;

@@ -1,1 +1,0 @@
-((porphyra_umbilicalis_Pum0400s0006:0.287469,porphyra_umbilicalis_Pum0204s0023:0.132343)n1:0.220483,((klebsormidium_nitens_kfl00001_0810:0.434437,chlorokybus_atmophyticus_Chlat1_5666:0.525389)n3:0.109989,((cyanophora_paradoxa_Cyapar1_g3376:0.665482,mesostigma_viridae_Mv22233:0.795018)n5:0.374997,phaeodactylum_tricornutum_Phatr2_49678:1.73936)n4:0.654554)n2:0.220483)n0;

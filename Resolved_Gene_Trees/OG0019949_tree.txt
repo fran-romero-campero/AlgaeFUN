@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv22401:0.308136,(bathycoccus_prasinos_Bathy01g06590:1.23803,(dunaliella_salina_Dusal.0070s00038:0.836753,(chlamydomonas_reinhardtii_Cre08.g370350:3.55459e-06,volvox_carteri_Vocar.0037s0147:0.247421)n3:0.267266)n2:0.39509)n1:0.308136)n0;

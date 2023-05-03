@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_38946:0.582638,(micromonas_pusilla_Micpu_27346508:0.531348,(chromochloris_zofingiensis_Cz05g01260:2.17425e-06,ulva_mutabilis_UM068_0052:0.497371)n2:0.092825)n1:0.582638)n0;

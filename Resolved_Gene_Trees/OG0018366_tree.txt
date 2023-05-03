@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM109_0019:0.600837,((chromochloris_zofingiensis_UNPLg00388:5.59829e-06,(dunaliella_salina_Dusal.0866s00001:1.97188,dunaliella_salina_Dusal.0314s00020:0.999198)n3:0.111022)n2:0.129965,(raphidocelis_subcapitata_Rsub_10802:0.796286,raphidocelis_subcapitata_Rsub_13328:0.423028)n4:0.278598)n1:0.600837)n0;

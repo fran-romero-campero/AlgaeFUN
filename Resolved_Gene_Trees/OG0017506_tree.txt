@@ -1,1 +1,0 @@
-(((triticum_aestivum_Traes_2DS_7EDB434AD:0.000827,aegilops_tauschii_AET0Gv20136700:2.97075e-06)n2:0.449695,oryza_sativa_LOC_Os06g43440.1:2.97075e-06)n1:0.374363,(solanum_lycopersicum_Solyc03g150160:0.022015,(solanum_lycopersicum_Solyc08g150142:1.27686,solanum_lycopersicum_Solyc04g063245:2.97075e-06)n4:0.949582)n3:0.374363)n0;

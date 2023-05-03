@@ -1,1 +1,0 @@
-(raphidocelis_subcapitata_Rsub_07804:0.153492,((triticum_aestivum_Traes_4BL_825998751:0.286338,triticum_aestivum_Traes_7AL_F80BC8414:0.228896)n2:0.112193,(selaginella_moellendorffii_Selmo_404656:0.325771,selaginella_moellendorffii_Selmo_112333:0.197069)n3:0.147902)n1:0.153492)n0;

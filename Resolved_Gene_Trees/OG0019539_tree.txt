@@ -1,1 +1,0 @@
-((thuja_plicata_Thupl.29198563s0001:0.756837,sphangum_magellanicum_Sphmag03G007800:0.560353)n1:0.0121135,((physcomitrium_patens_Pp3c1_22890:0.787144,aegilops_tauschii_AET1Gv20001500:0.847281)n3:0.054509,sorghum_bicolor_Sobic.006G024101:0.436596)n2:0.0121135)n0;

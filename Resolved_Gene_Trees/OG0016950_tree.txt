@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0111s0045:0.0283925,((porphyra_umbilicalis_Pum0120s0012:0.277563,porphyra_umbilicalis_Pum0275s0006:0.11048)n2:0.017821,((porphyra_umbilicalis_Pum0288s0014:1.92879e-06,(porphyra_umbilicalis_Pum0313s0013:0.4637,porphyra_umbilicalis_Pum0108s0003:0.700693)n5:0.0378)n4:0.202376,porphyra_umbilicalis_Pum0319s0015:0.078143)n3:0.027105)n1:0.0283925)n0;

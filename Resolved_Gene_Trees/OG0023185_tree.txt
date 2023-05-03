@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g4695:0.638871,(bathycoccus_prasinos_Bathy76g00030:0.891386,(salvinia_cucullata_Sacu_v1.1_s2951.g028505:1.25533,physcomitrium_patens_Pp3s30_360:0.822406)n2:0.566513)n1:0.638871)n0;

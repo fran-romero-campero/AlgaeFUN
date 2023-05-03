@@ -1,1 +1,0 @@
-((chlamydomonas_reinhardtii_Cre09.g392652:2.90312e-06,micromonas_pusilla_Micpu_27346188:0.754901)n1:0.317943,(nannochloropsis_gaditana_Nangad1_1536:0.735961,phaeodactylum_tricornutum_Phatr2_48106:0.971474)n2:0.317943)n0;

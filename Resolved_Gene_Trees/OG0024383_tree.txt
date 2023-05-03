@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_11733:0.451006,(dunaliella_salina_Dusal.0834s00006:0.883892,(mesostigma_viridae_Mv18350:0.862335,mesostigma_viridae_Mv15862:1.01052)n2:0.287025)n1:0.451006)n0;

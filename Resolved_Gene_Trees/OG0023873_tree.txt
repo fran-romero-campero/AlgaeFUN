@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3588:0.445512,((chlamydomonas_reinhardtii_Cre12.g521600:0.080146,dunaliella_salina_Dusal.0174s00010:0.396586)n2:0.577984,chlorokybus_atmophyticus_Chlat1_5589:0.86106)n1:0.445512)n0;

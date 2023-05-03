@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_Cz14g21020:0.428399,raphidocelis_subcapitata_Rsub_03357:1.36015)n1:0.212403,(micromonas_pusilla_Micpu_27340172:0.652493,(ostreococcus_tauri_ostta11g02880:0.389328,bathycoccus_prasinos_Bathy13g00570:0.74192)n3:0.183938)n2:0.212403)n0;

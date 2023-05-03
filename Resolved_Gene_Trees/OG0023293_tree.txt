@@ -1,1 +1,0 @@
-(ceratodon_purpureus_CepurR40.9G122000:0.332032,((triticum_aestivum_Traes_3B_4BF6EAD87:0.080832,triticum_aestivum_Traes_3AS_911E75040:0.061495)n2:0.186759,solanum_lycopersicum_Solyc06g064670:0.780688)n1:0.332032)n0;

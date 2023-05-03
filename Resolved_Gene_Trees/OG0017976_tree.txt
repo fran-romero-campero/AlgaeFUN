@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME000031S05370:0.729093,(solanum_lycopersicum_Solyc08g061890:1.37691,(physcomitrium_patens_Pp3c9_4170:0.792393,((ceratodon_purpureus_CepurR40.4G206100:5.1839e-06,ceratodon_purpureus_CepurR40.4G205100:0.001192)n4:0.739513,ceratodon_purpureus_CepurR40.4G213100:0.599497)n3:0.0666108)n2:0.149911)n1:0.729093)n0;

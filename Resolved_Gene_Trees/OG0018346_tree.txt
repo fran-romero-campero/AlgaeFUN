@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv07371:1.49692,chlorokybus_atmophyticus_Chlat1_7688:0.901425)n1:0.228796,((mesotaenium_endlicherianum_ME000528S08183:0.263711,mesotaenium_endlicherianum_ME000123S00278:0.252137)n3:0.37301,(klebsormidium_nitens_kfl00087_0200:0.631259,klebsormidium_nitens_kfl00948_0030:0.487289)n4:0.109887)n2:0.228796)n0;

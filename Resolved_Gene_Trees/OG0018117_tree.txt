@@ -1,1 +1,0 @@
-(raphidocelis_subcapitata_Rsub_06587:0.673792,((volvox_carteri_Vocar.0001s0849:0.43559,chlamydomonas_reinhardtii_Cre06.g278259:4.96792e-06)n2:0.854633,(dunaliella_salina_Dusal.1004s00001:0.355439,(dunaliella_salina_Dusal.0129s00001:0.674576,dunaliella_salina_Dusal.0203s00024:0.212348)n4:0.52139)n3:0.609878)n1:0.673792)n0;

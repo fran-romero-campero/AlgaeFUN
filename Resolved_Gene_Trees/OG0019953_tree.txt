@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g10757:0.753872,(chlorokybus_atmophyticus_Chlat1_7669:1.02298,((ceratodon_purpureus_CepurR40.7G112900:0.015699,ceratodon_purpureus_CepurR40.7G116700:5.31729e-06)n3:1.26409,bathycoccus_prasinos_Bathy02g04230:1.47587)n2:0.035723)n1:0.753872)n0;

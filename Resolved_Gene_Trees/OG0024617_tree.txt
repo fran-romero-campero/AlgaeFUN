@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0243s0008:0.267095,(ulva_mutabilis_UM048_0043:0.538342,(mesostigma_viridae_Mv25705:0.686345,mesostigma_viridae_Mv12899:2.33096e-06)n2:0.622248)n1:0.267095)n0;

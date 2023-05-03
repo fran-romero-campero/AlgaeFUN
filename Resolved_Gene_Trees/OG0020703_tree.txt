@@ -1,1 +1,0 @@
-((chlorokybus_atmophyticus_Chlat1_5811:0.428236,chlorokybus_atmophyticus_Chlat1_1842:0.432259)n1:0.495017,(klebsormidium_nitens_kfl00126_0030:1.27763,(klebsormidium_nitens_kfl00024_0410:0.945475,klebsormidium_nitens_kfl00117_0170:0.88946)n3:0.56492)n2:0.495017)n0;

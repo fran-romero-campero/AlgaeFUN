@@ -1,1 +1,0 @@
-(salvinia_cucullata_Sacu_v1.1_s0157.g023712:0.0595625,((zea_mays_Zm00001d040753:0.138033,(zea_mays_Zm00001d034316:0.389606,zea_mays_Zm00001d036640:0.054485)n3:0.1548)n2:0.547345,triticum_aestivum_Traes_1DL_94E6490F3:0.467594)n1:0.0595625)n0;

@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g3179:1.11641,(cyanophora_paradoxa_Cyapar1_g2914:1.0387,cyanophora_paradoxa_Cyapar1_g15737:0.804003)n2:0.15532)n1:0.117627,(ulva_mutabilis_UM014_0079:1.29957,(chlamydomonas_reinhardtii_Cre15.g636250:5.96155e-06,volvox_carteri_Vocar.0012s0018:0.63588)n4:0.901886)n3:0.117627)n0;

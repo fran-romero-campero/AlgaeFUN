@@ -1,1 +1,0 @@
-(micromonas_pusilla_Micpu_27348372:0.42166,((chlorokybus_atmophyticus_Chlat1_8279:0.440777,(anthoceros_agrestis_AagrOXF_utg000033l.91:0.668456,mesostigma_viridae_Mv14533:0.610478)n3:0.071471)n2:0.06836,(mesotaenium_endlicherianum_ME000018S02376:0.52003,(spirogloea_muscicola_SM000011S19182:0.528033,spirogloea_muscicola_SM000026S09000:0.173029)n5:0.457228)n4:0.060685)n1:0.42166)n0;

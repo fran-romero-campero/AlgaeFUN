@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g24222:0.800419,(ceratopteris_richardii_Ceric.39G022100:1.63177,(anthoceros_agrestis_AagrOXF_utg000049l.650:1.59881,(spirogloea_muscicola_SM003733S13760:0.199357,spirogloea_muscicola_SM004103S15628:0.010402)n3:0.858883)n2:0.136016)n1:0.800419)n0;

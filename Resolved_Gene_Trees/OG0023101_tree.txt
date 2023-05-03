@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_31778:0.22164,(micromonas_pusilla_Micpu_27345611:0.587811,(ostreococcus_tauri_ostta04g02870:0.394871,bathycoccus_prasinos_Bathy06g05180:0.724289)n2:0.081257)n1:0.22164)n0;

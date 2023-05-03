@@ -1,1 +1,0 @@
-(ceratodon_purpureus_CepurR40.2G025400:0.420422,((triticum_aestivum_Traes_2AL_960134E89:0.57634,aegilops_tauschii_AET3Gv20080700:0.42603)n2:0.296736,(thuja_plicata_Thupl.29381189s0035:0.247145,(thuja_plicata_Thupl.28208032s0001:0.343071,thuja_plicata_Thupl.29381189s0032:3.49597e-06)n4:0.222526)n3:0.581632)n1:0.420422)n0;

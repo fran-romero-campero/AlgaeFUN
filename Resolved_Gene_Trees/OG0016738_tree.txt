@@ -1,1 +1,0 @@
-(dunaliella_salina_Dusal.0703s00001:0.846278,(klebsormidium_nitens_kfl01797_0010:0.465265,((klebsormidium_nitens_kfl00288_0180:0.748394,klebsormidium_nitens_kfl01179_0020:4.92582e-06)n3:0.342553,((klebsormidium_nitens_kfl00965_0010:0.406563,klebsormidium_nitens_kfl00381_0060:0.937924)n5:0.223165,klebsormidium_nitens_kfl00296_0100:0.016282)n4:0.125918)n2:0.172768)n1:0.846278)n0;

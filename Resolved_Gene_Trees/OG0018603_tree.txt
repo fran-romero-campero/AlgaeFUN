@@ -1,1 +1,0 @@
-(micromonas_pusilla_Micpu_27339176:0.600128,((mesotaenium_endlicherianum_ME000167S01855:0.712611,(spirogloea_muscicola_SM000013S26397:4.50112e-06,spirogloea_muscicola_SM000190S04875:0.053744)n3:0.54681)n2:0.125242,(mesostigma_viridae_Mv15932:0.985767,klebsormidium_nitens_kfl00317_0090:0.757517)n4:0.126848)n1:0.600128)n0;

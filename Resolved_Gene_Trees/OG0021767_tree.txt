@@ -1,1 +1,0 @@
-(sphangum_magellanicum_Sphmag19G018900:0.0371665,((sphangum_magellanicum_Sphmag18G012300:0.732308,sphangum_magellanicum_Sphmag17G033500:0.077128)n2:0.92876,(sphangum_magellanicum_Sphmag19G018600:0.009711,sphangum_magellanicum_Sphmag19G017800:0.131544)n3:0.280567)n1:0.0371665)n0;

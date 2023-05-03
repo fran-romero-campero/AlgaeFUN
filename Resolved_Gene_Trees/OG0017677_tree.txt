@@ -1,1 +1,0 @@
-((anthoceros_agrestis_AagrOXF_utg000081l.175:1.25022,((salvinia_cucullata_Sacu_v1.1_s0004.g002277:0.783234,(chlamydomonas_reinhardtii_Cre10.g444000:3.64456e-06,ceratodon_purpureus_CepurR40.3G032800:0.865597)n4:0.323266)n3:0.22812,chlamydomonas_reinhardtii_Cre10.g444150:3.64456e-06)n2:3.64456e-06)n1:0.184966,ceratopteris_richardii_Ceric.21G087400:0.381832)n0;

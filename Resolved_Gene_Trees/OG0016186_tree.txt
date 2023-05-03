@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv20623:0.792771,(azolla_filiculoides_Azfi_s0084.g039049:0.643093,(((thuja_plicata_Thupl.29380202s0009:0.307335,cycas_panzhihuaensis_CYCAS_008385:0.30706)n4:0.440482,(ceratopteris_richardii_Ceric.36G041600:0.219699,ceratopteris_richardii_Ceric.39G024500:0.394387)n5:0.0438208)n3:0.26897,klebsormidium_nitens_kfl00372_0070:1.00168)n2:0.457902)n1:0.792771)n0;

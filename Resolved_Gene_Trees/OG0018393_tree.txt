@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum1601s0002:0.177306,((mesostigma_viridae_Mv09580:0.41244,cyanophora_paradoxa_Cyapar1_g10796:0.341268)n2:0.087604,(nannochloropsis_gaditana_Nangad1_6612:0.738101,(phaeodactylum_tricornutum_Phatr2_16021:0.12732,phaeodactylum_tricornutum_Phatr2_15922:0.243982)n4:0.345795)n3:0.053157)n1:0.177306)n0;

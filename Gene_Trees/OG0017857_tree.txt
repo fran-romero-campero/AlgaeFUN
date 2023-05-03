@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_proteome_first_transcript_Cre12.g523550:0.01426,((micromonas_pusilla_proteome_first_transcript_27346690:0.274518,ostreococcus_tauri_proteome_first_transcript_ostta04g00920:0.560229):0.126206,bathycoccus_prasinos_proteome_first_transcript_Bathy03g01320 length_506 _mRNA_ _n/a_  _Methyltransferase type 11_:0.650501):0.01426);

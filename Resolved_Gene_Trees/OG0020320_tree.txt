@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_4836:0.761252,(ostreococcus_tauri_ostta05g00900:1.2348,((chlamydomonas_reinhardtii_Cre07.g325731:3.74961e-06,volvox_carteri_Vocar.0003s0155:0.481327)n3:0.521409,chromochloris_zofingiensis_Cz01g18070:3.74961e-06)n2:0.306617)n1:0.761252)n0;

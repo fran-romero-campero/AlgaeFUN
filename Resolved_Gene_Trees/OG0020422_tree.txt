@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_2330:0.195308,(cyanophora_paradoxa_Cyapar1_g16913:0.335689,((chlamydomonas_reinhardtii_Cre06.g296700:1.34724e-06,volvox_carteri_Vocar.0001s0501:0.102303)n3:0.148551,raphidocelis_subcapitata_Rsub_02263:0.286039)n2:0.086673)n1:0.195308)n0;

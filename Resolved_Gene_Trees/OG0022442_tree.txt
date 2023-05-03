@@ -1,1 +1,0 @@
-((aegilops_tauschii_AET5Gv20534100:0.082933,triticum_aestivum_Traes_5DL_B63272D9E1:8.63466e-07)n1:0.169317,(arabidopsis_thaliana_AT4G30450:0.238225,solanum_lycopersicum_Solyc12g010550:0.286608)n2:0.169317)n0;

@@ -1,1 +1,0 @@
-(micromonas_pusilla_Micpu_27348826:0.046924,((spirogloea_muscicola_SM000180S03509:0.905253,((aegilops_tauschii_AET7Gv20311800:0.104475,aegilops_tauschii_AET4Gv20080400:0.00038)n4:0.133936,aegilops_tauschii_AET1Gv20842900:0.293389)n3:0.0325988)n2:0.261636,thuja_plicata_Thupl.29268967s0002:0.233463)n1:0.067036)n0;

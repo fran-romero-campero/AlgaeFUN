@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0810s0007:0.371515,((((spirogloea_muscicola_SM000033S12379:0.055634,spirogloea_muscicola_SM000285S10794:0.06418)n4:0.013527,spirogloea_muscicola_SM000017S02790:0.071741)n3:0.453544,mesotaenium_endlicherianum_ME000225S03422:0.636418)n2:0.061218,(mesostigma_viridae_Mv08307:0.556476,cyanophora_paradoxa_Cyapar1_g8752:1.34713)n5:0.049466)n1:0.371515)n0;

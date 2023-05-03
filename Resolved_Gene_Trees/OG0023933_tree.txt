@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_49564:0.763795,(chlorokybus_atmophyticus_Chlat1_8083:1.52801,(raphidocelis_subcapitata_Rsub_08770:0.412446,raphidocelis_subcapitata_Rsub_11146:0.962992)n2:0.106999)n1:0.019759)n0;

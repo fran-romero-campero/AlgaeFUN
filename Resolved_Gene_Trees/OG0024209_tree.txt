@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g9405:0.726546,((mesostigma_viridae_Mv12130:1.17288,micromonas_pusilla_Micpu_27346298:1.30084)n2:0.134107,klebsormidium_nitens_kfl00167_0130:1.35177)n1:0.726546)n0;

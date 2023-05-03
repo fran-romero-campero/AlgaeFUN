@@ -1,1 +1,0 @@
-((porphyra_umbilicalis_Pum0567s0002:0.673174,porphyra_umbilicalis_Pum0382s0001:1.32671)n1:0.125174,((nannochloropsis_gaditana_Nangad1_5591:0.623298,phaeodactylum_tricornutum_Phatr2_44480:0.698346)n3:0.208812,(cyanophora_paradoxa_Cyapar1_g16912:0.466566,cyanophora_paradoxa_Cyapar1_g23101:0.514951)n4:0.586577)n2:0.125174)n0;

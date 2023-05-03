@@ -1,1 +1,0 @@
-((ceratodon_purpureus_CepurR40.6G145300:0.79299,anthoceros_agrestis_AagrOXF_utg000050l.530:0.839171)n1:0.170462,((triticum_aestivum_Traes_3B_A91A373A5:0.180785,aegilops_tauschii_AET3Gv21136400:0.435028)n3:0.227304,selaginella_moellendorffii_Selmo_79809:0.133281)n2:0.170462)n0;

@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv13515:0.707191,((chlamydomonas_reinhardtii_Cre06.g286500:3.62193e-06,volvox_carteri_Vocar.0063s0030:0.671346)n2:0.784766,(chromochloris_zofingiensis_Cz11g24260:3.62193e-06,raphidocelis_subcapitata_Rsub_02485:1.05109)n3:0.27059)n1:0.707191)n0;

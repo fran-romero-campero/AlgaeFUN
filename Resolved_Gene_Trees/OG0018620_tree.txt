@@ -1,1 +1,0 @@
-((sphangum_magellanicum_Sphmag13G035200:1.60006,marchantia_polymorpha_Mp2g13840:1.81157)n1:0.124647,(mesotaenium_endlicherianum_ME000093S10394:1.75163,(spirogloea_muscicola_SM000009S23579:0.070949,(spirogloea_muscicola_SM000084S23165:0.06889,spirogloea_muscicola_SM000333S12553:0.173763)n4:0.047578)n3:1.36712)n2:0.124647)n0;

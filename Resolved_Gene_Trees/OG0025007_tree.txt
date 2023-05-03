@@ -1,1 +1,0 @@
-(sorghum_bicolor_Sobic.005G097400:0.110563,(oryza_sativa_LOC_Os12g04150.1:0.33609,(oryza_sativa_LOC_Os11g04350.1:0.038446,oryza_sativa_LOC_Os12g04140.1:0.172024)n2:0.147413)n1:0.110563)n0;

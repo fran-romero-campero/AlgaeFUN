@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g24482:0.442365,((((volvox_carteri_Vocar.0004s0399:0.03633,volvox_carteri_Vocar.0004s0398:0.045587)n4:0.04974,volvox_carteri_Vocar.0004s0396:0.061197)n3:0.336549,volvox_carteri_Vocar.0004s0400:0.623006)n2:0.810294,mesostigma_viridae_Mv12778:1.45432)n1:0.442365)n0;

@@ -1,1 +1,0 @@
-(dunaliella_salina_Dusal.0002s00068:0.729333,(azolla_filiculoides_Azfi_s2843.g113352:0.889166,(cycas_panzhihuaensis_CYCAS_023707:0.795425,(physcomitrium_patens_Pp3c12_9937:1.06479,(sphangum_magellanicum_Sphmag08G043100:0.691822,(ceratodon_purpureus_CepurR40.4G175300:0.3411,physcomitrium_patens_Pp3c12_9934:0.300764)n5:0.293898)n4:0.42088)n3:0.0467645)n2:0.266915)n1:0.239361)n0;

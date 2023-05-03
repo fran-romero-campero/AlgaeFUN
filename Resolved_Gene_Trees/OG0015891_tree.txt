@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp5g01280:0.490405,(zea_mays_Zm00001d035584:0.598085,(thuja_plicata_Thupl.29378836s0002:0.63352,(aegilops_tauschii_AET6Gv20638800:1.2089,((aegilops_tauschii_AET5Gv20734100:0.977007,aegilops_tauschii_AET1Gv20811500:1.0386)n5:0.17401,aegilops_tauschii_AET5Gv21156600:1.08077)n4:0.108077)n3:0.0120086)n2:0.085971)n1:0.086062)n0;

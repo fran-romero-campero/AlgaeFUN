@@ -1,1 +1,0 @@
-(sphangum_magellanicum_Sphmag08G007600:0.209463,(zea_mays_Zm00001d016388:0.331725,((triticum_aestivum_Traes_4DL_18A4F7F2B:0.398402,triticum_aestivum_Traes_4AS_8C93F1C6E:0.117979)n3:0.226777,triticum_aestivum_Traes_4DL_82761E00C:0.214263)n2:0.023807)n1:0.093036)n0;

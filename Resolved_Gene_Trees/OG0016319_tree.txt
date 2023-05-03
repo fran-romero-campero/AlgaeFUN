@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp2g06670:1.2496,((ceratodon_purpureus_CepurR40.4G036700:0.299722,(physcomitrium_patens_Pp3c26_4990:0.270477,physcomitrium_patens_Pp3c4_26050:0.280994)n3:0.169272)n2:0.169335,(ceratodon_purpureus_CepurR40.1G172800:0.426369,(physcomitrium_patens_Pp3c3_15190:0.408407,physcomitrium_patens_Pp3c10_12740:0.478811)n5:0.0932841)n4:0.0103649)n1:1.2496)n0;

@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_35253:0.358651,((micromonas_pusilla_Micpu_27342090:0.431075,ostreococcus_tauri_ostta07g01460:0.67764)n2:0.873032,(ulva_mutabilis_UM022_0124:0.138774,(ulva_mutabilis_UM022_0121:0.018079,ulva_mutabilis_UM022_0125:0.099275)n4:0.387384)n3:0.42864)n1:0.358651)n0;

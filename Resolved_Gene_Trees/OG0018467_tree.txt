@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g6760:0.966024,(selaginella_moellendorffii_Selmo_408773:1.59162,(selaginella_moellendorffii_Selmo_428346:1.5409,(selaginella_moellendorffii_Selmo_428398:0.334655,(selaginella_moellendorffii_Selmo_427365:0.257779,selaginella_moellendorffii_Selmo_425297:0.037152)n4:0.403565)n3:0.526799)n2:0.340409)n1:0.966024)n0;

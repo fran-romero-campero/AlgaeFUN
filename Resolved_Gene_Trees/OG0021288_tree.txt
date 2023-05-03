@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_5859:0.877691,(spirogloea_muscicola_SM000134S26949:0.252019,(spirogloea_muscicola_SM000134S26942:2.60862e-06,(spirogloea_muscicola_SM000097S24792:0.083212,spirogloea_muscicola_SM000164S02235:0.11813)n3:0.100277)n2:0.342717)n1:0.877691)n0;

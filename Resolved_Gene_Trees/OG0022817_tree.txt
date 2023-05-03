@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv24127:0.446445,((anthoceros_agrestis_AagrOXF_utg000111l.59:0.50454,marchantia_polymorpha_Mp6g12060:0.618625)n2:0.094515,klebsormidium_nitens_kfl00118_0060:0.705054)n1:0.446445)n0;

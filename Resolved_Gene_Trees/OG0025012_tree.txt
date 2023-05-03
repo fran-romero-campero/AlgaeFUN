@@ -1,1 +1,0 @@
-(oryza_sativa_LOC_Os05g30390.1:0.297152,(triticum_aestivum_Traes_3DL_04373E16D:0.474442,(triticum_aestivum_Traes_3DL_77E4040F5:0.144352,triticum_aestivum_Traes_3AL_180CD3E25:0.164805)n2:0.212042)n1:0.297152)n0;

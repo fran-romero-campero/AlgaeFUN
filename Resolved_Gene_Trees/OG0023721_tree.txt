@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre13.g588100:0.241262,((spirogloea_muscicola_SM000406S15597:0.106236,spirogloea_muscicola_SM000002S05503:0.106361)n2:0.018135,spirogloea_muscicola_SM000086S23042:0.075507)n1:0.241262)n0;

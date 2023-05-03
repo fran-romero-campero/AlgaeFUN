@@ -1,1 +1,0 @@
-(physcomitrium_patens_Pp3c2_19770:0.312312,(cycas_panzhihuaensis_CYCAS_005399:0.536347,(((zea_mays_Zm00001d011129:0.197202,triticum_aestivum_Traes_4BL_75F74B734:0.36884)n4:0.030553,(zea_mays_Zm00001d036492:0.133209,triticum_aestivum_Traes_4DL_18854454B:0.424127)n5:0.0471252)n3:0.051512,zea_mays_Zm00001d044714:2.49192e-06)n2:0.091653)n1:0.312312)n0;

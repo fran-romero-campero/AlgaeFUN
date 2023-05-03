@@ -1,1 +1,0 @@
-((phaeodactylum_tricornutum_Phatr2_46843:0.81026,nannochloropsis_gaditana_Nangad1_480:0.79764)n1:0.121704,(physcomitrium_patens_Pp3s30_980:0.533877,(mesostigma_viridae_Mv09141:0.450019,(spirogloea_muscicola_SM000025S08424:0.438044,mesotaenium_endlicherianum_ME000095S10271:0.280827)n4:0.078441)n3:0.437724)n2:0.121704)n0;

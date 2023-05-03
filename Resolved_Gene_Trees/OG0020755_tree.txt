@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3882:0.606678,((chromochloris_zofingiensis_Cz09g19260:3.30951e-06,raphidocelis_subcapitata_Rsub_06270:0.804744)n2:0.130255,(dunaliella_salina_Dusal.0372s00011:0.957345,dunaliella_salina_Dusal.0320s00004:0.830523)n3:0.0922803)n1:0.205028)n0;

@@ -1,1 +1,0 @@
-((aegilops_tauschii_AET3Gv20294000:0.451892,ceratopteris_richardii_Ceric.1Z288800:0.256288)n1:0.104747,(salvinia_cucullata_Sacu_v1.1_s0092.g018898:0.581496,(cycas_panzhihuaensis_CYCAS_024466:0.390574,(triticum_aestivum_Traes_3AS_22F5F701D:0.352774,triticum_aestivum_Traes_7DL_E112B4B32:0.362919)n4:0.101857)n3:0.15476)n2:0.104747)n0;

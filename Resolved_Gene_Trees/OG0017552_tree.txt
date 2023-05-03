@@ -1,1 +1,0 @@
-((ceratodon_purpureus_CepurR40.11G155500:0.57387,ceratodon_purpureus_CepurR40.VG019300:0.593814)n1:0.120398,((zea_mays_Zm00001d027733:0.117166,aegilops_tauschii_AET4Gv20671100:0.147156)n3:0.432519,(salvinia_cucullata_Sacu_v1.1_s0115.g021011:1.0682,salvinia_cucullata_Sacu_v1.1_s0140.g022706:0.738558)n4:0.113955)n2:0.120398)n0;

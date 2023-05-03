@@ -1,1 +1,0 @@
-((aegilops_tauschii_AET2Gv20744800:0.176115,aegilops_tauschii_AET2Gv20744600:0.143192)n1:0.286212,(oryza_sativa_LOC_Os04g39230.1:0.809883,(sorghum_bicolor_Sobic.006G112000:0.108368,(zea_mays_Zm00001d025645:0.363331,zea_mays_Zm00001d003370:0.238119)n4:0.0264577)n3:0.255139)n2:0.286212)n0;

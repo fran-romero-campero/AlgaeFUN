@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp2g22800:0.67457,(sphangum_magellanicum_Sphmag19G007300:0.299716,(ceratodon_purpureus_CepurR40.11G084800:0.351799,(physcomitrium_patens_Pp3c22_8020:0.109472,physcomitrium_patens_Pp3c19_2190:0.103667)n3:0.0115186)n2:0.044019)n1:0.67457)n0;

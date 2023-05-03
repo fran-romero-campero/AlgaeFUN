@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0032s0055:0.459091,(mesostigma_viridae_Mv14631:0.492399,(((bathycoccus_prasinos_Bathy08g01910:0.380237,ostreococcus_tauri_ostta08g01760:0.339012)n4:0.092824,micromonas_pusilla_Micpu_27338796:0.303525)n3:0.091515,(phaeodactylum_tricornutum_Phatr2_44427:0.633641,nannochloropsis_gaditana_Nangad1_4866:0.690693)n5:0.121969)n2:0.043588)n1:0.459091)n0;

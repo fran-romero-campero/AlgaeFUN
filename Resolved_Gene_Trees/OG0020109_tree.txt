@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl00144_0160:1.25965,((physcomitrium_patens_Pp3c15_6330:0.162791,physcomitrium_patens_Pp3c9_13190:0.088857)n2:0.099959,(ceratodon_purpureus_CepurR40.10G117400:0.245461,ceratodon_purpureus_CepurR40.7G139600:0.116885)n3:0.0129872)n1:0.108003)n0;

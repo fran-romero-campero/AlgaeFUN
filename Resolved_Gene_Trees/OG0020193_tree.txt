@@ -1,1 +1,0 @@
-(ostreococcus_tauri_ostta11g01570:0.524165,((ceratodon_purpureus_CepurR40.VG134200:0.18385,ceratodon_purpureus_CepurR40.VG031900:0.134154)n2:0.840692,(marchantia_polymorpha_Mp4g15710:1.09921,marchantia_polymorpha_MpVg00010:0.776624)n3:0.0862916)n1:0.237488)n0;

@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_1049:0.374379,((raphidocelis_subcapitata_Rsub_02389:0.383347,((klebsormidium_nitens_kfl00369_0030:0.160465,klebsormidium_nitens_kfl00728_0100:0.18873)n4:0.203702,(volvox_carteri_Vocar.0016s0176:0.264178,chlamydomonas_reinhardtii_Cre12.g512400:2.95715e-06)n5:0.194516)n3:0.057736)n2:0.156881,ostreococcus_tauri_ostta14g01230:0.624824)n1:0.374379)n0;

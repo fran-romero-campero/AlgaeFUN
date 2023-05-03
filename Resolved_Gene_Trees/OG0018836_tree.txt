@@ -1,1 +1,0 @@
-((physcomitrium_patens_Pp3c6_1680:0.389756,(solanum_lycopersicum_Solyc01g098420:0.587693,triticum_aestivum_Traes_7AS_D2F77FF08:0.364607)n2:0.47305)n1:0.06838,((triticum_aestivum_Traes_2DL_79D5A69C6:0.611785,solanum_lycopersicum_Solyc10g045610:0.676742)n4:0.232719,physcomitrium_patens_Pp3c4_7770:0.521927)n3:0.06838)n0;

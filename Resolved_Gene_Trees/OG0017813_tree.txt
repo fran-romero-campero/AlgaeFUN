@@ -1,1 +1,0 @@
-((micromonas_pusilla_Micpu_27347135:0.913691,bathycoccus_prasinos_Bathy03g04590:0.799171)n1:0.093586,((volvox_carteri_Vocar.0029s0187:0.155721,chlamydomonas_reinhardtii_Cre13.g590400:3.96377e-06)n3:0.516805,(dunaliella_salina_Dusal.0685s00002:0.54368,dunaliella_salina_Dusal.0685s00003:0.473095)n4:0.0525661)n2:0.424026)n0;

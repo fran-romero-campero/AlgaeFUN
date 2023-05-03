@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3214:0.60492,((mesostigma_viridae_Mv06633:0.193042,mesostigma_viridae_Mv06632:0.158391)n2:2.4095,mesostigma_viridae_Mv05926:2.12983)n1:0.60492)n0;

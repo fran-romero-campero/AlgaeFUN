@@ -1,1 +1,0 @@
-((physcomitrium_patens_Pp3s34_630:0.40753,phaeodactylum_tricornutum_Phatr2_46707:0.653013)n1:0.134205,(nannochloropsis_gaditana_Nangad1_3648:1.57343,(raphidocelis_subcapitata_Rsub_12804:0.022071,raphidocelis_subcapitata_Rsub_12805:0.01189)n3:0.256622)n2:0.134205)n0;

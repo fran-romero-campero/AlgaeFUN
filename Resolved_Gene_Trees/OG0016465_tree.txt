@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_6555:0.353415,(((chromochloris_zofingiensis_Cz06g02060:4.39838e-06,raphidocelis_subcapitata_Rsub_03106:0.646672)n3:0.211497,ostreococcus_tauri_ostta07g00350:0.998817)n2:0.106009,(ulva_mutabilis_UM001_0193:0.749564,(chlamydomonas_reinhardtii_Cre17.g732900:4.39838e-06,volvox_carteri_Vocar.0003s0352:1.04957)n5:0.35643)n4:0.214787)n1:0.353415)n0;

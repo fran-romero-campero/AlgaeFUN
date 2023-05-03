@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g2363:0.492097,(micromonas_pusilla_Micpu_27343780:0.350069,(micromonas_pusilla_Micpu_27343739:0.750827,(((micromonas_pusilla_Micpu_27343683:0.390154,micromonas_pusilla_Micpu_27343726:0.538946)n5:0.305632,micromonas_pusilla_Micpu_27343760:0.236253)n4:0.007669,micromonas_pusilla_Micpu_27343764:0.675154)n3:0.028842)n2:0.061553)n1:0.492097)n0;

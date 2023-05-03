@@ -1,1 +1,0 @@
-((((klebsormidium_nitens_kfl00108_0220:0.554329,(klebsormidium_nitens_kfl00075_0180:0.178781,klebsormidium_nitens_kfl00296_0160:0.230326)n4:0.214042)n3:0.033475,klebsormidium_nitens_kfl00075_0100:0.476359)n2:0.453748,phaeodactylum_tricornutum_Phatr2_15764:1.17917)n1:0.24349,(porphyra_umbilicalis_Pum0189s0016:0.583051,porphyra_umbilicalis_Pum2788s0001:0.7359)n5:0.24349)n0;

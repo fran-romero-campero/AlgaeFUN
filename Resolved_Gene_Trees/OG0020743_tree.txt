@@ -1,1 +1,0 @@
-((porphyra_umbilicalis_Pum2272s0001:1.09809,porphyra_umbilicalis_Pum0393s0019:1.52912)n1:0.075825,(chromochloris_zofingiensis_Cz15g11240:4.96152e-06,(raphidocelis_subcapitata_Rsub_00121:1.16357,raphidocelis_subcapitata_Rsub_06649:0.919162)n3:0.102129)n2:0.475401)n0;

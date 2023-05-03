@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl01317_0020:0.498264,(chromochloris_zofingiensis_UNPLg00708:0.036218,((dunaliella_salina_Dusal.3245s00001:0.345973,dunaliella_salina_Dusal.1044s00006:0.210247)n3:0.284594,(dunaliella_salina_Dusal.1158s00001:0.319157,dunaliella_salina_Dusal.4342s00001:0.283366)n4:0.22299)n2:0.355207)n1:0.498264)n0;

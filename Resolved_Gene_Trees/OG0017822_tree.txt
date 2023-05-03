@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_Cz03g26190:4.42488e-06,(volvox_carteri_Vocar.0004s0231:0.460212,chlamydomonas_reinhardtii_Cre17.g705450:4.42488e-06)n2:0.666837)n1:0.29189,(micromonas_pusilla_Micpu_27342587:1.00386,(ostreococcus_tauri_ostta09g00020:1.02328,bathycoccus_prasinos_Bathy05g04330:0.559183)n4:0.421194)n3:0.29189)n0;

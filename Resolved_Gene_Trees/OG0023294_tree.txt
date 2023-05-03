@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.11G014100:0.788298,((ceratodon_purpureus_CepurR40.VG197700:0.607092,ceratodon_purpureus_CepurR40.3G238500:0.247409)n2:0.080919,ceratodon_purpureus_CepurR40.VG084600:0.272541)n1:0.788298)n0;

@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_12312:0.459388,((salvinia_cucullata_Sacu_v1.1_s0005.g002703:2.97171e-06,cycas_panzhihuaensis_CYCAS_009040:0.098069)n2:0.342335,ulva_mutabilis_UM064_0014:1.63623)n1:0.459388)n0;

@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv12939:0.593099,((ulva_mutabilis_UM072_0039:0.916543,((chlamydomonas_reinhardtii_Cre03.g155650:0.087164,volvox_carteri_Vocar.0014s0026:0.240486)n4:0.449883,dunaliella_salina_Dusal.0055s00003:1.02096)n3:0.070008)n2:0.043264,(raphidocelis_subcapitata_Rsub_04659:0.759056,chromochloris_zofingiensis_Cz14g13060:4.75892e-06)n5:0.30801)n1:0.593099)n0;

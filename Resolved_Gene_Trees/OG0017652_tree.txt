@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz02g39190:3.44209e-06,(((anthoceros_agrestis_AagrOXF_utg000075l.2:3.44209e-06,anthoceros_agrestis_AagrOXF_utg000075l.6:0.172754)n3:0.667855,anthoceros_agrestis_AagrOXF_utg000025l.11:0.726672)n2:0.408777,(selaginella_moellendorffii_Selmo_426422:0.5223,selaginella_moellendorffii_Selmo_422536:1.1746)n4:0.232485)n1:3.44209e-06)n0;

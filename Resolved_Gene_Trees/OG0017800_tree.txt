@@ -1,1 +1,0 @@
-((dunaliella_salina_Dusal.0142s00010:2.28722,((ostreococcus_tauri_ostta01g04560:0.378542,bathycoccus_prasinos_Bathy01g03360:0.470864)n3:0.217501,mesostigma_viridae_Mv12179:0.929627)n2:0.157474)n1:0.168465,(phaeodactylum_tricornutum_Phatr2_43214:0.351205,phaeodactylum_tricornutum_Phatr2_48666:0.293595)n4:0.168465)n0;

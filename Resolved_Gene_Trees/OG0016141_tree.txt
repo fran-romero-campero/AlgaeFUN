@@ -1,1 +1,0 @@
-(ostreococcus_tauri_ostta04g00570:0.578386,(cycas_panzhihuaensis_CYCAS_031174:1.63853,(selaginella_moellendorffii_Selmo_75478:1.55829,(ceratopteris_richardii_Ceric.02G002600:1.63428,(azolla_filiculoides_Azfi_s0003.g007444:1.86891,(arabidopsis_thaliana_AT3G18970:1.55214,azolla_filiculoides_Azfi_s0069.g036580:1.66807)n5:0.0102735)n4:0.0011415)n3:0.016138)n2:0.013394)n1:0.578386)n0;

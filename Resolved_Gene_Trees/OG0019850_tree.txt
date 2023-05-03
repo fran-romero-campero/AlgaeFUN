@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME1156431C09470:0.630436,(arabidopsis_thaliana_AT3G45450:0.751996,(triticum_aestivum_Traes_5BS_3770153FF:0.00217,(triticum_aestivum_Traes_5AS_1479A9E67:0.067682,triticum_aestivum_Traes_5DS_C2F26C333:0.033471)n3:0.006894)n2:0.394889)n1:0.630436)n0;

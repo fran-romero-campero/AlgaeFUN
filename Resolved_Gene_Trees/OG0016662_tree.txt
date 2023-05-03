@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv21871:1.40743,(cyanophora_paradoxa_Cyapar1_g9308:1.31805,(thuja_plicata_Thupl.29361766s0001:1.47219,cyanophora_paradoxa_Cyapar1_g21944:6.91776e-06)n3:0.0506745)n2:0.0056305)n1:0.0434035,((micromonas_pusilla_Micpu_27343295:0.76101,ostreococcus_tauri_ostta17g00500:1.22541)n5:0.303354,selaginella_moellendorffii_Selmo_90172:1.02649)n4:0.120816)n0;

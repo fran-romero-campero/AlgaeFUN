@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.27G059200:0.346857,((cycas_panzhihuaensis_CYCAS_010793:0.933794,((triticum_aestivum_Traes_6DL_2B2072B70:0.194993,triticum_aestivum_Traes_4BL_7442E996F:0.120514)n4:0.0133904,triticum_aestivum_Traes_2DL_DB29E1FA5:0.269688)n3:0.0299653)n2:0.172162,aegilops_tauschii_AET6Gv20625600:0.350894)n1:0.346857)n0;

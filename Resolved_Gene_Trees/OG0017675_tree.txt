@@ -1,1 +1,0 @@
-((selaginella_moellendorffii_Selmo_415193:0.848379,selaginella_moellendorffii_Selmo_431385:0.583589)n1:0.296544,(anthoceros_agrestis_AagrOXF_utg000077l.410:0.975068,((physcomitrium_patens_Pp3c6_26780:0.238685,ceratodon_purpureus_CepurR40.VG312000:0.216142)n4:0.468901,sphangum_magellanicum_Sphmag02G207100:0.597584)n3:0.208582)n2:0.296544)n0;

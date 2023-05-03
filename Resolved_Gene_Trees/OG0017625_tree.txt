@@ -1,1 +1,0 @@
-((marchantia_polymorpha_Mp3g03600:1.11192,(marchantia_polymorpha_Mp3g03590:0.043505,marchantia_polymorpha_Mp3g03570:0.084481)n2:0.969157)n1:0.12871,(anthoceros_agrestis_AagrOXF_utg000057l.334:0.607153,(anthoceros_agrestis_AagrOXF_utg000005l.122:0.815328,anthoceros_agrestis_AagrOXF_utg000057l.335:0.430573)n4:0.581585)n3:0.12871)n0;

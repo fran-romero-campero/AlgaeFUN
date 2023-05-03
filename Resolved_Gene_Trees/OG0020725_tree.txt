@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g3816:0.738467,(chlorokybus_atmophyticus_Chlat1_5095:1.03983,(klebsormidium_nitens_kfl00077_0250:1.53991,(micromonas_pusilla_Micpu_27345870:1.45446,ostreococcus_tauri_ostta10g03030:1.35714)n3:0.135984)n2:0.098933)n1:0.738467)n0;

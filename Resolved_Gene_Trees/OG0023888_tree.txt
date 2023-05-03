@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g2437:0.613907,(chlamydomonas_reinhardtii_Cre12.g500700:1.96572e-06,(chromochloris_zofingiensis_Cz19g03020:1.96572e-06,ulva_mutabilis_UM058_0027:0.496993)n2:0.576138)n1:0.613907)n0;

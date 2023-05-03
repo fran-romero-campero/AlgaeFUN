@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME000475S07700:0.345992,(((raphidocelis_subcapitata_Rsub_06572:0.546729,raphidocelis_subcapitata_Rsub_06571:0.267388)n3:0.236142,chlamydomonas_reinhardtii_Cre05.g246377:1.75791e-06)n2:0.140649,chromochloris_zofingiensis_Cz05g32300:1.75791e-06)n1:0.345992)n0;

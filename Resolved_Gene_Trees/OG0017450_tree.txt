@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_Selmo_37017:0.284447,(thuja_plicata_Thupl.29378064s0015:0.49908,((aegilops_tauschii_AET7Gv20729500:0.125723,(triticum_aestivum_Traes_4AL_A10C27077:0.462399,triticum_aestivum_Traes_7DS_A8A8D774F:0.243322)n4:0.0270358)n3:0.520201,solanum_lycopersicum_Solyc01g087630:0.706052)n2:0.074187)n1:0.284447)n0;

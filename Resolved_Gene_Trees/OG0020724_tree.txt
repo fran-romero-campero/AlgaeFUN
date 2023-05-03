@@ -1,1 +1,0 @@
-((chlorokybus_atmophyticus_Chlat1_4998:1.02719,mesostigma_viridae_Mv05875:1.5367)n1:0.146999,((cyanophora_paradoxa_Cyapar1_g22568:0.464656,cyanophora_paradoxa_Cyapar1_g22581:0.175559)n3:0.693581,cyanophora_paradoxa_Cyapar1_g22569:0.339105)n2:0.146999)n0;

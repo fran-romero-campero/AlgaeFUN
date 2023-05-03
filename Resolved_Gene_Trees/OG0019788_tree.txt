@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_9042:0.496153,(anthoceros_agrestis_AagrOXF_utg000119l.92:0.189783,((physcomitrium_patens_Pp3c20_7850:0.17501,sphangum_magellanicum_Sphmag02G043600:0.157777)n3:0.048229,marchantia_polymorpha_Mp5g01370:0.170381)n2:0.011298)n1:0.496153)n0;

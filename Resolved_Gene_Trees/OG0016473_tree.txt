@@ -1,1 +1,0 @@
-((ostreococcus_tauri_ostta10g01520:0.855702,ulva_mutabilis_UM064_0072:0.801701)n1:0.0374455,(micromonas_pusilla_Micpu_27344953:0.614891,(dunaliella_salina_Dusal.0467s00005:0.540806,(raphidocelis_subcapitata_Rsub_02082:0.482202,(volvox_carteri_Vocar.0001s0093:0.278664,chlamydomonas_reinhardtii_Cre13.g580200:3.93365e-06)n5:0.131726)n4:0.034453)n3:0.216779)n2:0.0374455)n0;

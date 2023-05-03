@@ -1,1 +1,0 @@
-((klebsormidium_nitens_kfl00174_0040:0.363955,((chromochloris_zofingiensis_Cz10g04110:0.086929,volvox_carteri_Vocar.0021s0089:0.166277)n3:0.153964,(chromochloris_zofingiensis_UNPLg00122:2.20966e-06,raphidocelis_subcapitata_Rsub_09256:0.441597)n4:0.601932)n2:0.0668813)n1:0.099912,chlorokybus_atmophyticus_Chlat1_1775:0.31074)n0;

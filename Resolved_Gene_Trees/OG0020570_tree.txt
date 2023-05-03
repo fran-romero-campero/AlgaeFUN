@@ -1,1 +1,0 @@
-(physcomitrium_patens_Pp3s34_620:0.986128,(chlamydomonas_reinhardtii_Cre03.g148450:2.90209e-06,((chromochloris_zofingiensis_Cz09g06070:2.90209e-06,raphidocelis_subcapitata_Rsub_08791:0.37574)n3:0.185189,dunaliella_salina_Dusal.0040s00030:0.448143)n2:0.083101)n1:0.986128)n0;

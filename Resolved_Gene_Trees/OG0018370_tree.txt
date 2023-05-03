@@ -1,1 +1,0 @@
-((raphidocelis_subcapitata_Rsub_10887:0.883819,((chromochloris_zofingiensis_Cz03g21100:5.33273e-06,(dunaliella_salina_Dusal.0168s00015:1.30441,dunaliella_salina_Dusal.0592s00003:1.24657)n4:0.138508)n3:0.097484,dunaliella_salina_Dusal.0164s00024:1.02409)n2:0.113788)n1:0.093474,volvox_carteri_Vocar.0004s0111:1.01808)n0;

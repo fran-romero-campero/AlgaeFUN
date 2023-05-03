@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g24024:0.660111,((dunaliella_salina_Dusal.0536s00010:1.448,dunaliella_salina_Dusal.0544s00001:0.787158)n2:0.094037,((dunaliella_salina_Dusal.1776s00001:0.389462,dunaliella_salina_Dusal.0154s00015:0.043382)n4:0.052307,dunaliella_salina_Dusal.1687s00001:0.18501)n3:1.10667)n1:0.660111)n0;

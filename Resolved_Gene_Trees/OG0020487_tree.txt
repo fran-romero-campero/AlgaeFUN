@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_5576:0.618007,((chlamydomonas_reinhardtii_Cre17.g717100:0.005659,volvox_carteri_Vocar.0004s0264:0.091115)n2:0.944129,(dunaliella_salina_Dusal.0183s00005:0.486805,raphidocelis_subcapitata_Rsub_09865:1.24224)n3:0.039917)n1:0.618007)n0;

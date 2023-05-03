@@ -1,1 +1,0 @@
-(spirogloea_muscicola_SM002484S08156:0.398242,(triticum_aestivum_Traes_4BS_30F2237B7:0.39005,(aegilops_tauschii_AET3Gv20765700:0.09718,((aegilops_tauschii_AET7Gv20695300:0.001649,aegilops_tauschii_AET5Gv20643000:0.01525)n4:0.22217,aegilops_tauschii_AET7Gv20612700:0.01502)n3:0.157627)n2:0.911161)n1:0.398242)n0;

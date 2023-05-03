@@ -1,1 +1,0 @@
-((micromonas_pusilla_Micpu_27346267:1.18228,klebsormidium_nitens_kfl00066_0290:1.10174)n1:0.102261,((bathycoccus_prasinos_Bathy03g01620:1.41375,ostreococcus_tauri_ostta04g01230:1.29231)n3:0.045923,(spirogloea_muscicola_SM000007S20915:0.055464,(spirogloea_muscicola_SM000004S14914:0.179841,spirogloea_muscicola_SM000011S19082:0.106221)n5:0.0676)n4:0.855312)n2:0.102261)n0;

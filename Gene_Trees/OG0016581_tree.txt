@@ -1,1 +1,0 @@
-(micromonas_pusilla_proteome_first_transcript_27343394:0.544633,(((selaginella_moellendorffii_proteome_first_transcript_419725:0.341573,selaginella_moellendorffii_proteome_first_transcript_431071:0.272754):0.878223,selaginella_moellendorffii_proteome_first_transcript_419700:2.94194e-06):0.087431,selaginella_moellendorffii_proteome_first_transcript_426361:0.475481):0.544633);

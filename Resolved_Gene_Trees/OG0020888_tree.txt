@@ -1,1 +1,0 @@
-(((phaeodactylum_tricornutum_Phatr2_46636:0.80419,phaeodactylum_tricornutum_Phatr2_43225:0.960672)n2:0.222149,nannochloropsis_gaditana_Nangad1_10047:0.954294)n1:0.101433,(cyanophora_paradoxa_Cyapar1_g20493:0.373467,cyanophora_paradoxa_Cyapar1_g24200:0.867426)n3:0.101433)n0;

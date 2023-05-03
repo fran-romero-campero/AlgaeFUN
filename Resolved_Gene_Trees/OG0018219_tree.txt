@@ -1,1 +1,0 @@
-(((chlamydomonas_reinhardtii_Cre03.g153150:4.93814e-06,volvox_carteri_Vocar.0019s0119:0.542627)n2:0.512824,dunaliella_salina_Dusal.0515s00011:0.879024)n1:0.182983,((porphyra_umbilicalis_Pum0847s0003:0.432751,porphyra_umbilicalis_Pum0519s0022:0.267474)n4:0.651887,porphyra_umbilicalis_Pum0058s0068:1.32608)n3:0.182983)n0;

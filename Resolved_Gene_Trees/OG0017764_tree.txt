@@ -1,1 +1,0 @@
-(((ceratopteris_richardii_Ceric.1Z268800:0.708289,azolla_filiculoides_Azfi_s0030.g024378:0.583929)n2:0.424579,marchantia_polymorpha_Mp8g13050:0.66417)n1:0.297729,(dunaliella_salina_Dusal.0252s00013:1.15856,(volvox_carteri_Vocar.0002s0554:1.32273,chromochloris_zofingiensis_Cz15g13250:5.32047e-06)n4:0.155642)n3:0.297729)n0;

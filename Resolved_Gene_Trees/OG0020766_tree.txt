@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g16779:0.79057,(chromochloris_zofingiensis_Cz19g01300:3.75135e-06,(spirogloea_muscicola_SM000075S21991:1.14754,(mesotaenium_endlicherianum_ME000037S06539:0.037826,mesotaenium_endlicherianum_ME000037S06538:0.251123)n3:1.03615)n2:0.385619)n1:0.79057)n0;

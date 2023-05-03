@@ -1,1 +1,0 @@
-(spirogloea_muscicola_SM000022S07200:0.216798,(sorghum_bicolor_Sobic.009G091200:0.157567,(cycas_panzhihuaensis_CYCAS_013567:0.876427,(triticum_aestivum_Traes_4BS_58C121773:0,triticum_aestivum_Traes_4BL_58C121773:0)n3:0.223121)n2:0.028995)n1:0.216798)n0;

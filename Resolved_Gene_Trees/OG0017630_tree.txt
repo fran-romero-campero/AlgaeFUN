@@ -1,1 +1,0 @@
-(((selaginella_moellendorffii_Selmo_438304:0.302206,selaginella_moellendorffii_Selmo_419947:0.029799)n2:0.1053,selaginella_moellendorffii_Selmo_404623:5.08352e-06)n1:0.705358,((sphangum_magellanicum_Sphmag06G044700:1.11492,marchantia_polymorpha_Mp2g20850:1.01837)n4:0.158842,anthoceros_agrestis_AagrOXF_utg000006l.962:1.00021)n3:0.705358)n0;

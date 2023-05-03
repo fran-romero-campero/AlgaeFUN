@@ -1,1 +1,0 @@
-((((thuja_plicata_Thupl.29379513s0012:0.01284,thuja_plicata_Thupl.29382035s0007:0.607066)n3:0.043194,zea_mays_Zm00001d045616:0.155028)n2:0.022471,arabidopsis_thaliana_AT4G26701:0.125099)n1:0.025847,(selaginella_moellendorffii_Selmo_410935:0.402867,selaginella_moellendorffii_Selmo_120288:0.426562)n4:0.025847)n0;

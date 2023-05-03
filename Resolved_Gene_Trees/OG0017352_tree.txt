@@ -1,1 +1,0 @@
-(azolla_filiculoides_Azfi_s0303.g063774:0.527092,(aegilops_tauschii_AET1Gv20266700:2.74567e-06,((triticum_aestivum_Traes_1DS_F2201D794:0.079864,triticum_aestivum_Traes_1AS_789A7BFEF:0.297867)n3:0.195304,(triticum_aestivum_Traes_2BS_3532B485A:0.671101,triticum_aestivum_Traes_2AL_872BEF88D:0.097331)n4:0.550727)n2:0.0611919)n1:0.389297)n0;

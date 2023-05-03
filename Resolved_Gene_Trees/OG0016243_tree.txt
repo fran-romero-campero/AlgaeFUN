@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0191s0023:0.652428,(cyanophora_paradoxa_Cyapar1_g8500:1.77952,(phaeodactylum_tricornutum_Phatr2_45966:0.926467,(nannochloropsis_gaditana_Nangad1_10779:0.905612,(micromonas_pusilla_Micpu_27347495:0.472036,(bathycoccus_prasinos_Bathy10g03450:0.558151,ostreococcus_tauri_ostta09g01000:0.31602)n5:0.087779)n4:0.472353)n3:0.104981)n2:0.346936)n1:0.652428)n0;

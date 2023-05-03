@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME000206S02989:0.582453,((aegilops_tauschii_AET6Gv20986000:0.036379,(triticum_aestivum_Traes_5BL_E03FA5432:0.093269,triticum_aestivum_Traes_6DL_EB9C728A7:0.271269)n3:0.030141)n2:0.424804,oryza_sativa_LOC_Os09g32190.1:0.400259)n1:0.582453)n0;

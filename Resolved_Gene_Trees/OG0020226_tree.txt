@@ -1,1 +1,0 @@
-((ceratopteris_richardii_Ceric.03G072900:0.994212,klebsormidium_nitens_kfl01532_0010:1.08795)n1:0.469407,(chlorokybus_atmophyticus_Chlat1_1918:0.638928,(chlorokybus_atmophyticus_Chlat1_1919:0.577466,chlorokybus_atmophyticus_Chlat1_5496:0.581314)n3:0.042749)n2:0.469407)n0;

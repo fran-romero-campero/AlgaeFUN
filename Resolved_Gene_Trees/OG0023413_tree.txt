@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_7553:0.222074,(marchantia_polymorpha_Mp3g14880:0.764617,(ceratodon_purpureus_CepurR40.4G156800:0.243593,physcomitrium_patens_Pp3c4_16880:0.278309)n2:0.474)n1:0.222074)n0;

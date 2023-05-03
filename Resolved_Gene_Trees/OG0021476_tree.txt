@@ -1,1 +1,0 @@
-((physcomitrium_patens_Pp3c3_5080:0.581313,sphangum_magellanicum_Sphmag04G153200:0.893719)n1:0.037565,(sphangum_magellanicum_Sphmag01G010400:0.55422,(physcomitrium_patens_Pp3c20_19790:0.929522,physcomitrium_patens_Pp3c9_26070:0.642133)n3:0.0713481)n2:0.329094)n0;

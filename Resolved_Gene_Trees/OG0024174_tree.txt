@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_45285:0.744028,(cyanophora_paradoxa_Cyapar1_g23205:1.31338,(mesostigma_viridae_Mv02024:1.41343,mesostigma_viridae_Mv02026:1.46884)n2:0.163204)n1:0.122311)n0;

@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_4245:0.681935,(cyanophora_paradoxa_Cyapar1_g19701:1.40273,(ulva_mutabilis_UM022_0196:1.32,(klebsormidium_nitens_kfl00676_0040:5.38309e-06,((klebsormidium_nitens_kfl00491_0020:0.101817,klebsormidium_nitens_kfl00676_0020:0.088253)n5:0.027795,klebsormidium_nitens_kfl00676_0045:0.201829)n4:1.09773)n3:0.12197)n2:0.149732)n1:0.681935)n0;

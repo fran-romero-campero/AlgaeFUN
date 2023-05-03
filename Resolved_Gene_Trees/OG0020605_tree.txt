@@ -1,1 +1,0 @@
-((nannochloropsis_gaditana_Nangad1_9635:0.774665,phaeodactylum_tricornutum_Phatr2_41559:1.50524)n1:0.120805,(dunaliella_salina_Dusal.1647s00001:1.33648,(volvox_carteri_Vocar.0011s0282:0.899918,chlamydomonas_reinhardtii_Cre03.g212977:5.17776e-06)n3:0.753107)n2:0.120805)n0;

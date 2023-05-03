@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv20437:1.02658,(micromonas_pusilla_Micpu_27344822:1.14041,micromonas_pusilla_Micpu_27344667:1.00033)n2:0.111148)n1:0.043491,(((chlorokybus_atmophyticus_Chlat1_7177:0.123782,chlorokybus_atmophyticus_Chlat1_7195:0.311186)n5:0.255784,chlorokybus_atmophyticus_Chlat1_7183:4.96199e-06)n4:0.667342,chlorokybus_atmophyticus_Chlat1_7181:0.167357)n3:0.11895)n0;

@@ -1,1 +1,0 @@
-((azolla_filiculoides_Azfi_s1510.g103865:0.665514,(((physcomitrium_patens_Pp3c1_17410:0.636242,physcomitrium_patens_Pp3c23_19331:0.497053)n4:0.215387,physcomitrium_patens_Pp3c3_15139:0.0856467)n3:0.0095163,physcomitrium_patens_Pp3c23_6280:0.333553)n2:0.0370614)n1:0.035696,oryza_sativa_LOC_Os03g12380.1:0.756645)n0;

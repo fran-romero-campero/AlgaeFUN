@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM095_0004:0.700804,(aegilops_tauschii_AET7Gv21181300:0.941177,((oryza_sativa_LOC_Os03g40400.1:0.443207,oryza_sativa_LOC_Os04g47570.1:0.956783)n3:0.242136,oryza_sativa_LOC_Os02g49040.1:1.19006)n2:0.247547)n1:0.700804)n0;

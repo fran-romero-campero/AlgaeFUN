@@ -1,1 +1,0 @@
-(ostreococcus_tauri_ostta06g03950:0.68697,(((chlamydomonas_reinhardtii_Cre01.g038850:4.39177e-06,volvox_carteri_Vocar.0001s0826:0.488974)n3:0.594302,(chromochloris_zofingiensis_Cz03g07050:4.39177e-06,raphidocelis_subcapitata_Rsub_01817:1.02046)n4:0.278948)n2:0.177722,dunaliella_salina_Dusal.0207s00015:0.878634)n1:0.68697)n0;

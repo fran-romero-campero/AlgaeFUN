@@ -1,1 +1,0 @@
-(ulva_mutabilis_UM061_0076:0.832338,(anthoceros_agrestis_AagrOXF_utg000063l.21:0.238991,(mesostigma_viridae_Mv08706:1.50345,(marchantia_polymorpha_Mp3g11470:1.03314,(sphangum_magellanicum_Sphmag16G027400:0.427175,(ceratodon_purpureus_CepurR40.7G142600:0.4691,physcomitrium_patens_Pp3c15_11340:0.113447)n5:0.363025)n4:0.415916)n3:0.213134)n2:0.235139)n1:0.832338)n0;

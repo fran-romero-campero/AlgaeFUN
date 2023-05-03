@@ -1,1 +1,0 @@
-((selaginella_moellendorffii_Selmo_409395:0.980459,(((volvox_carteri_Vocar.0032s0156:0.166174,volvox_carteri_Vocar.0032s0158:0.142973)n4:0.238795,chlamydomonas_reinhardtii_Cre12.g491250:0.139652)n3:0.511342,chlamydomonas_reinhardtii_Cre03.g164850:0.358795)n2:0.0398661)n1:0.038644,klebsormidium_nitens_kfl01005_0020:0.851195)n0;

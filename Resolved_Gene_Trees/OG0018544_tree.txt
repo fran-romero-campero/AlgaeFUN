@@ -1,1 +1,0 @@
-((mesotaenium_endlicherianum_ME1100253C05652:0.231046,(cycas_panzhihuaensis_CYCAS_032733:0.354547,cycas_panzhihuaensis_CYCAS_012989:0.391155)n2:0.047537)n1:0.01113,((dunaliella_salina_Dusal.0253s00024:0.02703,dunaliella_salina_Dusal.2886s00001:0.325026)n4:0.157481,micromonas_pusilla_Micpu_27345648:0.178526)n3:0.01113)n0;

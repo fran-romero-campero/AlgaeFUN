@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz12g22190:0.053555,((mesostigma_viridae_Mv17541:0.11997,(mesostigma_viridae_Mv01132:0.112364,mesostigma_viridae_Mv01131:0.207565)n3:0.094724)n2:0.222001,(mesostigma_viridae_Mv17542:0.208815,mesostigma_viridae_Mv09033:0.120839)n4:0.209622)n1:0.053555)n0;

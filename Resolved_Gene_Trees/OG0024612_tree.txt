@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv05059:1.02379,(triticum_aestivum_Traes_7BS_E33CBE41D:0.040913,(triticum_aestivum_Traes_7DS_C1DCFDA6D:0.089409,triticum_aestivum_Traes_7AS_B0B69CDCF:0.305206)n2:0.130702)n1:1.02379)n0;

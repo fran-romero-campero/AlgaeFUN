@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_7707:0.884758,(cyanophora_paradoxa_Cyapar1_g22840:1.55332,(bathycoccus_prasinos_Bathy08g01300:1.86117,(mesostigma_viridae_Mv07710:0.916655,(mesostigma_viridae_Mv09868:0.273156,(mesostigma_viridae_Mv21861:0.312764,mesostigma_viridae_Mv21857:0.085792)n5:1.37132)n4:0.273201)n3:0.0303557)n2:0.22793)n1:0.884758)n0;

@@ -1,1 +1,0 @@
-((bathycoccus_prasinos_Bathy09g02700:0.402396,(micromonas_pusilla_Micpu_27349108:0.799684,ostreococcus_tauri_ostta03g02590:0.185663)n2:0.253787)n1:0.486978,(cyanophora_paradoxa_Cyapar1_g16812:0.932034,cyanophora_paradoxa_Cyapar1_g2095:1.0179)n3:0.486978)n0;

@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv14272:0.358293,((ulva_mutabilis_UM118_0008:0.779479,(ostreococcus_tauri_ostta01g03690:0.806444,(bathycoccus_prasinos_Bathy01g04290:0.514279,micromonas_pusilla_Micpu_27347190:0.759746)n4:0.054665)n3:0.015756)n2:0.182914,(volvox_carteri_Vocar.0001s0780:0.199961,chlamydomonas_reinhardtii_Cre01.g034250:4.41798e-06)n5:0.407905)n1:0.358293)n0;

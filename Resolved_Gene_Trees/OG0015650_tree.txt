@@ -1,1 +1,0 @@
-(aegilops_tauschii_AET3Gv20088000:0.0465885,((aegilops_tauschii_AET3Gv20087500:0.069321,aegilops_tauschii_AET3Gv20087700:0.040659)n2:0.041689,(aegilops_tauschii_AET2Gv21305600:0.357142,(aegilops_tauschii_AET6Gv20283700:0.489615,(aegilops_tauschii_AET1Gv20574000:0.726207,aegilops_tauschii_AET7Gv20169900:0.535081)n5:0.132146)n4:0.289063)n3:0.219644)n1:0.0465885)n0;

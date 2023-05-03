@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_3074:1.29128,((spirogloea_muscicola_SM000068S20539:0.069237,spirogloea_muscicola_SM000049S16688:0.081846)n2:0.640154,(klebsormidium_nitens_kfl00128_0050:0.898923,(chlorokybus_atmophyticus_Chlat1_6410:0.702313,(mesostigma_viridae_Mv00028:1.44447,mesostigma_viridae_Mv19904:0.95359)n5:0.08203)n4:0.11731)n3:0.074396)n1:1.29128)n0;

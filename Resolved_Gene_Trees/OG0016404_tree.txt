@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_15349:0.415085,((micromonas_pusilla_Micpu_27340627:0.731085,(cyanophora_paradoxa_Cyapar1_g24282:0.972428,cyanophora_paradoxa_Cyapar1_g2405:0.829561)n3:0.0921735)n2:0.104098,(dunaliella_salina_Dusal.0519s00008:0.558408,(volvox_carteri_Vocar.0019s0081:0.177284,chlamydomonas_reinhardtii_Cre11.g467564:0.064885)n5:0.624634)n4:0.037784)n1:0.419446)n0;

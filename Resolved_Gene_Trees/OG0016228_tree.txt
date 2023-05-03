@@ -1,1 +1,0 @@
-((((bathycoccus_prasinos_Bathy06g00570:0.13588,ostreococcus_tauri_ostta17g01070:0.155437)n3:0.164131,nannochloropsis_gaditana_Nangad1_10206:0.263108)n2:0.017252,((porphyra_umbilicalis_Pum0507s0010:0.410306,cyanophora_paradoxa_Cyapar1_g10098:0.433596)n5:0.366619,porphyra_umbilicalis_Pum0125s0042:0.277147)n4:0.0307941)n1:0.100481,phaeodactylum_tricornutum_Phatr2_35625:0.997522)n0;

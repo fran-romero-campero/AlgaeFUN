@@ -1,1 +1,0 @@
-((oryza_sativa_LOC_Os10g42030.1:0.613157,(oryza_sativa_LOC_Os04g14370.1:0.379365,oryza_sativa_LOC_Os03g03800.1:0.222909)n2:0.052024)n1:0.443663,(physcomitrium_patens_Pp3c15_22220:0.970889,physcomitrium_patens_Pp3c15_22140:0.588362)n3:0.443663)n0;

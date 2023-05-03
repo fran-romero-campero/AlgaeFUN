@@ -1,1 +1,0 @@
-(triticum_aestivum_Traes_4AL_6401281CF:0.259204,(sphangum_magellanicum_Sphmag02G120400:0.637102,(ceratodon_purpureus_CepurR40.1G230300:7.73501e-07,(ceratodon_purpureus_CepurR40.1G230700:7.73501e-07,(ceratodon_purpureus_CepurR40.1G229800:7.73501e-07,ceratodon_purpureus_CepurR40.1G229400:7.73501e-07)n4:7.73501e-07)n3:7.73501e-07)n2:7.73501e-07)n1:0.040935)n0;

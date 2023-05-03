@@ -1,1 +1,0 @@
-(micromonas_pusilla_Micpu_27339178:0.539915,(((volvox_carteri_Vocar.0007s0059:0.279603,chlamydomonas_reinhardtii_Cre12.g541150:0.013754)n3:0.474379,dunaliella_salina_Dusal.0222s00016:0.490828)n2:0.109456,(chromochloris_zofingiensis_Cz07g07040:3.59294e-06,ulva_mutabilis_UM049_0043:1.21342)n4:0.126155)n1:0.539915)n0;

@@ -1,1 +1,0 @@
-((phaeodactylum_tricornutum_Phatr2_40044:0.002861,phaeodactylum_tricornutum_Phatr2_50343:0.007993)n1:0.582348,((dunaliella_salina_Dusal.0002s00033:0.580444,dunaliella_salina_Dusal.0002s00024:0.37061)n3:0.393162,dunaliella_salina_Dusal.0172s00003:1.4483)n2:0.582348)n0;

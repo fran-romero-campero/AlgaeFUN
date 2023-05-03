@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_6287:0.804736,((volvox_carteri_Vocar.0007s0227:0.688201,chlamydomonas_reinhardtii_Cre12.g549400:3.6485e-06)n2:0.603918,(chromochloris_zofingiensis_Cz07g01140:3.6485e-06,raphidocelis_subcapitata_Rsub_08943:0.794891)n3:0.348023)n1:0.804736)n0;

@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.15G070300:0.655552,(dunaliella_salina_Dusal.0129s00017:1.46031,(volvox_carteri_Vocar.0051s0048:0.035205,(chlamydomonas_reinhardtii_Cre40.g760147:0.050162,chlamydomonas_reinhardtii_Cre07.g358050:0.332941)n3:0.0369934)n2:0.648926)n1:0.655552)n0;

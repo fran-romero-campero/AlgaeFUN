@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g7328:0.314443,(mesostigma_viridae_Mv16950:0.22696,(micromonas_pusilla_Micpu_27339386:0.52734,((dunaliella_salina_Dusal.0115s00019:0.249441,ulva_mutabilis_UM005_0218:1.13408)n4:0.037367,(chlamydomonas_reinhardtii_Cre01.g047950:0.01225,volvox_carteri_Vocar.0001s0561:0.066628)n5:0.141884)n3:0.193575)n2:0.105062)n1:0.314443)n0;

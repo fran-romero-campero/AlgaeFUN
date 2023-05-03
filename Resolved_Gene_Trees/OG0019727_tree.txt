@@ -1,1 +1,0 @@
-(solanum_lycopersicum_Solyc04g077840:0.413662,((ceratodon_purpureus_CepurR40.11G157300:0.785236,ceratodon_purpureus_CepurR40.11G158000:0.782603)n2:0.041761,(anthoceros_agrestis_AagrOXF_utg000009l.16:1.03048,anthoceros_agrestis_AagrOXF_utg000042l.164:0.680848)n3:0.0756498)n1:0.026594)n0;

@@ -1,1 +1,0 @@
-(thuja_plicata_Thupl.29379470s0011:0.404308,(triticum_aestivum_Traes_1BL_1E2841006:1.91666e-06,(oryza_sativa_LOC_Os07g35770.1:1.91666e-06,(oryza_sativa_LOC_Os07g36980.1:1.91666e-06,oryza_sativa_LOC_Os07g35810.1:0.579755)n3:0.126783)n2:0.664128)n1:0.404308)n0;

@@ -1,1 +1,0 @@
-(solanum_lycopersicum_Solyc05g014280:0.369663,((oryza_sativa_LOC_Os05g23140.1:0.231,(sorghum_bicolor_Sobic.007G217300:0.157902,zea_mays_Zm00001d031325:0.238453)n3:0.209888)n2:0.038622,(aegilops_tauschii_AET5Gv20605700:0.065032,(triticum_aestivum_Traes_5DL_3A49B7207:0.016614,triticum_aestivum_Traes_5BL_9FDF53F78:0.0762399)n5:0.0084711)n4:0.042784)n1:0.369663)n0;

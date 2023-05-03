@@ -1,1 +1,0 @@
-(sphangum_magellanicum_Sphmag01G008700:0.173931,(triticum_aestivum_Traes_4DL_E496F12BB:0.258773,(((cycas_panzhihuaensis_CYCAS_016834:0.295545,cycas_panzhihuaensis_CYCAS_005718:0.234229)n4:0.464619,cycas_panzhihuaensis_CYCAS_006727:0.250895)n3:0.180554,cycas_panzhihuaensis_CYCAS_025494:2.43656e-06)n2:0.455932)n1:0.173931)n0;

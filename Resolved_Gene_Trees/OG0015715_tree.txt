@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp5g17130:0.533635,((aegilops_tauschii_AET5Gv20259700:2.82303e-06,((triticum_aestivum_Traes_6BL_3C1D75E6F:0.419137,(triticum_aestivum_Traes_5AS_6051215AE:0.017111,triticum_aestivum_Traes_5DS_4056C1B83:0.011496)n5:0.080396)n4:0.352003,triticum_aestivum_Traes_5BS_BA048F803:0.498546)n3:0.055394)n2:0.114968,zea_mays_Zm00001d023899:0.360268)n1:0.533635)n0;

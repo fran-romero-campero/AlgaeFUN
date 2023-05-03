@@ -1,1 +1,0 @@
-(triticum_aestivum_proteome_first_transcript_Traes_7AS_830505028:0.430011,(selaginella_moellendorffii_proteome_first_transcript_423152:0.228862,(selaginella_moellendorffii_proteome_first_transcript_98255:0.050008,selaginella_moellendorffii_proteome_first_transcript_98413:0.017185):0.211083):0.430011);

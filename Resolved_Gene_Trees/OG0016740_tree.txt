@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum2209s0001:0.658803,(mesostigma_viridae_Mv26566:1.2653,(volvox_carteri_Vocar.0025s0142:1.7829,(klebsormidium_nitens_kfl00002_0640:0.856012,(klebsormidium_nitens_kfl00110_0320:0.544404,(klebsormidium_nitens_kfl00020_0180:0.33249,klebsormidium_nitens_kfl00110_0300:0.396871)n5:0.124469)n4:0.378228)n3:0.336624)n2:0.104296)n1:0.658803)n0;

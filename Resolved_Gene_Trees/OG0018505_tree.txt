@@ -1,1 +1,0 @@
-(((sphangum_magellanicum_Sphmag10G092100:0.047505,sphangum_magellanicum_Sphmag11G020400:0.050494)n2:0.042987,(thuja_plicata_Thupl.29380901s0002:0.196456,cycas_panzhihuaensis_CYCAS_011704:0.534329)n3:0.086139)n1:0.0728435,(sphangum_magellanicum_Sphmag07G001000:0.126773,thuja_plicata_Thupl.29380148s0011:0.318132)n4:0.0728435)n0;

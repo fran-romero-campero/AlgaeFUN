@@ -1,1 +1,0 @@
-((aegilops_tauschii_AET5Gv20087800:0.452212,thuja_plicata_Thupl.29382083s0013:0.302814)n1:0.293895,((triticum_aestivum_Traes_3B_CBE173D0A:0.585648,aegilops_tauschii_AET3Gv20674800:2.75146e-06)n3:0.532878,thuja_plicata_Thupl.29377358s0014:0.438219)n2:0.293895)n0;

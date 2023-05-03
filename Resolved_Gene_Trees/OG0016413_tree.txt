@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_9326:0.718796,((volvox_carteri_Vocar.0050s0042:0.977402,chlamydomonas_reinhardtii_Cre14.g610450:4.58522e-06)n2:0.426869,(raphidocelis_subcapitata_Rsub_00895:0.534161,(chromochloris_zofingiensis_Cz10g10210:4.58522e-06,(ulva_mutabilis_UM034_0122:0.309083,ulva_mutabilis_UM010_0222:0.331331)n5:0.648968)n4:0.271045)n3:0.38343)n1:0.718796)n0;

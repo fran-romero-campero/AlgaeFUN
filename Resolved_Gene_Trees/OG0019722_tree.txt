@@ -1,1 +1,0 @@
-(((mesostigma_viridae_Mv22103:0.168297,mesostigma_viridae_Mv22102:0.152652)n2:0.281762,chlorokybus_atmophyticus_Chlat1_4280:0.837539)n1:0.425461,(sphangum_magellanicum_Sphmag18G077200:0.413723,anthoceros_agrestis_AagrOXF_utg000007l.30:0.341504)n3:0.425461)n0;

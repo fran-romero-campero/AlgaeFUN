@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv06167:0.716496,(chlamydomonas_reinhardtii_Cre11.g468380:3.75498e-06,(chlamydomonas_reinhardtii_Cre11.g468371:3.75498e-06,(volvox_carteri_Vocar.0026s0045:0.565241,(volvox_carteri_Vocar.0029s0050:0.198564,volvox_carteri_Vocar.0012s0208:0.458436)n5:0.719031)n4:0.0798923)n3:0.288167)n2:0.0320186)n1:0.329153,klebsormidium_nitens_kfl00250_0090:1.38854)n0;

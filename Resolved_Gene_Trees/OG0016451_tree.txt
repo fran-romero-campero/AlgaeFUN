@@ -1,1 +1,0 @@
-(chlamydomonas_reinhardtii_Cre09.g386161:3.9086e-06,(porphyra_umbilicalis_Pum2441s0001:1.27463,(porphyra_umbilicalis_Pum0146s0023:0.549403,(porphyra_umbilicalis_Pum0256s0022:0.594297,((porphyra_umbilicalis_Pum0254s0014:0.294993,porphyra_umbilicalis_Pum0150s0021:0.384545)n5:0.111658,porphyra_umbilicalis_Pum0254s0020:0.352955)n4:0.132682)n3:0.130959)n2:0.523175)n1:3.9086e-06)n0;

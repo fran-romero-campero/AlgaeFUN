@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.21G027600:0.238597,(thuja_plicata_Thupl.29382475s0018:0.553349,(aegilops_tauschii_AET4Gv20542000:0.551482,(solanum_lycopersicum_Solyc04g039693:0.812787,solanum_lycopersicum_Solyc05g018484:0.789073)n3:0.0876748)n2:0.090487)n1:0.145661)n0;

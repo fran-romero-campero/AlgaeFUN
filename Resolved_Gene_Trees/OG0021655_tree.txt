@@ -1,1 +1,0 @@
-(solanum_lycopersicum_Solyc03g116130:0.158388,((solanum_lycopersicum_Solyc03g116120:0.211191,solanum_lycopersicum_Solyc08g062570:0.474147)n2:0.067536,(solanum_lycopersicum_Solyc07g021460:0.314622,solanum_lycopersicum_Solyc12g062730:1.81714e-06)n3:0.46741)n1:0.158388)n0;

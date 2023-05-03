@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv23022:0.129718,(mesotaenium_endlicherianum_ME000052S08165:0.245582,(spirogloea_muscicola_SM000036S13316:0.028783,spirogloea_muscicola_SM000002S05676:0.046196)n2:0.149523)n1:0.129718)n0;

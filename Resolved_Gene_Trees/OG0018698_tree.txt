@@ -1,1 +1,0 @@
-(micromonas_pusilla_Micpu_27342178:0.382862,(phaeodactylum_tricornutum_Phatr2_49071:1.11673,((nannochloropsis_gaditana_Nangad1_1901:0.912964,nannochloropsis_gaditana_Nangad1_4275:1.21524)n3:0.04061,(nannochloropsis_gaditana_Nangad1_1900:0.598103,nannochloropsis_gaditana_Nangad1_9560:0.630093)n4:0.382912)n2:0.0425458)n1:0.110421)n0;

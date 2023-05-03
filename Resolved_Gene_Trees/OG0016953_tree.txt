@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0288s0022:0.430115,((spirogloea_muscicola_SM000161S02425:0.0102,(spirogloea_muscicola_SM000028S10042:0.003026,spirogloea_muscicola_SM000180S03495:0.007735)n3:0.011765)n2:0.745426,(ulva_mutabilis_UM109_0028:0.436464,(ulva_mutabilis_UM022_0097:0.490079,ulva_mutabilis_UM109_0027:0.891189)n5:0.306876)n4:0.284199)n1:0.430115)n0;

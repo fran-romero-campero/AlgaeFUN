@@ -1,1 +1,0 @@
-(((marchantia_polymorpha_Mp2g01040:1.20925,(ceratopteris_richardii_Ceric.31G043100:1.05517,physcomitrium_patens_Pp3c14_13390:1.02082)n3:0.138346)n2:0.057477,klebsormidium_nitens_kfl00034_0250:1.31391)n1:0.717115,(mesostigma_viridae_Mv22655:0.018821,mesostigma_viridae_Mv15967:0.017668)n4:0.717115)n0;

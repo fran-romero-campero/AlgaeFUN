@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl00171_0090:0.246379,((bathycoccus_prasinos_Bathy10g00310:1.11143,(chlamydomonas_reinhardtii_Cre03.g186350:0.188075,chlamydomonas_reinhardtii_Cre03.g186400:2.00375e-06)n3:2.00375e-06)n2:0.432317,volvox_carteri_Vocar.0017s0051:2.00375e-06)n1:0.280078)n0;

@@ -1,1 +1,0 @@
-(salvinia_cucullata_Sacu_v1.1_s0110.g020604:0.448554,(physcomitrium_patens_Pp3c14_20920:0.768074,((anthoceros_agrestis_AagrOXF_utg000055l.3:0.193159,anthoceros_agrestis_AagrOXF_utg000074l.11:0.219611)n3:0.242711,(anthoceros_agrestis_AagrOXF_utg000010l.555:0.28771,anthoceros_agrestis_AagrOXF_utg000140l.83:0.451525)n4:0.423885)n2:0.113038)n1:0.448554)n0;

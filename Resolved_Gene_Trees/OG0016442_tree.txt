@@ -1,1 +1,0 @@
-((chromochloris_zofingiensis_Cz15g10150:3.85287e-06,mesostigma_viridae_Mv21778:1.04816)n1:0.0378825,(dunaliella_salina_Dusal.0083s00010:0.506128,((chlamydomonas_reinhardtii_Cre06.g251050:3.85287e-06,volvox_carteri_Vocar.0038s0050:0.377767)n4:0.315824,(chlorokybus_atmophyticus_Chlat1_9084:0.532449,ulva_mutabilis_UM060_0111:0.943703)n5:0.214673)n3:0.037424)n2:0.0378825)n0;

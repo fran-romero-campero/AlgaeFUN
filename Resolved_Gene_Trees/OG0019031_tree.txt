@@ -1,1 +1,0 @@
-(triticum_aestivum_Traes_5AL_1D8F705CE:0.526625,(sphangum_magellanicum_Sphmag19G088000:0.032908,(sphangum_magellanicum_Sphmag08G084100:0.037886,((sphangum_magellanicum_Sphmag05G128600:0.051464,sphangum_magellanicum_Sphmag05G116200:0.058796)n4:0.022068,sphangum_magellanicum_Sphmag02G071000:0.047019)n3:0.165466)n2:0.072872)n1:0.526625)n0;

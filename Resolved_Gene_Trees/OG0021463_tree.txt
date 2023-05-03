@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_45908:0.535872,(raphidocelis_subcapitata_Rsub_11899:1.14287,(ulva_mutabilis_UM111_0017:0.219461,(ulva_mutabilis_UM111_0016:0.128501,ulva_mutabilis_UM061_0024:0.850368)n3:0.167771)n2:0.0186412)n1:0.182595)n0;

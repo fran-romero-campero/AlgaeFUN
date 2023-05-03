@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g8494:0.36032,cyanophora_paradoxa_Cyapar1_g3821:0.16289)n1:0.46329,((dunaliella_salina_Dusal.0952s00001:1.19178,(chlamydomonas_reinhardtii_Cre05.g238260:5.43597e-06,volvox_carteri_Vocar.0022s0048:0.340307)n4:0.159839)n3:0.605034,mesostigma_viridae_Mv02579:1.70378)n2:0.46329)n0;

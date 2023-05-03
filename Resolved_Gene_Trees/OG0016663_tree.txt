@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g23609:0.647538,(ostreococcus_tauri_ostta01g03610:1.15659,(micromonas_pusilla_Micpu_27342936:1.40909,((ostreococcus_tauri_ostta20g00610:1.15878,micromonas_pusilla_Micpu_27340110:0.974701)n4:0.423153,(ostreococcus_tauri_ostta04g03390:0.512752,micromonas_pusilla_Micpu_27339034:0.979092)n5:0.546673)n3:0.356626)n2:0.0396251)n1:0.065922)n0;

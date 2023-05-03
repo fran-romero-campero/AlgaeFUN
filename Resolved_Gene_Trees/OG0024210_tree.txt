@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g9544:0.786065,((selaginella_moellendorffii_Selmo_61000:0.093299,selaginella_moellendorffii_Selmo_465:0.086673)n2:1.59413,cycas_panzhihuaensis_CYCAS_031390:1.55961)n1:0.786065)n0;

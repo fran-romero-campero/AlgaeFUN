@@ -1,1 +1,0 @@
-((cycas_panzhihuaensis_CYCAS_025804:0.244408,cycas_panzhihuaensis_CYCAS_013521:0.632674)n1:0.377943,((sphangum_magellanicum_Sphmag04G031300:0.118639,sphangum_magellanicum_Sphmag04G028900:0.039802)n3:0.096978,sphangum_magellanicum_Sphmag04G010800:1.88815e-06)n2:0.377943)n0;

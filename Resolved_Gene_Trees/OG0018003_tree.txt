@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl01226_0010:0.727947,(ceratopteris_richardii_Ceric.39G025100:0.980458,(selaginella_moellendorffii_Selmo_402048:1.26458,(selaginella_moellendorffii_Selmo_419458:0.331864,(selaginella_moellendorffii_Selmo_413847:0.15315,selaginella_moellendorffii_Selmo_425636:0.510633)n4:0.063572)n3:0.457606)n2:0.0508451)n1:0.122585)n0;

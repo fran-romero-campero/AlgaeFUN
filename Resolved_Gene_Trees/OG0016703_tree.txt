@@ -1,1 +1,0 @@
-(thuja_plicata_Thupl.29379480s0001:0.402574,(cycas_panzhihuaensis_CYCAS_016944:0.701873,(cycas_panzhihuaensis_CYCAS_016952:0.57869,((cycas_panzhihuaensis_CYCAS_016950:0.037295,cycas_panzhihuaensis_CYCAS_016948:0.246845)n4:0.123826,(cycas_panzhihuaensis_CYCAS_016949:0.342482,cycas_panzhihuaensis_CYCAS_016951:0.049914)n5:0.146293)n3:0.2705)n2:0.391412)n1:0.402574)n0;

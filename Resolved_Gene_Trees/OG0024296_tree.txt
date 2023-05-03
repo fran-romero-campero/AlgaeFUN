@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_CYCAS_021088:0.866959,((spirogloea_muscicola_SM000006S19490:0.061876,spirogloea_muscicola_SM000008S22324:0.042073)n2:0.019914,spirogloea_muscicola_SM000272S10267:0.112952)n1:0.866959)n0;

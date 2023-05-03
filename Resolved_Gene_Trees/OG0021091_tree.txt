@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_1915:0.440287,(((klebsormidium_nitens_kfl00096_0140:1.06191,micromonas_pusilla_Micpu_27341270:1.9198)n3:0.099203,ostreococcus_tauri_ostta08g00320:0.80117)n2:0.267126,ulva_mutabilis_UM040_0077:0.828844)n1:0.440287)n0;

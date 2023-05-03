@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME000142S01003:0.696349,(solanum_lycopersicum_Solyc01g090850:1.37484,(sorghum_bicolor_Sobic.001G302000:3.90725e-06,(zea_mays_Zm00001d047103:0.26373,zea_mays_Zm00001d029918:0.214997)n3:0.924274)n2:0.147416)n1:0.696349)n0;

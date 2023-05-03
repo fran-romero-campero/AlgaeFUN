@@ -1,1 +1,0 @@
-((phaeodactylum_tricornutum_Phatr2_45258:0.82376,nannochloropsis_gaditana_Nangad1_1571:0.900707)n1:0.188339,(mesostigma_viridae_Mv01236:1.43688,(mesostigma_viridae_Mv02618:0.355365,mesostigma_viridae_Mv03400:0.405354)n3:1.0204)n2:0.188339)n0;

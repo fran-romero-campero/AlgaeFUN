@@ -1,1 +1,0 @@
-(oryza_sativa_LOC_Os10g03630.1:0.301592,(oryza_sativa_LOC_Os03g29065.1:0.835401,((oryza_sativa_LOC_Os01g31124.1:0.740534,oryza_sativa_LOC_Os12g27670.1:0.801177)n3:0.168869,oryza_sativa_LOC_Os01g31170.1:0.175486)n2:0.150055)n1:0.301592)n0;

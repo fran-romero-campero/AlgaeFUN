@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_45604:0.78804,(ceratopteris_richardii_Ceric.12G067200:1.2939,(chromochloris_zofingiensis_Cz02g03080:4.88014e-06,(azolla_filiculoides_Azfi_s0013.g013238:0.850335,salvinia_cucullata_Sacu_v1.1_s0044.g013115:0.807907)n3:0.772723)n2:0.128352)n1:0.78804)n0;

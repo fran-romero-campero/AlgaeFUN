@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_3586:0.494249,((spirogloea_muscicola_SM000003S11037:0.170919,(spirogloea_muscicola_SM000072S21233:0.261882,spirogloea_muscicola_SM000003S10966:0.164434)n3:0.05971)n2:0.577648,klebsormidium_nitens_kfl00058_0030:0.852966)n1:0.494249)n0;

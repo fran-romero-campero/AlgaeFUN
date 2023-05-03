@@ -1,1 +1,0 @@
-((cycas_panzhihuaensis_CYCAS_032554:0.200377,(triticum_aestivum_Traes_2DS_61594D3E9:0.163185,triticum_aestivum_Traes_6BL_3941CAD6B:0.236567)n2:0.073905)n1:0.15575,(salvinia_cucullata_Sacu_v1.1_s0056.g014598:0.201784,salvinia_cucullata_Sacu_v1.1_s0023.g008832:1.3376)n3:0.15575)n0;

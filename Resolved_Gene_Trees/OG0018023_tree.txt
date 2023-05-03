@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g18687:0.458616,cyanophora_paradoxa_Cyapar1_g18688:0.495159)n1:0.325775,(raphidocelis_subcapitata_Rsub_10454:1.87794,(chlamydomonas_reinhardtii_Cre03.g205249:5.43042e-06,(ceratopteris_richardii_Ceric.06G043700:1.28754,chromochloris_zofingiensis_Cz10g16010:0.423599)n4:0.16417)n3:0.306252)n2:0.325775)n0;

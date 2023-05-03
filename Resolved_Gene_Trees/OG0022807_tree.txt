@@ -1,1 +1,0 @@
-((cycas_panzhihuaensis_CYCAS_012491:0.943076,physcomitrium_patens_Pp3c20_6260:0.843172)n1:0.0661965,(azolla_filiculoides_Azfi_s0260.g060737:0.812142,anthoceros_agrestis_AagrOXF_utg000063l.558:1.07029)n2:0.0661965)n0;

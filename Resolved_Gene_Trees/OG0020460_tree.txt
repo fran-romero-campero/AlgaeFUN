@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_31810:0.358716,(cyanophora_paradoxa_Cyapar1_g20703:0.443068,(dunaliella_salina_Dusal.0411s00014:0.299645,(chlamydomonas_reinhardtii_Cre09.g408300:2.39565e-06,volvox_carteri_Vocar.0036s0006:0.20051)n3:0.176477)n2:0.568559)n1:0.358716)n0;

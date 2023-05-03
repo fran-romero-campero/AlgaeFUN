@@ -1,1 +1,0 @@
-((physcomitrium_patens_Pp3c25_14030:0.327065,physcomitrium_patens_Pp3s228_30:0.330286)n1:0.114394,(zea_mays_Zm00001d053180:0.232771,(triticum_aestivum_Traes_7DL_4883DCC98:0.571678,(triticum_aestivum_Traes_5BL_30E226689:0.142708,triticum_aestivum_Traes_3AL_FFE4C92D8:0.084564)n4:0.112257)n3:0.012473)n2:0.421461)n0;

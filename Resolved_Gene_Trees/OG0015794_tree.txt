@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp2g15330:0.602976,(triticum_aestivum_Traes_6DL_B3C85001D:0.433409,(arabidopsis_thaliana_AT4G24700:0.849899,(aegilops_tauschii_AET6Gv20556900:0.391622,(oryza_sativa_LOC_Os02g38170.1:0.499044,(zea_mays_Zm00001d017086:0.455153,sorghum_bicolor_Sobic.004G201800:0.600137)n5:0.015479)n4:0.181803)n3:0.099195)n2:0.113539)n1:0.602976)n0;

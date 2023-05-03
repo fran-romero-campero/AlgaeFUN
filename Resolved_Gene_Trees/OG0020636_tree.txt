@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_38671:0.58613,((chromochloris_zofingiensis_Cz19g04130:3.57404e-06,dunaliella_salina_Dusal.0120s00022:0.777786)n2:0.551294,(chlamydomonas_reinhardtii_Cre10.g446950:3.57404e-06,volvox_carteri_Vocar.0055s0029:0.651147)n3:0.760424)n1:0.58613)n0;

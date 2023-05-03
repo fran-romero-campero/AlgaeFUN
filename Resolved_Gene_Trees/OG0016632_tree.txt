@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum2916s0001:0.668071,((mesostigma_viridae_Mv00179:0.359119,mesostigma_viridae_Mv00178:0.358933)n2:1.0449,(cyanophora_paradoxa_Cyapar1_g5826:1.09764,(cyanophora_paradoxa_Cyapar1_g11809:0.586969,(cyanophora_paradoxa_Cyapar1_g8517:0.148176,cyanophora_paradoxa_Cyapar1_g6739:0.182175)n5:0.512011)n4:0.563421)n3:0.213972)n1:0.668071)n0;

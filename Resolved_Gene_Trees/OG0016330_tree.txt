@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g5992:0.313992,(((physcomitrium_patens_Pp3c5_27080:0.176747,ceratodon_purpureus_CepurR40.5G141000:0.192413)n3:0.202647,marchantia_polymorpha_Mp2g11340:0.252212)n2:0.109104,((mesostigma_viridae_Mv15927:0.521911,chlorokybus_atmophyticus_Chlat1_6820:0.690981)n5:0.112908,klebsormidium_nitens_kfl00688_0060:0.44266)n4:0.055814)n1:0.313992)n0;

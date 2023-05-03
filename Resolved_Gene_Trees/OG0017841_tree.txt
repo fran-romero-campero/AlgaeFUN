@@ -1,1 +1,0 @@
-((bathycoccus_prasinos_Bathy12g02310:0.722246,ostreococcus_tauri_ostta14g01350:0.928595)n1:0.296915,((chlamydomonas_reinhardtii_Cre07.g349850:5.31321e-06,volvox_carteri_Vocar.0023s0193:0.427689)n3:0.70075,(dunaliella_salina_Dusal.0258s00002:1.17705,dunaliella_salina_Dusal.0258s00003:0.902082)n4:0.100231)n2:0.10337)n0;

@@ -1,1 +1,0 @@
-((ceratopteris_richardii_Ceric.20G004400:0.402537,((ceratopteris_richardii_Ceric.01G057500:0.3541,ceratopteris_richardii_Ceric.28G030300:0.310251)n3:0.049953,ceratopteris_richardii_Ceric.07G061000:0.495139)n2:0.112409)n1:0.024496,(solanum_lycopersicum_Solyc02g011810:0.449425,thuja_plicata_Thupl.29381584s0006:0.676036)n4:0.024496)n0;

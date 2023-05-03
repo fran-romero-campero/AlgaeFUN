@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_4231:0.651845,((ceratopteris_richardii_Ceric.14G055000:0.286954,salvinia_cucullata_Sacu_v1.1_s0175.g024557:0.244904)n2:0.165308,(klebsormidium_nitens_kfl00896_0020:0.318756,klebsormidium_nitens_kfl00583_0030:0.734649)n3:0.682672)n1:0.651845)n0;

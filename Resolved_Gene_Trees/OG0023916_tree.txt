@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0215s0012:0.411089,((phaeodactylum_tricornutum_Phatr2_42699:1.01534,phaeodactylum_tricornutum_Phatr2_49822:0.867669)n2:0.47484,chlorokybus_atmophyticus_Chlat1_4725:1.43624)n1:0.411089)n0;

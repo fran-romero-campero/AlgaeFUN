@@ -1,1 +1,0 @@
-(klebsormidium_nitens_proteome_first_transcript_kfl00341_0160:0.426939,((bathycoccus_prasinos_proteome_first_transcript_Bathy03g02320 length_464 _mRNA_ _n/a_  _tRNA 2-selenouridine synthase_:0.324223,ostreococcus_tauri_proteome_first_transcript_ostta02g03480:0.264225):0.015377,micromonas_pusilla_proteome_first_transcript_27347048:0.233847):0.426939);

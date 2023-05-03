@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_8752:0.420795,(cycas_panzhihuaensis_CYCAS_012743:0.503514,(zea_mays_Zm00001d034213:1.64778e-06,zea_mays_Zm00001d043099:0.213377)n2:0.090135)n1:0.420795)n0;

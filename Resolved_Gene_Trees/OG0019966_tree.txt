@@ -1,1 +1,0 @@
-((ostreococcus_tauri_ostta12g01920:0.709299,ulva_mutabilis_UM033_0051:0.794817)n1:0.008077,(chromochloris_zofingiensis_Cz06g20050:2.94991e-06,(bathycoccus_prasinos_Bathy03g05170:0.885045,raphidocelis_subcapitata_Rsub_06012:0.717215)n3:0.090298)n2:0.008077)n0;

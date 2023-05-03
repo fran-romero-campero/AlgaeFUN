@@ -1,1 +1,0 @@
-(((physcomitrium_patens_Pp3c25_7620:0.196126,ceratodon_purpureus_CepurR40.VG129500:0.29715)n2:0.421393,marchantia_polymorpha_Mp5g03140:0.617349)n1:0.034994,(solanum_lycopersicum_Solyc03g031660:0.686232,(thuja_plicata_Thupl.29378058s0022:0.331633,(cycas_panzhihuaensis_CYCAS_008316:0.379403,cycas_panzhihuaensis_CYCAS_032099:0.462595)n5:0.0513994)n4:0.049139)n3:0.034994)n0;

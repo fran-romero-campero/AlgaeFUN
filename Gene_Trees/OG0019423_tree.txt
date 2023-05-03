@@ -1,1 +1,0 @@
-(micromonas_pusilla_proteome_first_transcript_27341147:0.55044,(klebsormidium_nitens_proteome_first_transcript_kfl00826_0070:0.344501,(mesotaenium_endlicherianum_proteome_first_transcript_ME000484S07921:0.286786,marchantia_polymorpha_proteome_first_transcript_Mp8g03870:0.418481):0.099837):0.55044);

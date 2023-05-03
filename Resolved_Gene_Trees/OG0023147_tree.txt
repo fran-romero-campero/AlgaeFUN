@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_97:0.317462,((bathycoccus_prasinos_Bathy12g00540:0.562657,ostreococcus_tauri_ostta14g01435:0.551619)n2:0.055502,micromonas_pusilla_Micpu_27340937:0.237351)n1:0.317462)n0;

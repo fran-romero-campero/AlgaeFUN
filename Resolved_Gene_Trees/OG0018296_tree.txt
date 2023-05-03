@@ -1,1 +1,0 @@
-(((mesostigma_viridae_Mv02118:0.480557,mesostigma_viridae_Mv07645:0.468663)n2:0.159461,chlorokybus_atmophyticus_Chlat1_763:0.611171)n1:0.505632,(dunaliella_salina_Dusal.0542s00002:0.511542,(chlamydomonas_reinhardtii_Cre12.g532850:0.037022,chlamydomonas_reinhardtii_Cre12.g532950:0.0357426)n4:0.0039714)n3:0.510253)n0;

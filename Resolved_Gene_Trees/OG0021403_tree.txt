@@ -1,1 +1,0 @@
-((solanum_lycopersicum_Solyc05g051595:1.17303,(solanum_lycopersicum_Solyc03g117270:0.732369,solanum_lycopersicum_Solyc07g015800:0.513497)n2:0.590227)n1:0.350712,(oryza_sativa_LOC_Os02g41910.1:0.337129,oryza_sativa_LOC_Os02g41930.1:0.600197)n3:0.350712)n0;

@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0647s0010:0.634529,(((micromonas_pusilla_Micpu_27341943:0.269678,ostreococcus_tauri_ostta13g01710:0.225774)n3:0.031871,bathycoccus_prasinos_Bathy17g01660:0.425354)n2:0.296143,(phaeodactylum_tricornutum_Phatr2_49182:0.59181,nannochloropsis_gaditana_Nangad1_2125:0.60691)n4:0.081743)n1:0.634529)n0;

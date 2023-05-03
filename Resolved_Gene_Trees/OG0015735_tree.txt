@@ -1,1 +1,0 @@
-((aegilops_tauschii_AET5Gv20777500:0.561731,(sorghum_bicolor_Sobic.002G175550:0.308382,(((sorghum_bicolor_Sobic.005G075200:0.074199,sorghum_bicolor_Sobic.005G075400:0.096773)n5:0.178887,sorghum_bicolor_Sobic.005G075301:0.224002)n4:0.067716,sorghum_bicolor_Sobic.005G075700:0.424657)n3:0.204574)n2:0.0227304)n1:0.026652,triticum_aestivum_Traes_2BL_1BA046AFF:0.475645)n0;

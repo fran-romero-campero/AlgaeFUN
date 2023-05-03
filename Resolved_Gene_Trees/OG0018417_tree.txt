@@ -1,1 +1,0 @@
-((klebsormidium_nitens_kfl00002_0740:1.5421,(nannochloropsis_gaditana_Nangad1_5674:1.34928,(mesostigma_viridae_Mv22836:1.32172,nannochloropsis_gaditana_Nangad1_3869:1.46044)n3:0.198166)n2:0.0220185)n1:0.0706565,(phaeodactylum_tricornutum_Phatr2_52750:7.83588e-06,cyanophora_paradoxa_Cyapar1_g12864:1.815)n4:0.152734)n0;

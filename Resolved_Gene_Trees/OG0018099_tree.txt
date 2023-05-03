@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g11148:0.361013,(mesotaenium_endlicherianum_ME000004S07899:0.718688,((spirogloea_muscicola_SM000141S00852:0.135447,(spirogloea_muscicola_SM000002S05793:0.08156,spirogloea_muscicola_SM000064S19816:0.047517)n4:0.083924)n3:0.731759,chlamydomonas_reinhardtii_Cre16.g678900:0.705817)n2:0.184943)n1:0.361013)n0;

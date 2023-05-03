@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_CYCAS_015301:0.529447,(selaginella_moellendorffii_Selmo_135258:0.024745,(selaginella_moellendorffii_Selmo_135307:0.168048,(selaginella_moellendorffii_Selmo_135308:0.028897,(selaginella_moellendorffii_Selmo_135165:0,selaginella_moellendorffii_Selmo_135288:0)n4:0.472918)n3:0.092373)n2:0.036698)n1:0.529447)n0;

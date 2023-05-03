@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g4466:0.27037,(mesostigma_viridae_Mv21190:0.491508,(ulva_mutabilis_UM015_0177:0.986235,(raphidocelis_subcapitata_Rsub_04081:0.806275,chromochloris_zofingiensis_Cz05g19130:3.1225e-06)n3:0.115024)n2:0.486998)n1:0.27037)n0;

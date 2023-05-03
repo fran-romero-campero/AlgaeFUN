@@ -1,1 +1,0 @@
-(azolla_filiculoides_Azfi_s0152.g053393:0.560612,(triticum_aestivum_Traes_3B_9376F8CE4:0.669317,(((zea_mays_Zm00001d051341:0.002417,zea_mays_Zm00001d042835:0.072075)n4:0.560421,(solanum_lycopersicum_Solyc02g031850:0.042304,solanum_lycopersicum_Solyc02g031900:0.018761)n5:0.480048)n3:0.189293,aegilops_tauschii_AET6Gv20857200:0.033415)n2:0.09295)n1:0.560612)n0;

@@ -1,1 +1,0 @@
-((ulva_mutabilis_UM025_0101:1.3045,(dunaliella_salina_Dusal.0630s00010:1.26374,chromochloris_zofingiensis_Cz06g17110:5.62338e-06)n2:0.277917)n1:0.048135,(micromonas_pusilla_Micpu_27343676:1.31011,(ostreococcus_tauri_ostta03g05700:0.793133,bathycoccus_prasinos_Bathy07g00320:0.818233)n4:0.396605)n3:0.048135)n0;

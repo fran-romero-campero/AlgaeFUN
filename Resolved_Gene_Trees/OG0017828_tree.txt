@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g3877:0.799813,((volvox_carteri_Vocar.0002s0625:1.62578,dunaliella_salina_Dusal.0195s00001:1.14199)n2:0.062702,((klebsormidium_nitens_kfl00839_0060:0.371902,klebsormidium_nitens_kfl00558_0050:0.397559)n4:1.17665,bathycoccus_prasinos_Bathy06g03030:1.2543)n3:0.037836)n1:0.799813)n0;

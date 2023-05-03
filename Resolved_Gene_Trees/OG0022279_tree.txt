@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.35G010300:0.147508,((triticum_aestivum_Traes_3B_956E51B0F:0.010935,aegilops_tauschii_AET3Gv20453100:0.017055)n2:0.122387,arabidopsis_thaliana_AT4G15885:0.372579)n1:0.147508)n0;

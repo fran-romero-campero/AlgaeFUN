@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_44387:0.546071,(chlorokybus_atmophyticus_Chlat1_3995:0.806872,(cyanophora_paradoxa_Cyapar1_g14041:0.66642,(mesostigma_viridae_Mv14695:0.611289,mesostigma_viridae_Mv00844:0.745608)n3:0.015361)n2:0.10769)n1:0.546071)n0;

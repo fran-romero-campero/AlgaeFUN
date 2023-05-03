@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g8761:0.400291,cyanophora_paradoxa_Cyapar1_g8759:0.639406)n1:0.117012,((bathycoccus_prasinos_Bathy103g00020:0.849203,bathycoccus_prasinos_Bathy23g00220:0.966251)n3:0.327199,bathycoccus_prasinos_Bathy23g00230:1.1559)n2:0.117012)n0;

@@ -1,1 +1,0 @@
-(micromonas_pusilla_Micpu_27345026:0.627253,(chlamydomonas_reinhardtii_Cre06.g271900:2.16133e-06,((volvox_carteri_Vocar.0022s0006:0.186282,volvox_carteri_Vocar.0002s0422:0.04624)n3:0.08279,volvox_carteri_Vocar.0022s0007:0.402407)n2:0.364755)n1:0.627253)n0;

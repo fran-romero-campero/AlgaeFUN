@@ -1,1 +1,0 @@
-((ceratopteris_richardii_Ceric.11G071700:0.176287,(ceratopteris_richardii_Ceric.11G071600:0.165215,ceratopteris_richardii_Ceric.11G071500:0.134756)n2:0.021135)n1:0.463645,((marchantia_polymorpha_Mp2g14650:0.449156,marchantia_polymorpha_Mp8g14270:0.298291)n4:0.540846,anthoceros_agrestis_AagrOXF_utg000014l.67:0.699428)n3:0.463645)n0;

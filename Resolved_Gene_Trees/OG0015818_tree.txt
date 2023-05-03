@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_CYCAS_027495:0.395618,(((arabidopsis_thaliana_AT1G72275:0.659429,solanum_lycopersicum_Solyc07g007360:0.462935)n3:0.100605,((zea_mays_Zm00001d026435:0.136266,oryza_sativa_LOC_Os04g55130.1:0.084374)n5:0.040939,aegilops_tauschii_AET2Gv21143500:0.145688)n4:0.379384)n2:0.088035,triticum_aestivum_Traes_2BL_FCF452681:0.177734)n1:0.395618)n0;

@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0200s0004:0.573715,((dunaliella_salina_Dusal.0484s00006:0.702573,ulva_mutabilis_UM019_0165:0.862251)n2:0.110834,(volvox_carteri_Vocar.0032s0059:0.458207,chlamydomonas_reinhardtii_Cre01.g021800:3.27748e-06)n3:0.079344)n1:0.573715)n0;

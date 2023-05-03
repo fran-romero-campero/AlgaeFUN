@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv20754:0.581638,((spirogloea_muscicola_SM000088S23712:0.058332,(spirogloea_muscicola_SM000079S22434:0.209694,spirogloea_muscicola_SM000124S25938:0.157794)n3:0.123473)n2:0.308717,(sphangum_magellanicum_Sphmag06G076600:0.632157,(physcomitrium_patens_Pp3c13_24210:0.350662,ceratodon_purpureus_CepurR40.4G088600:0.305591)n5:0.07014)n4:0.105897)n1:0.581638)n0;

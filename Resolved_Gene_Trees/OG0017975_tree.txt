@@ -1,1 +1,0 @@
-((marchantia_polymorpha_Mp3g09310:1.27676,marchantia_polymorpha_Mp7g15480:0.927083)n1:0.320647,((sphangum_magellanicum_Sphmag07G060500:0.302207,sphangum_magellanicum_Sphmag12G055500:0.248669)n3:0.246816,(ceratodon_purpureus_CepurR40.7G132600:0.156462,physcomitrium_patens_Pp3c15_13650:0.20734)n4:0.443622)n2:0.320647)n0;

@@ -1,1 +1,0 @@
-((raphidocelis_subcapitata_Rsub_04022:1.49011,dunaliella_salina_Dusal.0201s00009:1.63202)n1:0.197695,(klebsormidium_nitens_kfl00028_0380:1.67056,((mesostigma_viridae_Mv20414:0,mesostigma_viridae_Mv11454:0)n4:1.178,chlorokybus_atmophyticus_Chlat1_3921:1.62376)n3:0.04973)n2:0.197695)n0;

@@ -1,1 +1,0 @@
-(spirogloea_muscicola_SM003379S12935:0.04099,((spirogloea_muscicola_SM002361S08092:0.151881,spirogloea_muscicola_SM002214S06955:0.106233)n2:0.028003,(spirogloea_muscicola_SM000004S15088:0.179465,(spirogloea_muscicola_SM000045S16219:0.28652,spirogloea_muscicola_SM000013S26472:0.16426)n4:0.07969)n3:0.358971)n1:0.04099)n0;

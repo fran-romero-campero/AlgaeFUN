@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g16548:0.58277,(mesostigma_viridae_Mv17381:1.70744,((volvox_carteri_Vocar.0014s0229:0.526092,chlamydomonas_reinhardtii_Cre11.g467529:0.089068)n3:0.667848,(volvox_carteri_Vocar.0048s0049:0.724469,chlamydomonas_reinhardtii_Cre11.g479550:5.68043e-06)n4:0.871289)n2:0.050622)n1:0.58277)n0;

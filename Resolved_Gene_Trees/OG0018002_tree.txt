@@ -1,1 +1,0 @@
-(ceratopteris_richardii_Ceric.1Z181200:9.89693e-07,((ceratopteris_richardii_Ceric.1Z217000:9.89693e-07,ceratopteris_richardii_Ceric.1Z181400:0.588268)n2:0.203705,(ceratopteris_richardii_Ceric.1Z181500:9.89693e-07,(ceratopteris_richardii_Ceric.1Z184700:0.018947,ceratopteris_richardii_Ceric.1Z181300:0.038634)n4:0.327735)n3:0.246638)n1:9.89693e-07)n0;

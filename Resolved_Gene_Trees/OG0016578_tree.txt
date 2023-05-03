@@ -1,1 +1,0 @@
-((nannochloropsis_gaditana_Nangad1_6567:0.95643,phaeodactylum_tricornutum_Phatr2_45863:0.929225)n1:0.057205,(triticum_aestivum_Traes_7AS_F0C63434A:0.742793,(mesostigma_viridae_Mv18236:0.55577,((chlorokybus_atmophyticus_Chlat1_7385:0.771584,raphidocelis_subcapitata_Rsub_02388:0.808491)n5:0.022287,dunaliella_salina_Dusal.0094s00017:0.849119)n4:0.167078)n3:0.027464)n2:0.057205)n0;

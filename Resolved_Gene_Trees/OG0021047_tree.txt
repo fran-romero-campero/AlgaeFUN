@@ -1,1 +1,0 @@
-((dunaliella_salina_Dusal.0621s00010:1.34741,raphidocelis_subcapitata_Rsub_03241:0.934967)n1:0.261369,(oryza_sativa_LOC_Os10g10260.1:0.729111,(oryza_sativa_LOC_Os10g18010.1:0.611315,oryza_sativa_LOC_Os10g10270.1:0.176447)n3:0.331718)n2:0.261369)n0;

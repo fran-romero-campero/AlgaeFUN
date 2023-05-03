@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0532s0015:0.144192,(ulva_mutabilis_UM028_0004:0.406128,(chlorokybus_atmophyticus_Chlat1_7018:0.966907,(mesostigma_viridae_Mv15172:0.762424,(phaeodactylum_tricornutum_Phatr2_50123:1.664,phaeodactylum_tricornutum_Phatr2_44535:0.627683)n4:0.0697426)n3:0.836623)n2:0.022529)n1:0.144192)n0;

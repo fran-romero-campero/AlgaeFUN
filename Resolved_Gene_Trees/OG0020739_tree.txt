@@ -1,1 +1,0 @@
-((chlorokybus_atmophyticus_Chlat1_8312:1.04852,dunaliella_salina_Dusal.0694s00009:1.44097)n1:0.0718755,(mesostigma_viridae_Mv09410:1.54054,(raphidocelis_subcapitata_Rsub_11746:1.08198,chromochloris_zofingiensis_Cz04g07100:4.89632e-06)n3:0.144896)n2:0.0718755)n0;

@@ -1,1 +1,0 @@
-(porphyra_umbilicalis_Pum0052s0022:0.596213,(((ulva_mutabilis_UM030_0063:0.143141,ulva_mutabilis_UM030_0068:0.973663)n3:0.100574,(ulva_mutabilis_UM030_0065:0.030692,ulva_mutabilis_UM030_0066:0.024644)n4:0.014091)n2:0.136841,(ulva_mutabilis_UM030_0067:0.090604,ulva_mutabilis_UM030_0064:0.345028)n5:0.063755)n1:0.596213)n0;

@@ -1,1 +1,0 @@
-(marchantia_polymorpha_Mp6g06930:1.29143,(((azolla_filiculoides_Azfi_s0796.g087281:0,azolla_filiculoides_Azfi_s0233.g059435:0)n3:0.883624,ceratopteris_richardii_Ceric.11G094500:1.06636)n2:0.164727,salvinia_cucullata_Sacu_v1.1_s0011.g005064:0.986999)n1:1.29143)n0;

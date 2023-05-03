@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_46858:0.523481,(raphidocelis_subcapitata_Rsub_07727:0.815865,(dunaliella_salina_Dusal.0006s00024:0.183691,(volvox_carteri_Vocar.0002s0228:0.04807,chlamydomonas_reinhardtii_Cre06.g267200:0.020386)n3:0.350529)n2:0.45125)n1:0.523481)n0;

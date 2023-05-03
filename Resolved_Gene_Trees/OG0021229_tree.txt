@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv08599:0.372159,(sphangum_magellanicum_Sphmag02G141300:0.416791,(triticum_aestivum_Traes_5DL_54CC1E040:0.008797,(zea_mays_Zm00001d045925:0.171319,zea_mays_Zm00001d035718:0.224203)n3:0.473714)n2:0.250048)n1:0.372159)n0;

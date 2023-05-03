@@ -1,1 +1,0 @@
-(mesotaenium_endlicherianum_ME001213S00022:0.440246,(((salvinia_cucullata_Sacu_v1.1_s0005.g002899:0.4221,salvinia_cucullata_Sacu_v1.1_s0093.g019025:0.159789)n3:0.082103,salvinia_cucullata_Sacu_v1.1_s0093.g019000:0.249805)n2:0.538697,(zea_mays_Zm00001d000371:0.404115,aegilops_tauschii_AET3Gv20685700:0.690945)n4:0.282825)n1:0.440246)n0;

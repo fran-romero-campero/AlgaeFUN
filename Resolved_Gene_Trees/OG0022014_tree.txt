@@ -1,1 +1,0 @@
-(triticum_aestivum_Traes_2AS_CAA2FBF93:0.098129,(((triticum_aestivum_Traes_2AS_BC392FFFB:0.030335,triticum_aestivum_Traes_2AL_FBBF8E526:0.540837)n3:0.299387,triticum_aestivum_Traes_7DS_C001D4646:1.13842e-06)n2:0.092278,triticum_aestivum_Traes_2AS_CFA978965:0.017855)n1:0.098129)n0;

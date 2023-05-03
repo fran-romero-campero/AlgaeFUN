@@ -1,1 +1,0 @@
-(selaginella_moellendorffii_Selmo_105872:0.052659,((sorghum_bicolor_Sobic.008G054400:0.249456,aegilops_tauschii_AET6Gv20759100:0.538263)n2:0.090061,(arabidopsis_thaliana_AT5G51915:0.437299,(oryza_sativa_LOC_Os02g58180.1:0.546685,oryza_sativa_LOC_Os04g38800.1:0.792824)n4:0.0880915)n3:0.240703)n1:0.052659)n0;

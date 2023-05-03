@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g7737:0.2668,(klebsormidium_nitens_kfl00014_0260:0.84831,((chlamydomonas_reinhardtii_Cre12.g542150:4.79106e-06,dunaliella_salina_Dusal.1367s00003:0.688395)n3:0.208545,(micromonas_pusilla_Micpu_27345863:0.880966,(ostreococcus_tauri_ostta12g03080:0.848698,micromonas_pusilla_Micpu_27349203:0.737869)n5:0.363361)n4:0.0403734)n2:0.071302)n1:0.10099)n0;

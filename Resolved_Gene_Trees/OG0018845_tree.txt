@@ -1,1 +1,0 @@
-((spirogloea_muscicola_SM013464S26845:0.136945,spirogloea_muscicola_SM013728S00145:0.297288)n1:0.217284,((triticum_aestivum_Traes_2BL_E74D4BAFC:0.392343,triticum_aestivum_Traes_2DL_743834C07:0.410524)n3:0.142434,(physcomitrium_patens_Pp3c1_2830:0.391127,physcomitrium_patens_Pp3s37_130:0.249738)n4:0.297859)n2:0.217284)n0;

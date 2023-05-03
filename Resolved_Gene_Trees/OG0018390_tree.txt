@@ -1,1 +1,0 @@
-((cyanophora_paradoxa_Cyapar1_g10677:1.1504,cyanophora_paradoxa_Cyapar1_g19540:1.41441)n1:0.340211,(mesotaenium_endlicherianum_ME000010S10837:1.50442,(spirogloea_muscicola_SM000043S15868:0.08139,(spirogloea_muscicola_SM000031S11619:0.104506,spirogloea_muscicola_SM000226S07413:0.028876)n4:0.024031)n3:1.14408)n2:0.340211)n0;

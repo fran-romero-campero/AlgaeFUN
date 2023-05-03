@@ -1,1 +1,0 @@
-(ostreococcus_tauri_ostta02g00190:0.739496,(mesostigma_viridae_Mv19160:1.36399,((mesostigma_viridae_Mv11121:0.427803,mesostigma_viridae_Mv10247:0.884341)n3:0.160788,mesostigma_viridae_Mv07213:0.307018)n2:0.492383)n1:0.739496)n0;

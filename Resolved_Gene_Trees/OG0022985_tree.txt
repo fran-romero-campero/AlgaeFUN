@@ -1,1 +1,0 @@
-(spirogloea_muscicola_SM000054S18031:0.386479,((cycas_panzhihuaensis_CYCAS_017909:1.05747,azolla_filiculoides_Azfi_s0095.g043584:0.304312)n2:0.091552,triticum_aestivum_Traes_5AL_CFC483466:0.148306)n1:0.386479)n0;

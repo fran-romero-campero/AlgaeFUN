@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_CYCAS_004845:0.695452,((triticum_aestivum_Traes_5BL_F8D25EED7:0.115889,aegilops_tauschii_AET5Gv20931300:0.031486)n2:0.129485,(zea_mays_Zm00001d013181:0.307584,oryza_sativa_LOC_Os03g55840.1:0.225393)n3:0.031579)n1:0.695452)n0;

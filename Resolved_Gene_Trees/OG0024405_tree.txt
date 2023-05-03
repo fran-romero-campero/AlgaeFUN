@@ -1,1 +1,0 @@
-(mesostigma_viridae_Mv24003:0.485191,((dunaliella_salina_Dusal.1001s00003:1.05527,raphidocelis_subcapitata_Rsub_02086:1.39884)n2:0.172036,ulva_mutabilis_UM005_0022:1.49551)n1:0.485191)n0;

@@ -1,1 +1,0 @@
-(cycas_panzhihuaensis_CYCAS_005281:0.524555,(anthoceros_agrestis_AagrOXF_utg000006l.94:0.170493,(anthoceros_agrestis_AagrOXF_utg000045l.58:0.808692,(anthoceros_agrestis_AagrOXF_utg000022l.41:4.84713e-06,(anthoceros_agrestis_AagrOXF_utg000061l.154:1.17919,anthoceros_agrestis_AagrOXF_utg000057l.347:0.185492)n4:0.423695)n3:0.653523)n2:0.405335)n1:0.524555)n0;

@@ -1,1 +1,0 @@
-(aegilops_tauschii_AET6Gv20448200:0.280494,(oryza_sativa_ChrSy.fgenesh.mRNA.59:0.869145,(((oryza_sativa_ChrSy.fgenesh.mRNA.39:0.410049,oryza_sativa_ChrSy.fgenesh.mRNA.35:0.122637)n4:0.638559,oryza_sativa_ChrUn.fgenesh.mRNA.47:0.77479)n3:0.210405,oryza_sativa_ChrSy.fgenesh.mRNA.68:0.907226)n2:0.067894)n1:0.280494)n0;

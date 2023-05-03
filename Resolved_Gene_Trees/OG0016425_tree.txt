@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g2576:0.717246,(micromonas_pusilla_Micpu_27347512:1.56485,(ulva_mutabilis_UM015_0176:1.1243,((chlamydomonas_reinhardtii_Cre06.g266500:0.004485,volvox_carteri_Vocar.0002s0215:0.232759)n4:0.605067,(chromochloris_zofingiensis_Cz09g11100:6.24331e-06,raphidocelis_subcapitata_Rsub_06293:0.633758)n5:0.13361)n3:0.460237)n2:0.288695)n1:0.717246)n0;

@@ -1,1 +1,0 @@
-(thuja_plicata_Thupl.13650501s0001:0.499962,((aegilops_tauschii_AET6Gv20181500:0.650491,aegilops_tauschii_AET2Gv20078300:0.695971)n2:0.104056,(aegilops_tauschii_AET4Gv20006000:0.543049,(aegilops_tauschii_AET4Gv20006900:0.388606,(aegilops_tauschii_AET5Gv20846800:0.426674,aegilops_tauschii_AET3Gv21047800:0.439474)n5:0.094623)n4:0.200762)n3:0.2976)n1:0.499962)n0;

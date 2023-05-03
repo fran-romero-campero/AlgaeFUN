@@ -1,1 +1,0 @@
-((mesostigma_viridae_Mv14128:1.10945,((chromochloris_zofingiensis_Cz05g17090:0.047533,raphidocelis_subcapitata_Rsub_07952:0.479873)n3:0.754539,chromochloris_zofingiensis_Cz05g17080:0.122982)n2:0.0136647)n1:0.183296,chlorokybus_atmophyticus_Chlat1_6778:1.22903)n0;

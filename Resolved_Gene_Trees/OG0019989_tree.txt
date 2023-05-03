@@ -1,1 +1,0 @@
-((bathycoccus_prasinos_Bathy07g02120:0.824948,ostreococcus_tauri_ostta03g04460:0.580405)n1:0.382097,(marchantia_polymorpha_Mp2g00550:0.880263,(mesostigma_viridae_Mv02029:0.680836,klebsormidium_nitens_kfl00727_0060:0.975392)n3:0.054145)n2:0.382097)n0;

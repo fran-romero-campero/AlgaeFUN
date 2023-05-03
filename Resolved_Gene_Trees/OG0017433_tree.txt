@@ -1,1 +1,0 @@
-(anthoceros_agrestis_AagrOXF_utg000008l.141:0.473683,((zea_mays_Zm00001d030991:0.575365,(aegilops_tauschii_AET7Gv21323300:0.253963,(triticum_aestivum_Traes_6AS_39A670AE6:0.555932,aegilops_tauschii_AET6Gv20132600:2.9179e-06)n4:0.354985)n3:0.0394428)n2:0.093641,oryza_sativa_LOC_Os09g12300.1:0.591547)n1:0.112459)n0;

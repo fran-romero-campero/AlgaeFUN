@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_49464:0.662041,(((chlamydomonas_reinhardtii_Cre02.g100200:0.020906,volvox_carteri_Vocar.0012s0109:0.045035)n3:0.084869,dunaliella_salina_Dusal.0767s00002:0.404061)n2:0.746212,ulva_mutabilis_UM010_0086:0.880456)n1:0.662041)n0;

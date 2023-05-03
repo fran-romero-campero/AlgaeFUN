@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl00314_0010:0.59936,((volvox_carteri_Vocar.0016s0183:0.705064,chlamydomonas_reinhardtii_Cre12.g511100:3.71803e-06)n2:0.859175,(raphidocelis_subcapitata_Rsub_07225:0.786088,chromochloris_zofingiensis_Cz02g31150:3.71803e-06)n3:0.622735)n1:0.59936)n0;

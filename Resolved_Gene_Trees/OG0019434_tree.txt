@@ -1,1 +1,0 @@
-(klebsormidium_nitens_kfl00821_g9:0.731916,(aegilops_tauschii_AET4Gv20106600:0.28548,(triticum_aestivum_Traes_3B_E2DCBB9F1:1.22777e-06,(triticum_aestivum_Traes_3B_E2DCBB9F11:0,triticum_aestivum_Traes_7BL_E37295AC2:0.167488)n3:0.0167488)n2:0.00186098)n1:0.039745)n0;

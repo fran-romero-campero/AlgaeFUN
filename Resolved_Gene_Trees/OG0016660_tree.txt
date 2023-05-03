@@ -1,1 +1,0 @@
-(cyanophora_paradoxa_Cyapar1_g19914:0.767458,(klebsormidium_nitens_kfl00249_0150:1.55281,(((spirogloea_muscicola_SM000071S21046:0.082865,spirogloea_muscicola_SM000119S25659:0.09696)n4:1.194,spirogloea_muscicola_SM000771S22555:6.9804e-06)n3:0.216747,(mesostigma_viridae_Mv13570:1.47293,mesotaenium_endlicherianum_ME000167S01841:1.61205)n5:0.056897)n2:0.052607)n1:0.767458)n0;

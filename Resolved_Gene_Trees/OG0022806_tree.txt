@@ -1,1 +1,0 @@
-(chlorokybus_atmophyticus_Chlat1_1978:0.656791,((cycas_panzhihuaensis_CYCAS_008874:1.80022,anthoceros_agrestis_AagrOXF_utg000063l.38:1.79981)n2:0.047865,klebsormidium_nitens_kfl00462_0045:1.66146)n1:0.656791)n0;

@@ -1,1 +1,0 @@
-(nannochloropsis_gaditana_Nangad1_8572:0.674046,(((chromochloris_zofingiensis_Cz04g20270:3.60459e-06,cyanophora_paradoxa_Cyapar1_g1315:0.937951)n3:0.124388,(volvox_carteri_Vocar.0061s0006:0.21925,chlamydomonas_reinhardtii_Cre09.g401997:0.041891)n4:0.271374)n2:0.217221,klebsormidium_nitens_kfl00216_0090:0.55399)n1:0.674046)n0;

@@ -1,1 +1,0 @@
-(((klebsormidium_nitens_kfl00001_0380:1.28416,(mesostigma_viridae_Mv07242:0.997999,mesostigma_viridae_Mv17474:0.924099)n3:0.567475)n2:0.234946,porphyra_umbilicalis_Pum0266s0005:0.935663)n1:0.0705835,(klebsormidium_nitens_kfl00757_0040:0.90816,(porphyra_umbilicalis_Pum0022s0038:0.751078,porphyra_umbilicalis_Pum0530s0012:0.647195)n5:0.0719105)n4:0.464814)n0;

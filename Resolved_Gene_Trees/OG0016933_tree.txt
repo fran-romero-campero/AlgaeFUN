@@ -1,1 +1,0 @@
-((physcomitrium_patens_Pp3c19_17170:2.28048,sphangum_magellanicum_Sphmag17G080200:0.730138)n1:0.230395,((thuja_plicata_Thupl.29381862s0001:0.022344,thuja_plicata_Thupl.29381862s0002:0.021465)n3:0.089621,(thuja_plicata_Thupl.29363114s0001:0.0462,(thuja_plicata_Thupl.29186769s0001:0.018396,thuja_plicata_Thupl.29346805s0002:0.041583)n5:0.043515)n4:0.078988)n2:0.230395)n0;

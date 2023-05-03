@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_47398:0.729731,(((klebsormidium_nitens_kfl00380_0060:0.282359,klebsormidium_nitens_kfl00380_0080:0.269815)n3:0.834128,(micromonas_pusilla_Micpu_27348205:0.401414,micromonas_pusilla_Micpu_27339099:0.444407)n4:0.930779)n2:0.139562,chlamydomonas_reinhardtii_Cre08.g377400:4.3216e-06)n1:0.729731)n0;

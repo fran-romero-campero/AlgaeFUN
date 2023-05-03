@@ -1,1 +1,0 @@
-(chromochloris_zofingiensis_Cz10g19030:1.24959e-06,(raphidocelis_subcapitata_Rsub_06048:0.214261,((raphidocelis_subcapitata_Rsub_09449:0.342545,raphidocelis_subcapitata_Rsub_09448:0.219483)n3:0.027039,raphidocelis_subcapitata_Rsub_08046:0.342149)n2:0.127813)n1:1.24959e-06)n0;

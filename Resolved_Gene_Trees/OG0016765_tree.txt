@@ -1,1 +1,0 @@
-((phaeodactylum_tricornutum_Phatr2_1946:0.375391,phaeodactylum_tricornutum_Phatr2_44558:0.434868)n1:0.308943,(mesostigma_viridae_Mv15376:0.867677,(klebsormidium_nitens_kfl00373_0070:0.423166,(spirogloea_muscicola_SM000042S15315:0.013723,(spirogloea_muscicola_SM000002S05581:0.204696,spirogloea_muscicola_SM000039S14445:0.049462)n5:0.091979)n4:0.492909)n3:0.71778)n2:0.308943)n0;

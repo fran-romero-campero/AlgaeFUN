@@ -1,1 +1,0 @@
-(dunaliella_salina_Dusal.0640s00009:0.10872,((triticum_aestivum_Traes_2DL_69EB061DB:0.1432,(triticum_aestivum_Traes_2AL_DE4FA1957:0.016628,triticum_aestivum_Traes_2AL_39E120EC8:0.023384)n3:0.024879)n2:0.046456,physcomitrium_patens_Pp3c19_14520:0.115165)n1:0.10872)n0;

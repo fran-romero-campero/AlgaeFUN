@@ -1,1 +1,0 @@
-((bathycoccus_prasinos_Bathy74g00010:0.148751,klebsormidium_nitens_kfl00007_0240:0.976621)n1:0.216751,(nannochloropsis_gaditana_Nangad1_4857:0.403433,phaeodactylum_tricornutum_Phatr2_40052:0.280221)n2:0.216751)n0;

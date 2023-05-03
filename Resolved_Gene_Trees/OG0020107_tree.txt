@@ -1,1 +1,0 @@
-(sphangum_magellanicum_Sphmag18G003200:0.470722,(ceratodon_purpureus_CepurR40.10G110100:0.574207,((physcomitrium_patens_Pp3c17_8890:0.130979,physcomitrium_patens_Pp3c9_17530:0.114104)n3:0.093711,physcomitrium_patens_Pp3c17_8900:0.177865)n2:0.725198)n1:0.470722)n0;

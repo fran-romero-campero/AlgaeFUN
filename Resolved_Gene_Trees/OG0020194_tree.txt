@@ -1,1 +1,0 @@
-(ceratodon_purpureus_CepurR40.VG183400:0.189768,((sorghum_bicolor_Sobic.010G262433:0.152651,cycas_panzhihuaensis_CYCAS_006989:0.365431)n2:0.16103,(triticum_aestivum_Traes_4DS_DD602A86C:0.016155,triticum_aestivum_Traes_4DS_EC8115DE9:0.0230202)n3:0.0025578)n1:0.093695)n0;

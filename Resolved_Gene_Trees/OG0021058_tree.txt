@@ -1,1 +1,0 @@
-(phaeodactylum_tricornutum_Phatr2_37886:0.908175,((mesostigma_viridae_Mv01890:0.627809,(klebsormidium_nitens_kfl00009_0130:0.531865,mesotaenium_endlicherianum_ME000155S01417:0.793336)n3:0.131017)n2:0.169416,ulva_mutabilis_UM031_0052:0.805314)n1:0.908175)n0;
