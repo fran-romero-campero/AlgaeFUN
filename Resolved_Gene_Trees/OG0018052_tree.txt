@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1291335:0.18922,((dunaliella_salina_Dusal.5369s00001:0.97821,(haematococcus_lacustris_GFH27197:0.78055,(chlamydomonas_reinhardtii_Cre04.g226500:0.29045,volvox_carteri_Vocar.0049s0034:0.18289)n4:0.33788)n3:0.13342)n2:0.18776,(raphidocelis_subcapitata_Rsub_00382:0.38576,scenedesmus_obliquus_SZX59792:0.71575)n5:0.3423)n1:0.18922)n0;

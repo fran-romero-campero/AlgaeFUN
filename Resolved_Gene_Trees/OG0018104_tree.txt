@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_9050:0.34337,((klebsormidium_nitens_kfl00110_0360:0.09142,(klebsormidium_nitens_kfl00735_g3:0.00078,klebsormidium_nitens_kfl00957_0050:0.19858)n3:0.08766)n2:0.6434,(salvinia_cucullata_Sacu_v1.1_s0134.g022281:1.11551,(cycas_panzhihuaensis_CYCAS_032783:0.48607,cycas_panzhihuaensis_CYCAS_011518:0.223839)n5:0.024871)n4:0.06745)n1:0.34337)n0;

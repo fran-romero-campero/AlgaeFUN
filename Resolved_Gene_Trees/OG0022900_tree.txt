@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g12172:0.66186,cyanidioschyzon_merolae_XM_005536396:1.33673)n1:0.174545,((cryptophyceae_CCMP2293_Crypto2293_1_1905751:0.69252,guillardia_tetha_Guith1_113795:0.42331)n3:0.26177,phaeodactylum_tricornutum_Phatr2_46730:1.71625)n2:0.174545)n0;

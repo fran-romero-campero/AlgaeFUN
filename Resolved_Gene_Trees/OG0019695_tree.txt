@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_5196:0.49392,((chara_braunii_Chabra1_g32215:0.02899,chara_braunii_Chabra1_g49366:0.00055)n2:0.84069,(ceratodon_purpureus_CepurR40.VG279000:0.18794,(physcomitrium_patens_Pp3c26_11350:0.45395,physcomitrium_patens_Pp3c5_4760:0.141975)n4:0.015775)n3:0.21018)n1:0.49392)n0;

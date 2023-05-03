@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_45737:0.342635,(gracilariopsis_chorda_PXF47318:0.74883,((porphyra_umbilicalis_Pum0052s0002:0.24041,(porphyra_umbilicalis_Pum0209s0030:0.28141,(porphyra_umbilicalis_Pum0792s0005:0.15907,porphyra_umbilicalis_Pum0587s0006:0.26752)n5:0.11716)n4:0.09748)n3:0.44224,porphyra_umbilicalis_Pum0577s0006:0.49923)n2:0.05547)n1:0.10367)n0;

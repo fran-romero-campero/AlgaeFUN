@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_82699:0.096915,((cycas_panzhihuaensis_CYCAS_020259:0.07081,cycas_panzhihuaensis_CYCAS_020576:0.06781)n2:0.50591,(zea_mays_Zm00001d034293:0.52074,triticum_aestivum_Traes_6AL_ED63E89EA:0.10933)n3:0.12365)n1:0.096915)n0;

@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.01G108200:0.58599,(marchantia_polymorpha_Mp2g04640:0.63741,(ceratodon_purpureus_CepurR40.7G011300:0.19589,((physcomitrium_patens_Pp3c17_8810:0.56866,physcomitrium_patens_Pp3c26_1820:0.08011)n4:0.10422,physcomitrium_patens_Pp3c9_1450:0.263259)n3:0.029251)n2:0.03159)n1:0.58599)n0;

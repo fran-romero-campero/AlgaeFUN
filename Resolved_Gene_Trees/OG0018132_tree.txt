@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz08g02050:1.40673,((cyanophora_paradoxa_Cyapar1_g11739:1.09185,(cyanophora_paradoxa_Cyapar1_g1603:0.13737,(cyanophora_paradoxa_Cyapar1_g7142:0,cyanophora_paradoxa_Cyapar1_g7144:0)n5:0.53702)n4:0.03691)n3:0.05729,cyanophora_paradoxa_Cyapar1_g2417:0.056385)n2:0.006265)n1:0.247265,raphidocelis_subcapitata_Rsub_04040:1.07397)n0;

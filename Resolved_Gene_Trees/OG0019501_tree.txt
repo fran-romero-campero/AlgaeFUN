@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ16194:0.63346,(azolla_filiculoides_Azfi_s0193.g057103:0.51669,thuja_plicata_Thupl.29377698s0021:0.85795)n2:0.13737)n1:0.27042,(chara_braunii_Chabra1_g52002:1.54406,(nannochloropsis_gaditana_Nangad1_1582:0.96937,nannochloropsis_gaditana_Nangad1_1162:0.58149)n4:0.06461)n3:0.18113)n0;

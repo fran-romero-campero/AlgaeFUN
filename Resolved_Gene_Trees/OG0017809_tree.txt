@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g3092:0.57214,cryptophyceae_CCMP2293_Crypto2293_1_2931104:0.52382)n1:0.02911,((cyanophora_paradoxa_Cyapar1_g10680:0.29619,((haematococcus_lacustris_GFH15644:0.77679,ulva_mutabilis_UM084_0056:0.41963)n5:0.15658,haematococcus_lacustris_GFH29935:0.725319)n4:0.080591)n3:0.14847,saccharina_japonica_SJ22253:1.09922)n2:0.02911)n0;

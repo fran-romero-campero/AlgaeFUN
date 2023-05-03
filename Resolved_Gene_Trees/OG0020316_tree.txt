@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27345679:0.78432,(((haematococcus_lacustris_GFH07155:0.95377,phaeodactylum_tricornutum_Phatr2_38671:1.35685)n4:0.08054,guillardia_tetha_Guith1_138058:0.83488)n3:0.11781,guillardia_tetha_Guith1_99019:1.10917)n2:0.123241)n1:0.19751,cryptophyceae_CCMP2293_Crypto2293_1_3271185:0.53485)n0;

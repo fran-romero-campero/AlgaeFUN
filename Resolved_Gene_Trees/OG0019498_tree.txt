@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29365421s0001:0.27442,(salvinia_cucullata_Sacu_v1.1_s0036.g011572:0.70066,((ceratopteris_richardii_Ceric.38G039400:0.38447,ceratopteris_richardii_Ceric.13G071200:0.71614)n3:0.4139,(azolla_filiculoides_Azfi_s0213.g058276:0.94159,azolla_filiculoides_Azfi_s0130.g049045:0.739719)n4:0.082191)n2:0.16014)n1:0.27442)n0;

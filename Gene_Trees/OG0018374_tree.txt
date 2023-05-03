@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000653S20134:0.34125,((cycas_panzhihuaensis_CYCAS_012929:0.20927,thuja_plicata_Thupl.29377863s0002:1.11488)0.659:0.12945,((cycas_panzhihuaensis_CYCAS_013457:0.41873,cycas_panzhihuaensis_CYCAS_006886:0.18829)0.613:0.02732,(cycas_panzhihuaensis_CYCAS_010349:0.14122,cycas_panzhihuaensis_CYCAS_010348:0.00054)0.927:0.1781)0.807:0.10298)1:0.34125);

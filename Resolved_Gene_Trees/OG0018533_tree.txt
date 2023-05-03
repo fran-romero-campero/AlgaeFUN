@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum2380s0001:0.03242,porphyra_umbilicalis_Pum2332s0002:0.32813)n1:0.74291,(mesostigma_viridae_Mv14905:0.21921,(mesostigma_viridae_Mv18544:0.48164,(mesostigma_viridae_Mv26438:0.30791,(mesostigma_viridae_Mv26235:0.15521,mesostigma_viridae_Mv25534:0.07062)n5:0.0995)n4:0.12362)n3:0.09369)n2:0.74291)n0;

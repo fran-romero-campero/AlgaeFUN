@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_7962:0.611335,(porphyra_umbilicalis_Pum0072s0043:0.76974,((ceratodon_purpureus_CepurR40.4G120800:0.16185,ceratodon_purpureus_CepurR40.9G042900:0.36017)n3:0.07707,(physcomitrium_patens_Pp3c11_15530:0.23795,physcomitrium_patens_Pp3c1_13830:0.170694)n4:0.018966)n2:0.2518)n1:0.611335)n0;

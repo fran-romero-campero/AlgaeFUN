@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_4260:0.57164,(guillardia_tetha_Guith1_107724:0.69961,(cryptophyceae_CCMP2293_Crypto2293_1_1816611:0.54774,(cryptophyceae_CCMP2293_Crypto2293_1_1816610:0.26395,cryptophyceae_CCMP2293_Crypto2293_1_1816614:0.582201)n3:0.0582201)n2:0.0064689)n1:0.306)n0;

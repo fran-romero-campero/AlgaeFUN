@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1795272:0.23234,(marchantia_polymorpha_MpVg01030:0.85411,(azolla_filiculoides_Azfi_s0629.g080120:0.33851,(triticum_aestivum_Traes_6BS_B6484542A:0.39208,triticum_aestivum_Traes_5BL_331336270:0.00055)n3:0.00055)n2:0.36717)n1:0.23234)n0;

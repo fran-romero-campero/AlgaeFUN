@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0021s00013:0.31079,haematococcus_lacustris_GFH25747:0.8286)n1:0.109015,((cryptophyceae_CCMP2293_Crypto2293_1_1774780:0.44362,guillardia_tetha_Guith1_100566:0.53995)n3:0.42639,(phaeodactylum_tricornutum_Phatr2_43177:0.97123,saccharina_japonica_SJ04588:1.23004)n4:0.16959)n2:0.109015)n0;

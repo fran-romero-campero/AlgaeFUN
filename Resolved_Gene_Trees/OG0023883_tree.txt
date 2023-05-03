@@ -1,0 +1,1 @@
+((salvinia_cucullata_Sacu_v1.1_s0058.g014853:0.30655,salvinia_cucullata_Sacu_v1.1_s0058.g014855:0.17338)n1:0.51105,(selaginella_moellendorffii_Selmo_407256:0.40421,(selaginella_moellendorffii_Selmo_71853:0.0128,selaginella_moellendorffii_Selmo_84427:0.01371)n3:0.24902)n2:0.51105)n0;

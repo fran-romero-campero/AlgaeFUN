@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF40776:0.55546,(guillardia_tetha_Guith1_106641:0.41994,(cryptophyceae_CCMP2293_Crypto2293_1_1833862:0.71174,((phaeodactylum_tricornutum_Phatr2_50213:0.01814,phaeodactylum_tricornutum_Phatr2_48317:0.00054)n4:1.35461,(nannochloropsis_gaditana_Nangad1_9380:0.39453,saccharina_japonica_SJ04906:1.14379)n5:0.29443)n3:0.43154)n2:0.20143)n1:0.55546)n0;

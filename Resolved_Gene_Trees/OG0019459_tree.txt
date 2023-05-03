@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0052.g014052:0.706965,((sorghum_bicolor_Sobic.004G134500:0.06233,(triticum_aestivum_Traes_5DL_4D17D8AD5:0.39592,zea_mays_Zm00001d053273:0.00053)n3:0.03927)n2:0.90526,(solanum_lycopersicum_Solyc03g081310:0.74011,arabidopsis_thaliana_AT5G24500:0.50045)n4:0.22229)n1:0.706965)n0;

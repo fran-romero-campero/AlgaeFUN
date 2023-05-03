@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre23.g754397:0.71819,(chromochloris_zofingiensis_Cz02g10090:0.06164,(chromochloris_zofingiensis_UNPLg00862:0.00055,(chromochloris_zofingiensis_UNPLg00690:0.53239,(scenedesmus_obliquus_SZX64454:0,scenedesmus_obliquus_SZX64481:0):1.20137):0.07064):0.00577):0.71819);

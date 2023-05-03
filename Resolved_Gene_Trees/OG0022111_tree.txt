@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.010G141400:0.73269,(triticum_aestivum_Traes_3AS_B9877D50B:0.22957,triticum_aestivum_Traes_1BL_F70571BDF:0.00054)n2:0.09382)n1:0.075415,(ceratodon_purpureus_CepurR40.1G090400:0.01097,ceratodon_purpureus_CepurR40.6G114600:0.00055)n3:0.075415)n0;

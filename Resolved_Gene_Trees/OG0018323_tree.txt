@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ10863:0.40901,(mesostigma_viridae_Mv04789:0.76372,(cyanophora_paradoxa_Cyapar1_g18206:0.00054,(cyanophora_paradoxa_Cyapar1_g18208:0.00946,(cyanophora_paradoxa_Cyapar1_g15190:0.07832,(cyanophora_paradoxa_Cyapar1_g7854:0.57048,cyanophora_paradoxa_Cyapar1_g1232:0.04768)n5:0.01033)n4:0.04098)n3:0.38225)n2:0.98136)n1:0.40901)n0;

@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_XM_005535841:0.28334,gracilariopsis_chorda_PXF40903:0.40311)n1:0.037015,(cyanophora_paradoxa_Cyapar1_g9004:0.37118,(bathycoccus_prasinos_Bathy128g00020:0.16876,physcomitrium_patens_Pp3s34_520:0.97554)n3:0.12805)n2:0.037015)n0;

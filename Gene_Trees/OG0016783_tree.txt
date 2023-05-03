@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ15433:0.17119,(saccharina_japonica_SJ15435:0.16733,saccharina_japonica_SJ15434:0.11469)0.949:0.11795)0.945:0.07144,(ulva_mutabilis_UM048_0043:0.42925,(gracilariopsis_chorda_PXF49753:0.4531,(porphyra_umbilicalis_Pum0243s0008:0.46968,(mesostigma_viridae_Mv12899:0.00852,mesostigma_viridae_Mv25705:0.11716)1:0.64082)0.933:0.17329)0.58:0.04117)0.945:0.07144);

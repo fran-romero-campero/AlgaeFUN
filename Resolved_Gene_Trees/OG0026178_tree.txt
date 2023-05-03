@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz03g27020:0.37403,raphidocelis_subcapitata_Rsub_12835:0.45699)n1:0.1856,(nannochloropsis_gaditana_Nangad1_9414:0.63143,phaeodactylum_tricornutum_Phatr2_48788:0.9236)n2:0.1856)n0;

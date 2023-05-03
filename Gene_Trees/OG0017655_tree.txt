@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_46531:0.59988,(saccharina_japonica_SJ18251:0.49093,(phaeodactylum_tricornutum_Phatr2_46625:0.38004,saccharina_japonica_SJ18248:0.41861)0.743:0.16035)0.716:0.13556)0.99:0.208275,(bathycoccus_prasinos_Bathy11g03040:1.18857,(bathycoccus_prasinos_Bathy02g01630:0.74557,micromonas_pusilla_Micpu_27347248:0.77245)0.606:0.10188)0.99:0.208275);

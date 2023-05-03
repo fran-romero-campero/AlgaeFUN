@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_021438:0.316745,(arabidopsis_thaliana_AT3G25655:0.74825,((oryza_sativa_LOC_Os04g58940.1:0.46178,sorghum_bicolor_Sobic.006G275401:0.95201)0.963:0.51565,(arabidopsis_thaliana_AT1G68765:0.31698,(solanum_lycopersicum_Solyc07g044890:0.52519,solanum_lycopersicum_Solyc05g010000:0.32521)0.991:0.76761)0.787:0.11707)0.687:0.1002)1:0.316745);

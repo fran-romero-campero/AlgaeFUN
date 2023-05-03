@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g6519:0.409605,(chlorokybus_atmophyticus_Chlat1_5734:0.90192,(chara_braunii_Chabra1_g39675:1.01196,(spirogloea_muscicola_SM000178S03453:0.04613,(spirogloea_muscicola_SM000019S05078:0.03337,spirogloea_muscicola_SM000119S25636:0.03542)n4:0.00946)n3:0.63274)n2:0.21341)n1:0.409605)n0;

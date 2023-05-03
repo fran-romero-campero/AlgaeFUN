@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g5817:0.95557,triticum_aestivum_Traes_5AL_4090950AE:0.59649)n1:0.04454,(cyanophora_paradoxa_Cyapar1_g15162:0.78158,(triticum_aestivum_Traes_2DL_4AFA32D90:0.33061,(triticum_aestivum_Traes_1BL_53B900DFA:0.00054,(triticum_aestivum_Traes_1AL_4DD6B23F4:0.0873,triticum_aestivum_Traes_1DL_9DA36572C:0.00054)n5:0.03884)n4:0.49999)n3:0.22448)n2:0.04454)n0;

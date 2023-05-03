@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy07g04500:1.59935,micromonas_pusilla_Micpu_27339730:0.15278)n1:0.266425,(cryptophyceae_CCMP2293_Crypto2293_1_1773958:0.25954,guillardia_tetha_Guith1_106806:0.40752)n2:0.266425)n0;

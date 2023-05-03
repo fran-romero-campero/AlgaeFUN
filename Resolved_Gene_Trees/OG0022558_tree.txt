@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g19369:0.50193,porphyra_umbilicalis_Pum0483s0008:0.39245)n1:0.05052,(gracilariopsis_chorda_PXF48034:0.5658,(chlorokybus_atmophyticus_Chlat1_2226:0.54317,mesostigma_viridae_Mv05472:0.40979)n3:0.1505)n2:0.05052)n0;

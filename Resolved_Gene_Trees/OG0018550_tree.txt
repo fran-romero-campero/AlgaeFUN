@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3s30_980:0.56301,(mesostigma_viridae_Mv09141:0.29248,(mesotaenium_endlicherianum_ME000095S10271:0.23632,spirogloea_muscicola_SM000025S08424:0.28005)n3:0.20473)n2:0.48499)n1:0.186035,(nannochloropsis_gaditana_Nangad1_480:0.30701,(phaeodactylum_tricornutum_Phatr2_46843:0.60426,saccharina_japonica_SJ06447:0.29003)n5:0.22796)n4:0.186035)n0;

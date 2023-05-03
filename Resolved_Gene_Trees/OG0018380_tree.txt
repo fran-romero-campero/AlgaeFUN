@@ -1,0 +1,1 @@
+(((cycas_panzhihuaensis_CYCAS_017336:0.70535,(selaginella_moellendorffii_Selmo_118751:0.43613,selaginella_moellendorffii_Selmo_101547:0.565596)n3:0.062844)n2:0.05921,triticum_aestivum_Traes_3B_C9D157839:0.44829)n1:0.6577,(spirogloea_muscicola_SM000283S10686:0.03098,(spirogloea_muscicola_SM000104S09350:0.00054,spirogloea_muscicola_SM000110S18907:0.05435)n5:0.00354)n4:0.6577)n0;

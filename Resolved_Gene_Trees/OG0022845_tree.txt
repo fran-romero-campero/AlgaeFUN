@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv08581:0.95423,(cryptophyceae_CCMP2293_Crypto2293_1_1814461:0.1997,cryptophyceae_CCMP2293_Crypto2293_1_1814463:0.57842)n2:0.1758)n1:0.150465,(haematococcus_lacustris_GFH10871:1.18422,saccharina_japonica_SJ18192:1.03913)n3:0.150465)n0;

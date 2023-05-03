@@ -1,0 +1,1 @@
+(((nannochloropsis_gaditana_Nangad1_4215:0.52194,saccharina_japonica_SJ19836:0.67542)n2:0.51689,(nannochloropsis_gaditana_Nangad1_6981:0.76734,saccharina_japonica_SJ16069:0.79499)n3:0.28687)n1:0.241145,(gracilariopsis_chorda_PXF48485:0.74363,(porphyra_umbilicalis_Pum0056s0046:0.70957,porphyra_umbilicalis_Pum0125s0044:0.395532)n5:0.043948)n4:0.15428)n0;

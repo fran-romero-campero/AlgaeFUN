@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.2458s00001:0.751755,(solanum_lycopersicum_Solyc11g045320:0.02759,(solanum_lycopersicum_Solyc11g045334:0.00055,(solanum_lycopersicum_Solyc11g045332:0.00055,solanum_lycopersicum_Solyc11g045336:0.02043)n3:0.00055)n2:0.11812)n1:0.751755)n0;

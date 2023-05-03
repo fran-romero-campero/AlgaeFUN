@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH28633:0.35262,raphidocelis_subcapitata_Rsub_01146:0.43622)n1:0.500225,(klebsormidium_nitens_kfl00281_0020:0.60209,(spirogloea_muscicola_SM000081S22671:0.03149,(spirogloea_muscicola_SM000125S26062:0.04379,spirogloea_muscicola_SM000396S15198:0.07243)n4:0.02585)n3:0.48691)n2:0.500225)n0;

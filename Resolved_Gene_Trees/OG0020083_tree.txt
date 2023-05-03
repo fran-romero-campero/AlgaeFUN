@@ -1,0 +1,1 @@
+(((chlorokybus_atmophyticus_Chlat1_7918:0.6973,chromochloris_zofingiensis_Cz09g19060:0.61186)n2:0.40965,(saccharina_japonica_SJ08208:0.56255,saccharina_japonica_SJ02280:0.337644)n3:0.037516)n1:0.081895,(coccomyxa_subellipsoidea_Cosub3_1185458:0.52563,coccomyxa_subellipsoidea_Cosub3_1373416:0.90616)n4:0.5169)n0;

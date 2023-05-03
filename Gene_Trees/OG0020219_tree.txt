@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv09909:0.72933,(cryptophyceae_CCMP2293_Crypto2293_1_1762205:0.2941,saccharina_japonica_SJ05640:0.87083)0.842:0.20453)0.107:0.009465,(ulva_mutabilis_UM018_0033:0.96368,(cryptophyceae_CCMP2293_Crypto2293_1_2509562:1.04356,guillardia_tetha_Guith1_135296:0.97867)0.818:0.20224)0.107:0.009465);

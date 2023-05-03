@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1799573:0.393045,((saccharina_japonica_SJ19933:0.24371,saccharina_japonica_SJ19934:0.21826)n2:0.41935,(phaeodactylum_tricornutum_Phatr2_42740:0.58651,(phaeodactylum_tricornutum_Phatr2_33730:0.63156,(phaeodactylum_tricornutum_Phatr2_33873:0.43741,phaeodactylum_tricornutum_Phatr2_33874:0.29063)n5:0.10223)n4:0.61503)n3:0.5423)n1:0.393045)n0;

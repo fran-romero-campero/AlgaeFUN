@@ -1,0 +1,1 @@
+(((galdieria_sulphuraria_GsulpSAG21_G1839:0.02277,(galdieria_sulphuraria_GsulpSAG21_G3597:0.00056,galdieria_sulphuraria_GsulpSAG21_G1518:0.17734)n3:0.00433)n2:0.80372,gracilariopsis_chorda_PXF47928:0.5974)n1:0.12368,(ceratodon_purpureus_CepurR40.VG262400:0.73266,(cyanophora_paradoxa_Cyapar1_g14298:0.93243,cyanophora_paradoxa_Cyapar1_g1635:0.96378)n5:0.15406)n4:0.12368)n0;

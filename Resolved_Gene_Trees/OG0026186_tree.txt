@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_1875:0.54904,(raphidocelis_subcapitata_Rsub_01943:0.57367,(chromochloris_zofingiensis_Cz19g06150:0.61592,coccomyxa_subellipsoidea_Cosub3_1231099:0.70972)n2:0.28481)n1:0.54904)n0;

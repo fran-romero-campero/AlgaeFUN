@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27346298:1.07068,(klebsormidium_nitens_kfl00167_0130:0.82272,(cyanophora_paradoxa_Cyapar1_g9405:0.88901,mesostigma_viridae_Mv12130:0.83987)n3:0.11602)n2:0.09333)n1:0.17094,(guillardia_tetha_Guith1_161228:0.84233,(cryptophyceae_CCMP2293_Crypto2293_1_1896568:0.83869,cryptophyceae_CCMP2293_Crypto2293_1_1896567:0.825165)n5:0.091685)n4:0.11976)n0;

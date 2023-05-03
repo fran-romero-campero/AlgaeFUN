@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_1647:0.225995,(cryptophyceae_CCMP2293_Crypto2293_1_1920146:0.97315,((cryptophyceae_CCMP2293_Crypto2293_1_1809431:0.53504,guillardia_tetha_Guith1_160930:0.35427)1:0.42114,(guillardia_tetha_Guith1_103878:0.567,guillardia_tetha_Guith1_143567:0.63418)0.912:0.15564)0.977:0.26017)1:0.225995);

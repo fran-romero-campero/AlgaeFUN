@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz02g14260:1.43918,(nannochloropsis_gaditana_Nangad1_10094:0,nannochloropsis_gaditana_Nangad1_10095:0):0.54978):0.150705,((raphidocelis_subcapitata_Rsub_08331:0.84625,(chromochloris_zofingiensis_Cz03g33030:0.97663,scenedesmus_obliquus_SZX59751:0.80147):0.1044):0.78759,saccharina_japonica_SJ22281:0.91777):0.150705);

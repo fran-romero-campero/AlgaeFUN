@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT3G52520:0.65743,((ceratodon_purpureus_CepurR40.6G121600:0.18359,(physcomitrium_patens_Pp3c14_18920:0.21059,physcomitrium_patens_Pp3c17_12610:0.1535)n3:0.02859)n2:0.02305,(physcomitrium_patens_Pp3c1_33050:0.22682,ceratodon_purpureus_CepurR40.2G115500:0.14373)n4:0.01597)n1:0.65743)n0;

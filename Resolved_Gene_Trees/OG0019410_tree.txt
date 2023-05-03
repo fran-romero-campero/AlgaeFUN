@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_247:0.425635,(gracilariopsis_chorda_PXF46511:1.07972,(anthoceros_agrestis_AagrOXF_utg000129l.46:0.53871,(sphagnum_magellanicum_Sphmag04G065700:0.2943,(ceratodon_purpureus_CepurR40.6G048500:0.24106,physcomitrium_patens_Pp3c10_9900:0.21218)n4:0.23095)n3:0.60434)n2:0.58479)n1:0.425635)n0;

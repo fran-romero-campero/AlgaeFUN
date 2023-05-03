@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ10550:0.59208,ulva_mutabilis_UM038_0051:0.73288)0.24:0.02587,(ulva_mutabilis_UM111_0037:0.90441,(phaeodactylum_tricornutum_Phatr2_29666:0.99649,(ostreococcus_tauri_ostta05g02730:0.98077,(chlamydomonas_reinhardtii_Cre09.g395200:0.57851,dunaliella_salina_Dusal.0258s00008:0.64023)0.977:0.228)0.943:0.18554)0.953:0.20241)0.24:0.02587);

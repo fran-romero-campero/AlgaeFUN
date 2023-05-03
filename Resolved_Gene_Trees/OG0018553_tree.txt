@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum2048s0001:0.52647,(scenedesmus_obliquus_SZX75809:0.62804,((spirogloea_muscicola_SM000293S10913:0.00808,(spirogloea_muscicola_SM000063S20024:0.00385,spirogloea_muscicola_SM000087S23331:0.00752)n4:0.00055)n3:0.33378,(mesotaenium_endlicherianum_ME000099S10484:0.83087,mesotaenium_endlicherianum_ME000105S10734:0.242442)n5:0.026938)n2:0.15382)n1:0.52647)n0;

@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy29g00150:0.493915,((bathycoccus_prasinos_Bathy111g00010:0.7099,bathycoccus_prasinos_Bathy41g00040:0.95606)n2:0.25345,(bathycoccus_prasinos_Bathy122g00010:0.88967,bathycoccus_prasinos_Bathy66g00010:1.13582)n3:0.18276)n1:0.493915)n0;

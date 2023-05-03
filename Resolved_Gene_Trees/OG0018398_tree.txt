@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX78003:0.486985,(cycas_panzhihuaensis_CYCAS_027641:0.45572,((thuja_plicata_Thupl.29378237s0003:0.15159,(thuja_plicata_Thupl.29382108s0008:0.00055,thuja_plicata_Thupl.29379682s0001:0.00089)n4:0.13582)n3:0.02376,(thuja_plicata_Thupl.29378237s0002:0.2415,thuja_plicata_Thupl.29382305s0003:0.19785)n5:0.03723)n2:0.30095)n1:0.486985)n0;

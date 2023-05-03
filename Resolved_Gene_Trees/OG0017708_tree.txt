@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00616_0010:0.628485,(sphagnum_magellanicum_Sphmag15G055100:0.64437,(ceratodon_purpureus_CepurR40.2G060000:0.00056,(ceratodon_purpureus_CepurR40.4G048200:0.13408,(ceratodon_purpureus_CepurR40.1G007800:0.6054,(ceratodon_purpureus_CepurR40.12G069000:0,ceratodon_purpureus_CepurR40.7G166600:0)n5:0.08737)n4:0.14003)n3:0.56387)n2:0.40284)n1:0.628485)n0;

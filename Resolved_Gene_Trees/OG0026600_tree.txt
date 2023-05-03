@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_43144:0.74381,saccharina_japonica_SJ10605:0.4581)n1:0.13498,(cryptophyceae_CCMP2293_Crypto2293_1_2281021:0.24007,guillardia_tetha_Guith1_52218:0.42647)n2:0.13498)n0;

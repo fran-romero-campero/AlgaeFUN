@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM146_0011:0.557855,(cryptophyceae_CCMP2293_Crypto2293_1_2165468:0.46061,(guillardia_tetha_Guith1_149894:0.21926,guillardia_tetha_Guith1_151795:0.76912)n2:0.2493)n1:0.557855)n0;

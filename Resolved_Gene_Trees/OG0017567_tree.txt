@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_723:0.731815,(arabidopsis_thaliana_AT2G16005:0.48186,(arabidopsis_thaliana_AT1G45015:0.65985,(arabidopsis_thaliana_AT2G26370:0.60102,(arabidopsis_thaliana_AT5G23820:0.1032,(arabidopsis_thaliana_AT5G23830:0.1689,arabidopsis_thaliana_AT5G23840:0.1073)n5:0.05223)n4:0.58231)n3:0.11132)n2:0.42483)n1:0.731815)n0;

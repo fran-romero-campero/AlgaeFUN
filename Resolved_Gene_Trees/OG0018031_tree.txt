@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1946212:0.74245,guillardia_tetha_Guith1_145901:0.66115)n1:0.438215,((haematococcus_lacustris_GFH08329:0.49235,(dunaliella_salina_Dusal.0626s00002:0.1993,dunaliella_salina_Dusal.0078s00013:0.35596)n4:0.2346)n3:0.36504,(chlamydomonas_reinhardtii_Cre01.g022800:0.61386,volvox_carteri_Vocar.0036s0048:0.51129)n5:0.2936)n2:0.438215)n0;

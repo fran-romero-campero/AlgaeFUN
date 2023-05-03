@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c12_3500:1.18998,(anthoceros_agrestis_AagrOXF_utg000063l.108:0.40146,anthoceros_agrestis_AagrOXF_utg000065l.80:0.19595)0.816:0.48522)0.702:0.110055,(klebsormidium_nitens_kfl01147_g1:0.76749,(klebsormidium_nitens_kfl00569_0060:0.2594,klebsormidium_nitens_kfl01478_g1:0.03019)0.749:0.18009)0.702:0.110055);

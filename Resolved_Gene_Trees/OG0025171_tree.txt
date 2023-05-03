@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0003.g008127:0.412015,(salvinia_cucullata_Sacu_v1.1_s0123.g021508:0.5644,(salvinia_cucullata_Sacu_v1.1_s0123.g021531:0.1654,salvinia_cucullata_Sacu_v1.1_s0123.g021532:0.17552)n2:0.09694)n1:0.412015)n0;

@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27341300:0.61975,ostreococcus_tauri_ostta03g05885:0.45248)n1:0.098875,(cryptophyceae_CCMP2293_Crypto2293_1_1824930:0.31647,(guillardia_tetha_Guith1_142141:1.12725,guillardia_tetha_Guith1_114060:0.65124)n3:0.07236)n2:0.30846)n0;

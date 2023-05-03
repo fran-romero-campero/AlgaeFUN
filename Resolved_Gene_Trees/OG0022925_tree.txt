@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_2157048:0.74694,triticum_aestivum_Traes_7AS_9B4A38687:0.63794)n1:0.088855,(saccharina_japonica_SJ03090:0.91808,(dunaliella_salina_Dusal.0048s00045:0.26552,haematococcus_lacustris_GFH31369:0.68689)n3:0.27014)n2:0.088855)n0;

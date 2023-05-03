@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0827s0007:0.50449,(gracilariopsis_chorda_PXF40968:0.75227,porphyra_umbilicalis_Pum0076s0013:0.49346)0.998:0.37688)0.998:0.189055,(raphidocelis_subcapitata_Rsub_01736:0.3135,(chromochloris_zofingiensis_Cz05g17130:0.47489,scenedesmus_obliquus_SZX70288:0.19544)0.988:0.22396)0.998:0.189055);

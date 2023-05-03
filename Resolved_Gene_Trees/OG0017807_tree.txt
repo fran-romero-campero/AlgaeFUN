@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.08G050900:0.77741,((thuja_plicata_Thupl.29377379s0003:0.06812,thuja_plicata_Thupl.29377845s0007:0.11756)n2:0.57825,(thuja_plicata_Thupl.29378379s0002:0.35463,(thuja_plicata_Thupl.29378896s0067:0.18564,(thuja_plicata_Thupl.29380083s0001:0.10411,thuja_plicata_Thupl.29378379s0001:0.25986)n5:0.08872)n4:0.23439)n3:0.19074)n1:0.77741)n0;

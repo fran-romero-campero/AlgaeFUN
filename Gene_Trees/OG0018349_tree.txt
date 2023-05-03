@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF46704:1.01326,guillardia_tetha_Guith1_142947:1.10661)0.891:0.13766,((cyanophora_paradoxa_Cyapar1_g3450:0.42503,mesostigma_viridae_Mv19287:0.91097)0.848:0.2071,(phaeodactylum_tricornutum_Phatr2_37835:1.28075,(nannochloropsis_gaditana_Nangad1_2707:0.79189,saccharina_japonica_SJ19798:0.87343)0.853:0.18373)0.815:0.16645)0.891:0.13766);

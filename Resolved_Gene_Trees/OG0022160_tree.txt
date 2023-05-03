@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_7553:0.25135,(marchantia_polymorpha_Mp3g14880:0.95667,(coccomyxa_subellipsoidea_Cosub3_1232680:0.48465,(ceratodon_purpureus_CepurR40.4G156800:0.27664,physcomitrium_patens_Pp3c4_16880:0.27109)n3:0.35303)n2:0.25807)n1:0.25135)n0;

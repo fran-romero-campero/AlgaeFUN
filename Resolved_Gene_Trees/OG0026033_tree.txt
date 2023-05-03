@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre12.g488351:0.509625,(guillardia_tetha_Guith1_106016:0.7836,(cryptophyceae_CCMP2293_Crypto2293_1_1758417:0.01238,cryptophyceae_CCMP2293_Crypto2293_1_1861256:0.02812)n2:0.60056)n1:0.509625)n0;

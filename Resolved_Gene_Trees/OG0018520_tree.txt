@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_6AS_1DE6C21B8:0.60857,(marchantia_polymorpha_Mp5g05610:0.63843,(marchantia_polymorpha_Mp5g05660:0.08876,((marchantia_polymorpha_Mp5g05630:0.21667,marchantia_polymorpha_Mp5g05650:0.07315)n4:0.02658,(marchantia_polymorpha_Mp5g05690:0.18024,marchantia_polymorpha_Mp5g05700:0.20002)n5:0.06523)n3:0.0274)n2:0.15439)n1:0.60857)n0;

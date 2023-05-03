@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv17536:1.27841,(dunaliella_salina_Dusal.0859s00004:1.55407,scenedesmus_obliquus_SZX59876:0.31891)n2:0.59027)n1:0.222985,(cyanophora_paradoxa_Cyapar1_g11557:0.32792,(cyanophora_paradoxa_Cyapar1_g538:0.10034,cyanophora_paradoxa_Cyapar1_g544:0.04192)n4:0.51567)n3:0.222985)n0;

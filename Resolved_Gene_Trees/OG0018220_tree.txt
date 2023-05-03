@@ -1,0 +1,1 @@
+((ostreococcus_tauri_ostta02g00190:0.89823,(cryptophyceae_CCMP2293_Crypto2293_1_1763987:0.48518,(guillardia_tetha_Guith1_99722:0.52509,guillardia_tetha_Guith1_151150:0.42077)n3:0.07238)n2:0.32668)n1:0.27391,(nannochloropsis_gaditana_Nangad1_9315:0.70951,(mesostigma_viridae_Mv19160:0.93701,cyanidioschyzon_merolae_XM_005535625:0.73269)n5:0.13267)n4:0.27391)n0;

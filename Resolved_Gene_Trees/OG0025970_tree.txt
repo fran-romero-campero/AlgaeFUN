@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre02.g142700:0.68891,chromochloris_zofingiensis_Cz11g22060:1.08462)n1:0.62677,(cyanophora_paradoxa_Cyapar1_g24875:0.0122,cyanophora_paradoxa_Cyapar1_g24878:0.00498)n2:0.62677)n0;

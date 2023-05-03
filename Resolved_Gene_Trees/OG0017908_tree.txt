@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27342901:0.28742,micromonas_pusilla_Micpu_27343223:0.97902)n1:0.4876,((coccomyxa_subellipsoidea_Cosub3_1335947:0.60377,(chlamydomonas_reinhardtii_Cre16.g650900:0.49098,volvox_carteri_Vocar.0032s0083:0.63442)n4:0.1621)n3:0.20599,(chromochloris_zofingiensis_Cz16g06240:1.11096,chromochloris_zofingiensis_Cz16g06250:0.530505)n5:0.058945)n2:0.3091)n0;

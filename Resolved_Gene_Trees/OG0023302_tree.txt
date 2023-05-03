@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF46807:0.87485,(haematococcus_lacustris_GFH29826:0.32775,(haematococcus_lacustris_GFH17054:0.00236,(haematococcus_lacustris_GFH31549:0.00055,haematococcus_lacustris_GFH14083:0.4675)n3:0.00997)n2:0.02192)n1:0.87485)n0;

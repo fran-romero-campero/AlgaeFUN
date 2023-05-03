@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0161s0045:0.305055,(coccomyxa_subellipsoidea_Cosub3_1289246:0.3496,(micromonas_pusilla_Micpu_27341743:0.54928,(bathycoccus_prasinos_Bathy01g04930:0.30126,ostreococcus_tauri_ostta08g01980:0.33236)n3:0.08283)n2:0.62602)n1:0.305055)n0;

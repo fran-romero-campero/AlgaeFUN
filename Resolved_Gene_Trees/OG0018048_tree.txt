@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_138899:1.1801,(nannochloropsis_gaditana_Nangad1_8567:0.97275,phaeodactylum_tricornutum_Phatr2_40329:0.85722)n2:0.25573)n1:0.04266,(ulva_mutabilis_UM119_0023:0.8284,(dunaliella_salina_Dusal.1180s00003:0.60989,(chlamydomonas_reinhardtii_Cre10.g443100:0.37527,volvox_carteri_Vocar.0026s0080:0.33851)n5:0.24784)n4:0.2727)n3:0.04266)n0;

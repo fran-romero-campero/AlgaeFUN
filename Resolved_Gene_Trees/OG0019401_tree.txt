@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000100l.217:0.52386,(ulva_mutabilis_UM014_0069:0.944,((chromochloris_zofingiensis_Cz10g17160:0.63066,scenedesmus_obliquus_SZX79342:0.61585)n3:0.35441,(raphidocelis_subcapitata_Rsub_05086:0.59261,raphidocelis_subcapitata_Rsub_00349:0.30681)n4:0.03409)n2:0.10987)n1:0.52386)n0;

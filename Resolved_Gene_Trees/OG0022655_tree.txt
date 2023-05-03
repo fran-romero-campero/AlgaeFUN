@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF50185:0.780665,(scenedesmus_obliquus_SZX69509:0.43223,(coccomyxa_subellipsoidea_Cosub3_1198110:0.46536,(chromochloris_zofingiensis_Cz02g23090:0.42013,chromochloris_zofingiensis_Cz02g23100:0.471177)n3:0.052353)n2:0.07076)n1:0.05385)n0;

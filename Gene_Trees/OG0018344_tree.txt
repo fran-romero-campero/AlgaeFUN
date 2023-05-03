@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g21349:0.46587,(dunaliella_salina_Dusal.1212s00001:0.71917,(dunaliella_salina_Dusal.0793s00001:0.89957,((haematococcus_lacustris_GFH25639:0.19639,(haematococcus_lacustris_GFH09319:0.04766,haematococcus_lacustris_GFH11185:0.00055)0.966:0.53638)0.986:0.59073,haematococcus_lacustris_GFH06641:0.42212)0.017:0.08638)0.788:0.25564)1:0.46587);

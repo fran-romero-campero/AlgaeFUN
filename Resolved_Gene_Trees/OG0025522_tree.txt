@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp5g00250:0.714415,(physcomitrium_patens_Pp3c10_12040:0.61541,(ceratodon_purpureus_CepurR40.1G169700:0.25154,ceratodon_purpureus_CepurR40.4G224200:0.238671)n2:0.026519)n1:0.29231)n0;

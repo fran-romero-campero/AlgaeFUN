@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_013769:0.70551,(haematococcus_lacustris_GFH22501:0.00055,(haematococcus_lacustris_GFH25604:0.00055,haematococcus_lacustris_GFH22500:0.01401)n2:0.00055)n1:0.70551)n0;

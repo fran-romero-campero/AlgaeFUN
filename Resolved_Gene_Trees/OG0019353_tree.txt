@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz16g09070:0.226035,(anthoceros_agrestis_AagrOXF_utg000058l.287:0.70762,(anthoceros_agrestis_AagrOXF_utg000009l.21:0.40025,(anthoceros_agrestis_AagrOXF_utg000096l.42:0.44904,(anthoceros_agrestis_AagrOXF_utg000038l.151:0.01469,anthoceros_agrestis_AagrOXF_utg000045l.195:0.29973)n4:0.15478)n3:0.40425)n2:0.58376)n1:0.226035)n0;

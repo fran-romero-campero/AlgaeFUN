@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME000124S00212:1.35852,raphidocelis_subcapitata_Rsub_12167:0.3839)n1:0.13737,((spirogloea_muscicola_SM000075S21985:0.07031,(spirogloea_muscicola_SM000025S08371:0.06868,spirogloea_muscicola_SM000165S02192:0.08674)n4:0.01816)n3:1.10189,(chromochloris_zofingiensis_Cz09g26110:0.55913,dunaliella_salina_Dusal.0570s00004:1.3348)n5:0.39127)n2:0.13737)n0;

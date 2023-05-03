@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000100l.53:0.20679,(triticum_aestivum_Traes_7AS_5AB2EA358:0.30763,(cycas_panzhihuaensis_CYCAS_031117:0.01569,(cycas_panzhihuaensis_CYCAS_018760:0.06508,cycas_panzhihuaensis_CYCAS_020697:0.31919)n3:0.09159)n2:0.63081)n1:0.20679)n0;

@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_1562:0.25016,saccharina_japonica_SJ09894:0.33546)n1:0.25215,(gracilariopsis_chorda_PXF49964:0.51156,porphyra_umbilicalis_Pum0334s0006:0.6159)n2:0.25215)n0;

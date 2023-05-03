@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv15758:0.62659,saccharina_japonica_SJ02645:0.63978)n1:0.08997,(guillardia_tetha_Guith1_135684:0.71324,(cyanophora_paradoxa_Cyapar1_g11952:0.62403,phaeodactylum_tricornutum_Phatr2_15160:0.57203)n3:0.06261)n2:0.08997)n0;

@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF46780:0.39494,porphyra_umbilicalis_Pum0783s0001:0.51282)n1:0.707715,(coccomyxa_subellipsoidea_Cosub3_1168412:0.42649,(klebsormidium_nitens_kfl00216_0080:0.57602,(chromochloris_zofingiensis_Cz11g05110:0.19367,scenedesmus_obliquus_SZX60095:0.44132)n4:0.28126)n3:0.20004)n2:0.707715)n0;

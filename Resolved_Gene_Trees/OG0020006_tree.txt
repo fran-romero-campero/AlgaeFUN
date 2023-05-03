@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre01.g031700:1.54943,coccomyxa_subellipsoidea_Cosub3_1294472:0.75431)n1:0.360455,(klebsormidium_nitens_kfl00558_0070:0.35911,(mesotaenium_endlicherianum_ME000175S02074:0.19437,(mesotaenium_endlicherianum_ME000200S02727:0.06163,mesotaenium_endlicherianum_ME000200S02731:0.05242)n4:0.2909)n3:0.19804)n2:0.360455)n0;

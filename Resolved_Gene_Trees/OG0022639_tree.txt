@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv26243:0.24671,(mesostigma_viridae_Mv26350:0.00054,mesostigma_viridae_Mv25347:0.04875)n2:0.29565)n1:0.173215,(chromochloris_zofingiensis_Cz08g31260:1.05251,chromochloris_zofingiensis_Cz06g31050:1.01243)n3:0.173215)n0;

@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX59879:1.36764,(cryptophyceae_CCMP2293_Crypto2293_1_1861670:0.76818,(cryptophyceae_CCMP2293_Crypto2293_1_1877558:0.20349,(cryptophyceae_CCMP2293_Crypto2293_1_1757893:0.14358,cryptophyceae_CCMP2293_Crypto2293_1_1970696:0.33583)n4:0.27712)n3:0.21703)n2:0.3039)n1:0.07836,(guillardia_tetha_Guith1_134519:0.53831,ulva_mutabilis_UM079_0036:0.85214)n5:0.07836)n0;

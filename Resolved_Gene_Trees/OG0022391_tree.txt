@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1827923:0.37495,(chlamydomonas_reinhardtii_Cre09.g412880:0.39201,((haematococcus_lacustris_GFH19255:0.0299,haematococcus_lacustris_GFH21675:0.00055)n3:0.60166,dunaliella_salina_Dusal.0307s00016:0.36321)n2:0.2236)n1:0.37495)n0;

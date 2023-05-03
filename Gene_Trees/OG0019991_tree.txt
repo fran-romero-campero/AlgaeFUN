@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_110983:0.769075,((dunaliella_salina_Dusal.0381s00007:0.91147,(haematococcus_lacustris_GFH12764:0.27287,haematococcus_lacustris_GFH31766:0.11267)0.999:0.72498)0.77:0.25161,(chlamydomonas_reinhardtii_Cre01.g051050:0.24556,volvox_carteri_Vocar.0001s0591:0.52839)0.882:0.24747)1:0.769075);

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_36501:0.61724,(ulva_mutabilis_UM166_0013:0.8781,(chromochloris_zofingiensis_Cz11g19170:0.61525,(scenedesmus_obliquus_SZX67608:0.67637,(raphidocelis_subcapitata_Rsub_10707:0.578,raphidocelis_subcapitata_Rsub_03570:0.20116)n4:0.4597)n3:0.07582)n2:0.62704)n1:0.61724)n0;

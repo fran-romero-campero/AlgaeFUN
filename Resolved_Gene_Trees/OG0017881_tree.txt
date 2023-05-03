@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ15182:0.364475,(chlamydomonas_reinhardtii_Cre07.g323900:1.37557,(cyanophora_paradoxa_Cyapar1_g24337:0.46897,(galdieria_sulphuraria_GsulpSAG21_G1154:1.32269,(dunaliella_salina_Dusal.0245s00007:0.19815,(haematococcus_lacustris_GFH06186:0.00055,haematococcus_lacustris_GFH28468:0.02091)n5:0.46104)n4:0.87677)n3:0.15435)n2:0.1064)n1:0.364475)n0;

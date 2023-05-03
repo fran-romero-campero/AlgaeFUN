@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre06.g272750:1.02497,mesotaenium_endlicherianum_ME000405S06979:0.84584)n1:0.17076,(phaeodactylum_tricornutum_Phatr2_45019:0.13286,(phaeodactylum_tricornutum_Phatr2_37868:0.20994,(phaeodactylum_tricornutum_Phatr2_37740:0.3033,phaeodactylum_tricornutum_Phatr2_37898:0.50418)n4:0.13572)n3:0.20233)n2:0.17076)n0;

@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1764306:0.29617,nannochloropsis_gaditana_Nangad1_9019:0.49619)n1:0.181665,(dunaliella_salina_Dusal.0006s00003:0.58713,((cycas_panzhihuaensis_CYCAS_002894:0.15677,cycas_panzhihuaensis_CYCAS_024909:0.14547)n4:0.27243,(cycas_panzhihuaensis_CYCAS_017125:0.48084,cycas_panzhihuaensis_CYCAS_017071:0.13941)n5:0.11567)n3:0.25392)n2:0.181665)n0;

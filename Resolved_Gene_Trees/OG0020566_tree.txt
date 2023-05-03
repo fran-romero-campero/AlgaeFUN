@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM013_0034:0.6028,(micromonas_pusilla_Micpu_27344416:0.39543,ostreococcus_tauri_ostta12g01480:0.3979)n2:0.56948)n1:0.07375,(phaeodactylum_tricornutum_Phatr2_43218:0.61551,(guillardia_tetha_Guith1_157081:0.62474,guillardia_tetha_Guith1_120401:0.879255)n4:0.097695)n3:0.13002)n0;

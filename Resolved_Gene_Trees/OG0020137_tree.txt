@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz02g35210:0.27777,coccomyxa_subellipsoidea_Cosub3_1242327:0.51521)n1:0.104105,(physcomitrium_patens_Pp3s92_70:0.88535,(klebsormidium_nitens_kfl00099_0250:0.18451,(klebsormidium_nitens_kfl00002_0330:0.10262,klebsormidium_nitens_kfl00064_0090:0.16305)n4:0.05963)n3:0.27064)n2:0.104105)n0;

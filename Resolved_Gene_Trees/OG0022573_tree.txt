@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_305:0.625305,(salvinia_cucullata_Sacu_v1.1_s2619.g028416:1.0239,(chlorokybus_atmophyticus_Chlat1_5205:0.39559,(chromochloris_zofingiensis_Cz07g06190:0.44192,coccomyxa_subellipsoidea_Cosub3_1213457:0.35688)n3:0.1113)n2:0.38755)n1:0.625305)n0;

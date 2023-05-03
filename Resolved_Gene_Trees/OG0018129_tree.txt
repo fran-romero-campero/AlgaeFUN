@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv12427:0.26047,mesostigma_viridae_Mv12428:0.09355)n1:0.586355,(ulva_mutabilis_UM022_0147:1.04458,((chromochloris_zofingiensis_Cz14g18120:0.15155,chromochloris_zofingiensis_Cz06g22020:0.11484)n4:0.39005,(scenedesmus_obliquus_SZX70640:0.62222,scenedesmus_obliquus_SZX60327:0.31269)n5:0.31534)n3:0.36603)n2:0.586355)n0;

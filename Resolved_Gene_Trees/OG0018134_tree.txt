@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0517s00014:0.4042,(volvox_carteri_Vocar.0078s0002:0.00055,volvox_carteri_Vocar.0078s0005:0.00627)n2:0.56831)n1:0.26507,(raphidocelis_subcapitata_Rsub_11537:0.47232,(chromochloris_zofingiensis_Cz08g00040:0.6505,(scenedesmus_obliquus_SZX69074:0.00055,scenedesmus_obliquus_SZX76578:0.00214)n5:0.41623)n4:0.12326)n3:0.26507)n0;

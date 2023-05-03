@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g1960:0.63868,cyanophora_paradoxa_Cyapar1_g6689:0.90142)n1:0.114395,(volvox_carteri_Vocar.0009s0213:0.96369,(chlorokybus_atmophyticus_Chlat1_4781:0.65331,(coccomyxa_subellipsoidea_Cosub3_1171955:0.32667,(chlamydomonas_reinhardtii_Cre02.g085300:0.5042,chlamydomonas_reinhardtii_Cre17.g733550:0.350019)n5:0.038891)n4:0.12237)n3:0.26312)n2:0.114395)n0;

@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27344523:0.34824,(bathycoccus_prasinos_Bathy04g02590:0.61158,ostreococcus_tauri_ostta13g01660:0.22453)0.967:0.42741)0.927:0.197075,(nannochloropsis_gaditana_Nangad1_8027:1.17731,(phaeodactylum_tricornutum_Phatr2_43855:1.15675,(nannochloropsis_gaditana_Nangad1_4781:1.0913,saccharina_japonica_SJ10854:0.67126)0.859:0.30564)0.105:0.00107)0.927:0.197075);

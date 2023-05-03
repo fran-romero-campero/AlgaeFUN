@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_413349:0.719535,((ceratopteris_richardii_Ceric.02G002500:0.40275,ceratopteris_richardii_Ceric.12G028000:0.43246)n2:0.78328,(ceratopteris_richardii_Ceric.03G032000:0.24394,ceratopteris_richardii_Ceric.01G062500:0.47283)n3:0.44239)n1:0.719535)n0;

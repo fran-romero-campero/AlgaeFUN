@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1263524:0.96587,mesostigma_viridae_Mv16786:0.5838)n1:0.52053,((cryptophyceae_CCMP2293_Crypto2293_1_1748877:0.2276,cryptophyceae_CCMP2293_Crypto2293_1_1802628:1.00716)n3:0.15208,(cryptophyceae_CCMP2293_Crypto2293_1_1800924:0.09926,cryptophyceae_CCMP2293_Crypto2293_1_1896997:0.14091)n4:0.11577)n2:0.52053)n0;

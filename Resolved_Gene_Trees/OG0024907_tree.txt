@@ -1,0 +1,1 @@
+((aegilops_tauschii_AET4Gv20270100:0.31377,ceratopteris_richardii_Ceric.1Z183000:0.15868)n1:0.133455,(salvinia_cucullata_Sacu_v1.1_s0604.g027520:0.35124,triticum_aestivum_Traes_4BL_74FCE926F:0.60473)n2:0.133455)n0;

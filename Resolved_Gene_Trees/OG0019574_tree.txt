@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz03g10140:0.57957,phaeodactylum_tricornutum_Phatr2_41079:0.66295)n1:0.14836,(saccharina_japonica_SJ14407:1.1213,(bathycoccus_prasinos_Bathy43g00010:0.79339,(porphyra_umbilicalis_Pum1084s0003:0.34829,ulva_mutabilis_UM109_0045:0.36576)n4:0.16439)n3:0.08265)n2:0.14836)n0;

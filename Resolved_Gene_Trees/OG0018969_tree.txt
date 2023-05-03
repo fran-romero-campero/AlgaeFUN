@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g56400:0.53814,chara_braunii_Chabra1_g32567:0.65257)n1:0.38965,((aegilops_tauschii_AET4Gv20191600:0,triticum_aestivum_Traes_4DS_7D8A5F90B:0)n3:0.36878,(aegilops_tauschii_AET0Gv20012100:0.80632,triticum_aestivum_Traes_6DS_D1AFFC860:0.754938)n4:0.083882)n2:0.38965)n0;

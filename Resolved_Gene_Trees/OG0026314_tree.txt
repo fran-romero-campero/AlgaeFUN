@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1394571:0.7443,marchantia_polymorpha_Mp7g09830:0.79212)n1:0.575425,(cyanophora_paradoxa_Cyapar1_g11407:0.35913,cyanophora_paradoxa_Cyapar1_g12718:0.35915)n2:0.575425)n0;

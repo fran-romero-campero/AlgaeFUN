@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_6868:0.88719,(cyanophora_paradoxa_Cyapar1_g18673:0.41836,cyanophora_paradoxa_Cyapar1_g24321:0.48538)n2:0.23395)n1:0.268545,(cyanidioschyzon_merolae_XM_005534996:0.36595,(galdieria_sulphuraria_GsulpSAG21_G1307:0.69124,gracilariopsis_chorda_PXF46383:0.34822)n4:0.16879)n3:0.268545)n0;

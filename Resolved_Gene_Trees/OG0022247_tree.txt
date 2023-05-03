@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g16590:0.72878,(ceratopteris_richardii_Ceric.24G033500:0.21666,(ceratopteris_richardii_Ceric.24G033400:0.32809,(ceratopteris_richardii_Ceric.24G033300:0.03585,ceratopteris_richardii_Ceric.24G033200:0.03106)n3:0.37494)n2:0.32728)n1:0.72878)n0;

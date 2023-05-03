@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ16631:0.05573,saccharina_japonica_SJ14656:0.13344)n1:0.513195,(chlamydomonas_reinhardtii_Cre11.g467794:0.49864,dunaliella_salina_Dusal.0069s00007:1.09824)n2:0.513195)n0;

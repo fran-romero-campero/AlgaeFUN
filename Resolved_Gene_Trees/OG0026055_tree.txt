@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g5449:0.355445,(chlorokybus_atmophyticus_Chlat1_3082:0.67302,(klebsormidium_nitens_kfl00060_0160:0.52681,klebsormidium_nitens_kfl00270_0150:0.18174)n2:0.79619)n1:0.355445)n0;

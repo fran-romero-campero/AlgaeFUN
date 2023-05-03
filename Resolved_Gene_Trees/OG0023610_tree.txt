@@ -1,0 +1,1 @@
+(oryza_sativa_ChrSy.fgenesh.mRNA.56:0.11752,(oryza_sativa_ChrSy.fgenesh.mRNA.63:0.10347,(oryza_sativa_ChrSy.fgenesh.mRNA.13:0.15293,(oryza_sativa_ChrUn.fgenesh.mRNA.89:0.05608,oryza_sativa_ChrSy.fgenesh.mRNA.73:0.40005)n3:0.09932)n2:0.01637)n1:0.11752)n0;

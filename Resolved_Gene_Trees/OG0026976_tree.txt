@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH27446:0.11892,(cycas_panzhihuaensis_CYCAS_031469:0.30884,(salvinia_cucullata_Sacu_v1.1_s0189.g025183:0.00055,salvinia_cucullata_Sacu_v1.1_s0189.g025203:0.0617)n2:0.21626)n1:0.11892)n0;

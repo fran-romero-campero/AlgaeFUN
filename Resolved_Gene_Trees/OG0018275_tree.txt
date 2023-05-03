@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ16213:0.61594,(thuja_plicata_Thupl.29379498s0018:0.42494,thuja_plicata_Thupl.29379114s0003:0.33826)n2:0.51659)n1:0.07052,(cryptophyceae_CCMP2293_Crypto2293_1_1966301:0.82821,(cyanophora_paradoxa_Cyapar1_g16262:1.09126,(micromonas_pusilla_Micpu_27346004:0.55159,ostreococcus_tauri_ostta03g05540:0.68117)n5:0.36504)n4:0.13154)n3:0.07052)n0;

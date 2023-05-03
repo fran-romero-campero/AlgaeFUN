@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1889433:0.7368,(ceratopteris_richardii_Ceric.09G080300:0.53823,((selaginella_moellendorffii_Selmo_402524:0.56655,selaginella_moellendorffii_Selmo_413732:0.53825)n3:0.26827,selaginella_moellendorffii_Selmo_406587:0.734247)n2:0.081583)n1:0.0821)n0;

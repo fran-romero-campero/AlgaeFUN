@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g7827:0.93875,(cyanidioschyzon_merolae_XM_005536185:0.58902,(gracilariopsis_chorda_PXF46483:0.88934,phaeodactylum_tricornutum_Phatr2_37234:0.92196)n3:0.21431)n2:0.31875)n1:0.05473,(guillardia_tetha_Guith1_105172:1.30495,(micromonas_pusilla_Micpu_27345396:0.60326,saccharina_japonica_SJ08883:0.80789)n5:0.12342)n4:0.05473)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_3902:0.30848,((galdieria_sulphuraria_GsulpSAG21_G2831:0.51932,galdieria_sulphuraria_GsulpSAG21_G3138:0.31568)n2:0.35233,(cyanidioschyzon_merolae_XM_005536298:0.97163,(porphyra_umbilicalis_Pum0427s0023:0.26219,(gracilariopsis_chorda_PXF42164:1.08548,gracilariopsis_chorda_PXF41594:0.368352)n5:0.040928)n4:0.48117)n3:0.13251)n1:0.30848)n0;

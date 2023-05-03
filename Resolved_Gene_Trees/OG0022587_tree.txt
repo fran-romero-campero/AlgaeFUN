@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g7744:0.27251,(scenedesmus_obliquus_SZX79324:0.24744,(volvox_carteri_Vocar.0007s0137:0.41061,(chromochloris_zofingiensis_Cz15g12160:0.36238,chromochloris_zofingiensis_Cz10g15020:0.32454)n3:0.03606)n2:0.09794)n1:0.71822)n0;

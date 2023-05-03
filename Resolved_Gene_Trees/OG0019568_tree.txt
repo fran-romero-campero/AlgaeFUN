@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre09.g386143:0.88599,volvox_carteri_Vocar.0021s0034:0.45444)n1:0.56316,((micromonas_pusilla_Micpu_27343741:0.82641,bathycoccus_prasinos_Bathy17g01570:0.65976)n3:0.1061,(ostreococcus_tauri_ostta02g03220:0.72462,ostreococcus_tauri_ostta02g05410:0.514485)n4:0.057165)n2:0.17152)n0;

@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27341757:0.65853,saccharina_japonica_SJ01607:0.69682)n1:0.23053,((cryptophyceae_CCMP2293_Crypto2293_1_1875154:0.3062,guillardia_tetha_Guith1_162842:0.56482)n3:0.80168,(mesostigma_viridae_Mv17862:0.61873,ulva_mutabilis_UM007_0176:0.91094)n4:0.19435)n2:0.23053)n0;

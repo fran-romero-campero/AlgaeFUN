@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy11g03340:0.66671,(dunaliella_salina_Dusal.0201s00011:0.97133,((chlamydomonas_reinhardtii_Cre12.g484650:0.31436,volvox_carteri_Vocar.0031s0106:0.41325)n3:0.35752,(chromochloris_zofingiensis_Cz10g29020:1.19288,(raphidocelis_subcapitata_Rsub_03554:0.05523,raphidocelis_subcapitata_Rsub_03556:0.00053)n5:1.07488)n4:0.1664)n2:0.15131)n1:0.66671)n0;

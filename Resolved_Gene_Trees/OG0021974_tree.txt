@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF41414:0.47464,(chlorokybus_atmophyticus_Chlat1_3765:0.44501,(coccomyxa_subellipsoidea_Cosub3_1290824:0.83388,(bathycoccus_prasinos_Bathy08g00310:1.00393,ostreococcus_tauri_ostta15g02700:0.39704)n3:0.6871)n2:0.44454)n1:0.47464)n0;

@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ11618:1.0629,(((cryptophyceae_CCMP2293_Crypto2293_1_1754676:0.01113,cryptophyceae_CCMP2293_Crypto2293_1_1754986:0.03015)n4:1.5608,(micromonas_pusilla_Micpu_27348452:1.33195,micromonas_pusilla_Micpu_27344581:0.17246)n5:0.30613)n3:0.08781,micromonas_pusilla_Micpu_27340135:0.663606)n2:0.073734)n1:0.178765,ostreococcus_tauri_ostta15g00590:0.81604)n0;

@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1572019:0.266165,((haematococcus_lacustris_GFH26783:0.04605,(haematococcus_lacustris_GFH14294:0.00055,haematococcus_lacustris_GFH22158:0.00054)n3:0.14048)n2:0.08403,(anthoceros_agrestis_AagrOXF_utg000038l.392:0.02563,anthoceros_agrestis_AagrOXF_utg000038l.386:0.061461)n4:0.006829)n1:0.29431)n0;

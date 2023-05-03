@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM009187S24543:0.03905,spirogloea_muscicola_SM011086S18854:0.07781)n1:0.457355,(azolla_filiculoides_Azfi_s0045.g029779:0.47399,salvinia_cucullata_Sacu_v1.1_s0001.g000322:0.63677)n2:0.457355)n0;

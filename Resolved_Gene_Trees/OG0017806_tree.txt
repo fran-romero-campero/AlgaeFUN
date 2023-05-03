@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_2848:0.44304,(ceratopteris_richardii_Ceric.24G054500:1.62445,((chromochloris_zofingiensis_Cz02g26160:0.72017,chromochloris_zofingiensis_Cz02g26140:0.65169)n3:0.17257,(raphidocelis_subcapitata_Rsub_06590:0.65521,(scenedesmus_obliquus_SZX78779:0,scenedesmus_obliquus_SZX67669:0)n5:0.72377)n4:0.22456)n2:0.38961)n1:0.44304)n0;

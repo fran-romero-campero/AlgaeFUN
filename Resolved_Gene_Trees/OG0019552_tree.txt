@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy119g00030:0.94393,((chara_braunii_Chabra1_g22988:0.18899,chara_braunii_Chabra1_g22989:0.13528)n2:0.24015,(chara_braunii_Chabra1_g44625:0.40862,(chara_braunii_Chabra1_g77467:0.05379,chara_braunii_Chabra1_g44621:0.17836)n4:0.45377)n3:0.18181)n1:0.94393)n0;

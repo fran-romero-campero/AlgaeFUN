@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_114974:0.38258,(cyanophora_paradoxa_Cyapar1_g2649:0.60964,(mesostigma_viridae_Mv22963:0.86713,((haematococcus_lacustris_GFH14818:0.23451,haematococcus_lacustris_GFH28321:0.52935)n4:0.65504,(chlamydomonas_reinhardtii_Cre10.g457850:0.27362,volvox_carteri_Vocar.0020s0137:0.24696)n5:0.1947)n3:0.52063)n2:0.52397)n1:0.38258)n0;

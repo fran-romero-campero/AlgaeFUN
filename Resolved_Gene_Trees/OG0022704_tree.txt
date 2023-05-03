@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_1281:0.60095,(cryptophyceae_CCMP2293_Crypto2293_1_1565613:0.66022,(cryptophyceae_CCMP2293_Crypto2293_1_1553900:0.48031,(cryptophyceae_CCMP2293_Crypto2293_1_1743646:0.06193,cryptophyceae_CCMP2293_Crypto2293_1_1866228:0.05748)n3:0.21886)n2:0.2226)n1:0.60095)n0;

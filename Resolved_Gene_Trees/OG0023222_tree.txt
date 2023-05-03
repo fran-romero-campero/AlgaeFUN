@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_bd_1324:0.514005,(triticum_aestivum_Traes_3B_98C285B20:0.76978,(dunaliella_salina_Dusal.0130s00006:0.3344,(haematococcus_lacustris_GFH09750:0.2224,haematococcus_lacustris_GFH22382:0.00054)n3:0.23796)n2:0.49402)n1:0.514005)n0;

@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy07g04050:0.91217,ostreococcus_tauri_ostta12g00570:0.68463)n1:0.388535,(cyanophora_paradoxa_Cyapar1_g7921:0.27471,cyanophora_paradoxa_Cyapar1_g7923:0.16605)n2:0.388535)n0;

@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27343473:0.75572,phaeodactylum_tricornutum_Phatr2_36844:0.76634)n1:0.157065,(guillardia_tetha_Guith1_138418:0.66482,(bathycoccus_prasinos_Bathy04g03320:0.47875,bathycoccus_prasinos_Bathy04g03330:0.66197)n3:0.78733)n2:0.157065)n0;

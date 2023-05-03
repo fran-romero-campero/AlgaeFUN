@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_1955:0.41473,(cyanophora_paradoxa_Cyapar1_g24220:0.9197,(scenedesmus_obliquus_SZX71093:0.94803,(volvox_carteri_Vocar.0033s0144:0.08603,(chlamydomonas_reinhardtii_Cre09.g390050:0.11221,(dunaliella_salina_Dusal.0447s00009:0.22484,haematococcus_lacustris_GFH18826:0.222)n5:0.23655)n4:0.0623)n3:0.32546)n2:0.27827)n1:0.41473)n0;

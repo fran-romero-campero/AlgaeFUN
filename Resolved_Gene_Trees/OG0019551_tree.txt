@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g21772:0.486265,(physcomitrium_patens_Pp3s32_260:0.95679,(bathycoccus_prasinos_Bathy61g00070:0.66866,((bathycoccus_prasinos_Bathy126g00030:0.40014,bathycoccus_prasinos_Bathy48g00060:0.40474)n4:0.64935,bathycoccus_prasinos_Bathy112g00010:0.588447)n3:0.0588447)n2:0.0065383)n1:0.02709)n0;

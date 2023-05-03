@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_4726:0.47537,((nannochloropsis_gaditana_Nangad1_2402:0.44722,oryza_sativa_LOC_Os09g09450.1:0.98565)n2:0.1545,(nannochloropsis_gaditana_Nangad1_1718:1.17509,(selaginella_moellendorffii_Selmo_444869:0.73572,(selaginella_moellendorffii_Selmo_96058:0.00584,selaginella_moellendorffii_Selmo_133828:0.0166)n5:0.48108)n4:0.35518)n3:0.19325)n1:0.47537)n0;

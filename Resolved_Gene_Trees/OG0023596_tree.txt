@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_4196:0.664395,((saccharina_japonica_SJ12770:0.01102,saccharina_japonica_SJ12781:1.44762)n2:0.0689,(saccharina_japonica_SJ06958:0.23292,saccharina_japonica_SJ03307:0.17876)n3:0.10152)n1:0.664395)n0;

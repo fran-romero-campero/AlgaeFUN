@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1252975:0.64584,(chromochloris_zofingiensis_Cz02g11080:0.66574,scenedesmus_obliquus_SZX77813:0.63383)n2:0.28516)n1:0.08112,(klebsormidium_nitens_kfl00119_0120:0.19299,mesotaenium_endlicherianum_ME000046S07720:0.83547)n3:0.08112)n0;

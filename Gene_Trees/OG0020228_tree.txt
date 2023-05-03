@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g5221:0.42195,(cryptophyceae_CCMP2293_Crypto2293_1_1882301:0.77324,saccharina_japonica_SJ08199:0.92182)0.807:0.20473)0.732:0.04327,(galdieria_sulphuraria_GsulpSAG21_G285:0.9266,(cryptophyceae_CCMP2293_Crypto2293_1_1773764:0.64581,scenedesmus_obliquus_SZX63520:0.92295)0.897:0.35658)0.732:0.04327);

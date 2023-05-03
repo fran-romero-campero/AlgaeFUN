@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz04g04030:0.915345,((anthoceros_agrestis_AagrOXF_utg000077l.14:0.25851,marchantia_polymorpha_Mp3g13360:0.3165)0.446:0.08502,(marchantia_polymorpha_Mp6g06810:0.34335,(chara_braunii_Chabra1_g46217:0.70197,(klebsormidium_nitens_kfl00159_0180:0.64036,mesotaenium_endlicherianum_ME000457S07516:0.43725)0.755:0.08616)0.961:0.1281)0.818:0.11378)1:0.915345);

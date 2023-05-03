@@ -1,0 +1,1 @@
+(oryza_sativa_LOC_Os05g23830.1:0.302525,(aegilops_tauschii_AET1Gv20792000:0.00055,(triticum_aestivum_Traes_3AS_B9F1E6414:0.14347,(triticum_aestivum_Traes_5AL_D45BCF3E2:0.00054,triticum_aestivum_Traes_1DL_79447A69B:0.000495)n3:4.95e-05)n2:5.5e-06)n1:0.16247)n0;

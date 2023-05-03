@@ -1,0 +1,1 @@
+(((phaeodactylum_tricornutum_Phatr2_44835:0.0062,phaeodactylum_tricornutum_Phatr2_44838:0.00323)n2:0.73881,(phaeodactylum_tricornutum_Phatr2_34362:0.00055,phaeodactylum_tricornutum_Phatr2_34367:0.00627)n3:0.65886)n1:0.40743,(saccharina_japonica_SJ15091:0.64489,(saccharina_japonica_SJ15095:0.19731,saccharina_japonica_SJ01650:0.21876)n5:0.36576)n4:0.40743)n0;

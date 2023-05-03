@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c1_22890:0.37492,sphagnum_magellanicum_Sphmag03G007800:0.46863)n1:0.280935,(sorghum_bicolor_Sobic.006G024101:0.72916,(aegilops_tauschii_AET1Gv20001500:0.22064,thuja_plicata_Thupl.29198563s0001:0.96281)n3:0.2881)n2:0.280935)n0;

@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g817:0.88866,mesostigma_viridae_Mv11429:0.97211)n1:0.22859,(saccharina_japonica_SJ08683:0.66704,((phaeodactylum_tricornutum_Phatr2_32710:0.00051,phaeodactylum_tricornutum_Phatr2_43493:0.03864)n4:1.37398,nannochloropsis_gaditana_Nangad1_5108:0.7836)n3:0.16237)n2:0.22859)n0;

@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_021137:0.11779,thuja_plicata_Thupl.29380168s0004:0.67427)n1:0.745795,(aegilops_tauschii_AET7Gv20806700:0.03164,(triticum_aestivum_Traes_5DL_AB1A474E7:0.00055,triticum_aestivum_Traes_7AL_351C5BDB1:0.000486)n3:5.4e-05)n2:0.17735)n0;

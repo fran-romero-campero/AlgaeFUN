@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_146116:0.865775,(chromochloris_zofingiensis_Cz02g28250:0.38424,((chlamydomonas_reinhardtii_Cre13.g585600:0.68836,volvox_carteri_Vocar.0001s0025:0.31859)n3:0.69847,(scenedesmus_obliquus_SZX74673:0.00823,scenedesmus_obliquus_SZX61204:0.00054)n4:0.53602)n2:0.05507)n1:0.865775)n0;

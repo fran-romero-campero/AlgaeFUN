@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF46728:0.00054,(gracilariopsis_chorda_PXF46730:0,gracilariopsis_chorda_PXF39646:0)n2:0.0073)n1:0.57102,(phaeodactylum_tricornutum_Phatr2_36006:0.00055,(phaeodactylum_tricornutum_Phatr2_36008:0.00053,phaeodactylum_tricornutum_Phatr2_36009:0.00372)n4:0.01105)n3:0.57102)n0;

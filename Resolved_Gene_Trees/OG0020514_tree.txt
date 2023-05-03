@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0063s00018:0.23663,((haematococcus_lacustris_GFH19554:0.00054,haematococcus_lacustris_GFH20295:0.05836)n2:0.84875,(haematococcus_lacustris_GFH24111:0.57712,(haematococcus_lacustris_GFH22137:0.16017,haematococcus_lacustris_GFH24304:0.00055)n4:0.39567)n3:0.90457)n1:0.23663)n0;

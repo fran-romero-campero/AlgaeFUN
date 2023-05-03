@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp1g16210:0.66625,(ceratopteris_richardii_Ceric.30G018300:0.64998,(ceratopteris_richardii_Ceric.31G046900:0.01716,ceratopteris_richardii_Ceric.31G046800:0.06631)n2:0.31469)n1:0.66625)n0;

@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0095s0001:0.451355,(physcomitrium_patens_Pp3s34_320:0.93797,(coccomyxa_subellipsoidea_Cosub3_1400789:0.53075,((chromochloris_zofingiensis_Cz11g28160:0.47621,chromochloris_zofingiensis_Cz09g06110:0.40451)n4:0.04342,chromochloris_zofingiensis_Cz09g06120:0.417825)n3:0.046425)n2:0.06499)n1:0.451355)n0;

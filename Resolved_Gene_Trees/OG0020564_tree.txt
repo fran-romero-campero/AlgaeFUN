@@ -1,0 +1,1 @@
+((ostreococcus_tauri_ostta13g00060:0.60424,((mesostigma_viridae_Mv10928:1.50454,(gracilariopsis_chorda_PXF46011:0.79489,phaeodactylum_tricornutum_Phatr2_48684:1.18639)n4:0.28912)n3:0.23358,phaeodactylum_tricornutum_Phatr2_47965:1.10987)n2:0.123319)n1:0.116475,micromonas_pusilla_Micpu_27346977:0.36679)n0;

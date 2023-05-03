@@ -1,0 +1,1 @@
+((galdieria_sulphuraria_GsulpSAG21_G1370:1.07698,saccharina_japonica_SJ07686:0.75831)n1:0.09392,(cyanidioschyzon_merolae_XM_005539140:0.71487,(cyanophora_paradoxa_Cyapar1_g10555:0.87443,(guillardia_tetha_Guith1_74415:0.40125,micromonas_pusilla_Micpu_27347749:0.83702)n4:0.08676)n3:0.10998)n2:0.09392)n0;

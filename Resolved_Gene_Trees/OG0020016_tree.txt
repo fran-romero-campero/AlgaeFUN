@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX75980:0.33404,scenedesmus_obliquus_SZX75982:0.19993)n1:0.53282,((volvox_carteri_Vocar.0028s0146:0.57248,volvox_carteri_Vocar.0001s1023:0.4346)n3:0.1551,(chlamydomonas_reinhardtii_Cre04.g224200:0.60178,chlamydomonas_reinhardtii_Cre10.g420450:0.629235)n4:0.069915)n2:0.07942)n0;

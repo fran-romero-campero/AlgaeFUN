@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1635409:0.015,(haematococcus_lacustris_GFH13682:0.98106,(aegilops_tauschii_AET2Gv20573000:0.03118,(zea_mays_Zm00001d048578:0.03206,(zea_mays_Zm00001d008884:0.0185,zea_mays_Zm00001d030797:0.03083)n4:0.03377)n3:0.27612)n2:0.67562)n1:0.015)n0;

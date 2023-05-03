@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1836350:0.5767,cryptophyceae_CCMP2293_Crypto2293_1_1841236:0.71855)n1:0.043155,(physcomitrium_patens_Pp3c23_15268:0.79999,(haematococcus_lacustris_GFH06662:0.22932,triticum_aestivum_Traes_4BL_7AF7D563F:0.77128)n3:0.46585)n2:0.043155)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00359_0070:0.74049,(chlorokybus_atmophyticus_Chlat1_681:0.71322,mesostigma_viridae_Mv22734:0.68304)n2:0.42436)n1:0.285235,((guillardia_tetha_Guith1_139625:0.35634,guillardia_tetha_Guith1_152945:0.39432)n4:0.31769,(cryptophyceae_CCMP2293_Crypto2293_1_1797866:0.83822,cryptophyceae_CCMP2293_Crypto2293_1_2523457:0.353034)n5:0.039226)n3:0.42864)n0;

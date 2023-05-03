@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz18g04140:1.00913,(mesostigma_viridae_Mv20856:0.10757,(mesostigma_viridae_Mv09331:0.5471,mesostigma_viridae_Mv20857:0.18236)n3:0.02618)n2:0.52471)n1:0.387795,(porphyra_umbilicalis_Pum1647s0001:0.19422,porphyra_umbilicalis_Pum0135s0029:0.10027)n4:0.387795)n0;

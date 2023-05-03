@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ05676:0.326515,(gracilariopsis_chorda_PXF43710:0.55805,(haematococcus_lacustris_GFH31373:0.18447,scenedesmus_obliquus_SZX69684:0.58407)n2:0.35715)n1:0.326515)n0;

@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag04G008600:0.27811,((triticum_aestivum_Traes_2DL_E4FDE3CBD:0.13247,triticum_aestivum_Traes_7AS_C10112B3E:0.10193)n2:0.27213,(triticum_aestivum_Traes_5AL_F4785D480:0.05707,triticum_aestivum_Traes_5AL_14F6CD77E:0.27883)n3:0.2772)n1:0.27811)n0;

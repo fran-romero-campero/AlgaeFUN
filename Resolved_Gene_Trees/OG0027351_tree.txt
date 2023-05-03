@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH29539:0.259685,(oryza_sativa_LOC_Os06g23760.1:0.57175,(spirogloea_muscicola_SM004380S16076:0.1443,spirogloea_muscicola_SM004858S16943:0.03525)n2:0.60244)n1:0.259685)n0;

@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp7g06540:0.377595,(cycas_panzhihuaensis_CYCAS_011080:0.64922,(arabidopsis_thaliana_AT2G27775:0.47988,(ceratopteris_richardii_Ceric.26G044300:0.34119,salvinia_cucullata_Sacu_v1.1_s0065.g016052:0.80998)n3:0.43841)n2:0.11393)n1:0.377595)n0;

@@ -1,0 +1,1 @@
+((ostreococcus_tauri_ostta08g01440:0.86605,((nannochloropsis_gaditana_Nangad1_7446:1.49722,bathycoccus_prasinos_Bathy08g02330:0.67087)n3:0.07377,nannochloropsis_gaditana_Nangad1_7445:1.17974)n2:0.131082)n1:0.099005,micromonas_pusilla_Micpu_27341494:0.52692)n0;

@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_97561:0.584485,(arabidopsis_thaliana_AT2G01740:0.884,(cycas_panzhihuaensis_CYCAS_002277:0.1435,(thuja_plicata_Thupl.29382132s0004:0.05483,(thuja_plicata_Thupl.29377127s0016:0.01039,thuja_plicata_Thupl.29378874s0003:0.00194)n4:0.00555)n3:0.46126)n2:0.97751)n1:0.584485)n0;

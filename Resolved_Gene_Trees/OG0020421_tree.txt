@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g6722:0.76349,((gracilariopsis_chorda_PXF47393:0.65569,(gracilariopsis_chorda_PXF47953:0.03148,gracilariopsis_chorda_PXF46037:0.02568)n3:0.52256)n2:0.56978,(porphyra_umbilicalis_Pum0164s0015:0.34594,porphyra_umbilicalis_Pum3155s0001:0.49315)n4:0.06861)n1:0.76349)n0;

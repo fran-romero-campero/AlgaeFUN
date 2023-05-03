@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc10g084790:0.2039,(ceratopteris_richardii_Ceric.20G061400:0.66709,(salvinia_cucullata_Sacu_v1.1_s0007.g003483:0.22228,salvinia_cucullata_Sacu_v1.1_s0033.g011033:0.45981)n2:0.1497)n1:0.2039)n0;

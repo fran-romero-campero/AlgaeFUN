@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_2DL_82107C727:0.97223,zea_mays_Zm00001d048673:0.80189)n1:0.28161,(ceratodon_purpureus_CepurR40.12G111500:0.00055,(ceratodon_purpureus_CepurR40.12G110200:0.0142,ceratodon_purpureus_CepurR40.12G110800:0.00337)n3:0.0173)n2:0.28161)n0;

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g4743:0.65192,(chlamydomonas_reinhardtii_Cre02.g096700:0.79409,(marchantia_polymorpha_Mp6g19250:1.30355,(raphidocelis_subcapitata_Rsub_05585:0.27375,(chromochloris_zofingiensis_Cz13g13150:0.37233,scenedesmus_obliquus_SZX75696:0.63968)n4:0.18351)n3:0.48925)n2:0.38335)n1:0.65192)n0;

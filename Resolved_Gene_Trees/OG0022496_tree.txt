@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1753430:0.68361,((volvox_carteri_Vocar.0001s0756:0.05763,dunaliella_salina_Dusal.0079s00011:1.53576)n2:0.05248,(chlamydomonas_reinhardtii_Cre01.g042000:0.44365,haematococcus_lacustris_GFH26149:0.71709)n3:0.27851)n1:0.68361)n0;

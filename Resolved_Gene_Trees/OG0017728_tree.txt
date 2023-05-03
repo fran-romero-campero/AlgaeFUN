@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_7023:0.3857,((haematococcus_lacustris_GFH08577:0.00055,haematococcus_lacustris_GFH22034:0.00943)n2:0.45173,(coccomyxa_subellipsoidea_Cosub3_1298969:0.62737,(physcomitrium_patens_Pp3c3_240:0.17885,(ceratodon_purpureus_CepurR40.10G053300:0.00054,ceratodon_purpureus_CepurR40.10G130100:0.45857)n5:0.17783)n4:1.33369)n3:0.43204)n1:0.3857)n0;

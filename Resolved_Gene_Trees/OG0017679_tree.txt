@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_235327:0.9177,(chlamydomonas_reinhardtii_Cre05.g237750:0.73846,(dunaliella_salina_Dusal.0503s00003:0.64073,haematococcus_lacustris_GFH12744:0.52363)n3:0.19377)n2:0.43925)n1:0.16265,(ostreococcus_tauri_ostta14g02580:0.728,(bathycoccus_prasinos_Bathy12g01830:0.89009,micromonas_pusilla_Micpu_27340684:0.80538)n5:0.17949)n4:0.16265)n0;

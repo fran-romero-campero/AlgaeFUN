@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0617s0006:0.572755,(scenedesmus_obliquus_SZX66568:0.29459,(chlamydomonas_reinhardtii_Cre02.g078912:0.18059,volvox_carteri_Vocar.0009s0140:0.35516)n2:0.29856)n1:0.572755)n0;

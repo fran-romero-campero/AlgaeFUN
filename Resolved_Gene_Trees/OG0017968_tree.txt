@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1789066:0.41718,(mesostigma_viridae_Mv04672:1.17202,((chlamydomonas_reinhardtii_Cre12.g512750:0.19581,volvox_carteri_Vocar.0016s0172:0.18104)n3:0.44443,(volvox_carteri_Vocar.0029s0097:0.27606,(chlamydomonas_reinhardtii_Cre17.g723450:0.96776,chlamydomonas_reinhardtii_Cre10.g465650:0.232461)n5:0.025829)n4:0.40801)n2:0.22088)n1:0.41718)n0;

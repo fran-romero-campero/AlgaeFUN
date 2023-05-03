@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc01g011358:0.48633,(aegilops_tauschii_AET5Gv20196300:0.41361,(aegilops_tauschii_AET3Gv21058100:0.1244,(aegilops_tauschii_AET6Gv20876600:0.15255,(aegilops_tauschii_AET3Gv20054400:0.0371,aegilops_tauschii_AET3Gv21055900:0.16926)n4:0.04087)n3:0.03771)n2:0.25368)n1:0.48633)n0;

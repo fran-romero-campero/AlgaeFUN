@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_159189:0.1975,saccharina_japonica_SJ21513:0.16344)n1:0.12581,(mesostigma_viridae_Mv06041:0.17503,(scenedesmus_obliquus_SZX72889:0.31669,(micromonas_pusilla_Micpu_27347915:0.18937,(bathycoccus_prasinos_Bathy08g04070:0.16355,ostreococcus_tauri_ostta04g04420:0.11336)n5:0.0639)n4:0.0846)n3:0.02771)n2:0.12581)n0;

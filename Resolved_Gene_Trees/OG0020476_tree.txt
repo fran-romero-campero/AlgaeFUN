@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ19117:0.761635,((marchantia_polymorpha_Mp4g21200:0.61257,((cycas_panzhihuaensis_CYCAS_019928:1.13639,sphagnum_magellanicum_Sphmag09G038900:0.83782)n4:0.07844,sphagnum_magellanicum_Sphmag09G038800:0.464058)n3:0.051562)n2:0.55859,selaginella_moellendorffii_Selmo_437863:1.15525)n1:0.761635)n0;

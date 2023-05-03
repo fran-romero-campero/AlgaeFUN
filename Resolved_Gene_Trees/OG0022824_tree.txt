@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1797027:0.55227,nannochloropsis_gaditana_Nangad1_5743:0.7466)n1:0.4779,(selaginella_moellendorffii_Selmo_421857:0.07356,(selaginella_moellendorffii_Selmo_420547:0.0139,selaginella_moellendorffii_Selmo_420548:0.00054)n3:0.06012)n2:0.4779)n0;

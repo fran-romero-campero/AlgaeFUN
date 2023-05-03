@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g8395:0.636765,((selaginella_moellendorffii_Selmo_410317:0.15558,selaginella_moellendorffii_Selmo_411435:0.11616)n2:0.70657,(sphagnum_magellanicum_Sphmag04G026800:0.52684,(ceratodon_purpureus_CepurR40.3G224300:0.23339,physcomitrium_patens_Pp3c23_11560:0.26043)n4:0.23897)n3:0.09129)n1:0.636765)n0;

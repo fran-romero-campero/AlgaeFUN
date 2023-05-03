@@ -1,0 +1,1 @@
+((oryza_sativa_LOC_Os01g71170.1:0.17412,(sorghum_bicolor_Sobic.003G419700:0.10509,zea_mays_Zm00001d011902:0.20101)n2:0.23646)n1:0.201475,(solanum_lycopersicum_Solyc09g074450:0.43022,((arabidopsis_thaliana_AT3G06360:0.51765,arabidopsis_thaliana_AT5G18690:0.2997)n5:0.39931,arabidopsis_thaliana_AT2G47930:0.410949)n4:0.045661)n3:0.16471)n0;

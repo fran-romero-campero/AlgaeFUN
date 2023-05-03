@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_8805:0.7377,cyanophora_paradoxa_Cyapar1_g19682:0.97916)n1:0.176225,(guillardia_tetha_Guith1_99356:0.49347,(cryptophyceae_CCMP2293_Crypto2293_1_1802994:0.32285,cryptophyceae_CCMP2293_Crypto2293_1_1802992:0.1278)n3:0.0142)n2:0.17533)n0;

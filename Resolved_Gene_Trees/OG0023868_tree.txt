@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ19530:0.30716,(solanum_lycopersicum_Solyc09g018530:0.22789,(triticum_aestivum_Traes_6AS_8A5D4964E:0.06848,(triticum_aestivum_Traes_2AS_D56DFCD76:0.00055,triticum_aestivum_Traes_7AS_3252B0497:0.0369)n3:0.0314)n2:0.45815)n1:0.30716)n0;

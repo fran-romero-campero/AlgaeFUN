@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX74739:0.649585,(solanum_lycopersicum_Solyc11g062180:0.218,(solanum_lycopersicum_Solyc12g097010:0.1294,(solanum_lycopersicum_Solyc07g052790:0.00055,(solanum_lycopersicum_Solyc07g052785:0.00055,solanum_lycopersicum_Solyc00g500405:0.00054)n4:0.01268)n3:0.13674)n2:0.15121)n1:0.649585)n0;

@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.09G070600:0.087575,((ceratopteris_richardii_Ceric.09G070300:0.00054,ceratopteris_richardii_Ceric.09G070200:0.03296)1:0.63047,(ceratopteris_richardii_Ceric.09G070400:0.14363,ceratopteris_richardii_Ceric.09G070700:0.14102)0.864:0.09872)1:0.087575);

@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT3G03930:0.29799,(salvinia_cucullata_Sacu_v1.1_s0072.g016922:0.3254,(sorghum_bicolor_Sobic.003G292866:0.07217,(triticum_aestivum_Traes_1AS_8441916DC:0.06558,triticum_aestivum_Traes_3DS_4F90E7102:0.04877)n4:0.00053)n3:0.03871)n2:0.07924)n1:0.01917,(azolla_filiculoides_Azfi_s0001.g000150:0.19331,zea_mays_Zm00001d002106:0.1977)n5:0.01917)n0;

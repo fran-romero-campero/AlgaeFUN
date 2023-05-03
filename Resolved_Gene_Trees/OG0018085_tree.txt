@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_4DS_3B58FB9BA:0.4041,((chlorokybus_atmophyticus_Chlat1_20:0.27803,(chlorokybus_atmophyticus_Chlat1_345:0.22195,(chlorokybus_atmophyticus_Chlat1_6130:0.01336,chlorokybus_atmophyticus_Chlat1_6131:0.00055)n4:0.20995)n3:0.2026)n2:0.13623,(chlorokybus_atmophyticus_Chlat1_1575:0.73939,chlorokybus_atmophyticus_Chlat1_2544:0.3592)n5:0.14862)n1:0.4041)n0;

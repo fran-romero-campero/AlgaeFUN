@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000042S15364:0.66663,(azolla_filiculoides_Azfi_s0017.g014564:0.55533,(selaginella_moellendorffii_Selmo_125812:0.84948,(selaginella_moellendorffii_Selmo_27032:0.36993,selaginella_moellendorffii_Selmo_117460:0.1939)0.985:0.40434)0.92:0.26989)1:0.66663);

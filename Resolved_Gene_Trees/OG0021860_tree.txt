@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT3G51210:0.374005,(triticum_aestivum_Traes_2DS_C39FC4983:0.3287,(triticum_aestivum_Traes_7BL_7F5D79997:0.03941,(triticum_aestivum_Traes_3DL_72BD70EAE:0.05223,triticum_aestivum_Traes_3DL_297CCAE6D:0.10277)n3:0.00054)n2:0.22754)n1:0.374005)n0;

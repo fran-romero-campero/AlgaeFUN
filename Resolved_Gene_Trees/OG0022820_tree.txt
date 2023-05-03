@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0072s0031:0.320695,(saccharina_japonica_SJ05182:0.4851,(phaeodactylum_tricornutum_Phatr2_40360:0.59384,(cryptophyceae_CCMP2293_Crypto2293_1_1792600:0.54603,guillardia_tetha_Guith1_103331:0.25631)n3:0.39576)n2:0.26659)n1:0.320695)n0;

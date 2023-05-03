@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00166_0080:0.489675,(spirogloea_muscicola_SM000059S18691:1.10556,(ceratopteris_richardii_Ceric.23G034500:1.19884,(cycas_panzhihuaensis_CYCAS_030661:0.34932,((arabidopsis_thaliana_AT5G18850:0.19467,solanum_lycopersicum_Solyc01g080590:0.38398)n5:0.5585,thuja_plicata_Thupl.29377544s0002:0.1273)n4:0.08449)n3:0.00054)n2:0.52213)n1:0.489675)n0;

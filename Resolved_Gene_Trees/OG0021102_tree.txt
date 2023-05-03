@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_6DL_7045940B21:0.47541,triticum_aestivum_Traes_7BL_A7049B8A3:0.89804)n1:0.411645,((thuja_plicata_Thupl.29382085s0006:0.01188,thuja_plicata_Thupl.29377165s0010:0.02325)n3:0.01707,(thuja_plicata_Thupl.28553977s0001:0.0123,thuja_plicata_Thupl.29378637s0016:0.06396)n4:0.03006)n2:0.411645)n0;

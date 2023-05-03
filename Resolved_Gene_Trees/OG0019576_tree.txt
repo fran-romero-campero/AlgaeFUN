@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy71g00020:0.65978,((nannochloropsis_gaditana_Nangad1_2489:0.33697,(saccharina_japonica_SJ20686:0.38306,saccharina_japonica_SJ16019:0.2266)n3:0.09005)n2:0.12337,(phaeodactylum_tricornutum_Phatr2_26813:0.39305,phaeodactylum_tricornutum_Phatr2_48694:0.33714)n4:0.03746)n1:0.27908)n0;

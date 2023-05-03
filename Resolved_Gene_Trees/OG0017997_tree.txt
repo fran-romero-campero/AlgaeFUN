@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_32813:0.53775,(cyanophora_paradoxa_Cyapar1_g1666:0.74582,(raphidocelis_subcapitata_Rsub_05837:0.55604,(((chlamydomonas_reinhardtii_Cre02.g142200:0.22789,volvox_carteri_Vocar.0008s0008:0.1949)n5:0.17993,scenedesmus_obliquus_SZX62319:0.16556)n4:0.12183,dunaliella_salina_Dusal.0773s00002:0.3681)n3:0.04491)n2:0.40008)n1:0.53775)n0;

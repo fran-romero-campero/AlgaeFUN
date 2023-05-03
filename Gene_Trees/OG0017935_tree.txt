@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1204023:0.528725,(chromochloris_zofingiensis_Cz10g12040:0.60167,(raphidocelis_subcapitata_Rsub_00837:0.67854,(dunaliella_salina_Dusal.0116s00020:0.53742,(volvox_carteri_Vocar.0028s0165:0.90549,(chlamydomonas_reinhardtii_Cre09.g393750:0.07001,volvox_carteri_Vocar.0028s0166:0.9008)0.985:0.36758)0.996:0.38835)0.966:0.26406)0.846:0.21817)1:0.528725);

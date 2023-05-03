@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy25g00310:1.03622,cyanophora_paradoxa_Cyapar1_g12137:0.61234)n1:0.174315,(cryptophyceae_CCMP2293_Crypto2293_1_1908808:0.86454,guillardia_tetha_Guith1_107601:0.67329)n2:0.174315)n0;

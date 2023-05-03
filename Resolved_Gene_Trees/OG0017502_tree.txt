@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_020835:0.36564,(marchantia_polymorpha_Mp2g15810:0.54177,(anthoceros_agrestis_AagrOXF_utg000008l.113:0.4397,(sphagnum_magellanicum_Sphmag07G066600:0.32129,(physcomitrium_patens_Pp3c15_17640:0.19055,(ceratodon_purpureus_CepurR40.10G042900:0.10888,ceratodon_purpureus_CepurR40.7G175400:0.108171)n5:0.012019)n4:0.06611)n3:0.42647)n2:0.05541)n1:0.36564)n0;

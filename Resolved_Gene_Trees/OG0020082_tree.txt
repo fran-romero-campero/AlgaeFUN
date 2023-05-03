@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1791794:0.653355,((chlorokybus_atmophyticus_Chlat1_7906:0.87743,mesostigma_viridae_Mv23015:0.51279)n2:0.18517,(cyanophora_paradoxa_Cyapar1_g19544:0.73026,(cyanophora_paradoxa_Cyapar1_g10577:0.40211,cyanophora_paradoxa_Cyapar1_g21307:0.07737)n4:0.44267)n3:0.35948)n1:0.653355)n0;

@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF40672:0.61872,((aegilops_tauschii_AET3Gv20257400:0.00055,triticum_aestivum_Traes_3DS_414F31BBF:0.00055)0.993:0.54309,(aegilops_tauschii_AET4Gv20718800:0.96625,(mesostigma_viridae_Mv18824:1.30085,micromonas_pusilla_Micpu_27341827:1.03433)0.759:0.14238)0.124:0.09712)1:0.61872);

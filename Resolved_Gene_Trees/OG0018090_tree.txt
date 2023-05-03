@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_8308:0.14839,((nannochloropsis_gaditana_Nangad1_8166:0.00107,nannochloropsis_gaditana_Nangad1_8167:0.06221)n3:0.22755,nannochloropsis_gaditana_Nangad1_982:0.20622)n2:0.01565)n1:0.45264,(chlorokybus_atmophyticus_Chlat1_4070:0.47613,(klebsormidium_nitens_kfl00140_0020:1.21519,klebsormidium_nitens_kfl00008_0200:0.347292)n5:0.038588)n4:0.43587)n0;

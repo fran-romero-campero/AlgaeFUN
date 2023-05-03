@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF41250:0.68882,cycas_panzhihuaensis_CYCAS_033094:0.65181)n1:0.477755,(guillardia_tetha_Guith1_97996:0.05906,(cryptophyceae_CCMP2293_Crypto2293_1_1828839:0.79818,(cryptophyceae_CCMP2293_Crypto2293_1_1828840:0.30904,cryptophyceae_CCMP2293_Crypto2293_1_3186440:0.189)n4:0.0189)n3:0.0021)n2:0.00056)n0;

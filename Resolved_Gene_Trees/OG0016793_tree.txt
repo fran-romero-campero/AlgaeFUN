@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_111078:0.961545,((mesostigma_viridae_Mv04957:0,mesostigma_viridae_Mv16171:0)n2:0.00185,((mesostigma_viridae_Mv17717:0.00055,(mesostigma_viridae_Mv21181:0.00053,(mesostigma_viridae_Mv01929:0.17666,mesostigma_viridae_Mv06797:0.7325)n6:0.03737)n5:0.00479)n4:0.01042,mesostigma_viridae_Mv20557:0.00055)n3:0.01208)n1:0.961545)n0;

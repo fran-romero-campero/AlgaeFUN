@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp5g01560:0.33612,physcomitrium_patens_Pp3c24_14080:0.4263)n1:0.09047,((thuja_plicata_Thupl.29380345s0051:0.41498,thuja_plicata_Thupl.29351962s0001:0.02078)n3:0.29635,(azolla_filiculoides_Azfi_s0225.g058927:0.22471,ceratopteris_richardii_Ceric.14G011500:0.3714)n4:0.23041)n2:0.09047)n0;

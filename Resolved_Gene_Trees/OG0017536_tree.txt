@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000063l.80:0.33745,(marchantia_polymorpha_Mp8g02530:0.56156,(sphagnum_magellanicum_Sphmag04G123800:0.49678,(ceratodon_purpureus_CepurR40.7G168900:0.25203,(physcomitrium_patens_Pp3c4_16490:0.08152,(physcomitrium_patens_Pp3c12_4360:0.00055,physcomitrium_patens_Pp3c12_4350:0.00055)n5:0.32381)n4:0.10221)n3:0.57543)n2:0.61056)n1:0.33745)n0;

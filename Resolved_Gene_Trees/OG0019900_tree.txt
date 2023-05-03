@@ -1,0 +1,1 @@
+(((dunaliella_salina_Dusal.0021s00020:0.78345,chlamydomonas_reinhardtii_Cre09.g386754:0.91163)n2:0.12816,(guillardia_tetha_Guith1_132469:0.94665,guillardia_tetha_Guith1_153900:1.02366)n3:0.11374)n1:0.0829,(coccomyxa_subellipsoidea_Cosub3_1154659:0.77002,galdieria_sulphuraria_GsulpSAG21_G1194:0.81066)n4:0.16943)n0;

@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF49465:0.78088,phaeodactylum_tricornutum_Phatr2_47050:0.44594)n1:0.08355,(guillardia_tetha_Guith1_161409:0.64578,(cryptophyceae_CCMP2293_Crypto2293_1_1812130:0.76797,micromonas_pusilla_Micpu_27339586:0.50383)n3:0.11894)n2:0.08355)n0;

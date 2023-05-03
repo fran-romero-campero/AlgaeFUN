@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT3G13275:0.67651,(thuja_plicata_Thupl.29382476s0002:0.11728,(thuja_plicata_Thupl.29381067s0012:0.01735,(thuja_plicata_Thupl.29379342s0003:0.20485,thuja_plicata_Thupl.29379805s0012:0.00055)n3:0.08918)n2:0.09029)n1:0.67651)n0;

@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1804845:0.350805,(physcomitrium_patens_Pp3c1_36760:0.99877,((haematococcus_lacustris_GFH07737:0.17484,haematococcus_lacustris_GFH32853:0.39544)n3:0.08558,((haematococcus_lacustris_GFH11509:0.19503,haematococcus_lacustris_GFH31515:0.00054)n5:0.61771,haematococcus_lacustris_GFH10421:0.17055)n4:0.017055)n2:0.001895)n1:0.0943)n0;

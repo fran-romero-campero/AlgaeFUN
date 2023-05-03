@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ00860:0.39404,(cyanophora_paradoxa_Cyapar1_g4499:0.53841,(cyanophora_paradoxa_Cyapar1_g917:0.51767,(klebsormidium_nitens_kfl00372_0140:1.15117,(micromonas_pusilla_Micpu_27348848:0.78261,(raphidocelis_subcapitata_Rsub_00526:0.67202,scenedesmus_obliquus_SZX70393:1.00611)0.999:0.38156)0.651:0.05927)0.911:0.10586)0.558:0.08545)1:0.39404);

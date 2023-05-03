@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00252_0140:0.30159,(azolla_filiculoides_Azfi_s0006.g010172:0.21662,((triticum_aestivum_Traes_5DS_DBB71C2DC:0.30203,(oryza_sativa_LOC_Os03g43980.1:0.12676,(sorghum_bicolor_Sobic.004G138900:0.74758,sorghum_bicolor_Sobic.001G081500:0.00055)n5:0.37806)n4:0.04392)n3:0.7037,cycas_panzhihuaensis_CYCAS_018929:0.14645)n2:0.15173)n1:0.30159)n0;

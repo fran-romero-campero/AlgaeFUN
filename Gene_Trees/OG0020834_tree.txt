@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX59499:0.586415,(phaeodactylum_tricornutum_Phatr2_46330:1.1448,(saccharina_japonica_SJ05885:0.09719,(saccharina_japonica_SJ01187:0.63542,(saccharina_japonica_SJ18932:0.09245,saccharina_japonica_SJ22017:0.14212)1:0.39355)0.84:0.08732)0.993:0.57122)1:0.586415);

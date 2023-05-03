@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_47205:0.670535,(cyanidioschyzon_merolae_XM_005535580:0.93981,(galdieria_sulphuraria_GsulpSAG21_G5656:1.27676,gracilariopsis_chorda_PXF47488:0.71096)n2:0.16037)n1:0.670535)n0;

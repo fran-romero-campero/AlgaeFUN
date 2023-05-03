@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000083l.11:0.38581,selaginella_moellendorffii_Selmo_13113:0.32741)n1:0.221505,(mesotaenium_endlicherianum_ME000162S01695:0.43119,(spirogloea_muscicola_SM000010S04172:0.02813,(spirogloea_muscicola_SM000162S02393:0.02269,spirogloea_muscicola_SM000239S08065:0.01553)n4:0.0109)n3:0.40362)n2:0.221505)n0;

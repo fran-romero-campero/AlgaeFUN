@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_4636:0.48953,(triticum_aestivum_Traes_2DL_AE0A579BD:0.36283,(ceratodon_purpureus_CepurR40.8G039900:0.02428,(ceratodon_purpureus_CepurR40.6G223500:0.00055,ceratodon_purpureus_CepurR40.6G224600:0.00055)n3:0.00054)n2:0.34862)n1:0.48953)n0;

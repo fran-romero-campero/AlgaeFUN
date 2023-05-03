@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1579802:0.323075,((haematococcus_lacustris_GFH08403:0.00053,haematococcus_lacustris_GFH32890:0.00055)n2:0.70442,(cycas_panzhihuaensis_CYCAS_002119:0.36722,(selaginella_moellendorffii_Selmo_410457:0.4873,selaginella_moellendorffii_Selmo_411569:0.02786)n4:0.4144)n3:0.30452)n1:0.323075)n0;

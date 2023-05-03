@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c4_15810:0.31177,(physcomitrium_patens_Pp3c5_6980:0.01866,physcomitrium_patens_Pp3c5_16620:0.04977)n2:0.68606)n1:0.285345,(azolla_filiculoides_Azfi_s4119.g118034:0.87272,salvinia_cucullata_Sacu_v1.1_s0018.g007453:1.00366)n3:0.285345)n0;

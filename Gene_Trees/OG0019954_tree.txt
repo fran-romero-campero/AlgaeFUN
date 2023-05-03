@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre02.g104250:0.273075,(raphidocelis_subcapitata_Rsub_08180:0.81473,(raphidocelis_subcapitata_Rsub_08181:0.73541,(raphidocelis_subcapitata_Rsub_09572:0.40384,(raphidocelis_subcapitata_Rsub_09573:0.27718,raphidocelis_subcapitata_Rsub_09574:0.17481)0.798:0.0908)0.902:0.18597)0.864:0.20059)1:0.273075);

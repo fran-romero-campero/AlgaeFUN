@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ09110:0.477605,(micromonas_pusilla_Micpu_27342304:0.26049,(bathycoccus_prasinos_Bathy10g01900:0.88535,ostreococcus_tauri_ostta12g00280:0.46622)n2:0.16175)n1:0.477605)n0;

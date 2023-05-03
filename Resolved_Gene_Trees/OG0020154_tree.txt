@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1174189:0.69658,(porphyra_umbilicalis_Pum0125s0034:0.61652,((galdieria_sulphuraria_GsulpSAG21_G3653:0.39923,gracilariopsis_chorda_PXF48077:0.37175)n3:0.12509,(cyanidioschyzon_merolae_XM_005539082:0.37807,cyanidioschyzon_merolae_XM_005535730:0.520677)n4:0.057853)n2:0.09416)n1:0.30113)n0;

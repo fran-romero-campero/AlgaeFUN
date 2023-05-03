@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ08610:0.61937,saccharina_japonica_SJ03832:0.93117)n1:0.31631,(guillardia_tetha_Guith1_144115:0.61112,(cryptophyceae_CCMP2293_Crypto2293_1_2126521:0.53415,cryptophyceae_CCMP2293_Crypto2293_1_1763862:0.68379)n3:0.26347)n2:0.31631)n0;

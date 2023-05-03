@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1262165:0.75798,nannochloropsis_gaditana_Nangad1_10404:1.06916)n1:0.108245,((cryptophyceae_CCMP2293_Crypto2293_1_1921842:0.36624,guillardia_tetha_Guith1_108240:0.43921)n3:0.57838,(cyanophora_paradoxa_Cyapar1_g9158:0.9847,galdieria_sulphuraria_GsulpSAG21_G2715:1.31867)n4:0.14564)n2:0.108245)n0;

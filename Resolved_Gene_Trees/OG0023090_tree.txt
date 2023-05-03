@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ13924:0.603455,(gracilariopsis_chorda_PXF48481:0.49428,(cyanophora_paradoxa_Cyapar1_g6252:0.37056,(klebsormidium_nitens_kfl00088_0260:0.38612,micromonas_pusilla_Micpu_27346186:0.28463)n3:0.30268)n2:0.3962)n1:0.603455)n0;

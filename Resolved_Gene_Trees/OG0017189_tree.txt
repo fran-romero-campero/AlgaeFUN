@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00036_0190:0.440195,(zea_mays_Zm00001d048773:0.42928,(aegilops_tauschii_AET7Gv21043200:0.15302,((triticum_aestivum_Traes_2DS_B70314DC1:0.04244,triticum_aestivum_Traes_2AS_3B9E92442:0.06082)n4:0.34695,(triticum_aestivum_Traes_4AL_70E837415:0,triticum_aestivum_Traes_4AL_70E8374151:0)n5:0.159048)n3:0.017672)n2:0.06291)n1:0.27961)n0;

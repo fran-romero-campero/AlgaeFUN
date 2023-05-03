@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ09522:0.75779,(chromochloris_zofingiensis_Cz10g08030:0.62585,(scenedesmus_obliquus_SZX61891:0.62498,(raphidocelis_subcapitata_Rsub_00806:0.57376,(coccomyxa_subellipsoidea_Cosub3_1340943:0.85714,cyanophora_paradoxa_Cyapar1_g24685:1.0824)n4:0.50668)n3:0.08172)n2:0.15029)n1:0.75779)n0;

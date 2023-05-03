@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_33231:0.91376,(sorghum_bicolor_Sobic.004G282000:0.1203,(aegilops_tauschii_AET6Gv20666500:0.00054,(triticum_aestivum_Traes_6BL_0E5F894AD:0.01948,(triticum_aestivum_Traes_6AL_9AA096479:0.01586,triticum_aestivum_Traes_6DL_D8FAF314B:0.000495)n4:4.95e-05)n3:5.5e-06)n2:0.01781)n1:0.91376)n0;

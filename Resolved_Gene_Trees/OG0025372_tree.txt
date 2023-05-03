@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy22g00030:1.48575,cyanidioschyzon_merolae_XM_005536666:0.50507)n1:0.0465,(cyanophora_paradoxa_Cyapar1_g20690:0.46892,galdieria_sulphuraria_GsulpSAG21_G1255:0.51214)n2:0.0465)n0;

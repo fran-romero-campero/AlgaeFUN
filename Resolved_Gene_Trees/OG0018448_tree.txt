@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ08368:0.292785,(gracilariopsis_chorda_PXF49762:0.43631,((porphyra_umbilicalis_Pum0373s0004:0,porphyra_umbilicalis_Pum0373s0006:0,porphyra_umbilicalis_Pum0373s0009:0)n3:0.00054,(porphyra_umbilicalis_Pum0060s0008:0.0034,porphyra_umbilicalis_Pum0373s0011:0.01798)n4:0.00054)n2:0.29241)n1:0.292785)n0;

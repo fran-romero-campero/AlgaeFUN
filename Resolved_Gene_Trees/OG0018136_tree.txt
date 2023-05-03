@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1782287:0.97044,(phaeodactylum_tricornutum_Phatr2_35958:0.56941,(nannochloropsis_gaditana_Nangad1_7426:0.42411,saccharina_japonica_SJ14123:0.46496)n3:0.08257)n2:0.1625)n1:0.158735,(scenedesmus_obliquus_SZX59502:0.50181,(chromochloris_zofingiensis_Cz02g00100:0.36709,raphidocelis_subcapitata_Rsub_12195:0.59646)n5:0.12244)n4:0.158735)n0;

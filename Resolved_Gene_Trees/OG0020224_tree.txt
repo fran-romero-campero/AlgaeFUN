@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH11310:0.00053,((cryptophyceae_CCMP2293_Crypto2293_1_1769498:0.56054,(guillardia_tetha_Guith1_121228:0.5416,guillardia_tetha_Guith1_144803:0.247608)n4:0.027512)n3:0.35149,guillardia_tetha_Guith1_154445:1.6879)n2:0.187545)n1:0.13193,dunaliella_salina_Dusal.0202s00009:0.47305)n0;

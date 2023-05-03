@@ -1,0 +1,1 @@
+((galdieria_sulphuraria_GsulpSAG21_G389:1.07139,(phaeodactylum_tricornutum_Phatr2_37393:0.00055,phaeodactylum_tricornutum_Phatr2_35472:0.00401)n2:0.84451)n1:0.092775,(cyanidioschyzon_merolae_XM_005539210:0.72207,nannochloropsis_gaditana_Nangad1_4338:1.10358)n3:0.092775)n0;

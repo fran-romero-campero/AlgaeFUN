@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1880996:0.7956,(guillardia_tetha_Guith1_132989:0.03622,guillardia_tetha_Guith1_146804:0.05509)n2:0.22801)n1:0.142135,(saccharina_japonica_SJ02908:0.46188,(nannochloropsis_gaditana_Nangad1_7940:1.09263,phaeodactylum_tricornutum_Phatr2_50510:0.99585)n4:0.27204)n3:0.142135)n0;

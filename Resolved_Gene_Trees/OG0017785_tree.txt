@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_3377835:0.274635,((haematococcus_lacustris_GFH21042:0.3319,(chara_braunii_Chabra1_g40169:0.32129,(ceratopteris_richardii_Ceric.31G016900:0.00055,ceratopteris_richardii_Ceric.04G099300:0.0056)n4:0.22753)n3:0.13486)n2:0.18566,(dunaliella_salina_Dusal.0021s00028:1.06296,sorghum_bicolor_Sobic.010G153466:0.61966)n5:0.11725)n1:0.274635)n0;

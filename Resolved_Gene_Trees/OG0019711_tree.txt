@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g48205:0.77805,(thuja_plicata_Thupl.29381213s0002:0.86403,(ceratopteris_richardii_Ceric.22G051900:0.76054,((ceratopteris_richardii_Ceric.1Z313300:0,ceratopteris_richardii_Ceric.22G048100:0)n4:0.49902,ceratopteris_richardii_Ceric.38G034200:0.59889)n3:0.13809)n2:0.03546)n1:0.77805)n0;

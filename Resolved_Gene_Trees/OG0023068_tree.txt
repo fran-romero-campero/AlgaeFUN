@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g22364:0.0849,cyanophora_paradoxa_Cyapar1_g22366:0.16158)n1:0.415065,(scenedesmus_obliquus_SZX64567:0.98569,(klebsormidium_nitens_kfl00120_0220:0.63315,mesostigma_viridae_Mv00464:1.23787)n3:0.15567)n2:0.415065)n0;

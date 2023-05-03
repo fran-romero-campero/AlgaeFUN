@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX78078:0.00055,scenedesmus_obliquus_SZX72687:0.00274)n1:0.394085,(haematococcus_lacustris_GFH21144:0.79813,(chlamydomonas_reinhardtii_Cre02.g117813:0.40525,volvox_carteri_Vocar.0009s0010:0.48911)n3:0.32271)n2:0.394085)n0;

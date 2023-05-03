@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy73g00020:0.325085,(chromochloris_zofingiensis_Cz06g32210:0.19201,((scenedesmus_obliquus_SZX62134:0.00052,scenedesmus_obliquus_SZX62980:0.20715)n3:0.15751,(raphidocelis_subcapitata_Rsub_06796:0.18382,raphidocelis_subcapitata_Rsub_12003:0.329751)n4:0.036639)n2:0.051)n1:0.11626)n0;

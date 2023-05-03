@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0280s0015:0.64785,(cyanidioschyzon_merolae_XM_005535004:0.87706,(galdieria_sulphuraria_GsulpSAG21_G1614:0.9892,gracilariopsis_chorda_PXF46834:0.30894)n3:0.174)n2:0.21147)n1:0.14403,(nannochloropsis_gaditana_Nangad1_6416:1.09508,(saccharina_japonica_SJ15505:0.89457,phaeodactylum_tricornutum_Phatr2_45427:1.07188)n5:0.09987)n4:0.14403)n0;

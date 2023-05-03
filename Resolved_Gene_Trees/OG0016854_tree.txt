@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ21567:0.833755,(mesostigma_viridae_Mv04155:1.32807,(mesostigma_viridae_Mv01778:0.93613,(mesostigma_viridae_Mv17405:0.55202,(mesostigma_viridae_Mv16140:0.52588,(mesostigma_viridae_Mv11044:0.3237,(mesostigma_viridae_Mv25324:0.02315,mesostigma_viridae_Mv04823:0.04089)n6:0.3133)n5:0.21579)n4:0.16763)n3:0.20477)n2:0.09969)n1:0.833755)n0;

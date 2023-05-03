@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_7448:0.51997,haematococcus_lacustris_GFH29061:0.45428)n1:0.157955,(cryptophyceae_CCMP2293_Crypto2293_1_3448762:0.42803,guillardia_tetha_Guith1_137702:0.2393)n2:0.157955)n0;

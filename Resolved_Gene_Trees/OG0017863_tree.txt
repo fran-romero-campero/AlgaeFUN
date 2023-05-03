@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g7974:0.652505,((chlamydomonas_reinhardtii_Cre08.g363650:0.2808,volvox_carteri_Vocar.0030s0007:0.45483)n2:0.20747,(scenedesmus_obliquus_SZX75282:1.0822,(dunaliella_salina_Dusal.0004s00075:0.66783,(haematococcus_lacustris_GFH23749:0.00054,haematococcus_lacustris_GFH26573:0.04027)n5:0.70561)n4:0.24469)n3:0.16153)n1:0.652505)n0;

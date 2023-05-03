@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1757853:0.77507,cryptophyceae_CCMP2293_Crypto2293_1_1796995:0.68526)n1:0.335955,(cyanophora_paradoxa_Cyapar1_g13322:0.88798,(cyanophora_paradoxa_Cyapar1_g19874:0.43598,cyanophora_paradoxa_Cyapar1_g19875:0.87423)n3:0.16905)n2:0.335955)n0;

@@ -1,0 +1,1 @@
+(((ceratopteris_richardii_Ceric.20G043700:0.91721,salvinia_cucullata_Sacu_v1.1_s0019.g007771:0.42888)n2:0.47512,(cycas_panzhihuaensis_CYCAS_024914:0.40244,thuja_plicata_Thupl.29378540s0001:1.12298)n3:0.45676)n1:0.115275,(sphagnum_magellanicum_Sphmag08G111400:0.35595,(ceratodon_purpureus_CepurR40.1G287900:0.10446,physcomitrium_patens_Pp3c3_28180:0.29968)n5:0.76098)n4:0.115275)n0;

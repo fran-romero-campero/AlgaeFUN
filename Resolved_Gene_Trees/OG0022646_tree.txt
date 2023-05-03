@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF47884:0.76533,(chromochloris_zofingiensis_Cz07g05100:0.42316,(scenedesmus_obliquus_SZX61665:0.33519,(raphidocelis_subcapitata_Rsub_12054:0.38099,raphidocelis_subcapitata_Rsub_09198:0.45522)n3:0.05058)n2:0.19121)n1:0.17167)n0;

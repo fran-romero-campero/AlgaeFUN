@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29378174s0005:0.445275,((ceratodon_purpureus_CepurR40.VG330900:0.24495,sphagnum_magellanicum_Sphmag06G102900:0.92636)n2:0.23391,(anthoceros_agrestis_AagrOXF_utg000006l.580:0.72906,marchantia_polymorpha_Mp2g15320:0.51326)n3:0.17945)n1:0.445275)n0;

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g4029:0.769845,(oryza_sativa_LOC_Os11g40220.1:0.62712,(oryza_sativa_LOC_Os11g41310.1:0.01389,oryza_sativa_LOC_Os11g41290.1:0.3476)n2:0.06101)n1:0.769845)n0;

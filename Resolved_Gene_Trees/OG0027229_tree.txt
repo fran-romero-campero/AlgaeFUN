@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH06972:0.45762,(selaginella_moellendorffii_Selmo_425170:0.30013,(triticum_aestivum_Traes_6BS_CE841B861:0.14214,triticum_aestivum_Traes_7DL_C3B51495E:0.13881)n2:0.25098)n1:0.45762)n0;

@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1897764:1.27368,guillardia_tetha_Guith1_155327:1.54849)n1:0.206535,(chromochloris_zofingiensis_Cz06g31200:0.1892,(haematococcus_lacustris_GFH19872:0.44048,(dunaliella_salina_Dusal.0710s00004:0.31006,chlamydomonas_reinhardtii_Cre02.g089600:1.00621)n4:0.0576)n3:0.51422)n2:0.206535)n0;

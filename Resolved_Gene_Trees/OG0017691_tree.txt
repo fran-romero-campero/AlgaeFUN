@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_37124:0.83673,(dunaliella_salina_Dusal.0066s00036:0.23771,haematococcus_lacustris_GFH21757:0.40601)n2:0.57198)n1:0.058875,(saccharina_japonica_SJ20248:0.75518,(bathycoccus_prasinos_Bathy18g00610:0.91786,(micromonas_pusilla_Micpu_27346427:0.49901,ostreococcus_tauri_ostta04g01740:0.42269)n5:0.1427)n4:0.12751)n3:0.058875)n0;

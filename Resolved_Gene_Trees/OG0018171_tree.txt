@@ -1,0 +1,1 @@
+(((mesostigma_viridae_Mv11445:0.83456,physcomitrium_patens_Pp3c11_8170:0.84152)n2:0.20899,((cryptophyceae_CCMP2293_Crypto2293_1_1832656:0.22817,guillardia_tetha_Guith1_159979:0.05243)n4:0.14322,(micromonas_pusilla_Micpu_27347363:0.34659,cryptophyceae_CCMP2293_Crypto2293_1_1602454:0.13759)n5:0.03951)n3:0.00439)n1:0.05478,cyanophora_paradoxa_Cyapar1_g13535:0.24605)n0;

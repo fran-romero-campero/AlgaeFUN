@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_021088:1.15338,triticum_aestivum_Traes_2BL_9798129EA:0.9415)n1:0.192215,(spirogloea_muscicola_SM000006S19490:0.01212,(spirogloea_muscicola_SM000008S22324:0.0289,spirogloea_muscicola_SM000272S10267:0.05693)n3:0.03865)n2:0.192215)n0;

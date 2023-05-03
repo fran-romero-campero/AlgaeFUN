@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv09029:0.7614,(anthoceros_agrestis_AagrOXF_utg000044l.85:0.80252,(ceratopteris_richardii_Ceric.16G047600:0.54193,(azolla_filiculoides_Azfi_s0160.g054058:0.48924,(azolla_filiculoides_Azfi_s0216.g058494:0,azolla_filiculoides_Azfi_s1707.g105998:0)n4:0.346122)n3:0.038458)n2:0.21902)n1:0.7614)n0;

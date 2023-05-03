@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00188_g25:0.389,klebsormidium_nitens_kfl00188_0230:0.41676)n1:0.394935,((thuja_plicata_Thupl.29377617s0006:0.00054,thuja_plicata_Thupl.29379759s0005:0.00055)n3:0.49058,(cycas_panzhihuaensis_CYCAS_025011:0.15981,(cycas_panzhihuaensis_CYCAS_025014:0.2386,cycas_panzhihuaensis_CYCAS_025013:0.15899)n5:0.03891)n4:0.42169)n2:0.394935)n0;

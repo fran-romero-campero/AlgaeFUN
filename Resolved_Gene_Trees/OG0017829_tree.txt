@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g21160:0.8,(cyanophora_paradoxa_Cyapar1_g23025:0.3868,(cyanophora_paradoxa_Cyapar1_g7749:0.33774,cyanophora_paradoxa_Cyapar1_g9375:0.02798)n3:0.34129)n2:0.1264)n1:0.19825,(chlorokybus_atmophyticus_Chlat1_5598:0.7598,(chara_braunii_Chabra1_g18762:0.46231,mesostigma_viridae_Mv20684:0.68079)n5:0.09017)n4:0.19825)n0;

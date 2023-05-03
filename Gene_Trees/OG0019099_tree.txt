@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.07G087400:0.31393,((thuja_plicata_Thupl.29378921s0006:0.36148,triticum_aestivum_Traes_2DS_1F1D8475C:0.27702)0.838:0.22909,(aegilops_tauschii_AET1Gv20890000:0.1224,(triticum_aestivum_Traes_4AL_208F43F36:0.00055,triticum_aestivum_Traes_4AL_DD53F5C1B:0.00055)0.993:0.00055)0.895:0.23816)1:0.31393);

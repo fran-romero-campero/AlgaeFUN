@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre03.g202202:0.76508,(dunaliella_salina_Dusal.0091s00016:0.45646,(dunaliella_salina_Dusal.0559s00003:0.2232,(dunaliella_salina_Dusal.0559s00007:0.23733,dunaliella_salina_Dusal.0590s00001:0.24528)n3:0.01619)n2:0.22409)n1:0.76508)n0;

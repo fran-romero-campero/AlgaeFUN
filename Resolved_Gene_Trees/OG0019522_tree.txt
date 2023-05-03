@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_16140:0.44114,(guillardia_tetha_Guith1_76641:0.29564,saccharina_japonica_SJ09370:0.27891)n2:0.10788)n1:0.10746,(bathycoccus_prasinos_Bathy03g01110:0.33223,(micromonas_pusilla_Micpu_27343244:0.34594,ostreococcus_tauri_ostta05g01070:0.20288)n4:0.07621)n3:0.10746)n0;

@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00093_0310:1.39075,(mesostigma_viridae_Mv00550:0.4899,mesostigma_viridae_Mv19205:0.223)1:0.9598)0.96:0.199045,(phaeodactylum_tricornutum_Phatr2_49130:0.60736,(phaeodactylum_tricornutum_Phatr2_44250:0.62781,(phaeodactylum_tricornutum_Phatr2_48279:0.00198,phaeodactylum_tricornutum_Phatr2_48287:0.00055)1:0.72229)0.733:0.15766)0.96:0.199045);

@@ -1,0 +1,1 @@
+((volvox_carteri_Vocar.0017s0206:0.7519,volvox_carteri_Vocar.0034s0044:0.61045)n1:0.64473,((porphyra_umbilicalis_Pum0521s0010:0.63356,porphyra_umbilicalis_Pum0347s0007:0.3918)n3:0.26717,(gracilariopsis_chorda_PXF41168:0.00055,gracilariopsis_chorda_PXF40668:0.00538)n4:0.21793)n2:0.64473)n0;

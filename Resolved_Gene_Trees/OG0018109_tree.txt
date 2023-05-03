@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_141605:1.29454,saccharina_japonica_SJ01423:0.67935)n1:0.121385,((gracilariopsis_chorda_PXF44245:0.40264,porphyra_umbilicalis_Pum0319s0004:0.50979)n3:0.79346,(chromochloris_zofingiensis_Cz04g09150:0.18044,(chromochloris_zofingiensis_Cz04g09160:0.22855,chromochloris_zofingiensis_Cz08g24010:0.00051)n5:0.07675)n4:0.45969)n2:0.121385)n0;

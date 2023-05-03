@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00009_0140:0.37259,(klebsormidium_nitens_kfl00068_0170:0.44487,(klebsormidium_nitens_kfl00009_0145:0.68891,klebsormidium_nitens_kfl00051_0100:0.42875)n3:0.18465)n2:0.03207)n1:0.41573,(chlamydomonas_reinhardtii_Cre10.g429300:0.55901,(scenedesmus_obliquus_SZX65422:0.72309,volvox_carteri_Vocar.0033s0018:0.65959)n5:0.2995)n4:0.41573)n0;

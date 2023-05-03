@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_105068:0.49272,phaeodactylum_tricornutum_Phatr2_39864:0.95943)n1:0.098225,(mesostigma_viridae_Mv18443:0.4969,(bathycoccus_prasinos_Bathy03g05180:0.73475,micromonas_pusilla_Micpu_27347869:0.41197)n3:0.13691)n2:0.098225)n0;

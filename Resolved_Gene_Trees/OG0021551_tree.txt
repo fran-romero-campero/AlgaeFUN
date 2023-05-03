@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc05g016470:0.4291,((zea_mays_Zm00001d021622:0.00055,zea_mays_Zm00001d002242:0.00055)n2:0.30994,(aegilops_tauschii_AET2Gv20722200:0.01567,triticum_aestivum_Traes_2DL_FB8BE5AAE:0.00054)n3:0.63693)n1:0.4291)n0;

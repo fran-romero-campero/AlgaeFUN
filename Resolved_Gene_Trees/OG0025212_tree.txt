@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0038.g026300:0.58336,(zea_mays_Zm00001d050821:0.0358,(zea_mays_Zm00001d021353:0.02232,zea_mays_Zm00001d010181:0.27802)n2:0.08504)n1:0.58336)n0;

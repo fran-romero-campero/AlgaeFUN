@@ -1,0 +1,1 @@
+((sorghum_bicolor_Sobic.004G122200:0.15517,zea_mays_Zm00001d016019:0.02767)n1:0.408305,(aegilops_tauschii_AET7Gv20281400:0.19389,(aegilops_tauschii_AET7Gv20282700:0.24191,aegilops_tauschii_AET6Gv20124400:0.36389)n3:0.10706)n2:0.408305)n0;

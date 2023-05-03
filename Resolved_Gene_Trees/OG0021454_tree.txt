@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET6Gv20338100:0.656375,(solanum_lycopersicum_Solyc12g007300:0.66281,(arabidopsis_thaliana_AT4G03160:0.73855,(arabidopsis_thaliana_AT1G20600:0.15041,arabidopsis_thaliana_AT4G03170:0.03805)n3:0.38782)n2:0.39918)n1:0.656375)n0;

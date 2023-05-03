@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_5BL_E3FAB67B8:0.5171,(ceratopteris_richardii_Ceric.07G081100:1.43895,solanum_lycopersicum_Solyc04g071660:0.48781)n2:0.7601)n1:0.254375,(spirogloea_muscicola_SM000028S10051:0.02845,(spirogloea_muscicola_SM000180S03521:0.17297,spirogloea_muscicola_SM000027S09571:0.11538)n4:0.06974)n3:0.254375)n0;

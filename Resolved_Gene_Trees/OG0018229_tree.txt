@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_44670:0.94141,(mesostigma_viridae_Mv11088:0.53571,micromonas_pusilla_Micpu_27339416:0.34974)n2:0.38275)n1:0.445335,(saccharina_japonica_SJ03479:0.57179,(galdieria_sulphuraria_GsulpSAG21_G1632:1.2309,(cryptophyceae_CCMP2293_Crypto2293_1_1777400:0.49804,guillardia_tetha_Guith1_139691:0.33323)n5:0.33784)n4:0.24508)n3:0.445335)n0;

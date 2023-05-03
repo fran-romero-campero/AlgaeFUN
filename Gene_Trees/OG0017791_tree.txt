@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp1g11730:0.53151,(ceratopteris_richardii_Ceric.39G003300:0.92977,((cycas_panzhihuaensis_CYCAS_028370:0.2807,(cycas_panzhihuaensis_CYCAS_026802:0.10043,cycas_panzhihuaensis_CYCAS_028369:0.08749)1:0.30242)1:0.51087,(cycas_panzhihuaensis_CYCAS_017575:0.25399,thuja_plicata_Thupl.29378275s0017:0.52824)1:0.55656)0.996:0.46842)1:0.53151);

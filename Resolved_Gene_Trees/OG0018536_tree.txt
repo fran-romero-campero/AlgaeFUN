@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv02695:0.4738,(mesostigma_viridae_Mv02987:0.0328,mesostigma_viridae_Mv20185:0.05435)n2:0.44365)n1:0.64526,(saccharina_japonica_SJ12878:0.63985,(saccharina_japonica_SJ16139:0.5365,(saccharina_japonica_SJ16140:0.37206,saccharina_japonica_SJ06966:0.47826)n5:0.24736)n4:0.17037)n3:0.64526)n0;

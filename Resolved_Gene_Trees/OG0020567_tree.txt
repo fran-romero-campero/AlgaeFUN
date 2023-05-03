@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27339451:0.45761,((nannochloropsis_gaditana_Nangad1_7367:0.46468,saccharina_japonica_SJ20028:0.72659)n2:0.29604,(phaeodactylum_tricornutum_Phatr2_32684:0.70753,(guillardia_tetha_Guith1_136890:0.80437,guillardia_tetha_Guith1_70348:0.385938)n4:0.042882)n3:0.2118)n1:0.45761)n0;

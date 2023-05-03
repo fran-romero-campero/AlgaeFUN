@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1780699:0.04523,cryptophyceae_CCMP2293_Crypto2293_1_1805419:0.03005)n1:0.532665,(physcomitrium_patens_Pp3c18_21500:0.9507,(triticum_aestivum_Traes_5BL_3AFD81462:0.21975,(triticum_aestivum_Traes_7BL_830B7A8CA:0.02736,triticum_aestivum_Traes_7AL_043F7AE3F:0.03669)n4:0.279018)n3:0.031002)n2:0.2201)n0;

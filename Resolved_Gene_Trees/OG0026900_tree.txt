@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000007S09848:0.236515,(cycas_panzhihuaensis_CYCAS_019060:0.69556,(triticum_aestivum_Traes_1BS_95AD57294:0.06757,oryza_sativa_LOC_Os11g25030.1:0.16636)n2:0.0716)n1:0.236515)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ19183:0.23017,(cyanophora_paradoxa_Cyapar1_g22578:0.93839,(gracilariopsis_chorda_PXF43514:0.86871,(anthoceros_agrestis_AagrOXF_utg000013l.172:0.37158,ulva_mutabilis_UM107_0034:0.7513)n3:0.25956)n2:0.13595)n1:0.23017)n0;

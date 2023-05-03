@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc07g017670:0.84222,zea_mays_Zm00001d040546:0.00055)n1:0.014005,(solanum_lycopersicum_Solyc07g017675:1.63142,(zea_mays_Zm00001d038345:0.11936,zea_mays_Zm00001d031361:0.051435)n3:0.005715)n2:0.00055)n0;

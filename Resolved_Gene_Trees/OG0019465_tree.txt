@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_031497:0.31009,triticum_aestivum_Traes_2DL_ACF159E37:0.39632)n1:0.289835,(azolla_filiculoides_Azfi_s0045.g029773:0.15717,(azolla_filiculoides_Azfi_s0001.g000844:0.41002,(azolla_filiculoides_Azfi_s0102.g044446:0.59482,azolla_filiculoides_Azfi_s0171.g055668:0.5427)n4:0.09955)n3:0.1068)n2:0.289835)n0;

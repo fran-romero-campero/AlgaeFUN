@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_7868:0.57591,((oryza_sativa_LOC_Os10g10260.1:0.31132,(oryza_sativa_LOC_Os10g10270.1:0.08289,oryza_sativa_LOC_Os10g18010.1:0.33749)n3:0.14428)n2:0.34985,(sorghum_bicolor_Sobic.008G036200:0.26416,(zea_mays_Zm00001d023406:0.3926,(zea_mays_Zm00001d023401:0.08626,zea_mays_Zm00001d023412:0.05673)n6:0.16553)n5:0.26287)n4:0.11836)n1:0.57591)n0;

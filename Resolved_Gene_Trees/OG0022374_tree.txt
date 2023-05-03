@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_44950:0.50203,(coccomyxa_subellipsoidea_Cosub3_1219097:0.55491,(chromochloris_zofingiensis_Cz08g27050:0.72466,(chlamydomonas_reinhardtii_Cre06.g302000:0.2645,chlamydomonas_reinhardtii_Cre06.g301800:0.17967)n3:0.43994)n2:0.3968)n1:0.50203)n0;

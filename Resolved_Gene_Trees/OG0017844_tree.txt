@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH21542:0.32299,(mesotaenium_endlicherianum_ME000184S02160:0.45977,((chlorokybus_atmophyticus_Chlat1_4186:0.53183,chlorokybus_atmophyticus_Chlat1_4224:0.77874)n3:0.22789,(chara_braunii_Chabra1_g38721:0.74998,(mesostigma_viridae_Mv14311:0.19003,mesostigma_viridae_Mv12334:0.10501)n5:0.44486)n4:0.15886)n2:0.58493)n1:0.32299)n0;

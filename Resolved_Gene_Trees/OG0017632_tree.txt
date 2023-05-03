@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_408928:0.15875,selaginella_moellendorffii_Selmo_405492:0.00055)n1:0.26553,((azolla_filiculoides_Azfi_s0070.g036668:0.54273,ceratopteris_richardii_Ceric.22G070000:0.55939)n3:0.2975,(thuja_plicata_Thupl.29377906s0001:0.44515,(cycas_panzhihuaensis_CYCAS_007755:0.63605,cycas_panzhihuaensis_CYCAS_030371:0.490671)n5:0.054519)n4:0.10113)n2:0.26553)n0;

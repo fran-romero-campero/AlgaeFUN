@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27339760:0.42616,(cyanophora_paradoxa_Cyapar1_g18891:0.73066,(chara_braunii_Chabra1_g27808:0.56471,klebsormidium_nitens_kfl00182_0260:0.53118)n3:0.27888)n2:0.4078)n1:0.063885,(phaeodactylum_tricornutum_Phatr2_34208:0.00054,(phaeodactylum_tricornutum_Phatr2_34209:0.04927,phaeodactylum_tricornutum_Phatr2_34273:0.40911)n5:0.05506)n4:0.063885)n0;

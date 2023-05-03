@@ -1,0 +1,1 @@
+(((mesostigma_viridae_Mv09460:0.1882,mesostigma_viridae_Mv09462:0.16095)n2:0.7461,(chlorokybus_atmophyticus_Chlat1_6035:0.26377,chlorokybus_atmophyticus_Chlat1_9049:0.32278)n3:0.29418)n1:0.192295,(klebsormidium_nitens_kfl00154_0040:0.32917,klebsormidium_nitens_kfl00154_0050:0.52964)n4:0.192295)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ14280:0.424715,(cyanophora_paradoxa_Cyapar1_g7800:0.67019,((dunaliella_salina_Dusal.0372s00012:0.86945,(chlamydomonas_reinhardtii_Cre03.g178200:0.37775,volvox_carteri_Vocar.0015s0352:0.64576)n4:0.78773)n3:0.13229,(chlorokybus_atmophyticus_Chlat1_111:0.63535,mesostigma_viridae_Mv10441:0.62377)n5:0.0806)n2:0.26975)n1:0.424715)n0;

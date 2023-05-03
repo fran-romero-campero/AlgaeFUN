@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_10510:0.33632,(aegilops_tauschii_AET5Gv20572400:0.3415,(cycas_panzhihuaensis_CYCAS_004214:0.01721,(cycas_panzhihuaensis_CYCAS_009800:0.20579,cycas_panzhihuaensis_CYCAS_025891:0.10855)n3:0.01102)n2:0.18029)n1:0.33632)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ01387:0.21172,(porphyra_umbilicalis_Pum1457s0003:0.26555,(klebsormidium_nitens_kfl00101_0150:0.65044,(spirogloea_muscicola_SM000181S03530:0.00055,(spirogloea_muscicola_SM000103S09466:0.06683,spirogloea_muscicola_SM000051S17558:0.01743)n4:0.00557)n3:0.40604)n2:0.25349)n1:0.21172)n0;

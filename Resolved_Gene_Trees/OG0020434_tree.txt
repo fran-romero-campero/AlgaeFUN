@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_6BL_5BF88A3BB:0.65984,(triticum_aestivum_Traes_2AL_1F3808CD0:0.05928,triticum_aestivum_Traes_6BL_56E06BDBA:0.07177)n2:0.25186)n1:0.27795,(cycas_panzhihuaensis_CYCAS_001569:0.49435,(thuja_plicata_Thupl.29380854s0015:0.2744,thuja_plicata_Thupl.28174598s0001:0.28338)n4:0.42732)n3:0.27795)n0;

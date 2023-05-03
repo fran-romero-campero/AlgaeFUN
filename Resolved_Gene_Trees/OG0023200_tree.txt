@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0244s00005:0.83389,haematococcus_lacustris_GFH15377:0.37942)n1:0.235045,(spirogloea_muscicola_SM003778S14590:0.01773,(spirogloea_muscicola_SM003833S14629:0.00652,spirogloea_muscicola_SM004009S15651:0.00373)n3:0.00114)n2:0.235045)n0;

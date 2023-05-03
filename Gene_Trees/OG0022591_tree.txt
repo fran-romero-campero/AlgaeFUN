@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz04g07180:0.15701,(chromochloris_zofingiensis_Cz04g07190:0.17327,chromochloris_zofingiensis_Cz01g27080:0.00055)0.741:0.03778)0.996:0.266625,(phaeodactylum_tricornutum_Phatr2_49168:0.71009,saccharina_japonica_SJ15885:1.29565)0.996:0.266625);

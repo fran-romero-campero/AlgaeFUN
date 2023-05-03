@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.8G008600:0.110925,(triticum_aestivum_Traes_5DL_C81F2CFD8:0.69838,(cycas_panzhihuaensis_CYCAS_000303:0.10471,(cycas_panzhihuaensis_CYCAS_032344:0.09076,(cycas_panzhihuaensis_CYCAS_000300:0.01253,(cycas_panzhihuaensis_CYCAS_000298:0.15633,cycas_panzhihuaensis_CYCAS_000297:0.01321)n5:0.00893)n4:0.04686)n3:0.18507)n2:0.20948)n1:0.110925)n0;

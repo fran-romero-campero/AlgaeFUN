@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_7913:1.19823,saccharina_japonica_SJ06602:1.2361)n1:0.146905,((ceratodon_purpureus_CepurR40.3G090800:0,ceratodon_purpureus_CepurR40.3G090700:0,ceratodon_purpureus_CepurR40.3G090900:0)n3:0.60803,cyanophora_paradoxa_Cyapar1_g14079:0.73165)n2:0.146905)n0;

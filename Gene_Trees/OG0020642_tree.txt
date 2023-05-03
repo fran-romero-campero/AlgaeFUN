@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv18804:0.406495,(klebsormidium_nitens_kfl00404_0020:0.51015,(mesotaenium_endlicherianum_ME000083S10025:0.74317,(spirogloea_muscicola_SM000026S08886:0.0313,(spirogloea_muscicola_SM000011S18984:0.03417,spirogloea_muscicola_SM000048S16575:0.01127)0.414:0.01669)0.883:0.23839)0.942:0.24329)1:0.406495);

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1251880:0.12335,(haematococcus_lacustris_GFH12106:1.06807,(chromochloris_zofingiensis_Cz05g11080:0.13219,scenedesmus_obliquus_SZX62411:0.22173)n2:0.23441)n1:0.12335)n0;

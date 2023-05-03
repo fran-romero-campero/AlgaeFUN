@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_03234:0.29865,(chromochloris_zofingiensis_Cz04g30200:0.31908,scenedesmus_obliquus_SZX70344:0.36025)n2:0.12684)n1:0.21747,(cryptophyceae_CCMP2293_Crypto2293_1_1598190:0.40535,((nannochloropsis_gaditana_Nangad1_3248:0.64986,guillardia_tetha_Guith1_154557:0.7382)n5:0.14029,phaeodactylum_tricornutum_Phatr2_40647:0.95424)n4:0.08654)n3:0.21747)n0;

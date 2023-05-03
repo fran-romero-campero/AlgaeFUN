@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0193.g057101:0.00055,azolla_filiculoides_Azfi_s1031.g095615:0.13828)n1:0.66548,(spirogloea_muscicola_SM008228S22706:0.00055,(spirogloea_muscicola_SM007491S21735:0.21911,spirogloea_muscicola_SM007742S22541:0.11267)n3:0.13931)n2:0.66548)n0;

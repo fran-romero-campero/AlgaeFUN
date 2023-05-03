@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc02g061920:0.490145,(oryza_sativa_ChrUn.fgenesh.mRNA.8:0.38843,(sorghum_bicolor_Sobic.006G001700:0.53697,(aegilops_tauschii_AET2Gv20291900:0.10078,(aegilops_tauschii_AET6Gv20165400:0.13864,aegilops_tauschii_AET6Gv20139300:0.13305)n4:0.1235)n3:0.19441)n2:0.10362)n1:0.490145)n0;

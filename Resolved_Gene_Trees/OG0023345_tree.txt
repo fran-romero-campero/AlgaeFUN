@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_8807:0.549055,(haematococcus_lacustris_GFH29879:0.00055,(haematococcus_lacustris_GFH28469:0.00055,(haematococcus_lacustris_GFH07222:0.21462,haematococcus_lacustris_GFH28470:0.03169)n3:0.04655)n2:0.11824)n1:0.549055)n0;

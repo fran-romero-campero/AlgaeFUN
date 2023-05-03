@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_405921:0.663365,(cycas_panzhihuaensis_CYCAS_012050:0.66053,((azolla_filiculoides_Azfi_s0153.g053458:0.32216,(ceratopteris_richardii_Ceric.33G043700:0.47891,ceratopteris_richardii_Ceric.17G005900:0.165852)n4:0.018428)n3:0.27422,salvinia_cucullata_Sacu_v1.1_s0153.g023517:0.70194)n2:0.13561)n1:0.663365)n0;

@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_160445:0.84685,(chlorokybus_atmophyticus_Chlat1_2693:0.28407,((dunaliella_salina_Dusal.0127s00024:0.72208,ulva_mutabilis_UM022_0084:0.40642)n3:0.08411,(scenedesmus_obliquus_SZX72282:0.28535,(raphidocelis_subcapitata_Rsub_03394:0.37601,chromochloris_zofingiensis_Cz05g34100:0.28682)n5:0.13238)n4:0.11617)n2:0.66004)n1:0.84685)n0;

@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_5556:0.5547,(raphidocelis_subcapitata_Rsub_00203:0.68904,((dunaliella_salina_Dusal.1029s00004:0.72491,scenedesmus_obliquus_SZX78515:0.38014)n3:0.11301,(haematococcus_lacustris_GFH33245:0.80888,(chlamydomonas_reinhardtii_Cre11.g480079:0.14777,volvox_carteri_Vocar.0048s0022:0.62287)n5:0.58367)n4:0.12829)n2:0.4875)n1:0.5547)n0;

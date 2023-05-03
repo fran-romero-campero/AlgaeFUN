@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_49537:0.52308,(scenedesmus_obliquus_SZX77266:0.71137,(chlorokybus_atmophyticus_Chlat1_2454:0.75596,(micromonas_pusilla_Micpu_27344976:0.39043,(bathycoccus_prasinos_Bathy02g05430:0.90236,ostreococcus_tauri_ostta07g00500:0.48792)n4:0.1638)n3:0.2268)n2:0.33054)n1:0.52308)n0;

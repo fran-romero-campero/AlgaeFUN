@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_2367:0.94958,saccharina_japonica_SJ06401:0.65749)n1:0.535065,(phaeodactylum_tricornutum_Phatr2_50209:0.00393,phaeodactylum_tricornutum_Phatr2_bd_1555:0.00447)n2:0.535065)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv02772:0.45237,((chromochloris_zofingiensis_Cz06g16200:0.42708,raphidocelis_subcapitata_Rsub_03183:0.50486)n2:0.07531,(scenedesmus_obliquus_SZX62714:0.93921,(scenedesmus_obliquus_SZX78317:0.07449,scenedesmus_obliquus_SZX61378:0.0047)n4:0.410166)n3:0.045574)n1:0.67992)n0;

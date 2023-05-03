@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g9739:0.02595,cyanophora_paradoxa_Cyapar1_g16767:0.00055)n1:0.909865,(chara_braunii_Chabra1_g4683:0.24475,((chara_braunii_Chabra1_g45589:2.25742,chara_braunii_Chabra1_g44466:0.33295)n4:0.03785,(chara_braunii_Chabra1_g18668:0.02246,chara_braunii_Chabra1_g55005:0.08232)n5:0.18649)n3:0.01336)n2:0.909865)n0;

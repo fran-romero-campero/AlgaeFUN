@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ22545:0.475035,(coccomyxa_subellipsoidea_Cosub3_659533:0.4665,((haematococcus_lacustris_GFH20735:0.395,dunaliella_salina_Dusal.0369s00017:0.62014)n3:0.29106,(raphidocelis_subcapitata_Rsub_01806:0.35646,(chromochloris_zofingiensis_Cz05g35030:0.29234,scenedesmus_obliquus_SZX67364:0.44581)n5:0.06943)n4:0.43736)n2:0.1668)n1:0.475035)n0;

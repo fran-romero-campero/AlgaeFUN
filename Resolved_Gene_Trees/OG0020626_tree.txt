@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ01826:0.289925,((klebsormidium_nitens_kfl00067_0360:1.03133,saccharina_japonica_SJ00438:0.51167)n2:0.103,(micromonas_pusilla_Micpu_27346677:0.39954,(saccharina_japonica_SJ16657:0.28247,raphidocelis_subcapitata_Rsub_06315:0.68282)n4:0.0953)n3:0.03051)n1:0.289925)n0;

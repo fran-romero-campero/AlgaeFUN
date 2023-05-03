@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ11349:0.896205,(aegilops_tauschii_AET3Gv20164700:0.09808,((aegilops_tauschii_AET7Gv20540100:0.00054,(triticum_aestivum_Traes_7AS_93B202809:0.01567,triticum_aestivum_Traes_7DS_04E7229DB:0.000495)n4:5.5e-05)n3:0.01693,(triticum_aestivum_Traes_7BS_F2F622CD8:0.02018,aegilops_tauschii_AET2Gv20037600:0.146376)n5:0.016264)n2:0.09955)n1:0.896205)n0;

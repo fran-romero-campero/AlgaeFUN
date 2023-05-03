@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1231694:0.64275,micromonas_pusilla_Micpu_27348866:1.03891)n1:0.330585,(saccharina_japonica_SJ02219:0.29768,(nannochloropsis_gaditana_Nangad1_8451:0.00054,nannochloropsis_gaditana_Nangad1_8452:0.00055)n3:1.0942)n2:0.330585)n0;

@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp2g05190:0.601155,(mesostigma_viridae_Mv09165:0.41613,((mesostigma_viridae_Mv09166:0.21187,(mesostigma_viridae_Mv09168:0.52138,mesostigma_viridae_Mv09167:0.26236)n4:0.15254)n3:0.28989,mesostigma_viridae_Mv09169:0.49384)n2:0.17656)n1:0.601155)n0;

@@ -1,0 +1,1 @@
+((zea_mays_Zm00001d026105:0.27184,zea_mays_Zm00001d018304:0.18687)n1:0.494115,(oryza_sativa_LOC_Os02g12200.1:0.12619,(oryza_sativa_LOC_Os02g12100.1:0.04039,oryza_sativa_LOC_Os02g39650.1:0.41512)n3:0.06893)n2:0.494115)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_42941:0.462205,(chlorokybus_atmophyticus_Chlat1_1425:0.53354,(mesostigma_viridae_Mv23046:0.66648,(spirogloea_muscicola_SM000007S20922:0.04005,(spirogloea_muscicola_SM000004S14895:0.04715,spirogloea_muscicola_SM000011S19137:0.03708)n4:0.03146)n3:0.52412)n2:0.10815)n1:0.462205)n0;

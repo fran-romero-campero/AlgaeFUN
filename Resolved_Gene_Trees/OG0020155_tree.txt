@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_3046:0.69644,((coccomyxa_subellipsoidea_Cosub3_1339253:1.54855,(coccomyxa_subellipsoidea_Cosub3_1184827:0.17993,coccomyxa_subellipsoidea_Cosub3_1388543:0.18975)n3:0.63938)n2:0.01416,(cyanophora_paradoxa_Cyapar1_g12636:0.3309,cyanophora_paradoxa_Cyapar1_g16692:0.40384)n4:0.19549)n1:0.69644)n0;

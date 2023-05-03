@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_153512:0.60563,(cryptophyceae_CCMP2293_Crypto2293_1_1983384:0.41033,physcomitrium_patens_Pp3s32_550:1.28031)n2:0.1785)n1:0.085645,(bathycoccus_prasinos_Bathy07g03330:0.77741,(mesostigma_viridae_Mv19796:1.34272,phaeodactylum_tricornutum_Phatr2_49453:0.42708)n4:0.35315)n3:0.085645)n0;

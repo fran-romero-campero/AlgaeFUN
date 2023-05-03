@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29379948s0018:0.23546,sorghum_bicolor_Sobic.009G057750:0.22364)n1:0.10084,((physcomitrium_patens_Pp3c5_27340:0.23511,(physcomitrium_patens_Pp3c10_6680:0.04594,physcomitrium_patens_Pp3c9_1570:0.18587)n4:0.16885)n3:0.36639,(marchantia_polymorpha_Mp5g04280:0.25544,marchantia_polymorpha_Mp4g15060:0.000486)n5:5.4e-05)n2:0.23968)n0;

@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy36g00110:0.130835,(mesostigma_viridae_Mv20289:0.15693,(cycas_panzhihuaensis_CYCAS_033187:0.39463,physcomitrium_patens_Pp3s30_1140:0.78144)n2:0.55305)n1:0.130835)n0;

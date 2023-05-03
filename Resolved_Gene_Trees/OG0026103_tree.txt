@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz18g05250:0.28607,(raphidocelis_subcapitata_Rsub_02651:0.70417,(scenedesmus_obliquus_SZX77915:0.31889,scenedesmus_obliquus_SZX77916:0.63838)n2:0.10678)n1:0.28607)n0;

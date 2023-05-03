@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1834152:0.503925,(oryza_sativa_LOC_Os10g03880.1:1.16549,((galdieria_sulphuraria_GsulpSAG21_G5642:0.04279,galdieria_sulphuraria_GsulpSAG21_G1413:0.02654)n3:0.83919,(cyanidioschyzon_merolae_XM_005536571:0.78879,(gracilariopsis_chorda_PXF45648:0.66042,porphyra_umbilicalis_Pum0269s0010:1.36665)n5:0.19981)n4:0.08512)n2:0.45334)n1:0.503925)n0;

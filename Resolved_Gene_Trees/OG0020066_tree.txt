@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1945000:0.54156,((chlorokybus_atmophyticus_Chlat1_3918:0.76479,klebsormidium_nitens_kfl00454_0030:0.51556)n2:0.38803,(haematococcus_lacustris_GFH23671:0.86258,(coccomyxa_subellipsoidea_Cosub3_1299342:0.72096,scenedesmus_obliquus_SZX73609:0.90201)n4:0.20876)n3:0.1492)n1:0.54156)n0;

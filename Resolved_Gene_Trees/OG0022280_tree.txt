@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv10788:1.12105,(chara_braunii_Chabra1_g16806:0.83891,chlorokybus_atmophyticus_Chlat1_4156:1.32711)n2:0.00054)n1:0.23423,(cyanophora_paradoxa_Cyapar1_g1590:0.05992,cyanophora_paradoxa_Cyapar1_g1591:0.06353)n3:0.23423)n0;

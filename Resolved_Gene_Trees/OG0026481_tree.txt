@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM081_0013:0.56564,(saccharina_japonica_SJ20121:1.06124,(cryptophyceae_CCMP2293_Crypto2293_1_1798380:0.74062,guillardia_tetha_Guith1_108696:0.4471)n2:0.2062)n1:0.56564)n0;

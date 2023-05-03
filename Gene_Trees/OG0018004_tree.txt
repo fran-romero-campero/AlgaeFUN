@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_142555:0.86171,(coccomyxa_subellipsoidea_Cosub3_1343143:0.57452,(volvox_carteri_Vocar.0679s0001:0.5275,((volvox_carteri_Vocar.0007s0129:0.24034,volvox_carteri_Vocar.0008s0283:0.29427)1:0.32234,(chlamydomonas_reinhardtii_Cre02.g113626:0.56376,volvox_carteri_Vocar.0017s0108:0.55395)0.976:0.17646)0.883:0.15852)0.998:0.75185)1:0.86171);

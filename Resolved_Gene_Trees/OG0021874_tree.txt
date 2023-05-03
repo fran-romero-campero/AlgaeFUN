@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag01G195000:0.428115,((arabidopsis_thaliana_AT5G22210:0.20526,solanum_lycopersicum_Solyc11g068810:0.18952)n2:0.48221,(cycas_panzhihuaensis_CYCAS_029574:0.45353,thuja_plicata_Thupl.29377766s0005:0.8497)n3:0.0172)n1:0.428115)n0;

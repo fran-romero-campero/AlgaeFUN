@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_37886:1.97214,saccharina_japonica_SJ11205:0.86933)n1:0.111855,((coccomyxa_subellipsoidea_Cosub3_1233324:0.43068,ulva_mutabilis_UM031_0052:0.65365)n3:0.23604,(mesostigma_viridae_Mv01890:0.55692,(mesotaenium_endlicherianum_ME000155S01417:0.62283,klebsormidium_nitens_kfl00009_0130:0.59537)n5:0.11932)n4:0.16299)n2:0.111855)n0;

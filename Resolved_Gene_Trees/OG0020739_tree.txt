@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc11g006330:0.33494,(oryza_sativa_LOC_Os10g02870.1:0.40047,(triticum_aestivum_Traes_6AL_08B70176D:0.31653,(triticum_aestivum_Traes_3DS_BF91A3DBA:0.12522,(triticum_aestivum_Traes_3B_B0803D712:0.03384,triticum_aestivum_Traes_3DS_0233E3CFB:0.01126)n4:0.05261)n3:0.36952)n2:0.53019)n1:0.33494)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ18127:0.34386,(gracilariopsis_chorda_PXF49764:0.54725,(ceratodon_purpureus_CepurR40.6G009500:0.23889,physcomitrium_patens_Pp3c1_34890:0.38211)n2:0.85502)n1:0.34386)n0;

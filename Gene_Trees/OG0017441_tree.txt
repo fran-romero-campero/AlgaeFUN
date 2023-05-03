@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000065S08999:0.457675,((sorghum_bicolor_Sobic.001G249300:0.06767,zea_mays_Zm00001d014181:0.08961)0.984:0.25767,((triticum_aestivum_Traes_1BS_CB3076CB7:0.07662,triticum_aestivum_Traes_1AS_AE4FDD91A:0.03153)0.771:0.01433,(aegilops_tauschii_AET1Gv20186800:0.00119,triticum_aestivum_Traes_1DS_C70B313261:0.00055)0.964:0.01811)0.898:0.17416)1:0.457675);

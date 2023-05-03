@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_50387:0.64991,(nannochloropsis_gaditana_Nangad1_10240:0.39808,saccharina_japonica_SJ21003:0.38734)n2:0.21929)n1:0.352925,(porphyra_umbilicalis_Pum1180s0005:0.48039,(galdieria_sulphuraria_GsulpSAG21_G5128:0.72724,gracilariopsis_chorda_PXF47062:0.34455)n4:0.13779)n3:0.352925)n0;

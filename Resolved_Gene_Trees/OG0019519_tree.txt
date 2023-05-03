@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_147553:0.267145,((bathycoccus_prasinos_Bathy02g05180:0.47433,micromonas_pusilla_Micpu_27345245:0.397)n2:0.21047,(micromonas_pusilla_Micpu_27345223:0.36085,(bathycoccus_prasinos_Bathy07g02510:0.52553,ostreococcus_tauri_ostta12g02310:0.37641)n4:0.10324)n3:0.22063)n1:0.267145)n0;

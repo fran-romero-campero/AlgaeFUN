@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_1698:0.85706,saccharina_japonica_SJ21033:0.77912)n1:0.12587,(cyanophora_paradoxa_Cyapar1_g18782:0.82782,mesostigma_viridae_Mv07365:0.86806)n2:0.12587)n0;

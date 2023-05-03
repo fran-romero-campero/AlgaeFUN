@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_706:0.49715,((spirogloea_muscicola_SM000358S13183:0.14162,(spirogloea_muscicola_SM000213S06815:0.20259,spirogloea_muscicola_SM007801S22561:0.00055)n3:0.00055)n2:0.23894,(sphagnum_magellanicum_Sphmag16G050100:0.36694,mesotaenium_endlicherianum_ME000099S10509:0.63553)n4:0.13777)n1:0.49715)n0;

@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM014_0044:0.36693,((dunaliella_salina_Dusal.0115s00018:0.40519,haematococcus_lacustris_GFH13140:0.62456)n2:0.28473,(chromochloris_zofingiensis_Cz02g11100:0.4478,scenedesmus_obliquus_SZX61228:0.76521)n3:0.41043)n1:0.36693)n0;

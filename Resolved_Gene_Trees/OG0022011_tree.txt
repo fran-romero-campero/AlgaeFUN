@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_43434:0.35392,(bathycoccus_prasinos_Bathy62g00050:1.89369,(galdieria_sulphuraria_GsulpSAG21_G4613:0.5073,(chlorokybus_atmophyticus_Chlat1_6467:1.02088,chlorokybus_atmophyticus_Chlat1_8261:0.447876)n3:0.049764)n2:0.29128)n1:0.1148)n0;

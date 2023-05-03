@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv09415:0.411175,(phaeodactylum_tricornutum_Phatr2_46062:0.82233,(guillardia_tetha_Guith1_102872:0.49808,saccharina_japonica_SJ00954:0.56925)n2:0.10428)n1:0.411175)n0;

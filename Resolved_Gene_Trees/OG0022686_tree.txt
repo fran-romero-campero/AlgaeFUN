@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX74157:0.538485,((coccomyxa_subellipsoidea_Cosub3_1208384:0.34064,coccomyxa_subellipsoidea_Cosub3_1343536:0.62187)n2:0.46654,(coccomyxa_subellipsoidea_Cosub3_1160089:1.00132,coccomyxa_subellipsoidea_Cosub3_1328197:0.951)n3:0.05191)n1:0.538485)n0;

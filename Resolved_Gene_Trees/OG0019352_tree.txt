@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_019021:0.7413,selaginella_moellendorffii_Selmo_445013:1.15187)n1:0.06352,((ceratodon_purpureus_CepurR40.10G104700:0.44337,sphagnum_magellanicum_Sphmag02G186100:0.43527)n3:0.22146,(anthoceros_agrestis_AagrOXF_utg000008l.392:0.62644,marchantia_polymorpha_Mp1g21380:0.45153)n4:0.07128)n2:0.06352)n0;

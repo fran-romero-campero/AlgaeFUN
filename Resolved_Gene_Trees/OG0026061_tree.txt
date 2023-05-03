@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF44928:1.24231,mesotaenium_endlicherianum_ME000369S06431:0.59167)n1:0.11491,(chlorokybus_atmophyticus_Chlat1_3630:0.75976,galdieria_sulphuraria_GsulpSAG21_G2706:0.71506)n2:0.11491)n0;

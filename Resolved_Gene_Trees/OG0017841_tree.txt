@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g34557:1.53883,(chlamydomonas_reinhardtii_Cre11.g468380:0.36726,(chlamydomonas_reinhardtii_Cre11.g468371:0.40309,(volvox_carteri_Vocar.0026s0045:0.30455,(volvox_carteri_Vocar.0029s0050:0.0528,volvox_carteri_Vocar.0012s0208:0.04119)n5:0.17378)n4:0.70285)n3:0.30564)n2:0.03396)n1:0.03838,mesostigma_viridae_Mv06167:1.33518)n0;

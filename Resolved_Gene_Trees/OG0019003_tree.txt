@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag04G037900:0.353525,(aegilops_tauschii_AET5Gv20336800:0.00055,((triticum_aestivum_Traes_3B_C26711170:0.08527,triticum_aestivum_Traes_3AS_D964EB9651:0.09345)n3:0.07862,(triticum_aestivum_Traes_4AL_31995E4AA:0.11124,triticum_aestivum_Traes_5DL_6DF240DBB:0.000495)n4:4.95e-05)n2:5.5e-06)n1:0.57416)n0;

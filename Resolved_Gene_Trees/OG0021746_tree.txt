@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF43485:0.00054,gracilariopsis_chorda_PXF43488:0.01615)n1:0.814505,(ceratopteris_richardii_Ceric.11G091700:1.09008,(anthoceros_agrestis_AagrOXF_utg000035l.277:0.28008,anthoceros_agrestis_AagrOXF_utg000009l.15:0.821115)n3:0.091235)n2:0.08844)n0;

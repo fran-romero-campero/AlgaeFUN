@@ -1,0 +1,1 @@
+(((nannochloropsis_gaditana_Nangad1_7865:0.57317,saccharina_japonica_SJ06593:0.50804)n2:0.21954,(mesostigma_viridae_Mv19405:0.71112,micromonas_pusilla_Micpu_27347597:0.57745)n3:0.1708)n1:0.077875,(phaeodactylum_tricornutum_Phatr2_46863:1.02408,(cryptophyceae_CCMP2293_Crypto2293_1_1811127:0.62563,gracilariopsis_chorda_PXF41808:0.83002)n5:0.13187)n4:0.077875)n0;

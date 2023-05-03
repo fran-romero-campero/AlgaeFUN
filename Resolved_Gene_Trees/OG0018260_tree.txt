@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM101_0023:0.05763,ulva_mutabilis_UM117_0020:0.07892)n1:0.35071,((saccharina_japonica_SJ17911:1.35234,(saccharina_japonica_SJ19235:0.8101,saccharina_japonica_SJ06716:1.31996)n4:0.12049)n3:0.09664,(cryptophyceae_CCMP2293_Crypto2293_1_1843947:0.78732,cryptophyceae_CCMP2293_Crypto2293_1_2152710:0.697113)n5:0.077457)n2:0.23115)n0;

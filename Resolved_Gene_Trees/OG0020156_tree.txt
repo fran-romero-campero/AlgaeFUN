@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1214117:0.4007,cryptophyceae_CCMP2293_Crypto2293_1_1768307:1.29619)n1:0.11245,(saccharina_japonica_SJ18863:0.70101,(nannochloropsis_gaditana_Nangad1_7077:1.11871,(guillardia_tetha_Guith1_138919:0.54686,mesostigma_viridae_Mv11061:0.64359)n4:0.12452)n3:0.02851)n2:0.11245)n0;

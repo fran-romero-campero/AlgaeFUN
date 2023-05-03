@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ05712:0.500495,(thuja_plicata_Thupl.29378099s0005:0.03665,(thuja_plicata_Thupl.29378876s0017:0.06436,((thuja_plicata_Thupl.29378960s0005:0.06101,thuja_plicata_Thupl.29380345s0008:0.09196)n4:0.04244,thuja_plicata_Thupl.29381749s0014:0.03563)n3:0.02766)n2:0.13959)n1:0.500495)n0;

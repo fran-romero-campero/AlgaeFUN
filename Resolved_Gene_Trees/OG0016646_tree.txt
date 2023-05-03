@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1917747:0.50661,micromonas_pusilla_Micpu_27347665:0.51855)n1:0.115105,(saccharina_japonica_SJ00576:1.0178,(mesostigma_viridae_Mv26140:0.13991,(mesostigma_viridae_Mv05840:0.27373,((mesostigma_viridae_Mv04314:0,mesostigma_viridae_Mv03152:0)n6:0.00055,mesostigma_viridae_Mv00986:0.00055)n5:0.00055)n4:0.21215)n3:0.32192)n2:0.115105)n0;

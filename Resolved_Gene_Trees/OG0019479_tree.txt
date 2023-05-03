@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ01035:0.629875,(salvinia_cucullata_Sacu_v1.1_s0260.g026883:0.98986,(azolla_filiculoides_Azfi_s0035.g025669:0.72557,(selaginella_moellendorffii_Selmo_72200:0.78222,(selaginella_moellendorffii_Selmo_418596:0.02715,selaginella_moellendorffii_Selmo_415618:0.01381)n4:0.85995)n3:0.1182)n2:0.21147)n1:0.629875)n0;

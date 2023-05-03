@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c23_8030:0.41128,((aegilops_tauschii_AET3Gv20584800:0.00055,(triticum_aestivum_Traes_7BL_17C795933:0.08857,triticum_aestivum_Traes_3DL_BBE6A3BEC:0.000495)n3:5.5e-05)n2:0.14871,(triticum_aestivum_Traes_2BL_9EA1D4DEE:0.29351,aegilops_tauschii_AET7Gv20939700:0.215721)n4:0.023969)n1:0.41128)n0;

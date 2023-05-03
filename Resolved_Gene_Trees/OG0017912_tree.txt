@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0032s0063:0.64409,((scenedesmus_obliquus_SZX68629:0.63041,(dunaliella_salina_Dusal.0655s00006:0.48037,(haematococcus_lacustris_GFH17733:0.0379,haematococcus_lacustris_GFH24055:0.02758)n4:0.6367)n3:0.45525)n2:0.45461,(chlamydomonas_reinhardtii_Cre16.g685950:0.43699,volvox_carteri_Vocar.0042s0095:0.50872)n5:0.21742)n1:0.64409)n0;

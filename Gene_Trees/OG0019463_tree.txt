@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT5G64450:0.69156,((ceratodon_purpureus_CepurR40.1G121700:0.90053,sphagnum_magellanicum_Sphmag07G107500:0.85175)0.924:0.37945,(physcomitrium_patens_Pp3c11_5100:0.10084,(ceratodon_purpureus_CepurR40.1G231400:0.41999,physcomitrium_patens_Pp3c7_23110:0.36977)0.796:0.06334)0.846:0.29779)1:0.69156);

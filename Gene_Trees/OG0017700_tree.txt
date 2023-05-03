@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre10.g453600:0.93769,(marchantia_polymorpha_Mp3g06040:0.26746,(ceratodon_purpureus_CepurR40.8G164100:0.08256,(ceratodon_purpureus_CepurR40.11G050000:0.13017,(physcomitrium_patens_Pp3c21_180:0.09577,(physcomitrium_patens_Pp3c18_17160:0,physcomitrium_patens_Pp3c18_17150:0):0.16544):0.03744):0.05227):0.13113):0.93769);

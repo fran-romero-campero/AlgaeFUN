@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0019.g007889:0.826085,((raphidocelis_subcapitata_Rsub_08697:0.3487,scenedesmus_obliquus_SZX76403:0.31937)n2:0.33592,(dunaliella_salina_Dusal.1225s00002:0.65241,(volvox_carteri_Vocar.0057s0053:0.43867,(chlamydomonas_reinhardtii_Cre14.g615850:0.25016,chlamydomonas_reinhardtii_Cre14.g615750:0.125442)n5:0.013938)n4:0.16514)n3:0.57499)n1:0.826085)n0;

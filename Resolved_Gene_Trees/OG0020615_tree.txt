@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_7004:0.3559,((haematococcus_lacustris_GFH27301:0.00055,haematococcus_lacustris_GFH28920:0.00054)n2:0.80242,(thuja_plicata_Thupl.29378874s0001:0.11214,(triticum_aestivum_Traes_3B_5FEE3D2CB:0.00055,triticum_aestivum_Traes_3AL_6CFA9FB10:0.13884)n4:0.3695)n3:0.27241)n1:0.3559)n0;

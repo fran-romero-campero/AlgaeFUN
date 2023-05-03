@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv17560:0.73217,micromonas_pusilla_Micpu_27348533:0.68651)n1:0.102065,(phaeodactylum_tricornutum_Phatr2_49592:0.78478,(nannochloropsis_gaditana_Nangad1_117:0.57142,saccharina_japonica_SJ10755:0.56891)n3:0.17246)n2:0.102065)n0;

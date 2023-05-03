@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv03405:0.6322,(chara_braunii_Chabra1_g22247:1.21233,(cycas_panzhihuaensis_CYCAS_001282:0.68628,((azolla_filiculoides_Azfi_s0233.g059379:0.9421,selaginella_moellendorffii_Selmo_77340:0.51436)n4:0.05507,(thuja_plicata_Thupl.29361766s0001:0.29721,thuja_plicata_Thupl.29381837s0002:0.358209)n5:0.039801)n3:0.09483)n2:0.35189)n1:0.6322)n0;

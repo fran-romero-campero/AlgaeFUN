@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_32315:0.47945,(volvox_carteri_Vocar.0001s1223:0.54416,(cyanophora_paradoxa_Cyapar1_g18030:1.68132,(coccomyxa_subellipsoidea_Cosub3_1326692:0.2357,coccomyxa_subellipsoidea_Cosub3_1359228:0.33447)n3:0.39884)n2:0.28046)n1:0.47945)n0;

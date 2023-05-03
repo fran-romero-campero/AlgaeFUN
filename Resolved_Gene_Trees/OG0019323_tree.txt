@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000001l.63:0.641075,((thuja_plicata_Thupl.29381030s0001:0.26256,thuja_plicata_Thupl.29380551s0010:0.31816)n2:0.3415,(cycas_panzhihuaensis_CYCAS_025809:0.2348,(cycas_panzhihuaensis_CYCAS_025807:0.02481,cycas_panzhihuaensis_CYCAS_025811:0.02549)n4:0.25907)n3:0.33491)n1:0.641075)n0;

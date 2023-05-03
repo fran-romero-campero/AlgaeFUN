@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1929552:0.34112,phaeodactylum_tricornutum_Phatr2_40538:1.18156)n1:0.63987,(klebsormidium_nitens_kfl01023_0020:0.91678,(chlamydomonas_reinhardtii_Cre14.g609600:0.30383,volvox_carteri_Vocar.0050s0064:0.14898)n3:0.2378)n2:0.63987)n0;

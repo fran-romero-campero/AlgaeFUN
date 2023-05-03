@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1954876:0.61959,phaeodactylum_tricornutum_Phatr2_50567:0.5305)n1:0.066985,(ostreococcus_tauri_ostta06g00340:0.33393,(micromonas_pusilla_Micpu_27342146:1.31256,(micromonas_pusilla_Micpu_27348891:0.49656,micromonas_pusilla_Micpu_27344804:0.273708)n4:0.0273708)n3:0.0030412)n2:0.286)n0;

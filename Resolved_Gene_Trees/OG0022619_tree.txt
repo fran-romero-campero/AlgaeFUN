@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1316458:0.51564,(raphidocelis_subcapitata_Rsub_09994:0.94824,(chromochloris_zofingiensis_Cz05g31110:0.90018,(scenedesmus_obliquus_SZX73212:0.90064,scenedesmus_obliquus_SZX77584:0.705)n3:0.47223)n2:0.00078)n1:0.51564)n0;

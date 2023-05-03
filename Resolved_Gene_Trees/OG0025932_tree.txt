@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz14g00230:0.64832,scenedesmus_obliquus_SZX60734:0.75334)n1:0.438435,(chlamydomonas_reinhardtii_Cre17.g736050:0.74093,volvox_carteri_Vocar.0017s0159:0.32178)n2:0.438435)n0;

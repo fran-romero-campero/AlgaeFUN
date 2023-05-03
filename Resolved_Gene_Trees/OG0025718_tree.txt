@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.04G023400:0.62822,(solanum_lycopersicum_Solyc02g031920:0.40332,(triticum_aestivum_Traes_3B_A73999987:0.24267,triticum_aestivum_Traes_3AL_14A605779:0.00055)n2:0.22447)n1:0.62822)n0;

@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ01776:0.09878,saccharina_japonica_SJ09746:0.08083)n1:0.128255,(gracilariopsis_chorda_PXF46001:0.43589,(raphidocelis_subcapitata_Rsub_01642:1.02501,(klebsormidium_nitens_kfl00239_0090:0.34242,(spirogloea_muscicola_SM000004S15003:0.01463,spirogloea_muscicola_SM000007S20828:0.00055)n5:0.2833)n4:0.04746)n3:0.12513)n2:0.128255)n0;

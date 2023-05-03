@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27340007:0.30701,(nannochloropsis_gaditana_Nangad1_5922:1.00026,((cryptophyceae_CCMP2293_Crypto2293_1_1974456:0.41545,guillardia_tetha_Guith1_143763:0.66977)n3:0.27925,saccharina_japonica_SJ11753:0.70544)n2:0.19426)n1:0.30701)n0;

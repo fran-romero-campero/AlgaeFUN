@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_50125:0.630895,((((chromochloris_zofingiensis_Cz11g18140:0.32418,scenedesmus_obliquus_SZX65700:0.31831)n4:0.23156,haematococcus_lacustris_GFH10667:0.72749)n3:0.1388,coccomyxa_subellipsoidea_Cosub3_1320652:0.65436)n2:0.11498,(scenedesmus_obliquus_SZX70136:0.86222,haematococcus_lacustris_GFH10666:0.264915)n5:0.029435)n1:0.630895)n0;

@@ -1,0 +1,1 @@
+((galdieria_sulphuraria_GsulpSAG21_G3651:0.25496,(cyanidioschyzon_merolae_XM_005535924:0.32526,(cyanophora_paradoxa_Cyapar1_g609:0.01594,cyanophora_paradoxa_Cyapar1_g617:0.60414)n3:0.23793)n2:0.11021)n1:0.421215,(physcomitrium_patens_Pp3s32_285:0.55056,(bathycoccus_prasinos_Bathy36g00210:0.84741,gracilariopsis_chorda_PXF45385:1.12065)n5:0.10905)n4:0.421215)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00013_0630:0.60356,(marchantia_polymorpha_Mp6g06260:0.28213,(anthoceros_agrestis_AagrOXF_utg000003l.456:0.35196,(sphagnum_magellanicum_Sphmag13G029500:0.20015,(ceratodon_purpureus_CepurR40.12G139800:0.227,(physcomitrium_patens_Pp3c20_9380:0.79348,physcomitrium_patens_Pp3c20_9370:0.192744)n5:0.021416)n4:0.22994)n3:0.08166)n2:0.04065)n1:0.60356)n0;

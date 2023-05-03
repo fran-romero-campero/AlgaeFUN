@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1825769:0.39393,((triticum_aestivum_Traes_4DL_C07E9564F:1.00692,(galdieria_sulphuraria_GsulpSAG21_G3628:0.96268,salvinia_cucullata_Sacu_v1.1_s0119.g021287:0.31087)n3:0.45048)n2:0.13301,(dunaliella_salina_Dusal.0467s00021:0.51393,volvox_carteri_Vocar.0001s0790:0.51462)n4:0.30929)n1:0.39393)n0;

@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000003l.463:0.5025,((cycas_panzhihuaensis_CYCAS_000598:0.8933,thuja_plicata_Thupl.29377034s0002:0.06432)n2:0.27629,(ceratopteris_richardii_Ceric.09G078700:0.73729,(azolla_filiculoides_Azfi_s0551.g076596:0.27274,salvinia_cucullata_Sacu_v1.1_s0030.g010464:0.43944)n4:0.5845)n3:0.29275)n1:0.5025)n0;

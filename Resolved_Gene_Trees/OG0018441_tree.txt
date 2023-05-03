@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ16101:0.10802,(mesostigma_viridae_Mv20338:1.43534,(porphyra_umbilicalis_Pum0212s0008:0.26814,(gracilariopsis_chorda_PXF43004:0.00054,(gracilariopsis_chorda_PXF39399:0.00927,(gracilariopsis_chorda_PXF43007:0.0047,gracilariopsis_chorda_PXF43005:0.00055)n5:0.00054)n4:0.00278)n3:0.28297)n2:0.53071)n1:0.10802)n0;

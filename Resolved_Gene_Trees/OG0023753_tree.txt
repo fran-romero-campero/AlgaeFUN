@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_37354:0.734855,(porphyra_umbilicalis_Pum0294s0010:0.53144,(porphyra_umbilicalis_Pum0412s0009:0.05002,(porphyra_umbilicalis_Pum0441s0004:0.03647,porphyra_umbilicalis_Pum0441s0006:0.01662)n3:0.09247)n2:0.42208)n1:0.734855)n0;

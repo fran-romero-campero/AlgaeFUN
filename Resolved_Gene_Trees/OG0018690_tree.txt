@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ17841:0.320005,((saccharina_japonica_SJ02313:1.09205,(saccharina_japonica_SJ09039:0.09186,saccharina_japonica_SJ20078:0.25429)n3:0.21549)n2:0.38246,(saccharina_japonica_SJ02312:0.45578,(saccharina_japonica_SJ09040:0.24441,saccharina_japonica_SJ17845:0.16816)n5:1.64214)n4:0.34662)n1:0.320005)n0;

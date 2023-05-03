@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ11866:1.12956,((mesostigma_viridae_Mv18897:0.42299,raphidocelis_subcapitata_Rsub_04025:0.24664)n2:0.00082,((chara_braunii_Chabra1_g40740:0.72477,cyanophora_paradoxa_Cyapar1_g10288:0.799)n4:0.15586,(chromochloris_zofingiensis_Cz06g21060:0.34835,micromonas_pusilla_Micpu_27339359:0.35573)n5:0.07986)n3:0.08303)n1:1.12956)n0;

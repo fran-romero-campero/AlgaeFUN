@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ12761:0.60346,(azolla_filiculoides_Azfi_s0303.g063774:0.4977,(aegilops_tauschii_AET1Gv20266700:0.00055,(triticum_aestivum_Traes_1AS_789A7BFEF:0.00055,((triticum_aestivum_Traes_2AL_872BEF88D:0.00055,triticum_aestivum_Traes_2BS_3532B485A:0.55404)n5:0.20426,triticum_aestivum_Traes_1DS_F2201D794:0.000495)n4:4.95e-05)n3:5.5e-06)n2:0.00054)n1:0.60346)n0;

@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_10788:0.59039,(klebsormidium_nitens_kfl00450_0010:0.5124,(raphidocelis_subcapitata_Rsub_06541:0.47454,(scenedesmus_obliquus_SZX73337:0.21227,(scenedesmus_obliquus_SZX66841:0.16791,scenedesmus_obliquus_SZX61711:0.133)n4:0.23075)n3:0.18574)n2:0.34661)n1:0.59039)n0;

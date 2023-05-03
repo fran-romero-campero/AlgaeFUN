@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv22341:0.379055,(dunaliella_salina_Dusal.1298s00001:0.75691,(haematococcus_lacustris_GFH08713:0.01893,haematococcus_lacustris_GFH16901:0.00883)n2:0.66819)n1:0.379055)n0;

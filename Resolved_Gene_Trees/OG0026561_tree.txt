@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_4DL_1D7C61105:0.399465,(cryptophyceae_CCMP2293_Crypto2293_1_1887183:0.2906,(cryptophyceae_CCMP2293_Crypto2293_1_1887177:0.004,cryptophyceae_CCMP2293_Crypto2293_1_1887188:0.02848)n2:0.0761)n1:0.399465)n0;

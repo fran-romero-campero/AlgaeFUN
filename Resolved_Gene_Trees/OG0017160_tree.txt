@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF45155:0.558465,(salvinia_cucullata_Sacu_v1.1_s0161.g023929:0.70647,(zea_mays_Zm00001d003236:0.3476,(sorghum_bicolor_Sobic.004G156600:0.18994,(aegilops_tauschii_AET3Gv20312700:0.00055,(triticum_aestivum_Traes_3B_F9002916A:0.03588,triticum_aestivum_Traes_3AS_B339D8258:0.027459)n5:0.003051)n4:0.00118)n3:0.33395)n2:0.51783)n1:0.558465)n0;

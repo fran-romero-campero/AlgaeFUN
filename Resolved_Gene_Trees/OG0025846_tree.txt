@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_49693:0.783345,(chromochloris_zofingiensis_Cz01g39100:0.30941,(chlamydomonas_reinhardtii_Cre08.g364100:0.43412,klebsormidium_nitens_kfl00038_0225:0.54798)n2:0.17753)n1:0.783345)n0;

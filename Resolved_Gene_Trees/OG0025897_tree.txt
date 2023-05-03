@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_507:0.62255,(chlamydomonas_reinhardtii_Cre06.g278118:0.34981,(ulva_mutabilis_UM094_0038:1.2676,volvox_carteri_Vocar.0002s0580:0.413)n2:0.26093)n1:0.62255)n0;

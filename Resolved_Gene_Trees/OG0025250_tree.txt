@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0197.g057313:0.567605,(ceratopteris_richardii_Ceric.09G000900:0.03511,(ceratopteris_richardii_Ceric.09G001100:0.00055,ceratopteris_richardii_Ceric.09G001200:0.11534)n2:0.00389)n1:0.567605)n0;

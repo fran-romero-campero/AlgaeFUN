@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g23159:0.838035,(thuja_plicata_Thupl.29379190s0004:0.45761,((oryza_sativa_LOC_Os06g14406.1:0.17631,triticum_aestivum_Traes_7AS_F7E0E91B6:0.12738)n3:0.1827,(sorghum_bicolor_Sobic.005G152500:0.12628,aegilops_tauschii_AET2Gv21214900:0.96082)n4:0.46689)n2:0.41642)n1:0.838035)n0;

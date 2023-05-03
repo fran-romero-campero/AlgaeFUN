@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv15061:0.66336,((ulva_mutabilis_UM018_0163:1.27933,dunaliella_salina_Dusal.0076s00003:0.3779)0.227:0.02989,(dunaliella_salina_Dusal.0076s00004:0.754,(dunaliella_salina_Dusal.0076s00002:0.84276,(chlamydomonas_reinhardtii_Cre06.g308000:0.20825,volvox_carteri_Vocar.0009s0155:0.30107)0.982:0.27143)0.38:0.06465)0.975:0.32246)1:0.66336);

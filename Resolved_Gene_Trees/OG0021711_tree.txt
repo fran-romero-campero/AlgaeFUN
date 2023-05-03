@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0028.g009913:0.123325,(aegilops_tauschii_AET3Gv20595700:0.22668,(triticum_aestivum_Traes_7BL_5C6193647:0.2383,(triticum_aestivum_Traes_1DL_E639C3330:0.14992,triticum_aestivum_Traes_5AL_E8CAA9375:0.10277)n3:0.045198)n2:0.005022)n1:0.18076)n0;

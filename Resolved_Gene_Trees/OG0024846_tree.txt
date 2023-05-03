@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_4175:0.397855,(arabidopsis_thaliana_AT3G28530:0.00054,(aegilops_tauschii_AET5Gv20455900:0.00054,triticum_aestivum_Traes_5BL_9B60E0BC7:0.00055)n2:0.23092)n1:0.397855)n0;

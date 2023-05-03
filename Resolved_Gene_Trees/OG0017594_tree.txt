@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.16G049700:0.355085,(cycas_panzhihuaensis_CYCAS_014926:0.70341,(thuja_plicata_Thupl.29378207s0007:0.81499,((solanum_lycopersicum_Solyc02g066970:0.27549,solanum_lycopersicum_Solyc02g088740:0.20244)n4:0.12963,(arabidopsis_thaliana_AT3G29370:0.25417,arabidopsis_thaliana_AT5G39240:0.26411)n5:0.399)n3:0.34558)n2:0.11324)n1:0.355085)n0;

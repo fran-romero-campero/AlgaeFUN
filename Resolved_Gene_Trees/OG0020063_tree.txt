@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ08367:0.259255,((cyanophora_paradoxa_Cyapar1_g16994:0.56859,(chlorokybus_atmophyticus_Chlat1_2419:0.00055,chlorokybus_atmophyticus_Chlat1_2423:0.00055)n3:0.42088)n2:0.3327,(gracilariopsis_chorda_PXF40365:0.36278,porphyra_umbilicalis_Pum0629s0002:0.79756)n4:0.11499)n1:0.259255)n0;

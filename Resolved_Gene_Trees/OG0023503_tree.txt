@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ05155:0.49875,(micromonas_pusilla_Micpu_27338895:0.87835,((mesostigma_viridae_Mv01245:0.18437,mesostigma_viridae_Mv00671:0.58446)n3:0.467,mesostigma_viridae_Mv16994:0.558243)n2:0.062027)n1:0.2823)n0;

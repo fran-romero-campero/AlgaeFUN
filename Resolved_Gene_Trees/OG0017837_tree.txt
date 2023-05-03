@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1766412:0.66025,(chlorokybus_atmophyticus_Chlat1_1726:0.63098,((chara_braunii_Chabra1_g31001:0.49475,haematococcus_lacustris_GFH11506:0.24299)n3:0.19648,((haematococcus_lacustris_GFH11819:0.00054,haematococcus_lacustris_GFH25703:0.00055)n5:0.10883,chara_braunii_Chabra1_g51641:0.236682)n4:0.026298)n2:0.129627)n1:0.014403)n0;

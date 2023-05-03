@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000083l.156:0.249635,((thuja_plicata_Thupl.29377559s0009:0.0995,thuja_plicata_Thupl.29209455s0001:0.21568)n2:0.69471,(azolla_filiculoides_Azfi_s0040.g026570:0.16011,(salvinia_cucullata_Sacu_v1.1_s0117.g021147:0.43186,ceratopteris_richardii_Ceric.35G014100:0.37767)n4:0.08786)n3:0.28283)n1:0.249635)n0;

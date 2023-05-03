@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum1425s0003:0.598045,(chara_braunii_Chabra1_g24186:1.22579,((ceratodon_purpureus_CepurR40.10G085700:0.27314,ceratodon_purpureus_CepurR40.1G265200:0.38611)n3:0.34105,(marchantia_polymorpha_Mp4g00050:0.36902,marchantia_polymorpha_Mp4g00060:0.45857)n4:0.2095)n2:0.49323)n1:0.598045)n0;

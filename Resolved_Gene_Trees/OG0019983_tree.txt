@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH24079:0.86781,(chlamydomonas_reinhardtii_Cre03.g149150:0.31635,volvox_carteri_Vocar.0014s0143:0.6464)n2:0.13923)n1:0.257195,(raphidocelis_subcapitata_Rsub_04571:0.73616,(chromochloris_zofingiensis_Cz13g15100:0.90348,scenedesmus_obliquus_SZX75373:0.54534)n4:0.11676)n3:0.257195)n0;

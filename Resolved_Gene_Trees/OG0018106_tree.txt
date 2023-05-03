@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum0970s0002:0.45785,((coccomyxa_subellipsoidea_Cosub3_1172886:0.83703,(ulva_mutabilis_UM060_0109:0.25368,ulva_mutabilis_UM060_0110:0.3123)n3:0.49858)n2:0.29231,(raphidocelis_subcapitata_Rsub_08848:0.25348,(chromochloris_zofingiensis_Cz15g04030:0.3985,scenedesmus_obliquus_SZX66980:0.21026)n5:0.18597)n4:0.39183)n1:0.45785)n0;

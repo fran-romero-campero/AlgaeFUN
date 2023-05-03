@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH05928:0.00055,haematococcus_lacustris_GFH18112:0.00055)n1:0.126385,(chara_braunii_Chabra1_g57826:0.204,(ceratodon_purpureus_CepurR40.11G016600:0.24942,sphagnum_magellanicum_Sphmag08G009100:0.12089)n3:0.41388)n2:0.126385)n0;

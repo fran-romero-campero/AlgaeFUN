@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_99255:0.64819,(chlamydomonas_reinhardtii_Cre01.g010100:0.80175,((haematococcus_lacustris_GFH20501:0.00053,haematococcus_lacustris_GFH25009:0.00055)n3:0.8272,(haematococcus_lacustris_GFH20500:0.10967,haematococcus_lacustris_GFH25008:0.02503)n4:0.04284)n2:0.35247)n1:0.64819)n0;

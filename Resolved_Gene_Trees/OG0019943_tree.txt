@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1804173:0.9675,micromonas_pusilla_Micpu_27343790:0.66231)n1:0.11791,(guillardia_tetha_Guith1_109195:0.96717,(chromochloris_zofingiensis_Cz04g09190:0.56768,(chlamydomonas_reinhardtii_Cre13.g591000:0.63371,volvox_carteri_Vocar.0051s0024:0.64734)n4:0.35885)n3:0.56694)n2:0.11791)n0;

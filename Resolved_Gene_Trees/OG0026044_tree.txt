@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_50111:0.593915,(chlorokybus_atmophyticus_Chlat1_1113:1.10297,(coccomyxa_subellipsoidea_Cosub3_1232982:0.52001,klebsormidium_nitens_kfl00068_0270:0.32997)n2:0.17509)n1:0.593915)n0;

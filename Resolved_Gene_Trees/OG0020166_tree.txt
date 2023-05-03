@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.1083s00004:0.20887,(dunaliella_salina_Dusal.1217s00001:0.00054,dunaliella_salina_Dusal.0599s00001:0.39792)n2:0.37217)n1:0.15101,(cryptophyceae_CCMP2293_Crypto2293_1_1623461:0.79752,(cryptophyceae_CCMP2293_Crypto2293_1_1557636:0.55942,cryptophyceae_CCMP2293_Crypto2293_1_1633815:0.11343)n4:0.17708)n3:0.15101)n0;

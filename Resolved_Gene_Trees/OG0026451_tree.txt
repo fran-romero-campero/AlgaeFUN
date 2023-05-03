@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_6951:0.52024,saccharina_japonica_SJ21118:0.77814)n1:0.17403,(cryptophyceae_CCMP2293_Crypto2293_1_1783584:0.58202,guillardia_tetha_Guith1_135304:0.2977)n2:0.17403)n0;

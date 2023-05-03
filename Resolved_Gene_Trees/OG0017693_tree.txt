@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy36g00190:1.06845,micromonas_pusilla_Micpu_27346227:1.06396)n1:0.111955,(saccharina_japonica_SJ12906:0.32705,((cryptophyceae_CCMP2293_Crypto2293_1_1923645:0.2341,guillardia_tetha_Guith1_84137:0.20647)n4:0.30316,(nannochloropsis_gaditana_Nangad1_2744:0.62354,phaeodactylum_tricornutum_Phatr2_38509:0.38121)n5:0.14191)n3:0.1365)n2:0.111955)n0;

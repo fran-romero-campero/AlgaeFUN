@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_48981:0.93222,ostreococcus_tauri_ostta06g03950:1.22162)n1:0.124085,(cyanidioschyzon_merolae_XM_005537041:1.23106,(cryptophyceae_CCMP2293_Crypto2293_1_1794768:0.90341,guillardia_tetha_Guith1_139057:0.12499)n3:0.207)n2:0.124085)n0;

@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g14405:0.86055,cyanophora_paradoxa_Cyapar1_g16274:0.83063)n1:0.528935,(haematococcus_lacustris_GFH08203:0.28981,(((haematococcus_lacustris_GFH08200:0.09722,haematococcus_lacustris_GFH08201:0.33795)n5:0.00055,haematococcus_lacustris_GFH26245:0.00055)n4:0.00698,haematococcus_lacustris_GFH28071:0.00055)n3:0.18375)n2:0.528935)n0;

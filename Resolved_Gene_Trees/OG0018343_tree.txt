@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g20493:0.91329,cyanophora_paradoxa_Cyapar1_g24200:0.3767)n1:0.52267,(nannochloropsis_gaditana_Nangad1_10047:0.66833,((guillardia_tetha_Guith1_77894:1.1578,saccharina_japonica_SJ15391:0.52163)n4:0.33926,(phaeodactylum_tricornutum_Phatr2_46636:0.68325,phaeodactylum_tricornutum_Phatr2_43225:0.82566)n5:0.09174)n3:0.14938)n2:0.52267)n0;

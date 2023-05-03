@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.3G006500:0.516035,(dunaliella_salina_Dusal.0099s00016:0.62984,((haematococcus_lacustris_GFH27911:0.29039,haematococcus_lacustris_GFH08479:0.00055)n3:0.06283,(haematococcus_lacustris_GFH08478:0.00055,haematococcus_lacustris_GFH27912:0.00055)n4:0.000486)n2:5.4e-05)n1:0.15424)n0;

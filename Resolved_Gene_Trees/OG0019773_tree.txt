@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g15921:0.29789,(chara_braunii_Chabra1_g4141:0.27325,(mesotaenium_endlicherianum_ME000331S05605:0.19018,(spirogloea_muscicola_SM000107S14082:0.00246,(spirogloea_muscicola_SM000133S26781:0.00809,spirogloea_muscicola_SM000208S06331:0.01344)n4:0.00055)n3:0.07053)n2:0.10567)n1:0.29789)n0;

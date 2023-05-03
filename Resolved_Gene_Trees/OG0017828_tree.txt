@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g24679:0.694585,((mesostigma_viridae_Mv04826:1.17962,(klebsormidium_nitens_kfl00020_0340:0.54077,(chara_braunii_Chabra1_g21808:0.55017,chara_braunii_Chabra1_g21806:0.732213)n4:0.081357)n3:0.11744)n2:0.0856,(chara_braunii_Chabra1_g21804:0.49775,mesostigma_viridae_Mv04827:0.778842)n5:0.086538)n1:0.694585)n0;

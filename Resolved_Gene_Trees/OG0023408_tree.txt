@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_45324:0.50173,(klebsormidium_nitens_kfl00029_0460:0.88391,(spirogloea_muscicola_SM000042S15307:0.01845,(spirogloea_muscicola_SM000002S05578:0.00796,spirogloea_muscicola_SM000039S14436:0.00518)n3:0.0136)n2:0.99716)n1:0.50173)n0;

@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1787091:0.61704,((raphidocelis_subcapitata_Rsub_03493:0.18394,raphidocelis_subcapitata_Rsub_03501:0.00055)n2:0.17801,(scenedesmus_obliquus_SZX76280:0.41899,(chlamydomonas_reinhardtii_Cre11.g478050:0.68289,chlamydomonas_reinhardtii_Cre05.g240200:0.722781)n4:0.080309)n3:0.41802)n1:0.61704)n0;

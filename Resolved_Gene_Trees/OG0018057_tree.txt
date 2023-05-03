@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_116173:0.592105,(micromonas_pusilla_Micpu_27341656:0.29968,((chromochloris_zofingiensis_Cz03g09170:0.80333,(chlamydomonas_reinhardtii_Cre12.g527450:0.32096,volvox_carteri_Vocar.0037s0055:0.45581)n4:0.29415)n3:0.2538,(cyanophora_paradoxa_Cyapar1_g9776:0.65984,cyanophora_paradoxa_Cyapar1_g16508:0.945045)n5:0.105005)n2:0.08984)n1:0.592105)n0;

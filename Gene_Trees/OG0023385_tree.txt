@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH24254:0.54938,((solanum_lycopersicum_Solyc08g077810:0.03861,triticum_aestivum_Traes_5AL_9043DA075:0.49079)0.287:0.16771,(triticum_aestivum_Traes_2AL_A863FFCDC:0.00055,triticum_aestivum_Traes_2DL_2382DB682:0.00054)0.954:0.39242)1:0.54938);

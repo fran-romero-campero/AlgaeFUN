@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_07064:0.73381,((saccharina_japonica_SJ14985:0.60123,(cyanidioschyzon_merolae_XM_005535439:1.18007,chlorokybus_atmophyticus_Chlat1_4790:0.7327)n4:0.13901)n3:0.10514,(saccharina_japonica_SJ16109:0.33034,saccharina_japonica_SJ05805:0.09067)n5:1.01997)n2:0.11333)n1:0.066505,klebsormidium_nitens_kfl00020_0470:0.98187)n0;

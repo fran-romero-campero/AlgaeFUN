@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_XM_005539193:0.50276,(cyanophora_paradoxa_Cyapar1_g3738:0.5444,cyanophora_paradoxa_Cyapar1_g6303:0.44045)n2:0.23171)n1:0.08886,(cryptophyceae_CCMP2293_Crypto2293_1_1850804:0.3785,(guillardia_tetha_Guith1_144627:1.03178,guillardia_tetha_Guith1_99294:0.14202)n4:0.01578)n3:0.61644)n0;

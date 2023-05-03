@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_44454:0.376605,((chlamydomonas_reinhardtii_Cre13.g575750:0.34699,volvox_carteri_Vocar.0001s0223:0.28478)n2:0.32783,(chromochloris_zofingiensis_Cz10g25230:0.43099,scenedesmus_obliquus_SZX78050:0.35544)n3:0.20272)n1:0.376605)n0;

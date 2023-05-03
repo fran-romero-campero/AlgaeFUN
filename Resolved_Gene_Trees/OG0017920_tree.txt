@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g7838:0.48215,(klebsormidium_nitens_kfl00289_0170:0.72464,((dunaliella_salina_Dusal.0004s00014:0.33162,haematococcus_lacustris_GFH14263:0.95801)n3:0.48281,(volvox_carteri_Vocar.0009s0159:0.19236,(chlamydomonas_reinhardtii_Cre06.g309826:0.11188,chlamydomonas_reinhardtii_Cre06.g308300:0.00055)n5:0.32481)n4:0.60888)n2:0.86311)n1:0.48215)n0;

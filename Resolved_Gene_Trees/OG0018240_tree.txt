@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1803807:0.487585,((haematococcus_lacustris_GFH27588:0.29757,volvox_carteri_Vocar.0013s0234:0.34251)n2:0.219,(cyanophora_paradoxa_Cyapar1_g11869:0.19592,(cyanophora_paradoxa_Cyapar1_g11871:0.07442,(cyanophora_paradoxa_Cyapar1_g11917:0.05158,cyanophora_paradoxa_Cyapar1_g11919:0.02962)n5:0.03581)n4:0.06134)n3:0.46063)n1:0.487585)n0;

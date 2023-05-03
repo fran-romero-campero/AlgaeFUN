@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre17.g740000:0.847865,(chara_braunii_Chabra1_g55081:0.58311,(chara_braunii_Chabra1_g55082:0.24431,cycas_panzhihuaensis_CYCAS_014844:1.50786)0.731:0.11255)1:0.847865);

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g24702:0.41133,(scenedesmus_obliquus_SZX73570:0.85355,(klebsormidium_nitens_kfl00024_0280:0.63699,(raphidocelis_subcapitata_Rsub_12347:1.30001,(chromochloris_zofingiensis_UNPLg00005:0.70234,(chromochloris_zofingiensis_Cz03g23120:0.07306,chromochloris_zofingiensis_Cz03g23110:0.08954)n5:0.361629)n4:0.040181)n3:0.03387)n2:0.18886)n1:0.41133)n0;

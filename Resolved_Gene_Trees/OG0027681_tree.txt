@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_409806:0.727835,(oryza_sativa_LOC_Os10g13850.1:0.13533,(sorghum_bicolor_Sobic.005G036000:0.11765,zea_mays_Zm00001d052518:0.04739)n2:0.26493)n1:0.727835)n0;

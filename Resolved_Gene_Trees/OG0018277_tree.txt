@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g12081:0.43897,(gracilariopsis_chorda_PXF47885:0.92568,saccharina_japonica_SJ14727:0.92666)n2:0.18993)n1:0.06256,((phaeodactylum_tricornutum_Phatr2_35336:0.62822,porphyra_umbilicalis_Pum2353s0001:0.55914)n4:0.32574,(cryptophyceae_CCMP2293_Crypto2293_1_2438491:1.18542,guillardia_tetha_Guith1_150404:0.24485)n5:0.12484)n3:0.06256)n0;

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1340670:0.49143,(chromochloris_zofingiensis_Cz13g08160:0.63337,(chromochloris_zofingiensis_Cz07g16080:0.60481,raphidocelis_subcapitata_Rsub_04496:0.54829)0.943:0.34536)1:0.49143);

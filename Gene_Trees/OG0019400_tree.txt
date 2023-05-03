@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000096l.10:0.63938,anthoceros_agrestis_AagrOXF_utg000111l.86:0.50152)0.975:0.235775,(salvinia_cucullata_Sacu_v1.1_s0012.g005601:1.06413,(salvinia_cucullata_Sacu_v1.1_s0001.g000724:0.60778,(azolla_filiculoides_Azfi_s0049.g030710:0.42573,salvinia_cucullata_Sacu_v1.1_s0092.g018953:0.98122)0.763:0.19641)0.503:0.07459)0.975:0.235775);

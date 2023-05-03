@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_6876:0.299025,(galdieria_sulphuraria_GsulpSAG21_G2049:0.17832,(cyanidioschyzon_merolae_XM_005537746:0.33317,(gracilariopsis_chorda_PXF47442:0.21521,(porphyra_umbilicalis_Pum0881s0001:0.41308,porphyra_umbilicalis_Pum0507s0012:0.11392)0.892:0.07542)0.96:0.08184)0.791:0.05434)1:0.299025);

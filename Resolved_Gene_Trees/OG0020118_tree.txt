@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1786110:0.467255,(micromonas_pusilla_Micpu_27344720:0.78335,((raphidocelis_subcapitata_Rsub_13048:0.2184,raphidocelis_subcapitata_Rsub_03788:0.51348)n3:0.39299,(chromochloris_zofingiensis_Cz05g11060:0.44765,haematococcus_lacustris_GFH25996:1.15529)n4:0.24211)n2:0.39741)n1:0.467255)n0;

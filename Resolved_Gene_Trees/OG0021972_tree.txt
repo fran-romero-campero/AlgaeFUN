@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0133s00032:0.30164,haematococcus_lacustris_GFH14063:0.42018)n1:0.482565,(bathycoccus_prasinos_Bathy07g02390:0.17547,(micromonas_pusilla_Micpu_27340602:0.49217,ostreococcus_tauri_ostta05g04850:0.58654)n3:0.20702)n2:0.482565)n0;

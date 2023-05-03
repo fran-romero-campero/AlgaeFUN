@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_033335:0.93749,(haematococcus_lacustris_GFH12801:0.719,haematococcus_lacustris_GFH27772:0.000477)n2:5.3e-05)n1:0.098965,(triticum_aestivum_Traes_6AS_39EE7AF68:0.39705,spirogloea_muscicola_SM000316S12292:0.0351)n3:0.07517)n0;

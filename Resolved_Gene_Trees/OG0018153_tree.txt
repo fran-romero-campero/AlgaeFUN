@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_43450:0.64936,(phaeodactylum_tricornutum_Phatr2_46378:0.51817,phaeodactylum_tricornutum_Phatr2_49209:0.49356)n2:0.25052)n1:0.207735,(klebsormidium_nitens_kfl00349_0110:1.0355,(mesostigma_viridae_Mv02716:1.44126,(coccomyxa_subellipsoidea_Cosub3_1167192:0.56545,coccomyxa_subellipsoidea_Cosub3_1313292:1.1485)n5:0.16225)n4:0.09471)n3:0.207735)n0;

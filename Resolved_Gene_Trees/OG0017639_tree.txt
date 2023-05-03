@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF49167:0.35765,(mesostigma_viridae_Mv18675:0.79866,(chromochloris_zofingiensis_Cz03g34230:0.47123,((ceratopteris_richardii_Ceric.35G031100:0.51032,(azolla_filiculoides_Azfi_s0163.g054236:0.06252,azolla_filiculoides_Azfi_s0671.g081787:1.14111)n5:0.38509)n4:0.13092,marchantia_polymorpha_Mp4g02070:0.53892)n3:0.23879)n2:0.42377)n1:0.35765)n0;

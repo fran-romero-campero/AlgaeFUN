@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF40539:0.60559,porphyra_umbilicalis_Pum0414s0004:0.79455)n1:0.20411,((ulva_mutabilis_UM137_0017:0.25502,ulva_mutabilis_UM137_0018:0.30599)n3:0.28343,(ulva_mutabilis_UM012_0005:0.37357,ulva_mutabilis_UM012_0006:0.28376)n4:0.14076)n2:0.20411)n0;

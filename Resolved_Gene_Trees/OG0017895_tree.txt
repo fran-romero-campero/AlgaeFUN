@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_XM_005535638:0.788365,((chlamydomonas_reinhardtii_Cre14.g627050:0.52379,volvox_carteri_Vocar.0023s0036:0.22468)n2:0.50135,(scenedesmus_obliquus_SZX63379:0.19991,(chromochloris_zofingiensis_Cz07g25300:0.42441,(coccomyxa_subellipsoidea_Cosub3_1310939:0.90915,raphidocelis_subcapitata_Rsub_04478:0.56002)n5:0.16208)n4:0.10491)n3:0.42393)n1:0.788365)n0;

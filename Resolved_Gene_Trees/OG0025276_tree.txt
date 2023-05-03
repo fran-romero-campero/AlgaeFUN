@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s4316.g118720:0.589215,(physcomitrium_patens_Pp3c18_1620:0.41399,(ceratodon_purpureus_CepurR40.2G116600:0.00055,ceratodon_purpureus_CepurR40.10G000200:0.03966)n2:0.09749)n1:0.589215)n0;

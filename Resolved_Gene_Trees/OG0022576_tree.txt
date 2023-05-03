@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_5589:0.84716,nannochloropsis_gaditana_Nangad1_3588:0.46836)n1:0.12621,(saccharina_japonica_SJ04925:0.57885,(gracilariopsis_chorda_PXF41120:0.83725,cyanidioschyzon_merolae_XM_005535400:0.92561)n3:0.19623)n2:0.12621)n0;

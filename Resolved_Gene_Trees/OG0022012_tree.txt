@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1866988:0.27144,((bathycoccus_prasinos_Bathy95g00030:0.5792,chromochloris_zofingiensis_Cz03g25030:0.68806)n2:0.39665,(ceratodon_purpureus_CepurR40.4G003900:0.27344,marchantia_polymorpha_Mp3g18680:0.52426)n3:0.26597)n1:0.27144)n0;

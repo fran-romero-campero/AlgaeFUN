@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_15764:0.608345,(gracilariopsis_chorda_PXF46364:1.09232,(cyanidioschyzon_merolae_XM_005537626:1.05765,(klebsormidium_nitens_kfl00075_0100:0.37303,(klebsormidium_nitens_kfl00108_0220:0.35308,(klebsormidium_nitens_kfl00075_0180:0.2199,klebsormidium_nitens_kfl00296_0160:0.20012)n5:0.23731)n4:0.18926)n3:0.42089)n2:0.13433)n1:0.608345)n0;

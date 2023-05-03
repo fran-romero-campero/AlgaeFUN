@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_3083236:0.62956,(mesostigma_viridae_Mv09903:0.39083,mesostigma_viridae_Mv09904:0.129)n2:0.41322)n1:0.13006,(guillardia_tetha_Guith1_103365:0.66317,(selaginella_moellendorffii_Selmo_7175:0.00055,(selaginella_moellendorffii_Selmo_4907:0.01602,selaginella_moellendorffii_Selmo_4909:0.00971)n5:0.0212)n4:0.74405)n3:0.13006)n0;

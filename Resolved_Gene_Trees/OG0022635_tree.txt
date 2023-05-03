@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1813973:0.1827,(chromochloris_zofingiensis_Cz08g29240:1.28498,(triticum_aestivum_Traes_7AL_22DFDE2DC:0.04393,(triticum_aestivum_Traes_3B_BE5E7B360:0.00054,triticum_aestivum_Traes_2BL_58E6ED92C:0.00055)n3:0.07793)n2:0.36133)n1:0.1827)n0;

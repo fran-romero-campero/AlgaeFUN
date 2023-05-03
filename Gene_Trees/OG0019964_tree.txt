@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_6784:0.385815,(coccomyxa_subellipsoidea_Cosub3_1291601:0.85233,(chlamydomonas_reinhardtii_Cre02.g110150:0.49844,(haematococcus_lacustris_GFH08508:0.16104,(haematococcus_lacustris_GFH11484:0.01515,haematococcus_lacustris_GFH29416:0.83342)0.995:0.51839)0.99:0.46645)0.973:0.39081)1:0.385815);

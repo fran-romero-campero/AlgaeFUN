@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29382099s0009:0.420125,(solanum_lycopersicum_Solyc09g011840:0.39251,(arabidopsis_thaliana_AT3G54080:1.03707,(arabidopsis_thaliana_AT5G01090:0.20634,(arabidopsis_thaliana_AT3G09035:0.12098,arabidopsis_thaliana_AT3G09190:0.168)n4:0.17551)n3:0.37823)n2:0.26623)n1:0.420125)n0;

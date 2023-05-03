@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00102_0080:0.5317,(klebsormidium_nitens_kfl00102_0070:0.41597,klebsormidium_nitens_kfl00157_0080:0.13034)n2:0.15251)n1:0.21612,(bathycoccus_prasinos_Bathy107g00020:1.73079,(coccomyxa_subellipsoidea_Cosub3_1109224:0.54369,coccomyxa_subellipsoidea_Cosub3_1208495:0.28744)n4:0.21876)n3:0.21612)n0;

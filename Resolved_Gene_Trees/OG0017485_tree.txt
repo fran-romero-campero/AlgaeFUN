@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp6g08830:0.60295,(anthoceros_agrestis_AagrOXF_utg000002l.351:0.31931,anthoceros_agrestis_AagrOXF_utg000080l.13:0.39153)n2:0.85487)n1:0.129525,(selaginella_moellendorffii_Selmo_421192:0.78143,(thuja_plicata_Thupl.29379345s0004:0.01742,(thuja_plicata_Thupl.29337287s0001:0.06661,thuja_plicata_Thupl.29379345s0005:0.0438)n5:0.04946)n4:0.84771)n3:0.129525)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ03633:0.682175,(cyanophora_paradoxa_Cyapar1_g3816:0.62381,((micromonas_pusilla_Micpu_27345870:0.41672,ostreococcus_tauri_ostta10g03030:1.1172)0.983:0.36759,(chlorokybus_atmophyticus_Chlat1_5095:0.99412,klebsormidium_nitens_kfl00077_0250:0.77172)0.998:0.411)0.654:0.0766)1:0.682175);

@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM004182S15633:0.07717,spirogloea_muscicola_SM007213S21269:0.03155)n1:0.41894,(phaeodactylum_tricornutum_Phatr2_42980:0.98444,(nannochloropsis_gaditana_Nangad1_4463:0.50219,saccharina_japonica_SJ17501:1.03216)n3:0.13071)n2:0.41894)n0;

@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ20325:0.54205,porphyra_umbilicalis_Pum0328s0036:1.34151)n1:0.01967,((nannochloropsis_gaditana_Nangad1_5921:0.64975,phaeodactylum_tricornutum_Phatr2_33458:0.94878)n3:0.11732,(cyanophora_paradoxa_Cyapar1_g15255:0.83892,(cyanidioschyzon_merolae_XM_005535244:0.77328,gracilariopsis_chorda_PXF49967:0.88981)n5:0.15314)n4:0.19346)n2:0.01967)n0;

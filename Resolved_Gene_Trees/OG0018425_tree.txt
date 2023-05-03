@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpSAG21_G686:0.663015,(gracilariopsis_chorda_PXF46039:0.27705,((gracilariopsis_chorda_PXF44997:0,gracilariopsis_chorda_PXF45003:0,gracilariopsis_chorda_PXF45006:0,gracilariopsis_chorda_PXF45009:0)n3:0.03573,gracilariopsis_chorda_PXF45000:0.23827)n2:0.08854)n1:0.663015)n0;

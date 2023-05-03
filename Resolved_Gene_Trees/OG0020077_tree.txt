@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_6678:0.76456,mesostigma_viridae_Mv10702:0.61595)n1:0.15528,(mesotaenium_endlicherianum_ME000243S03979:0.52849,(spirogloea_muscicola_SM000059S18712:0.06297,(spirogloea_muscicola_SM000148S01017:0.03022,spirogloea_muscicola_SM000170S02684:0.00055)n4:0.00423)n3:0.35319)n2:0.15528)n0;

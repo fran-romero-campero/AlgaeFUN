@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g14303:0.593785,(chromochloris_zofingiensis_Cz04g08020:1.09518,((spirogloea_muscicola_SM000029S10580:0.00938,(spirogloea_muscicola_SM000135S27016:0.03291,spirogloea_muscicola_SM000189S04083:0.04687)n4:0.03921)n3:0.68525,(klebsormidium_nitens_kfl00006_0420:1.12935,klebsormidium_nitens_kfl00212_0030:0.554571)n5:0.061619)n2:0.3422)n1:0.593785)n0;

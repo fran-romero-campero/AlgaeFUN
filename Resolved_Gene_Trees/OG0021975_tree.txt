@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz02g26080:1.32695,(bathycoccus_prasinos_Bathy08g02280:0.45565,micromonas_pusilla_Micpu_27344884:0.54357)n2:0.2896)n1:0.12605,(cryptophyceae_CCMP2293_Crypto2293_1_1976363:0.56845,guillardia_tetha_Guith1_149825:0.44496)n3:0.12605)n0;

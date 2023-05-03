@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_008502:1.28587,((selaginella_moellendorffii_Selmo_441328:0.03466,selaginella_moellendorffii_Selmo_121499:0.00416)n3:0.43527,selaginella_moellendorffii_Selmo_42426:0.615087)n2:0.068343)n1:0.12755,ceratopteris_richardii_Ceric.03G063900:1.43045)n0;

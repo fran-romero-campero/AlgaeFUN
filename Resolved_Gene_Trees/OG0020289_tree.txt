@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1865616:0.115105,(dunaliella_salina_Dusal.0027s00012:0.43256,(selaginella_moellendorffii_Selmo_133845:0.25375,(haematococcus_lacustris_GFH24855:0.85385,(mesostigma_viridae_Mv08290:0.20896,zea_mays_Zm00001d039640:0.34971)n4:0.39075)n3:0.18096)n2:0.22218)n1:0.115105)n0;

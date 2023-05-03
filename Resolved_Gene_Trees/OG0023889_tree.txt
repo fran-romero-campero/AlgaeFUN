@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX72192:0.285055,(triticum_aestivum_Traes_6BS_E7F85C108:0.34793,(zea_mays_Zm00001d014076:0.05816,(zea_mays_Zm00001d039202:0.07642,zea_mays_Zm00001d018346:0.0813)n3:0.09354)n2:0.48671)n1:0.285055)n0;

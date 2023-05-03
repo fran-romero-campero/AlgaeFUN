@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv21666:0.557415,((chlamydomonas_reinhardtii_Cre11.g468850:0.27811,(dunaliella_salina_Dusal.0315s00013:0.67001,volvox_carteri_Vocar.0012s0192:0.40447)n3:0.17657)n2:0.27956,(haematococcus_lacustris_GFH16160:0.57263,(chromochloris_zofingiensis_Cz16g19060:0.68466,scenedesmus_obliquus_SZX72780:0.65142)n5:0.23145)n4:0.13357)n1:0.557415)n0;

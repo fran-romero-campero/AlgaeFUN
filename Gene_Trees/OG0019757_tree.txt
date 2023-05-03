@@ -1,0 +1,1 @@
+((marchantia_polymorpha_Mp6g09890:0.31852,marchantia_polymorpha_Mp8g09040:0.3557)0.999:0.460895,(salvinia_cucullata_Sacu_v1.1_s0209.g025877:0.6081,(ceratopteris_richardii_Ceric.24G047300:0.01635,(ceratopteris_richardii_Ceric.24G047100:0.03009,ceratopteris_richardii_Ceric.24G047800:0.03263)0.848:0.0611)0.95:0.43841)0.999:0.460895);

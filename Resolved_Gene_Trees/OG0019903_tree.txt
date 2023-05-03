@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1757167:0.593565,(coccomyxa_subellipsoidea_Cosub3_1168998:0.84846,((chlamydomonas_reinhardtii_Cre09.g386743:0.21204,chlamydomonas_reinhardtii_Cre02.g095114:0.40501)n3:0.27376,(dunaliella_salina_Dusal.0485s00002:0.44818,micromonas_pusilla_Micpu_27343771:0.69846)n4:0.13849)n2:0.48533)n1:0.593565)n0;

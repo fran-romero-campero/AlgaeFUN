@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpSAG21_G981:0.457105,((raphidocelis_subcapitata_Rsub_03086:0.36407,(chromochloris_zofingiensis_Cz06g00280:0.33653,scenedesmus_obliquus_SZX66960:0.4233)n3:0.12299)n2:0.05896,(cyanophora_paradoxa_Cyapar1_g21422:0.68662,(cyanophora_paradoxa_Cyapar1_g11202:0.62409,cyanophora_paradoxa_Cyapar1_g2546:0.579987)n5:0.0579987)n4:0.0064443)n1:0.17981)n0;

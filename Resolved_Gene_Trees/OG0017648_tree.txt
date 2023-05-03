@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ18601:1.01693,(porphyra_umbilicalis_Pum0112s0016:0.02794,(porphyra_umbilicalis_Pum0084s0044:0.13197,porphyra_umbilicalis_Pum0183s0007:0.07667)n3:0.00877)n2:0.5763)n1:0.05614,(cryptophyceae_CCMP2293_Crypto2293_1_2216675:0.4829,(mesostigma_viridae_Mv20447:0.39561,bathycoccus_prasinos_Bathy01g01910:0.96057)n5:0.23392)n4:0.05614)n0;

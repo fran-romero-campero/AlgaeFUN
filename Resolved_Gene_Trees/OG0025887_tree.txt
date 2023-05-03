@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1968354:0.75485,saccharina_japonica_SJ01134:0.98144)n1:0.388885,(chlamydomonas_reinhardtii_Cre16.g681450:0.3522,volvox_carteri_Vocar.0018s0166:0.14403)n2:0.388885)n0;

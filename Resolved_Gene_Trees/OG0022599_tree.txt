@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_159627:0.74663,phaeodactylum_tricornutum_Phatr2_31982:0.66761)n1:0.250215,(raphidocelis_subcapitata_Rsub_05333:0.37204,(chromochloris_zofingiensis_UNPLg00017:0.46774,scenedesmus_obliquus_SZX62729:0.29687)n3:0.13212)n2:0.250215)n0;

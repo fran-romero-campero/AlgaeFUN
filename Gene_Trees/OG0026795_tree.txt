@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g2094:0.49232,(ulva_mutabilis_UM003_0245:0.8614,(scenedesmus_obliquus_SZX66829:1.25312,ulva_mutabilis_UM011_0081:0.44278)0.995:0.35516)1:0.49232);

@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29377696s0013:0.4932,(saccharina_japonica_SJ21406:0.62857,((cryptophyceae_CCMP2293_Crypto2293_1_1602413:0.00055,cryptophyceae_CCMP2293_Crypto2293_1_1645078:0.00055)n3:0.16036,(cryptophyceae_CCMP2293_Crypto2293_1_1603027:0.05514,cryptophyceae_CCMP2293_Crypto2293_1_1647759:0.2331)n4:0.09082)n2:0.69545)n1:0.4932)n0;

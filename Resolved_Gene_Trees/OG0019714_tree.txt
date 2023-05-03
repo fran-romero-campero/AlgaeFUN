@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag08G115600:0.728885,(ceratopteris_richardii_Ceric.07G029900:0.64333,(ceratopteris_richardii_Ceric.03G042600:0.03198,(ceratopteris_richardii_Ceric.03G051400:0.03677,(ceratopteris_richardii_Ceric.03G051200:0.01745,ceratopteris_richardii_Ceric.03G042500:0.00573)n4:0.0465)n3:0.09351)n2:0.15091)n1:0.728885)n0;

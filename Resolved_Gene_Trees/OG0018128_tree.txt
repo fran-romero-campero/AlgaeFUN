@@ -1,0 +1,1 @@
+((volvox_carteri_Vocar.0008s0164:0.87114,(chromochloris_zofingiensis_Cz05g21110:0.42265,scenedesmus_obliquus_SZX73792:0.40134)n2:0.25853)n1:0.056095,(raphidocelis_subcapitata_Rsub_01274:0.53132,(dunaliella_salina_Dusal.0609s00010:0.42863,(haematococcus_lacustris_GFH07566:0.11162,haematococcus_lacustris_GFH21167:0.11301)n5:0.70222)n4:0.2089)n3:0.056095)n0;

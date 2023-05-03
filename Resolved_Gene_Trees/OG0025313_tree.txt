@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ09451:0.7468,(mesostigma_viridae_Mv00677:0.71143,(bathycoccus_prasinos_Bathy05g03940:1.32397,bathycoccus_prasinos_Bathy08g03460:0.88887)n2:0.42904)n1:0.7468)n0;

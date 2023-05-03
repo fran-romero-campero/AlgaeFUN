@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g50039:0.809845,((phaeodactylum_tricornutum_Phatr2_42982:0.73212,(nannochloropsis_gaditana_Nangad1_1597:0.4702,saccharina_japonica_SJ05213:0.90015)n3:0.13833)n2:0.13593,(guillardia_tetha_Guith1_162473:0.49963,(cryptophyceae_CCMP2293_Crypto2293_1_1763724:0.45731,cryptophyceae_CCMP2293_Crypto2293_1_2272352:0.565227)n5:0.062803)n4:0.10228)n1:0.809845)n0;

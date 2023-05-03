@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1331746:0.99105,((marchantia_polymorpha_Mp6g16760:0.00622,(marchantia_polymorpha_Mp6g16750:0.01167,marchantia_polymorpha_Mp6g16810:0.00946)n3:0.00055)n2:0.00054,(marchantia_polymorpha_Mp6g16780:0.02375,(marchantia_polymorpha_Mp6g16770:0.00697,marchantia_polymorpha_Mp6g16820:0.00341)n5:0.03446)n4:0.03125)n1:0.99105)n0;

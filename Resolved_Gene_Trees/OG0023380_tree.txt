@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_05683:0.41385,(haematococcus_lacustris_GFH24650:0.25425,(haematococcus_lacustris_GFH29992:0.43865,(haematococcus_lacustris_GFH17906:0.10928,haematococcus_lacustris_GFH19361:0.0097)n3:0.13505)n2:0.18817)n1:0.41385)n0;

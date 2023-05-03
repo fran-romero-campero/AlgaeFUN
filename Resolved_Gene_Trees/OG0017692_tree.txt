@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1758079:0.770605,(bathycoccus_prasinos_Bathy27g00010:1.05956,((chara_braunii_Chabra1_g23116:0.89447,((chlorokybus_atmophyticus_Chlat1_8176:0.56584,mesostigma_viridae_Mv00601:0.42621)n5:0.43547,mesostigma_viridae_Mv08764:0.483129)n4:0.053681)n3:0.20444,cyanophora_paradoxa_Cyapar1_g8575:0.67081)n2:0.33096)n1:0.770605)n0;

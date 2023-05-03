@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g7064:0.616535,(mesostigma_viridae_Mv12389:0.67568,(chlamydomonas_reinhardtii_Cre13.g604550:0.38304,(raphidocelis_subcapitata_Rsub_02995:0.95638,(chromochloris_zofingiensis_Cz05g12240:0.66581,scenedesmus_obliquus_SZX74619:0.42482)n4:0.17919)n3:0.29935)n2:0.23228)n1:0.616535)n0;

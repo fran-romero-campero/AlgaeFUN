@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g11207:0.6664,(phaeodactylum_tricornutum_Phatr2_36940:0.75856,phaeodactylum_tricornutum_Phatr2_15801:0.979695)n2:0.108855)n1:0.18032,(bathycoccus_prasinos_Bathy26g00030:0.85329,raphidocelis_subcapitata_Rsub_06762:0.83959)n3:0.22063)n0;

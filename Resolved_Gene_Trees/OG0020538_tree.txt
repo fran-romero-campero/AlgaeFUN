@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF43213:0.674965,((nannochloropsis_gaditana_Nangad1_10454:0.41588,nannochloropsis_gaditana_Nangad1_3:0.32318)n2:0.85524,(phaeodactylum_tricornutum_Phatr2_39425:0.42517,(phaeodactylum_tricornutum_Phatr2_49402:0.61484,phaeodactylum_tricornutum_Phatr2_49816:0.71332)n4:0.18998)n3:0.62688)n1:0.674965)n0;

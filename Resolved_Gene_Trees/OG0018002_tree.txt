@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre02.g103770:0.69352,raphidocelis_subcapitata_Rsub_12248:0.57732)n1:0.606735,(cyanidioschyzon_merolae_XM_005536204:0.16234,((galdieria_sulphuraria_GsulpSAG21_G2760:0.63313,galdieria_sulphuraria_GsulpSAG21_G1059:0.24265)n4:0.48036,(gracilariopsis_chorda_PXF45908:0.39333,porphyra_umbilicalis_Pum1499s0001:0.32929)n5:0.19547)n3:0.29638)n2:0.606735)n0;

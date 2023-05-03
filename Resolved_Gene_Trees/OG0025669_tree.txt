@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1176382:0.6941,(ceratopteris_richardii_Ceric.25G021200:0.86729,(selaginella_moellendorffii_Selmo_51647:0.02156,selaginella_moellendorffii_Selmo_138241:0.00055)n2:0.50235)n1:0.6941)n0;

@@ -1,0 +1,1 @@
+(chara_braunii_Chabra1_g28721:0.82542,(physcomitrium_patens_Pp3c2_17840:0.09359,((physcomitrium_patens_Pp3c26_4888:0.10729,(physcomitrium_patens_Pp3c22_7090:0.08309,(physcomitrium_patens_Pp3c15_13715:0.09409,physcomitrium_patens_Pp3c9_12633:0.01254)n5:0.00708)n4:0.0274)n3:0.01934,physcomitrium_patens_Pp3c4_21409:0.04613)n2:0.04921)n1:0.82542)n0;

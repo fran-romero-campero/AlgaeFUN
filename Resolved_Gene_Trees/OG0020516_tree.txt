@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_46889:0.39405,phaeodactylum_tricornutum_Phatr2_46890:0.43147)n1:0.240405,(dunaliella_salina_Dusal.0144s00016:1.29454,(galdieria_sulphuraria_GsulpSAG21_G3168:0.75385,(micromonas_pusilla_Micpu_27340661:0.90614,micromonas_pusilla_Micpu_27344357:0.51729)n4:0.47525)n3:0.2046)n2:0.240405)n0;

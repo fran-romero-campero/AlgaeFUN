@@ -1,0 +1,1 @@
+(porphyra_umbilicalis_Pum2854s0001:0.544315,((selaginella_moellendorffii_Selmo_415658:0.82607,(ceratopteris_richardii_Ceric.01G124700:0.94701,(ceratopteris_richardii_Ceric.20G092100:0.00055,ceratopteris_richardii_Ceric.1Z254100:0.00055)n4:0.49863)n3:0.5953)n2:0.59609,(cyanophora_paradoxa_Cyapar1_g1283:0.06429,cyanophora_paradoxa_Cyapar1_g1284:0.01451)n5:0.63989)n1:0.544315)n0;

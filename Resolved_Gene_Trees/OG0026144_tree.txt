@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz11g17180:1.27269,mesostigma_viridae_Mv15215:0.6647)n1:0.30711,(gracilariopsis_chorda_PXF43661:0.83751,porphyra_umbilicalis_Pum0339s0010:0.57718)n2:0.30711)n0;

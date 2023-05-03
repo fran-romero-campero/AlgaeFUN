@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv12767:0.5282,(saccharina_japonica_SJ09337:0.73367,saccharina_japonica_SJ17927:0.40959)n2:0.04551)n1:0.109285,(klebsormidium_nitens_kfl00354_0030:0.67663,cryptophyceae_CCMP2293_Crypto2293_1_1762356:0.53882)n3:0.16065)n0;

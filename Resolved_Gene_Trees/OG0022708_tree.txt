@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00019_g43:0.61188,scenedesmus_obliquus_SZX75054:1.24935)n1:0.38122,(cryptophyceae_CCMP2293_Crypto2293_1_1648790:0.00055,(cryptophyceae_CCMP2293_Crypto2293_1_1602613:0.01665,cryptophyceae_CCMP2293_Crypto2293_1_1578962:0.02379)n3:0.03332)n2:0.38122)n0;

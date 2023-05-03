@@ -1,0 +1,1 @@
+((sphagnum_magellanicum_Sphmag07G001000:0.07584,(cycas_panzhihuaensis_CYCAS_030482:1.05256,thuja_plicata_Thupl.29380148s0011:0.31545)n2:0.03457)n1:0.077795,((sphagnum_magellanicum_Sphmag10G092100:0.05005,sphagnum_magellanicum_Sphmag11G020400:0.02539)n4:0.01919,(cycas_panzhihuaensis_CYCAS_011704:0.02484,thuja_plicata_Thupl.29380901s0002:0.13439)n5:0.04118)n3:0.077795)n0;

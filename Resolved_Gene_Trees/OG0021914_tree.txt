@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_409950:0.495315,((azolla_filiculoides_Azfi_s0068.g036455:0.01235,azolla_filiculoides_Azfi_s0167.g054514:0.05071)n2:0.37241,(ceratopteris_richardii_Ceric.20G009700:0.98014,ceratopteris_richardii_Ceric.33G049700:0.894501)n3:0.099389)n1:0.43843)n0;

@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.VG252200:0.40419,(anthoceros_agrestis_AagrOXF_utg000010l.428:0.09207,anthoceros_agrestis_AagrOXF_utg000057l.281:0.04881)n2:0.67219)n1:0.280685,((klebsormidium_nitens_kfl00072_0010:0.09532,klebsormidium_nitens_kfl00863_0045:0.09282)n4:0.36746,(klebsormidium_nitens_kfl00763_g3:0.69762,klebsormidium_nitens_kfl00783_g4:0.81937)n5:0.11186)n3:0.280685)n0;

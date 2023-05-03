@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_XM_005538733:0.99985,galdieria_sulphuraria_GsulpSAG21_G3190:0.98592)n1:0.110935,((nannochloropsis_gaditana_Nangad1_1245:0.68599,saccharina_japonica_SJ07105:0.53649)n3:0.27482,(cryptophyceae_CCMP2293_Crypto2293_1_1809711:0.54368,guillardia_tetha_Guith1_156053:0.35111)n4:0.47933)n2:0.110935)n0;

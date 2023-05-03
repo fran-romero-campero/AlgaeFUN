@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1258767:1.22783,(chlorokybus_atmophyticus_Chlat1_1416:0.52804,(mesostigma_viridae_Mv05092:0.81386,mesotaenium_endlicherianum_ME000252S04184:0.30601)n3:0.08889)n2:0.14985)n1:0.06672,(nannochloropsis_gaditana_Nangad1_493:0.52354,(saccharina_japonica_SJ07729:0.25018,phaeodactylum_tricornutum_Phatr2_5288:0.39329)n5:0.09378)n4:0.06672)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ21747:0.79179,((chlorokybus_atmophyticus_Chlat1_5768:0.59627,mesostigma_viridae_Mv22838:0.61024)n2:0.23031,(ulva_mutabilis_UM018_0142:1.16115,(cyanidioschyzon_merolae_XM_005539478:0.45736,(galdieria_sulphuraria_GsulpSAG21_G4508:0.62132,gracilariopsis_chorda_PXF45357:0.58562)n5:0.07385)n4:0.15107)n3:0.00917)n1:0.79179)n0;

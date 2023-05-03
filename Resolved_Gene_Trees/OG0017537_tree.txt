@@ -1,0 +1,1 @@
+(anthoceros_agrestis_AagrOXF_utg000063l.554:0.174045,(cycas_panzhihuaensis_CYCAS_021431:0.50855,((oryza_sativa_LOC_Os10g02470.1:0.13875,sorghum_bicolor_Sobic.001G275100:0.13868)n3:0.32529,(triticum_aestivum_Traes_7DL_3A2EE8DCB:0.00055,(triticum_aestivum_Traes_7BL_4B3EE71A8:0.02391,triticum_aestivum_Traes_7AL_51559BC2B:0.13333)n5:0.02436)n4:0.44659)n2:0.23649)n1:0.174045)n0;

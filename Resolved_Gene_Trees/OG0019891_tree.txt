@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz09g13150:0.58763,scenedesmus_obliquus_SZX61160:0.5553)n1:0.309765,((chlamydomonas_reinhardtii_Cre06.g278179:0.49638,volvox_carteri_Vocar.0002s0231:0.28203)n3:0.26827,(dunaliella_salina_Dusal.0481s00006:1.07421,dunaliella_salina_Dusal.0481s00005:0.695925)n4:0.077325)n2:0.10488)n0;

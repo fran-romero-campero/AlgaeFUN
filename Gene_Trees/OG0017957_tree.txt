@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum3013s0001:0.80166,porphyra_umbilicalis_Pum0415s0018:0.81106)0.84:0.08886,((volvox_carteri_Vocar.0006s0113:0.7782,(haematococcus_lacustris_GFH24901:0.00055,haematococcus_lacustris_GFH26036:0.00054)1:0.68691)0.879:0.20986,(chlamydomonas_reinhardtii_Cre09.g388700:0.5927,volvox_carteri_Vocar.0033s0172:0.41909)0.991:0.29484)0.84:0.08886);

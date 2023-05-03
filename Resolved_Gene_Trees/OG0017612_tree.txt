@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_001245:0.637655,(azolla_filiculoides_Azfi_s1389.g102543:0.22374,((azolla_filiculoides_Azfi_s0004.g008348:0.07448,azolla_filiculoides_Azfi_s0004.g008351:0.09609)n3:0.02719,(azolla_filiculoides_Azfi_s0004.g008352:0.22827,(azolla_filiculoides_Azfi_s0318.g064414:0,azolla_filiculoides_Azfi_s0703.g082652:0)n5:0.16156)n4:0.01104)n2:0.10228)n1:0.637655)n0;

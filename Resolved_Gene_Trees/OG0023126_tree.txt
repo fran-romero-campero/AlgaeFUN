@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp6g09310:0.07898,((cycas_panzhihuaensis_CYCAS_030573:0,cycas_panzhihuaensis_CYCAS_030587:0)n2:0.06433,(cycas_panzhihuaensis_CYCAS_011697:1.11783,cycas_panzhihuaensis_CYCAS_027775:0.43384)n3:0.23992)n1:0.07898)n0;

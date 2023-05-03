@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3c12_17860:0,physcomitrium_patens_Pp3c12_17862:0)n1:0.318095,((ceratodon_purpureus_CepurR40.VG141700:0.36608,ceratodon_purpureus_CepurR40.VG033400:0.8575)n3:0.15682,(ceratodon_purpureus_CepurR40.VG074400:1.03541,ceratodon_purpureus_CepurR40.2G111200:0.13057)n4:0.21499)n2:0.318095)n0;

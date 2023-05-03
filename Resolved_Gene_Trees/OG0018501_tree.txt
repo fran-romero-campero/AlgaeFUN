@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_46721:0.670595,((porphyra_umbilicalis_Pum0082s0018:0.79123,porphyra_umbilicalis_Pum0125s0035:0.36359)n2:0.30614,(klebsormidium_nitens_kfl00151_0040:0.66505,(spirogloea_muscicola_SM000285S10792:0.00139,(spirogloea_muscicola_SM000017S02788:0.01037,spirogloea_muscicola_SM000033S12356:0.06407)n5:0.01428)n4:0.61185)n3:0.14949)n1:0.670595)n0;

@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_029334:0.85673,thuja_plicata_Thupl.29378275s0007:1.22871)n1:0.2666,(saccharina_japonica_SJ10090:0.66358,(nannochloropsis_gaditana_Nangad1_2466:1.06215,phaeodactylum_tricornutum_Phatr2_45785:1.17914)n3:0.18438)n2:0.2666)n0;

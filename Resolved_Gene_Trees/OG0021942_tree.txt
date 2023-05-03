@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_33251:0.376895,(bathycoccus_prasinos_Bathy01g02860:0.40812,(ostreococcus_tauri_ostta19g00670:0.21478,(ostreococcus_tauri_ostta19g00190:0.00055,ostreococcus_tauri_ostta08g00030:0.09598)n3:0.07071)n2:0.49005)n1:0.376895)n0;

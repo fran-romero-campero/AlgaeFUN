@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g6582:0.401355,(chromochloris_zofingiensis_Cz08g00130:1.14903,((scenedesmus_obliquus_SZX67140:0,scenedesmus_obliquus_SZX78646:0)n3:0.34057,(scenedesmus_obliquus_SZX67142:0,scenedesmus_obliquus_SZX78648:0)n4:0.2456)n2:0.30358)n1:0.401355)n0;

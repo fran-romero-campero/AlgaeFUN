@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g12857:0.37943,((mesostigma_viridae_Mv20964:1.35829,chlorokybus_atmophyticus_Chlat1_6136:0.44866)n2:0.30595,(scenedesmus_obliquus_SZX78229:0.94463,scenedesmus_obliquus_SZX67241:0.693108)n3:0.077012)n1:0.51739)n0;

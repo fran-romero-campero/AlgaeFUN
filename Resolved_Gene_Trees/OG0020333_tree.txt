@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_XM_005535418:1.00751,(mesostigma_viridae_Mv20932:0.33172,(micromonas_pusilla_Micpu_27348145:0.56069,(spirogloea_muscicola_SM000151S01512:0.01231,(spirogloea_muscicola_SM000109S14156:0.01925,spirogloea_muscicola_SM000174S03352:0.0508)n4:0.02092)n3:0.88422)n2:0.25017)n1:1.00751)n0;

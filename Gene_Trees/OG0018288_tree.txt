@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ13316:0.68241,(guillardia_tetha_Guith1_100311:1.34067,nannochloropsis_gaditana_Nangad1_7873:0.15774)0.943:0.34424)0.957:0.17671,(cyanidioschyzon_merolae_XM_005535406:0.89604,(cyanophora_paradoxa_Cyapar1_g18873:0.5112,(galdieria_sulphuraria_GsulpSAG21_G2975:0.91839,gracilariopsis_chorda_PXF48417:0.36482)0.862:0.21684)0.581:0.1146)0.957:0.17671);

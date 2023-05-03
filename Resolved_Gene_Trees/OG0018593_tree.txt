@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29380034s0001:0.105045,(((oryza_sativa_LOC_Os08g14360.1:1.02915,sorghum_bicolor_Sobic.008G061801:0.22993)n3:0.23978,(triticum_aestivum_Traes_7DS_D08EC104E:0.00055,triticum_aestivum_Traes_4AL_5B4F878CD:0.461493)n4:0.051277)n2:0.23782,(zea_mays_Zm00001d019796:0.13783,zea_mays_Zm00001d035826:0.069885)n5:0.007765)n1:0.41261)n0;

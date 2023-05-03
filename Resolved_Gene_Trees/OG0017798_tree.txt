@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz09g01130:0.67801,(ceratopteris_richardii_Ceric.32G043500:0.9574,(solanum_lycopersicum_Solyc01g011200:0.0701,(solanum_lycopersicum_Solyc01g011115:0.16301,(solanum_lycopersicum_Solyc01g011320:0.06279,(solanum_lycopersicum_Solyc01g011310:0.13021,solanum_lycopersicum_Solyc01g011260:0.14775)n5:0.05206)n4:0.10586)n3:0.0399)n2:0.10619)n1:0.67801)n0;

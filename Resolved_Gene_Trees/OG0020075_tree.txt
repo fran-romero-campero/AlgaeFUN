@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_591:0.078945,((chlorokybus_atmophyticus_Chlat1_590:0.34317,chlorokybus_atmophyticus_Chlat1_589:0.19014)n2:0.03294,(chlorokybus_atmophyticus_Chlat1_588:0.25146,(chlorokybus_atmophyticus_Chlat1_586:0.38925,chlorokybus_atmophyticus_Chlat1_600:0.49511)n4:0.06618)n3:0.10099)n1:0.078945)n0;

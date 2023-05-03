@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ14726:0.613805,(ulva_mutabilis_UM089_0022:0.88296,(scenedesmus_obliquus_SZX77415:0.66279,(chlamydomonas_reinhardtii_Cre15.g640101:0.4236,volvox_carteri_Vocar.0071s0027:0.43064)n3:0.52639)n2:0.23722)n1:0.613805)n0;

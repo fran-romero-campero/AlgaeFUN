@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000035l.103:0.73922,(marchantia_polymorpha_Mp7g14250:0.00054,marchantia_polymorpha_Mp7g14260:0.00055)n2:0.81607)n1:0.06331,(ceratopteris_richardii_Ceric.09G097400:0.71483,(cycas_panzhihuaensis_CYCAS_013959:0.24924,thuja_plicata_Thupl.29379167s0003:0.35182)n4:0.51816)n3:0.06331)n0;

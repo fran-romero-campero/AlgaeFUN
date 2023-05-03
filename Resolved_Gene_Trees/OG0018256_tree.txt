@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g2539:0.43384,(cryptophyceae_CCMP2293_Crypto2293_1_1835154:0.73269,guillardia_tetha_Guith1_114025:0.55427)n2:0.57945)n1:0.047315,(nannochloropsis_gaditana_Nangad1_3064:0.93566,(porphyra_umbilicalis_Pum0582s0001:0.94026,(galdieria_sulphuraria_GsulpSAG21_G1874:1.21725,gracilariopsis_chorda_PXF48211:0.5732)n5:0.37129)n4:0.32338)n3:0.047315)n0;

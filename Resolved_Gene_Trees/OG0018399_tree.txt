@@ -1,0 +1,1 @@
+(((cycas_panzhihuaensis_CYCAS_031610:0.16384,cycas_panzhihuaensis_CYCAS_031628:0.00055)n2:0.05047,triticum_aestivum_Traes_5BL_58102DFDC:0.16612)n1:0.0066,(cycas_panzhihuaensis_CYCAS_027766:0.20169,(solanum_lycopersicum_Solyc05g013290:0.37047,(triticum_aestivum_Traes_3B_80F2F10E2:0.27156,triticum_aestivum_Traes_4DL_0AEAA603D:0.20098)n5:0.00054)n4:0.04086)n3:0.0066)n0;

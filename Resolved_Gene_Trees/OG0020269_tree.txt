@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1821006:0.22429,(cycas_panzhihuaensis_CYCAS_013319:0.58089,(triticum_aestivum_Traes_4AL_015FFD887:0.38967,(zea_mays_Zm00001d024186:0.19078,(zea_mays_Zm00001d033072:0.12697,zea_mays_Zm00001d038826:0.01758)n4:0.13922)n3:0.69344)n2:0.30098)n1:0.22429)n0;

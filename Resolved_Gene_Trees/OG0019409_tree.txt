@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF45401:0.655855,(marchantia_polymorpha_Mp2g23150:0.59493,((sphagnum_magellanicum_Sphmag14G059500:0.24123,sphagnum_magellanicum_Sphmag03G065700:0.07128)n3:0.25952,(anthoceros_agrestis_AagrOXF_utg000126l.221:0.41815,anthoceros_agrestis_AagrOXF_utg000126l.220:0.757215)n4:0.084135)n2:0.24629)n1:0.655855)n0;

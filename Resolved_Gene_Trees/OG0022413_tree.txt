@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz17g07060:0.481865,(volvox_carteri_Vocar.0041s0053:1.02498,((chlamydomonas_reinhardtii_Cre17.g737400:0.00537,chlamydomonas_reinhardtii_Cre17.g737350:0.0425)n3:0.30563,chlamydomonas_reinhardtii_Cre17.g737525:0.2655)n2:0.0295)n1:0.01688)n0;

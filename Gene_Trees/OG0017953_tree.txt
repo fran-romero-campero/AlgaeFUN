@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre09.g402886:0.45595,(volvox_carteri_Vocar.0061s0013:0.3618,chlamydomonas_reinhardtii_Cre09.g402849:0.23413)0.607:0.06695)1:0.40179,(scenedesmus_obliquus_SZX65413:0.59499,(chromochloris_zofingiensis_Cz16g10130:0.54448,(raphidocelis_subcapitata_Rsub_09550:1.2421,chromochloris_zofingiensis_Cz08g20140:0.35411)0.602:0.12299)0.555:0.07503)1:0.40179);

@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz06g23120:1.01077,cyanidioschyzon_merolae_XM_005534880:0.70311)n1:0.108685,(solanum_lycopersicum_Solyc08g080690:1.49766,(gracilariopsis_chorda_PXF49516:0.39645,porphyra_umbilicalis_Pum0079s0014:0.90668)n3:0.00072)n2:0.108685)n0;

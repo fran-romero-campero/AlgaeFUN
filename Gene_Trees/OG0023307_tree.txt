@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF46066:0.35911,gracilariopsis_chorda_PXF45962:0.17424)0.985:0.34938,(thuja_plicata_Thupl.29380503s0003:0.77933,(physcomitrium_patens_Pp3c1_21700:0.37259,sphagnum_magellanicum_Sphmag05G016800:0.3591)0.848:0.28882)0.985:0.34938);

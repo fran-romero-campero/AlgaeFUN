@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_XM_005534971:0.556435,(triticum_aestivum_Traes_2DL_55A71601E:0.321,((selaginella_moellendorffii_Selmo_17031:0.0572,(selaginella_moellendorffii_Selmo_16804:0.14037,selaginella_moellendorffii_Selmo_107453:0.00054)n4:0.18868)n3:0.58233,selaginella_moellendorffii_Selmo_52561:1.14771)n2:0.21989)n1:0.556435)n0;

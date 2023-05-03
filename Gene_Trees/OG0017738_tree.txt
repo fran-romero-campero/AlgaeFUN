@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ17129:0.41712,((marchantia_polymorpha_Mp8g12880:0.35917,(ceratodon_purpureus_CepurR40.3G184700:0.25017,physcomitrium_patens_Pp3c6_16580:0.2362)0.999:0.25536)0.937:0.14819,(chromochloris_zofingiensis_Cz13g09040:0.19138,(chromochloris_zofingiensis_Cz14g03120:0.2097,chromochloris_zofingiensis_Cz10g19210:0.23487)0.859:0.08729)1:0.51623)1:0.41712);

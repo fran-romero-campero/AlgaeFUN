@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_XM_005537777:1.12243,(porphyra_umbilicalis_Pum0178s0018:1.07546,(gracilariopsis_chorda_PXF39805:0.19161,gracilariopsis_chorda_PXF45221:0.15355)n3:0.58203)n2:0.26489)n1:0.13426,(nannochloropsis_gaditana_Nangad1_1401:0.43058,phaeodactylum_tricornutum_Phatr2_31997:0.72684)n4:0.13426)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_42500:0.438485,(coccomyxa_subellipsoidea_Cosub3_1139542:0.72938,(klebsormidium_nitens_kfl00659_0010:0.43636,(klebsormidium_nitens_kfl00252_0010:0.04998,klebsormidium_nitens_kfl00252_0030:0.10846)n3:0.00542)n2:0.45306)n1:0.438485)n0;

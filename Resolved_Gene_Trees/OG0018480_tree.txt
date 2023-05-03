@@ -1,0 +1,1 @@
+((spirogloea_muscicola_SM000141S00848:0.62236,(haematococcus_lacustris_GFH22978:1.11081,haematococcus_lacustris_GFH24206:0.879894)n2:0.097766)n1:0.17918,(zea_mays_Zm00001d003028:0.00055,(zea_mays_Zm00001d028521:0.00055,(zea_mays_Zm00001d047374:0.02117,zea_mays_Zm00001d015456:0.06131)n5:0.00054)n4:0.01121)n3:0.30507)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ22395:0.53511,(bathycoccus_prasinos_Bathy06g04430:0.73932,(ostreococcus_tauri_ostta04g02220:0.49499,(chlorokybus_atmophyticus_Chlat1_2034:0.61958,(mesostigma_viridae_Mv06942:0.12504,mesostigma_viridae_Mv04182:0.10509)n4:0.96582)n3:0.27135)n2:0.38628)n1:0.53511)n0;

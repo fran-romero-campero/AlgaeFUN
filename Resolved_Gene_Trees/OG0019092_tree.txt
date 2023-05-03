@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET2Gv20482500:0.035795,(triticum_aestivum_Traes_2BS_FC456664B:0.25504,(triticum_aestivum_Traes_2DS_CEAF01909:0.00053,((triticum_aestivum_Traes_2AS_35F9CBE17:0.00998,triticum_aestivum_Traes_2DS_C262169F9:0.22909)n4:0.0074,triticum_aestivum_Traes_2BS_EA0E899D9:0.00704)n3:0.00715)n2:0.04456)n1:0.035795)n0;

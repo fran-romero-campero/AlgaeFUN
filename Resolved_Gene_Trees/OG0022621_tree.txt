@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_10221:0.57713,volvox_carteri_Vocar.0004s0464:0.70969)n1:0.090325,(chromochloris_zofingiensis_Cz05g02080:0.45674,(dunaliella_salina_Dusal.0200s00012:0.5887,haematococcus_lacustris_GFH07097:0.40367)n3:0.12138)n2:0.090325)n0;

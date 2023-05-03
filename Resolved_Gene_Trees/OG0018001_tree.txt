@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1768586:0.39983,(mesostigma_viridae_Mv00434:0.87098,((dunaliella_salina_Dusal.0450s00009:0.61867,haematococcus_lacustris_GFH19981:0.46288)n3:0.39334,(chlorokybus_atmophyticus_Chlat1_8257:1.03209,(chlamydomonas_reinhardtii_Cre02.g083700:0.50307,volvox_carteri_Vocar.0004s0520:0.56911)n5:0.41044)n4:0.19467)n2:0.1038)n1:0.39983)n0;

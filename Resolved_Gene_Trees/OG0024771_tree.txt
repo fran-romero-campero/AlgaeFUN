@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0032.g024718:0.24069,(zea_mays_Zm00001d036152:0.3587,(aegilops_tauschii_AET4Gv20812200:0.10652,aegilops_tauschii_AET2Gv20742100:0.604512)n2:0.067168)n1:0.02582)n0;

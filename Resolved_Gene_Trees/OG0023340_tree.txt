@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_44999:0.545395,(volvox_carteri_Vocar.0022s0141:0.53862,(haematococcus_lacustris_GFH11858:0.00658,(haematococcus_lacustris_GFH06603:0.07096,haematococcus_lacustris_GFH06711:0.04283)n3:0.00055)n2:1.09439)n1:0.545395)n0;

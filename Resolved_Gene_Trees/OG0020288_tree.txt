@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1863834:0.474535,((haematococcus_lacustris_GFH33156:0.10719,(haematococcus_lacustris_GFH08791:0.00054,haematococcus_lacustris_GFH32540:0.00055)n3:0.23837)n2:0.40183,(cyanophora_paradoxa_Cyapar1_g7805:1.38687,scenedesmus_obliquus_SZX72298:0.2313)n4:0.44047)n1:0.474535)n0;

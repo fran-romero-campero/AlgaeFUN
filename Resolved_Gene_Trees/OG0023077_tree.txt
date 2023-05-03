@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_12:0.00053,nannochloropsis_gaditana_Nangad1_13:0.00062)n1:0.424395,(cyanophora_paradoxa_Cyapar1_g3013:0.71828,(gracilariopsis_chorda_PXF47643:0.82554,porphyra_umbilicalis_Pum1895s0001:0.61017)n3:0.3232)n2:0.424395)n0;

@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum0215s0012:0.82945,saccharina_japonica_SJ12867:0.76056)n1:0.06417,(chlorokybus_atmophyticus_Chlat1_4725:0.97376,(phaeodactylum_tricornutum_Phatr2_42699:0.7,phaeodactylum_tricornutum_Phatr2_49822:0.82959)n3:0.70967)n2:0.06417)n0;

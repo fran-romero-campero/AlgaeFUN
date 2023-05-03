@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_3622:0.824865,((dunaliella_salina_Dusal.0265s00007:0.83221,((haematococcus_lacustris_GFH22445:0.3481,haematococcus_lacustris_GFH28309:0.06219)n4:0.37982,haematococcus_lacustris_GFH22446:1.40634)n3:0.22519)n2:0.13644,(chlamydomonas_reinhardtii_Cre09.g387912:0.29274,volvox_carteri_Vocar.0033s0140:0.40437)n5:0.49028)n1:0.824865)n0;

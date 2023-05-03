@@ -1,0 +1,1 @@
+(guillardia_tetha_Guith1_151429:0.623475,(sphagnum_magellanicum_Sphmag05G126000:0.87768,((azolla_filiculoides_Azfi_s0272.g061248:0.52566,salvinia_cucullata_Sacu_v1.1_s0014.g006386:0.62206)n3:0.11793,(ceratopteris_richardii_Ceric.03G014800:0.30649,ceratopteris_richardii_Ceric.01G095700:0.72758)n4:0.16762)n2:0.30481)n1:0.623475)n0;

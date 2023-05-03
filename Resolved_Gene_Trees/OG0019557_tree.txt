@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy12g01020:0.657165,((phaeodactylum_tricornutum_Phatr2_37543:1.08771,(cryptophyceae_CCMP2293_Crypto2293_1_1767189:0.51843,guillardia_tetha_Guith1_116576:0.60039)n3:0.30216)n2:0.13252,(nannochloropsis_gaditana_Nangad1_5022:0.76082,saccharina_japonica_SJ02122:0.6942)n4:0.15733)n1:0.657165)n0;

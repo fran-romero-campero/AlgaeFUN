@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1618471:0.90377,(nannochloropsis_gaditana_Nangad1_5168:0,nannochloropsis_gaditana_Nangad1_5169:0)n2:0.29018)n1:0.23061,((chromochloris_zofingiensis_UNPLg00148:1.09145,cyanophora_paradoxa_Cyapar1_g13422:0.36599)n4:0.60298,ostreococcus_tauri_ostta10g00545:0.72692)n3:0.23061)n0;

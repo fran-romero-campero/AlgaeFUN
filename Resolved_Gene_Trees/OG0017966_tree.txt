@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ04299:0.351775,(cyanidioschyzon_merolae_XM_005535123:1.32361,((chlamydomonas_reinhardtii_Cre17.g701000:0.37938,volvox_carteri_Vocar.0004s0204:0.38482)n3:0.28465,(ulva_mutabilis_UM008_0042:0.67002,(chromochloris_zofingiensis_Cz13g13070:0.42996,coccomyxa_subellipsoidea_Cosub3_1176695:0.47003)n5:0.09865)n4:0.08605)n2:0.29255)n1:0.351775)n0;

@@ -1,0 +1,1 @@
+(((scenedesmus_obliquus_SZX62066:0.87697,(chromochloris_zofingiensis_Cz16g15100:0.28348,chromochloris_zofingiensis_Cz16g15090:0.3068)n3:0.3124)n2:0.59946,((phaeodactylum_tricornutum_Phatr2_45633:0.86436,phaeodactylum_tricornutum_Phatr2_33738:0.71788)n5:0.21436,phaeodactylum_tricornutum_Phatr2_36381:0.891855)n4:0.099095)n1:0.090915,mesostigma_viridae_Mv18148:0.67825)n0;

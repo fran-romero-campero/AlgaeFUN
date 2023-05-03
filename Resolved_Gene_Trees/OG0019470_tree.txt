@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00263_0020:0.55988,(marchantia_polymorpha_Mp4g18000:1.24427,((ceratopteris_richardii_Ceric.25G040200:1.0551,(azolla_filiculoides_Azfi_s0007.g011135:0.69126,salvinia_cucullata_Sacu_v1.1_s0064.g015843:0.42282)n4:0.30007)n3:0.30523,thuja_plicata_Thupl.29378830s0002:1.16532)n2:0.17655)n1:0.55988)n0;

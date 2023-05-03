@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_3256:0.353095,(ostreococcus_tauri_ostta19g00650:0.84887,(bathycoccus_prasinos_Bathy102g00040:0.72492,((bathycoccus_prasinos_Bathy01g06820:0.24397,bathycoccus_prasinos_Bathy11g01910:0.6904)n4:0.21713,(bathycoccus_prasinos_Bathy07g01860:0.76718,bathycoccus_prasinos_Bathy05g00980:0.38124)n5:0.038124)n3:0.0038124)n2:0.0004236)n1:0.03511)n0;

@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1804850:0.265275,((haematococcus_lacustris_GFH07742:0.25715,(haematococcus_lacustris_GFH32691:0.00381,haematococcus_lacustris_GFH32798:0.00055)0.977:0.24458)0.968:0.25197,(chara_braunii_Chabra1_g53520:0.59586,haematococcus_lacustris_GFH25704:0.19477)0.683:0.0446)1:0.265275);

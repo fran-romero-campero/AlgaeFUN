@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH14640:0.56721,((thuja_plicata_Thupl.29378187s0004:0.01445,thuja_plicata_Thupl.29378187s0003:0.00055)n2:0.25542,(thuja_plicata_Thupl.29382160s0003:0.04624,(thuja_plicata_Thupl.29378825s0002:0.54701,thuja_plicata_Thupl.29382160s0001:0.05921)n4:0.02346)n3:0.20363)n1:0.56721)n0;

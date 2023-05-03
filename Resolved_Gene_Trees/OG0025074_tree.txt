@@ -1,0 +1,1 @@
+(arabidopsis_thaliana_AT1G23450:0.637135,(cycas_panzhihuaensis_CYCAS_021541:0.2691,(cycas_panzhihuaensis_CYCAS_031354:1.01816,cycas_panzhihuaensis_CYCAS_021956:0.12951)n2:0.23863)n1:0.637135)n0;

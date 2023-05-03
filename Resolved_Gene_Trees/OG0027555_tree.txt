@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv13975:0.6413,ulva_mutabilis_UM057_0063:0.93001)n1:0.290995,(phaeodactylum_tricornutum_Phatr2_47471:0.89986,phaeodactylum_tricornutum_Phatr2_47122:0.63552)n2:0.290995)n0;

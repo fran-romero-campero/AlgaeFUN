@@ -1,0 +1,1 @@
+((((haematococcus_lacustris_GFH14283:0.00055,haematococcus_lacustris_GFH14497:0.01383)n3:0.01899,haematococcus_lacustris_GFH14496:0.02856)n2:0.50782,dunaliella_salina_Dusal.1073s00001:0.34299)n1:0.135515,(mesostigma_viridae_Mv12276:0.71238,salvinia_cucullata_Sacu_v1.1_s0020.g008100:0.46704)n4:0.135515)n0;

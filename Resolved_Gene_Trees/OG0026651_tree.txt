@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_49840:0.636585,(cyanidioschyzon_merolae_XM_005537695:0.86192,(gracilariopsis_chorda_PXF42381:0.38484,porphyra_umbilicalis_Pum0071s0061:0.67626)n2:0.43594)n1:0.636585)n0;

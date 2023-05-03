@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv26123:0.60525,selaginella_moellendorffii_Selmo_132879:0.79475)n1:0.445275,(chlamydomonas_reinhardtii_Cre12.g511950:0.4215,volvox_carteri_Vocar.0016s0192:0.06282)n2:0.445275)n0;

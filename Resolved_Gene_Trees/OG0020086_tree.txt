@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX60709:0.95288,(chlorokybus_atmophyticus_Chlat1_8841:0.68453,klebsormidium_nitens_kfl00035_0120:0.5333)n2:0.67154)n1:0.45489,(guillardia_tetha_Guith1_132749:0.92228,(guillardia_tetha_Guith1_135036:0.14448,guillardia_tetha_Guith1_117023:0.07272)n4:0.27587)n3:0.45489)n0;

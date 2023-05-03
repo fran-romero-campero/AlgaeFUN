@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta03g01730:0.65466,(saccharina_japonica_SJ01128:0.66775,(saccharina_japonica_SJ05828:1.02226,(cryptophyceae_CCMP2293_Crypto2293_1_2475129:0.695,(nannochloropsis_gaditana_Nangad1_3919:0.61154,(cryptophyceae_CCMP2293_Crypto2293_1_1930285:0.34989,guillardia_tetha_Guith1_106196:0.4807)0.981:0.50355)0.688:0.23186)0.825:0.23627)0.927:0.40251)1:0.65466);

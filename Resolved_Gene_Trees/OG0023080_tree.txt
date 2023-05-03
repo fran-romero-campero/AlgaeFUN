@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_720:0.41785,saccharina_japonica_SJ06950:0.31427)n1:0.06865,(cyanophora_paradoxa_Cyapar1_g3208:0.75083,(galdieria_sulphuraria_GsulpSAG21_G3599:0.30758,galdieria_sulphuraria_GsulpSAG21_G3142:0.47476)n3:0.11435)n2:0.06865)n0;

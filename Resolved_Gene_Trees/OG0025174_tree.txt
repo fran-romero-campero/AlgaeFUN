@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy04g01660:1.06911,(ceratopteris_richardii_Ceric.07G068500:0.42035,(azolla_filiculoides_Azfi_s0005.g009031:0.22678,salvinia_cucullata_Sacu_v1.1_s0107.g020385:0.345)n2:0.64841)n1:1.06911)n0;

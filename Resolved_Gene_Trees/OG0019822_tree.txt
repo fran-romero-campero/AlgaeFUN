@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpSAG21_G3747:0.617875,(chlamydomonas_reinhardtii_Cre08.g378300:1.05389,(ulva_mutabilis_UM001_0480:0.38808,(ulva_mutabilis_UM001_0478:0.49444,(ulva_mutabilis_UM001_0476:0.07214,ulva_mutabilis_UM001_0479:0.21378)n4:0.04469)n3:0.22144)n2:0.41888)n1:0.617875)n0;

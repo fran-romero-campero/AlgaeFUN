@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_216349:0.61219,(chlamydomonas_reinhardtii_Cre06.g301500:0.43542,volvox_carteri_Vocar.0029s0150:0.81826)n2:0.72795)n1:0.151515,(bathycoccus_prasinos_Bathy05g00530:0.92059,(micromonas_pusilla_Micpu_27348368:0.4375,ostreococcus_tauri_ostta06g00630:0.71653)n4:0.1539)n3:0.151515)n0;

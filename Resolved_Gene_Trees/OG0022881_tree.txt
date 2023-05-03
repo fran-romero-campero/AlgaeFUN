@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27349309:0.96118,(cryptophyceae_CCMP2293_Crypto2293_1_1860894:0.88096,cryptophyceae_CCMP2293_Crypto2293_1_1894662:1.15457)n2:0.14051)n1:0.03426,(mesostigma_viridae_Mv07520:0.76468,phaeodactylum_tricornutum_Phatr2_55087:0.85749)n3:0.03426)n0;

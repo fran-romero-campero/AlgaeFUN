@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX61249:0.643625,((phaeodactylum_tricornutum_Phatr2_41478:0.3443,(phaeodactylum_tricornutum_Phatr2_35856:0,phaeodactylum_tricornutum_Phatr2_46000:0)n3:0.41422)n2:0.60859,(phaeodactylum_tricornutum_Phatr2_49308:0.31081,phaeodactylum_tricornutum_Phatr2_48352:0.44653)n4:0.37093)n1:0.643625)n0;

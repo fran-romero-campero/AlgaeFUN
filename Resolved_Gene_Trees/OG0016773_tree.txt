@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ10152:0.69223,((gracilariopsis_chorda_PXF45741:0.66106,gracilariopsis_chorda_PXF48856:0.96803)n2:0.14956,(((gracilariopsis_chorda_PXF43131:0,gracilariopsis_chorda_PXF45332:0)n5:0.19207,gracilariopsis_chorda_PXF48861:0.16371)n4:0.075,(gracilariopsis_chorda_PXF48858:0.15482,gracilariopsis_chorda_PXF48860:0.22417)n6:0.09117)n3:0.40374)n1:0.69223)n0;

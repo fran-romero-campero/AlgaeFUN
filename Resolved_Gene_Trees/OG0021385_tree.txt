@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_4AS_DD10A5317:0.04394,(aegilops_tauschii_AET4Gv20673200:0.03248,(aegilops_tauschii_AET1Gv20203700:0.58868,(aegilops_tauschii_AET3Gv20772200:1.14734,aegilops_tauschii_AET3Gv20420000:0.30958)n3:0.10811)n2:0.6194)n1:0.04394)n0;

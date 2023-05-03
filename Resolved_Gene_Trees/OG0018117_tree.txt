@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g10343:0.601885,((ulva_mutabilis_UM011_0210:0.5674,ulva_mutabilis_UM011_0211:0.29091)n2:0.72582,((dunaliella_salina_Dusal.1439s00001:0.19753,dunaliella_salina_Dusal.0024s00019:0.1009)n4:1.16467,(chromochloris_zofingiensis_Cz11g03340:0.46544,scenedesmus_obliquus_SZX60462:0.50774)n5:0.27201)n3:0.176)n1:0.601885)n0;

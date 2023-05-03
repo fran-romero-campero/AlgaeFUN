@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX75855:0.323335,(dunaliella_salina_Dusal.0161s00008:1.13742,(chlamydomonas_reinhardtii_Cre17.g706500:0.50028,(volvox_carteri_Vocar.0289s0001:0.02679,volvox_carteri_Vocar.0021s0104:0.01006)n3:0.44502)n2:0.1465)n1:0.323335)n0;

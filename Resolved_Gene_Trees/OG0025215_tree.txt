@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s0045.g029966:0.72387,(micromonas_pusilla_Micpu_27345774:1.10789,(bathycoccus_prasinos_Bathy09g02950:0.74804,ostreococcus_tauri_ostta03g02800:0.86171)n2:0.15233)n1:0.72387)n0;

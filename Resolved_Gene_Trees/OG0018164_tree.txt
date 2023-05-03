@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH22850:1.36251,(haematococcus_lacustris_GFH11341:0.04835,(haematococcus_lacustris_GFH11340:0.00055,haematococcus_lacustris_GFH11975:0.00055)n3:0.21644)n2:0.33742)n1:0.412065,(cryptophyceae_CCMP2293_Crypto2293_1_1550038:0.19331,(guillardia_tetha_Guith1_59839:0.18563,guillardia_tetha_Guith1_81647:0.26468)n5:0.47023)n4:0.412065)n0;

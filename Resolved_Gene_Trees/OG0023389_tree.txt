@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH32160:0.139055,(solanum_lycopersicum_Solyc08g044243:0.13619,(solanum_lycopersicum_Solyc08g036417:0.00054,(solanum_lycopersicum_Solyc09g056130:0.02556,solanum_lycopersicum_Solyc09g057940:0.05597)n3:0.09824)n2:0.08266)n1:0.139055)n0;

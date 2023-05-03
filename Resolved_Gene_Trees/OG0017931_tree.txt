@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM013_0206:0.48119,(coccomyxa_subellipsoidea_Cosub3_1338324:1.40479,((chlamydomonas_reinhardtii_Cre06.g268700:0.16304,volvox_carteri_Vocar.0002s0154:0.22209)n3:0.54166,(scenedesmus_obliquus_SZX64050:0.50318,(chromochloris_zofingiensis_Cz05g02060:0.41762,raphidocelis_subcapitata_Rsub_12556:0.38539)n5:0.03757)n4:0.23471)n2:0.1374)n1:0.48119)n0;

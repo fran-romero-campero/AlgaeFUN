@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ14988:0.54839,phaeodactylum_tricornutum_Phatr2_45091:1.03663)n1:0.152415,(micromonas_pusilla_Micpu_27348113:0.63754,(coccomyxa_subellipsoidea_Cosub3_1088708:0.43449,(ulva_mutabilis_UM019_0050:0.83191,ulva_mutabilis_UM005_0310:0.52043)n4:0.21519)n3:0.21056)n2:0.152415)n0;

@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_121491:1.26264,phaeodactylum_tricornutum_Phatr2_37253:0.90597)n1:0.185265,(dunaliella_salina_Dusal.0946s00001:1.28693,(chlamydomonas_reinhardtii_Cre03.g178400:0.51195,volvox_carteri_Vocar.0015s0347:0.48271)n3:0.26467)n2:0.185265)n0;

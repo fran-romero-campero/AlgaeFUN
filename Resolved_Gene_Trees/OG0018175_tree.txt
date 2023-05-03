@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_45181:0.3883,(cryptophyceae_CCMP2293_Crypto2293_1_1623958:0.37295,guillardia_tetha_Guith1_150268:0.23051)n2:0.20501)n1:0.234595,(dunaliella_salina_Dusal.0141s00010:1.24169,(ulva_mutabilis_UM019_0026:1.60887,(micromonas_pusilla_Micpu_27340970:0.5102,ostreococcus_tauri_ostta12g00790:0.3847)n5:0.95632)n4:0.15485)n3:0.234595)n0;

@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp8g00240:0.36696,(physcomitrium_patens_Pp3c15_11040:0.72116,((physcomitrium_patens_Pp3c7_10490:0,physcomitrium_patens_Pp3c7_10550:0,physcomitrium_patens_Pp3c7_10310:0):0.00055,(physcomitrium_patens_Pp3c7_10300:0,physcomitrium_patens_Pp3c7_10380:0):0.00054):0.36205):0.36696);

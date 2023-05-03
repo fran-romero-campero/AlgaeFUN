@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH30193:0.00027,(haematococcus_lacustris_GFH30194:0.00055,((haematococcus_lacustris_GFH12943:0.32514,haematococcus_lacustris_GFH30472:0.00055)0.86:0.05614,(haematococcus_lacustris_GFH12181:0.13865,haematococcus_lacustris_GFH25386:0.16801)0.861:0.05461)0.959:0.10245)1:0.00027);

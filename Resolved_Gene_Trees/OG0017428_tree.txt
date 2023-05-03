@@ -1,0 +1,1 @@
+((oryza_sativa_LOC_Os03g26590.1:0.13887,(aegilops_tauschii_AET1Gv20089500:0.16012,zea_mays_Zm00001d047189:0.02859)n2:0.1528)n1:0.19067,(salvinia_cucullata_Sacu_v1.1_s0011.g005012:0.4696,(salvinia_cucullata_Sacu_v1.1_s0035.g011359:0.5661,(salvinia_cucullata_Sacu_v1.1_s0098.g019474:0.44029,salvinia_cucullata_Sacu_v1.1_s0111.g020693:0.29247)n5:0.08607)n4:0.11071)n3:0.19067)n0;

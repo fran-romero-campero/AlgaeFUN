@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_50156:0.98623,saccharina_japonica_SJ03177:1.0584)n1:0.238185,(gracilariopsis_chorda_PXF44730:0.71737,porphyra_umbilicalis_Pum0522s0009:0.3432)n2:0.238185)n0;

@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpSAG21_G3331:0.42238,((phaeodactylum_tricornutum_Phatr2_47491:1.13768,(cryptophyceae_CCMP2293_Crypto2293_1_1761079:0.38116,guillardia_tetha_Guith1_151599:0.35347)n3:0.21799)n2:0.17585,(nannochloropsis_gaditana_Nangad1_8698:0.86337,saccharina_japonica_SJ01673:0.59341)n4:0.19809)n1:0.42238)n0;

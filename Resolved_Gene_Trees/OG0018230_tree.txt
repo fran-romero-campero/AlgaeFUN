@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_7371:0.80717,((mesostigma_viridae_Mv15327:0.33628,mesostigma_viridae_Mv15354:0.22172)n3:0.62214,(klebsormidium_nitens_kfl00078_0360:0.81406,mesostigma_viridae_Mv14814:0.64707)n4:0.178344)n2:0.019816)n1:0.065805,(cryptophyceae_CCMP2293_Crypto2293_1_1777454:0.15453,cryptophyceae_CCMP2293_Crypto2293_1_3264562:0.07756)n5:0.36457)n0;

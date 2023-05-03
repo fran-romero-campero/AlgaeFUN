@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc09g074280:0.06907,solanum_lycopersicum_Solyc09g074290:0.07894)n1:0.31099,(guillardia_tetha_Guith1_153844:0.51079,(cryptophyceae_CCMP2293_Crypto2293_1_1756921:0.97289,cryptophyceae_CCMP2293_Crypto2293_1_1788596:0.563337)n3:0.062593)n2:0.41136)n0;

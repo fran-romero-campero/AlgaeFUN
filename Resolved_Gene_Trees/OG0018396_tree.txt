@@ -1,0 +1,1 @@
+(((triticum_aestivum_Traes_2DL_4ABC23364:0.38948,(zea_mays_Zm00001d032915:0.13033,zea_mays_Zm00001d039876:0.04382)n3:0.17019)n2:0.38019,(solanum_lycopersicum_Solyc04g056365:0.68267,solanum_lycopersicum_Solyc10g019160:0.85298)n4:0.19291)n1:0.09764,(cycas_panzhihuaensis_CYCAS_013444:0.57322,thuja_plicata_Thupl.29378472s0007:0.33504)n5:0.09764)n0;

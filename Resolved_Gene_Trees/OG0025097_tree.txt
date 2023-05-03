@@ -1,0 +1,1 @@
+((oryza_sativa_LOC_Os02g17370.1:0.26936,oryza_sativa_LOC_Os06g22654.1:0.13504)n1:0.351495,(arabidopsis_thaliana_AT1G55205:0.08738,arabidopsis_thaliana_AT3G13674:0.22272)n2:0.351495)n0;

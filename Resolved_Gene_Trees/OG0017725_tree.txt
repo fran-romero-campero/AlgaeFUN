@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_5256:0.77974,(sphagnum_magellanicum_Sphmag13G112800:0.95506,(((ceratodon_purpureus_CepurR40.4G187800:0.17922,physcomitrium_patens_Pp3c9_5184:0.19662)n4:0.00829,(ceratodon_purpureus_CepurR40.1G297800:0.14103,physcomitrium_patens_Pp3c10_20350:0.19522)n5:0.06559)n3:0.484,ceratodon_purpureus_CepurR40.10G158800:0.628749)n2:0.069861)n1:0.12472)n0;

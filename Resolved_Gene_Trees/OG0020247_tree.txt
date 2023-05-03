@@ -1,0 +1,1 @@
+((porphyra_umbilicalis_Pum2209s0001:1.16439,(((cryptophyceae_CCMP2293_Crypto2293_1_2937125:0.23451,cryptophyceae_CCMP2293_Crypto2293_1_1969278:0.22389)n4:0.06949,cryptophyceae_CCMP2293_Crypto2293_1_1789723:0.577152)n3:0.064128,cryptophyceae_CCMP2293_Crypto2293_1_2298600:0.196488)n2:0.021832)n1:0.045515,scenedesmus_obliquus_SZX74848:1.03846)n0;

@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_3510:0.4273,nannochloropsis_gaditana_Nangad1_4544:0.25183)n1:0.220855,((scenedesmus_obliquus_SZX71106:0.41863,scenedesmus_obliquus_SZX61251:0.51136)n3:0.42538,(bathycoccus_prasinos_Bathy07g00420:1.1449,gracilariopsis_chorda_PXF41746:1.33326)n4:0.28736)n2:0.220855)n0;

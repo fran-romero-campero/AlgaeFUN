@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g19701:0.49549,(coccomyxa_subellipsoidea_Cosub3_1136433:0.90435,(klebsormidium_nitens_kfl00676_0045:0.10036,((klebsormidium_nitens_kfl00676_0020:0.0587,klebsormidium_nitens_kfl00676_0040:0.24441)n4:0.01033,klebsormidium_nitens_kfl00491_0020:0.08058)n3:0.09929)n2:1.16658)n1:0.49549)n0;

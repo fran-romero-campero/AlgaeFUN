@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF45210:0.664385,(coccomyxa_subellipsoidea_Cosub3_1288570:0.75563,(chromochloris_zofingiensis_Cz18g11200:0.8922,((scenedesmus_obliquus_SZX59634:0.33499,(raphidocelis_subcapitata_Rsub_00601:0.00158,raphidocelis_subcapitata_Rsub_00602:0.08589)n5:0.91076)n4:0.17112,haematococcus_lacustris_GFH14608:0.71529)n3:0.08597)n2:0.23032)n1:0.664385)n0;

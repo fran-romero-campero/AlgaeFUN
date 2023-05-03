@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0232.g026462:0.224685,((salvinia_cucullata_Sacu_v1.1_s0176.g024582:0.55387,salvinia_cucullata_Sacu_v1.1_s0503.g027445:1.01445)n2:0.26503,(salvinia_cucullata_Sacu_v1.1_s0090.g018737:0.0262,(salvinia_cucullata_Sacu_v1.1_s0073.g017040:0.17326,salvinia_cucullata_Sacu_v1.1_s0073.g017036:0.00055)n4:0.03446)n3:0.64123)n1:0.224685)n0;

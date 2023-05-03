@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ20056:0.35692,(dunaliella_salina_Dusal.0041s00037:0.84687,(cyanophora_paradoxa_Cyapar1_g5777:0.0038,(cyanophora_paradoxa_Cyapar1_g5774:0.00054,cyanophora_paradoxa_Cyapar1_g5776:0.00055)n3:0.06782)n2:0.84291)n1:0.35692)n0;

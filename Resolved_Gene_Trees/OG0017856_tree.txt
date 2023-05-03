@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1800946:0.37853,guillardia_tetha_Guith1_120953:0.90085)n1:0.24878,((cyanophora_paradoxa_Cyapar1_g18182:0.1239,cyanophora_paradoxa_Cyapar1_g18184:0.11569)n3:0.68857,(mesostigma_viridae_Mv14222:0.75227,(chara_braunii_Chabra1_g48856:1.19811,klebsormidium_nitens_kfl00004_0190:0.86061)n5:0.42508)n4:0.39928)n2:0.24878)n0;

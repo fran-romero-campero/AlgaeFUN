@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1233872:0.75867,mesostigma_viridae_Mv02208:0.63179)n1:0.062125,(bathycoccus_prasinos_Bathy01g06450:0.99206,(anthoceros_agrestis_AagrOXF_utg000085l.32:0.536,chlorokybus_atmophyticus_Chlat1_8914:0.44745)n3:0.13944)n2:0.062125)n0;

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g13836:0.48635,(volvox_carteri_Vocar.0022s0015:0.55602,(chlamydomonas_reinhardtii_Cre14.g619050:0.68443,(raphidocelis_subcapitata_Rsub_09405:0.43875,(scenedesmus_obliquus_SZX62766:0.89401,scenedesmus_obliquus_SZX78576:0.30571)0.889:0.11216)0.834:0.10867)0.597:0.05958)1:0.48635);

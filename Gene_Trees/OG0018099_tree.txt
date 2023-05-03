@@ -1,0 +1,1 @@
+(galdieria_sulphuraria_GsulpSAG21_G1588:0.50613,((chlorokybus_atmophyticus_Chlat1_6778:0.73731,mesostigma_viridae_Mv14128:0.52508)0.995:0.41686,((chromochloris_zofingiensis_Cz05g17080:0.39865,raphidocelis_subcapitata_Rsub_07952:0.32274)0.74:0.12644,(chromochloris_zofingiensis_Cz05g17090:0.411,scenedesmus_obliquus_SZX74622:0.26123)0.901:0.11672)0.993:0.40972)1:0.50613);

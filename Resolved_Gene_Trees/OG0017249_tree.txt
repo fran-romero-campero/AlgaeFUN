@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g21255:0.606435,(zea_mays_Zm00001d051817:0.2807,((aegilops_tauschii_AET7Gv21176000:0.68207,triticum_aestivum_Traes_4AL_68BDAF808:0.00055)n3:0.10795,(aegilops_tauschii_AET6Gv20684300:0.05205,(triticum_aestivum_Traes_1BL_297B6771A:0.03202,triticum_aestivum_Traes_6BL_FC1815242:0.037962)n5:0.004218)n4:0.11527)n2:0.08613)n1:0.606435)n0;

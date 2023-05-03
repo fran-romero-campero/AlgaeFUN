@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ17636:0.80957,(mesostigma_viridae_Mv21587:0.2952,mesostigma_viridae_Mv00797:0.29878)n2:0.97955)n1:0.07778,(gracilariopsis_chorda_PXF42290:1.08174,(phaeodactylum_tricornutum_Phatr2_44325:0.53835,(phaeodactylum_tricornutum_Phatr2_47857:0.54068,phaeodactylum_tricornutum_Phatr2_47859:0.54841)n5:0.22188)n4:0.29378)n3:0.07778)n0;

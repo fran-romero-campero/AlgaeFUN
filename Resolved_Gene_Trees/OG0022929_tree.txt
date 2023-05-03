@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ03626:0.59992,(cryptophyceae_CCMP2293_Crypto2293_1_2554498:0.11448,guillardia_tetha_Guith1_160333:0.18665)n2:0.17653)n1:0.17363,(gracilariopsis_chorda_PXF42051:0.53577,porphyra_umbilicalis_Pum2622s0001:0.32237)n3:0.17363)n0;

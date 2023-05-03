@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_45777:1.11193,saccharina_japonica_SJ22268:0.77458)n1:0.25794,(haematococcus_lacustris_GFH05703:0.75272,(dunaliella_salina_Dusal.0256s00020:0.60269,(raphidocelis_subcapitata_Rsub_05594:0.22541,(chromochloris_zofingiensis_Cz13g18010:0.55956,scenedesmus_obliquus_SZX70876:0.43681)n5:0.16112)n4:0.48029)n3:0.36707)n2:0.25794)n0;

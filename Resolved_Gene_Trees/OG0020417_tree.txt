@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g2815:0.86552,(klebsormidium_nitens_kfl00239_0060:0.30669,klebsormidium_nitens_kfl00379_0060:0.65534)n2:0.8524)n1:0.18606,((saccharina_japonica_SJ11183:0.09996,saccharina_japonica_SJ05581:0.00055)n4:0.18793,nannochloropsis_gaditana_Nangad1_408:1.26418)n3:0.18606)n0;

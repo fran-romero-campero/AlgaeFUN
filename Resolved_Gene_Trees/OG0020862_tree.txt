@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c1_23120:0.31227,(thuja_plicata_Thupl.29382102s0016:0.77935,(solanum_lycopersicum_Solyc11g039535:0.13336,((solanum_lycopersicum_Solyc11g062155:0.16443,solanum_lycopersicum_Solyc04g018045:0.3312)n4:0.12715,solanum_lycopersicum_Solyc01g017675:0.16838)n3:0.03117)n2:0.51081)n1:0.31227)n0;

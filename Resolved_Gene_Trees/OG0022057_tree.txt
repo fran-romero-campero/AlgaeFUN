@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_1DL_598A30CC8:0.46766,(physcomitrium_patens_Pp3c26_6269:0.36566,(ceratodon_purpureus_CepurR40.10G000100:0.03452,(ceratodon_purpureus_CepurR40.2G116700:0.01729,ceratodon_purpureus_CepurR40.10G092200:0.00055)n3:0.01011)n2:0.31629)n1:0.46766)n0;

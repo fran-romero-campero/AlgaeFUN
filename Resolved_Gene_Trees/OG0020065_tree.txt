@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1886865:0.52768,klebsormidium_nitens_kfl00234_0110:0.70832)n1:0.038465,(marchantia_polymorpha_Mp8g06950:1.18226,(guillardia_tetha_Guith1_105209:0.87558,(chlorokybus_atmophyticus_Chlat1_3464:1.01357,mesostigma_viridae_Mv25885:0.66694)n4:0.18183)n3:0.09775)n2:0.038465)n0;

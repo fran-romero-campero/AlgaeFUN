@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1766157:0.18491,(cryptophyceae_CCMP2293_Crypto2293_1_1769087:0.15681,cryptophyceae_CCMP2293_Crypto2293_1_1777706:0.00055)n2:0.64875)n1:0.396115,(chlamydomonas_reinhardtii_Cre16.g671700:0.64286,volvox_carteri_Vocar.0033s0136:0.42894)n3:0.396115)n0;

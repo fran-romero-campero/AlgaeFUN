@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre10.g419200:0.66449,chlamydomonas_reinhardtii_Cre10.g420561:0.96878)n1:0.40787,((chara_braunii_Chabra1_g48233:0.01771,chara_braunii_Chabra1_g48234:0.0069)n3:0.02114,(chara_braunii_Chabra1_g36809:0.05321,(chara_braunii_Chabra1_g36808:0.01942,chara_braunii_Chabra1_g36807:0.06478)n5:0.03251)n4:0.02251)n2:0.40787)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ16448:0.717075,((klebsormidium_nitens_kfl00904_g8:0.20981,klebsormidium_nitens_kfl01039_0020:0.33823)n2:0.35449,(klebsormidium_nitens_kfl00924_0070:0.78677,klebsormidium_nitens_kfl00634_0030:1.17562)n3:0.15497)n1:0.717075)n0;

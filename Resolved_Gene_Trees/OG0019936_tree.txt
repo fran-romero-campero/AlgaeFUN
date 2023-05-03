@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1614700:0.09484,cryptophyceae_CCMP2293_Crypto2293_1_2848099:1.05134)n1:0.3834,(mesostigma_viridae_Mv03459:0.5928,(chlamydomonas_reinhardtii_Cre15.g641527:1.34634,(salvinia_cucullata_Sacu_v1.1_s0047.g013454:0.18949,salvinia_cucullata_Sacu_v1.1_s0047.g013458:0.30675)n4:0.81034)n3:0.10241)n2:0.3834)n0;

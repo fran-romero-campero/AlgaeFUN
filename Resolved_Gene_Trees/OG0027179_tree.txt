@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF39887:0.587065,(phaeodactylum_tricornutum_Phatr2_35895:0.59572,(nannochloropsis_gaditana_Nangad1_6696:0.57572,saccharina_japonica_SJ04144:0.5896)n2:0.17757)n1:0.587065)n0;

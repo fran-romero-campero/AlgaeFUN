@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g14945:0.335885,(oryza_sativa_LOC_Os12g22120.1:0.86638,((haematococcus_lacustris_GFH16218:0,haematococcus_lacustris_GFH25486:0)n3:0.73911,(coccomyxa_subellipsoidea_Cosub3_265369:0.67327,chromochloris_zofingiensis_Cz07g01030:1.04049)n4:0.14333)n2:0.22631)n1:0.335885)n0;

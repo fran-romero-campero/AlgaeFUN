@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ02299:0.670105,(mesostigma_viridae_Mv26576:0.86188,(klebsormidium_nitens_kfl00046_0220:0.42268,chlorokybus_atmophyticus_Chlat1_8502:0.82341)n2:0.14073)n1:0.670105)n0;

@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz09g00020:0.35353,(chara_braunii_Chabra1_g12454:1.27504,(klebsormidium_nitens_kfl00304_0020:0.08964,(klebsormidium_nitens_kfl01688_0010:0.15566,(klebsormidium_nitens_kfl00912_0010:0.02024,klebsormidium_nitens_kfl01005_g4:0.12277)n4:0.37903)n3:0.15902)n2:1.08647)n1:0.35353)n0;

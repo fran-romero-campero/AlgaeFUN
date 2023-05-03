@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g34526:1.31798,(ceratodon_purpureus_CepurR40.3G266200:0.31316,physcomitrium_patens_Pp3c7_18260:0.20993)0.998:0.9452)0.824:0.106495,(raphidocelis_subcapitata_Rsub_02258:0.92178,(scenedesmus_obliquus_SZX60168:0.69497,scenedesmus_obliquus_SZX77040:0.61648)0.395:0.1308)0.824:0.106495);

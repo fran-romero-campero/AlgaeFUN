@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0726s00001:1.01729,(raphidocelis_subcapitata_Rsub_04865:0.57726,scenedesmus_obliquus_SZX62559:0.38098)n2:0.25783)n1:0.21129,(mesostigma_viridae_Mv14323:0.6528,(klebsormidium_nitens_kfl00095_0030:0.5823,klebsormidium_nitens_kfl01175_0030:0.660168)n4:0.073352)n3:0.21864)n0;

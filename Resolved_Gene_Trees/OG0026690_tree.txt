@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_47169:0.47914,(cyanophora_paradoxa_Cyapar1_g11095:0.50192,(gracilariopsis_chorda_PXF50023:0.64598,porphyra_umbilicalis_Pum0927s0004:0.0344)n2:0.83279)n1:0.47914)n0;

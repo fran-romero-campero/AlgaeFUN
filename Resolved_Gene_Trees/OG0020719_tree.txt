@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc06g033960:1.00438,(mesotaenium_endlicherianum_ME000205S03033:0.17441,(mesotaenium_endlicherianum_ME000205S03024:0.00055,mesotaenium_endlicherianum_ME000205S03030:0.29429)n3:0.17)n2:0.55799)n1:0.122265,(saccharina_japonica_SJ04983:0.64915,saccharina_japonica_SJ19902:0.68275)n4:0.122265)n0;

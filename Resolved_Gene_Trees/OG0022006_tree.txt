@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH08889:0.00057,haematococcus_lacustris_GFH30413:0.01344)n1:0.48108,(ostreococcus_tauri_ostta13g01040:0.21231,(bathycoccus_prasinos_Bathy17g00650:0.36432,micromonas_pusilla_Micpu_27347262:0.19819)n3:0.09807)n2:0.48108)n0;

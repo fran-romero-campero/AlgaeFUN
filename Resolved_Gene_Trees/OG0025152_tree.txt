@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_423877:0.11958,selaginella_moellendorffii_Selmo_424825:0.28139)n1:0.58863,(arabidopsis_thaliana_AT5G10680:0.42743,thuja_plicata_Thupl.29377533s0001:0.54611)n2:0.58863)n0;

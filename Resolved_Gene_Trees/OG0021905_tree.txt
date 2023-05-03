@@ -1,0 +1,1 @@
+((thuja_plicata_Thupl.29379031s0004:0.00054,thuja_plicata_Thupl.29379031s0005:0.05322)n1:0.78713,(azolla_filiculoides_Azfi_s0062.g035268:0.07896,(azolla_filiculoides_Azfi_s0036.g025815:0.00055,azolla_filiculoides_Azfi_s0062.g035267:0.24825)n3:0.22726)n2:0.78713)n0;

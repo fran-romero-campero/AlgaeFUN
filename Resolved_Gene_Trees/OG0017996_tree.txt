@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre02.g095300:0.69123,(gracilariopsis_chorda_PXF46159:0.01823,(gracilariopsis_chorda_PXF45005:0.19537,(gracilariopsis_chorda_PXF44999:0.00055,(gracilariopsis_chorda_PXF45002:0,gracilariopsis_chorda_PXF45008:0,gracilariopsis_chorda_PXF45011:0)n4:0.00291)n3:0.00055)n2:0.02683)n1:0.69123)n0;

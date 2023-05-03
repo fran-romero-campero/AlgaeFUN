@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ07723:0.5395,(chlamydomonas_reinhardtii_Cre09.g399551:0.6647,(mesostigma_viridae_Mv13905:1.10317,(volvox_carteri_Vocar.0008s0266:0.3355,(volvox_carteri_Vocar.0002s0574:0.00055,volvox_carteri_Vocar.0002s0577:0.001)n4:0.66996)n3:0.2181)n2:0.31966)n1:0.5395)n0;

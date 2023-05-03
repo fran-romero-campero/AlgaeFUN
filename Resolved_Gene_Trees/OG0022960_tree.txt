@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ17454:0.326485,(galdieria_sulphuraria_GsulpSAG21_G3401:0.42144,(cyanidioschyzon_merolae_XM_005538456:0.77803,(gracilariopsis_chorda_PXF46137:0.32611,porphyra_umbilicalis_Pum0185s0019:0.20386)n3:0.07341)n2:0.1619)n1:0.326485)n0;

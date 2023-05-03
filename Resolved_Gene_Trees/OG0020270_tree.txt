@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1821073:0.37511,((gracilariopsis_chorda_PXF43079:0.04566,gracilariopsis_chorda_PXF42763:0.23719)n2:0.2136,(haematococcus_lacustris_GFH14236:0.71212,(dunaliella_salina_Dusal.0135s00026:0.53212,oryza_sativa_LOC_Os09g03310.1:0.70029)n4:0.21842)n3:0.48847)n1:0.37511)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_45503:0.630575,(chlamydomonas_reinhardtii_Cre09.g404900:1.32401,(mesostigma_viridae_Mv03355:0.21389,(mesostigma_viridae_Mv19847:0.40581,mesostigma_viridae_Mv00565:0.18821)n3:0.07983)n2:0.38699)n1:0.630575)n0;

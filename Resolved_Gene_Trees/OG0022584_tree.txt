@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_8892:0.447655,(saccharina_japonica_SJ14116:0.70793,(cryptophyceae_CCMP2293_Crypto2293_1_1950086:0.48458,(guillardia_tetha_Guith1_151088:0.30655,guillardia_tetha_Guith1_153114:0.36377)n3:0.21172)n2:0.6981)n1:0.447655)n0;

@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29379790s0002:0.385405,(solanum_lycopersicum_Solyc12g011080:0.72788,(triticum_aestivum_Traes_2DL_AD551D884:0.00055,(triticum_aestivum_Traes_2BL_645795E33:0.02285,triticum_aestivum_Traes_2AL_B7C0371D8:0.03437)n3:0.01154)n2:0.70531)n1:0.385405)n0;

@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g23102:0.524895,(klebsormidium_nitens_kfl00219_0010:0.00059,(klebsormidium_nitens_kfl00389_0010:0.02116,(klebsormidium_nitens_kfl00652_0100:0.03914,(klebsormidium_nitens_kfl01115_0030:0.23668,(klebsormidium_nitens_kfl00665_0050:0.39135,klebsormidium_nitens_kfl00821_0050:1.23503)n5:0.29464)n4:0.20714)n3:0.02606)n2:0.04093)n1:0.524895)n0;

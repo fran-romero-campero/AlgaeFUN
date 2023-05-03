@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1859149:1.21001,mesostigma_viridae_Mv05820:0.32368)n1:0.155225,(guillardia_tetha_Guith1_70684:0.51896,(cyanophora_paradoxa_Cyapar1_g1297:0.3771,(nannochloropsis_gaditana_Nangad1_2462:0.49216,(phaeodactylum_tricornutum_Phatr2_17300:0.57782,saccharina_japonica_SJ05563:0.43388)n5:0.07017)n4:0.11896)n3:0.04334)n2:0.155225)n0;

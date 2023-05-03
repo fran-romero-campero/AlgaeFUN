@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27348857:0.526605,(ulva_mutabilis_UM015_0163:0.8371,(chromochloris_zofingiensis_Cz11g05010:1.0373,(chlamydomonas_reinhardtii_Cre02.g112100:0.32372,volvox_carteri_Vocar.0001s1652:0.1655)n3:0.64248)n2:0.25112)n1:0.526605)n0;

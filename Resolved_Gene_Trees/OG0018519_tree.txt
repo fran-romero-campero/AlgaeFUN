@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp5g17730:0.08017,((marchantia_polymorpha_Mp5g17580:0.08081,marchantia_polymorpha_Mp5g22720:0.14249)n2:1.01966,((marchantia_polymorpha_Mp5g03240:0.01361,marchantia_polymorpha_Mp5g10500:0.00632)n4:0.10628,(marchantia_polymorpha_Mp4g18220:0.30048,marchantia_polymorpha_Mp5g09470:0.04062)n5:0.05265)n3:0.08126)n1:0.08017)n0;

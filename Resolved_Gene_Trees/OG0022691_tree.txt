@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1234105:0.568695,(phaeodactylum_tricornutum_Phatr2_49635:0.98355,(guillardia_tetha_Guith1_49669:0.9015,(cryptophyceae_CCMP2293_Crypto2293_1_1942692:0.1534,cryptophyceae_CCMP2293_Crypto2293_1_1977104:0.01476)n3:0.49527)n2:0.31076)n1:0.568695)n0;

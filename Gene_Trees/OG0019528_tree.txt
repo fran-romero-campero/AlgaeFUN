@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_42968:0.37052,(bathycoccus_prasinos_Bathy04g04510:0.89972,(micromonas_pusilla_Micpu_27344753:0.32987,((raphidocelis_subcapitata_Rsub_11366:0.63235,scenedesmus_obliquus_SZX61660:0.52601)1:0.91323,micromonas_pusilla_Micpu_27344913:0.33474)0.558:0.10088)0.821:0.16086)1:0.37052);

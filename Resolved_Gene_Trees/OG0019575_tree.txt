@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_152195:0.00875,guillardia_tetha_Guith1_94101:0.00606)n1:0.271705,(mesostigma_viridae_Mv18638:0.78771,(gracilariopsis_chorda_PXF45931:1.31677,(bathycoccus_prasinos_Bathy56g00105:0.79641,coccomyxa_subellipsoidea_Cosub3_1372287:0.64625)n4:0.35)n3:0.18036)n2:0.271705)n0;

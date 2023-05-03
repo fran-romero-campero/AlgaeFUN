@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0087s00008:0.25976,nannochloropsis_gaditana_Nangad1_1176:0.47349)n1:0.060805,(chlamydomonas_reinhardtii_Cre01.g036950:0.29534,(raphidocelis_subcapitata_Rsub_01254:0.39359,(ulva_mutabilis_UM080_0039:0.53237,(guillardia_tetha_Guith1_100220:0.6157,porphyra_umbilicalis_Pum0208s0032:0.62122)n5:0.4068)n4:0.09297)n3:0.04507)n2:0.060805)n0;

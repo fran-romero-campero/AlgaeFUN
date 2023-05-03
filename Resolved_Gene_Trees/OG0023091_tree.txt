@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g7497:0.34067,mesostigma_viridae_Mv01707:1.03182)n1:0.257355,(galdieria_sulphuraria_GsulpSAG21_G5543:0.70251,(galdieria_sulphuraria_GsulpSAG21_G5802:0.9914,galdieria_sulphuraria_GsulpSAG21_G405:0.68943)n3:0.3173)n2:0.257355)n0;

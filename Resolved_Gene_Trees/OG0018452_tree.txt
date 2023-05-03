@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF44889:0.77381,((triticum_aestivum_Traes_3DL_39A4EC5DE:0.00637,(triticum_aestivum_Traes_3AL_FEEFEC8ED:0.01107,triticum_aestivum_Traes_3B_6BD8154CF:0.02085)n3:0.00308)n2:0.18985,(sorghum_bicolor_Sobic.003G218200:0.07028,(zea_mays_Zm00001d044457:0.00248,zea_mays_Zm00001d044458:0.00773)n5:0.04929)n4:0.09821)n1:0.77381)n0;

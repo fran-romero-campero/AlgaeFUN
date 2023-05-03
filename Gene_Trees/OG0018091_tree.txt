@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ06835:0.435665,((chlorokybus_atmophyticus_Chlat1_4681:1.39331,(mesostigma_viridae_Mv02049:1.04834,(mesostigma_viridae_Mv12442:0.15439,mesostigma_viridae_Mv02048:0.04857)0.715:0.09345)0.914:0.23618)0.993:0.3731,(ulva_mutabilis_UM003_0233:0.18039,ulva_mutabilis_UM025_0019:0.29441)1:0.53839)1:0.435665);

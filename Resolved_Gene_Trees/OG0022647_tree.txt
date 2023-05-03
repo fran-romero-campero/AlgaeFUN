@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_2395971:0.19545,((chromochloris_zofingiensis_Cz02g28150:0.45755,klebsormidium_nitens_kfl00250_0130:0.582)n2:0.50302,(gracilariopsis_chorda_PXF40613:0.71601,mesostigma_viridae_Mv16177:0.28011)n3:0.04543)n1:0.19545)n0;

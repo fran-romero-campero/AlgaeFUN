@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_3508:0.346895,(ulva_mutabilis_UM120_0043:0.69209,(coccomyxa_subellipsoidea_Cosub3_1316313:0.61586,((raphidocelis_subcapitata_Rsub_02985:0.09766,scenedesmus_obliquus_SZX60004:0.15)n4:0.29067,(chlamydomonas_reinhardtii_Cre08.g377000:0.05898,volvox_carteri_Vocar.0053s0014:0.19532)n5:0.29689)n3:0.2176)n2:0.25105)n1:0.346895)n0;

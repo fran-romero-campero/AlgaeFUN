@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM028_0030:0.601035,((haematococcus_lacustris_GFH28817:0.33533,(haematococcus_lacustris_GFH28816:0.58664,(chlamydomonas_reinhardtii_Cre03.g145407:0.22788,volvox_carteri_Vocar.0019s0023:0.21652)0.999:0.25085)0.533:0.04349)0.049:0.0948,(chromochloris_zofingiensis_Cz04g23170:0.43078,scenedesmus_obliquus_SZX74844:0.52575)0.999:0.15221)1:0.601035);

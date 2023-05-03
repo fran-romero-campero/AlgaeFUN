@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH14521:0.00056,haematococcus_lacustris_GFH19722:0.06298)n1:0.50315,(chlamydomonas_reinhardtii_Cre09.g399513:0.24996,volvox_carteri_Vocar.0032s0016:0.63521)n2:0.50315)n0;

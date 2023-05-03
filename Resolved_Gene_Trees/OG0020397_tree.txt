@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_4239:0.75953,(cyanophora_paradoxa_Cyapar1_g2520:0.56525,((cyanophora_paradoxa_Cyapar1_g15828:0.01368,cyanophora_paradoxa_Cyapar1_g15829:0.14811)n3:0.53503,(cyanophora_paradoxa_Cyapar1_g17557:0.39743,cyanophora_paradoxa_Cyapar1_g2521:0.51186)n4:0.03105)n2:0.09259)n1:0.75953)n0;

@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET6Gv20374500:0.667035,(oryza_sativa_LOC_Os07g09280.1:1.08866,((oryza_sativa_LOC_Os01g44030.1:0.01858,oryza_sativa_LOC_Os03g63880.1:0.00622)n3:0.08349,(oryza_sativa_LOC_Os01g62740.1:0.01638,oryza_sativa_LOC_Os12g35470.1:0.01226)n4:0.30274)n2:0.82792)n1:0.667035)n0;

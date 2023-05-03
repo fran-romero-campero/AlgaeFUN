@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz01g36200:0.65628,((aegilops_tauschii_AET5Gv20438200:0.00054,triticum_aestivum_Traes_5DL_E5A482675:0.00055)n2:0.17893,(sorghum_bicolor_Sobic.002G157050:0.37599,oryza_sativa_LOC_Os09g11260.1:0.25033)n3:0.08507)n1:0.65628)n0;

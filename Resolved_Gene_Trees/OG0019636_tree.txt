@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00263_0100:0.352565,((ceratodon_purpureus_CepurR40.9G048200:0.1732,physcomitrium_patens_Pp3c7_10090:0.19605)n2:0.60578,(spirogloea_muscicola_SM000056S17963:0.07474,(spirogloea_muscicola_SM000003S11032:0.04321,spirogloea_muscicola_SM000072S21211:0.04062)n4:0.01343)n3:0.71114)n1:0.352565)n0;

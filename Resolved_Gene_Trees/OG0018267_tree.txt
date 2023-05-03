@@ -1,0 +1,1 @@
+(((cryptophyceae_CCMP2293_Crypto2293_1_1895629:0.9002,dunaliella_salina_Dusal.2605s00001:0.74648)n2:0.07325,(haematococcus_lacustris_GFH14856:0.6358,guillardia_tetha_Guith1_156027:0.73055)n3:0.12503)n1:0.086965,(cyanophora_paradoxa_Cyapar1_g11722:0.50525,(cyanophora_paradoxa_Cyapar1_g11720:0.00055,cyanophora_paradoxa_Cyapar1_g23486:0.08235)n5:0.18815)n4:0.086965)n0;

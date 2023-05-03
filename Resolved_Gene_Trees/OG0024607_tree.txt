@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1823886:0.274895,(arabidopsis_thaliana_AT1G78480:0.51868,(aegilops_tauschii_AET2Gv20564900:0.00055,triticum_aestivum_Traes_2DL_3F629F475:0.00055)n2:0.78053)n1:0.274895)n0;

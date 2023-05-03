@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF46876:0.79743,((arabidopsis_thaliana_AT4G12140:0.06121,arabidopsis_thaliana_AT4G12150:0.16631)0.963:0.28799,((arabidopsis_thaliana_AT4G05350:0.12219,arabidopsis_thaliana_AT4G12190:0.00973)0.722:0.07052,(arabidopsis_thaliana_AT4G12210:0.0534,arabidopsis_thaliana_AT4G12220:0.34572)0.949:0.09331)0.914:0.20589)1:0.79743);

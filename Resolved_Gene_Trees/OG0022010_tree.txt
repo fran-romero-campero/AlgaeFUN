@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy29g00070:0.99877,(scenedesmus_obliquus_SZX66979:0.60931,(dunaliella_salina_Dusal.0808s00007:0.15584,(chlamydomonas_reinhardtii_Cre07.g346450:0.20987,volvox_carteri_Vocar.0011s0037:0.2386)n3:0.58048)n2:0.4653)n1:0.99877)n0;

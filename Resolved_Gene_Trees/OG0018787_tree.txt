@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag14G020300:0.175785,(sphagnum_magellanicum_Sphmag07G032300:0.27134,(sphagnum_magellanicum_Sphmag03G109500:0.1476,(sphagnum_magellanicum_Sphmag06G115900:0.01086,((sphagnum_magellanicum_Sphmag05G001600:0,sphagnum_magellanicum_Sphmag08G099300:0)n5:0.00055,sphagnum_magellanicum_Sphmag03G127300:0.01165)n4:0.0726)n3:0.65116)n2:0.16441)n1:0.175785)n0;

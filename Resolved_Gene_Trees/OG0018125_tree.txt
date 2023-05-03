@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00186_0170:0.83492,(mesotaenium_endlicherianum_ME000088S10107:0.78362,(spirogloea_muscicola_SM000004S14999:0.02802,spirogloea_muscicola_SM000007S20841:0.04264)n3:0.48881)n2:0.15039)n1:0.07584,(scenedesmus_obliquus_SZX59756:0.89484,(chromochloris_zofingiensis_Cz05g27030:0.86003,coccomyxa_subellipsoidea_Cosub3_1212331:0.6501)n5:0.18661)n4:0.07584)n0;

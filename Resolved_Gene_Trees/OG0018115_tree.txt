@@ -1,0 +1,1 @@
+(((chromochloris_zofingiensis_Cz01g32310:0.775,cyanophora_paradoxa_Cyapar1_g8855:0.61684)n2:0.68078,gracilariopsis_chorda_PXF47732:0.81822)n1:0.04264,((nannochloropsis_gaditana_Nangad1_6598:0.97192,saccharina_japonica_SJ05053:0.62302)n4:0.40111,(guillardia_tetha_Guith1_143157:0.7835,guillardia_tetha_Guith1_111382:0.69909)n5:0.11141)n3:0.04264)n0;

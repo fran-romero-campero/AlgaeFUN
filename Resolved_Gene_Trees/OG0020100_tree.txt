@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz01g06180:0.67968,((klebsormidium_nitens_kfl00091_0210:0.65015,klebsormidium_nitens_kfl00363_0130:0.55619)n2:0.50689,(mesotaenium_endlicherianum_ME000069S09102:0.8183,(mesotaenium_endlicherianum_ME000248S04257:0.04066,mesotaenium_endlicherianum_ME000070S09201:0.03893)n4:0.70939)n3:0.48627)n1:0.67968)n0;

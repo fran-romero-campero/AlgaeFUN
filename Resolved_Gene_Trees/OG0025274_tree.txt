@@ -1,0 +1,1 @@
+(azolla_filiculoides_Azfi_s2700.g112751:0.10346,(thuja_plicata_Thupl.29382225s0001:0.49467,(zea_mays_Zm00001d042356:0.01206,zea_mays_Zm00001d043021:0.00054)n2:0.61047)n1:0.10346)n0;

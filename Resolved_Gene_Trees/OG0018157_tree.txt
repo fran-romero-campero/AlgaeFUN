@@ -1,0 +1,1 @@
+((ostreococcus_tauri_ostta04g01340:1.57682,(coccomyxa_subellipsoidea_Cosub3_1241762:0.27632,coccomyxa_subellipsoidea_Cosub3_1241765:0.09211)n2:0.78246)n1:0.34571,(saccharina_japonica_SJ16795:0.53485,(guillardia_tetha_Guith1_89996:0.69071,(cryptophyceae_CCMP2293_Crypto2293_1_3164734:0.72013,nannochloropsis_gaditana_Nangad1_10021:0.60459)n5:0.20157)n4:0.0672)n3:0.34571)n0;

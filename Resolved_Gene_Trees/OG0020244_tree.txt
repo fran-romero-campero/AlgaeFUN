@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g8199:0.59709,(mesostigma_viridae_Mv15181:1.02563,scenedesmus_obliquus_SZX75758:0.99493)n2:0.06371)n1:0.22401,(cryptophyceae_CCMP2293_Crypto2293_1_1788781:1.13547,(guillardia_tetha_Guith1_151524:0.17931,guillardia_tetha_Guith1_134553:0.280584)n4:0.031176)n3:0.29814)n0;

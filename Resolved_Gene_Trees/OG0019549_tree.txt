@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ00398:1.2007,(guillardia_tetha_Guith1_153899:0.57321,guillardia_tetha_Guith1_142436:0.50754)n2:0.05984)n1:0.094905,(micromonas_pusilla_Micpu_27348101:0.3865,(bathycoccus_prasinos_Bathy10g01110:0.68596,ostreococcus_tauri_ostta09g03460:0.74059)n4:0.18939)n3:0.094905)n0;

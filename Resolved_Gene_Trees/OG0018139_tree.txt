@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1806741:0.309665,(chromochloris_zofingiensis_Cz13g04050:0.67206,((dunaliella_salina_Dusal.0063s00019:0.15496,(dunaliella_salina_Dusal.0505s00004:0.00944,dunaliella_salina_Dusal.0063s00020:0.00169)n4:0.16774)n3:0.25725,(dunaliella_salina_Dusal.0336s00014:0.25787,dunaliella_salina_Dusal.0063s00022:0.20161)n5:0.06124)n2:0.4448)n1:0.309665)n0;

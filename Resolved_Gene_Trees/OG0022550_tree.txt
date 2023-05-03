@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ10488:0.56081,(ulva_mutabilis_UM058_0027:0.6099,(chlamydomonas_reinhardtii_Cre12.g500700:0.4714,(cyanophora_paradoxa_Cyapar1_g2437:1.36406,chromochloris_zofingiensis_Cz19g03020:0.44124)n3:0.11684)n2:0.24219)n1:0.56081)n0;

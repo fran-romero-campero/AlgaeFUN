@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag08G113600:0.25228,(mesotaenium_endlicherianum_ME000401S07009:0.49821,(spirogloea_muscicola_SM000278S10018:0.01368,(spirogloea_muscicola_SM000151S01504:0.03332,spirogloea_muscicola_SM000174S03355:0.03363)n3:0.00379)n2:0.4055)n1:0.25228)n0;

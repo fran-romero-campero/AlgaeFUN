@@ -1,0 +1,1 @@
+((saccharina_japonica_SJ05958:0.49506,((coccomyxa_subellipsoidea_Cosub3_1092609:0.81848,klebsormidium_nitens_kfl00451_0070:1.12196)n3:0.2161,coccomyxa_subellipsoidea_Cosub3_1203299:1.27874)n2:0.142082)n1:0.06881,(phaeodactylum_tricornutum_Phatr2_32665:0.77936,(nannochloropsis_gaditana_Nangad1_6805:0.00055,nannochloropsis_gaditana_Nangad1_6806:0.00055)n5:0.46869)n4:0.20563)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv23022:0.14016,(chara_braunii_Chabra1_g51927:0.42754,(mesotaenium_endlicherianum_ME000052S08165:0.14638,(spirogloea_muscicola_SM000014S00262:0.00624,(spirogloea_muscicola_SM000036S13316:0.02883,spirogloea_muscicola_SM000002S05676:0.00862)n4:0.00594)n3:0.14153)n2:0.06456)n1:0.14016)n0;

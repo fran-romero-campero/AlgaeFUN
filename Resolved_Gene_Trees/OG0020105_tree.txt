@@ -1,0 +1,1 @@
+((guillardia_tetha_Guith1_134183:1.0164,nannochloropsis_gaditana_Nangad1_5666:1.47179)n1:0.296395,((coccomyxa_subellipsoidea_Cosub3_1315061:0.30156,scenedesmus_obliquus_SZX79520:0.52317)n3:0.05254,(chromochloris_zofingiensis_Cz11g25140:0.59691,chromochloris_zofingiensis_Cz13g01160:0.4476)n4:0.17137)n2:0.296395)n0;

@@ -1,0 +1,1 @@
+(((gracilariopsis_chorda_PXF44083:0.00054,(gracilariopsis_chorda_PXF49637:0.0179,gracilariopsis_chorda_PXF39735:0.0044)n3:0.01305)n2:0.90647,(micromonas_pusilla_Micpu_27340467:0.42933,micromonas_pusilla_Micpu_27340551:0.3318)n4:0.73841)n1:0.10968,(nannochloropsis_gaditana_Nangad1_9898:0.49003,saccharina_japonica_SJ22304:0.52513)n5:0.10968)n0;

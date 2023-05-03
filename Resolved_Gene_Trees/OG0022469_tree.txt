@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF40640:0.58557,(raphidocelis_subcapitata_Rsub_10128:0.3905,(chlamydomonas_reinhardtii_Cre03.g196300:0.48111,(ulva_mutabilis_UM036_0092:0.58739,ulva_mutabilis_UM036_0093:0.524493)n3:0.058277)n2:0.09618)n1:0.58557)n0;

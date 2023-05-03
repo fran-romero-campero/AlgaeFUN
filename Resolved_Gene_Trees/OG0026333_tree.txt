@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH15514:0.4972,(cryptophyceae_CCMP2293_Crypto2293_1_1644757:0.13962,(cryptophyceae_CCMP2293_Crypto2293_1_1766417:1.05532,cryptophyceae_CCMP2293_Crypto2293_1_1613128:0.29547)n2:0.10231)n1:0.4972)n0;

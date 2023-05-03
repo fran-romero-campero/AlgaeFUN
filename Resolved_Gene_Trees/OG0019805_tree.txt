@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g27750:1.14828,saccharina_japonica_SJ05179:0.60172)n1:0.1032,((cyanophora_paradoxa_Cyapar1_g6534:0.69581,mesostigma_viridae_Mv13203:0.96055)n3:0.20137,(guillardia_tetha_Guith1_121793:1.24974,nannochloropsis_gaditana_Nangad1_10342:0.56265)n4:0.08824)n2:0.1032)n0;

@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_2732:0.49149,(mesostigma_viridae_Mv02449:1.23971,((galdieria_sulphuraria_GsulpSAG21_G437:0.08579,galdieria_sulphuraria_GsulpSAG21_G2433:0.00054)n3:1.32277,(chlorokybus_atmophyticus_Chlat1_2407:1.13034,cyanophora_paradoxa_Cyapar1_g1107:0.87205)n4:0.28964)n2:0.23121)n1:0.49149)n0;

@@ -1,0 +1,1 @@
+((cryptophyceae_CCMP2293_Crypto2293_1_1656042:0.19737,guillardia_tetha_Guith1_158899:0.27316)n1:0.485585,(coccomyxa_subellipsoidea_Cosub3_1203750:0.5381,(chromochloris_zofingiensis_UNPLg00096:0.4619,ulva_mutabilis_UM002_0182:0.7694)n3:0.10275)n2:0.485585)n0;

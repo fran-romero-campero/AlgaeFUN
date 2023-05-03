@@ -1,0 +1,1 @@
+((cyanidioschyzon_merolae_XM_005537057:0.82288,galdieria_sulphuraria_GsulpSAG21_G4571:1.30498)n1:0.198945,(chlorokybus_atmophyticus_Chlat1_3921:0.90594,(klebsormidium_nitens_kfl00028_0380:1.04191,(mesostigma_viridae_Mv20414:0,mesostigma_viridae_Mv11454:0)n4:0.7858)n3:0.08941)n2:0.198945)n0;

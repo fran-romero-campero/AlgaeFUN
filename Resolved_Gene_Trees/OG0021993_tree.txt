@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM002_0163:0.9516,ulva_mutabilis_UM047_0088:0.82707)n1:0.475555,(bathycoccus_prasinos_Bathy19g00110:0.16996,(bathycoccus_prasinos_Bathy13g00070:0.06598,bathycoccus_prasinos_Bathy35g00100:0.13408)n3:0.04115)n2:0.475555)n0;

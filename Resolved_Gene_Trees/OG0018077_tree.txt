@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ06699:0.60953,((chromochloris_zofingiensis_Cz06g21220:0.55921,(scenedesmus_obliquus_SZX77588:0,scenedesmus_obliquus_SZX68309:0)n3:0.67784)n2:0.17097,(coccomyxa_subellipsoidea_Cosub3_1188153:1.05178,(chlamydomonas_reinhardtii_Cre12.g548100:0.24515,volvox_carteri_Vocar.0007s0210:0.31981)n5:0.43416)n4:0.18451)n1:0.60953)n0;

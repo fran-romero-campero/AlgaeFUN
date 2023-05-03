@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1261031:0.43027,((coccomyxa_subellipsoidea_Cosub3_1182634:0.36589,coccomyxa_subellipsoidea_Cosub3_1224334:0.47653)n2:0.25788,(coccomyxa_subellipsoidea_Cosub3_1160311:0.5444,(coccomyxa_subellipsoidea_Cosub3_1294181:0.47609,coccomyxa_subellipsoidea_Cosub3_1308245:0.53604)n4:0.12807)n3:0.04831)n1:0.43027)n0;

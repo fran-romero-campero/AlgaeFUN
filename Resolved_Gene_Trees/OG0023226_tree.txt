@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM039_0026:0.60247,(dunaliella_salina_Dusal.2854s00001:0.84439,(haematococcus_lacustris_GFH10913:0.01213,(haematococcus_lacustris_GFH10406:0.00152,haematococcus_lacustris_GFH10912:0.1267)n3:0.06521)n2:0.23351)n1:0.60247)n0;

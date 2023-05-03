@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre10.g437950:0.14866,volvox_carteri_Vocar.0001s1312:0.38644)n1:0.26675,(porphyra_umbilicalis_Pum1932s0001:0.76556,(gracilariopsis_chorda_PXF46965:0.53154,(galdieria_sulphuraria_GsulpSAG21_G188:0.55406,galdieria_sulphuraria_GsulpSAG21_G1882:0.53045)n4:0.17949)n3:0.24311)n2:0.26675)n0;

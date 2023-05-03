@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_009121:0.25177,cycas_panzhihuaensis_CYCAS_011368:0.92657)n1:0.48156,(sphagnum_magellanicum_Sphmag05G077700:0.1946,((sphagnum_magellanicum_Sphmag18G019400:0.0049,sphagnum_magellanicum_Sphmag18G019500:0.053)n4:0.31165,(sphagnum_magellanicum_Sphmag02G040800:0.00055,sphagnum_magellanicum_Sphmag02G008100:0.06988)n5:0.03951)n3:0.11819)n2:0.48156)n0;

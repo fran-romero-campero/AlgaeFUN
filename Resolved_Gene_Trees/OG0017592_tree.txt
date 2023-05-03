@@ -1,0 +1,1 @@
+((nannochloropsis_gaditana_Nangad1_59:0.39972,(chara_braunii_Chabra1_g70579:0.08113,haematococcus_lacustris_GFH07450:0.44378)n2:0.18727)n1:0.033175,(cryptophyceae_CCMP2293_Crypto2293_1_1980510:0.63317,(arabidopsis_thaliana_AT3G19350:0.86062,(ceratopteris_richardii_Ceric.08G024400:0.94379,sorghum_bicolor_Sobic.010G150700:0.72311)n5:0.24183)n4:0.02238)n3:0.033175)n0;

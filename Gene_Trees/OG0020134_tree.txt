@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_24238:0.252235,((chromochloris_zofingiensis_Cz07g25020:0.18145,(coccomyxa_subellipsoidea_Cosub3_1180513:0.00055,coccomyxa_subellipsoidea_Cosub3_1337140:0.24141)0.999:0.35298)0.999:0.27698,(gracilariopsis_chorda_PXF40110:0.3862,physcomitrium_patens_Pp3s34_270:0.25658)1:0.38495)1:0.252235);

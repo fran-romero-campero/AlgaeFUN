@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX72087:0.99792,((saccharina_japonica_SJ07419:0.03991,saccharina_japonica_SJ08087:0.04023)n2:0.11382,((saccharina_japonica_SJ07424:0.11769,saccharina_japonica_SJ07412:0.1536)n4:0.05225,(saccharina_japonica_SJ09333:0.09795,saccharina_japonica_SJ06137:0.06349)n5:0.03538)n3:0.00059)n1:0.99792)n0;

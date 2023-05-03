@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ17208:0.331935,(bathycoccus_prasinos_Bathy25g00090:1.12247,(bathycoccus_prasinos_Bathy62g00020:1.21727,(bathycoccus_prasinos_Bathy53g00050:0.66861,bathycoccus_prasinos_Bathy53g00060:0.36575)n3:0.02467)n2:0.05238)n1:0.331935)n0;

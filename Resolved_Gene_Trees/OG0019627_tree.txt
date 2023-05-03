@@ -1,0 +1,1 @@
+((scenedesmus_obliquus_SZX68827:0.34733,(scenedesmus_obliquus_SZX76833:0,scenedesmus_obliquus_SZX78287:0)n2:0.38029)n1:0.59254,(physcomitrium_patens_Pp3c15_20210:0.2753,(ceratodon_purpureus_CepurR40.10G124300:0.45944,ceratodon_purpureus_CepurR40.9G171000:0.19631)n4:0.10649)n3:0.59254)n0;

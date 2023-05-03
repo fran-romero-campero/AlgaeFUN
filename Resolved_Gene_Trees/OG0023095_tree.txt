@@ -1,0 +1,1 @@
+((cycas_panzhihuaensis_CYCAS_000041:0.09573,cycas_panzhihuaensis_CYCAS_004834:0.10431)n1:0.354505,(zea_mays_Zm00001d024022:0.36888,(sorghum_bicolor_Sobic.007G221201:0.15873,triticum_aestivum_Traes_4BL_3396C9986:0.00753)n3:0.51625)n2:0.354505)n0;

@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF48490:0.96736,gracilariopsis_chorda_PXF49857:1.22592)n1:0.21303,((saccharina_japonica_SJ00041:0.59934,saccharina_japonica_SJ00043:0.42624)n3:0.44261,(saccharina_japonica_SJ20091:0.66381,(saccharina_japonica_SJ11262:0.13336,(saccharina_japonica_SJ01192:0.29727,saccharina_japonica_SJ15474:0.22498)n6:0.23882)n5:0.5066)n4:0.21914)n2:0.21303)n0;

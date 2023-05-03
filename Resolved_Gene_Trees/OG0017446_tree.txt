@@ -1,0 +1,1 @@
+(thuja_plicata_Thupl.29379271s0011:0.64529,(solanum_lycopersicum_Solyc05g024020:0.39495,(arabidopsis_thaliana_AT4G26415:0.45057,(aegilops_tauschii_AET3Gv20404800:0.17159,(oryza_sativa_LOC_Os01g15550.1:0.32869,(sorghum_bicolor_Sobic.003G119332:0.02675,zea_mays_Zm00001d040313:0.07449)n5:0.20393)n4:0.03823)n3:0.64798)n2:0.11142)n1:0.64529)n0;

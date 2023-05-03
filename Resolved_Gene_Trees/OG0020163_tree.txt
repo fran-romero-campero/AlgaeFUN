@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g7464:0.579035,(mesostigma_viridae_Mv22342:1.03383,((coccomyxa_subellipsoidea_Cosub3_1325725:0.61204,coccomyxa_subellipsoidea_Cosub3_606560:0.24573)n3:0.61873,(coccomyxa_subellipsoidea_Cosub3_1388496:0.35051,coccomyxa_subellipsoidea_Cosub3_1398568:0.59818)n4:0.27265)n2:0.26078)n1:0.579035)n0;

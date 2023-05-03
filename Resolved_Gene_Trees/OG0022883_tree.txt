@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv01748:0.35501,micromonas_pusilla_Micpu_27344767:0.64134)n1:0.339405,(cryptophyceae_CCMP2293_Crypto2293_1_1876522:0.26283,(guillardia_tetha_Guith1_150922:0.88342,guillardia_tetha_Guith1_150921:0.59985)n3:0.06665)n2:0.31081)n0;

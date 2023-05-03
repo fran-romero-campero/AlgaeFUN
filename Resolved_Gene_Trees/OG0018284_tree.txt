@@ -1,0 +1,1 @@
+(cyanidioschyzon_merolae_XM_005535835:0.61701,((mesotaenium_endlicherianum_ME000149S01034:0.49432,(spirogloea_muscicola_SM000216S06561:0.02378,(spirogloea_muscicola_SM000060S19593:0.06174,spirogloea_muscicola_SM000114S24130:0.02755)n4:0.00989)n3:0.45139)n2:0.38647,(mesostigma_viridae_Mv12055:0.72801,mesostigma_viridae_Mv06578:0.655965)n5:0.072885)n1:0.06902)n0;

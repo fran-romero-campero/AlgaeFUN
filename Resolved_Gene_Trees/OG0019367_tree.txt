@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH22332:0.01501,haematococcus_lacustris_GFH28564:0.00055)n1:0.65102,(anthoceros_agrestis_AagrOXF_utg000050l.78:0.62734,((anthoceros_agrestis_AagrOXF_utg000026l.58:0,anthoceros_agrestis_AagrOXF_utg000045l.334:0)n4:0.00157,anthoceros_agrestis_AagrOXF_utg000045l.330:0.01143)n3:0.56655)n2:0.65102)n0;

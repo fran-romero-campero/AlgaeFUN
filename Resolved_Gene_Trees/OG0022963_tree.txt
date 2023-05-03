@@ -1,0 +1,1 @@
+((cyanophora_paradoxa_Cyapar1_g21157:0.71553,cyanophora_paradoxa_Cyapar1_g2868:0.58801)n1:0.11404,(galdieria_sulphuraria_GsulpSAG21_G1361:0.69467,(cyanidioschyzon_merolae_XM_005536944:0.721,gracilariopsis_chorda_PXF40583:0.33216)n3:0.13291)n2:0.11404)n0;

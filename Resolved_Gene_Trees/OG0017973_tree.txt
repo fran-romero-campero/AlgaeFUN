@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv00535:0.86114,micromonas_pusilla_Micpu_27341054:1.1022)n1:0.14557,(klebsormidium_nitens_kfl00689_0090:0.93834,((chlamydomonas_reinhardtii_Cre05.g239200:0.5159,volvox_carteri_Vocar.0003s0412:0.40406)n4:0.4727,(dunaliella_salina_Dusal.0712s00001:0.40546,haematococcus_lacustris_GFH29454:0.63871)n5:0.17933)n3:0.40479)n2:0.14557)n0;

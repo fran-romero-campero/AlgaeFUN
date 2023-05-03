@@ -1,0 +1,1 @@
+(micromonas_pusilla_Micpu_27348165:0.573055,((scenedesmus_obliquus_SZX78503:0.53494,(raphidocelis_subcapitata_Rsub_00179:0.30575,chromochloris_zofingiensis_Cz15g10210:0.37247)0.369:0.04818)0.941:0.17344,(dunaliella_salina_Dusal.0449s00009:0.59019,(haematococcus_lacustris_GFH06059:0.00415,haematococcus_lacustris_GFH23684:0.00786)0.988:0.18786)0.939:0.21041)1:0.573055);

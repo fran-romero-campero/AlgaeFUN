@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ19034:0.73703,(ceratopteris_richardii_Ceric.06G000900:0.43319,(azolla_filiculoides_Azfi_s0024.g020340:0.22688,salvinia_cucullata_Sacu_v1.1_s0023.g008792:0.24379)n2:0.32503)n1:0.73703)n0;

@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta08g01190:0.46711,((nannochloropsis_gaditana_Nangad1_10706:0,nannochloropsis_gaditana_Nangad1_10707:0)n2:0.72902,saccharina_japonica_SJ00698:0.86256)n1:0.46711)n0;

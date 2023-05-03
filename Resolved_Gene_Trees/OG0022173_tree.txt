@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.36G009900:0.306,salvinia_cucullata_Sacu_v1.1_s0008.g004140:0.25525)n1:0.13443,(ceratopteris_richardii_Ceric.05G028700:1.15844,(salvinia_cucullata_Sacu_v1.1_s0046.g013398:0.47494,salvinia_cucullata_Sacu_v1.1_s0050.g013856:0.553653)n3:0.061517)n2:0.16705)n0;

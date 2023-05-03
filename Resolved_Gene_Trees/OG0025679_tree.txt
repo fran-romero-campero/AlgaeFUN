@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.26G068700:0.51466,marchantia_polymorpha_Mp4g03240:0.57461)n1:0.19813,(sphagnum_magellanicum_Sphmag03G008100:0.49304,triticum_aestivum_Traes_3DL_2F30F7D2D:0.20515)n2:0.19813)n0;

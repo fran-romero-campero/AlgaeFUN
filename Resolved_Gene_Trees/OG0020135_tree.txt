@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_13008:0.35395,(chromochloris_zofingiensis_UNPLg00521:0.34216,scenedesmus_obliquus_SZX63987:0.20868)n2:0.40223)n1:0.35655,(porphyra_umbilicalis_Pum0306s0006:0.19292,(cyanidioschyzon_merolae_XM_005538517:0.74063,gracilariopsis_chorda_PXF41323:0.55932)n4:0.42757)n3:0.35655)n0;

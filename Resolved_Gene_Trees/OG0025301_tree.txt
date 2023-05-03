@@ -1,0 +1,1 @@
+(gracilariopsis_chorda_PXF40857:0.85558,(bathycoccus_prasinos_Bathy13g02880:0.59973,(bathycoccus_prasinos_Bathy03g04310:0.47123,bathycoccus_prasinos_Bathy14g00300:0.2178)n2:0.1265)n1:0.85558)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ20106:0.796715,(chlamydomonas_reinhardtii_Cre01.g007950:0.17037,(raphidocelis_subcapitata_Rsub_07825:0.53275,scenedesmus_obliquus_SZX59748:0.23376)n2:0.21175)n1:0.796715)n0;

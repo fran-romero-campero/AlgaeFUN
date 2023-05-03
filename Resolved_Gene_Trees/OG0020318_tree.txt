@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_3496446:0.70863,(phaeodactylum_tricornutum_Phatr2_50468:0.56868,(phaeodactylum_tricornutum_Phatr2_47146:1.1835,(phaeodactylum_tricornutum_Phatr2_43386:0.60778,(phaeodactylum_tricornutum_Phatr2_54611:0.38915,phaeodactylum_tricornutum_Phatr2_45059:0.54579)n4:0.20415)n3:0.20033)n2:0.13461)n1:0.70863)n0;

@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_09118:0.37698,(dunaliella_salina_Dusal.0431s00006:0.37146,(haematococcus_lacustris_GFH07289:0.06228,(haematococcus_lacustris_GFH07288:0.00054,haematococcus_lacustris_GFH25562:0.09707)n3:0.06759)n2:0.46006)n1:0.37698)n0;

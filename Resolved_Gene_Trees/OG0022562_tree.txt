@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz10g26150:0.31113,chromochloris_zofingiensis_Cz10g26160:0.14987)n1:0.24091,(chlorokybus_atmophyticus_Chlat1_3268:0.43926,(klebsormidium_nitens_kfl00163_0220:0.32424,mesotaenium_endlicherianum_ME000329S05583:0.53867)n3:0.1624)n2:0.24091)n0;

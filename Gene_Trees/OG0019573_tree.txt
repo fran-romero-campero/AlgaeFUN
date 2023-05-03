@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy34g00070:0.91582,mesostigma_viridae_Mv20366:0.05291)1:0.14958,(bathycoccus_prasinos_Bathy34g00050:0.26918,(salvinia_cucullata_Sacu_v1.1_s3009.g028574:0.64552,(physcomitrium_patens_Pp3s356_30:0.21946,salvinia_cucullata_Sacu_v1.1_s3009.g028573:0.66698)0.32:0.12208)0.968:0.20529)1:0.14958);

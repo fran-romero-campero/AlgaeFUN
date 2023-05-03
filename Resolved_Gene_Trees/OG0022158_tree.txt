@@ -1,0 +1,1 @@
+((phaeodactylum_tricornutum_Phatr2_49782:0.65908,(cyanophora_paradoxa_Cyapar1_g8742:1.36459,scenedesmus_obliquus_SZX74464:0.91909)n2:0.40489)n1:0.11787,(ceratodon_purpureus_CepurR40.7G141200:0.50075,cryptophyceae_CCMP2293_Crypto2293_1_1935088:0.35985)n3:0.11787)n0;

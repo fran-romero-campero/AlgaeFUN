@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.003G383200:0.868665,(solanum_lycopersicum_Solyc12g036870:0.03484,(solanum_lycopersicum_Solyc05g018830:0.07496,(solanum_lycopersicum_Solyc10g018645:0.02697,solanum_lycopersicum_Solyc08g066480:0.04883)n3:0.01979)n2:0.00055)n1:0.868665)n0;

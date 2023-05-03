@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.34G004400:0.601805,(zea_mays_Zm00001d038003:0.01473,(sorghum_bicolor_Sobic.009G100800:0.0594,(oryza_sativa_LOC_Os05g27780.1:0.27295,(aegilops_tauschii_AET3Gv20840500:0.02475,triticum_aestivum_Traes_3B_D7D21F9F8:0.00055)n4:0.33855)n3:0.18307)n2:0.10041)n1:0.601805)n0;

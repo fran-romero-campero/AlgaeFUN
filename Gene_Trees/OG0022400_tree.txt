@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_39940:0.510485,(haematococcus_lacustris_GFH08010:0.00055,((chlamydomonas_reinhardtii_Cre09.g390100:0.24472,volvox_carteri_Vocar.0033s0147:0.18513)1:0.62548,haematococcus_lacustris_GFH22549:0.00055)0.204:0.025)1:0.510485);

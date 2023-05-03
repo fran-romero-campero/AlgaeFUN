@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME000151S01363:0.32156,(haematococcus_lacustris_GFH17274:0.0373,haematococcus_lacustris_GFH18586:0.13353)n2:0.47158)n1:0.003945,((coccomyxa_subellipsoidea_Cosub3_1328933:0.50049,scenedesmus_obliquus_SZX74502:0.40934)n4:0.16013,(klebsormidium_nitens_kfl00256_0030:0.22507,klebsormidium_nitens_kfl00256_0050:0.3043)n5:0.52998)n3:0.003945)n0;
