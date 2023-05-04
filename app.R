@@ -539,7 +539,8 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           use the Viridiplantae model, while for a more generalist one the Global model should
                                           yield more information.",),
                                   tags$li("Press the Have fun button.",),
-                                  tags$li("In the lower panel choose as many species as you wish to include in the tree.",),
+                                  tags$li("In the lower panel choose as many species as you wish to include in the tree. The species order follows an evolutionary
+                                          criterion, grouping species belonging to the same clade.",),
                                   tags$li("Then write the ID of your gene of interest in the textbox, which has to correspond to one of the organisms selected
                                   in the previous step. If not, please select it before continuing. An example for",tags$i("Marchantia polymorpha"), "appears in the 
                                           text box."),
@@ -1157,17 +1158,39 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                    
                                    tabPanel(tags$b("Download genomes"),
                                             tags$br(),
-                                            tags$div(align="justify", "Press the button to download 
-                                            the genomes (the amino acid sequences corresponding 
-                                            to the main transcript of each gene) used in the 
-                                            development of the tool with the ID considered 
-                                            for each sequence"),
+                                            tags$div(align="justify", "Select the desired organism and press the button to choose a genome 
+                                            (the amino acid sequences corresponding  o the main transcript of each gene) used in the 
+                                            development of the tool with the ID considered for each sequence. Then press the download button to download 
+                                            it. To change the organism, select the new one and press again the Acess genome files button
+                                            to update the genome before downloading."),
                                             tags$br(),
+                                            selectInput(inputId = "genome_sel",
+                                                        choices=c("Phaeodactylum tricornutum","Nannochloropsis gaditana", "Saccharina japonica",
+                                                                  "Guillardia theta", "Cryptophyceae CCMP2293", "Cyanidioschyzon merolae",
+                                                                  "Galdieria sulphuraria", "Gracilariopsis chorda", "Porphyra umbilicalis",
+                                                                  "Cyanophora paradoxa", "Ostreococcus tauri", "Bathycoccus prasinos",
+                                                                  "Micromonas pusilla", "Ulva mutabilis", "Coccomyxa subellipsoidea",
+                                                                  "Chromochloris zofingiensis", "Scenedesmus obliquus", "Raphidocelis subcapitata",
+                                                                  "Chlamydomonas reinhardtii", "Volvox carteri", "Dunaliella salina",
+                                                                  "Haematococcus lacustris", "Mesostigma viride", "Chlorokybus atmophyticus",
+                                                                  "Klebsormidium nitens", "Chara braunii", "Spirogloea muscicola",
+                                                                  "Mesotaenium endlicherianum", "Marchantia polymorpha", "Sphagnum magellanicum",
+                                                                  "Physcomitrium patens", "Ceratodon purpureus", "Anthoceros agrestis",
+                                                                  "Selaginella moellendorffii", "Ceratopteris richardii", "Salvinia cucullata",
+                                                                  "Azolla filiculoides", "Thuja plicata", "Cycas panzhihuaensis", 
+                                                                  "Aegilops tauschii", "Triticum aestivum", "Oryza sativa", 
+                                                                  "Sorghum bicolor", "Zea mays", "Solanum lycopersicum", "Arabidopsis thaliana"), 
+                                                        label = "Select the organism", 
+                                                        selected = "Phaeodactylum tricornutum",
+                                                        multiple = F),
                                             actionButton(inputId = "access_genomes",
                                                          label = "Acess genome files", icon("send")),
                                             tags$br(),
+                                            tags$br(),
+                                            tags$br(),
                                             conditionalPanel(
                                               condition = "input.access_genomes",
+                                              tags$br(),
                                               uiOutput(outputId = "genomes_download")
                                               
                                             )),
@@ -5860,20 +5883,28 @@ assocated to the enriched pathway represented in the corresponding row."
     
     ########################## DOWNLOAD GENOMES #######################
     
-    output$genomes_download<- renderUI(
-      tagList(downloadButton(outputId= "genomes_downloadI", "Download genome files zip"))
-    )   %>% bindEvent(input$access_genomes)
+    gen_fasta <- reactive({
+      gen_search <- gsub(" ", "_", tolower(as.character(input$genome_sel)))
+      gen_fasta <- paste("funtree_proteomes", paste0(gen_search, ".fa", sep=""), sep = "/")
+    }) %>% bindEvent(input$access_genomes)
     
-    output$genomes_downloadI <- downloadHandler(
-      filename <- function() {
-        paste("funtree_genomes", "zip", sep=".")
-      },
+    
+    observeEvent(input$access_genomes,{
+      output$genomes_download<- renderUI(
+        tagList(downloadButton(outputId= "genomes_downloadI", "Download genome file"))
+      ) 
       
-      content <- function(file) {
-        file.copy("funtree_genomes.zip", file)
-      },
-      contentType = "application/zip"
-    )
+      output$genomes_downloadI <- downloadHandler(
+        filename <- function() {
+          strsplit(gen_fasta(),split = "[/]")[[1]][2]
+        },
+        
+        content <- function(file) {
+          file.copy(gen_fasta(), file)
+        },
+        contentType = "text/*"
+      )
+    })
     
     ########################## IDENTIFY SEQUENCES #######################
     
@@ -5916,7 +5947,6 @@ assocated to the enriched pathway represented in the corresponding row."
       # Remove temporal files and clean text area
       file.remove('funtree_folder/new_diamond.fa')
       updateTextAreaInput(session, "seq_ident", value = "", placeholder = "Insert a protein chain")
-      # TODO en esta parte, validate en función de la entrada que reciba, no devuelve mensaje
     })
     #################################################################
   })
