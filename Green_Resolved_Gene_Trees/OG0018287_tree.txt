@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_131964:0.44917,selaginella_moellendorffii_Selmo_139115:0.12556)n1:0.38628,((triticum_aestivum_Traes_2AS_0B776BDEE:0.00053,triticum_aestivum_Traes_2AS_B0F02BF94:0.06771)n3:0.25174,(aegilops_tauschii_AET5Gv21065100:0.15317,sorghum_bicolor_Sobic.006G045800:0.36467)n4:0.23117)n2:0.38628)n0;

@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_159464:1.52198,(haematococcus_lacustris_GFH27479:0.00055,haematococcus_lacustris_GFH31201:0.00055)0.925:0.74958)0.82:0.179295,(haematococcus_lacustris_GFH27478:1.05395,sphagnum_magellanicum_Sphmag02G001600:0.74992)0.82:0.179295);

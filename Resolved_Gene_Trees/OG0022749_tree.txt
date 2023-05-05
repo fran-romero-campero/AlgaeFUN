@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000012l.287:0.495638,(marchantia_polymorpha_Mp5g15850:0.680624,(sphangum_magellanicum_Sphmag03G117500:0.698157,sphangum_magellanicum_Sphmag19G031800:0.416741)n2:0.196458)n1:0.495638)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1751234:0.14346,((cryptophyceae_CCMP2293_Crypto2293_1_1758163:0.0191,cryptophyceae_CCMP2293_Crypto2293_1_1758510:0.00054)n2:0.30983,(cryptophyceae_CCMP2293_Crypto2293_1_1754199:0.18462,cryptophyceae_CCMP2293_Crypto2293_1_1758172:1.06463)n3:0.08934)n1:0.14346)n0;

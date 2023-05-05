@@ -1,1 +1,1 @@
-(sphangum_magellanicum_Sphmag06G015800:0.225404,(sphangum_magellanicum_Sphmag06G017000:0.573533,(sphangum_magellanicum_Sphmag06G017500:0.032429,sphangum_magellanicum_Sphmag06G017300:0.028828)n2:0.262691)n1:0.225404)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1956977:0.62092,(klebsormidium_nitens_kfl00191_0020:0.11972,(ceratodon_purpureus_CepurR40.7G043600:0.61598,porphyra_umbilicalis_Pum1840s0001:1.00871)n2:0.23072)n1:0.62092)n0;

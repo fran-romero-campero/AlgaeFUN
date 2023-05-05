@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.15G025900:0.27012,(((triticum_aestivum_Traes_6DL_2E98A53A2:0.237611,triticum_aestivum_Traes_6AL_A32A4D339:0.296282)n3:0.324621,triticum_aestivum_Traes_6AL_B06B9359B:0.521786)n2:0.27294,thuja_plicata_Thupl.29379660s0014:0.58609)n1:0.27012)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1874923:0.28269,guillardia_tetha_Guith1_71482:0.27068)n1:0.15105,(phaeodactylum_tricornutum_Phatr2_3787:0.78543,((nannochloropsis_gaditana_Nangad1_10395:0,nannochloropsis_gaditana_Nangad1_10396:0)n4:0.43066,saccharina_japonica_SJ11493:0.46936)n3:0.18938)n2:0.15105)n0;

@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_09018:1.03081,(mesostigma_viridae_Mv15290:1.20732,(chlamydomonas_reinhardtii_Cre09.g417350:0.50121,scenedesmus_obliquus_SZX60005:0.54533)n3:0.34083)n2:0.49263)n1:0.09496,(klebsormidium_nitens_kfl00329_0100:0.47625,(coccomyxa_subellipsoidea_Cosub3_1328260:0.00055,coccomyxa_subellipsoidea_Cosub3_551406:0.0215)n5:0.62024)n4:0.09496)n0;

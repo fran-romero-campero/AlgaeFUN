@@ -1,0 +1,1 @@
+(nannochloropsis_gaditana_Nangad1_7001:0.78703,(cycas_panzhihuaensis_CYCAS_011033:0.33652,(cycas_panzhihuaensis_CYCAS_010383:0.23732,cycas_panzhihuaensis_CYCAS_032524:0.29023)n2:0.11985)n1:0.78703)n0;

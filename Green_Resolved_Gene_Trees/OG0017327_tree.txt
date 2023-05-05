@@ -1,0 +1,1 @@
+(((chromochloris_zofingiensis_Cz02g32270:0.93738,haematococcus_lacustris_GFH06805:0.78357)n2:0.3831,(chlamydomonas_reinhardtii_Cre12.g509700:0.22466,volvox_carteri_Vocar.0016s0234:0.41556)n3:0.10868)n1:0.109745,(mesostigma_viridae_Mv18935:0.66804,(chlorokybus_atmophyticus_Chlat1_4299:1.17238,klebsormidium_nitens_kfl00264_0150:0.87348)n5:0.14633)n4:0.109745)n0;

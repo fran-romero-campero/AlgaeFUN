@@ -1,0 +1,1 @@
+(cryptophyceae_CCMP2293_Crypto2293_1_1592064:0.42414,(haematococcus_lacustris_GFH22846:0.32724,(chlamydomonas_reinhardtii_Cre11.g467675:0.38749,(volvox_carteri_Vocar.0417s0001:0.29962,volvox_carteri_Vocar.0581s0001:0.22056)0.97:0.30803)0.948:0.37811)1:0.42414);

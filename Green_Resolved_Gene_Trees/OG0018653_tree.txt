@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_15402:0.45979,thuja_plicata_Thupl.29379240s0009:0.31352)n1:0.038335,(marchantia_polymorpha_Mp3g18710:0.35053,(sphagnum_magellanicum_Sphmag02G069700:0.13261,(ceratodon_purpureus_CepurR40.2G268400:0.07359,physcomitrium_patens_Pp3c17_11030:0.12548)n4:0.13822)n3:0.18683)n2:0.038335)n0;

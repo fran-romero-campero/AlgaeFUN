@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g8640:0.88137,(((mesostigma_viridae_Mv22049:0.125552,mesostigma_viridae_Mv22060:0.103209)n3:1.91373,klebsormidium_nitens_kfl00288_0110:1.44565)n2:0.268783,ulva_mutabilis_UM006_0028:2.45171)n1:0.88137)n0;
+(saccharina_japonica_SJ17125:0.068785,((saccharina_japonica_SJ01152:0.10021,(saccharina_japonica_SJ17123:1.28647,saccharina_japonica_SJ04574:0.39287)n3:0.40163)n2:0.16137,(saccharina_japonica_SJ01148:0.02861,saccharina_japonica_SJ01150:0.03572)n4:0.19785)n1:0.068785)n0;

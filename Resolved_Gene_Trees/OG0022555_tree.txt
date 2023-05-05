@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os02g13580.1:0.264137,((triticum_aestivum_Traes_6AS_10B534858:0.135398,triticum_aestivum_Traes_6BS_D6C182082:0.218325)n2:0.045739,aegilops_tauschii_AET6Gv20479700:0.043229)n1:0.264137)n0;
+(chlorokybus_atmophyticus_Chlat1_1609:0.019655,(chlorokybus_atmophyticus_Chlat1_1610:0.04507,(chlorokybus_atmophyticus_Chlat1_5333:1.11354,(chlorokybus_atmophyticus_Chlat1_5676:0.6505,chlorokybus_atmophyticus_Chlat1_3178:1.059)n3:0.04612)n2:0.77856)n1:0.019655)n0;

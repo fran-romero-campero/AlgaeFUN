@@ -1,1 +1,1 @@
-((triticum_aestivum_Traes_7DS_02432FAF3:0.555397,aegilops_tauschii_AET3Gv20974400:1.81477e-06)n1:0.471008,(thuja_plicata_Thupl.29381594s0026:0.148753,thuja_plicata_Thupl.29381594s0029:0.171817)n2:0.471008)n0;
+((chlorokybus_atmophyticus_Chlat1_5589:0.84716,nannochloropsis_gaditana_Nangad1_3588:0.46836)n1:0.12621,(saccharina_japonica_SJ04925:0.57885,(gracilariopsis_chorda_PXF41120:0.83725,cyanidioschyzon_merolae_XM_005535400:0.92561)n3:0.19623)n2:0.12621)n0;

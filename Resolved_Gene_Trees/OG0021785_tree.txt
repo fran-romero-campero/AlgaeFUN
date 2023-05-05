@@ -1,1 +1,1 @@
-(sphangum_magellanicum_Sphmag01G034300:0.0216085,(sphangum_magellanicum_Sphmag01G037000:0.095217,(sphangum_magellanicum_Sphmag01G034400:0.040367,(sphangum_magellanicum_Sphmag01G034900:0.246451,sphangum_magellanicum_Sphmag01G035000:0.222966)n3:0.33776)n2:0.031377)n1:0.0216085)n0;
+((ceratodon_purpureus_CepurR40.2G277900:0.05151,physcomitrium_patens_Pp3c14_3690:0.30012)n1:0.72697,(anthoceros_agrestis_AagrOXF_utg000076l.33:0.00054,(anthoceros_agrestis_AagrOXF_utg000100l.55:0.01535,anthoceros_agrestis_AagrOXF_utg000050l.684:0.02907)n3:0.01113)n2:0.72697)n0;

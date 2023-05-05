@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT5G41690:0.189443,((arabidopsis_thaliana_AT1G45100:0.512139,arabidopsis_thaliana_AT3G10845:0.620729)n2:0.037004,(arabidopsis_thaliana_AT3G48835:0.602652,arabidopsis_thaliana_AT3G48840:0.621498)n3:0.087855)n1:0.189443)n0;
+(cyanophora_paradoxa_Cyapar1_g6519:0.409605,(chlorokybus_atmophyticus_Chlat1_5734:0.90192,(chara_braunii_Chabra1_g39675:1.01196,(spirogloea_muscicola_SM000178S03453:0.04613,(spirogloea_muscicola_SM000019S05078:0.03337,spirogloea_muscicola_SM000119S25636:0.03542)n4:0.00946)n3:0.63274)n2:0.21341)n1:0.409605)n0;

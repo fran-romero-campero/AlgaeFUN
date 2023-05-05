@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3s34_320:0.6215,(chromochloris_zofingiensis_Cz11g28160:0.46759,(chromochloris_zofingiensis_Cz09g06110:0.38784,(coccomyxa_subellipsoidea_Cosub3_1400789:0.59027,chromochloris_zofingiensis_Cz09g06120:0.42648)0.613:0.0505)0.249:0.04488)1:0.6215);

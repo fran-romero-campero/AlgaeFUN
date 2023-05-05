@@ -1,1 +1,1 @@
-((triticum_aestivum_Traes_4DL_CE632E81D:0.009867,aegilops_tauschii_AET4Gv20823100:0.088469)n1:0.107072,(oryza_sativa_LOC_Os03g36650.1:0.176043,(sorghum_bicolor_Sobic.001G188800:0.195888,zea_mays_Zm00001d032401:0.224259)n3:0.180225)n2:0.107072)n0;
+((saccharina_japonica_SJ16194:0.63346,(azolla_filiculoides_Azfi_s0193.g057103:0.51669,thuja_plicata_Thupl.29377698s0021:0.85795)n2:0.13737)n1:0.27042,(chara_braunii_Chabra1_g52002:1.54406,(nannochloropsis_gaditana_Nangad1_1582:0.96937,nannochloropsis_gaditana_Nangad1_1162:0.58149)n4:0.06461)n3:0.18113)n0;

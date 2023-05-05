@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_43386:0.289897,((phaeodactylum_tricornutum_Phatr2_50468:0.789642,phaeodactylum_tricornutum_Phatr2_47146:1.33665)n2:0.03726,(phaeodactylum_tricornutum_Phatr2_54611:0.410279,phaeodactylum_tricornutum_Phatr2_45059:0.518164)n3:0.171022)n1:0.289897)n0;
+(cyanophora_paradoxa_Cyapar1_g840:0.46493,(aegilops_tauschii_AET4Gv20321100:0.09428,(triticum_aestivum_Traes_2DL_CF69A4E98:0.00055,(triticum_aestivum_Traes_4BS_F289F9B33:0.08742,triticum_aestivum_Traes_1BS_B114ECDEE:0.132363)n3:0.0132363)n2:0.0014707)n1:0.0563)n0;

@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc07g065563:0,((solanum_lycopersicum_Solyc07g065570:0.020237,solanum_lycopersicum_Solyc07g065580:0.188365)n2:0.041273,solanum_lycopersicum_Solyc07g065567:0)n1:0)n0;
+((guillardia_tetha_Guith1_78876:1.12066,guillardia_tetha_Guith1_80522:1.32311)n1:0.222415,(bathycoccus_prasinos_Bathy12g03270:0.62055,ostreococcus_tauri_ostta14g01200:0.58612)n2:0.222415)n0;

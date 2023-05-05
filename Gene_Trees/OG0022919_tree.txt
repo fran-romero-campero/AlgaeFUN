@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX73954:0.262,(saccharina_japonica_SJ05351:0.8438,(guillardia_tetha_Guith1_133284:0.58756,(cryptophyceae_CCMP2293_Crypto2293_1_1971187:0.24823,guillardia_tetha_Guith1_143428:0.25828)0.995:0.58324)1:0.88078)1:0.262);

@@ -1,0 +1,1 @@
+(oryza_sativa_LOC_Os12g22120.1:0.493315,((chromochloris_zofingiensis_Cz07g01030:0.83184,coccomyxa_subellipsoidea_Cosub3_265369:0.87601)n2:0.35927,(haematococcus_lacustris_GFH27524:0.70431,(haematococcus_lacustris_GFH16218:0,haematococcus_lacustris_GFH25486:0)n4:0.672138)n3:0.074682)n1:0.07001)n0;

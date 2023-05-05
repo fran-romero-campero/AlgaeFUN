@@ -1,1 +1,1 @@
-((aegilops_tauschii_AET1Gv20895000:0.27534,triticum_aestivum_Traes_1DL_F58BB4E2B:0.22123)n1:0.589386,((ceratopteris_richardii_Ceric.05G000700:0.026149,ceratopteris_richardii_Ceric.22G012400:0.003118)n3:0.159243,ceratopteris_richardii_Ceric.22G012500:0.014039)n2:0.589386)n0;
+(saccharina_japonica_SJ15908:0.437585,(((bathycoccus_prasinos_Bathy15g00680:0.61415,ostreococcus_tauri_ostta16g00190:0.32232)n3:0.72493,(cyanophora_paradoxa_Cyapar1_g7546:0.27585,cyanophora_paradoxa_Cyapar1_g8741:0.923112)n4:0.102568)n2:0.08407,gracilariopsis_chorda_PXF40778:1.40988)n1:0.437585)n0;

@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000006l.127:0.412418,(anthoceros_agrestis_AagrOXF_utg000032l.9:0.331087,(anthoceros_agrestis_AagrOXF_utg000027l.246:0.826019,anthoceros_agrestis_AagrOXF_utg000089l.13:0.472527)n2:0.119757)n1:0.412418)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1825655:0.74463,((cryptophyceae_CCMP2293_Crypto2293_1_1741105:0.06678,cryptophyceae_CCMP2293_Crypto2293_1_1741106:0.0948)n2:0.32616,(cryptophyceae_CCMP2293_Crypto2293_1_1793424:0.8617,cryptophyceae_CCMP2293_Crypto2293_1_1743026:0.23037)n3:0.18432)n1:0.74463)n0;

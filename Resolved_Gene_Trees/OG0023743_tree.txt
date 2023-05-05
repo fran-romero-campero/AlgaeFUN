@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre02.g103200:4.37279e-06,(volvox_carteri_Vocar.0012s0146:1.07772,(volvox_carteri_Vocar.0008s0005:1.60047,volvox_carteri_Vocar.0009s0200:1.79317)n2:0.391411)n1:4.37279e-06)n0;
+(phaeodactylum_tricornutum_Phatr2_40492:0.155145,(ostreococcus_tauri_ostta05g00370:1.49784,(raphidocelis_subcapitata_Rsub_12939:0.04909,(raphidocelis_subcapitata_Rsub_13420:0.00055,raphidocelis_subcapitata_Rsub_06897:0.36165)n3:0.00057)n2:1.53655)n1:0.155145)n0;

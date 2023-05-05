@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3s34_640:0.5229,(((ulva_mutabilis_UM033_0150:0.14492,ulva_mutabilis_UM033_0151:0.09039)n3:0.15486,(ulva_mutabilis_UM033_0146:0.28334,ulva_mutabilis_UM033_0147:0.25511)n4:0.14304)n2:0.44515,(bathycoccus_prasinos_Bathy17g00140:0.40545,(ostreococcus_tauri_ostta03g00510:0.65248,ostreococcus_tauri_ostta08g01520:0.433161)n6:0.048129)n5:0.12277)n1:0.5229)n0;

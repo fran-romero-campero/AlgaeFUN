@@ -1,1 +1,1 @@
-(micromonas_pusilla_Micpu_27343338:0.414108,(ostreococcus_tauri_ostta12g01400:1.21693,(bathycoccus_prasinos_Bathy05g03690:0.292128,bathycoccus_prasinos_Bathy08g00710:1.02266)n2:0.113629)n1:0.085636)n0;
+(saccharina_japonica_SJ13924:0.603455,(gracilariopsis_chorda_PXF48481:0.49428,(cyanophora_paradoxa_Cyapar1_g6252:0.37056,(klebsormidium_nitens_kfl00088_0260:0.38612,micromonas_pusilla_Micpu_27346186:0.28463)n3:0.30268)n2:0.3962)n1:0.603455)n0;

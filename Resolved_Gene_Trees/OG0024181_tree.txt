@@ -1,1 +1,1 @@
-((klebsormidium_nitens_kfl00377_0120:1.23875,mesotaenium_endlicherianum_ME000093S10329:0.316763)n1:0.183523,(cyanophora_paradoxa_Cyapar1_g23985:1.0642,cyanophora_paradoxa_Cyapar1_g2474:0.548174)n2:0.183523)n0;
+(thuja_plicata_Thupl.28221764s0001:0.660995,(triticum_aestivum_Traes_7BL_C83501617:0.0112,((triticum_aestivum_Traes_7DL_F1E54193E1:0.00055,triticum_aestivum_Traes_7AL_432085C4D1:0.00055)n3:0.00054,triticum_aestivum_Traes_7DL_180BCE2DA:0.00055)n2:0.00055)n1:0.660995)n0;

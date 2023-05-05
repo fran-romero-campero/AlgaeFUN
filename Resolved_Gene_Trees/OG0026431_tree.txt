@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH25606:0.229425,(phaeodactylum_tricornutum_Phatr2_7359:0.75697,(cryptophyceae_CCMP2293_Crypto2293_1_1773508:0.00055,cryptophyceae_CCMP2293_Crypto2293_1_1868748:1.09517)n2:0.50565)n1:0.229425)n0;

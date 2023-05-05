@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os02g20500.1:0.220804,(aegilops_tauschii_AET1Gv20277800:0.399334,(triticum_aestivum_Traes_1BS_525B54EEB:0.114884,(triticum_aestivum_Traes_1DS_1985D8B8B:0.00813,triticum_aestivum_Traes_1AS_B719D133F:0.0490824)n3:0.00490824)n2:0.00054536)n1:0.078543)n0;
+(arabidopsis_thaliana_AT3G57460:0.514855,(zea_mays_Zm00001d012627:0.21016,(triticum_aestivum_Traes_2DS_820352BAD:0.1782,(triticum_aestivum_Traes_3B_CAA663C2A:0.00055,(triticum_aestivum_Traes_3AL_A25471240:0.02311,triticum_aestivum_Traes_3DL_1B6366270:0.05653)n4:0.00059)n3:0.126459)n2:0.014051)n1:0.68308)n0;

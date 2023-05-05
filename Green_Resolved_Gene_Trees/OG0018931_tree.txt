@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00289_0170:0.701695,((dunaliella_salina_Dusal.0004s00014:0.41373,haematococcus_lacustris_GFH14263:0.73196)n2:0.36426,(volvox_carteri_Vocar.0009s0159:0.13355,(chlamydomonas_reinhardtii_Cre06.g309826:0.11396,chlamydomonas_reinhardtii_Cre06.g308300:0.00055)n4:0.38286)n3:0.68603)n1:0.701695)n0;

@@ -1,1 +1,1 @@
-(spirogloea_muscicola_SM000054S18031:0.386479,((cycas_panzhihuaensis_CYCAS_017909:1.05747,azolla_filiculoides_Azfi_s0095.g043584:0.304312)n2:0.091552,triticum_aestivum_Traes_5AL_CFC483466:0.148306)n1:0.386479)n0;
+(cyanophora_paradoxa_Cyapar1_g21169:0.02207,((cyanophora_paradoxa_Cyapar1_g10491:0.78402,cyanophora_paradoxa_Cyapar1_g4988:0.03253)n2:1.18622,(cyanophora_paradoxa_Cyapar1_g21742:0.0678,cyanophora_paradoxa_Cyapar1_g23111:0.28511)n3:0.04999)n1:0.02207)n0;

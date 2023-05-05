@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT3G12880:0.330875,((arabidopsis_thaliana_AT4G00872:0.398327,arabidopsis_thaliana_AT1G56100:0.887512)n2:0.121124,arabidopsis_thaliana_AT4G15750:0.751241)n1:0.330875)n0;
+((micromonas_pusilla_Micpu_27341300:0.61975,ostreococcus_tauri_ostta03g05885:0.45248)n1:0.098875,(cryptophyceae_CCMP2293_Crypto2293_1_1824930:0.31647,(guillardia_tetha_Guith1_142141:1.12725,guillardia_tetha_Guith1_114060:0.65124)n3:0.07236)n2:0.30846)n0;

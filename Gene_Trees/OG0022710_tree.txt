@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv21915:0.095185,(cryptophyceae_CCMP2293_Crypto2293_1_1600667:0.57216,(cryptophyceae_CCMP2293_Crypto2293_1_1828514:0.25322,(guillardia_tetha_Guith1_74902:0.34323,phaeodactylum_tricornutum_Phatr2_37671:0.48755)0.557:0.0774)0.87:0.23402)1:0.095185);

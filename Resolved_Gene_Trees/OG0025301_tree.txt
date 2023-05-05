@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_403577:0.139315,(selaginella_moellendorffii_Selmo_419519:0.271251,(selaginella_moellendorffii_Selmo_424226:0.236687,selaginella_moellendorffii_Selmo_402610:0.647566)n2:0.338505)n1:0.139315)n0;
+(gracilariopsis_chorda_PXF40857:0.85558,(bathycoccus_prasinos_Bathy13g02880:0.59973,(bathycoccus_prasinos_Bathy03g04310:0.47123,bathycoccus_prasinos_Bathy14g00300:0.2178)n2:0.1265)n1:0.85558)n0;

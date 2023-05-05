@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET3Gv20399500:0.139573,((zea_mays_Zm00001d008329:0.14828,zea_mays_Zm00001d040292:0.089432)n2:0.164199,sorghum_bicolor_Sobic.003G117000:0.263253)n1:0.139573)n0;
+(chlorokybus_atmophyticus_Chlat1_4260:0.57164,(guillardia_tetha_Guith1_107724:0.69961,(cryptophyceae_CCMP2293_Crypto2293_1_1816611:0.54774,(cryptophyceae_CCMP2293_Crypto2293_1_1816610:0.26395,cryptophyceae_CCMP2293_Crypto2293_1_1816614:0.582201)n3:0.0582201)n2:0.0064689)n1:0.306)n0;

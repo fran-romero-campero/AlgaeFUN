@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g16262:0.746905,((micromonas_pusilla_Micpu_27346004:0.539539,ostreococcus_tauri_ostta03g05540:1.22215)n2:0.296076,(thuja_plicata_Thupl.29379114s0003:0.208256,thuja_plicata_Thupl.29379498s0018:1.02153)n3:0.113503)n1:0.099256)n0;
+(porphyra_umbilicalis_Pum0464s0005:0.21119,(porphyra_umbilicalis_Pum0451s0012:0.632,((porphyra_umbilicalis_Pum0066s0042:0.54085,porphyra_umbilicalis_Pum0849s0001:0.73759)n3:0.29309,(porphyra_umbilicalis_Pum0076s0035:0.6668,porphyra_umbilicalis_Pum0399s0015:0.46787)n4:0.05512)n2:0.14928)n1:0.21119)n0;

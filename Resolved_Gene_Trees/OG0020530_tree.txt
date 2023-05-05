@@ -1,1 +1,1 @@
-((volvox_carteri_Vocar.0001s0058:0.52487,chlamydomonas_reinhardtii_Cre13.g583400:0.069009)n1:0.352672,(raphidocelis_subcapitata_Rsub_04905:1.05496,(chromochloris_zofingiensis_UNPLg00210:1.88133e-06,chromochloris_zofingiensis_Cz14g16170:1.88133e-06)n3:1.88133e-06)n2:0.505291)n0;
+(phaeodactylum_tricornutum_Phatr2_44077:0.50775,(gracilariopsis_chorda_PXF45746:0.53925,((gracilariopsis_chorda_PXF45744:0.132,gracilariopsis_chorda_PXF45745:0.16552)n3:0.3396,(gracilariopsis_chorda_PXF49085:0.19355,gracilariopsis_chorda_PXF43648:0.20932)n4:0.09853)n2:0.15115)n1:0.50775)n0;

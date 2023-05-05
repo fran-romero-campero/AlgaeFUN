@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.07G004300:0.504916,(triticum_aestivum_Traes_7BL_C76F6DAF1:0.598537,(zea_mays_Zm00001d050386:0.192415,(zea_mays_Zm00001d050388:0.23789,zea_mays_Zm00001d032219:0.299598)n3:0.201553)n2:0.0223948)n1:0.14212)n0;
+((gracilariopsis_chorda_PXF45244:0.59669,(galdieria_sulphuraria_GsulpSAG21_G235:1.13731,cyanidioschyzon_merolae_XM_005535417:1.21211)n2:0.17115)n1:0.20212,(cryptophyceae_CCMP2293_Crypto2293_1_1859277:0.24883,(guillardia_tetha_Guith1_54494:0.7789,guillardia_tetha_Guith1_112911:0.299367)n4:0.033263)n3:0.1509)n0;

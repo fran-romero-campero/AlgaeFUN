@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g1627:0.72518,(mesostigma_viridae_Mv01907:1.57674,(volvox_carteri_Vocar.0026s0079:1.03577,chlamydomonas_reinhardtii_Cre10.g443150:4.4646e-06)n2:0.83688)n1:0.72518)n0;
+(saccharina_japonica_SJ07041:0.3245,((saccharina_japonica_SJ02812:0.74265,saccharina_japonica_SJ20557:0.89145)n2:0.87208,(saccharina_japonica_SJ03636:0.79362,saccharina_japonica_SJ01913:0.91556)n3:0.37197)n1:0.3245)n0;

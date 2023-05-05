@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM001_0292:0.599495,(chromochloris_zofingiensis_Cz01g39020:2.87538e-06,(raphidocelis_subcapitata_Rsub_06829:1.03905,(dunaliella_salina_Dusal.0525s00011:0.551487,chlamydomonas_reinhardtii_Cre07.g313143:2.87538e-06)n3:0.380623)n2:0.151945)n1:0.599495)n0;
+((guillardia_tetha_Guith1_151896:0.90877,saccharina_japonica_SJ10135:0.55161)n1:0.09112,(cyanidioschyzon_merolae_XM_005535369:1.06532,(galdieria_sulphuraria_GsulpSAG21_G1909:0.58404,(porphyra_umbilicalis_Pum0070s0020:0.7299,gracilariopsis_chorda_PXF47798:0.33516)n4:0.16328)n3:0.15727)n2:0.09112)n0;

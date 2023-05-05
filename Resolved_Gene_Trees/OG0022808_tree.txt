@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000076l.2:0.358204,(thuja_plicata_Thupl.29380913s0002:0.977459,(cycas_panzhihuaensis_CYCAS_022171:0.160787,cycas_panzhihuaensis_CYCAS_001588:0.175507)n2:0.843939)n1:0.358204)n0;
+(guillardia_tetha_Guith1_109278:0.78707,(cryptophyceae_CCMP2293_Crypto2293_1_1778005:0.52477,(cryptophyceae_CCMP2293_Crypto2293_1_1893356:0.00054,(cryptophyceae_CCMP2293_Crypto2293_1_1893740:0.59544,cryptophyceae_CCMP2293_Crypto2293_1_1951471:0.38952)n3:0.47775)n2:0.84035)n1:0.78707)n0;

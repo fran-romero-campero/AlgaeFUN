@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH17524:0.262275,(cycas_panzhihuaensis_CYCAS_025204:0.48006,(triticum_aestivum_Traes_1DL_0097712A4:0.00055,triticum_aestivum_Traes_1BL_2FD102B51:0.01807)n2:0.60389)n1:0.262275)n0;

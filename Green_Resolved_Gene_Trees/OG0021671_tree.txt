@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH09188:0.56968,(oryza_sativa_LOC_Os05g06190.1:0.64692,(triticum_aestivum_Traes_2DL_25E97E7A7:0.27001,(thuja_plicata_Thupl.28418892s0002:0.32483,selaginella_moellendorffii_Selmo_138671:0.36879)n3:0.11275)n2:0.21994)n1:0.56968)n0;

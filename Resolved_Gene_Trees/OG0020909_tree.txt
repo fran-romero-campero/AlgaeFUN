@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g5454:1.30817e-06,((cyanophora_paradoxa_Cyapar1_g5459:0.181522,cyanophora_paradoxa_Cyapar1_g5456:1.30817e-06)n2:0.083834,(cyanophora_paradoxa_Cyapar1_g5462:0.31889,cyanophora_paradoxa_Cyapar1_g5461:0.236129)n3:0.636698)n1:1.30817e-06)n0;
+(saccharina_japonica_SJ05712:0.500495,(thuja_plicata_Thupl.29378099s0005:0.03665,(thuja_plicata_Thupl.29378876s0017:0.06436,((thuja_plicata_Thupl.29378960s0005:0.06101,thuja_plicata_Thupl.29380345s0008:0.09196)n4:0.04244,thuja_plicata_Thupl.29381749s0014:0.03563)n3:0.02766)n2:0.13959)n1:0.500495)n0;

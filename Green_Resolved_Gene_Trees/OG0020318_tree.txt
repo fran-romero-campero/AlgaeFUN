@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH32888:0.180395,(selaginella_moellendorffii_Selmo_87880:0.40177,(aegilops_tauschii_AET5Gv20531800:0.24143,(solanum_lycopersicum_Solyc01g102590:0.01282,solanum_lycopersicum_Solyc01g102560:0.008)n3:0.19278)n2:0.11479)n1:0.180395)n0;

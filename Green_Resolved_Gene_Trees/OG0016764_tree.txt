@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH17923:0,haematococcus_lacustris_GFH21430:0)n1:0.23948,(klebsormidium_nitens_kfl00783_0060:0.34395,(anthoceros_agrestis_AagrOXF_utg000028l.31:0.13125,(thuja_plicata_Thupl.28203482s0001:0.1308,(cycas_panzhihuaensis_CYCAS_012503:0.01882,cycas_panzhihuaensis_CYCAS_012505:0.00055)n5:0.02467)n4:0.08569)n3:0.19102)n2:0.23948)n0;

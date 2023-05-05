@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_Cz12g17100:1.02737e-06,((chlamydomonas_reinhardtii_Cre04.g221400:0.068707,volvox_carteri_Vocar.0025s0070:0.130163)n2:0.456636,dunaliella_salina_Dusal.1405s00003:0.612234)n1:1.02737e-06)n0;
+(saccharina_japonica_SJ08485:0.05936,(saccharina_japonica_SJ22016:0.14558,(saccharina_japonica_SJ19580:0.14626,(saccharina_japonica_SJ19588:0.15167,saccharina_japonica_SJ20975:0.7483)n3:0.06069)n2:0.15366)n1:0.05936)n0;

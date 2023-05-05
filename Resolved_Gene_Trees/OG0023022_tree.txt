@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.18G033100:0.257023,(azolla_filiculoides_Azfi_s0304.g063870:0.546309,(azolla_filiculoides_Azfi_s1123.g097779:0,azolla_filiculoides_Azfi_s0304.g063877:0)n2:0.316979)n1:0.257023)n0;
+(cyanophora_paradoxa_Cyapar1_g20925:0.00027,(cyanophora_paradoxa_Cyapar1_g24391:0.16189,(cyanophora_paradoxa_Cyapar1_g13510:0.43443,(cyanophora_paradoxa_Cyapar1_g1772:0.34007,cyanophora_paradoxa_Cyapar1_g18519:0.15247)n3:1.00343)n2:0.28421)n1:0.00027)n0;

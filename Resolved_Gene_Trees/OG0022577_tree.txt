@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET1Gv20780900:0.172773,(oryza_sativa_LOC_Os05g43030.1:0.459192,(zea_mays_Zm00001d038641:0.567026,sorghum_bicolor_Sobic.009G189900:0.121412)n2:0.211898)n1:0.172773)n0;
+(cyanophora_paradoxa_Cyapar1_g12857:0.37943,((mesostigma_viridae_Mv20964:1.35829,chlorokybus_atmophyticus_Chlat1_6136:0.44866)n2:0.30595,(scenedesmus_obliquus_SZX78229:0.94463,scenedesmus_obliquus_SZX67241:0.693108)n3:0.077012)n1:0.51739)n0;

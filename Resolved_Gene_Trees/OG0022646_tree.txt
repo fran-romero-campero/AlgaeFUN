@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os01g22570.1:0.362959,(aegilops_tauschii_AET5Gv21142200:0.162575,(triticum_aestivum_Traes_5BL_6EBC4D198:0.123288,triticum_aestivum_Traes_5DL_764044DAB:0.0243135)n2:0.0027015)n1:0.053996)n0;
+(gracilariopsis_chorda_PXF47884:0.76533,(chromochloris_zofingiensis_Cz07g05100:0.42316,(scenedesmus_obliquus_SZX61665:0.33519,(raphidocelis_subcapitata_Rsub_12054:0.38099,raphidocelis_subcapitata_Rsub_09198:0.45522)n3:0.05058)n2:0.19121)n1:0.17167)n0;

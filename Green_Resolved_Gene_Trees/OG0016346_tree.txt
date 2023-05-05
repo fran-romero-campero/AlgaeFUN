@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH26173:0.09881,(selaginella_moellendorffii_Selmo_2318:0.30816,((zea_mays_Zm00001d015555:0.60956,sorghum_bicolor_Sobic.006G202150:0.07985)n3:0.07392,(aegilops_tauschii_AET2Gv20970400:0.01447,(triticum_aestivum_Traes_6BS_2CF7A4699:0.1189,triticum_aestivum_Traes_2DL_14AAEFFAA:0.012816)n5:0.001424)n4:0.07465)n2:0.25336)n1:0.09881)n0;

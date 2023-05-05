@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc10g084790:0.303988,(ceratopteris_richardii_Ceric.20G061400:0.614337,(salvinia_cucullata_Sacu_v1.1_s0007.g003483:0.580061,salvinia_cucullata_Sacu_v1.1_s0033.g011033:0.507448)n2:0.252753)n1:0.303988)n0;
+(nannochloropsis_gaditana_Nangad1_1915:0.369145,(ulva_mutabilis_UM040_0077:0.5036,(klebsormidium_nitens_kfl00096_0140:0.84314,(micromonas_pusilla_Micpu_27341270:1.0151,ostreococcus_tauri_ostta08g00320:0.52021)n3:0.12916)n2:0.17239)n1:0.369145)n0;

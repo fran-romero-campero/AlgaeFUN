@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d000062:0.105195,((zea_mays_Zm00001d024157:0.179277,zea_mays_Zm00001d025931:0.514141)n2:1.00897,(zea_mays_Zm00001d053539:0.232374,zea_mays_Zm00001d031932:0.431136)n3:0.092213)n1:0.105195)n0;
+((ceratodon_purpureus_CepurR40.9G140000:0.27836,physcomitrium_patens_Pp3c19_14150:0.60376)n1:0.13892,(ceratopteris_richardii_Ceric.1Z028500:0.32504,(triticum_aestivum_Traes_7BS_C4E1B2003:0.0968,triticum_aestivum_Traes_7DS_145BF0A2D:0.00055)n3:0.12496)n2:0.13892)n0;

@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv12593:0.587905,(dunaliella_salina_Dusal.0847s00003:1.58247,(volvox_carteri_Vocar.0026s0067:0.30297,chlamydomonas_reinhardtii_Cre10.g444400:3.52416e-06)n2:0.516002)n1:0.587905)n0;
+(saccharina_japonica_SJ05849:0.247445,(saccharina_japonica_SJ13836:0.40709,(saccharina_japonica_SJ13628:1.08821,(saccharina_japonica_SJ13081:0.31901,saccharina_japonica_SJ11667:0.19596)n3:0.31089)n2:0.46625)n1:0.247445)n0;

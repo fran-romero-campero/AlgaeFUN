@@ -1,0 +1,1 @@
+((mesotaenium_endlicherianum_ME000034S06080:0.36898,(haematococcus_lacustris_GFH24206:1.02149,haematococcus_lacustris_GFH22978:0.503622)n2:0.055958)n1:0.229025,(zea_mays_Zm00001d003028:0.00055,((zea_mays_Zm00001d015456:0.05137,zea_mays_Zm00001d047374:0.01933)n5:0.00055,zea_mays_Zm00001d028521:0.00055)n4:0.00949)n3:0.25587)n0;

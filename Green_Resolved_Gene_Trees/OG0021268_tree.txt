@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre03.g160350:0.28152,(mesostigma_viridae_Mv20950:1.23311,(chlorokybus_atmophyticus_Chlat1_7997:0.43565,mesostigma_viridae_Mv08385:0.75755)n3:0.78507)n2:0.08723)n1:0.127685,volvox_carteri_Vocar.0005s0285:0.30283)n0;

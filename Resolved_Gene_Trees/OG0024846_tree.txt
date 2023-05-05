@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os04g26160.1:0.138261,(oryza_sativa_LOC_Os04g25290.1:0.114685,(oryza_sativa_LOC_Os04g48960.1:0.809553,oryza_sativa_LOC_Os04g25580.1:0.978568)n2:0.471572)n1:0.138261)n0;
+(nannochloropsis_gaditana_Nangad1_4175:0.397855,(arabidopsis_thaliana_AT3G28530:0.00054,(aegilops_tauschii_AET5Gv20455900:0.00054,triticum_aestivum_Traes_5BL_9B60E0BC7:0.00055)n2:0.23092)n1:0.397855)n0;

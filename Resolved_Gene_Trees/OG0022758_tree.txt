@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00045_0210:0.547803,(anthoceros_agrestis_AagrOXF_utg000017l.119:0.161056,(anthoceros_agrestis_AagrOXF_utg000017l.102:0.695501,anthoceros_agrestis_AagrOXF_utg000017l.159:2.24219e-06)n2:0.325758)n1:0.547803)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1861251:0.018645,((cryptophyceae_CCMP2293_Crypto2293_1_1753942:0.08321,cryptophyceae_CCMP2293_Crypto2293_1_1754366:0.04877)n2:1.39275,(cryptophyceae_CCMP2293_Crypto2293_1_1755930:0.05201,cryptophyceae_CCMP2293_Crypto2293_1_1758616:0.06337)n3:0.01585)n1:0.018645)n0;

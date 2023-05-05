@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.28163514s0001:0.1169,((thuja_plicata_Thupl.28331275s0001:0.077782,thuja_plicata_Thupl.28912597s0001:0.26285)n2:0.06805,thuja_plicata_Thupl.29275269s0001:0.151642)n1:0.1169)n0;
+((chara_braunii_Chabra1_g34550:0.4248,klebsormidium_nitens_kfl00112_0220:0.26141)n1:0.38112,(porphyra_umbilicalis_Pum1582s0002:0.17263,porphyra_umbilicalis_Pum3028s0001:0.42604)n2:0.38112)n0;

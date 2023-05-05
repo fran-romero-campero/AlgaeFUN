@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00086_0040:0.40413,(sphagnum_magellanicum_Sphmag09G008200:0.61235,(cycas_panzhihuaensis_CYCAS_031472:0.81296,(selaginella_moellendorffii_Selmo_426784:0.01067,selaginella_moellendorffii_Selmo_413243:0.05622)0.995:0.69122)0.761:0.1441)1:0.40413);

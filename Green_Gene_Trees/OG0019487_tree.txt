@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27342090:0.46741,ostreococcus_tauri_ostta07g01460:0.4262)1:0.397275,(scenedesmus_obliquus_SZX74449:0.57415,(ulva_mutabilis_UM022_0124:0.09755,(ulva_mutabilis_UM022_0121:0.01378,ulva_mutabilis_UM022_0125:0.03562)0.984:0.23507)0.998:0.54716)1:0.397275);

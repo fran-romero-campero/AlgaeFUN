@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0045.g013166:0.38911,(solanum_lycopersicum_Solyc06g051910:1.34657,(zea_mays_Zm00001d031989:0.45983,(zea_mays_Zm00001d025297:0.19763,zea_mays_Zm00001d002577:0.03037)n3:0.11726)n2:0.37642)n1:0.38911)n0;

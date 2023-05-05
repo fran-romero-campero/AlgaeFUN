@@ -1,1 +1,1 @@
-(physcomitrium_patens_Pp3c10_21310:0.142584,(ceratodon_purpureus_CepurR40.3G235700:0.366424,(ceratodon_purpureus_CepurR40.12G008800:0,ceratodon_purpureus_CepurR40.12G008400:0)n2:0.266278)n1:0.142584)n0;
+(gracilariopsis_chorda_PXF40145:0.005975,(gracilariopsis_chorda_PXF40146:0.01568,(gracilariopsis_chorda_PXF45501:0.02407,(gracilariopsis_chorda_PXF40144:0.27757,gracilariopsis_chorda_PXF49187:0.26469)n3:0.36536)n2:0.0174)n1:0.005975)n0;

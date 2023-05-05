@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv11937:0.5942,(micromonas_pusilla_Micpu_27347850:0.32474,((micromonas_pusilla_Micpu_27339631:0.16377,micromonas_pusilla_Micpu_27349235:0.75965)n3:0.11235,micromonas_pusilla_Micpu_27347831:0.05198)n2:0.06822)n1:0.5942)n0;

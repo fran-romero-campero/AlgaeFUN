@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc12g035300:0.293065,(solanum_lycopersicum_Solyc07g026865:0.373062,(solanum_lycopersicum_Solyc04g018155:0.575191,solanum_lycopersicum_Solyc02g031755:0.987425)n2:0.221641)n1:0.293065)n0;
+((bathycoccus_prasinos_Bathy22g00030:1.48575,cyanidioschyzon_merolae_XM_005536666:0.50507)n1:0.0465,(cyanophora_paradoxa_Cyapar1_g20690:0.46892,galdieria_sulphuraria_GsulpSAG21_G1255:0.51214)n2:0.0465)n0;

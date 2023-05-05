@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_2AS_64E0EF151:0.247315,(salvinia_cucullata_Sacu_v1.1_s0004.g002224:0.003816,(azolla_filiculoides_Azfi_s1215.g099834:0.1206,azolla_filiculoides_Azfi_s0467.g072835:0.225314)n2:0.468511)n1:0.247315)n0;
+(cyanophora_paradoxa_Cyapar1_g13937:0.54965,(cyanophora_paradoxa_Cyapar1_g20369:0.55091,(cyanophora_paradoxa_Cyapar1_g17788:0.63273,(cyanophora_paradoxa_Cyapar1_g18527:0.72739,cyanophora_paradoxa_Cyapar1_g22650:0.60951)n3:0.22678)n2:0.34853)n1:0.54965)n0;

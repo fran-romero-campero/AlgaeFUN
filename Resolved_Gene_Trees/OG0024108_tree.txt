@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g7073:0.324892,((cyanophora_paradoxa_Cyapar1_g20574:0.783137,cyanophora_paradoxa_Cyapar1_g14849:0.693499)n2:0.261726,cyanophora_paradoxa_Cyapar1_g7072:1.05359)n1:0.324892)n0;
+(spirogloea_muscicola_SM000136S00179:0.02119,(spirogloea_muscicola_SM000537S18210:0.04985,(spirogloea_muscicola_SM000097S24801:0.03773,(spirogloea_muscicola_SM003286S12425:0.04196,spirogloea_muscicola_SM006779S20389:0.08293)n3:0.17859)n2:0.0166)n1:0.02119)n0;

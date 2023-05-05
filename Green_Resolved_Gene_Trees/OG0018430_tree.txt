@@ -1,0 +1,1 @@
+((azolla_filiculoides_Azfi_s0030.g024377:0.21316,(anthoceros_agrestis_AagrOXF_utg000059l.98:0.15727,physcomitrium_patens_Pp3c7_8270:0.58102)n2:0.08367)n1:0.124025,(scenedesmus_obliquus_SZX68421:1.0767,(dunaliella_salina_Dusal.0252s00012:0.25143,haematococcus_lacustris_GFH16490:0.10491)n4:0.121)n3:0.124025)n0;

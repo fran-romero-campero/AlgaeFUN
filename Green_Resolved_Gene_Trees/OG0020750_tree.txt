@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3s32_260:0.504775,((bathycoccus_prasinos_Bathy112g00010:0.58258,bathycoccus_prasinos_Bathy61g00070:1.12236)n2:0.22593,(bathycoccus_prasinos_Bathy126g00030:0.41666,bathycoccus_prasinos_Bathy48g00060:0.41253)n3:0.50094)n1:0.504775)n0;

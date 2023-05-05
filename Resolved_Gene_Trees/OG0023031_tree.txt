@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00113_0220:0.64171,((ceratopteris_richardii_Ceric.13G012000:0.543486,azolla_filiculoides_Azfi_s0503.g073919:0.947407)n2:0.181073,salvinia_cucullata_Sacu_v1.1_s0104.g020077:0.601443)n1:0.64171)n0;
+((scenedesmus_obliquus_SZX73349:0,scenedesmus_obliquus_SZX63841:0)n1:0.622625,(cyanophora_paradoxa_Cyapar1_g14032:0.23046,(cyanophora_paradoxa_Cyapar1_g2189:0.02274,cyanophora_paradoxa_Cyapar1_g2192:0.0413)n3:0.29009)n2:0.622625)n0;

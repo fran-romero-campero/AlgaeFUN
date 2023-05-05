@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy01g02400:0.55633,ostreococcus_tauri_ostta01g02420:0.36206)n1:0.725705,(coccomyxa_subellipsoidea_Cosub3_1181432:0.68036,(raphidocelis_subcapitata_Rsub_12184:0.48599,(chromochloris_zofingiensis_Cz11g08080:0.38686,scenedesmus_obliquus_SZX68537:0.43148)n4:0.09184)n3:0.35534)n2:0.725705)n0;

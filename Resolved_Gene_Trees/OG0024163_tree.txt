@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g21990:0.876954,(triticum_aestivum_Traes_7AS_177356128:2.45623e-06,(triticum_aestivum_Traes_7DS_22BB72EAC:0.040719,triticum_aestivum_Traes_7BS_E27A1E5DD:0.340797)n2:0.368838)n1:0.876954)n0;
+(thuja_plicata_Thupl.29380915s0012:0.21766,(thuja_plicata_Thupl.29381105s0014:0.10162,(thuja_plicata_Thupl.29377099s0004:0.3811,(thuja_plicata_Thupl.29379160s0009:0.60351,thuja_plicata_Thupl.29378207s0004:0.22389)n3:0.09168)n2:0.16772)n1:0.21766)n0;

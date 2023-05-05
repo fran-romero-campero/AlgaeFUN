@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT3G36659:0.449703,((arabidopsis_thaliana_AT1G23350:0.196183,arabidopsis_thaliana_AT1G70540:0.405773)n2:0.453832,(arabidopsis_thaliana_AT1G60760:0.374099,arabidopsis_thaliana_AT1G10770:0.186514)n3:0.531506)n1:0.449703)n0;
+(chara_braunii_Chabra1_g37182:0.295895,(chara_braunii_Chabra1_g649:0.05717,(chara_braunii_Chabra1_g23311:0.11861,(chara_braunii_Chabra1_g38590:0.07552,(chara_braunii_Chabra1_g30142:0.08949,chara_braunii_Chabra1_g37314:0.14639)n4:0.02035)n3:0.01118)n2:0.0233)n1:0.295895)n0;

@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_6BL_99F6035F3:0.0097035,((triticum_aestivum_Traes_6DL_81B08472E:0.771014,triticum_aestivum_Traes_6BL_8E665F159:0.081565)n2:0.073498,triticum_aestivum_Traes_6DL_BB89C4FC1:0.022472)n1:0.0097035)n0;
+(chlamydomonas_reinhardtii_Cre04.g213650:0.67834,(porphyra_umbilicalis_Pum2164s0001:0.13766,(porphyra_umbilicalis_Pum0151s0010:0.6461,porphyra_umbilicalis_Pum0135s0045:0.45132)n2:0.43681)n1:0.67834)n0;

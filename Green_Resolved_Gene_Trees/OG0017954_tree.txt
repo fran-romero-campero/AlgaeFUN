@@ -1,0 +1,1 @@
+(mesotaenium_endlicherianum_ME000351S05983:0.166415,(ceratopteris_richardii_Ceric.33G034000:0.3111,(solanum_lycopersicum_Solyc10g081640:0.32217,(aegilops_tauschii_AET3Gv20757500:0.33643,(aegilops_tauschii_AET2Gv20559700:0.00053,triticum_aestivum_Traes_2DL_4882E3306:0.00055)n4:0.260316)n3:0.028924)n2:0.05936)n1:0.11403)n0;

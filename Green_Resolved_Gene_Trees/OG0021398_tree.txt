@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz19g01300:0.26535,(mesostigma_viridae_Mv08179:0.85707,(spirogloea_muscicola_SM000075S21991:1.15753,(mesotaenium_endlicherianum_ME000037S06538:0.00054,mesotaenium_endlicherianum_ME000037S06539:0.02862)n3:0.43077)n2:0.33117)n1:0.26535)n0;

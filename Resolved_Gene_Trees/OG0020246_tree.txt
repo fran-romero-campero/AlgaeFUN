@@ -1,1 +1,1 @@
-(micromonas_pusilla_Micpu_27348825:0.331196,(ceratopteris_richardii_Ceric.38G038500:0.671407,(thuja_plicata_Thupl.29361973s0001:0.791468,(thuja_plicata_Thupl.28650226s0001:0.779328,thuja_plicata_Thupl.29356904s0003:0.69366)n3:0.0031896)n2:0.0003544)n1:0.00016)n0;
+((guillardia_tetha_Guith1_163452:0.24552,cryptophyceae_CCMP2293_Crypto2293_1_1789209:0.32097)n1:0.094125,(phaeodactylum_tricornutum_Phatr2_50885:0.39294,(nannochloropsis_gaditana_Nangad1_9682:0.21298,(saccharina_japonica_SJ16484:0.30405,saccharina_japonica_SJ04580:0.175086)n4:0.019454)n3:0.08951)n2:0.08302)n0;

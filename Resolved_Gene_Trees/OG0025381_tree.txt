@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc10g080370:0.161177,((solanum_lycopersicum_Solyc01g087020:0.36902,solanum_lycopersicum_Solyc05g053060:0.463378)n2:0.052454,solanum_lycopersicum_Solyc10g080360:0.343241)n1:0.161177)n0;
+(bathycoccus_prasinos_Bathy93g00020:0.19591,(physcomitrium_patens_Pp3s96_50:0.51976,(physcomitrium_patens_Pp3s34_490:0.41587,physcomitrium_patens_Pp3s30_390:0.36984)n2:0.12143)n1:0.19591)n0;

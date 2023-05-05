@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH10248:0.312235,(salvinia_cucullata_Sacu_v1.1_s0102.g019869:0.25334,((anthoceros_agrestis_AagrOXF_utg000018l.361:0.02146,anthoceros_agrestis_AagrOXF_utg000019l.29:0.1731)n3:0.60997,(triticum_aestivum_Traes_3DL_55D7A9A27:0.09284,(zea_mays_Zm00001d040680:0.07423,zea_mays_Zm00001d046282:0.04339)n5:0.16791)n4:0.76392)n2:0.06424)n1:0.312235)n0;

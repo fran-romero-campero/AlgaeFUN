@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH27301:0.00053,haematococcus_lacustris_GFH28920:0.00055)n1:0.564985,(thuja_plicata_Thupl.29378874s0001:0.1196,(triticum_aestivum_Traes_3B_5FEE3D2CB:0.00055,triticum_aestivum_Traes_3AL_6CFA9FB10:0.13827)n3:0.36048)n2:0.564985)n0;

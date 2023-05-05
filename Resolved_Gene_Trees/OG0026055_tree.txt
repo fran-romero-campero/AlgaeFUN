@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_2BL_AD915D89A:0.013575,((triticum_aestivum_Traes_2AL_1DC03057C:0.24313,triticum_aestivum_Traes_5DL_CAF367F21:0.328577)n2:0.065942,triticum_aestivum_Traes_2DL_0B8CC2FE7:0.030194)n1:0.013575)n0;
+(cyanophora_paradoxa_Cyapar1_g5449:0.355445,(chlorokybus_atmophyticus_Chlat1_3082:0.67302,(klebsormidium_nitens_kfl00060_0160:0.52681,klebsormidium_nitens_kfl00270_0150:0.18174)n2:0.79619)n1:0.355445)n0;

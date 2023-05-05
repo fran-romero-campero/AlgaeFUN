@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv16820:0.74713,(dunaliella_salina_Dusal.0535s00009:0.33449,scenedesmus_obliquus_SZX67956:0.98824)n2:0.45676)n1:0.116805,(micromonas_pusilla_Micpu_27341568:0.95433,(chara_braunii_Chabra1_g29782:0.99414,chara_braunii_Chabra1_g34979:0.61893)n4:0.16414)n3:0.116805)n0;

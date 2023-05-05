@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta09g00940:0.759905,((volvox_carteri_Vocar.0019s0138:0.20287,(chlamydomonas_reinhardtii_Cre02.g095085:0.01955,chlamydomonas_reinhardtii_Cre02.g095086:0.00788)n3:0.2134)n2:0.44024,(scenedesmus_obliquus_SZX77950:0.36762,(chromochloris_zofingiensis_Cz12g26040:0.28809,raphidocelis_subcapitata_Rsub_08662:0.47547)n5:0.09413)n4:0.25811)n1:0.759905)n0;

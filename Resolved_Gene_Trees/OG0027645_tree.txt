@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM027_0082:0.31343,(phaeodactylum_tricornutum_Phatr2_48676:0.79438,(nannochloropsis_gaditana_Nangad1_2226:0.88013,saccharina_japonica_SJ16704:0.32445)n2:0.44579)n1:0.31343)n0;

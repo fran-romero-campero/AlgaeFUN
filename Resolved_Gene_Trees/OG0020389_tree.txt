@@ -1,1 +1,1 @@
-(micromonas_pusilla_Micpu_27345026:0.627253,(chlamydomonas_reinhardtii_Cre06.g271900:2.16133e-06,((volvox_carteri_Vocar.0022s0006:0.186282,volvox_carteri_Vocar.0002s0422:0.04624)n3:0.08279,volvox_carteri_Vocar.0022s0007:0.402407)n2:0.364755)n1:0.627253)n0;
+(cyanophora_paradoxa_Cyapar1_g13630:0.294665,(cyanophora_paradoxa_Cyapar1_g1420:0.38881,(cyanophora_paradoxa_Cyapar1_g3094:0.33375,(cyanophora_paradoxa_Cyapar1_g3079:0.56699,(cyanophora_paradoxa_Cyapar1_g1421:0.9051,cyanophora_paradoxa_Cyapar1_g3107:1.19598)n4:0.31641)n3:0.15066)n2:0.55124)n1:0.294665)n0;

@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_ME000143S00958:0,(mesotaenium_endlicherianum_ME000143S00956:0,(mesotaenium_endlicherianum_ME000276S04609:2.85248e-06,(mesotaenium_endlicherianum_ME000053S08214:0.648224,mesotaenium_endlicherianum_ME000276S04613:1.09704)n3:0.590731)n2:0.524597)n1:0)n0;
+(zea_mays_Zm00001d029722:0.63685,(zea_mays_Zm00001d011441:0.02934,(zea_mays_Zm00001d037121:0.1592,(zea_mays_Zm00001d014664:0.19432,(zea_mays_Zm00001d040141:0.21552,zea_mays_Zm00001d005724:0.08728)n4:0.0688)n3:0.16699)n2:0.00054)n1:0.63685)n0;

@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1261953:0.52259,((raphidocelis_subcapitata_Rsub_08336:0.45422,scenedesmus_obliquus_SZX75336:0.35159)n2:0.25558,(haematococcus_lacustris_GFH26602:0.49715,(chlamydomonas_reinhardtii_Cre11.g469350:0.42318,volvox_carteri_Vocar.0012s0187:0.33641)n4:0.38999)n3:0.23869)n1:0.52259)n0;

@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0126.g048653:0.323986,((zea_mays_Zm00001d012596:0.629362,zea_mays_Zm00001d027250:0.410553)n2:0.367531,thuja_plicata_Thupl.29378878s0010:0.341019)n1:0.323986)n0;
+(cyanophora_paradoxa_Cyapar1_g19708:0.06392,(cyanophora_paradoxa_Cyapar1_g19710:0.10207,(cyanophora_paradoxa_Cyapar1_g23223:0.3144,(cyanophora_paradoxa_Cyapar1_g11134:1.52961,cyanophora_paradoxa_Cyapar1_g19706:0.27864)n3:0.11508)n2:0.04255)n1:0.06392)n0;

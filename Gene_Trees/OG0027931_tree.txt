@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_46979:0.838985,(ulva_mutabilis_UM007_0164:0.75778,(scenedesmus_obliquus_SZX73878:1.27693,ulva_mutabilis_UM019_0191:0.59324)0.754:0.16099)1:0.838985);

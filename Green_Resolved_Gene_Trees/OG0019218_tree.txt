@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_5DL_C81F2CFD8:0.506805,(cycas_panzhihuaensis_CYCAS_000303:0.13644,(cycas_panzhihuaensis_CYCAS_032344:0.08222,(cycas_panzhihuaensis_CYCAS_000300:0.01246,(cycas_panzhihuaensis_CYCAS_000298:0.15581,cycas_panzhihuaensis_CYCAS_000297:0.01311)n4:0.00887)n3:0.05602)n2:0.15443)n1:0.506805)n0;

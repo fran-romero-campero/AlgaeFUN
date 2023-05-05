@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH17590:0.413185,(azolla_filiculoides_Azfi_s1605.g104569:0.49245,(physcomitrium_patens_Pp3c1_28900:1.0358,(triticum_aestivum_Traes_1DS_666D2B6FF:0.16282,(triticum_aestivum_Traes_2AL_D4A09FD1C:0.33078,triticum_aestivum_Traes_6AS_37762BC74:0.030618)n4:0.0030618)n3:0.0003402)n2:0.06661)n1:0.1516)n0;

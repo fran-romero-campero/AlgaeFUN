@@ -1,1 +1,1 @@
-(ceratodon_purpureus_CepurR40.12G150700:0.386622,((ceratodon_purpureus_CepurR40.3G174900:0.550371,ceratodon_purpureus_CepurR40.12G150800:0.52817)n2:0.735363,ceratodon_purpureus_CepurR40.3G174800:0.145799)n1:0.386622)n0;
+((porphyra_umbilicalis_Pum0465s0008:0.32561,porphyra_umbilicalis_Pum2639s0001:0.24715)n1:0.27413,(gracilariopsis_chorda_PXF45707:1.24157,(gracilariopsis_chorda_PXF40656:0.5953,gracilariopsis_chorda_PXF40588:1.20778)n3:0.19921)n2:0.27413)n0;

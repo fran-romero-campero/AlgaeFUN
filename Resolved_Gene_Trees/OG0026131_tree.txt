@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM080_0026:0.007616,((ulva_mutabilis_UM012_0120:0.948602,ulva_mutabilis_UM007_0219:1.38479)n2:0.275178,ulva_mutabilis_UM012_0119:0.063935)n1:0.007616)n0;
+(guillardia_tetha_Guith1_109431:0.798845,(chromochloris_zofingiensis_Cz01g04140:0.74229,(raphidocelis_subcapitata_Rsub_00102:0.73393,scenedesmus_obliquus_SZX62782:0.46106)n2:0.27241)n1:0.798845)n0;

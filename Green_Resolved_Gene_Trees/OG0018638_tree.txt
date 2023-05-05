@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1188948:1.17761,mesostigma_viridae_Mv22910:0.94181)n1:0.25125,(ceratodon_purpureus_CepurR40.2G105600:0.45764,(scenedesmus_obliquus_SZX63777:0.23105,(chromochloris_zofingiensis_Cz08g26240:0.05727,chromochloris_zofingiensis_Cz08g26230:0.03807)n4:0.00423)n3:0.00365)n2:0.25125)n0;

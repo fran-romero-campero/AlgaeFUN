@@ -1,1 +1,1 @@
-((ceratodon_purpureus_CepurR40.10G056300:0.201429,(ceratodon_purpureus_CepurR40.9G037500:0.181533,ceratodon_purpureus_CepurR40.2G159200:0.189879)n2:0.040156)n1:0.242532,(physcomitrium_patens_Pp3c11_13390:0.132763,physcomitrium_patens_Pp3c10_11630:0.168804)n3:0.242532)n0;
+((cyanophora_paradoxa_Cyapar1_g1988:0.27208,cyanidioschyzon_merolae_XM_005537386:0.9734)n1:0.035205,((chlorokybus_atmophyticus_Chlat1_991:0.20872,mesostigma_viridae_Mv11021:0.4778)n3:0.20203,(gracilariopsis_chorda_PXF48536:0.43177,porphyra_umbilicalis_Pum0098s0072:0.59319)n4:0.19433)n2:0.035205)n0;

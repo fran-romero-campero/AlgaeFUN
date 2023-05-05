@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0161.g023929:0.718025,(zea_mays_Zm00001d003236:0.31192,(triticum_aestivum_Traes_3B_F9002916A:0.01184,(sorghum_bicolor_Sobic.004G156600:0.40207,(aegilops_tauschii_AET3Gv20312700:0.00055,triticum_aestivum_Traes_3AS_B339D8258:0.02978)0.493:0.00053)0.385:0.02617)0.829:0.23427)1:0.718025);

@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT5G52080:6.18481e-07,(arabidopsis_thaliana_AT2G18320:0.537155,(arabidopsis_thaliana_AT5G53410:0.048941,arabidopsis_thaliana_AT2G27540:0.032467)n2:0.002509)n1:6.18481e-07)n0;
+((micromonas_pusilla_Micpu_27349309:0.96118,(cryptophyceae_CCMP2293_Crypto2293_1_1860894:0.88096,cryptophyceae_CCMP2293_Crypto2293_1_1894662:1.15457)n2:0.14051)n1:0.03426,(mesostigma_viridae_Mv07520:0.76468,phaeodactylum_tricornutum_Phatr2_55087:0.85749)n3:0.03426)n0;

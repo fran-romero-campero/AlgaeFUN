@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv10367:0.842775,((ceratodon_purpureus_CepurR40.8G131200:0.14189,physcomitrium_patens_Pp3c20_15490:0.12266)n2:0.12099,(marchantia_polymorpha_Mp4g20430:0.09511,marchantia_polymorpha_Mp4g20420:0.102906)n3:0.011434)n1:0.03783)n0;

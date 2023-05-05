@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_3B_8287A35D91:0,((triticum_aestivum_proteome_first_transcript_Traes_2BL_96CC519B7:0.638599,triticum_aestivum_proteome_first_transcript_Traes_5BL_BC42437B4:0.001567):0.232014,triticum_aestivum_proteome_first_transcript_Traes_3B_8287A35D9:0):0);
+(nannochloropsis_gaditana_Nangad1_4020:0.842895,(aegilops_tauschii_AET1Gv20955000:0.24304,(triticum_aestivum_Traes_1AL_60E2BFEA71:0.01545,(aegilops_tauschii_AET1Gv20955200:0.00055,triticum_aestivum_Traes_1DL_B0C8FC11D1:0.00055)0.857:0.02449)0.812:0.1159)1:0.842895);

@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv22401:0.308136,(bathycoccus_prasinos_Bathy01g06590:1.23803,(dunaliella_salina_Dusal.0070s00038:0.836753,(chlamydomonas_reinhardtii_Cre08.g370350:3.55459e-06,volvox_carteri_Vocar.0037s0147:0.247421)n3:0.267266)n2:0.39509)n1:0.308136)n0;
+(guillardia_tetha_Guith1_146116:0.865775,(chromochloris_zofingiensis_Cz02g28250:0.38424,((chlamydomonas_reinhardtii_Cre13.g585600:0.68836,volvox_carteri_Vocar.0001s0025:0.31859)n3:0.69847,(scenedesmus_obliquus_SZX74673:0.00823,scenedesmus_obliquus_SZX61204:0.00054)n4:0.53602)n2:0.05507)n1:0.865775)n0;

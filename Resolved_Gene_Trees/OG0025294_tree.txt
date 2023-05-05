@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_70094:0.491798,(selaginella_moellendorffii_Selmo_71273:0.891938,(selaginella_moellendorffii_Selmo_133872:0.254133,selaginella_moellendorffii_Selmo_71953:0.095806)n2:0.248082)n1:0.491798)n0;
+(cyanophora_paradoxa_Cyapar1_g22759:0.358275,(micromonas_pusilla_Micpu_27339907:0.52896,(bathycoccus_prasinos_Bathy03g00400:0.54645,ostreococcus_tauri_ostta05g00440:0.66721)n2:0.09309)n1:0.358275)n0;

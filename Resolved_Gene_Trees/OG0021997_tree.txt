@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_5DL_7575B5B36:0,((triticum_aestivum_Traes_5BL_650AEB81E2:0.096972,triticum_aestivum_Traes_5DL_7575B5B363:0)n2:0,(triticum_aestivum_Traes_5DL_7575B5B362:0,triticum_aestivum_Traes_5DL_7575B5B361:0)n3:0)n1:0)n0;
+(phaeodactylum_tricornutum_Phatr2_45046:0.37452,(mesostigma_viridae_Mv16601:0.48274,(ostreococcus_tauri_ostta20g00240:0.70475,(micromonas_pusilla_Micpu_27346114:0.52154,bathycoccus_prasinos_Bathy15g00240:0.70413)n3:0.00063)n2:0.25222)n1:0.37452)n0;

@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_00518:0.665945,(dunaliella_salina_Dusal.0407s00014:1.14749,(chlamydomonas_reinhardtii_Cre14.g624650:3.30813e-06,volvox_carteri_Vocar.0022s0197:0.644439)n2:0.410596)n1:0.665945)n0;
+(nannochloropsis_gaditana_Nangad1_5859:0.60884,(spirogloea_muscicola_SM000097S24792:0.03851,(spirogloea_muscicola_SM000164S02235:0.06926,(spirogloea_muscicola_SM000134S26942:0.00055,spirogloea_muscicola_SM000134S26949:0.01158)n3:0.03247)n2:0.00052)n1:0.60884)n0;

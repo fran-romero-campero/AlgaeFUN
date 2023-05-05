@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29378493s0001:0.266067,((triticum_aestivum_Traes_1BS_DD55B7D8F:0.041975,triticum_aestivum_Traes_2BS_95EBFD9F6:1.47883e-06)n2:0.157321,triticum_aestivum_Traes_2DL_450D5241D:0.779297)n1:0.266067)n0;
+(chara_braunii_Chabra1_g36356:0.57597,(cycas_panzhihuaensis_CYCAS_011832:0.38009,(thuja_plicata_Thupl.29381589s0023:0.07124,thuja_plicata_Thupl.29364724s0003:0.03335)n2:0.39485)n1:0.57597)n0;

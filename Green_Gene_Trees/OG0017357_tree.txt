@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_4836:0.73807,((scenedesmus_obliquus_SZX63716:0.60991,(scenedesmus_obliquus_SZX72772:0.13016,scenedesmus_obliquus_SZX62694:0.12451)1:0.46324)0.865:0.20394,(chromochloris_zofingiensis_Cz11g14050:0.88758,(scenedesmus_obliquus_SZX66061:0.25847,scenedesmus_obliquus_SZX60378:0.14689)1:0.57828)0.986:0.34211)1:0.73807);

@@ -1,1 +1,1 @@
-(sorghum_bicolor_Sobic.003G009200:0.338639,(sorghum_bicolor_Sobic.004G058050:1.06681,(sorghum_bicolor_Sobic.004G022900:0.547737,sorghum_bicolor_Sobic.004G012250:0.663187)n2:1.01326)n1:0.338639)n0;
+(guillardia_tetha_Guith1_80137:0.689025,(ceratodon_purpureus_CepurR40.3G003900:0.32515,(ceratodon_purpureus_CepurR40.3G013100:1.183,ceratodon_purpureus_CepurR40.5G152600:0.43708)n2:0.29667)n1:0.689025)n0;

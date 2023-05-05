@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc07g054870:0.0728685,(solanum_lycopersicum_Solyc07g054930:0.069489,(solanum_lycopersicum_Solyc07g054940:0.110787,solanum_lycopersicum_Solyc07g054920:0.059331)n2:0.078362)n1:0.0728685)n0;
+(phaeodactylum_tricornutum_Phatr2_45253:0.3867,(micromonas_pusilla_Micpu_27342355:0.51307,(bathycoccus_prasinos_Bathy16g01010:0.52808,ostreococcus_tauri_ostta16g01440:0.36625)n2:0.15775)n1:0.3867)n0;

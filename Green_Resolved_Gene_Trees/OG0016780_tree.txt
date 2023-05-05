@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv09387:0.43872,micromonas_pusilla_Micpu_27346770:0.74496)n1:0.083565,((dunaliella_salina_Dusal.0144s00014:0.32976,(chlamydomonas_reinhardtii_Cre07.g343789:0.38007,volvox_carteri_Vocar.0067s0005:0.24228)n4:0.76564)n3:0.39214,(anthoceros_agrestis_AagrOXF_utg000081l.294:1.06597,chara_braunii_Chabra1_g16077:0.50243)n5:0.16379)n2:0.083565)n0;

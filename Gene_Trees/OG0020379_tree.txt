@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_proteome_first_transcript_410868:0.299015,((selaginella_moellendorffii_proteome_first_transcript_417441:0.495434,selaginella_moellendorffii_proteome_first_transcript_415253:0.087813):0.600205,selaginella_moellendorffii_proteome_first_transcript_424337:0.835778):0.299015);
+(cyanophora_paradoxa_Cyapar1_g12803:0.000285,(cyanophora_paradoxa_Cyapar1_g12805:0.18965,((cyanophora_paradoxa_Cyapar1_g12804:0,cyanophora_paradoxa_Cyapar1_g12806:0,cyanophora_paradoxa_Cyapar1_g12808:0):0.00054,cyanophora_paradoxa_Cyapar1_g12810:0.32855):0.35418):0.000285);

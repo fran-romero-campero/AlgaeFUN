@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET5Gv20056900:0.487752,(oryza_sativa_LOC_Os12g43510.1:0.787288,(zea_mays_Zm00001d031161:0.478407,sorghum_bicolor_Sobic.008G183500:0.582229)n2:0.34634)n1:0.487752)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1772830:0.64016,guillardia_tetha_Guith1_96582:0.17608)n1:0.20079,(chara_braunii_Chabra1_g36990:0.68682,(klebsormidium_nitens_kfl00942_0010:0.38348,klebsormidium_nitens_kfl00942_0020:0.2939)n3:0.10525)n2:0.20079)n0;

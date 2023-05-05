@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g13158:0.735436,((cyanophora_paradoxa_Cyapar1_g7962:0.201032,cyanophora_paradoxa_Cyapar1_g12255:0.340228)n2:1.12818,cyanophora_paradoxa_Cyapar1_g12249:0.001495)n1:0.735436)n0;
+((sorghum_bicolor_Sobic.002G292300:0.03702,zea_mays_Zm00001d021411:0.07377)n1:0.10627,(triticum_aestivum_Traes_7BL_28318368B:0.01298,(triticum_aestivum_Traes_7DL_7F367A3F5:0.02009,triticum_aestivum_Traes_7AL_184C5BD7D:0.02001)n3:0.00523)n2:0.10627)n0;

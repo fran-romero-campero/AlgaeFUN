@@ -1,1 +1,1 @@
-((aegilops_tauschii_AET4Gv20479600:0.109118,(zea_mays_Zm00001d000219:0.197291,zea_mays_Zm00001d025231:0.0957159)n2:0.0106351)n1:0.070937,triticum_aestivum_Traes_4BL_4E9C903D0:0.150492)n0;
+((porphyra_umbilicalis_Pum0215s0012:0.82945,saccharina_japonica_SJ12867:0.76056)n1:0.06417,(chlorokybus_atmophyticus_Chlat1_4725:0.97376,(phaeodactylum_tricornutum_Phatr2_42699:0.7,phaeodactylum_tricornutum_Phatr2_49822:0.82959)n3:0.70967)n2:0.06417)n0;

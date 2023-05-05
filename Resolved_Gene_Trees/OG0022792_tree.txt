@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000057l.401:0.120419,(anthoceros_agrestis_AagrOXF_utg000047l.66:1.89514e-06,(anthoceros_agrestis_AagrOXF_utg000050l.24:0.488505,anthoceros_agrestis_AagrOXF_utg000139l.4:0.515689)n2:0.870071)n1:0.120419)n0;
+(saccharina_japonica_SJ14756:0.288275,((cryptophyceae_CCMP2293_Crypto2293_1_1768401:0.05157,guillardia_tetha_Guith1_122984:0.79021)n2:0.50276,(cryptophyceae_CCMP2293_Crypto2293_1_1939928:0.57473,guillardia_tetha_Guith1_105511:0.61229)n3:0.36883)n1:0.288275)n0;

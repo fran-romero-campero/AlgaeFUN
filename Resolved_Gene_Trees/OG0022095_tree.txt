@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d050682:0.002391,(((zea_mays_Zm00001d050684:0.23611,zea_mays_GRMZM5G857320:0.094106)n3:0.454748,zea_mays_Zm00001d040087:0.044914)n2:0.011471,zea_mays_Zm00001d051488:0.019704)n1:0.002391)n0;
+((guillardia_tetha_Guith1_44546:0.55956,(ceratodon_purpureus_CepurR40.3G185000:0.24049,physcomitrium_patens_Pp3c4_7800:0.9165)n2:0.4949)n1:0.13525,(saccharina_japonica_SJ09441:0.74952,thuja_plicata_Thupl.29381798s0009:0.60458)n3:0.13525)n0;

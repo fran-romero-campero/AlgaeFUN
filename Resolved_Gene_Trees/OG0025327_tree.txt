@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_92183:0.13422,((selaginella_moellendorffii_Selmo_92333:0.068953,selaginella_moellendorffii_Selmo_170934:0.046784)n2:0.060396,selaginella_moellendorffii_Selmo_114255:0.112006)n1:0.13422)n0;
+(saccharina_japonica_SJ16480:0.3948,(bathycoccus_prasinos_Bathy08g00150:0.53927,(micromonas_pusilla_Micpu_27341095:0.8034,ostreococcus_tauri_ostta15g02740:0.62903)n2:0.23377)n1:0.3948)n0;

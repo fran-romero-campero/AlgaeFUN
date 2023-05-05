@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.11G016900:0.17642,sphagnum_magellanicum_Sphmag08G009400:0.09416)n1:0.120055,(raphidocelis_subcapitata_Rsub_04615:1.12532,(haematococcus_lacustris_GFH05930:0.05032,haematococcus_lacustris_GFH31854:0.14752)n3:0.19128)n2:0.120055)n0;

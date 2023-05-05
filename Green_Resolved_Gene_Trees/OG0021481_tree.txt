@@ -1,0 +1,1 @@
+(coccomyxa_subellipsoidea_Cosub3_1322620:0.582485,((dunaliella_salina_Dusal.0350s00011:0.18526,dunaliella_salina_Dusal.0350s00014:0.42764)n2:0.72862,(haematococcus_lacustris_GFH19512:0.07879,haematococcus_lacustris_GFH24803:0.0394)n3:0.74008)n1:0.582485)n0;

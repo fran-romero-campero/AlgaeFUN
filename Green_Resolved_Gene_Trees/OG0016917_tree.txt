@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy08g03990:1.26797,micromonas_pusilla_Micpu_27347828:0.34181)n1:0.30302,(chlorokybus_atmophyticus_Chlat1_1375:0.87208,(mesotaenium_endlicherianum_ME000257S04457:0.73651,(spirogloea_muscicola_SM000036S13300:0.02205,(spirogloea_muscicola_SM000014S00259:0.02375,spirogloea_muscicola_SM000061S19225:0.02368)n5:0.0192)n4:0.58498)n3:0.04471)n2:0.30302)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_48950:0.67693,((scenedesmus_obliquus_SZX68546:0.00053,scenedesmus_obliquus_SZX64177:0.00055)0.965:0.47734,(chlamydomonas_reinhardtii_Cre16.g694250:0.96137,raphidocelis_subcapitata_Rsub_11570:0.46807)0.952:0.40198)1:0.67693);

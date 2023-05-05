@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_7BS_33551B7D8:0.38606,(cycas_panzhihuaensis_CYCAS_032980:0.57059,selaginella_moellendorffii_Selmo_98872:0.35974)n2:0.44526)n1:0.248035,(physcomitrium_patens_Pp3c10_7170:0.645,physcomitrium_patens_Pp3c18_9450:0.34672)n3:0.248035)n0;

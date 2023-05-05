@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM020_0170:0.6091,(coccomyxa_subellipsoidea_Cosub3_1201893:0.45005,(chromochloris_zofingiensis_Cz05g29250:0.13943,chromochloris_zofingiensis_Cz10g23180:0.55745)n2:0.3935)n1:0.6091)n0;

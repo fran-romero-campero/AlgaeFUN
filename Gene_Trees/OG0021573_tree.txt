@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c3_22170:0.20175,(zea_mays_Zm00001d026225:0.39658,(aegilops_tauschii_AET5Gv21074800:0.03662,(aegilops_tauschii_AET6Gv20081000:0.24567,aegilops_tauschii_AET6Gv20080900:0.14624)0.311:0.04853)0.68:0.08616)1:0.20175);

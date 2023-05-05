@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv11502:0.652745,(ulva_mutabilis_UM072_0031:1.16043,((scenedesmus_obliquus_SZX76827:0.01212,scenedesmus_obliquus_SZX78295:0.00682)n3:0.49474,((dunaliella_salina_Dusal.0145s00010:0.56807,dunaliella_salina_Dusal.0996s00004:0.68986)n5:0.12154,volvox_carteri_Vocar.0024s0029:0.59641)n4:0.08833)n2:0.17189)n1:0.652745)n0;

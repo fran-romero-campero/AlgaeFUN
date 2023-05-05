@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00288_0020:0.50057,klebsormidium_nitens_kfl00866_0020:0.53559)n1:0.341795,((micromonas_pusilla_Micpu_27343787:0.25918,micromonas_pusilla_Micpu_27343795:0.83364)n3:0.98774,(chlamydomonas_reinhardtii_Cre10.g447225:0.61219,(chromochloris_zofingiensis_UNPLg00058:1.37479,volvox_carteri_Vocar.0033s0016:0.90727)n5:0.10281)n4:0.14086)n2:0.341795)n0;

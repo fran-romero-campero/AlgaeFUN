@@ -1,1 +1,1 @@
-(salvinia_cucullata_Sacu_v1.1_s0122.g021462:0.503549,(((salvinia_cucullata_Sacu_v1.1_s1326.g027998:0,salvinia_cucullata_Sacu_v1.1_s0020.g008252:0)n3:0.553664,salvinia_cucullata_Sacu_v1.1_s0138.g022567:0.286533)n2:0.099923,salvinia_cucullata_Sacu_v1.1_s0246.g026702:0.876677)n1:0.503549)n0;
+(zea_mays_Zm00001d004187:0.257045,((aegilops_tauschii_AET2Gv20143600:0.05446,triticum_aestivum_Traes_2BS_F3ABB6466:0.0538)n2:0.01648,(aegilops_tauschii_AET2Gv20143700:0.02111,triticum_aestivum_Traes_2BS_EC2DEA22A:0.05781)n3:0.05681)n1:0.257045)n0;

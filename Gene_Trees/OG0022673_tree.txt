@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00690_0110:0.387095,(chromochloris_zofingiensis_Cz06g25060:0.34042,(dunaliella_salina_Dusal.2151s00001:0.46084,(haematococcus_lacustris_GFH08029:0.02362,haematococcus_lacustris_GFH28993:0.00056)0.944:0.19393)0.956:0.2)1:0.387095);

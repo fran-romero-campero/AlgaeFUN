@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00015_0420:0.267042,(raphidocelis_subcapitata_Rsub_00501:0.690537,(volvox_carteri_Vocar.0069s0004:1.61757,volvox_carteri_Vocar.0046s0014:3.12436e-06)n2:0.570922)n1:0.267042)n0;
+(thuja_plicata_Thupl.29382083s0013:0.14337,(triticum_aestivum_Traes_3B_CBE173D0A:0.09297,(aegilops_tauschii_AET5Gv20087800:0.57126,aegilops_tauschii_AET3Gv20674800:0.011799)n2:0.001311)n1:0.39352)n0;

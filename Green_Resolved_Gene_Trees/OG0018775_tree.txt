@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.1Z236700:0.23241,ceratopteris_richardii_Ceric.06G023800:0.1533)n1:0.30436,(zea_mays_Zm00001d024705:0.46252,(triticum_aestivum_Traes_7BL_0B93712ED:0.00055,(triticum_aestivum_Traes_7BL_F7B83E885:0.47736,triticum_aestivum_Traes_7AL_210DE01E9:0.06157)n4:0.04639)n3:0.23327)n2:0.30436)n0;

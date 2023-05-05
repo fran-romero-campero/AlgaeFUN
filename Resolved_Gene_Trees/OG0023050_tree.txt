@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM055_0077:0.89588,((micromonas_pusilla_Micpu_27339230:0.508303,ostreococcus_tauri_ostta01g04420:0.35869)n2:0.166163,bathycoccus_prasinos_Bathy01g03530:0.305428)n1:0.89588)n0;
+(cyanophora_paradoxa_Cyapar1_g18269:0.236325,((cyanophora_paradoxa_Cyapar1_g21297:0.20177,cyanophora_paradoxa_Cyapar1_g9311:0.0301)n2:0.20917,(cyanophora_paradoxa_Cyapar1_g17506:0.5947,cyanophora_paradoxa_Cyapar1_g19261:0.74832)n3:0.08001)n1:0.236325)n0;

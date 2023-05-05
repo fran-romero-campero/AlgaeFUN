@@ -1,1 +1,1 @@
-((spirogloea_muscicola_SM009187S24543:0.749888,spirogloea_muscicola_SM011086S18854:2.31104e-06)n1:0.091863,(azolla_filiculoides_Azfi_s0045.g029779:0.815057,salvinia_cucullata_Sacu_v1.1_s0001.g000322:0.807783)n2:0.091863)n0;
+(guillardia_tetha_Guith1_47223:0.25726,(cyanophora_paradoxa_Cyapar1_g8257:0.40567,(galdieria_sulphuraria_GsulpSAG21_G896:0.73136,(porphyra_umbilicalis_Pum0271s0010:0.65632,cyanidioschyzon_merolae_XM_005536638:1.13237)n3:0.15744)n2:0.18385)n1:0.25726)n0;

@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_031246:0.212594,(aegilops_tauschii_AET5Gv20944400:0.585661,(triticum_aestivum_Traes_3DS_E1385C166:0.297067,(triticum_aestivum_Traes_4BL_1FFBBECCF:0.028679,triticum_aestivum_Traes_4DL_F9EFC2171:0.417907)n3:0.287099)n2:0.0318999)n1:0.351816)n0;
+(saccharina_japonica_SJ14117:0.446685,(bathycoccus_prasinos_Bathy56g00080:0.65733,(bathycoccus_prasinos_Bathy39g00080:0.75034,(bathycoccus_prasinos_Bathy78g00010:0.76706,(bathycoccus_prasinos_Bathy30g00220:0.72688,bathycoccus_prasinos_Bathy33g00180:0.73751)n4:0.15367)n3:0.32892)n2:0.409)n1:0.446685)n0;

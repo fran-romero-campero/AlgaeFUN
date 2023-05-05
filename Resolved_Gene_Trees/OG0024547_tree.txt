@@ -1,1 +1,1 @@
-(marchantia_polymorpha_Mp6g05270:0.61322,(sphangum_magellanicum_Sphmag01G040000:1.36444,(sphangum_magellanicum_Sphmag10G025200:0.578751,sphangum_magellanicum_Sphmag11G028700:0.738102)n2:0.705267)n1:0.61322)n0;
+(sorghum_bicolor_Sobic.005G031600:0.48695,(aegilops_tauschii_AET5Gv20849300:0.00055,(aegilops_tauschii_AET5Gv20849900:0.08609,aegilops_tauschii_AET5Gv20849600:0.01233)n2:0.01502)n1:0.48695)n0;

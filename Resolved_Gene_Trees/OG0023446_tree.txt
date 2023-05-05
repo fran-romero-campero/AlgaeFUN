@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.03G079600:0.0123565,(ceratopteris_richardii_Ceric.03G079800:0.06955,(ceratopteris_richardii_Ceric.03G020400:1.5032,ceratopteris_richardii_Ceric.01G009500:0.477142)n2:0.501564)n1:0.0123565)n0;
+((klebsormidium_nitens_kfl00221_0200:0.31115,klebsormidium_nitens_kfl00221_0210:0.34768)n1:0.57912,(saccharina_japonica_SJ00502:0.15908,(saccharina_japonica_SJ00505:0.35678,saccharina_japonica_SJ00503:0.27451)n3:0.18472)n2:0.57912)n0;

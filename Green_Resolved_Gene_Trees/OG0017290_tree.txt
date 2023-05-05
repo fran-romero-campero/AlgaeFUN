@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz05g29050:0.23557,((chlamydomonas_reinhardtii_Cre01.g017300:0.21933,volvox_carteri_Vocar.0007s0436:0.12841)n2:0.30341,((haematococcus_lacustris_GFH07290:0.04945,haematococcus_lacustris_GFH07291:0.1094)n4:0.86567,(haematococcus_lacustris_GFH11718:0.01084,haematococcus_lacustris_GFH11719:0.00054)n5:0.44489)n3:0.32034)n1:0.23557)n0;

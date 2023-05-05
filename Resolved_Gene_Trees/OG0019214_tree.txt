@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d006559:0.235891,(zea_mays_Zm00001d002994:1.71665e-06,(zea_mays_Zm00001d038782:0.038122,((zea_mays_Zm00001d024197:0.040839,zea_mays_Zm00001d017776:0.101542)n4:0.493023,zea_mays_Zm00001d029358:0.171395)n3:0.265433)n2:0.174869)n1:0.235891)n0;
+(phaeodactylum_tricornutum_Phatr2_33231:0.91376,(sorghum_bicolor_Sobic.004G282000:0.1203,(aegilops_tauschii_AET6Gv20666500:0.00054,(triticum_aestivum_Traes_6BL_0E5F894AD:0.01948,(triticum_aestivum_Traes_6AL_9AA096479:0.01586,triticum_aestivum_Traes_6DL_D8FAF314B:0.000495)n4:4.95e-05)n3:5.5e-06)n2:0.01781)n1:0.91376)n0;

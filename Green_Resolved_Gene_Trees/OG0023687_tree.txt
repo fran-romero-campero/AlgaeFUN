@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre04.g229250:0.65219,micromonas_pusilla_Micpu_27344571:0.97555)n1:0.28887,(ceratodon_purpureus_CepurR40.8G059200:0.15275,physcomitrium_patens_Pp3c21_11110:0.16778)n2:0.28887)n0;

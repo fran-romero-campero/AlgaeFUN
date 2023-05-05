@@ -1,0 +1,1 @@
+((oryza_sativa_LOC_Os01g27760.1:0.18404,triticum_aestivum_Traes_3B_8A0FF325F:0.34263)n1:0.646675,(haematococcus_lacustris_GFH06234:0.18032,haematococcus_lacustris_GFH13789:0.00055)n2:0.646675)n0;

@@ -1,1 +1,1 @@
-((arabidopsis_thaliana_AT1G25370:0.62048,arabidopsis_thaliana_AT1G68340:0.584734)n1:0.202103,(solanum_lycopersicum_Solyc04g007350:0.290569,(solanum_lycopersicum_Solyc05g009200:0.840126,solanum_lycopersicum_Solyc04g007340:0.220595)n3:0.25057)n2:0.202103)n0;
+(cyanidioschyzon_merolae_XM_005538119:0.340835,((chara_braunii_Chabra1_g31782:0.0127,chara_braunii_Chabra1_g39018:0.05054)n2:0.74369,(chara_braunii_Chabra1_g36222:0.17845,(chara_braunii_Chabra1_g42066:0.10037,chara_braunii_Chabra1_g42067:0.18758)n4:0.1786)n3:0.32131)n1:0.340835)n0;

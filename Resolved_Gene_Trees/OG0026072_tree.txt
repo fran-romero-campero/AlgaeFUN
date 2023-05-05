@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_7BS_0000A4716:0.0552735,(triticum_aestivum_Traes_3AL_695293D46:0.385633,(triticum_aestivum_Traes_2AL_92B6B30FD:0.022183,triticum_aestivum_Traes_1AL_2B62AA327:0.031798)n2:0.024376)n1:0.0552735)n0;
+(chlorokybus_atmophyticus_Chlat1_5212:0.479285,(guillardia_tetha_Guith1_161475:0.71869,(cryptophyceae_CCMP2293_Crypto2293_1_1790001:0.57344,cryptophyceae_CCMP2293_Crypto2293_1_2677395:0.69286)n2:0.19095)n1:0.479285)n0;

@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_49769:0.588845,(solanum_lycopersicum_Solyc01g067020:0.96165,(oryza_sativa_LOC_Os10g18990.1:0.37171,zea_mays_Zm00001d048745:0.45606)n2:0.31845)n1:0.588845)n0;

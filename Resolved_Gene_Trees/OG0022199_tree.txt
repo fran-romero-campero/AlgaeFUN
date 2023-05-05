@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET4Gv20325900:0.308796,(oryza_sativa_LOC_Os11g42410.1:0.771072,(sorghum_bicolor_Sobic.005G199300:0.390259,zea_mays_Zm00001d007657:0.355944)n2:0.458199)n1:0.308796)n0;
+(ceratopteris_richardii_Ceric.05G099800:0.12109,((cycas_panzhihuaensis_CYCAS_013122:0.06407,cycas_panzhihuaensis_CYCAS_029113:0.15521)n2:0.15729,(triticum_aestivum_Traes_2AL_5A98F8BF1:0.27498,triticum_aestivum_Traes_5AS_B16145290:0.026559)n3:0.002951)n1:0.01321)n0;

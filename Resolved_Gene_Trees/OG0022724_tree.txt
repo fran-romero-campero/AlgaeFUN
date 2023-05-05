@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000006l.1213:0.18964,((anthoceros_agrestis_AagrOXF_utg000010l.280:0.775225,anthoceros_agrestis_AagrOXF_utg000057l.69:0.759694)n2:0.611621,anthoceros_agrestis_AagrOXF_utg000012l.482:0.413204)n1:0.18964)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1661651:0.20223,guillardia_tetha_Guith1_133641:0.10743)n1:0.204785,(nannochloropsis_gaditana_Nangad1_2669:0.31302,(phaeodactylum_tricornutum_Phatr2_46728:0.42375,saccharina_japonica_SJ09372:0.46782)n3:0.10684)n2:0.204785)n0;

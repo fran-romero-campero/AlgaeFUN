@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g17286:0.422437,(cyanophora_paradoxa_Cyapar1_g18452:0.641404,((cyanophora_paradoxa_Cyapar1_g18485:2.81105e-06,cyanophora_paradoxa_Cyapar1_g6425:1.00433)n3:0.017456,cyanophora_paradoxa_Cyapar1_g5185:0.275732)n2:0.032782)n1:0.422437)n0;
+(porphyra_umbilicalis_Pum0535s0001:0.13953,(porphyra_umbilicalis_Pum0441s0005:0.03792,((porphyra_umbilicalis_Pum0535s0002:0.56543,porphyra_umbilicalis_Pum0216s0021:0.08906)n3:0.00053,(porphyra_umbilicalis_Pum0329s0003:0.03822,porphyra_umbilicalis_Pum0095s0020:0.04942)n4:0.02329)n2:0.04641)n1:0.13953)n0;

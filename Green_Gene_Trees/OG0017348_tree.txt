@@ -1,0 +1,1 @@
+(((micromonas_pusilla_Micpu_27348567:0.33038,ostreococcus_tauri_ostta05g03890:0.51627)1:0.86356,(coccomyxa_subellipsoidea_Cosub3_1228572:0.50536,coccomyxa_subellipsoidea_Cosub3_1233092:0.48913)1:0.51708)0.985:0.14692,(chlorokybus_atmophyticus_Chlat1_7535:0.8947,(chlorokybus_atmophyticus_Chlat1_1593:0.73614,chlorokybus_atmophyticus_Chlat1_3217:0.55593)0.864:0.11258)0.985:0.14692);

@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d019199:0.35161,((zea_mays_Zm00001d043567:1.87382e-06,zea_mays_Zm00001d026473:0.47439)n2:0.278601,zea_mays_Zm00001d024346:0.435697)n1:0.35161)n0;
+((chromochloris_zofingiensis_Cz03g27020:0.37403,raphidocelis_subcapitata_Rsub_12835:0.45699)n1:0.1856,(nannochloropsis_gaditana_Nangad1_9414:0.63143,phaeodactylum_tricornutum_Phatr2_48788:0.9236)n2:0.1856)n0;

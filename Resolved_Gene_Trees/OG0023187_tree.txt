@@ -1,1 +1,1 @@
-((marchantia_polymorpha_Mp3g18680:0.694712,ceratodon_purpureus_CepurR40.4G003900:0.378835)n1:0.295322,(chromochloris_zofingiensis_Cz03g25030:2.2335e-06,bathycoccus_prasinos_Bathy95g00030:0.763982)n2:0.295322)n0;
+((cycas_panzhihuaensis_CYCAS_006438:0.74271,triticum_aestivum_Traes_3DL_E8D69CACE:0.17597)n1:0.366615,(selaginella_moellendorffii_Selmo_412715:0.36113,(selaginella_moellendorffii_Selmo_417271:0.0913,selaginella_moellendorffii_Selmo_441719:0.07717)n3:0.05545)n2:0.366615)n0;

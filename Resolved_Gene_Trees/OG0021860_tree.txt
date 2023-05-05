@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29349475s0001:0.379161,((thuja_plicata_Thupl.29379107s0008:0.867004,(thuja_plicata_Thupl.29369022s0002:0.80933,thuja_plicata_Thupl.29369022s0005:3.19445e-06)n3:0.109282)n2:0.12427,thuja_plicata_Thupl.29378892s0008:0.819222)n1:0.379161)n0;
+(arabidopsis_thaliana_AT3G51210:0.374005,(triticum_aestivum_Traes_2DS_C39FC4983:0.3287,(triticum_aestivum_Traes_7BL_7F5D79997:0.03941,(triticum_aestivum_Traes_3DL_72BD70EAE:0.05223,triticum_aestivum_Traes_3DL_297CCAE6D:0.10277)n3:0.00054)n2:0.22754)n1:0.374005)n0;

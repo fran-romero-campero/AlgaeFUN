@@ -1,1 +1,1 @@
-((thuja_plicata_Thupl.29184701s0001:0.251088,cycas_panzhihuaensis_CYCAS_013518:0.282626)n1:0.197793,(azolla_filiculoides_Azfi_s0035.g025550:0.84743,ceratopteris_richardii_Ceric.18G012100:0.505923)n2:0.197793)n0;
+(cyanophora_paradoxa_Cyapar1_g10763:0.251375,(galdieria_sulphuraria_GsulpSAG21_G3891:0.28977,(cyanidioschyzon_merolae_XM_005537575:0.36755,(gracilariopsis_chorda_PXF43615:0.2197,porphyra_umbilicalis_Pum0523s0007:0.07033)n3:0.12694)n2:0.17229)n1:0.251375)n0;

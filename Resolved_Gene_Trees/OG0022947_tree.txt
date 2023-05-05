@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0013.g013171:0.167982,((salvinia_cucullata_Sacu_v1.1_s0044.g013077:0.670482,salvinia_cucullata_Sacu_v1.1_s0044.g013079:1.17397)n2:0.288436,salvinia_cucullata_Sacu_v1.1_s0003.g001529:0.084384)n1:0.167982)n0;
+(cyanophora_paradoxa_Cyapar1_g18462:0.448205,((gracilariopsis_chorda_PXF48259:0.90194,porphyra_umbilicalis_Pum0076s0048:0.57458)n2:0.15406,(cyanidioschyzon_merolae_XM_005535697:0.46358,galdieria_sulphuraria_GsulpSAG21_G492:0.87259)n3:0.19612)n1:0.448205)n0;

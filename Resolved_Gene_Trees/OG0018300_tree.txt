@@ -1,1 +1,1 @@
-((dunaliella_salina_Dusal.0408s00004:1.35687,(chlamydomonas_reinhardtii_Cre12.g497250:5.69999e-06,volvox_carteri_Vocar.0006s0390:0.624072)n2:0.792298)n1:0.096523,(klebsormidium_nitens_kfl00095_0060:1.32588,(mesostigma_viridae_Mv15000:0.776612,mesostigma_viridae_Mv08234:0.106333)n4:0.653205)n3:0.096523)n0;
+(cyanophora_paradoxa_Cyapar1_g9952:0,(cyanophora_paradoxa_Cyapar1_g10731:0,cyanophora_paradoxa_Cyapar1_g13715:0,cyanophora_paradoxa_Cyapar1_g15701:0,cyanophora_paradoxa_Cyapar1_g16511:0,cyanophora_paradoxa_Cyapar1_g24607:0,cyanophora_paradoxa_Cyapar1_g19538:0.0888)n1:0)n0;

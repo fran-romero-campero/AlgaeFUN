@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.37G008500:0.55153,(salvinia_cucullata_Sacu_v1.1_s0218.g026102:1.15196,(azolla_filiculoides_Azfi_s0304.g063813:0.418732,azolla_filiculoides_Azfi_s0273.g061331:0.599109)n2:0.0665677)n1:0.048873)n0;
+(cyanophora_paradoxa_Cyapar1_g12924:0.20709,(cyanophora_paradoxa_Cyapar1_g24897:0.45084,(cyanophora_paradoxa_Cyapar1_g21442:0.04303,(cyanophora_paradoxa_Cyapar1_g21443:0.19917,cyanophora_paradoxa_Cyapar1_g21448:0.00055)n3:0.16493)n2:0.52082)n1:0.20709)n0;

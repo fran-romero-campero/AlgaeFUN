@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM001_0415:0.365445,((volvox_carteri_Vocar.0053s0038:0.476714,(chromochloris_zofingiensis_Cz04g22080:1.69952e-06,raphidocelis_subcapitata_Rsub_04388:0.485595)n3:0.075009)n2:0.246101,chlamydomonas_reinhardtii_Cre08.g378601:1.69952e-06)n1:0.365445)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1877362:0.13299,guillardia_tetha_Guith1_133267:0.28448)n1:0.543805,(micromonas_pusilla_Micpu_27342725:0.69801,(scenedesmus_obliquus_SZX76381:0.20885,(scenedesmus_obliquus_SZX72373:0.1778,scenedesmus_obliquus_SZX72374:0.1061)n4:0.19954)n3:0.45634)n2:0.543805)n0;

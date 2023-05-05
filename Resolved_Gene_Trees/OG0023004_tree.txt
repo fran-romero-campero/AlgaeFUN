@@ -1,1 +1,1 @@
-(physcomitrium_patens_Pp3c17_15000:0.172459,(azolla_filiculoides_Azfi_s0177.g056124:0.193051,(azolla_filiculoides_Azfi_s0528.g075772:0.263562,azolla_filiculoides_Azfi_s0406.g068404:0.165607)n2:0.114918)n1:0.172459)n0;
+(cyanophora_paradoxa_Cyapar1_g11817:0.223985,(cyanophora_paradoxa_Cyapar1_g11819:0.0664,(cyanophora_paradoxa_Cyapar1_g11816:0.8219,(cyanophora_paradoxa_Cyapar1_g11818:0.10397,cyanophora_paradoxa_Cyapar1_g11820:0.2349)n3:0.4602)n2:0.1927)n1:0.223985)n0;

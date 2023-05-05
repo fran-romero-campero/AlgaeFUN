@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d049936:0.055612,((zea_mays_Zm00001d004521:0.515903,(zea_mays_Zm00001d051092:0.11307,zea_mays_Zm00001d050764:0.022185)n3:0.146318)n2:0.033437,zea_mays_Zm00001d039696:0.050047)n1:0.055612)n0;
+(nannochloropsis_gaditana_Nangad1_6605:0.82885,(sphagnum_magellanicum_Sphmag19G002100:0.11685,(physcomitrium_patens_Pp3c24_20230:0.19111,(ceratodon_purpureus_CepurR40.3G235000:0.12543,ceratodon_purpureus_CepurR40.12G052300:0.0683)n3:0.06732)n2:0.09283)n1:0.82885)n0;

@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_3507:0.0601075,((nannochloropsis_gaditana_Nangad1_7124:0.039842,nannochloropsis_gaditana_Nangad1_5731:0.124983)n2:0.33114,nannochloropsis_gaditana_Nangad1_10922:0.591273)n1:0.0601075)n0;
+(aegilops_tauschii_AET5Gv20045400:0.15827,(zea_mays_Zm00001d036973:0.01944,(zea_mays_Zm00001d045705:0.99608,zea_mays_Zm00001d010555:0.00878)n2:0.02867)n1:0.15827)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00014_0260:0.456065,((ostreococcus_tauri_ostta12g03080:1.03027,(micromonas_pusilla_Micpu_27345863:0.65153,micromonas_pusilla_Micpu_27349203:0.436581)n3:0.048509)n2:0.54632,(coccomyxa_subellipsoidea_Cosub3_1189075:0.41364,(chlamydomonas_reinhardtii_Cre12.g542150:0.47198,dunaliella_salina_Dusal.1367s00003:0.54434)n5:0.32229)n4:0.10865)n1:0.456065)n0;

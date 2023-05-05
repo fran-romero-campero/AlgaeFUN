@@ -1,1 +1,1 @@
-((ceratodon_purpureus_CepurR40.12G077700:0.526285,ceratodon_purpureus_CepurR40.3G054100:0.766905)n1:0.263626,(physcomitrium_patens_Pp3c20_7369:0.585118,physcomitrium_patens_Pp3c23_19400:0.483856)n2:0.263626)n0;
+(guillardia_tetha_Guith1_137224:0.671995,(ostreococcus_tauri_ostta19g00440:1.37849,(klebsormidium_nitens_kfl00117_0080:0.82974,(klebsormidium_nitens_kfl00180_0010:0.46376,klebsormidium_nitens_kfl00315_0060:0.44108)n3:0.09691)n2:0.33625)n1:0.671995)n0;

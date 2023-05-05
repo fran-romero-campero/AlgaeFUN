@@ -1,1 +1,1 @@
-((azolla_filiculoides_Azfi_s0069.g036567:0.422097,azolla_filiculoides_Azfi_s0069.g036565:0.218797)n1:0.255352,(salvinia_cucullata_Sacu_v1.1_s0007.g003868:1.0995,salvinia_cucullata_Sacu_v1.1_s0095.g019281:1.25779)n2:0.255352)n0;
+(cyanophora_paradoxa_Cyapar1_g4691:0.07028,(cyanophora_paradoxa_Cyapar1_g11785:0.0805,(cyanophora_paradoxa_Cyapar1_g6697:0.06591,(cyanophora_paradoxa_Cyapar1_g22370:0.22849,cyanophora_paradoxa_Cyapar1_g9885:0.09163)n3:0.00758)n2:0.02998)n1:0.07028)n0;

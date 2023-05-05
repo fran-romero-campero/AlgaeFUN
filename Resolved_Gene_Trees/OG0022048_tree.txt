@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM036_0113:0.290594,((ulva_mutabilis_UM011_0034:0.3535,ulva_mutabilis_UM036_0114:0.17201)n2:0.104375,(ulva_mutabilis_UM036_0112:0.77487,ulva_mutabilis_UM011_0033:0.466751)n3:0.150295)n1:0.290594)n0;
+((guillardia_tetha_Guith1_155504:0.54817,saccharina_japonica_SJ17137:0.39591)n1:0.374185,(dunaliella_salina_Dusal.1014s00002:0.72951,(ceratodon_purpureus_CepurR40.2G087500:0.4788,cyanophora_paradoxa_Cyapar1_g21304:0.26422)n3:0.17462)n2:0.374185)n0;

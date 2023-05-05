@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv10382:0.498412,(((volvox_carteri_Vocar.0047s0052:0.544728,chlamydomonas_reinhardtii_Cre03.g207500:2.737e-06)n3:0.587302,dunaliella_salina_Dusal.1522s00001:0.797944)n2:0.276525,chromochloris_zofingiensis_Cz01g06200:2.737e-06)n1:0.498412)n0;
+(haematococcus_lacustris_GFH14640:0.56721,((thuja_plicata_Thupl.29378187s0004:0.01445,thuja_plicata_Thupl.29378187s0003:0.00055)n2:0.25542,(thuja_plicata_Thupl.29382160s0003:0.04624,(thuja_plicata_Thupl.29378825s0002:0.54701,thuja_plicata_Thupl.29382160s0001:0.05921)n4:0.02346)n3:0.20363)n1:0.56721)n0;

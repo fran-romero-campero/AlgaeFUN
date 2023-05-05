@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3s755_30:0.25063,(triticum_aestivum_Traes_2DL_3E827C45E:0.16003,(azolla_filiculoides_Azfi_s0964.g093998:0.01028,(azolla_filiculoides_Azfi_s0008.g011235:0.0444,azolla_filiculoides_Azfi_s0040.g026518:0.05474)n3:0.00055)n2:0.72884)n1:0.25063)n0;

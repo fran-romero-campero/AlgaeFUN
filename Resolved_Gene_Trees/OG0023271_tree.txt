@@ -1,1 +1,1 @@
-((marchantia_polymorpha_Mp4g02750:0.721876,marchantia_polymorpha_Mp3g13560:0.774661)n1:0.472471,(physcomitrium_patens_Pp3c15_17460:0.217919,ceratodon_purpureus_CepurR40.10G044800:0.230458)n2:0.472471)n0;
+(gracilariopsis_chorda_PXF41790:0.01948,(gracilariopsis_chorda_PXF44983:0.06483,(gracilariopsis_chorda_PXF43428:1.19421,(gracilariopsis_chorda_PXF41702:0.13525,gracilariopsis_chorda_PXF40250:0.35156)n3:0.19965)n2:0.19454)n1:0.01948)n0;

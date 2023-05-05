@@ -1,1 +1,1 @@
-((chlamydomonas_reinhardtii_Cre10.g434500:1.64554e-06,volvox_carteri_Vocar.0014s0119:0.486386)n1:0.343147,(chromochloris_zofingiensis_Cz14g12170:1.64554e-06,raphidocelis_subcapitata_Rsub_08656:0.783242)n2:0.343147)n0;
+(saccharina_japonica_SJ13771:0.01387,(saccharina_japonica_SJ13772:0.04974,(saccharina_japonica_SJ04200:0.08964,(saccharina_japonica_SJ06288:0.09806,saccharina_japonica_SJ04199:0.60582)n3:0.05658)n2:0.02483)n1:0.01387)n0;

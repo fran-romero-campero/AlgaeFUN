@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH17303:0.333555,(oryza_sativa_LOC_Os02g08014.1:0.13172,(triticum_aestivum_Traes_3B_4F1AEAFA3:0.00054,triticum_aestivum_Traes_1BL_9345A3271:0.211923)n2:0.023547)n1:0.19359)n0;

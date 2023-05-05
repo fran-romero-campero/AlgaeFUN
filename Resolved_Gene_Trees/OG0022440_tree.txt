@@ -1,1 +1,1 @@
-((sorghum_bicolor_Sobic.005G106300:0.498506,oryza_sativa_LOC_Os11g16400.1:0.546436)n1:0.0675095,(aegilops_tauschii_AET4Gv20172500:1.17337,triticum_aestivum_Traes_4AL_E9A559951:0.208719)n2:0.0675095)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1602582:1.19248,(cryptophyceae_CCMP2293_Crypto2293_1_1592318:0.00055,cryptophyceae_CCMP2293_Crypto2293_1_1614924:0.00055)n2:0.95115)n1:0.054955,(chlamydomonas_reinhardtii_Cre13.g573550:0.25228,volvox_carteri_Vocar.0001s0358:0.28123)n3:0.054955)n0;

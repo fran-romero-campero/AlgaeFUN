@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_106238:0.174011,((salvinia_cucullata_Sacu_v1.1_s0195.g025466:0.137004,salvinia_cucullata_Sacu_v1.1_s0195.g025465:0.558611)n2:0.631414,azolla_filiculoides_Azfi_s0254.g060417:0.372637)n1:0.174011)n0;
+(cyanophora_paradoxa_Cyapar1_g12543:0.004765,((cyanophora_paradoxa_Cyapar1_g12544:0,cyanophora_paradoxa_Cyapar1_g12545:0)n2:0.03585,(cyanophora_paradoxa_Cyapar1_g12540:0.13442,cyanophora_paradoxa_Cyapar1_g24284:0.77581)n3:0.1723)n1:0.004765)n0;

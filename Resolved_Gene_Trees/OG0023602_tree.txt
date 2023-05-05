@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g15243:0.960905,((volvox_carteri_Vocar.0022s0181:0.299472,chlamydomonas_reinhardtii_Cre14.g623350:0.041737)n2:0.239141,dunaliella_salina_Dusal.0058s00009:1.10968)n1:0.960905)n0;
+(phaeodactylum_tricornutum_Phatr2_44739:0.39463,(nannochloropsis_gaditana_Nangad1_6088:0.86682,(saccharina_japonica_SJ11974:0.38867,(saccharina_japonica_SJ11973:0.56228,saccharina_japonica_SJ01578:0.67306)n3:0.15238)n2:0.35068)n1:0.39463)n0;

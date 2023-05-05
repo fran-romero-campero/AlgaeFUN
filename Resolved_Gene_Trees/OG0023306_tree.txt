@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_Cz13g09040:0.0550135,(marchantia_polymorpha_Mp8g12880:0.311684,(ceratodon_purpureus_CepurR40.3G184700:0.203193,physcomitrium_patens_Pp3c6_16580:0.217045)n2:0.155556)n1:0.0550135)n0;
+(gracilariopsis_chorda_PXF39950:0.459835,(porphyra_umbilicalis_Pum0027s0069:0.17754,(porphyra_umbilicalis_Pum0082s0026:1.11887,(porphyra_umbilicalis_Pum2278s0001:0.19973,porphyra_umbilicalis_Pum0077s0041:0.6217)n3:0.05972)n2:0.12604)n1:0.459835)n0;

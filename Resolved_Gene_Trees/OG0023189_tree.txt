@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_6117:0.431893,(physcomitrium_patens_Pp3c2_32600:0.21832,(ceratodon_purpureus_CepurR40.2G203400:0.254751,ceratodon_purpureus_CepurR40.8G192700:0.021643)n2:0.037817)n1:0.431893)n0;
+(cycas_panzhihuaensis_CYCAS_006824:0.848795,(zea_mays_Zm00001d043639:0.00055,(zea_mays_Zm00001d019611:0.00055,(zea_mays_Zm00001d029574:0.00702,zea_mays_Zm00001d011586:0.00053)n3:0.56756)n2:0.0362)n1:0.848795)n0;

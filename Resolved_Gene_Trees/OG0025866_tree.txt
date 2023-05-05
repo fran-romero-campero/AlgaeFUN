@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d005060:0.226134,(triticum_aestivum_Traes_4BL_14817C05C:0.257137,(triticum_aestivum_Traes_1AS_192925DAB:0.009359,triticum_aestivum_Traes_1BS_BBFE06332:0.015598)n2:0.410494)n1:0.226134)n0;
+(guillardia_tetha_Guith1_99015:0.50379,(scenedesmus_obliquus_SZX67303:0.49139,(chlamydomonas_reinhardtii_Cre11.g467632:0.28028,volvox_carteri_Vocar.0001s0467:0.29465)n2:0.1902)n1:0.50379)n0;

@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX65371:0.61206,(selaginella_moellendorffii_Selmo_406587:0.60254,(ceratopteris_richardii_Ceric.09G080300:0.53614,(selaginella_moellendorffii_Selmo_402524:0.51042,selaginella_moellendorffii_Selmo_413732:0.50902)0.994:0.32799)0.843:0.15485)1:0.61206);

@@ -1,0 +1,1 @@
+((triticum_aestivum_Traes_1BL_BBC210B38:0.01749,triticum_aestivum_Traes_3AL_532CA9EE7:0.13961)n1:0.1976,(oryza_sativa_LOC_Os06g31220.1:0.3525,zea_mays_Zm00001d002809:0.68362)n2:0.1976)n0;

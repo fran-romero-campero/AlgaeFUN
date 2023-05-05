@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000049l.24:0.045035,(sphangum_magellanicum_Sphmag03G001200:0.12121,(ceratodon_purpureus_CepurR40.4G234600:0,ceratodon_purpureus_CepurR40.N008800:0)n2:0.19082)n1:0.045035)n0;
+((dunaliella_salina_Dusal.0379s00009:0.76073,(haematococcus_lacustris_GFH08923:0.00055,haematococcus_lacustris_GFH28729:0.00945)n2:0.67831)n1:0.10029,(cryptophyceae_CCMP2293_Crypto2293_1_1770753:0.64301,nannochloropsis_gaditana_Nangad1_1720:0.66805)n3:0.10029)n0;

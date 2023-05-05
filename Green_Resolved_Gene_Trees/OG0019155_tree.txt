@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz04g08020:0.774775,((klebsormidium_nitens_kfl00212_0030:0.52225,klebsormidium_nitens_kfl00006_0420:1.30855)n2:0.42117,(spirogloea_muscicola_SM000029S10580:0.01896,(spirogloea_muscicola_SM000135S27016:0.03309,spirogloea_muscicola_SM000189S04083:0.04692)n4:0.02986)n3:0.35599)n1:0.774775)n0;

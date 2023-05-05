@@ -1,1 +1,1 @@
-((volvox_carteri_Vocar.0012s0089:0.336667,chlamydomonas_reinhardtii_Cre02.g097500:0.013884)n1:0.246923,(chromochloris_zofingiensis_Cz08g07070:1.97117e-06,(raphidocelis_subcapitata_Rsub_01055:0.331293,raphidocelis_subcapitata_Rsub_01082:0.682188)n3:0.303998)n2:0.246923)n0;
+((gracilariopsis_chorda_PXF40539:0.60559,porphyra_umbilicalis_Pum0414s0004:0.79455)n1:0.20411,((ulva_mutabilis_UM137_0017:0.25502,ulva_mutabilis_UM137_0018:0.30599)n3:0.28343,(ulva_mutabilis_UM012_0005:0.37357,ulva_mutabilis_UM012_0006:0.28376)n4:0.14076)n2:0.20411)n0;

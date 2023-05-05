@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH18695:0.228245,(triticum_aestivum_Traes_1BL_F7884B670:0.11015,(triticum_aestivum_Traes_4DS_1EDBCFF93:0.00054,(triticum_aestivum_Traes_4DS_38E8ECB52:0.00055,(triticum_aestivum_Traes_3B_963CEEA41:0.33356,triticum_aestivum_Traes_4DS_59F4BE449:0.00438)n4:0.00663)n3:0.00054)n2:0.00061)n1:0.228245)n0;

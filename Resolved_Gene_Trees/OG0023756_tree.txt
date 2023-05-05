@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre02.g142700:0.0550005,((cyanophora_paradoxa_Cyapar1_g24875:0.066534,cyanophora_paradoxa_Cyapar1_g24878:0.073654)n2:0.783391,cyanophora_paradoxa_Cyapar1_g15204:0.736446)n1:0.0550005)n0;
+(phaeodactylum_tricornutum_Phatr2_46949:0.008305,(phaeodactylum_tricornutum_Phatr2_46953:0.00887,(phaeodactylum_tricornutum_Phatr2_50588:0.00237,(phaeodactylum_tricornutum_Phatr2_50589:0.01587,phaeodactylum_tricornutum_Phatr2_46950:0.00053)n3:0.84173)n2:0.18381)n1:0.008305)n0;

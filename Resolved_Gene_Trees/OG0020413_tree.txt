@@ -1,1 +1,1 @@
-((chromochloris_zofingiensis_Cz09g22060:2.46313e-06,raphidocelis_subcapitata_Rsub_05462:0.961448)n1:0.071933,(dunaliella_salina_Dusal.0457s00016:0.582773,(chlamydomonas_reinhardtii_Cre06.g270800:2.46313e-06,volvox_carteri_Vocar.0002s0354:0.411467)n3:0.615226)n2:0.071933)n0;
+(cyanophora_paradoxa_Cyapar1_g2448:0.010255,((cyanophora_paradoxa_Cyapar1_g439:0.00733,cyanophora_paradoxa_Cyapar1_g7431:0.0025)n2:0.00298,(cyanophora_paradoxa_Cyapar1_g22400:0.00323,(cyanophora_paradoxa_Cyapar1_g5563:0.00439,cyanophora_paradoxa_Cyapar1_g5562:0.01458)n4:0.00441)n3:0.0049)n1:0.010255)n0;

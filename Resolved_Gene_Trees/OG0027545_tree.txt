@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv14175:0.586665,(spirogloea_muscicola_SM005014S17844:0.01088,(spirogloea_muscicola_SM004906S17369:0.05457,spirogloea_muscicola_SM004930S17361:0.00055)n2:0.01748)n1:0.586665)n0;

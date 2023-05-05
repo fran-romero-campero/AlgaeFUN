@@ -1,0 +1,1 @@
+((chlamydomonas_reinhardtii_Cre06.g287950:0.41152,dunaliella_salina_Dusal.0021s00029:1.01051)n1:0.610835,(mesostigma_viridae_Mv00841:0.12657,(mesostigma_viridae_Mv19740:0.00055,mesostigma_viridae_Mv00843:0.00055)n3:0.58672)n2:0.610835)n0;

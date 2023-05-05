@@ -1,0 +1,1 @@
+(marchantia_polymorpha_Mp6g00630:0.46585,(phaeodactylum_tricornutum_Phatr2_35445:0.0293,(phaeodactylum_tricornutum_Phatr2_31535:0.00905,phaeodactylum_tricornutum_Phatr2_41618:0.00886)n2:0.00243)n1:0.46585)n0;

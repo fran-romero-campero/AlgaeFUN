@@ -1,1 +1,1 @@
-((phaeodactylum_tricornutum_Phatr2_49807:0.001214,phaeodactylum_tricornutum_Phatr2_48037:0.0017)n1:0.717472,(ostreococcus_tauri_ostta06g00370:0.96978,bathycoccus_prasinos_Bathy04g03620:0.024053)n2:0.717472)n0;
+(cyanophora_paradoxa_Cyapar1_g4191:0.18674,(porphyra_umbilicalis_Pum0502s0007:0.95858,(galdieria_sulphuraria_GsulpSAG21_G475:0.00054,(galdieria_sulphuraria_GsulpSAG21_G467:0.08461,galdieria_sulphuraria_GsulpSAG21_G3060:0.01819)n3:0.16839)n2:0.79131)n1:0.18674)n0;

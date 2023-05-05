@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta08g00350:0.883605,(dunaliella_salina_Dusal.0504s00003:0.00054,(haematococcus_lacustris_GFH18636:0.00054,haematococcus_lacustris_GFH27563:0.00517)n2:0.10991)n1:0.883605)n0;

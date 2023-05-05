@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_020173:0.771421,(ceratopteris_richardii_Ceric.12G006000:0.87079,(salvinia_cucullata_Sacu_v1.1_s0005.g002753:0.399043,azolla_filiculoides_Azfi_s0141.g051360:0.363418)n2:0.417791)n1:0.771421)n0;
+(cyanophora_paradoxa_Cyapar1_g4333:0.40252,((cyanophora_paradoxa_Cyapar1_g11359:0.20903,cyanophora_paradoxa_Cyapar1_g12567:0.20986)n2:0.61111,(cyanophora_paradoxa_Cyapar1_g16638:0.92398,cyanophora_paradoxa_Cyapar1_g21437:0.54805)n3:0.10056)n1:0.40252)n0;

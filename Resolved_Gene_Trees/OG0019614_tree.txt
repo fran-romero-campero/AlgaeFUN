@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET1Gv20823400:0.0430375,(triticum_aestivum_Traes_1BL_C7164FAFB:0.398435,((triticum_aestivum_Traes_3AL_8C9F88A94:0.01832,triticum_aestivum_Traes_3DL_8A0502976:0.651084)n3:0.225497,triticum_aestivum_Traes_7AS_D15DC2558:0.138668)n2:0.084428)n1:0.0430375)n0;
+(ceratodon_purpureus_CepurR40.2G093700:0,(ceratodon_purpureus_CepurR40.10G031000:0,ceratodon_purpureus_CepurR40.9G094900:0,ceratodon_purpureus_CepurR40.6G008000:0,ceratodon_purpureus_CepurR40.N021800:0,ceratodon_purpureus_CepurR40.7G155900:0.0502)n1:0)n0;

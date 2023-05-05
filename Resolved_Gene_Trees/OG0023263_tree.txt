@@ -1,1 +1,1 @@
-(sphangum_magellanicum_Sphmag09G054300:0.897621,(physcomitrium_patens_Pp3c9_24580:0.517159,(ceratodon_purpureus_CepurR40.7G111400:2.50833e-06,ceratodon_purpureus_CepurR40.10G134000:0.540462)n2:0.0600513)n1:0.621492)n0;
+(porphyra_umbilicalis_Pum1748s0001:0.344245,(gracilariopsis_chorda_PXF43945:1.37946,(gracilariopsis_chorda_PXF42356:0.00051,(gracilariopsis_chorda_PXF44307:0.10885,gracilariopsis_chorda_PXF45621:0.09155)n3:0.67744)n2:0.53171)n1:0.344245)n0;

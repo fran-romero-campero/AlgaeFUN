@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_Cz04g15030:0.215865,(ceratodon_purpureus_CepurR40.3G220300:1.71522e-06,(klebsormidium_nitens_kfl00181_0110:0.363003,klebsormidium_nitens_kfl00181_0120:0.672888)n2:0.0747653)n1:0.418876)n0;
+((gracilariopsis_chorda_PXF45728:0.29628,porphyra_umbilicalis_Pum0313s0002:0.30086)n1:0.12004,(guillardia_tetha_Guith1_96294:0.53296,(phaeodactylum_tricornutum_Phatr2_42506:0.85771,saccharina_japonica_SJ17641:0.27023)n3:0.32707)n2:0.12004)n0;

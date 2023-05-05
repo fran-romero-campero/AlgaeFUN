@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_51593:0.0428935,((selaginella_moellendorffii_Selmo_43839:0.004958,selaginella_moellendorffii_Selmo_89343:0.177705)n2:0.256256,selaginella_moellendorffii_Selmo_51678:0.111444)n1:0.0428935)n0;
+(coccomyxa_subellipsoidea_Cosub3_1385122:0.3662,(micromonas_pusilla_Micpu_27341381:0.62177,(bathycoccus_prasinos_Bathy07g03590:0.54929,ostreococcus_tauri_ostta12g01190:0.58888)n2:0.03309)n1:0.3662)n0;

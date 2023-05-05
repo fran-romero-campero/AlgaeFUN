@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_7023:0.898945,(physcomitrium_patens_Pp3c3_240:0.349568,(ceratodon_purpureus_CepurR40.10G130100:0.110957,ceratodon_purpureus_CepurR40.10G053300:2.04853e-06)n2:2.04853e-06)n1:0.71659)n0;
+(gracilariopsis_chorda_PXF44366:0.01691,((gracilariopsis_chorda_PXF42802:0.47075,gracilariopsis_chorda_PXF49503:0.20924)n2:0.16926,(gracilariopsis_chorda_PXF44372:0.00055,gracilariopsis_chorda_PXF44371:0.00053)n3:0.02128)n1:0.01691)n0;

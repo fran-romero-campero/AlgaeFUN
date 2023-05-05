@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre04.g215700:0.140853,((raphidocelis_subcapitata_Rsub_12049:0.267036,raphidocelis_subcapitata_Rsub_10856:0.19168)n2:0.247681,chromochloris_zofingiensis_Cz05g05130:8.10844e-07)n1:0.140853)n0;
+(saccharina_japonica_SJ09050:0.556635,(saccharina_japonica_SJ09051:0.41499,(saccharina_japonica_SJ01208:0.9942,(saccharina_japonica_SJ06868:1.03685,saccharina_japonica_SJ22641:0.70854)n3:0.24427)n2:0.25472)n1:0.556635)n0;

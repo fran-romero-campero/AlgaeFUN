@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_06173:0.44266,(coccomyxa_subellipsoidea_Cosub3_1300535:0.47512,scenedesmus_obliquus_SZX70420:0.38448)n2:0.18429)n1:0.481775,(mesostigma_viridae_Mv22387:0.40222,(chlorokybus_atmophyticus_Chlat1_7921:0.37121,klebsormidium_nitens_kfl00089_0070:0.51449)n4:0.07555)n3:0.481775)n0;

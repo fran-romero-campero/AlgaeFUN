@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy124g00010:0.210255,(mesostigma_viridae_Mv20331:0.87221,(mesotaenium_endlicherianum_ME000950S10217:0.03852,mesotaenium_endlicherianum_ME001781S02305:0.00054)n2:0.44671)n1:0.210255)n0;

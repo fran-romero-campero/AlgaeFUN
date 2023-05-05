@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM022_0224:0.42478,(klebsormidium_nitens_kfl00182_0150:0.96559,((chlorokybus_atmophyticus_Chlat1_5247:0.43172,(selaginella_moellendorffii_Selmo_92145:0.67674,marchantia_polymorpha_Mp5g14640:0.68911)n4:0.33237)n3:0.18417,(mesostigma_viridae_Mv13757:1.1249,mesostigma_viridae_Mv00327:0.88906)n5:0.09162)n2:0.17838)n1:0.42478)n0;

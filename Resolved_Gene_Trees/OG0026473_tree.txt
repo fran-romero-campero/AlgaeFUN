@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv02032:0.462005,(saccharina_japonica_SJ18131:0.60599,(cryptophyceae_CCMP2293_Crypto2293_1_1794834:0.69309,guillardia_tetha_Guith1_100490:0.18628)n2:1.07508)n1:0.462005)n0;

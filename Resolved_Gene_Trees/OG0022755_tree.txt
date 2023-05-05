@@ -1,1 +1,1 @@
-((anthoceros_agrestis_AagrOXF_utg000014l.92:0.590202,(solanum_lycopersicum_Solyc07g039347:0.775849,solanum_lycopersicum_Solyc07g039343:1.04401)n2:0.116001)n1:0.035064,physcomitrium_patens_Pp3c2_27230:0.797975)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1754672:0.03276,(cryptophyceae_CCMP2293_Crypto2293_1_1757310:0.00055,(cryptophyceae_CCMP2293_Crypto2293_1_1756990:0.00055,(cryptophyceae_CCMP2293_Crypto2293_1_1753822:0.57892,cryptophyceae_CCMP2293_Crypto2293_1_1755092:0.69903)n3:0.34332)n2:0.01772)n1:0.03276)n0;

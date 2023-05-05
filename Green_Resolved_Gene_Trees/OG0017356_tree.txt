@@ -1,0 +1,1 @@
+((physcomitrium_patens_Pp3s30_80:1.08727,(chlorokybus_atmophyticus_Chlat1_8200:0.13857,chlorokybus_atmophyticus_Chlat1_3909:0.132597)n2:0.014733)n1:0.059055,((mesotaenium_endlicherianum_ME000061S08780:0.114,mesotaenium_endlicherianum_ME000090S10157:0.1647)n4:0.27436,(klebsormidium_nitens_kfl00130_0060:0.20076,klebsormidium_nitens_kfl00130_0070:0.10318)n5:0.23334)n3:0.16529)n0;

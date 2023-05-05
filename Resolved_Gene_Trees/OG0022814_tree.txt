@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000091l.264:0.731466,(ceratopteris_richardii_Ceric.19G051600:2.68248e-06,(salvinia_cucullata_Sacu_v1.1_s0057.g014767:0.4276,azolla_filiculoides_Azfi_s0069.g036648:0.212119)n2:0.824033)n1:0.731466)n0;
+((cyanophora_paradoxa_Cyapar1_g18238:0.90126,cyanophora_paradoxa_Cyapar1_g24027:0.49663)n1:0.112395,(guillardia_tetha_Guith1_134110:0.44607,(cryptophyceae_CCMP2293_Crypto2293_1_1785374:0.41808,cryptophyceae_CCMP2293_Crypto2293_1_1871550:0.49977)n3:0.05553)n2:0.27231)n0;

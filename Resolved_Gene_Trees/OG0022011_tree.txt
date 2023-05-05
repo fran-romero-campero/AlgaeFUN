@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3B_6589A8C2E:0.41154,((triticum_aestivum_Traes_5BL_82FB07DFB:0.116675,triticum_aestivum_Traes_3B_7527766FC:0.139652)n2:0.113257,(triticum_aestivum_Traes_6DL_DB3311120:0.327885,triticum_aestivum_Traes_3DL_0B68884B9:0.196738)n3:0.090288)n1:0.41154)n0;
+(phaeodactylum_tricornutum_Phatr2_43434:0.35392,(bathycoccus_prasinos_Bathy62g00050:1.89369,(galdieria_sulphuraria_GsulpSAG21_G4613:0.5073,(chlorokybus_atmophyticus_Chlat1_6467:1.02088,chlorokybus_atmophyticus_Chlat1_8261:0.447876)n3:0.049764)n2:0.29128)n1:0.1148)n0;

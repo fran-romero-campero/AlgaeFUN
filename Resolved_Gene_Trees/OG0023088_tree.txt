@@ -1,1 +1,1 @@
-((nannochloropsis_gaditana_Nangad1_6050:0.67584,phaeodactylum_tricornutum_Phatr2_46172:0.725246)n1:0.12638,(micromonas_pusilla_Micpu_27338795:0.260413,bathycoccus_prasinos_Bathy05g02470:0.225998)n2:0.12638)n0;
+(cyanophora_paradoxa_Cyapar1_g593:0.05573,(cyanophora_paradoxa_Cyapar1_g605:0.3625,(cyanophora_paradoxa_Cyapar1_g595:0.00055,(cyanophora_paradoxa_Cyapar1_g596:0.05661,cyanophora_paradoxa_Cyapar1_g604:0.00815)n3:0.77555)n2:0.31164)n1:0.05573)n0;

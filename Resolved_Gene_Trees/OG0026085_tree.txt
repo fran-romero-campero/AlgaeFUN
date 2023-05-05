@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3DS_46BB0BCEE:0.000539,((triticum_aestivum_Traes_3DS_C8DBEEB81:0.006079,triticum_aestivum_Traes_3DS_8863F850A:0.052646)n2:0.355415,triticum_aestivum_Traes_3DS_5444ADA18:0.407824)n1:0.000539)n0;
+(chlorokybus_atmophyticus_Chlat1_7072:0.150625,(gracilariopsis_chorda_PXF48261:0.46215,(cyanidioschyzon_merolae_XM_005534984:0.57534,galdieria_sulphuraria_GsulpSAG21_G5368:0.34297)n2:0.17591)n1:0.150625)n0;

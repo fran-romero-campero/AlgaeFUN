@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_8111:1.16583,(chlamydomonas_reinhardtii_Cre02.g106700:3.44488e-06,(volvox_carteri_Vocar.0052s0020:0.894269,(volvox_carteri_Vocar.0052s0019:0.684219,volvox_carteri_Vocar.0004s0169:0.671336)n3:0.0671336)n2:0.00745929)n1:0.147592)n0;
+(gracilariopsis_chorda_PXF43400:0.0396,(gracilariopsis_chorda_PXF44947:0.17111,(gracilariopsis_chorda_PXF42117:0.10361,(gracilariopsis_chorda_PXF46695:0.29533,(gracilariopsis_chorda_PXF43243:0.04083,gracilariopsis_chorda_PXF46216:0.11537)n4:0.03897)n3:0.03691)n2:0.0331)n1:0.0396)n0;

@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM022_0196:0.749805,(klebsormidium_nitens_kfl00676_0020:0.03027,(klebsormidium_nitens_kfl00676_0040:0.26435,(klebsormidium_nitens_kfl00491_0020:0.08321,klebsormidium_nitens_kfl00676_0045:0.20486)n3:0.00856)n2:0.03145)n1:0.749805)n0;

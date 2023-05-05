@@ -1,1 +1,1 @@
-((salvinia_cucullata_Sacu_v1.1_s0023.g008889:0.778881,salvinia_cucullata_Sacu_v1.1_s0253.g026795:0.039988)n1:0.587017,(azolla_filiculoides_Azfi_s2025.g108717:0.160383,azolla_filiculoides_Azfi_s0098.g043941:0.076934)n2:0.587017)n0;
+(guillardia_tetha_Guith1_111123:0.597505,(marchantia_polymorpha_Mp8g03870:1.06257,(galdieria_sulphuraria_GsulpSAG21_G3906:0.81362,(cyanophora_paradoxa_Cyapar1_g10583:0.01265,cyanophora_paradoxa_Cyapar1_g10588:0.00054)n3:0.63572)n2:0.30322)n1:0.597505)n0;

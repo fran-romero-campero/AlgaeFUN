@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_4DL_75F01F0D8:0.000295,(aegilops_tauschii_AET4Gv20543000:5.6545e-08,(aegilops_tauschii_AET7Gv20714200:0.032163,aegilops_tauschii_AET5Gv20328900:0.010168)n2:0.013628)n1:0.000295)n0;
+(chara_braunii_Chabra1_g30454:0.034625,((chara_braunii_Chabra1_g4259:0.08948,chara_braunii_Chabra1_g40125:0.06445)n2:0.01179,(chara_braunii_Chabra1_g40272:0.04305,chara_braunii_Chabra1_g41595:0.04117)n3:0.00054)n1:0.034625)n0;

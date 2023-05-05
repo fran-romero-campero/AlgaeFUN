@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_Chlat1_7670:0.522079,((bathycoccus_prasinos_Bathy01g00130:0.354496,ostreococcus_tauri_ostta01g00070:0.266835)n2:0.040114,micromonas_pusilla_Micpu_27343221:0.36757)n1:0.522079)n0;
+(cyanophora_paradoxa_Cyapar1_g4237:0.00027,(cyanophora_paradoxa_Cyapar1_g4369:0.77669,(cyanophora_paradoxa_Cyapar1_g15857:0.04079,(cyanophora_paradoxa_Cyapar1_g15855:0.06305,cyanophora_paradoxa_Cyapar1_g15856:0.47327)n3:0.16535)n2:0.83765)n1:0.00027)n0;

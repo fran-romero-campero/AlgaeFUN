@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_ME000022S03616:0.7603,(spirogloea_muscicola_SM000382S14597:1.67998e-06,(spirogloea_muscicola_SM000003S11158:1.67998e-06,spirogloea_muscicola_SM000172S03087:0.170495)n2:0.049013)n1:0.7603)n0;
+(solanum_lycopersicum_Solyc05g052550:0.334635,(aegilops_tauschii_AET1Gv20176300:0.00055,(triticum_aestivum_Traes_1AS_539B5E5F2:0.00054,triticum_aestivum_Traes_1DS_69AD03EFF:0.000495)n2:5.5e-05)n1:0.02293)n0;

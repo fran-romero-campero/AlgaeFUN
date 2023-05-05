@@ -1,0 +1,1 @@
+((chromochloris_zofingiensis_Cz01g44130:0.69446,scenedesmus_obliquus_SZX60371:0.49101)n1:0.1326,(klebsormidium_nitens_kfl00573_0080:0.94798,(chlorokybus_atmophyticus_Chlat1_7758:0.44219,(chlorokybus_atmophyticus_Chlat1_3444:0.75674,(chlorokybus_atmophyticus_Chlat1_4129:1.19038,chlorokybus_atmophyticus_Chlat1_4131:0.11049)n5:0.08544)n4:0.21196)n3:0.47857)n2:0.1326)n0;

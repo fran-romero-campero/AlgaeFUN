@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_408940:0.0011785,(((selaginella_moellendorffii_Selmo_430406:4.78554e-07,selaginella_moellendorffii_Selmo_430410:0.009579)n3:0.140408,selaginella_moellendorffii_Selmo_116233:0.300955)n2:0.02586,selaginella_moellendorffii_Selmo_405479:6.5e-05)n1:0.0011785)n0;
+(nannochloropsis_gaditana_Nangad1_10510:0.33632,(aegilops_tauschii_AET5Gv20572400:0.3415,(cycas_panzhihuaensis_CYCAS_004214:0.01721,(cycas_panzhihuaensis_CYCAS_009800:0.20579,cycas_panzhihuaensis_CYCAS_025891:0.10855)n3:0.01102)n2:0.18029)n1:0.33632)n0;

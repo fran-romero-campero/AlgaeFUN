@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv07197:0.245005,(saccharina_japonica_SJ07588:0.83288,(nannochloropsis_gaditana_Nangad1_10770:1.031,nannochloropsis_gaditana_Nangad1_10769:0.773757)n2:0.085973)n1:0.19062)n0;

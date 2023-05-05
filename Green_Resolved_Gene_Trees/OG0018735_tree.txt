@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre17.g704700:0.651505,(ceratodon_purpureus_CepurR40.4G251900:0.56298,(klebsormidium_nitens_kfl00046_0045:0.86119,(klebsormidium_nitens_kfl00046_0040:0.7039,(klebsormidium_nitens_kfl00022_0330:0.27139,klebsormidium_nitens_kfl00052_0290:0.40197)n4:0.01069)n3:0.16067)n2:0.36861)n1:0.651505)n0;

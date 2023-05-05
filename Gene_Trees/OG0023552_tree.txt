@@ -1,0 +1,1 @@
+((raphidocelis_subcapitata_Rsub_07659:0.61078,scenedesmus_obliquus_SZX77047:0.92718)0.993:0.328755,(mesotaenium_endlicherianum_ME000324S05310:0.31743,(mesotaenium_endlicherianum_ME000129S00313:0.49407,spirogloea_muscicola_SM000280S10716:0.67)0.867:0.24963)0.993:0.328755);

@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3DS_19605A072:0.153835,(triticum_aestivum_Traes_3DS_363E689D6:0.256267,(triticum_aestivum_Traes_3B_A65239443:0.245315,triticum_aestivum_Traes_3DS_EBFAC289F:0.185384)n2:0.177719)n1:0.153835)n0;
+(guillardia_tetha_Guith1_116409:0.58176,(dunaliella_salina_Dusal.0657s00004:0.78887,(chlamydomonas_reinhardtii_Cre10.g464600:0.26197,volvox_carteri_Vocar.0029s0073:0.2309)n2:0.19676)n1:0.58176)n0;

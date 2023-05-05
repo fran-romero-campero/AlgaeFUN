@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv09141:0.160335,(physcomitrium_patens_Pp3s30_980:0.84526,(mesotaenium_endlicherianum_ME000095S10271:0.24603,spirogloea_muscicola_SM000025S08424:0.25374)n2:0.15944)n1:0.160335)n0;

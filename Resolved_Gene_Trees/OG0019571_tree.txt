@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET3Gv20392500:0.137384,(oryza_sativa_LOC_Os01g14850.1:0.478609,(sorghum_bicolor_Sobic.003G113500:0.275102,(zea_mays_Zm00001d040260:0.241175,zea_mays_Zm00001d008359:0.213123)n3:0.0236803)n2:0.026533)n1:0.137384)n0;
+((guillardia_tetha_Guith1_133385:0.6911,(cryptophyceae_CCMP2293_Crypto2293_1_1752587:0.69228,cryptophyceae_CCMP2293_Crypto2293_1_1884929:0.386082)n2:0.042898)n1:0.15788,(bathycoccus_prasinos_Bathy25g00150:0.87134,(cyanophora_paradoxa_Cyapar1_g10286:0.4491,cyanophora_paradoxa_Cyapar1_g21719:0.481536)n4:0.053504)n3:0.42091)n0;

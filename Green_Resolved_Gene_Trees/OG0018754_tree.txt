@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0021s00028:0.84176,sorghum_bicolor_Sobic.010G153466:0.11375)n1:0.320905,(haematococcus_lacustris_GFH21042:0.41281,(chara_braunii_Chabra1_g40169:0.32677,(ceratopteris_richardii_Ceric.31G016900:0.00055,ceratopteris_richardii_Ceric.04G099300:0.00566)n4:0.23284)n3:0.0218)n2:0.320905)n0;

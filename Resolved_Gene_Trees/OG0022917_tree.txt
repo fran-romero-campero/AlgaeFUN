@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0037.g025988:0.317066,(arabidopsis_thaliana_AT5G39715:0.969824,(triticum_aestivum_Traes_2DL_0F29AFB4F:0.405518,triticum_aestivum_Traes_7BL_71FFD7DB2:0.0319149)n2:0.0035461)n1:0.123665)n0;
+((mesostigma_viridae_Mv06838:1.30259,(cyanophora_paradoxa_Cyapar1_g7427:0.05016,cyanophora_paradoxa_Cyapar1_g7435:0.0198)n2:0.39495)n1:0.235975,(cryptophyceae_CCMP2293_Crypto2293_1_1966241:0.07465,guillardia_tetha_Guith1_119707:0.07733)n3:0.235975)n0;

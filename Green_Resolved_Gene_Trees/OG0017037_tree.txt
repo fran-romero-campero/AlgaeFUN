@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.1Z067800:0.89733,mesotaenium_endlicherianum_ME000408S06883:0.25446)n1:0.216935,((haematococcus_lacustris_GFH08067:0.02502,haematococcus_lacustris_GFH09354:0.03706)n3:0.56013,(scenedesmus_obliquus_SZX68991:0.69056,(chlamydomonas_reinhardtii_Cre06.g266383:0.36193,volvox_carteri_Vocar.0002s0212:0.4332)n5:0.42767)n4:0.17027)n2:0.216935)n0;

@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH17007:0.30642,raphidocelis_subcapitata_Rsub_08726:0.4042)n1:0.145265,(physcomitrium_patens_Pp3c6_6540:0.4812,(triticum_aestivum_Traes_1DL_D934ABFC8:0.08361,triticum_aestivum_Traes_1AL_123EE6854:0.08733)n3:0.09193)n2:0.145265)n0;

@@ -1,1 +1,1 @@
-(((phaeodactylum_tricornutum_Phatr2_48278:0.010198,phaeodactylum_tricornutum_Phatr2_48286:4.58845e-06)n2:0.988434,nannochloropsis_gaditana_Nangad1_10414:0.626557)n1:0.318277,(marchantia_polymorpha_Mp8g01700:1.26865,cyanophora_paradoxa_Cyapar1_g16114:1.06085)n3:0.318277)n0;
+(porphyra_umbilicalis_Pum0272s0001:0.408635,((porphyra_umbilicalis_Pum0368s0009:0.74335,(porphyra_umbilicalis_Pum1013s0001:0.04631,porphyra_umbilicalis_Pum0014s0069:0.19482)n3:0.30792)n2:0.23364,(porphyra_umbilicalis_Pum0150s0002:0.60755,porphyra_umbilicalis_Pum0118s0002:0.59671)n4:0.36381)n1:0.408635)n0;

@@ -1,0 +1,1 @@
+((oryza_sativa_LOC_Os04g52780.1:0.18064,zea_mays_Zm00001d002287:0.21433)n1:0.34937,(solanum_lycopersicum_Solyc02g070890:0.05941,solanum_lycopersicum_Solyc02g070910:0.13194)n2:0.34937)n0;

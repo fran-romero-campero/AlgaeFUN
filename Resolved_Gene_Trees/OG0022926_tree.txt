@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.24G055600:0.349685,(azolla_filiculoides_Azfi_s0002.g001303:1.10451,(salvinia_cucullata_Sacu_v1.1_s0006.g002985:0.458093,salvinia_cucullata_Sacu_v1.1_s0080.g017880:3.35478e-06)n2:3.35478e-06)n1:1.84147)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_2182519:0.27961,guillardia_tetha_Guith1_155701:0.58085)n1:0.465895,(saccharina_japonica_SJ05662:0.23152,(saccharina_japonica_SJ06314:1.21245,saccharina_japonica_SJ05663:0.00055)n3:0.20291)n2:0.465895)n0;

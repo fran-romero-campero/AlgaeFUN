@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00183_0230:0.22523,((klebsormidium_nitens_kfl00183_0225:0.245291,klebsormidium_nitens_kfl00183_0235:0.39464)n2:0.058597,klebsormidium_nitens_kfl00183_0220:0.190958)n1:0.22523)n0;
+((triticum_aestivum_Traes_3DL_8D15D0EF8:0.29838,triticum_aestivum_Traes_3AL_C777CC194:0.0921)n1:0.118915,(aegilops_tauschii_AET3Gv21019200:0.00055,aegilops_tauschii_AET3Gv21019000:0.69317)n2:0.118915)n0;

@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv25778:0.69948,micromonas_pusilla_Micpu_27342656:1.10997)n1:0.056875,(klebsormidium_nitens_kfl00214_0170:1.24099,(ulva_mutabilis_UM014_0096:0.957,(chromochloris_zofingiensis_Cz10g28020:0.67744,(chlamydomonas_reinhardtii_Cre06.g301951:0.46138,volvox_carteri_Vocar.0013s0284:0.4619)n5:0.27127)n4:0.14011)n3:0.15671)n2:0.056875)n0;

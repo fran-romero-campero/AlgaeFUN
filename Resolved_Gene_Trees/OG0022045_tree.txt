@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM193_0004:0.431113,(((ulva_mutabilis_UM028_0143:0.609686,ulva_mutabilis_UM128_0001:0.639469)n3:0.519182,ulva_mutabilis_UM009_0159:1.1143)n2:0.05389,ulva_mutabilis_UM048_0069:1.18563)n1:0.431113)n0;
+((ceratodon_purpureus_CepurR40.2G079400:0.16637,physcomitrium_patens_Pp3c14_15830:0.38718)n1:0.309135,(sphagnum_magellanicum_Sphmag13G125200:0.12497,(sphagnum_magellanicum_Sphmag14G088200:0.15984,sphagnum_magellanicum_Sphmag18G001800:0.21331)n3:0.01789)n2:0.309135)n0;

@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00073_0260:0.248574,(volvox_carteri_Vocar.0022s0096:0.432948,(chlamydomonas_reinhardtii_Cre02.g084200:0.113099,chlamydomonas_reinhardtii_Cre02.g084100:0.0839826)n2:0.0093314)n1:0.308822)n0;
+(phaeodactylum_tricornutum_Phatr2_44051:0.43691,((phaeodactylum_tricornutum_Phatr2_49291:0.68849,phaeodactylum_tricornutum_Phatr2_47698:0.70755)n2:0.14237,(phaeodactylum_tricornutum_Phatr2_47382:0.89415,phaeodactylum_tricornutum_Phatr2_45677:0.62165)n3:0.34804)n1:0.43691)n0;

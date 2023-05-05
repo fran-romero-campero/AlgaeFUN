@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_113943:0.13562,(selaginella_moellendorffii_Selmo_12792:1.24582e-06,(selaginella_moellendorffii_Selmo_35644:0.135289,selaginella_moellendorffii_Selmo_445219:0.19955)n2:0.646422)n1:0.13562)n0;
+(guillardia_tetha_Guith1_102145:0.627315,(micromonas_pusilla_Micpu_27343135:0.52478,(bathycoccus_prasinos_Bathy06g02220:0.28025,ostreococcus_tauri_ostta03g00860:0.37635)n2:0.11445)n1:0.627315)n0;

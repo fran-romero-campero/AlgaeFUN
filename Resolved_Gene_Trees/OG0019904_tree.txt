@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0045.g029852:0.56643,(salvinia_cucullata_Sacu_v1.1_s0020.g008010:0.859187,(salvinia_cucullata_Sacu_v1.1_s0020.g008012:1.20425,(salvinia_cucullata_Sacu_v1.1_s0020.g008011:0.808464,salvinia_cucullata_Sacu_v1.1_s0115.g020959:4.36842e-06)n3:0.360592)n2:0.104653)n1:0.56643)n0;
+(saccharina_japonica_SJ07723:0.5395,(chlamydomonas_reinhardtii_Cre09.g399551:0.6647,(mesostigma_viridae_Mv13905:1.10317,(volvox_carteri_Vocar.0008s0266:0.3355,(volvox_carteri_Vocar.0002s0574:0.00055,volvox_carteri_Vocar.0002s0577:0.001)n4:0.66996)n3:0.2181)n2:0.31966)n1:0.5395)n0;

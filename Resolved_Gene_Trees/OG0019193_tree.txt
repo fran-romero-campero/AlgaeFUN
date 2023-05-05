@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM108_0017:0.408261,(ulva_mutabilis_UM027_0073:0.837582,(ulva_mutabilis_UM123_0007:0.637941,(ulva_mutabilis_UM123_0011:0.542585,(ulva_mutabilis_UM123_0009:0.84739,ulva_mutabilis_UM123_0010:0.19709)n4:0.066925)n3:0.040725)n2:0.043491)n1:0.408261)n0;
+(arabidopsis_thaliana_AT5G66500:0.566265,(aegilops_tauschii_AET3Gv20722300:0.00055,(triticum_aestivum_Traes_3AL_33D02EE93:0.01587,(triticum_aestivum_Traes_3B_FCDF85200:0.02464,(triticum_aestivum_Traes_3DL_56137013E1:0,triticum_aestivum_Traes_3DL_56137013E:0)n4:0.000495)n3:4.95e-05)n2:5.5e-06)n1:0.02194)n0;

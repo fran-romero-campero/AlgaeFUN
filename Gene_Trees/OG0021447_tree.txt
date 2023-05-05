@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_3DS_5444ADA18:0.201704,((triticum_aestivum_proteome_first_transcript_Traes_3DS_C8DBEEB81:8.04129e-07,triticum_aestivum_proteome_first_transcript_Traes_3DS_8863F850A:0.071561):0.336501,triticum_aestivum_proteome_first_transcript_Traes_3DS_46BB0BCEE:0.005494):0.201704);
+(cyanophora_paradoxa_Cyapar1_g840:0.46493,(triticum_aestivum_Traes_2DL_CF69A4E98:0.00055,(triticum_aestivum_Traes_4BS_F289F9B33:0.08742,(aegilops_tauschii_AET4Gv20321100:0.09428,triticum_aestivum_Traes_1BS_B114ECDEE:0.14707)0.825:0.0563)0.913:0.0576)1:0.46493);

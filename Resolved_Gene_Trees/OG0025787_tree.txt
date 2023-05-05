@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_1BL_A2880B55B:0.141069,((thuja_plicata_Thupl.28920843s0001:0.664519,thuja_plicata_Thupl.28750271s0001:0.087791)n2:0.601617,thuja_plicata_Thupl.29378216s0003:0.998445)n1:0.141069)n0;
+((chara_braunii_Chabra1_g19865:0.78002,chlorokybus_atmophyticus_Chlat1_3357:0.80921)n1:0.30014,(cryptophyceae_CCMP2293_Crypto2293_1_1947349:0.46693,guillardia_tetha_Guith1_132590:1.23837)n2:0.30014)n0;

@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH21358:0.79439,scenedesmus_obliquus_SZX73427:0.52056)n1:0.08244,(chlorokybus_atmophyticus_Chlat1_6456:1.13685,(mesostigma_viridae_Mv09899:0.38106,(anthoceros_agrestis_AagrOXF_utg000118l.98:0.12264,anthoceros_agrestis_AagrOXF_utg000118l.95:0.00756)n4:0.41922)n3:0.29836)n2:0.08244)n0;

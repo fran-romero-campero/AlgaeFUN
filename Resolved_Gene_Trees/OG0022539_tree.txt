@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET2Gv20127700:0.15098,(triticum_aestivum_Traes_2DS_3F5D36630:4.42317e-07,(triticum_aestivum_Traes_2AS_CD74215DB:0.045908,triticum_aestivum_Traes_2BS_2A12B5E70:0.056936)n2:0.043956)n1:0.15098)n0;
+((guillardia_tetha_Guith1_115891:0.88242,mesostigma_viridae_Mv06235:0.45236)n1:0.03342,(cryptophyceae_CCMP2293_Crypto2293_1_1766252:0.72845,(chlamydomonas_reinhardtii_Cre12.g553500:0.19002,volvox_carteri_Vocar.0007s0347:0.27596)n3:0.4762)n2:0.03342)n0;

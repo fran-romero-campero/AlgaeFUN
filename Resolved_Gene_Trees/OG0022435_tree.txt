@@ -1,1 +1,1 @@
-(sorghum_bicolor_Sobic.008G023100:0.615279,(triticum_aestivum_Traes_6DL_6CE682354:1.24796,(aegilops_tauschii_AET6Gv20593800:0.696013,aegilops_tauschii_AET6Gv20960200:0.852401)n2:0.0947112)n1:0.273907)n0;
+(phaeodactylum_tricornutum_Phatr2_44454:0.376605,((chlamydomonas_reinhardtii_Cre13.g575750:0.34699,volvox_carteri_Vocar.0001s0223:0.28478)n2:0.32783,(chromochloris_zofingiensis_Cz10g25230:0.43099,scenedesmus_obliquus_SZX78050:0.35544)n3:0.20272)n1:0.376605)n0;

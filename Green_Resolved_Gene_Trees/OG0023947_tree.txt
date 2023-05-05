@@ -1,0 +1,1 @@
+((ceratopteris_richardii_Ceric.31G039200:0.49643,selaginella_moellendorffii_Selmo_405891:0.40885)n1:0.262965,(marchantia_polymorpha_Mp1g23140:0.02262,marchantia_polymorpha_Mp1g23170:0.00055)n2:0.262965)n0;

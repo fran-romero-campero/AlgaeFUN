@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv09133:0.334095,(coccomyxa_subellipsoidea_Cosub3_659533:0.43607,((dunaliella_salina_Dusal.0369s00017:0.66233,haematococcus_lacustris_GFH20735:0.43289)n3:0.25916,(raphidocelis_subcapitata_Rsub_01806:0.34595,(scenedesmus_obliquus_SZX67364:0.43017,chromochloris_zofingiensis_Cz05g35030:0.29952)n5:0.08214)n4:0.39146)n2:0.26347)n1:0.334095)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ10480:0.45283,(gracilariopsis_chorda_PXF46270:0.71408,(ostreococcus_tauri_ostta19g00470:0.13984,ostreococcus_tauri_ostta07g01920:0.06916)n2:0.99325)n1:0.45283)n0;

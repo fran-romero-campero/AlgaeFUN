@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv03618:0.74365,(klebsormidium_nitens_kfl00781_0020:0.28642,(klebsormidium_nitens_kfl00088_g15:0.18447,klebsormidium_nitens_kfl00700_0010:0.20283)n2:0.19481)n1:0.74365)n0;

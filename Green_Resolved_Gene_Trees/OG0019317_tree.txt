@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0157s00009:0.59667,mesostigma_viridae_Mv12689:0.29406)n1:0.136175,(dunaliella_salina_Dusal.0157s00008:0.80634,(mesostigma_viridae_Mv18912:0.50218,(mesostigma_viridae_Mv21628:0.23041,mesostigma_viridae_Mv17064:0.1681)n4:0.37442)n3:0.13602)n2:0.136175)n0;

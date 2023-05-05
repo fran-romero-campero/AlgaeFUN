@@ -1,1 +1,1 @@
-(((sphangum_magellanicum_Sphmag02G200100:0.036719,sphangum_magellanicum_Sphmag02G200400:0.036511)n2:0.470791,sphangum_magellanicum_Sphmag07G091700:0.362532)n1:0.244253,(ceratodon_purpureus_CepurR40.1G213200:0.283381,physcomitrium_patens_Pp3c10_14700:0.174502)n3:0.244253)n0;
+(mesostigma_viridae_Mv02772:0.45237,((chromochloris_zofingiensis_Cz06g16200:0.42708,raphidocelis_subcapitata_Rsub_03183:0.50486)n2:0.07531,(scenedesmus_obliquus_SZX62714:0.93921,(scenedesmus_obliquus_SZX78317:0.07449,scenedesmus_obliquus_SZX61378:0.0047)n4:0.410166)n3:0.045574)n1:0.67992)n0;

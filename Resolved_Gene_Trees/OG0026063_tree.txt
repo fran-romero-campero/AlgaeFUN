@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_5AL_B5E8BD8BD:0.093981,(triticum_aestivum_Traes_6AL_05911416F:0.405283,(triticum_aestivum_Traes_7BL_E1031D3E0:0.202118,triticum_aestivum_Traes_7AL_AA86F8235:0.250983)n2:0.478509)n1:0.093981)n0;
+(cyanophora_paradoxa_Cyapar1_g2577:0.37745,(micromonas_pusilla_Micpu_27340560:0.58742,(chlorokybus_atmophyticus_Chlat1_3877:0.52568,mesostigma_viridae_Mv00600:0.6673)n2:0.24484)n1:0.37745)n0;

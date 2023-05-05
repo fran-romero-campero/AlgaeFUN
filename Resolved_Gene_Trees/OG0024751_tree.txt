@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_7444:0.23081,((nannochloropsis_gaditana_Nangad1_1181:1.11711,nannochloropsis_gaditana_Nangad1_8036:0.769531)n2:0.37294,nannochloropsis_gaditana_Nangad1_8035:0.498087)n1:0.23081)n0;
+(aegilops_tauschii_AET1Gv20149000:0.056265,(triticum_aestivum_Traes_1DS_CFAF16373:0.0066,(triticum_aestivum_Traes_1BS_7F2A760AE:0.0359,triticum_aestivum_Traes_1AS_82832A179:0.0284)n2:0.02216)n1:0.056265)n0;

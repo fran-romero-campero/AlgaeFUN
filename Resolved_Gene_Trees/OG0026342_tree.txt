@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv22112:0.47584,(cryptophyceae_CCMP2293_Crypto2293_1_3526197:0.97165,(cryptophyceae_CCMP2293_Crypto2293_1_1631947:0.15635,cryptophyceae_CCMP2293_Crypto2293_1_1631981:0.05628)n2:0.30323)n1:0.47584)n0;

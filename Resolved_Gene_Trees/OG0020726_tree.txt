@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_Chlat1_5310:0.571697,((klebsormidium_nitens_kfl00035_0300:0.700992,(klebsormidium_nitens_kfl00048_0420:0.339214,klebsormidium_nitens_kfl00035_0320:0.278203)n3:0.37006)n2:0.293451,klebsormidium_nitens_kfl00340_0130:1.42415)n1:0.571697)n0;
+((phaeodactylum_tricornutum_Phatr2_50038:1.08709,phaeodactylum_tricornutum_Phatr2_50039:0.20447)n1:0.285915,(nannochloropsis_gaditana_Nangad1_3427:0.72073,(saccharina_japonica_SJ10477:0.95669,(saccharina_japonica_SJ09717:0.82366,saccharina_japonica_SJ09360:0.80118)n4:0.080118)n3:0.008902)n2:0.24306)n0;

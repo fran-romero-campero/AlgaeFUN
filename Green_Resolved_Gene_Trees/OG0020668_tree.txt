@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH13175:0.62714,((spirogloea_muscicola_SM000054S18031:0.34966,triticum_aestivum_Traes_5AL_CFC483466:0.22925)n2:0.1198,(azolla_filiculoides_Azfi_s0095.g043584:0.22859,cycas_panzhihuaensis_CYCAS_017909:0.65495)n3:0.00818)n1:0.62714)n0;

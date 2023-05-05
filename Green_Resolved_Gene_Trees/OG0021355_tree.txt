@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_7006:0.359935,(spirogloea_muscicola_SM000294S10825:0.50085,((oryza_sativa_LOC_Os07g03328.1:0,oryza_sativa_LOC_Os07g03418.1:0)n3:0.4516,triticum_aestivum_Traes_2AL_37DC69E9B:0.22364)n2:0.30812)n1:0.359935)n0;

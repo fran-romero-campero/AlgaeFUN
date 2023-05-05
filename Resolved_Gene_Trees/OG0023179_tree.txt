@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_43434:0.258273,(bathycoccus_prasinos_Bathy62g00050:1.50067,(chlorokybus_atmophyticus_Chlat1_8261:0.888584,chlorokybus_atmophyticus_Chlat1_6467:0.668583)n2:0.074287)n1:0.256804)n0;
+((cycas_panzhihuaensis_CYCAS_029334:0.85673,thuja_plicata_Thupl.29378275s0007:1.22871)n1:0.2666,(saccharina_japonica_SJ10090:0.66358,(nannochloropsis_gaditana_Nangad1_2466:1.06215,phaeodactylum_tricornutum_Phatr2_45785:1.17914)n3:0.18438)n2:0.2666)n0;

@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc05g012172:0.231694,(solanum_lycopersicum_Solyc05g012170:0.085845,(solanum_lycopersicum_Solyc05g012177:0.577379,solanum_lycopersicum_Solyc05g012173:0.627679)n2:0.177952)n1:0.231694)n0;
+(cyanophora_paradoxa_Cyapar1_g4695:0.398585,(bathycoccus_prasinos_Bathy76g00030:0.91517,(physcomitrium_patens_Pp3s30_360:0.79451,salvinia_cucullata_Sacu_v1.1_s2951.g028505:0.89621)n2:0.35332)n1:0.398585)n0;

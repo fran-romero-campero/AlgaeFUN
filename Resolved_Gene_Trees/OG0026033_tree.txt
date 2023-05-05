@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_1DL_B9B69B664:0.280069,((triticum_aestivum_Traes_3B_0D673DC45:0.212801,triticum_aestivum_Traes_7AL_C4BC365FA:0.252241)n2:0.018154,triticum_aestivum_Traes_7DL_28AF4D23A:0.196378)n1:0.280069)n0;
+(chlamydomonas_reinhardtii_Cre12.g488351:0.509625,(guillardia_tetha_Guith1_106016:0.7836,(cryptophyceae_CCMP2293_Crypto2293_1_1758417:0.01238,cryptophyceae_CCMP2293_Crypto2293_1_1861256:0.02812)n2:0.60056)n1:0.509625)n0;

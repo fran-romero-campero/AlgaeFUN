@@ -1,1 +1,1 @@
-(((volvox_carteri_Vocar.0009s0355:0.308094,chlamydomonas_reinhardtii_Cre11.g467702:0.053572)n2:0.415479,dunaliella_salina_Dusal.0187s00022:0.578863)n1:0.2227,(raphidocelis_subcapitata_Rsub_09856:0.527181,chromochloris_zofingiensis_Cz05g28070:2.20652e-06)n3:0.2227)n0;
+(phaeodactylum_tricornutum_Phatr2_31981:0.44026,(cyanidioschyzon_merolae_XM_005536714:0.79749,(galdieria_sulphuraria_GsulpSAG21_G4451:0.47961,(gracilariopsis_chorda_PXF47792:0.15336,(gracilariopsis_chorda_PXF42765:0.00823,gracilariopsis_chorda_PXF39999:0.02365)n4:0.2043)n3:0.68264)n2:0.18992)n1:0.44026)n0;

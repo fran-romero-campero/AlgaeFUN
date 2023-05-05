@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv20714:1.36892,(chlorokybus_atmophyticus_Chlat1_4606:0.63267,mesostigma_viridae_Mv12046:0.86995)0.73:0.1831)0.999:0.40693,(bathycoccus_prasinos_Bathy08g02330:0.64687,(ostreococcus_tauri_ostta08g01440:1.02955,micromonas_pusilla_Micpu_27341494:0.56131)0.172:0.08372)0.999:0.40693);

@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0072.g036978:0.027543,(azolla_filiculoides_Azfi_s0072.g036965:0.051416,(azolla_filiculoides_Azfi_s0072.g036971:1.18171,azolla_filiculoides_Azfi_s0072.g036980:0.84036)n2:0.512337)n1:0.027543)n0;
+(cyanophora_paradoxa_Cyapar1_g9973:0.000275,(cyanophora_paradoxa_Cyapar1_g18607:0.00055,(cyanophora_paradoxa_Cyapar1_g5681:0.05747,(cyanophora_paradoxa_Cyapar1_g9974:0.07539,cyanophora_paradoxa_Cyapar1_g15928:0.08667)n3:0.20237)n2:0.06387)n1:0.000275)n0;

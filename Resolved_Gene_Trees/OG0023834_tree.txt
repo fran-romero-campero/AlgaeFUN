@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_13319:0.28747,((chlamydomonas_reinhardtii_Cre10.g440400:1.21053e-06,volvox_carteri_Vocar.0001s1282:0.131185)n2:0.141635,dunaliella_salina_Dusal.0450s00003:0.382429)n1:0.28747)n0;
+(saccharina_japonica_SJ09624:0.05142,(saccharina_japonica_SJ09901:0.05817,(saccharina_japonica_SJ00113:0.05907,(saccharina_japonica_SJ11009:0.38778,saccharina_japonica_SJ19898:0.66592)n3:0.54367)n2:0.11678)n1:0.05142)n0;

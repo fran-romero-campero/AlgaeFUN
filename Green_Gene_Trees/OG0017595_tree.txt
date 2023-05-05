@@ -1,0 +1,1 @@
+(oryza_sativa_LOC_Os07g04570.1:0.62275,(mesotaenium_endlicherianum_ME000330S05493:1.58015,(spirogloea_muscicola_SM000199S05434:0.03643,((spirogloea_muscicola_SM000189S04085:0.00055,spirogloea_muscicola_SM000199S05437:0.10476)0.789:0.01248,(spirogloea_muscicola_SM000029S10549:0.03561,spirogloea_muscicola_SM000135S26999:0.14464)0.99:0.04998)0.833:0.12571)0.143:0.05673)1:0.62275);

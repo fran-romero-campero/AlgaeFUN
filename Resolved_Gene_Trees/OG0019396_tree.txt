@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET4Gv20193200:0.582924,(sorghum_bicolor_Sobic.006G178700:0.315087,(oryza_sativa_LOC_Os01g08010.1:0.177204,(oryza_sativa_LOC_Os01g09420.1:0.077005,oryza_sativa_LOC_Os01g09340.1:0.140399)n3:0.230823)n2:0.096394)n1:0.582924)n0;
+(guillardia_tetha_Guith1_69534:0.33752,(selaginella_moellendorffii_Selmo_4482:0.22255,((cyanophora_paradoxa_Cyapar1_g20909:0.00492,cyanophora_paradoxa_Cyapar1_g20913:0.00495)n3:0.3569,(anthoceros_agrestis_AagrOXF_utg000083l.245:0.97546,anthoceros_agrestis_AagrOXF_utg000109l.153:0.718902)n4:0.079878)n2:0.12209)n1:0.33752)n0;

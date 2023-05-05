@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre13.g605000:0.155925,(haematococcus_lacustris_GFH12113:0.63531,((haematococcus_lacustris_GFH14068:0.0602,haematococcus_lacustris_GFH14155:0.00055)n3:0.22003,(haematococcus_lacustris_GFH27342:0.02807,(haematococcus_lacustris_GFH21324:0.08243,haematococcus_lacustris_GFH30649:0.02688)n5:0.01546)n4:0.86809)n2:0.32191)n1:0.155925)n0;

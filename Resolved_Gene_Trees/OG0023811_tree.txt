@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_Cz18g10070:2.20308e-06,((chlamydomonas_reinhardtii_Cre01.g053360:2.20308e-06,volvox_carteri_Vocar.0001s0525:0.46316)n2:1.05306,dunaliella_salina_Dusal.0674s00003:0.875203)n1:2.20308e-06)n0;
+(porphyra_umbilicalis_Pum0258s0015:0.23008,(porphyra_umbilicalis_Pum0400s0009:0.66546,(porphyra_umbilicalis_Pum0400s0008:0.76652,(porphyra_umbilicalis_Pum1090s0005:0.65764,porphyra_umbilicalis_Pum2333s0001:0.90109)n3:0.16823)n2:0.15489)n1:0.23008)n0;

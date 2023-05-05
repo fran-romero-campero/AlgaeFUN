@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM028_0030:0.668041,((chlamydomonas_reinhardtii_Cre03.g145407:1.90548e-06,volvox_carteri_Vocar.0019s0023:0.414407)n2:0.407937,chromochloris_zofingiensis_Cz04g23170:1.90548e-06)n1:0.668041)n0;
+((sphagnum_magellanicum_Sphmag17G039300:0.73232,sphagnum_magellanicum_Sphmag06G124600:0.7743)n1:0.356845,(physcomitrium_patens_Pp3c5_28830:0.11208,(physcomitrium_patens_Pp3c25_15420:0.08975,physcomitrium_patens_Pp3c16_24050:0.09141)n3:0.14985)n2:0.356845)n0;

@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s4316.g118720:0.536139,(physcomitrium_patens_Pp3c18_1620:0.157035,(ceratodon_purpureus_CepurR40.2G116600:0.114745,ceratodon_purpureus_CepurR40.10G000200:0.163177)n2:0.644753)n1:0.536139)n0;
+(cyanophora_paradoxa_Cyapar1_g20182:0.11846,((cyanophora_paradoxa_Cyapar1_g15324:0.27523,cyanophora_paradoxa_Cyapar1_g15351:0.48356)n2:0.01594,(cyanophora_paradoxa_Cyapar1_g15346:0.78428,cyanophora_paradoxa_Cyapar1_g8101:0.87296)n3:0.24155)n1:0.11846)n0;

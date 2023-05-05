@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_4AL_10852CECB:0.0137,(triticum_aestivum_Traes_4AL_8CBA0ABA8:0.020741,(triticum_aestivum_Traes_5DL_B44C2699C:0.045986,(triticum_aestivum_Traes_2DL_0A005B853:1.50028e-07,triticum_aestivum_Traes_2AL_0C85E03E3:0.055998)n3:0.000435)n2:0.000331)n1:0.0137)n0;
+(ceratodon_purpureus_CepurR40.7G148400:0.22536,(ceratopteris_richardii_Ceric.24G011200:0.37003,(azolla_filiculoides_Azfi_s0059.g034652:0.21173,(triticum_aestivum_Traes_2DS_4CF5E0FA1:0.00056,zea_mays_Zm00001d032879:1.20148)n3:0.30253)n2:0.42599)n1:0.22536)n0;

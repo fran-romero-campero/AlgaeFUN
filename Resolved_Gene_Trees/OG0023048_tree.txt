@@ -1,1 +1,1 @@
-(ostreococcus_tauri_ostta16g02345:0.213218,((bathycoccus_prasinos_Bathy16g02010:0.709674,bathycoccus_prasinos_Bathy12g00850:0.714497)n2:0.032525,bathycoccus_prasinos_Bathy01g02730:0.428825)n1:0.213218)n0;
+(cyanophora_paradoxa_Cyapar1_g17300:0.000855,(cyanophora_paradoxa_Cyapar1_g17301:0.00055,(cyanophora_paradoxa_Cyapar1_g17299:0.36816,(cyanophora_paradoxa_Cyapar1_g17302:0.13548,cyanophora_paradoxa_Cyapar1_g17303:0.05471)n3:0.19653)n2:0.0521)n1:0.000855)n0;

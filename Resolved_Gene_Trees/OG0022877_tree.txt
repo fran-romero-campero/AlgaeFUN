@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT2G15180:0.419015,((arabidopsis_thaliana_AT3G43480:0.092711,arabidopsis_thaliana_AT2G15185:0.116295)n2:0.451963,arabidopsis_thaliana_AT3G43470:1.49496e-06)n1:0.419015)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1855835:0.68257,(dunaliella_salina_Dusal.2740s00001:0.13247,(spirogloea_muscicola_SM006805S21028:0.01853,(spirogloea_muscicola_SM006929S21013:0.02657,spirogloea_muscicola_SM008221S22590:0.02152)n3:0.01235)n2:0.70244)n1:0.68257)n0;

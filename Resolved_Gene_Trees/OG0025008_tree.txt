@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os12g27254.1:0.0378255,((oryza_sativa_LOC_Os12g27220.1:0.103789,oryza_sativa_LOC_Os12g27350.1:0.301312)n2:0.030838,oryza_sativa_LOC_Os12g27330.1:1.06818)n1:0.0378255)n0;
+(guillardia_tetha_Guith1_116947:0.41218,(anthoceros_agrestis_AagrOXF_utg000018l.183:0.68855,(triticum_aestivum_Traes_1AS_B1CA6B2B8:0.23561,triticum_aestivum_Traes_3AL_4F0E54437:0.370845)n2:0.041205)n1:0.14288)n0;

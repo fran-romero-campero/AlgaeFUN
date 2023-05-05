@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os05g24900.1:0.147538,(oryza_sativa_LOC_Os05g25860.1:0.403308,(oryza_sativa_LOC_Os02g39210.1:1.37348,oryza_sativa_LOC_Os05g43800.1:1.29681)n2:0.52521)n1:0.147538)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1985300:0.67839,guillardia_tetha_Guith1_155629:0.19205)n1:0.45103,(anthoceros_agrestis_AagrOXF_utg000003l.340:0.24705,thuja_plicata_Thupl.29377549s0002:1.02087)n2:0.45103)n0;

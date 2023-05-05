@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET5Gv20331000:0.721704,(oryza_sativa_LOC_Os12g06990.1:0.707125,(sorghum_bicolor_Sobic.008G050100:0.243198,(zea_mays_Zm00001d025682:0.877378,zea_mays_Zm00001d023531:0.226781)n3:0.0251979)n2:1.09015)n1:0.721704)n0;
+(guillardia_tetha_Guith1_151814:0.856855,((ceratodon_purpureus_CepurR40.N002600:0,ceratodon_purpureus_CepurR40.6G043900:0)n2:0.38676,(ceratodon_purpureus_CepurR40.10G173600:0.7346,(ceratodon_purpureus_CepurR40.10G107300:0.22774,ceratodon_purpureus_CepurR40.9G122900:0.23161)n4:0.64522)n3:0.03899)n1:0.856855)n0;

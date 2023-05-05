@@ -1,1 +1,1 @@
-((physcomitrium_patens_Pp3c14_960:0.846341,ceratodon_purpureus_CepurR40.8G146500:0.633179)n1:0.199678,(sphangum_magellanicum_Sphmag02G080700:0.016293,sphangum_magellanicum_Sphmag17G098700:1.89236e-06)n2:0.199678)n0;
+(guillardia_tetha_Guith1_85014:0.15693,(galdieria_sulphuraria_GsulpSAG21_G3277:1.07694,(dunaliella_salina_Dusal.0504s00003:0.05837,(haematococcus_lacustris_GFH18636:0.00055,haematococcus_lacustris_GFH27563:0.00466)n3:0.03406)n2:0.26255)n1:0.15693)n0;

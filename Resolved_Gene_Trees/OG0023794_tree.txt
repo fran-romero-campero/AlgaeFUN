@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_37253:0.625597,(dunaliella_salina_Dusal.0946s00001:1.25973,(chlamydomonas_reinhardtii_Cre03.g178400:3.62253e-06,volvox_carteri_Vocar.0015s0347:0.471948)n2:0.682233)n1:0.625597)n0;
+(porphyra_umbilicalis_Pum0324s0010:0.52551,(porphyra_umbilicalis_Pum0303s0021:0.45897,(porphyra_umbilicalis_Pum0540s0001:0.25875,(porphyra_umbilicalis_Pum0014s0015:0.045,porphyra_umbilicalis_Pum0591s0001:0.34473)n3:0.08728)n2:0.22387)n1:0.52551)n0;

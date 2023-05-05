@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc05g016260:0.463656,((triticum_aestivum_Traes_3AL_3E4E162EE:0.029517,triticum_aestivum_Traes_1BL_09E966560:0.725173)n2:0.083111,triticum_aestivum_Traes_3AL_4A93BA5FF:0.203529)n1:0.463656)n0;
+((bathycoccus_prasinos_Bathy25g00310:1.03622,cyanophora_paradoxa_Cyapar1_g12137:0.61234)n1:0.174315,(cryptophyceae_CCMP2293_Crypto2293_1_1908808:0.86454,guillardia_tetha_Guith1_107601:0.67329)n2:0.174315)n0;

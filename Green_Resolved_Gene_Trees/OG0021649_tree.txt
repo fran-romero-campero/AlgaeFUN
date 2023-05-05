@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX64287:0.60979,((haematococcus_lacustris_GFH06367:0.00054,haematococcus_lacustris_GFH07789:0.00055)n2:0.20929,(haematococcus_lacustris_GFH18084:0.00054,haematococcus_lacustris_GFH33197:0.01356)n3:0.22126)n1:0.60979)n0;

@@ -1,0 +1,1 @@
+(((haematococcus_lacustris_GFH11819:0.00054,haematococcus_lacustris_GFH25703:0.00055)n2:0.26774,(chara_braunii_Chabra1_g51641:0.25891,chlorokybus_atmophyticus_Chlat1_1726:0.6204)n3:0.11256)n1:0.09868,(chara_braunii_Chabra1_g31001:0.50996,haematococcus_lacustris_GFH11506:0.25255)n4:0.09868)n0;

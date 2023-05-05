@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29101419s0001:0.509091,(azolla_filiculoides_Azfi_s0073.g037150:0.498959,(salvinia_cucullata_Sacu_v1.1_s0150.g023332:0.512974,salvinia_cucullata_Sacu_v1.1_s0017.g007116:0.443845)n2:0.0493161)n1:0.32097)n0;
+(cyanophora_paradoxa_Cyapar1_g10163:0.28863,(haematococcus_lacustris_GFH27525:0.65025,(mesotaenium_endlicherianum_ME1124401C07608:0.3075,(spirogloea_muscicola_SM000004S14972:0.00219,spirogloea_muscicola_SM000007S20854:0.03543)n3:0.35328)n2:0.32613)n1:0.28863)n0;

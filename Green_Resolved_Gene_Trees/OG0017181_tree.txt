@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv15740:0.36469,(micromonas_pusilla_Micpu_27346429:1.00932,((chlamydomonas_reinhardtii_Cre06.g278176:0.2462,volvox_carteri_Vocar.0002s0250:0.33175)n3:0.49777,(raphidocelis_subcapitata_Rsub_00336:0.54248,(chromochloris_zofingiensis_Cz09g19250:0.31247,scenedesmus_obliquus_SZX71629:0.38765)n5:0.15894)n4:0.21718)n2:0.26999)n1:0.36469)n0;

@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_128662:1.67321e-07,((selaginella_moellendorffii_Selmo_81338:1.67321e-07,selaginella_moellendorffii_Selmo_82394:0.018591)n2:0.008303,selaginella_moellendorffii_Selmo_427487:0.14498)n1:1.67321e-07)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1831938:0.26546,(mesostigma_viridae_Mv20302:0.73459,(bathycoccus_prasinos_Bathy06g00060:0.382,micromonas_pusilla_Micpu_27347660:0.45176)n2:0.46059)n1:0.26546)n0;

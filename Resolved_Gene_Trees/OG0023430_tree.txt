@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.1Z270200:0.010335,(ceratopteris_richardii_Ceric.1Z039700:0.14585,(ceratopteris_richardii_Ceric.1Z222400:0.097389,ceratopteris_richardii_Ceric.1Z239600:2.64047e-07)n2:0.000971)n1:0.010335)n0;
+(klebsormidium_nitens_kfl00146_0160:0.904765,(thuja_plicata_Thupl.29377239s0010:0.23465,(thuja_plicata_Thupl.29379254s0010:0.24828,(thuja_plicata_Thupl.29379654s0005:0.2928,thuja_plicata_Thupl.29379254s0012:0.25062)n3:0.01626)n2:0.05059)n1:0.904765)n0;

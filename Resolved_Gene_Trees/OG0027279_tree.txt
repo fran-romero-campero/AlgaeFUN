@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ05105:0.410855,(zea_mays_Zm00001d024492:0.18865,(haematococcus_lacustris_GFH11824:0.00055,haematococcus_lacustris_GFH19078:0.02711)n2:0.34376)n1:0.410855)n0;

@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy03g04890:0.49377,micromonas_pusilla_Micpu_27347601:0.30955)n1:0.53243,(chlorokybus_atmophyticus_Chlat1_929:0.40559,(chlorokybus_atmophyticus_Chlat1_3379:0.52892,chlorokybus_atmophyticus_Chlat1_8627:0.58047)n3:0.23878)n2:0.53243)n0;

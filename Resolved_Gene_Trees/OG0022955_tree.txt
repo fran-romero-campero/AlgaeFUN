@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s2638.g112479:0.13969,((azolla_filiculoides_Azfi_s0199.g057467:0.311269,azolla_filiculoides_Azfi_s0028.g023964:0.037598)n2:0.485055,azolla_filiculoides_Azfi_s0259.g060653:0.569962)n1:0.13969)n0;
+(cyanidioschyzon_merolae_XM_005535025:0.3564,((gracilariopsis_chorda_PXF40327:1.24179,porphyra_umbilicalis_Pum0517s0002:0.28632)n2:0.53878,(porphyra_umbilicalis_Pum0672s0003:0.53249,gracilariopsis_chorda_PXF41970:1.208)n3:0.134222)n1:0.3564)n0;

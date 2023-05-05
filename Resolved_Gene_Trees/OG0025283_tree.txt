@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_133675:2.51909e-06,((selaginella_moellendorffii_Selmo_72489:0.745467,selaginella_moellendorffii_Selmo_96903:1.01195)n2:0.454701,selaginella_moellendorffii_Selmo_109921:0.461726)n1:2.51909e-06)n0;
+(cyanophora_paradoxa_Cyapar1_g15205:0.659325,(bathycoccus_prasinos_Bathy01g06660:1.16118,(chara_braunii_Chabra1_g12063:0.41545,klebsormidium_nitens_kfl00383_0100:0.85948)n2:0.31506)n1:0.659325)n0;

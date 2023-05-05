@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv08735:0.79777,(scenedesmus_obliquus_SZX64144:0.89909,(chromochloris_zofingiensis_Cz05g29040:0.37016,(chlamydomonas_reinhardtii_Cre07.g346350:0.24371,chlamydomonas_reinhardtii_Cre03.g166201:0.58604)n3:0.46287)n2:0.23603)n1:0.79777)n0;

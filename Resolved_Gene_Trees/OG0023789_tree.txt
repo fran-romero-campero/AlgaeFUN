@@ -1,1 +1,1 @@
-((chromochloris_zofingiensis_Cz13g15100:1.57609e-06,raphidocelis_subcapitata_Rsub_04571:0.865724)n1:0.21574,(chlamydomonas_reinhardtii_Cre03.g149150:1.57609e-06,volvox_carteri_Vocar.0014s0143:0.563615)n2:0.21574)n0;
+(physcomitrium_patens_Pp3c1_11100:0.716195,(spirogloea_muscicola_SM000121S25978:0.00055,((spirogloea_muscicola_SM000115S23899:0.00055,spirogloea_muscicola_SM000416S15664:0.00055)n3:0.03912,spirogloea_muscicola_SM000416S15663:0.06074)n2:0.06673)n1:0.716195)n0;

@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_4BS_59152F549:0.0340985,((triticum_aestivum_Traes_2BS_EE69A5ACE:0.359661,triticum_aestivum_Traes_2BS_ED931B365:1.88231e-06)n2:0.51235,triticum_aestivum_Traes_2BS_AF114B18C:1.12444)n1:0.0340985)n0;
+((klebsormidium_nitens_kfl00724_0020:0.69375,chlorokybus_atmophyticus_Chlat1_8533:0.77613)n1:0.22935,(saccharina_japonica_SJ14746:0.32938,guillardia_tetha_Guith1_149023:1.35643)n2:0.22935)n0;

@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_002206:0.0520665,(cycas_panzhihuaensis_CYCAS_002203:0.080897,(cycas_panzhihuaensis_CYCAS_002207:0.626096,(cycas_panzhihuaensis_CYCAS_002205:0.159162,cycas_panzhihuaensis_CYCAS_002204:1.1949e-06)n3:0.139448)n2:0.156937)n1:0.0520665)n0;
+((scenedesmus_obliquus_SZX77783:0,scenedesmus_obliquus_SZX60305:0)n1:1.06014,(selaginella_moellendorffii_Selmo_89434:0.86567,(thuja_plicata_Thupl.29381248s0001:0.13676,(thuja_plicata_Thupl.29381491s0006:0.53216,thuja_plicata_Thupl.29378604s0019:0.394029)n4:0.0394029)n3:0.0043781)n2:0.03969)n0;

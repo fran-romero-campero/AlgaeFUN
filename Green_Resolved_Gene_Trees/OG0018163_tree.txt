@@ -1,0 +1,1 @@
+(aegilops_tauschii_AET7Gv20869900:0.539195,(scenedesmus_obliquus_SZX74110:0.68639,((haematococcus_lacustris_GFH12664:0.75234,haematococcus_lacustris_GFH20011:0.00055)n3:0.80817,(haematococcus_lacustris_GFH16361:0.02352,haematococcus_lacustris_GFH16362:0.00055)n4:0.36503)n2:0.34378)n1:0.539195)n0;

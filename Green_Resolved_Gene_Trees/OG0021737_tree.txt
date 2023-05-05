@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc04g049470:0.11819,(klebsormidium_nitens_kfl01513_g2:0.15385,(klebsormidium_nitens_kfl00026_0440:0.29361,(klebsormidium_nitens_kfl00360_0110:0.00054,klebsormidium_nitens_kfl00833_0020:0.08086)n3:0.2142)n2:0.55099)n1:0.11819)n0;

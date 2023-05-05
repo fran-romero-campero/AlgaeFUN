@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH26953:0.20275,(spirogloea_muscicola_SM000207S06199:0.17547,((arabidopsis_thaliana_AT3G53910:0.7789,physcomitrium_patens_Pp3c20_3930:0.37291)n3:0.3805,(triticum_aestivum_Traes_3DL_2EC34A349:0.04703,(triticum_aestivum_Traes_1AL_A47D32D30:0.01936,triticum_aestivum_Traes_1DL_A91B639E3:0.00053)n5:0.08905)n4:0.16259)n2:0.25262)n1:0.20275)n0;

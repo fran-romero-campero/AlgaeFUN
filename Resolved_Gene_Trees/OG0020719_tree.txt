@@ -1,1 +1,1 @@
-(mesotaenium_endlicherianum_ME000184S02160:1.05879,((mesostigma_viridae_Mv14311:0.722051,mesostigma_viridae_Mv12334:4.49247e-06)n2:1.00633,(chlorokybus_atmophyticus_Chlat1_4224:0.541153,chlorokybus_atmophyticus_Chlat1_4186:0.700779)n3:0.0778643)n1:0.435178)n0;
+((solanum_lycopersicum_Solyc06g033960:1.00438,(mesotaenium_endlicherianum_ME000205S03033:0.17441,(mesotaenium_endlicherianum_ME000205S03024:0.00055,mesotaenium_endlicherianum_ME000205S03030:0.29429)n3:0.17)n2:0.55799)n1:0.122265,(saccharina_japonica_SJ04983:0.64915,saccharina_japonica_SJ19902:0.68275)n4:0.122265)n0;

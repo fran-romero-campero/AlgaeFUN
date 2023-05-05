@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET2Gv20911300:0.0613525,((triticum_aestivum_Traes_2DL_CD2908045:0.004512,triticum_aestivum_Traes_2AL_6C8DE5BB1:0.034501)n2:0.125823,triticum_aestivum_Traes_2BL_3BC8EA38A:0.547628)n1:0.0613525)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1753430:0.68361,((volvox_carteri_Vocar.0001s0756:0.05763,dunaliella_salina_Dusal.0079s00011:1.53576)n2:0.05248,(chlamydomonas_reinhardtii_Cre01.g042000:0.44365,haematococcus_lacustris_GFH26149:0.71709)n3:0.27851)n1:0.68361)n0;

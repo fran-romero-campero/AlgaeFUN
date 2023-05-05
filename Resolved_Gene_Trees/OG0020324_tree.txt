@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM002_0020:0.640674,((volvox_carteri_Vocar.0051s0039:1.0096,chlamydomonas_reinhardtii_Cre07.g357500:3.90522e-06)n2:0.76212,(chromochloris_zofingiensis_Cz15g15170:3.90522e-06,raphidocelis_subcapitata_Rsub_07600:0.790455)n3:0.589428)n1:0.640674)n0;
+((cyanidioschyzon_merolae_XM_005539155:0.92095,phaeodactylum_tricornutum_Phatr2_46433:0.41698)n1:0.10859,((gracilariopsis_chorda_PXF47864:0.3985,porphyra_umbilicalis_Pum0306s0023:0.50004)n3:0.24605,(nannochloropsis_gaditana_Nangad1_10925:0.2672,nannochloropsis_gaditana_Nangad1_4654:0.00054)n4:0.44455)n2:0.10859)n0;

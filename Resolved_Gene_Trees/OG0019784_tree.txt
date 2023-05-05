@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000111l.11:0.645856,((salvinia_cucullata_Sacu_v1.1_s0085.g018348:0.145397,(ceratopteris_richardii_Ceric.1Z036500:0.013742,ceratopteris_richardii_Ceric.1Z036100:0.0231)n3:0.144729)n2:0.080914,azolla_filiculoides_Azfi_s0198.g057390:0.656169)n1:0.645856)n0;
+(chara_braunii_Chabra1_g9020:0.01965,(chara_braunii_Chabra1_g12635:0.1062,((chara_braunii_Chabra1_g30913:0.35603,chara_braunii_Chabra1_g2755:0.24052)n3:0.00052,(chara_braunii_Chabra1_g49024:0.58091,chara_braunii_Chabra1_g41609:0.06751)n4:0.03953)n2:0.00054)n1:0.01965)n0;

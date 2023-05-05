@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz06g31200:0.38581,(haematococcus_lacustris_GFH19872:0.49286,(chlamydomonas_reinhardtii_Cre02.g089600:1.02856,dunaliella_salina_Dusal.0710s00004:0.31918)n2:0.00054)n1:0.38581)n0;

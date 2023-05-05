@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv21190:0.23625,(ulva_mutabilis_UM015_0177:1.07988,(coccomyxa_subellipsoidea_Cosub3_1232531:0.36751,(raphidocelis_subcapitata_Rsub_04081:0.63637,(chromochloris_zofingiensis_Cz05g19130:0.51517,scenedesmus_obliquus_SZX61727:0.44789)n4:0.15094)n3:0.62925)n2:0.12501)n1:0.23625)n0;

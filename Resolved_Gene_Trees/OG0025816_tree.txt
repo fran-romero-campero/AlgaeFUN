@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29380151s0009:0.049624,((thuja_plicata_Thupl.29378776s0001:0.092756,thuja_plicata_Thupl.29378677s0001:0.408891)n2:0.342159,thuja_plicata_Thupl.29380151s0008:0.056327)n1:0.049624)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1796347:0.589835,(chlorokybus_atmophyticus_Chlat1_155:0.47598,(chara_braunii_Chabra1_g37535:0.28692,mesostigma_viridae_Mv11648:0.40475)n2:0.137)n1:0.589835)n0;

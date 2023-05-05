@@ -1,1 +1,1 @@
-((aegilops_tauschii_AET7Gv21254800:0.254034,sorghum_bicolor_Sobic.008G077300:0.635626)n1:0.141764,(sorghum_bicolor_Sobic.010G014300:0.716576,aegilops_tauschii_AET5Gv20012200:0.423275)n2:0.141764)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1889433:0.7368,(ceratopteris_richardii_Ceric.09G080300:0.53823,((selaginella_moellendorffii_Selmo_402524:0.56655,selaginella_moellendorffii_Selmo_413732:0.53825)n3:0.26827,selaginella_moellendorffii_Selmo_406587:0.734247)n2:0.081583)n1:0.0821)n0;

@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy25g00310:0.82766,physcomitrium_patens_Pp3s92_70:0.39066)n1:0.25199,((chromochloris_zofingiensis_Cz02g35210:0.2867,coccomyxa_subellipsoidea_Cosub3_1242327:0.51119)n3:0.20134,(klebsormidium_nitens_kfl00064_0090:0.12895,(klebsormidium_nitens_kfl00099_0250:0.23899,klebsormidium_nitens_kfl00002_0330:0.10051)n5:0.04238)n4:0.28553)n2:0.25199)n0;

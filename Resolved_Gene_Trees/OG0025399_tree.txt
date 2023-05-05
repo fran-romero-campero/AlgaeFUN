@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc10g046790:0.221681,((solanum_lycopersicum_Solyc09g042200:0.003481,solanum_lycopersicum_Solyc09g040190:1.39542e-06)n2:0.412948,solanum_lycopersicum_Solyc02g020870:0.535914)n1:0.221681)n0;
+((ceratodon_purpureus_CepurR40.8G067100:0.13398,physcomitrium_patens_Pp3c22_9740:0.19734)n1:0.357185,(sphagnum_magellanicum_Sphmag08G110900:0.20031,sphagnum_magellanicum_Sphmag01G087600:0.22651)n2:0.357185)n0;

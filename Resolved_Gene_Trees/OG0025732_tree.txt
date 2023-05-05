@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.28559887s0001:0.050928,((thuja_plicata_Thupl.29381881s0026:0.048131,thuja_plicata_Thupl.29378384s0005:0.515998)n2:0.171272,thuja_plicata_Thupl.29381624s0005:0.137045)n1:0.050928)n0;
+(chara_braunii_Chabra1_g54433:0.022205,(chara_braunii_Chabra1_g40675:0.05765,(chara_braunii_Chabra1_g40002:0.05694,chara_braunii_Chabra1_g40682:0.09823)n2:0.04044)n1:0.022205)n0;

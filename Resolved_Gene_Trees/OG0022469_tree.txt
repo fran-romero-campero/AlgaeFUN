@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET7Gv21076700:0.538848,(oryza_sativa_LOC_Os06g37710.1:0.229385,(oryza_sativa_LOC_Os06g37740.1:0.420404,oryza_sativa_LOC_Os06g37700.1:0.644707)n2:0.394948)n1:0.538848)n0;
+(gracilariopsis_chorda_PXF40640:0.58557,(raphidocelis_subcapitata_Rsub_10128:0.3905,(chlamydomonas_reinhardtii_Cre03.g196300:0.48111,(ulva_mutabilis_UM036_0092:0.58739,ulva_mutabilis_UM036_0093:0.524493)n3:0.058277)n2:0.09618)n1:0.58557)n0;

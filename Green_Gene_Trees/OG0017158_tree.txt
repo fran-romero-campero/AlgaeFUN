@@ -1,0 +1,1 @@
+((micromonas_pusilla_Micpu_27349090:0.45424,ostreococcus_tauri_ostta14g02100:0.3104)1:0.414235,(ulva_mutabilis_UM065_0027:0.50489,((raphidocelis_subcapitata_Rsub_10490:0.41926,scenedesmus_obliquus_SZX61754:0.34045)0.97:0.16348,(chlamydomonas_reinhardtii_Cre16.g682013:0.3664,volvox_carteri_Vocar.0023s0020:0.34858)0.989:0.21885)0.816:0.10211)1:0.414235);

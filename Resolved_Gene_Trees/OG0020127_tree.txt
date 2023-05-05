@@ -1,1 +1,1 @@
-((physcomitrium_patens_Pp3c1_4421:1.95235,physcomitrium_patens_Pp3c1_750:0.13032)n1:0.129042,((ceratodon_purpureus_CepurR40.9G128500:0.055451,ceratodon_purpureus_CepurR40.9G118000:0.021753)n3:0.039072,ceratodon_purpureus_CepurR40.9G118200:0.117989)n2:0.129042)n0;
+(cyanophora_paradoxa_Cyapar1_g6582:0.401355,(chromochloris_zofingiensis_Cz08g00130:1.14903,((scenedesmus_obliquus_SZX67140:0,scenedesmus_obliquus_SZX78646:0)n3:0.34057,(scenedesmus_obliquus_SZX67142:0,scenedesmus_obliquus_SZX78648:0)n4:0.2456)n2:0.30358)n1:0.401355)n0;

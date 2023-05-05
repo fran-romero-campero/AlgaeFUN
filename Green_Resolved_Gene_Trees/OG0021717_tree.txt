@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH27525:0.82762,haematococcus_lacustris_GFH27857:0.76948)n1:0.125465,(mesotaenium_endlicherianum_ME1124401C07608:0.37981,(spirogloea_muscicola_SM000004S14972:0.00054,spirogloea_muscicola_SM000007S20854:0.03885)n3:0.36704)n2:0.125465)n0;

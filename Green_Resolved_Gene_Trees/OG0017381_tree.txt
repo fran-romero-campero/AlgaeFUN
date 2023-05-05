@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00002_0250:0.720315,(volvox_carteri_Vocar.0004s0080:0.68258,(dunaliella_salina_Dusal.0312s00011:0.92147,((chromochloris_zofingiensis_Cz03g19120:0.93904,scenedesmus_obliquus_SZX70046:0.66242)n4:0.11584,(raphidocelis_subcapitata_Rsub_06433:0.55964,raphidocelis_subcapitata_Rsub_07406:0.52377)n5:0.15962)n3:0.41889)n2:0.18096)n1:0.720315)n0;

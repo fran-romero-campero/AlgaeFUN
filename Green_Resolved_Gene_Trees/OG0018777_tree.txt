@@ -1,0 +1,1 @@
+(ceratopteris_richardii_Ceric.32G043500:0.58805,(solanum_lycopersicum_Solyc01g011310:0.13888,((solanum_lycopersicum_Solyc01g011320:0.06941,(solanum_lycopersicum_Solyc01g011200:0.11648,solanum_lycopersicum_Solyc01g011115:0.18029)n4:0.1192)n3:0.06185,solanum_lycopersicum_Solyc01g011260:0.16524)n2:0.00055)n1:0.58805)n0;

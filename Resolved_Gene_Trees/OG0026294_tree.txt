@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ20785:0.530495,(coccomyxa_subellipsoidea_Cosub3_1211147:0.83268,(cyanophora_paradoxa_Cyapar1_g8406:0.96083,gracilariopsis_chorda_PXF47730:0.77881)n2:0.13683)n1:0.530495)n0;

@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00003_0330:0.740555,(coccomyxa_subellipsoidea_Cosub3_1202240:0.67838,((chromochloris_zofingiensis_Cz07g07250:0.58662,raphidocelis_subcapitata_Rsub_08878:0.35448)n3:0.2621,(ulva_mutabilis_UM012_0135:1.23018,(chlamydomonas_reinhardtii_Cre12.g549250:0.30893,volvox_carteri_Vocar.0007s0224:0.30831)n5:0.47775)n4:0.16475)n2:0.16285)n1:0.740555)n0;

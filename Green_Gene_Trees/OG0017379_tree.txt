@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv25880:0.76886,(chromochloris_zofingiensis_Cz03g19080:1.14699,(salvinia_cucullata_Sacu_v1.1_s0005.g002729:0.94828,triticum_aestivum_Traes_3AL_394642923:0.30142)0.804:0.18025)0.024:0.00055)0.918:0.119175,(ostreococcus_tauri_ostta06g03340:0.95029,(zea_mays_Zm00001d021215:0.76724,zea_mays_Zm00001d014769:0.28534)0.84:0.18087)0.918:0.119175);

@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g50627:1.13114,(klebsormidium_nitens_kfl00054_0190:0.69916,mesostigma_viridae_Mv09205:0.80352)n2:0.31853)n1:0.117115,(dunaliella_salina_Dusal.0561s00007:1.39351,(chlamydomonas_reinhardtii_Cre17.g731001:0.64751,volvox_carteri_Vocar.0009s0037:0.54023)n4:0.23424)n3:0.117115)n0;

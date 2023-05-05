@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_025683:0.0246975,(cycas_panzhihuaensis_CYCAS_024544:0.655974,((cycas_panzhihuaensis_CYCAS_022928:0.513706,cycas_panzhihuaensis_CYCAS_023031:0.068869)n3:0.188454,cycas_panzhihuaensis_CYCAS_022282:0.580125)n2:0.278461)n1:0.0246975)n0;
+((solanum_lycopersicum_Solyc07g052810:0.27124,solanum_lycopersicum_Solyc07g052880:0.15835)n1:0.11358,((zea_mays_Zm00001d035373:0.26198,zea_mays_Zm00001d043092:0.44477)n3:0.1766,(triticum_aestivum_Traes_2DS_6FBFE31E4:0.58272,triticum_aestivum_Traes_4DL_C967CDE98:0.244179)n4:0.027131)n2:0.63503)n0;

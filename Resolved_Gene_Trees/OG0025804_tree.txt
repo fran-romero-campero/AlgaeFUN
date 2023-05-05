@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29380484s0001:0.011563,((thuja_plicata_Thupl.29377462s0030:1.47155e-06,thuja_plicata_Thupl.29377462s0027:0.835669)n2:0.36844,thuja_plicata_Thupl.29377462s0020:0.30941)n1:0.011563)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1648078:0.36061,(haematococcus_lacustris_GFH19620:0.17745,(chara_braunii_Chabra1_g36560:0.21282,triticum_aestivum_Traes_6BL_2054E00FB:0.36476)n2:0.0736)n1:0.36061)n0;

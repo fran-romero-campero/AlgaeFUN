@@ -1,1 +1,1 @@
-((ceratodon_purpureus_CepurR40.10G102700:0.137893,(ceratodon_purpureus_CepurR40.10G070300:3.1515e-06,ceratodon_purpureus_CepurR40.10G102800:0.847621)n2:0.508686)n1:0.443972,(triticum_aestivum_Traes_4DL_DDF95FBC8:0.448974,zea_mays_Zm00001d047086:0.731381)n3:0.443972)n0;
+((gracilariopsis_chorda_PXF46780:0.39494,porphyra_umbilicalis_Pum0783s0001:0.51282)n1:0.707715,(coccomyxa_subellipsoidea_Cosub3_1168412:0.42649,(klebsormidium_nitens_kfl00216_0080:0.57602,(chromochloris_zofingiensis_Cz11g05110:0.19367,scenedesmus_obliquus_SZX60095:0.44132)n4:0.28126)n3:0.20004)n2:0.707715)n0;

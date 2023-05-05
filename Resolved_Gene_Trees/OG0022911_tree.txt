@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_018243:0.307247,(arabidopsis_thaliana_AT4G22870:0.18966,(zea_mays_Zm00001d048800:0.201192,zea_mays_Zm00001d038073:0.080426)n2:0.487862)n1:0.307247)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1935944:0.12049,guillardia_tetha_Guith1_117739:0.22283)n1:0.10436,(phaeodactylum_tricornutum_Phatr2_4402:0.30976,(nannochloropsis_gaditana_Nangad1_4757:0.289,saccharina_japonica_SJ02922:0.27813)n3:0.09476)n2:0.10436)n0;

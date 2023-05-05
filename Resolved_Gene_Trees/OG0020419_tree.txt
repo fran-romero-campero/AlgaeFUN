@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00398_0160:0.309019,(dunaliella_salina_Dusal.0433s00011:0.548032,((chlamydomonas_reinhardtii_Cre06.g307900:2.58701e-06,volvox_carteri_Vocar.0009s0152:0.313523)n3:0.383006,ulva_mutabilis_UM007_0086:0.700457)n2:0.068877)n1:0.309019)n0;
+((saccharina_japonica_SJ11982:0.86131,(guillardia_tetha_Guith1_85467:0.50681,phaeodactylum_tricornutum_Phatr2_48208:0.58277)n2:0.48195)n1:0.17206,(cyanophora_paradoxa_Cyapar1_g3833:1.14674,(mesostigma_viridae_Mv07969:0.96926,mesotaenium_endlicherianum_ME000391S06775:1.09589)n4:0.24367)n3:0.17206)n0;

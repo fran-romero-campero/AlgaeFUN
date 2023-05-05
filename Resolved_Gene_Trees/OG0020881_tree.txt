@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_504:0.735371,((klebsormidium_nitens_kfl00044_0100:1.54341,klebsormidium_nitens_kfl00044_0110:0.812989)n2:0.271582,(cyanophora_paradoxa_Cyapar1_g5608:0.517578,cyanophora_paradoxa_Cyapar1_g18977:0.328727)n3:1.20257)n1:0.735371)n0;
+(porphyra_umbilicalis_Pum0286s0017:0.001725,(porphyra_umbilicalis_Pum0286s0018:0.00054,((porphyra_umbilicalis_Pum0107s0010:0.00614,porphyra_umbilicalis_Pum0107s0004:0.0015)n3:0.023,(porphyra_umbilicalis_Pum0074s0034:0.23311,porphyra_umbilicalis_Pum0234s0036:0.12367)n4:0.03806)n2:0.0899)n1:0.001725)n0;

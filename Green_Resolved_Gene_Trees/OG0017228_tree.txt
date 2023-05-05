@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz01g19120:0.50613,(((chlamydomonas_reinhardtii_Cre15.g639552:0.72661,volvox_carteri_Vocar.0012s0002:0.23065)n3:0.22104,(dunaliella_salina_Dusal.0073s00001:0.93077,dunaliella_salina_Dusal.0621s00009:0.822078)n4:0.091342)n2:0.07202,(haematococcus_lacustris_GFH17812:0.00054,haematococcus_lacustris_GFH28748:0.02331)n5:0.1644)n1:0.50613)n0;

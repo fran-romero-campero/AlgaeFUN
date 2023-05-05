@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT1G62080:0.0713335,(arabidopsis_thaliana_AT1G62000:0.098479,(arabidopsis_thaliana_AT1G62060:0.117243,(arabidopsis_thaliana_AT1G62220:0.208948,arabidopsis_thaliana_AT1G62225:1.10169)n3:0.02752)n2:0.089032)n1:0.0713335)n0;
+(galdieria_sulphuraria_GsulpSAG21_G3747:0.617875,(chlamydomonas_reinhardtii_Cre08.g378300:1.05389,(ulva_mutabilis_UM001_0480:0.38808,(ulva_mutabilis_UM001_0478:0.49444,(ulva_mutabilis_UM001_0476:0.07214,ulva_mutabilis_UM001_0479:0.21378)n4:0.04469)n3:0.22144)n2:0.41888)n1:0.617875)n0;

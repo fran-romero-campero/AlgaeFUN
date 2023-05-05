@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_1AL_C4A75551B:0.0474375,(triticum_aestivum_Traes_1DL_5EC00D8BD:0.409072,(triticum_aestivum_Traes_1BL_9A4950983:0.047489,triticum_aestivum_Traes_1DL_20A170441:0.317635)n2:0.166845)n1:0.0474375)n0;
+(chlorokybus_atmophyticus_Chlat1_6332:0.789945,(galdieria_sulphuraria_GsulpSAG21_G1858:0.21617,(galdieria_sulphuraria_GsulpSAG21_G1862:0.3611,galdieria_sulphuraria_GsulpSAG21_G2417:0.00054)n2:0.04784)n1:0.789945)n0;

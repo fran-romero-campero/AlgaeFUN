@@ -1,1 +1,1 @@
-(physcomitrium_patens_Pp3c11_26420:0.320885,((ceratodon_purpureus_CepurR40.6G201700:0.479581,ceratodon_purpureus_CepurR40.3G122500:0.511037)n2:0.216314,ceratodon_purpureus_CepurR40.3G123100:0.292202)n1:0.320885)n0;
+(gracilariopsis_chorda_PXF45230:0.514495,(guillardia_tetha_Guith1_100288:0.95259,(phaeodactylum_tricornutum_Phatr2_32976:0.6579,(nannochloropsis_gaditana_Nangad1_5014:0.40849,saccharina_japonica_SJ03833:0.38698)n3:0.30135)n2:0.16541)n1:0.514495)n0;

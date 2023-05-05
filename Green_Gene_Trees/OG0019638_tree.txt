@@ -1,0 +1,1 @@
+(scenedesmus_obliquus_SZX61263:0.52837,((triticum_aestivum_Traes_2AL_D083FB67B:0.02919,triticum_aestivum_Traes_2DL_7CED0957F:0.00055)0.869:0.17017,(sorghum_bicolor_Sobic.005G107700:0.36714,(triticum_aestivum_Traes_5DL_6AAA420AC:0.00055,triticum_aestivum_Traes_5AL_DB5C1047D:0.09512)0.79:0.05219)0.937:0.17727)1:0.52837);

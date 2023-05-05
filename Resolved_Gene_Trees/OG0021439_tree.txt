@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_40492:0.519825,(ostreococcus_tauri_ostta05g00370:1.04613,(raphidocelis_subcapitata_Rsub_06897:0.241216,(raphidocelis_subcapitata_Rsub_12939:0.390841,raphidocelis_subcapitata_Rsub_13420:0.274368)n3:0.651108)n2:0.569447)n1:0.519825)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1898042:0.2435,(zea_mays_Zm00001d032320:0.28327,(aegilops_tauschii_AET3Gv20217400:0.27158,(spirogloea_muscicola_SM015337S01626:0.04518,spirogloea_muscicola_SM015676S02000:0.00054)n3:0.23082)n2:0.2194)n1:0.2435)n0;

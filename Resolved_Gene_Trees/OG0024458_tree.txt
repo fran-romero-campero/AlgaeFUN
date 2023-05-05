@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00146_0160:1.00453,((thuja_plicata_Thupl.29377239s0010:4.51288e-06,thuja_plicata_Thupl.29379254s0010:0.743623)n2:0.856359,thuja_plicata_Thupl.29379654s0005:1.09892)n1:1.00453)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_3017568:0.34052,(triticum_aestivum_Traes_5BL_716390097:0.24874,(aegilops_tauschii_AET5Gv21164900:0.23815,aegilops_tauschii_AET1Gv21042400:0.14763)n2:0.09305)n1:0.34052)n0;

@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_47678:1.01784,(chlamydomonas_reinhardtii_Cre07.g313950:3.21197e-06,(volvox_carteri_Vocar.0032s0060:1.07093,volvox_carteri_Vocar.0003s0134:0.352653)n2:0.0391837)n1:0.796917)n0;
+(micromonas_pusilla_Micpu_27343735:0.68996,(saccharina_japonica_SJ01894:0.88137,(saccharina_japonica_SJ13895:0.2494,(saccharina_japonica_SJ11883:0.51249,saccharina_japonica_SJ07671:0.63306)n3:0.07214)n2:0.38417)n1:0.68996)n0;

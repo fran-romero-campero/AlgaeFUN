@@ -1,1 +1,1 @@
-(klebsormidium_nitens_kfl00548_0020:0.66444,((spirogloea_muscicola_SM000078S22110:0.107336,spirogloea_muscicola_SM000111S18770:0.190937)n2:0.054485,spirogloea_muscicola_SM000002S05556:0.109444)n1:0.66444)n0;
+(aegilops_tauschii_AET3Gv20148400:0.16241,(triticum_aestivum_Traes_3B_25E8E92B4:0.11351,(triticum_aestivum_Traes_3B_EC4F3A36F:0.03333,triticum_aestivum_Traes_3B_3571418BC:0.03065)n2:0.1599)n1:0.16241)n0;

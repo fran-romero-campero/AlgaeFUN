@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s2990.g113932:0.521909,(selaginella_moellendorffii_Selmo_122946:0.221052,(selaginella_moellendorffii_Selmo_121183:0.098369,selaginella_moellendorffii_Selmo_121240:0.134166)n2:0.185475)n1:0.521909)n0;
+(cyanophora_paradoxa_Cyapar1_g3960:0.3321,(cyanophora_paradoxa_Cyapar1_g4598:0.1525,(cyanophora_paradoxa_Cyapar1_g22487:1.17835,(cyanophora_paradoxa_Cyapar1_g14859:0.25749,cyanophora_paradoxa_Cyapar1_g3961:0.33826)n3:0.14932)n2:0.53759)n1:0.3321)n0;

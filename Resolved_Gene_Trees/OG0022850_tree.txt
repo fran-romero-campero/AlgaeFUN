@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT1G40090:0.119512,(arabidopsis_thaliana_AT1G40086:0.758732,(arabidopsis_thaliana_AT1G39070:1.01137,arabidopsis_thaliana_AT1G39060:0.206581)n2:0.034507)n1:0.119512)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1816927:0.27224,(cryptophyceae_CCMP2293_Crypto2293_1_1816929:0.76474,(cryptophyceae_CCMP2293_Crypto2293_1_1816928:0.50228,(cryptophyceae_CCMP2293_Crypto2293_1_1816930:0.4997,cryptophyceae_CCMP2293_Crypto2293_1_1816934:0.61277)n3:0.29601)n2:0.09925)n1:0.27224)n0;

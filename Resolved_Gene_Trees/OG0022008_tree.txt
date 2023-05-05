@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_7AS_ECE4D9470:0,((triticum_aestivum_Traes_2BS_1BF6A52CD:0.498209,triticum_aestivum_Traes_1AS_6C0EACB05:0.263525)n2:0.65159,(triticum_aestivum_Traes_7AS_ECE4D94701:0,triticum_aestivum_Traes_7AS_ECE4D94702:0)n3:0)n1:0)n0;
+(saccharina_japonica_SJ17208:0.331935,(bathycoccus_prasinos_Bathy25g00090:1.12247,(bathycoccus_prasinos_Bathy62g00020:1.21727,(bathycoccus_prasinos_Bathy53g00050:0.66861,bathycoccus_prasinos_Bathy53g00060:0.36575)n3:0.02467)n2:0.05238)n1:0.331935)n0;

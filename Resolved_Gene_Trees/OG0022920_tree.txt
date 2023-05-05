@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT5G65060:1.15313e-06,(arabidopsis_thaliana_AT5G65050:0.197729,(arabidopsis_thaliana_AT5G65070:0.205348,arabidopsis_thaliana_AT5G65080:0.498161)n2:0.252333)n1:1.15313e-06)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1971607:0.28888,(cyanophora_paradoxa_Cyapar1_g16651:0.45661,(galdieria_sulphuraria_GsulpSAG21_G5442:0.62712,(gracilariopsis_chorda_PXF49478:0.68255,porphyra_umbilicalis_Pum0433s0007:0.92436)n3:0.20239)n2:0.53003)n1:0.28888)n0;

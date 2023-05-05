@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29381560s0006:0.0454685,(thuja_plicata_Thupl.29381560s0015:0.083494,(thuja_plicata_Thupl.29381560s0008:0.041135,(thuja_plicata_Thupl.29381560s0009:0.069248,thuja_plicata_Thupl.29381560s0011:0.131181)n3:0.040735)n2:0.014681)n1:0.0454685)n0;
+(spirogloea_muscicola_SM000042S15364:0.66663,(azolla_filiculoides_Azfi_s0017.g014564:0.55533,(selaginella_moellendorffii_Selmo_125812:0.84948,(selaginella_moellendorffii_Selmo_27032:0.36993,selaginella_moellendorffii_Selmo_117460:0.1939)n3:0.40434)n2:0.26989)n1:0.66663)n0;

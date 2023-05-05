@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_414626:0.469205,((selaginella_moellendorffii_Selmo_122726:0.272191,selaginella_moellendorffii_Selmo_414624:0.226676)n2:0.2098,selaginella_moellendorffii_Selmo_424712:1.64373e-06)n1:0.469205)n0;
+(gracilariopsis_chorda_PXF43605:0.6513,(micromonas_pusilla_Micpu_27346258:1.04664,(bathycoccus_prasinos_Bathy02g04050:0.18705,ostreococcus_tauri_ostta07g01630:1.10758)n2:0.08236)n1:0.6513)n0;

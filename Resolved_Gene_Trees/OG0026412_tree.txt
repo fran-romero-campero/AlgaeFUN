@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_42900:0.64223,(guillardia_tetha_Guith1_115108:0.56861,(cryptophyceae_CCMP2293_Crypto2293_1_1822397:0.24573,cryptophyceae_CCMP2293_Crypto2293_1_1761262:0.14436)n2:0.01604)n1:0.44117)n0;

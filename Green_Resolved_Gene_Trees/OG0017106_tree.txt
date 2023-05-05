@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1261150:0.48226,(spirogloea_muscicola_SM001100S18757:0.00055,spirogloea_muscicola_SM001546S01437:0.09414)n2:0.30035)n1:0.061845,((chlamydomonas_reinhardtii_Cre08.g376900:0.32387,volvox_carteri_Vocar.0053s0046:0.09874)n4:0.30642,(micromonas_pusilla_Micpu_27338947:0.65319,klebsormidium_nitens_kfl00260_0080:0.50185)n5:0.07979)n3:0.061845)n0;

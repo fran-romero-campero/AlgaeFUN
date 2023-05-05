@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_439574:0.574604,(anthoceros_agrestis_AagrOXF_utg000127l.17:0.357148,(ceratodon_purpureus_CepurR40.6G176600:0.656526,physcomitrium_patens_Pp3c5_9110:0.515264)n2:0.6022)n1:0.574604)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1795299:1.57621,guillardia_tetha_Guith1_151480:0.44185)n1:0.262445,(phaeodactylum_tricornutum_Phatr2_44139:1.03201,(nannochloropsis_gaditana_Nangad1_8397:1.09151,saccharina_japonica_SJ02848:0.27159)n3:0.1267)n2:0.262445)n0;

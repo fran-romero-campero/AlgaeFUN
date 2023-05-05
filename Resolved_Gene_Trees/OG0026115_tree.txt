@@ -1,1 +1,1 @@
-((triticum_aestivum_Traes_4BL_7628FD0B3:0.399154,triticum_aestivum_Traes_3DS_5322188D6:0.078805)n1:0.173371,(zea_mays_Zm00001d031563:0.261762,zea_mays_Zm00001d010355:1.05742e-06)n2:0.173371)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1830830:0.48909,(chromochloris_zofingiensis_Cz04g00150:0.30265,(scenedesmus_obliquus_SZX68540:0.13972,triticum_aestivum_Traes_2BL_638E108B8:0.57964)n2:0.26014)n1:0.48909)n0;

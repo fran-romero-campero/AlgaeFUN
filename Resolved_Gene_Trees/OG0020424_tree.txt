@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM013_0206:0.583828,((raphidocelis_subcapitata_Rsub_12556:0.656263,chromochloris_zofingiensis_Cz05g02060:3.35386e-06)n2:0.350374,(chlamydomonas_reinhardtii_Cre06.g268700:3.35386e-06,volvox_carteri_Vocar.0002s0154:0.320882)n3:0.980128)n1:0.583828)n0;
+((cyanophora_paradoxa_Cyapar1_g817:0.88866,mesostigma_viridae_Mv11429:0.97211)n1:0.22859,(saccharina_japonica_SJ08683:0.66704,((phaeodactylum_tricornutum_Phatr2_32710:0.00051,phaeodactylum_tricornutum_Phatr2_43493:0.03864)n4:1.37398,nannochloropsis_gaditana_Nangad1_5108:0.7836)n3:0.16237)n2:0.22859)n0;

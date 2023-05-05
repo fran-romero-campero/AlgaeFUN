@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.29G056500:0.054717,((ceratopteris_richardii_Ceric.29G056700:2.15751e-06,ceratopteris_richardii_Ceric.14G036200:1.26727)n2:0.877117,ceratopteris_richardii_Ceric.29G056600:0.019558)n1:0.054717)n0;
+(mesostigma_viridae_Mv04313:0.00044,((mesostigma_viridae_Mv06402:0.00534,mesostigma_viridae_Mv03206:0.16246)n2:0.00634,(mesostigma_viridae_Mv00985:0.00055,mesostigma_viridae_Mv03153:0.00055)n3:0.00055)n1:0.00044)n0;

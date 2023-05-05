@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g12063:0.66203,klebsormidium_nitens_kfl00383_0100:0.64071)n1:0.20755,(bathycoccus_prasinos_Bathy01g06660:1.20383,(micromonas_pusilla_Micpu_27343993:0.83393,ostreococcus_tauri_ostta10g00060:1.01693)n3:0.17019)n2:0.20755)n0;

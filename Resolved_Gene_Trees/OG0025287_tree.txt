@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_418109:0.548284,((selaginella_moellendorffii_Selmo_430372:0.35083,selaginella_moellendorffii_Selmo_406177:0.670228)n2:0.368041,selaginella_moellendorffii_Selmo_443463:1.61037)n1:0.548284)n0;
+(bathycoccus_prasinos_Bathy02g01650:0.716125,(saccharina_japonica_SJ12666:0.3415,(phaeodactylum_tricornutum_Phatr2_13078:0.20707,phaeodactylum_tricornutum_Phatr2_10988:0.24103)n2:0.18709)n1:0.716125)n0;

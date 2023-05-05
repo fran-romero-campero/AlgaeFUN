@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00104_0260:0.57052,((anthoceros_agrestis_AagrOXF_utg000005l.20:0.8173,(marchantia_polymorpha_Mp1g23760:0.01108,marchantia_polymorpha_Mp7g06970:0.87998)n3:0.68055)n2:0.31175,(spirogloea_muscicola_SM000211S06625:0.07677,(spirogloea_muscicola_SM000167S02954:0.0718,spirogloea_muscicola_SM000184S03770:0.0571)n5:0.03226)n4:1.06209)n1:0.57052)n0;

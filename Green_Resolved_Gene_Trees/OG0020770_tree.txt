@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy69g00060:0.629465,(zea_mays_Zm00001d028604:0.24998,(triticum_aestivum_Traes_7BL_3B3D9DE32:0.14455,(triticum_aestivum_Traes_5DL_DC0935CEB:0.13844,triticum_aestivum_Traes_4DL_B53A5F9BF:0.005535)n3:0.0005535)n2:6.15e-05)n1:0.13475)n0;

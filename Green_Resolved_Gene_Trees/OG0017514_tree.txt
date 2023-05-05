@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH33465:0.26939,(sphagnum_magellanicum_Sphmag03G015400:0.00054,((triticum_aestivum_Traes_1BS_984B78A41:0.01605,triticum_aestivum_Traes_1AS_5CF7ABA32:0.01826)n3:0.11579,(triticum_aestivum_Traes_3B_5ACB6A942:0.00644,(triticum_aestivum_Traes_3AL_6FA07BD66:0.00602,triticum_aestivum_Traes_3DL_9C62E1054:0.0033)n5:0.0056)n4:0.05624)n2:0.37788)n1:0.26939)n0;

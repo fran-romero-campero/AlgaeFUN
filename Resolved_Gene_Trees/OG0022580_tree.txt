@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os05g43090.1:0.273929,(aegilops_tauschii_AET5Gv20515300:0.136966,(triticum_aestivum_Traes_5DL_66E0785B3:0.175502,triticum_aestivum_Traes_5AL_1B03BC4CF:0.0979227)n2:0.0108803)n1:0.06209)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1903339:0.72359,guillardia_tetha_Guith1_153922:0.87744)n1:0.298815,(mesostigma_viridae_Mv10699:0.29285,(chlorokybus_atmophyticus_Chlat1_7534:0.77393,micromonas_pusilla_Micpu_27346129:1.04228)n3:0.22353)n2:0.298815)n0;

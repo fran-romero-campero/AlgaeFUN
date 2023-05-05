@@ -1,1 +1,1 @@
-(sphangum_magellanicum_Sphmag04G038200:0.014082,(((sphangum_magellanicum_Sphmag01G049000:0.045224,sphangum_magellanicum_Sphmag04G041500:0.023178)n3:0.084891,sphangum_magellanicum_Sphmag04G041300:0.027599)n2:0.019278,sphangum_magellanicum_Sphmag04G076200:0.030575)n1:0.014082)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1757999:0.631595,((ceratodon_purpureus_CepurR40.N008800:0,ceratodon_purpureus_CepurR40.4G234600:0)n2:0.07369,(anthoceros_agrestis_AagrOXF_utg000049l.24:0.12488,sphagnum_magellanicum_Sphmag03G001200:0.13507)n3:0.13358)n1:0.631595)n0;

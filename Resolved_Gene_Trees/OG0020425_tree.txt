@@ -1,1 +1,1 @@
-((mesostigma_viridae_Mv12375:0.636566,chlorokybus_atmophyticus_Chlat1_950:0.900573)n1:0.108884,(chromochloris_zofingiensis_Cz05g21020:2.11934e-06,(volvox_carteri_Vocar.0020s0118:0.204972,chlamydomonas_reinhardtii_Cre06.g305600:0.012603)n3:0.231702)n2:0.108884)n0;
+(mesostigma_viridae_Mv17521:0.88334,(cyanophora_paradoxa_Cyapar1_g898:0.01244,((cyanophora_paradoxa_Cyapar1_g885:0.65853,cyanophora_paradoxa_Cyapar1_g872:0.14007)n3:0.05833,(cyanophora_paradoxa_Cyapar1_g8329:0.38839,cyanophora_paradoxa_Cyapar1_g882:0.01424)n4:0.07257)n2:0.0464)n1:0.88334)n0;

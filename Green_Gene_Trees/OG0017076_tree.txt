@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz08g27100:0.453385,((mesotaenium_endlicherianum_ME000301S05059:0.46741,klebsormidium_nitens_kfl00029_0460:1.26704)0.934:0.20086,(chara_braunii_Chabra1_g29279:0.65123,(spirogloea_muscicola_SM000002S05578:0.00054,(spirogloea_muscicola_SM000042S15307:0.03162,spirogloea_muscicola_SM000039S14436:0.0051)0.85:0.0074)1:0.93965)0.355:0.04916)1:0.453385);

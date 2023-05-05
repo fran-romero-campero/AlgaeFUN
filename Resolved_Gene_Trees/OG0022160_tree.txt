@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET2Gv21100100:0.2569,((triticum_aestivum_Traes_2AL_9389AA77E:0.014135,triticum_aestivum_Traes_2DL_25423D70F:0.014466)n2:0.013064,triticum_aestivum_Traes_2BL_414099283:0.030742)n1:0.2569)n0;
+(phaeodactylum_tricornutum_Phatr2_7553:0.25135,(marchantia_polymorpha_Mp3g14880:0.95667,(coccomyxa_subellipsoidea_Cosub3_1232680:0.48465,(ceratodon_purpureus_CepurR40.4G156800:0.27664,physcomitrium_patens_Pp3c4_16880:0.27109)n3:0.35303)n2:0.25807)n1:0.25135)n0;

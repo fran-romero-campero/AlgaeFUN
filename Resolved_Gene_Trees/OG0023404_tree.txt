@@ -1,1 +1,1 @@
-((ceratodon_purpureus_CepurR40.7G182200:0.491542,physcomitrium_patens_Pp3c9_25770:0.436786)n1:0.88614,(sphangum_magellanicum_Sphmag16G054800:0.338849,sphangum_magellanicum_Sphmag17G064300:0.171518)n2:0.88614)n0;
+(klebsormidium_nitens_kfl00020_0670:0.302155,(mesotaenium_endlicherianum_ME000025S04439:0.57859,(mesotaenium_endlicherianum_ME000184S02177:0.60504,(mesotaenium_endlicherianum_ME000671S09016:0.45898,mesotaenium_endlicherianum_ME000191S02457:1.27412)n3:0.11848)n2:0.25179)n1:0.302155)n0;

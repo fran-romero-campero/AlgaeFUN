@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_4BL_DA8EB84A0:0.082624,(triticum_aestivum_Traes_5BL_EE9613F6D:0.074721,((triticum_aestivum_Traes_4BL_507C53073:8.62328e-07,triticum_aestivum_Traes_4DL_7A38599FD:0.368392)n3:0.257056,triticum_aestivum_Traes_4DL_06E8E6F6C:8.62328e-07)n2:0.423489)n1:0.082624)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1898558:0.43363,guillardia_tetha_Guith1_66768:0.31681)n1:0.360395,(bathycoccus_prasinos_Bathy11g03070:0.48206,(micromonas_pusilla_Micpu_27344066:0.38374,ostreococcus_tauri_ostta10g02850:0.45256)n3:0.15999)n2:0.360395)n0;

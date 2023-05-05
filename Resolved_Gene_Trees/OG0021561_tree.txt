@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_07804:0.153492,((triticum_aestivum_Traes_4BL_825998751:0.286338,triticum_aestivum_Traes_7AL_F80BC8414:0.228896)n2:0.112193,(selaginella_moellendorffii_Selmo_404656:0.325771,selaginella_moellendorffii_Selmo_112333:0.197069)n3:0.147902)n1:0.153492)n0;
+(sorghum_bicolor_Sobic.002G121450:0.36879,(triticum_aestivum_Traes_4DL_6C15CB2C5:0.00055,(aegilops_tauschii_AET4Gv20249300:0.1234,(aegilops_tauschii_AET7Gv20216700:0.70347,aegilops_tauschii_AET4Gv20517900:0.003933)n3:0.0003933)n2:4.37e-05)n1:0.2941)n0;

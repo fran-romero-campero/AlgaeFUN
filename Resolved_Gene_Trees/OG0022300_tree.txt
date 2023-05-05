@@ -1,1 +1,1 @@
-((aegilops_tauschii_AET7Gv20997600:0.514533,triticum_aestivum_Traes_7DL_C39412827:9.52354e-07)n1:0.0467645,(aegilops_tauschii_AET7Gv20997400:0.067446,triticum_aestivum_Traes_7BL_731ABE466:0.354371)n2:0.0467645)n0;
+(saccharina_japonica_SJ17672:0.570585,(chara_braunii_Chabra1_g32474:0.66255,(chara_braunii_Chabra1_g50295:0.60923,(chara_braunii_Chabra1_g50293:0.59077,chara_braunii_Chabra1_g50301:0.58661)n3:0.10086)n2:0.22675)n1:0.570585)n0;

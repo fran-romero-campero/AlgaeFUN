@@ -1,0 +1,1 @@
+(raphidocelis_subcapitata_Rsub_09428:0.2775,((cycas_panzhihuaensis_CYCAS_032418:0.39895,(salvinia_cucullata_Sacu_v1.1_s1799.g028179:0.49649,salvinia_cucullata_Sacu_v1.1_s1799.g028177:0.243648)n3:0.027072)n2:0.38441,klebsormidium_nitens_kfl00701_0030:0.48299)n1:0.2775)n0;

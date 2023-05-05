@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1225521:0.84748,coccomyxa_subellipsoidea_Cosub3_1358942:0.71514)n1:0.11294,((klebsormidium_nitens_kfl00665_0070:1.32594,mesostigma_viridae_Mv07241:0.51371)n3:0.32946,(spirogloea_muscicola_SM000125S26105:0.03315,(spirogloea_muscicola_SM000027S09667:0.02818,spirogloea_muscicola_SM000081S22645:0.02905)n5:0.00865)n4:1.32241)n2:0.11294)n0;

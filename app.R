@@ -2,6 +2,7 @@
 ##          Francisco J. Romero-Campero <fran@us.es>
 ##          Pedro de los Reyes 
 ##          Christina Arvanitidou
+##          Marcos Ramos-Gonzalez
 
 ## Contact & Maintainer: Francisco J. Romero-Campero <fran@us.es>
 
@@ -61,6 +62,7 @@ library(ggplot2)
 library(shiny)
 library(shinythemes)
 library(patchwork)
+library(shinyWidgets)
 
 microalgae.names <- c("Ostreococcus tauri", 
                       "Micromonas pusilla CCMP1545",
@@ -478,7 +480,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                      "Gene Set Functional Analysis" = "genes",
                      "Genomic Loci Functional Analysis" = "chip",
                      "MARACAS, MicroAlgae RnA-seq and Chip-seq AnalysiS" = "maracas",
-                     "Funtree, Phylogenomic Analysis" = "funtree",
+                     "PharaohFUN, PHylogenomic Analysis foR plAnt prOtein History and FUNction elucidation" = "funtree",
                      "Tutorials" = "tutorials",
                      "GitHub repository" = "github",
                      "Citation and Contact" = "citation"
@@ -494,7 +496,7 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                 tags$b("RNA-seq"), "and ", tags$b("ChIP-seq"), "data and the", tags$b("functional annotation"), "of the resulting gene sets and genomic loci. ",
                                 tags$b("ALGAEFUN"), "with ", tags$b("MARACAS"), "supports the analysis for a wide collection 
                of microalgae that includes", tags$i("Chlamydomonas reinhardtii, Ostreococcus tauri, Phaeodactylum tricornutum"), "and ", 
-                                tags$i("Nannochlorpsis gaditana."), "Please select from the navigation bar on the left the type of analysis you want to perform. You can also 
+                                tags$i("Nannochloropsis gaditana."), "Please select from the navigation bar on the left the type of analysis you want to perform. You can also 
                see our", tags$b("video tutorials"), "on how to analyse RNA-seq and
                ChIP-seq data as well as on how to functionally annotate gene sets and genomic loci. Our
                code is freely available at", tags$b("Github."), "Please cite our work if you find it useful in your research."),
@@ -525,45 +527,47 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       )),
       
       conditionalPanel(condition = "input.navigation_bar == 'funtree'",
-                       tags$div(align="justify", tags$b("Funtree"), "allows researchers to explore orthologous proteins across different evolutionally 
+                       tags$div(align="justify", tags$b("PharaohFUN"), "allows researchers to explore orthologous proteins across different evolutionally 
                        distant species given a target protein. To perform the analysis, please follow the next instructions:",
                                 tags$ol(
-                                  tags$li("In the lower panel choose as many species as you wish to include in the tree.",),
+                                  tags$li("Select the model which better fits your data. Currently supported models are
+                                          Viridiplantae (comprising the clades Chlorophyta and Streptophyta) and Global 
+                                          (including species from the whole Archaeplastida clade, as well as examples 
+                                          of Stramenopiles and Cryptophytes). Note that although both models contain the 
+                                          green lineage, their results may vary because the common ancestors of the groups
+                                          are very distant in time, so for a more accurate analysis it is recommended to 
+                                          use the Viridiplantae model, while for a more generalist one the Global model should
+                                          yield more information.",),
+                                  tags$li("Press the Have fun button.",),
+                                  tags$li("In the lower panel choose as many species as you wish to include in the tree. The species order follows an evolutionary
+                                          criterion, grouping species belonging to the same clade.",),
                                   tags$li("Then write the ID of your gene of interest in the textbox, which has to correspond to one of the organisms selected
                                   in the previous step. If not, please select it before continuing. An example for",tags$i("Marchantia polymorpha"), "appears in the 
                                           text box."),
+                                  tags$li("If the objective of the study is to map the evolutionary history of a gene considering 
+                                          the species involved, choose Resolved Gene Trees, which shows the reconciliation of
+                                          gene trees with the species tree. If, on the other hand, you only want to obtain a 
+                                          cladogram of similar proteins, choose Gene Trees, as it does not consider the
+                                          evolutionary history of the species during the calculation."),
                                   tags$li("Finally, click the", tags$b("Have Fun!"), "button to construct the tree. Each organism appears with an specific
                                           color detailed in legend and the target gene is highlighted in red. Also, a text box allows user to copy the names
-                                          of all the detected orthologs in a simple way."))),
-                       checkboxGroupInput(inputId = "selected_organisms",
-                                          selected = c("mp"), 
-                                          choiceNames = c("Porphyra umbilicalis","Phaeodactylum tricornutum","Nannochloropsis gaditana",
-                                                          "Cyanophora paradoxa",  "Ostreococcus tauri", "Bathycoccus prasinos",
-                                                          "Micromonas pusilla", "Ulva mutabilis", "Chromochloris zofingiensis",
-                                                          "Raphidocelis subcapitata", "Dunaliella salina", "Chlamydomonas reinhardtii", 
-                                                          "Volvox carteri", "Chlorokybus atmophyticus", "Mesostigma viride",
-                                                          "Klebsormidium nitens",  "Mesotaenium endlicherianum", "Spirogloea muscicola",
-                                                          "Marchantia polymorpha", "Sphangum magellanicum",  "Physcomitrium patens",
-                                                          "Ceratodon purpureus", "Anthoceros agrestis",  "Selaginella moellendorffii", 
-                                                          "Ceratopteris richardii", "Azolla filiculoides", "Salvinia cucullata",
-                                                          "Cycas panzhihuaensis", "Thuja plicata", "Triticum aestivum", 
-                                                          "Aegilops tauschii", "Oryza sativa", "Sorghum bicolor",
-                                                          "Zea mays", "Solanum lycopersicum", "Arabidopsis thaliana"), 
-                                          choiceValues=c("pu","pt","ng",
-                                                         "cyano","ot","bp",
-                                                         "mi","um", "cz",
-                                                         "rs", "ds", "cr",
-                                                         "vc", "ca", "mv",
-                                                         "kn", "me", "sp",
-                                                         "mp",  "smag", "pp",
-                                                         "cp", "aa", "sm",
-                                                         "cri", "af", "sc",
-                                                         "cyc", "tp", "ta",
-                                                         "aegi", "os", "sb",
-                                                         "zm", "sl","at"),
-                                          label= "Select the organisms to show in tree"),
-                       textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160"),
-                       actionButton(inputId = "funtree_button",label = "Have fun!", icon("send"))
+                                          of all the detected orthologs in a simple way. The generated tree can be downloaded as an image and in Newick format
+                                          for use by other phylogenetic analysis tools. In addition, both the names of the genes contained in the tree and the
+                                          sequences of the proteins encoded by its primary transcript can be downloaded using the respective buttons."),
+                                  tags$li("After generating the tree, navigate through the rest of the tabs and follow the instructions to perform different analyses 
+                                          on the genes listed in the tree."),
+                                  tags$li("Exceptions are the Download Genomes and Identify Sequences tabs. After choosing the model, these tabs can be used 
+                                          without defining species or generating the tree. Particularly useful is the Identify Sequences tab, which allows 
+                                          the user to enter sequences to return the ID of the most similar protein in the dataset. The Download Genomes tab 
+                                          allows for the download of the genomes used in the development of PharaohFUN."),
+                                  tags$li("To change the model, refresh the page."))),
+                       img(src='pharaohlogo.jpeg', align="right", width=250),
+                       selectizeInput(inputId = "evo_type",
+                                      choices=c("Global", 
+                                                "Viridiplantae"), 
+                                      label = "Select the type of tree to plot",
+                                      multiple = F, selected = NULL),
+                       actionButton(inputId = "evo_button",label = "Have fun!", icon("send")),
                        
       ),
       
@@ -951,68 +955,288 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
       ## genomic loci functional annotation
       
       conditionalPanel(condition = "input.navigation_bar == 'funtree'",
+                       uiOutput(outputId = "org_sel_tree"),
+                       uiOutput(outputId = "org_sel_tree2"),
+                       uiOutput(outputId = "org_sel_tree3"),
+                       uiOutput(outputId = "org_sel_tree4"),
                        tabsetPanel(type = "tabs",
-                          tabPanel(tags$b("Genes Tree"),
-                               tags$br(), 
-                               uiOutput(outputId = "download_tips"),
-                               tags$br(),
-                               verbatimTextOutput(outputId = "treeTips"),
-                               tags$br(),
-                               uiOutput(outputId = "download_tree"),
-                               tags$br(),
-                               plotOutput("treePlot")
-                               ),
-                          tabPanel(tags$b("Pfam domains"),
-                                   tags$br(),
-                                   actionButton(inputId = "pfam_start",
-                                     label = "Show Gene Selection for Pfam", icon("send")),
-                                   tags$br(),
-                                   tags$br(),
-                                   tags$br(),
-                                   tags$br(),
-                                   tags$br(),
-                                   conditionalPanel(
-                                     condition = "input.pfam_start",
-                                     uiOutput(outputId = "selected_pfams"),
-                                     # checkboxGroupInput(inputId = "selected_pfams",
-                                     #                    selected = NULL,
-                                     #                    choiceNames = NULL,
-                                     #                    choiceValues= NULL,
-                                     #                    label = "Select the desired genes from the tree"),
-                                     actionButton(inputId = "pfam_selection",
-                                                  label = "Show Pfam Domains", icon("send")),
-                                   tags$br(),
-                                   tags$br(),
-                                   uiOutput(outputId = "download_ui_for_pfam_table"),
-                                   tags$br(),
-                                   dataTableOutput(outputId = "output_pfam_table"),
-                                   tags$br(),
-                                   tags$br(),
-                                   uiOutput(outputId = "pfam_down_button"),
-                                   tags$br(),
-                                   plotOutput("pfam_plot"),
-                                   tags$br()
+                                   tabPanel(tags$b("Genes Tree"),
+                                            tags$br(), 
+                                            uiOutput(outputId = "download_tips"),
+                                            tags$br(),
+                                            verbatimTextOutput(outputId = "treeTips"),
+                                            tags$br(),
+                                            splitLayout(cellWidths = c("33%", "33%", "33%"), uiOutput(outputId = "download_tree"),
+                                                        uiOutput(outputId = "download_newick"),
+                                                        uiOutput(outputId = "download_tree_seqs")),
+                                            tags$br(),
+                                            imageOutput("treePlot")
+                                            
+                                   ),
+                                   tabPanel(tags$b("Orthogroup Expansion/Contraction"),
+                                            tags$br(),
+                                            tags$div(align="justify", "Press the Show Orthogroup Evolution button to 
+                                            visualize the expansions and contractions in orthogroup size across
+                                            the different branches of the species tree. Only orthogroups that have 
+                                            significantly undergone these processes are shown. Note that only orthogroups
+                                            present at the root of the tree are analyzed. Orthogroups present in 
+                                            less than 10 species or with a great difference in gene copies between species
+                                            are also excluded."),
+                                            tags$br(),
+                                            actionButton(inputId = "cafe_start",
+                                                         label = "Show Orthogroup Evolution", icon("send")),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.cafe_start",
+                                              uiOutput(outputId = "error_cafe"),
+                                              tags$br(),
+                                              splitLayout(cellWidths = c("50%", "50%"), uiOutput(outputId = "cafe_down_button"),
+                                                          uiOutput(outputId = "cafe_tree_down")),
+                                              tags$br(),
+                                              imageOutput("cafe_plot"),
+                                              tags$br()
+                                              
+                                            )),
+                                   tabPanel(tags$b("Pfam domains"),
+                                            tags$br(),
+                                            tags$div(align="justify", "Next, click on the Show Gene Selection for Pfam  button, 
+                                            select the desired proteins from the tree and click 
+                                            on the Show Pfam Domains button to determine their PFAM domains. A table with 
+                                            the domains of each protein and their positions will be displayed, 
+                                            as well as a plot showing the same information. Warning: this process may take
+                                            a long time in the case of selecting many proteins."),
+                                            tags$br(),
+                                            actionButton(inputId = "pfam_start",
+                                                         label = "Show Gene Selection for Pfam", icon("send")),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.pfam_start",
+                                              uiOutput(outputId = "selected_pfams"),
+                                              actionButton(inputId = "pfam_selection",
+                                                           label = "Show Pfam Domains", icon("send")),
+                                              tags$br(),
+                                              tags$br(),
+                                              uiOutput(outputId = "download_ui_for_pfam_table"),
+                                              tags$br(),
+                                              dataTableOutput(outputId = "output_pfam_table"),
+                                              tags$br(),
+                                              tags$br(),
+                                              uiOutput(outputId = "pfam_down_button"),
+                                              tags$br(),
+                                              imageOutput("pfam_plot"),
+                                              tags$br()
+                                              
+                                            )),
+                                   tabPanel(tags$b("Multiple Sequence Alignments"),
+                                            tags$br(),
+                                            tags$div(align="justify", "Next, click on the Show Gene Selection for MSA button, 
+                                            select the desired proteins from the tree and click 
+                                            on the Compute MSA button to show the alignment. The alignment is shown 
+                                            as text, including the consensus sequence. For a graphical representation with 
+                                            the different aminoacids colored according to their chemical nature, click on 
+                                            the download button. The aligned sequences can also be download as a FASTA file.
+                                            Warning: This process (specially the colored download) may take a long time in the case
+                                            of selecting many proteins."),
+                                            tags$br(),
+                                            actionButton(inputId = "msa_start",
+                                                         label = "Show Gene Selection for MSA", icon("send")),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.msa_start",
+                                              uiOutput(outputId = "selected_msa"),
+                                              actionButton(inputId = "msa_selection",
+                                                           label = "Compute MSA", icon("send")),
+                                              tags$br(),
+                                              splitLayout(cellWidths = c("50%", "50%"), uiOutput(outputId = "msa_plot"),
+                                                          uiOutput(outputId = "msa_fasta")),
+                                              tags$br(),
+                                              verbatimTextOutput("msa_print"),
+                                              
+                                            )),
                                    
-                          )),
-                          tabPanel(tags$b("Multiple Sequence Alignments"),
-                                   tags$br(),
-                                   actionButton(inputId = "msa_start",
-                                                label = "Show Gene Selection for MSA", icon("send")),
-                                   tags$br(),
-                                   tags$br(),
-                                   tags$br(),
-                                   tags$br(),
-                                   conditionalPanel(
-                                     condition = "input.msa_start",
-                                     uiOutput(outputId = "selected_msa"),
-                                     #uiOutput(outputId = "selected_type_msa"),
-                                     actionButton(inputId = "msa_selection",
-                                                  label = "Compute MSA", icon("send")),
-                                     tags$br(),
-                                     uiOutput(outputId = "msa_plot"),
-                                     verbatimTextOutput("msa_print"),
-                                     
-                                   ))
+                                   tabPanel(tags$b("GO terms"),
+                                            tags$br(),
+                                            tags$div(align="justify", "Click on the button to select the genes of 
+                                            interest from the tree and select the ontology type to display
+                                            the GO terms associated with those genes. After pressing the
+                                            Show GO terms button, the results are displayed in tabular form and are 
+                                            accompanied by a GO association plot (each node is a GO and an 
+                                            edge is drawn between two nodes if a gene has both terms) and 
+                                            a treeplot showing the hierarchy of the identified terms and 
+                                            their summary."),
+                                            tags$br(),
+                                            actionButton(inputId = "gos_start",
+                                                         label = "Show Gene Selection for GO terms visualization", icon("send")),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.gos_start",
+                                              uiOutput(outputId = "selected_gos"),
+                                              uiOutput(outputId = "selected_gos_mode"),
+                                              actionButton(inputId = "gos_selection",
+                                                           label = "Show GO terms", icon("send")),
+                                              tags$br(),
+                                              tags$br(),
+                                              uiOutput(outputId = "error_gos"),
+                                              uiOutput(outputId = "download_ui_for_gos_table"),
+                                              tags$br(),
+                                              dataTableOutput(outputId = "output_gos_table"),
+                                              tags$br(),
+                                              tags$br(),
+                                              splitLayout(cellWidths = c("50%", "50%"), uiOutput(outputId = "gos_down_button"),
+                                                          uiOutput(outputId = "tree_gos_down_button")),
+                                              tags$br(),
+                                              tags$br(),
+                                              splitLayout(cellWidths = c("50%", "50%"), imageOutput("gos_plot"), imageOutput("gos_treeplot")),
+                                              
+                                            )),
+                                   
+                                   tabPanel(tags$b("KEGG orthology"),
+                                            tags$br(),
+                                            tags$div(align="justify", "Click on the button to select the genes of 
+                                            interest from the tree and press the Show KEGG information
+                                            button to show the results. These include a table showing the 
+                                            KEGG Orthology IDs, indicating how many and which of the selected
+                                            proteins correspond to each ID. In addition, the application performs 
+                                            an enrichment in KEGG pathways from the identified KOs and allows 
+                                            for the plotting of these pathways with the genes mapped onto them, 
+                                            using a selector to choose the pathway in case several enriched ones exist.
+                                            Warning: this process may take a long time in the case of selecting many 
+                                            proteins."),
+                                            tags$br(),
+                                            actionButton(inputId = "kos_start",
+                                                         label = "Show Gene Selection for KEGG orthology and pathways visualization",
+                                                         icon("send")),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.kos_start",
+                                              uiOutput(outputId = "selected_kos"),
+                                              actionButton(inputId = "kos_selection",
+                                                           label = "Show KEGG information", icon("send")),
+                                              tags$br(),
+                                              tags$br(),
+                                              uiOutput(outputId = "error_kos1"),
+                                              tags$br(),
+                                              uiOutput(outputId = "download_ui_for_kos_table"),
+                                              tags$br(),
+                                              dataTableOutput(outputId = "output_kos_table"),
+                                              tags$br(),
+                                              uiOutput(outputId = "error_kos2"),
+                                              tags$br(),
+                                              uiOutput(outputId = "download_ui_for_kegg_table"),
+                                              tags$br(),
+                                              dataTableOutput(outputId = "output_kegg_table"),
+                                              tags$br(),
+                                              uiOutput(outputId = "kegg_down_button"),
+                                              tags$br(),
+                                              uiOutput(outputId = "selected_paths"),
+                                              tags$br(),
+                                              tags$br(),
+                                              splitLayout(cellWidths = c("50%", "50%"), uiOutput(outputId = "paths_button"),
+                                                          uiOutput(outputId = "path_download_ui")),
+                                              imageOutput("path_image"),
+                                              tags$br()
+                                              
+                                            )),
+                                   
+                                   tabPanel(tags$b("Download genomes"),
+                                            tags$br(),
+                                            tags$div(align="justify", "Select the desired organism and press the button to choose a genome 
+                                            (the amino acid sequences corresponding  o the main transcript of each gene) used in the 
+                                            development of the tool with the ID considered for each sequence. Then press the download button to download 
+                                            it. To change the organism, select the new one and press again the Acess genome files button
+                                            to update the genome before downloading."),
+                                            tags$br(),
+                                            selectInput(inputId = "genome_sel",
+                                                        choices=c("Phaeodactylum tricornutum","Nannochloropsis gaditana", "Saccharina japonica",
+                                                                  "Guillardia theta", "Cryptophyceae CCMP2293", "Cyanidioschyzon merolae",
+                                                                  "Galdieria sulphuraria", "Gracilariopsis chorda", "Porphyra umbilicalis",
+                                                                  "Cyanophora paradoxa", "Ostreococcus tauri", "Bathycoccus prasinos",
+                                                                  "Micromonas pusilla", "Ulva mutabilis", "Coccomyxa subellipsoidea",
+                                                                  "Chromochloris zofingiensis", "Scenedesmus obliquus", "Raphidocelis subcapitata",
+                                                                  "Chlamydomonas reinhardtii", "Volvox carteri", "Dunaliella salina",
+                                                                  "Haematococcus lacustris", "Mesostigma viride", "Chlorokybus atmophyticus",
+                                                                  "Klebsormidium nitens", "Chara braunii", "Spirogloea muscicola",
+                                                                  "Mesotaenium endlicherianum", "Marchantia polymorpha", "Sphagnum magellanicum",
+                                                                  "Physcomitrium patens", "Ceratodon purpureus", "Anthoceros agrestis",
+                                                                  "Selaginella moellendorffii", "Ceratopteris richardii", "Salvinia cucullata",
+                                                                  "Azolla filiculoides", "Thuja plicata", "Cycas panzhihuaensis", 
+                                                                  "Aegilops tauschii", "Triticum aestivum", "Oryza sativa", 
+                                                                  "Sorghum bicolor", "Zea mays", "Solanum lycopersicum", "Arabidopsis thaliana"), 
+                                                        label = "Select the organism", 
+                                                        selected = "Phaeodactylum tricornutum",
+                                                        multiple = F),
+                                            actionButton(inputId = "access_genomes",
+                                                         label = "Acess genome files", icon("send")),
+                                            tags$br(),
+                                            tags$br(),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.access_genomes",
+                                              tags$br(),
+                                              uiOutput(outputId = "genomes_download")
+                                              
+                                            )),
+                                   
+                                   tabPanel(tags$b("Identify sequences"),
+                                            tags$br(),
+                                            tags$div(align="justify", "To avoid mismatches between theentered gene 
+                                            IDs  and those used by the application, in this tab you can 
+                                            paste the sequence of the protein to be analyzed and select the working 
+                                            species. The result will be a single-element
+                                            table with the best identity result, indicating the similarity of 
+                                            the protein entered with the protein used by the application. The ID
+                                            shown in the table can be then used for performing the analysis."),
+                                            tags$br(),
+                                            textAreaInput(inputId = "seq_ident", 
+                                                          label= "Insert a protein chain", 
+                                                          width="200%", height = "200px", 
+                                                          placeholder = "Insert a protein chain",
+                                                          value= ""),
+                                            selectInput(inputId = "org_ident",
+                                                        choices=c("Phaeodactylum tricornutum","Nannochloropsis gaditana", "Saccharina japonica",
+                                                                  "Guillardia theta", "Cryptophyceae CCMP2293", "Cyanidioschyzon merolae",
+                                                                  "Galdieria sulphuraria", "Gracilariopsis chorda", "Porphyra umbilicalis",
+                                                                  "Cyanophora paradoxa", "Ostreococcus tauri", "Bathycoccus prasinos",
+                                                                  "Micromonas pusilla", "Ulva mutabilis", "Coccomyxa subellipsoidea",
+                                                                  "Chromochloris zofingiensis", "Scenedesmus obliquus", "Raphidocelis subcapitata",
+                                                                  "Chlamydomonas reinhardtii", "Volvox carteri", "Dunaliella salina",
+                                                                  "Haematococcus lacustris", "Mesostigma viride", "Chlorokybus atmophyticus",
+                                                                  "Klebsormidium nitens", "Chara braunii", "Spirogloea muscicola",
+                                                                  "Mesotaenium endlicherianum", "Marchantia polymorpha", "Sphagnum magellanicum",
+                                                                  "Physcomitrium patens", "Ceratodon purpureus", "Anthoceros agrestis",
+                                                                  "Selaginella moellendorffii", "Ceratopteris richardii", "Salvinia cucullata",
+                                                                  "Azolla filiculoides", "Thuja plicata", "Cycas panzhihuaensis", 
+                                                                  "Aegilops tauschii", "Triticum aestivum", "Oryza sativa", 
+                                                                  "Sorghum bicolor", "Zea mays", "Solanum lycopersicum", "Arabidopsis thaliana"), 
+                                                        label = "Select the organism to which the protein belongs", 
+                                                        selected = "Arabidopsis thaliana",
+                                                        multiple = F),
+                                            actionButton(inputId = "button_ident",
+                                                         label = "Get protein ID", icon("send")),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.button_ident",
+                                              dataTableOutput(outputId = "seq_ident_table")
+                                              
+                                            ))
                        )),
       
       conditionalPanel(condition = "input.navigation_bar == 'chip'",
@@ -3192,13 +3416,133 @@ assocated to the enriched pathway represented in the corresponding row."
   })
   
   # Activate Funtree panel when selected
-  observeEvent(input$funtree_button, {
-    og.name <- eventReactive(input$funtree_button,{
+  observeEvent(input$evo_button, {
+    shinyjs::hideElement(id = 'evo_button')
+    if (input$evo_type == "Global")
+    {
+      output$org_sel_tree <- renderUI({
+        checkboxGroupInput(inputId = "selected_organisms",
+                           selected = NULL, 
+                           choiceNames = c("Phaeodactylum tricornutum","Nannochloropsis gaditana", "Saccharina japonica",
+                                           "Guillardia theta", "Cryptophyceae CCMP2293", "Cyanidioschyzon merolae",
+                                           "Galdieria sulphuraria", "Gracilariopsis chorda", "Porphyra umbilicalis",
+                                           "Cyanophora paradoxa", "Ostreococcus tauri", "Bathycoccus prasinos",
+                                           "Micromonas pusilla", "Ulva mutabilis", "Coccomyxa subellipsoidea",
+                                           "Chromochloris zofingiensis", "Scenedesmus obliquus", "Raphidocelis subcapitata",
+                                           "Chlamydomonas reinhardtii", "Volvox carteri", "Dunaliella salina",
+                                           "Haematococcus lacustris", "Mesostigma viride", "Chlorokybus atmophyticus",
+                                           "Klebsormidium nitens", "Chara braunii", "Spirogloea muscicola",
+                                           "Mesotaenium endlicherianum", "Marchantia polymorpha", "Sphagnum magellanicum",
+                                           "Physcomitrium patens", "Ceratodon purpureus", "Anthoceros agrestis",
+                                           "Selaginella moellendorffii", "Ceratopteris richardii", "Salvinia cucullata",
+                                           "Azolla filiculoides", "Thuja plicata", "Cycas panzhihuaensis", 
+                                           "Aegilops tauschii", "Triticum aestivum", "Oryza sativa", 
+                                           "Sorghum bicolor", "Zea mays", "Solanum lycopersicum", "Arabidopsis thaliana"), 
+                           choiceValues=c("pt","ng", "saccha",
+                                          "guilla", "crypto", "cymero",
+                                          "galsul", "gracichor", "pu",
+                                          "cyano","ot", "bp",
+                                          "mi","um", "cocco",
+                                          "cz", "sceobli", "rs",
+                                          "cr", "vc", "ds",
+                                          "haema", "mv", "ca",
+                                          "kn", "chara", "sp",
+                                          "me", "mp", "smag",
+                                          "pp", "cp", "aa", 
+                                          "sm", "cri", "sc",
+                                          "af", "tp", "cyc",
+                                          "aegi", "ta", "os",
+                                          "sb","zm", "sl", "at"),
+                           
+                           label= "Select the organisms to show in tree")
+      })
+      
+      output$org_sel_tree2 <- renderUI({
+        
+        textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160")
+      })
+      
+      output$org_sel_tree3 <- renderUI({
+        selectInput(inputId = "tree_type",
+                    choices=c("Gene tree" = "Gene_Trees",
+                              "Resolved gene tree" = "Resolved_Gene_Trees"),
+                    label = "Select the type of tree to plot",
+                    multiple = F, selected = c("Resolved_Gene_Trees"))
+      })
+      
+      output$org_sel_tree4 <- renderUI({
+        actionButton(inputId = "funtree_button",label = "Have fun!", icon("send"))
+      })
+    }
+    
+    else if(input$evo_type == "Viridiplantae")
+    {
+      output$org_sel_tree <- renderUI({
+        checkboxGroupInput(inputId = "selected_organisms",
+                           selected = NULL, 
+                           choiceNames = c("Ostreococcus tauri", "Bathycoccus prasinos",
+                                           "Micromonas pusilla", "Ulva mutabilis", "Coccomyxa subellipsoidea",
+                                           "Chromochloris zofingiensis", "Scenedesmus obliquus", "Raphidocelis subcapitata",
+                                           "Chlamydomonas reinhardtii", "Volvox carteri", "Dunaliella salina",
+                                           "Haematococcus lacustris", "Mesostigma viride", "Chlorokybus atmophyticus",
+                                           "Klebsormidium nitens", "Chara braunii", "Spirogloea muscicola",
+                                           "Mesotaenium endlicherianum", "Marchantia polymorpha", "Sphagnum magellanicum",
+                                           "Physcomitrium patens", "Ceratodon purpureus", "Anthoceros agrestis",
+                                           "Selaginella moellendorffii", "Ceratopteris richardii", "Salvinia cucullata",
+                                           "Azolla filiculoides", "Thuja plicata", "Cycas panzhihuaensis", 
+                                           "Aegilops tauschii", "Triticum aestivum", "Oryza sativa", 
+                                           "Sorghum bicolor", "Zea mays", "Solanum lycopersicum", "Arabidopsis thaliana"), 
+                           choiceValues=c("ot", "bp",
+                                          "mi","um", "cocco",
+                                          "cz", "sceobli", "rs",
+                                          "cr", "vc", "ds",
+                                          "haema", "mv", "ca",
+                                          "kn", "chara", "sp",
+                                          "me", "mp", "smag",
+                                          "pp", "cp", "aa", 
+                                          "sm", "cri", "sc",
+                                          "af", "tp", "cyc",
+                                          "aegi", "ta", "os",
+                                          "sb","zm", "sl", "at"),
+                           label= "Select the organisms to show in tree")
+      })
+      output$org_sel_tree2 <- renderUI({
+        
+        textInput(inputId = "geneInt",value = "",label = NULL, placeholder = "Mp5g22160")
+      })
+      
+      output$org_sel_tree3 <- renderUI({
+        selectInput(inputId = "tree_type",
+                    choices=c("Gene tree" = "Green_Gene_Trees",
+                              "Resolved gene tree" = "Green_Resolved_Gene_Trees"),
+                    label = "Select the type of tree to plot",
+                    multiple = F, selected = c("Green_Resolved_Gene_Trees"))
+      })
+      
+      output$org_sel_tree4 <- renderUI({
+        actionButton(inputId = "funtree_button",label = "Have fun!", icon("send"))
+      })
+      
+      
+    }
+    
+    og.name <- reactive({
       
       gene.name.tree <- input$geneInt
-      
+      # Create a variable for accesing global or viridiplantae model
+      {
+        if (input$evo_type == "Global")
+        {
+          tree_model <- ""
+        }
+        else
+        {
+          tree_model <- "Green_"
+        }
+      }
       # Load table with orthogroups information
-      ortho.table <- read.csv("Resolved_Gene_Trees/Orthogroups.tsv", header = T, sep = "\t", as.is = T,
+      ortho.table <- read.csv(paste0(tree_model,"Resolved_Gene_Trees/Orthogroups.tsv", collapse=""), 
+                              header = T, sep = "\t", as.is = T,
                               fill = T, blank.lines.skip = F)
       # Find orthogroup of target gene
       found <- F
@@ -3221,14 +3565,13 @@ assocated to the enriched pathway represented in the corresponding row."
       # Error if orthogroup not found
       validate(need(!is.null(file.name),"No results for this query due to not supported gene name or 
                     lack of orthologs in the selected organisms"))
-      
       return(file.name)
-    })
+    }) %>% bindEvent(input$funtree_button)
     
     tree <- reactive({
       file.name <- og.name()
-      # Load gene tree file
-      tree.name <- paste("Resolved_Gene_Trees",paste(file.name, "tree.txt", sep = "_"), sep="/")
+      # Load gene tree file depending on the input (resolved or not)
+      tree.name <- paste(as.character(input$tree_type),paste(file.name, "tree.txt", sep = "_"), sep="/")
       
       # Error if tree file not found
       validate(need(file.exists(tree.name),"No results for this query due to not supported gene name or 
@@ -3236,12 +3579,24 @@ assocated to the enriched pathway represented in the corresponding row."
       
       tree <- read.tree(tree.name)
       return(tree)
-    })
+    }) %>% bindEvent(input$funtree_button)
     
     ortho_seq <- reactive({
       file.name <- og.name()
+      
+      # Create a variable for accesing global or viridiplantae model
+      {
+        if (input$evo_type == "Global")
+        {
+          tree_model <- ""
+        }
+        else
+        {
+          tree_model <- "Green_"
+        }
+      }
       # Load orthogroup sequences file
-      ortho.seq.name <- paste("Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/")
+      ortho.seq.name <- paste(paste0(tree_model,"Orthogroup_Sequences"),paste(file.name, "fa", sep = "."), sep="/")
       
       # Error if tree file not found
       validate(need(file.exists(ortho.seq.name),"No results for this query due to not supported gene name or 
@@ -3491,7 +3846,7 @@ assocated to the enriched pathway represented in the corresponding row."
       tips_to_keep.smag <- c()
       if ("smag" %in% organisms.list)
       {
-        tips_to_keep.smag <- grep(pattern = "sphagum",tree$tip.label)
+        tips_to_keep.smag <- grep(pattern = "sphagnum",tree$tip.label)
       }
       return(tips_to_keep.smag)
     })
@@ -3603,7 +3958,7 @@ assocated to the enriched pathway represented in the corresponding row."
       }
       return(tips_to_keep.cyano)
     })
-  
+    
     tips_to_keep.ca <- reactive({
       
       tree <- tree()
@@ -3676,6 +4031,126 @@ assocated to the enriched pathway represented in the corresponding row."
       return(tips_to_keep.sb)
     })
     
+    tips_to_keep.chara <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.chara <- c()
+      if ("chara" %in% organisms.list)
+      {
+        tips_to_keep.chara <- grep(pattern = "chara",tree$tip.label)
+      }
+      return(tips_to_keep.chara)
+    })
+    
+    tips_to_keep.guilla <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.guilla <- c()
+      if ("guilla" %in% organisms.list)
+      {
+        tips_to_keep.guilla <- grep(pattern = "guillardia",tree$tip.label)
+      }
+      return(tips_to_keep.guilla)
+    })
+    
+    tips_to_keep.crypto <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.crypto <- c()
+      if ("crypto" %in% organisms.list)
+      {
+        tips_to_keep.crypto <- grep(pattern = "cryptophyceae",tree$tip.label)
+      }
+      return(tips_to_keep.crypto)
+    })
+    
+    tips_to_keep.cymero <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.cymero <- c()
+      if ("cymero" %in% organisms.list)
+      {
+        tips_to_keep.cymero <- grep(pattern = "cyanidioschyzon",tree$tip.label)
+      }
+      return(tips_to_keep.cymero)
+    })
+    
+    tips_to_keep.galsul <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.galsul <- c()
+      if ("galsul" %in% organisms.list)
+      {
+        tips_to_keep.galsul <- grep(pattern = "galdieria",tree$tip.label)
+      }
+      return(tips_to_keep.galsul)
+    })
+    
+    tips_to_keep.gracichor <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.gracichor <- c()
+      if ("gracichor" %in% organisms.list)
+      {
+        tips_to_keep.gracichor <- grep(pattern = "gracilariopsis",tree$tip.label)
+      }
+      return(tips_to_keep.gracichor)
+    })
+    
+    tips_to_keep.sceobli <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.sceobli <- c()
+      if ("sceobli" %in% organisms.list)
+      {
+        tips_to_keep.sceobli <- grep(pattern = "scenedesmus",tree$tip.label)
+      }
+      return(tips_to_keep.sceobli)
+    })
+    
+    tips_to_keep.cocco <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.cocco <- c()
+      if ("cocco" %in% organisms.list)
+      {
+        tips_to_keep.cocco <- grep(pattern = "coccomyxa",tree$tip.label)
+      }
+      return(tips_to_keep.cocco)
+    })
+    
+    tips_to_keep.saccha <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.saccha <- c()
+      if ("saccha" %in% organisms.list)
+      {
+        tips_to_keep.saccha <- grep(pattern = "saccharina",tree$tip.label)
+      }
+      return(tips_to_keep.saccha)
+    })
+    
+    tips_to_keep.haema <- reactive({
+      
+      tree <- tree()
+      organisms.list <- c(input$selected_organisms)
+      tips_to_keep.haema <- c()
+      if ("haema" %in% organisms.list)
+      {
+        tips_to_keep.haema <- grep(pattern = "haematococcus",tree$tip.label)
+      }
+      return(tips_to_keep.haema)
+    })
+    
     tips_to_keep.zm <- reactive({
       
       tree <- tree()
@@ -3686,11 +4161,11 @@ assocated to the enriched pathway represented in the corresponding row."
         tips_to_keep.zm <- grep(pattern = "mays",tree$tip.label)
       }
       return(tips_to_keep.zm)
-    })
+    }) %>% bindEvent(input$funtree_button)
     
- 
     
-  # Create complete gene tree with the proper name for each gene
+    
+    # Create complete gene tree with the proper name for each gene
     tree_adj <- reactive({
       tree <- tree()
       organisms.list <- c(input$selected_organisms)
@@ -3898,7 +4373,7 @@ assocated to the enriched pathway represented in the corresponding row."
       
       if ("smag" %in% organisms.list)
       {
-        tips_to_keep.smag <- grep(pattern = "sphangum",tree$tip.label)
+        tips_to_keep.smag <- grep(pattern = "sphagnum",tree$tip.label)
         if (length(tips_to_keep.smag) != 0)
         {
           smag.v <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.smag]), "_"), function(x) x[[3]])
@@ -4077,6 +4552,119 @@ assocated to the enriched pathway represented in the corresponding row."
         }
       }
       
+      if ("chara" %in% organisms.list)
+      {
+        tips_to_keep.chara <- grep(pattern = "chara",tree$tip.label)
+        if (length(tips_to_keep.chara) != 0)
+        {
+          chara.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.chara]), "_"), function(x) x[[3]])
+          chara.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.chara]), "_"), function(x) x[[4]])
+          chara.v <- paste(chara.v1, chara.v2, sep = "_")
+          tree$tip.label[tips_to_keep.chara] <- chara.v
+        }
+      }
+      
+      if ("guilla" %in% organisms.list)
+      {
+        tips_to_keep.guilla <- grep(pattern = "guillardia",tree$tip.label)
+        if (length(tips_to_keep.guilla) != 0)
+        {
+          guilla.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.guilla]), "_"), function(x) x[[3]])
+          guilla.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.guilla]), "_"), function(x) x[[4]])
+          guilla.v <- paste(guilla.v1, guilla.v2, sep = "_")
+          tree$tip.label[tips_to_keep.guilla] <- guilla.v
+        }
+      }
+      
+      if ("crypto" %in% organisms.list)
+      {
+        tips_to_keep.crypto <- grep(pattern = "cryptophyceae",tree$tip.label)
+        if (length(tips_to_keep.crypto) != 0)
+        {
+          crypto.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.crypto]), "_"), function(x) x[[3]])
+          crypto.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.crypto]), "_"), function(x) x[[4]])
+          crypto.v3 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.crypto]), "_"), function(x) x[[5]])
+          crypto.v <- paste(crypto.v1, crypto.v2, crypto.v3, sep = "_")
+          tree$tip.label[tips_to_keep.crypto] <- crypto.v
+        }
+      }
+      
+      if ("cymero" %in% organisms.list)
+      {
+        tips_to_keep.cymero <- grep(pattern = "cyanidioschyzon",tree$tip.label)
+        if (length(tips_to_keep.cymero) != 0)
+        {
+          cymero.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cymero]), "_"), function(x) x[[3]])
+          cymero.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cymero]), "_"), function(x) x[[4]])
+          cymero.v <- paste(cymero.v1, cymero.v2, sep = "_")
+          tree$tip.label[tips_to_keep.cymero] <- cymero.v
+        }
+      }
+      
+      if ("galsul" %in% organisms.list)
+      {
+        tips_to_keep.galsul <- grep(pattern = "galdieria",tree$tip.label)
+        if (length(tips_to_keep.galsul) != 0)
+        {
+          galsul.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.galsul]), "_"), function(x) x[[3]])
+          galsul.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.galsul]), "_"), function(x) x[[4]])
+          galsul.v <- paste(galsul.v1, galsul.v2, sep = "_")
+          tree$tip.label[tips_to_keep.galsul] <- galsul.v
+        }
+      }
+      
+      if ("gracichor" %in% organisms.list)
+      {
+        tips_to_keep.gracichor <- grep(pattern = "gracilariopsis",tree$tip.label)
+        if (length(tips_to_keep.gracichor) != 0)
+        {
+          gracichor.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.gracichor]), "_"), function(x) x[[3]])
+          tree$tip.label[tips_to_keep.gracichor] <- gracichor.vec1
+        }
+      }
+      
+      if ("sceobli" %in% organisms.list)
+      {
+        tips_to_keep.sceobli <- grep(pattern = "scenedesmus",tree$tip.label)
+        if (length(tips_to_keep.sceobli) != 0)
+        {
+          sceobli.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.sceobli]), "_"), function(x) x[[3]])
+          tree$tip.label[tips_to_keep.sceobli] <- sceobli.vec1
+        }
+      }
+      
+      if ("cocco" %in% organisms.list)
+      {
+        tips_to_keep.cocco <- grep(pattern = "coccomyxa",tree$tip.label)
+        if (length(tips_to_keep.cocco) != 0)
+        {
+          cocco.v1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cocco]), "_"), function(x) x[[3]])
+          cocco.v2 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.cocco]), "_"), function(x) x[[4]])
+          cocco.v <- paste(cocco.v1, cocco.v2, sep = "_")
+          tree$tip.label[tips_to_keep.cocco] <- cocco.v
+        }
+      }
+      
+      if ("saccha" %in% organisms.list)
+      {
+        tips_to_keep.saccha <- grep(pattern = "saccharina",tree$tip.label)
+        if (length(tips_to_keep.saccha) != 0)
+        {
+          saccha.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.saccha]), "_"), function(x) x[[3]])
+          tree$tip.label[tips_to_keep.saccha] <- saccha.vec1
+        }
+      }
+      
+      if ("haema" %in% organisms.list)
+      {
+        tips_to_keep.haema <- grep(pattern = "haematococcus",tree$tip.label)
+        if (length(tips_to_keep.haema) != 0)
+        {
+          haema.vec1 <- sapply(strsplit(as.character(tree$tip.label[tips_to_keep.haema]), "_"), function(x) x[[3]])
+          tree$tip.label[tips_to_keep.haema] <- haema.vec1
+        }
+      }
+      
       if ("zm" %in% organisms.list)
       {
         tips_to_keep.zm <- grep(pattern = "mays",tree$tip.label)
@@ -4088,9 +4676,9 @@ assocated to the enriched pathway represented in the corresponding row."
       }
       
       return(tree)
-    })
+    }) %>% bindEvent(input$funtree_button)
     # Generate reduced tree when the corresponding button is activated
-    tree_reduced <- eventReactive(input$funtree_button,{
+    tree_reduced <- reactive({
       
       tree <- tree_adj()
       # Define tips to keep (selected organisms) and generate the reduced tree
@@ -4102,34 +4690,37 @@ assocated to the enriched pathway represented in the corresponding row."
                                tips_to_keep.tp(), tips_to_keep.aa(), tips_to_keep.um(), tips_to_keep.rs(),
                                tips_to_keep.cyc(), tips_to_keep.pu(), tips_to_keep.pt(), tips_to_keep.ng(),
                                tips_to_keep.cyano(), tips_to_keep.ca(), tips_to_keep.mv(), tips_to_keep.af(),
-                               tips_to_keep.sc(), tips_to_keep.aegi(), tips_to_keep.sb(), tips_to_keep.zm())
+                               tips_to_keep.sc(), tips_to_keep.aegi(), tips_to_keep.sb(), tips_to_keep.chara(),
+                               tips_to_keep.guilla(), tips_to_keep.crypto(), tips_to_keep.cymero(), tips_to_keep.galsul(),
+                               tips_to_keep.gracichor(), tips_to_keep.sceobli(), tips_to_keep.cocco(), tips_to_keep.saccha(),
+                               tips_to_keep.haema(),tips_to_keep.zm())
       validate(need(length(tips_to_keep.global) > 1,"Unable to construct tree with a single tip, please select more
                     organisms"))
-     
+      
       tips_to_drop <- setdiff(1:length(tree$tip.label), tips_to_keep.global)
       tree_reduced <- drop.tip(tree, tips_to_drop)
+      # print(tree_reduced)
       return(tree_reduced)
-    })
+    }) %>% bindEvent(input$funtree_button)
     
     ### Select orthogroup sequences based on the reduced tree
-    ortho_reduced <- eventReactive(input$funtree_button,{
+    ortho_reduced <- reactive({
       
       tree_reduced <- tree_reduced()
       ortho_seq <- ortho_seq()
-      getName(ortho_seq)
       ortho_reduced <- ortho_seq[tree_reduced$tip.label]
       return(ortho_reduced)
-    })
+    }) %>% bindEvent(input$funtree_button)
     
     output$treeTips <- renderPrint({
-      #validate(need(!is.null(tree_reduced()$tip.label),"No results for this query due to not supported gene name or 
+      #validate(need(!is.null(tree_reduced()$tip.label),"No results for this query due to not supported gene name or
       #              lack of homologs in the selected organisms"))
       cat(tree_reduced()$tip.label)
-    })
+    }) %>% bindEvent(input$funtree_button)
     # Create UI for download buttons
     output$download_tips<- renderUI(
       tagList(downloadButton(outputId= "downloadTips", "Download Tree Tips"))
-    )
+    ) %>% bindEvent(input$funtree_button)
     
     ## Download result
     output$downloadTips <- downloadHandler(
@@ -4141,7 +4732,7 @@ assocated to the enriched pathway represented in the corresponding row."
                     file=file,row.names=FALSE,col.names=FALSE)
       })
     
-    tree_plot <-  eventReactive(input$funtree_button, {
+    tree_plot <- reactive({
       
       # Define previous variables
       tree_reduced <- tree_reduced()
@@ -4183,6 +4774,16 @@ assocated to the enriched pathway represented in the corresponding row."
       tips_to_keep.sc <- tips_to_keep.sc()
       tips_to_keep.aegi <- tips_to_keep.aegi()
       tips_to_keep.sb <- tips_to_keep.sb()
+      tips_to_keep.chara <- tips_to_keep.chara()
+      tips_to_keep.guilla <- tips_to_keep.guilla()
+      tips_to_keep.crypto <- tips_to_keep.crypto()
+      tips_to_keep.cymero <- tips_to_keep.cymero()
+      tips_to_keep.galsul <- tips_to_keep.galsul()
+      tips_to_keep.gracichor <- tips_to_keep.gracichor()
+      tips_to_keep.sceobli <- tips_to_keep.sceobli()
+      tips_to_keep.cocco <- tips_to_keep.cocco()
+      tips_to_keep.saccha <- tips_to_keep.saccha()
+      tips_to_keep.haema <- tips_to_keep.haema()
       tips_to_keep.zm <- tips_to_keep.zm()
       
       if (length(tree_reduced$tip.label) < 2)
@@ -4303,7 +4904,7 @@ assocated to the enriched pathway represented in the corresponding row."
           else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.smag])
           {
             col.factor <- c(col.factor,"#00b7a7")
-            org.factor <- c(org.factor,"Sphangum")
+            org.factor <- c(org.factor,"Sphagnum")
           }
           else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.tp])
           {
@@ -4380,6 +4981,56 @@ assocated to the enriched pathway represented in the corresponding row."
             col.factor <- c(col.factor,"#cd016a")
             org.factor <- c(org.factor,"Sorghum")
           }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.chara])
+          {
+            col.factor <- c(col.factor,"#117a65")
+            org.factor <- c(org.factor,"Chara")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.guilla])
+          {
+            col.factor <- c(col.factor,"#424949")
+            org.factor <- c(org.factor,"Guillardia")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.crypto])
+          {
+            col.factor <- c(col.factor,"#515a5a")
+            org.factor <- c(org.factor,"Cryptophyceae")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cymero])
+          {
+            col.factor <- c(col.factor,"#641e16")
+            org.factor <- c(org.factor,"Cyanidioschyzon")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.galsul])
+          {
+            col.factor <- c(col.factor,"#633974")
+            org.factor <- c(org.factor,"Galdieria")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.gracichor])
+          {
+            col.factor <- c(col.factor,"#a93226")
+            org.factor <- c(org.factor,"Gracilariopsis")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.sceobli])
+          {
+            col.factor <- c(col.factor,"#148f77")
+            org.factor <- c(org.factor,"Scenedesmus")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.cocco])
+          {
+            col.factor <- c(col.factor,"#9c640c")
+            org.factor <- c(org.factor,"Coccomyxa")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.saccha])
+          {
+            col.factor <- c(col.factor,"#6e2c00")
+            org.factor <- c(org.factor,"Saccharina")
+          }
+          else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.haema])
+          {
+            col.factor <- c(col.factor,"#196f3d")
+            org.factor <- c(org.factor,"Haematococcus")
+          }
           else if (tree_reduced$tip.label[i] %in% tree$tip.label[tips_to_keep.zm])
           {
             col.factor <- c(col.factor,"#666909")
@@ -4407,13 +5058,15 @@ assocated to the enriched pathway represented in the corresponding row."
                                      node = node,
                                      fill = as.factor(node)), extend = 0.8) + 
           labs(fill = "Node of interest")
-      
-      }})
+        
+        return(tree_plot)
+      }}) %>% bindEvent(input$funtree_button)
+    
     # Create tree output
     output$download_tree<- renderUI(
-      tagList(downloadButton(outputId= "downloadTree", "Download Tree"))
-    )
-
+      tagList(downloadButton(outputId= "downloadTree", "Download Tree PNG"))
+    )  %>% bindEvent(input$funtree_button)
+    
     image_height <- function(){300 + 11*length(tree_reduced()$tip.label)}
     image_width <- function(){200 + 400*max(tree_reduced()$edge.length)}
     ## Download result
@@ -4426,21 +5079,58 @@ assocated to the enriched pathway represented in the corresponding row."
         plot(tree_plot())
         dev.off()
       })
-
-    output$treePlot <- renderPlot({
-      plot(tree_plot())
-    }, height = image_height(),
-    width = image_height()
-    )
-  
-  ###########################PFAM##################################
+    
+    # Create and download tree in newick format
+    output$download_newick<- renderUI(
+      tagList(downloadButton(outputId= "downloadNewick", "Download Tree in Newick Format"))
+    )  %>% bindEvent(input$funtree_button)
+    
+    output$downloadNewick <- downloadHandler(
+      filename= function() {
+        paste("tree_newick", ".txt", sep="")
+      },
+      content= function(file) {
+        write.tree(tree_reduced(), file)
+      })
+    
+    # Create and download sequences for genes in tree
+    output$download_tree_seqs<- renderUI(
+      tagList(downloadButton(outputId= "downloadTreeSeqs", "Download Sequences in FASTA"))
+    )  %>% bindEvent(input$funtree_button)
+    
+    output$downloadTreeSeqs <- downloadHandler(
+      filename= function() {
+        paste("tree_seqs", ".fa", sep="")
+      },
+      content= function(file) {
+        write.fasta(sequences = getSequence(ortho_reduced()), 
+                    names = getName(ortho_reduced()), file.out = file)
+      })
+    
+    observeEvent(input$funtree_button,{
+      output$treePlot <- renderImage({
+        png("tree.png", height = image_height(), width = image_width())
+        plot(tree_plot())
+        dev.off()
+        
+        list(src = "tree.png",
+             contentType="image/png",width=image_width(),height=image_height())
+      }, deleteFile = T
+      )
+    })
+    
+    
+    ###########################PFAM##################################
     
     output$selected_pfams <- renderUI({
-      selectInput(inputId = "selected_pfamsI",
-                         choices=tree_reduced()$tip.label,
-                         label = "Select the desired genes from the tree", selected = input$geneInt,
-                  multiple = T)
-      })
+      # selectInput(inputId = "selected_pfamsI",
+      #                    choices=tree_reduced()$tip.label,
+      #                    label = "Select the desired genes from the tree", selected = input$geneInt,
+      #             multiple = T)
+      
+      pickerInput("selected_pfamsI","Select the desired genes from the tree",
+                  choices=tree_reduced()$tip.label, options = list(`actions-box` = TRUE),multiple = T, selected = input$geneInt)
+    })
     
     total_table_pfam <- reactive({
       ortho_reduced <- ortho_reduced()
@@ -4451,201 +5141,816 @@ assocated to the enriched pathway represented in the corresponding row."
       library(drawProteins)
       library(ggplot2)
       
-    # Get the sequences as a vector of strings
-
-
-    # Create data frame with proper columns
-    total_table_pfam <- data.frame(type=NA,
-                              description=NA,
-                              begin=NA, end=NA,
-                              length=NA,
-                              accession=NA, entryName=NA,
-                              taxid=NA, order=NA)
-
-    # Fill data frame with the information about domains obtained with hmmer
-    for (i in 1:length(sel_genes))
-    {
-      ortho_comp <- ortho_reduced[[sel_genes[i]]]
-      ortho_str <- getSequence(ortho_comp, as.string = T)
-      ortho_cha <- unlist(ortho_str)
-
-
-      hmmquery <- NA
-      try(hmmquery <- hmmer(ortho_cha, type = "hmmscan", db = "pfam", verbose = F), silent = T)
-
-      if (length(hmmquery) == 2)
+      # Get the sequences as a vector of strings
+      
+      
+      # Create data frame with proper columns
+      total_table_pfam <- data.frame(type=NA,
+                                     description=NA,
+                                     begin=NA, end=NA,
+                                     length=NA,
+                                     accession=NA, entryName=NA,
+                                     taxid=NA, order=NA)
+      
+      # Fill data frame with the information about domains obtained with hmmer
+      for (i in 1:length(sel_genes))
       {
-        url_og <- hmmquery$url
-        url_vec <- strsplit(url_og, split = "/")
-        url_vec[[1]][1] <- "https:"
-        url_vec[[1]][6] <- "download"
-        url_f <- paste0(url_vec[[1]], collapse = "/")
-        url_tsv <- paste0(c(url_f,"score?format=tsv"), collapse = "/")
-        tsv_res <- getURL(url_tsv)
-        res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
-        pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
-                                 description=c("Protein chain",res_pfam$Family.Accession),
-                                 begin=c(1, res_pfam$Env..Star), end=c(nchar(ortho_cha),res_pfam$Env..End),
-                                 length=c(nchar(ortho_cha)-1, res_pfam$Env..End-res_pfam$Env..Start),
-                                 accession=sel_genes[i], entryName=sel_genes[i],
-                                 taxid=c("Chain", res_pfam$Description), order=i)
-
-        total_table_pfam <- rbind(total_table_pfam, pfam_table)
+        ortho_comp <- ortho_reduced[[sel_genes[i]]]
+        ortho_str <- getSequence(ortho_comp, as.string = T)
+        ortho_cha <- unlist(ortho_str)
         
+        
+        hmmquery <- NA
+        try(hmmquery <- hmmer(ortho_cha, type = "hmmscan", db = "pfam", verbose = F), silent = T)
+        
+        if (length(hmmquery) == 2)
+        {
+          url_og <- hmmquery$url
+          url_vec <- strsplit(url_og, split = "/")
+          url_vec[[1]][1] <- "https:"
+          url_vec[[1]][6] <- "download"
+          url_f <- paste0(url_vec[[1]], collapse = "/")
+          url_tsv <- paste0(c(url_f,"score?format=tsv"), collapse = "/")
+          tsv_res <- getURL(url_tsv)
+          res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
+          pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
+                                   description=c("Protein chain",res_pfam$Family.Accession),
+                                   begin=c(1, res_pfam$Env..Star), end=c(nchar(ortho_cha),res_pfam$Env..End),
+                                   length=c(nchar(ortho_cha)-1, res_pfam$Env..End-res_pfam$Env..Start),
+                                   accession=sel_genes[i], entryName=sel_genes[i],
+                                   taxid=c("Chain", res_pfam$Description), order=i)
+          
+          total_table_pfam <- rbind(total_table_pfam, pfam_table)
+          
+        }
+        else
+        {
+          pfam_table <- data.frame(type="CHAIN",
+                                   description="Protein chain",
+                                   begin=1, end=nchar(ortho_cha),
+                                   length=nchar(ortho_cha)-1,
+                                   accession=sel_genes[i], entryName=sel_genes[i],
+                                   taxid="Chain", order=i)
+          total_table_pfam <- rbind(total_table_pfam, pfam_table)
+        }
       }
-      else
-      {
-        pfam_table <- data.frame(type="CHAIN",
-                                 description="Protein chain",
-                                 begin=1, end=nchar(ortho_cha),
-                                 length=nchar(ortho_cha)-1,
-                                 accession=sel_genes[i], entryName=sel_genes[i],
-                                 taxid="Chain", order=i)
-        total_table_pfam <- rbind(total_table_pfam, pfam_table)
-      }
-    }
-
-    total_table_pfam <- total_table_pfam[-1,]
-    
-    detach("package:bio3d", unload=TRUE)
-
-    return(total_table_pfam)
-
-  }) %>% bindEvent(input$pfam_selection)
+      
+      total_table_pfam <- total_table_pfam[-1,]
+      
+      detach("package:bio3d", unload=TRUE)
+      
+      return(total_table_pfam)
+      
+    }) %>% bindEvent(input$pfam_selection)
     
     
-  observeEvent(input$pfam_selection,{
-
-    total_table_pfam <- total_table_pfam()
-    print(total_table_pfam)
-    # Now we can plot domains information as chains
-    pfplot <- draw_canvas(total_table_pfam)
-    pfplot <- draw_chains(pfplot, total_table_pfam)
-    pfplot <- draw_domains(pfplot, total_table_pfam, label_domains = F)
-    pfplot <- pfplot + theme_bw(base_size = 20) + # white background
-      theme(panel.grid.minor=element_blank(),
-            panel.grid.major=element_blank()) +
-      theme(axis.ticks = element_blank(),
-            axis.text.y = element_blank()) +
-      theme(panel.border = element_blank())
-    pfplot <- pfplot + labs(title = "Pfam domains")
-    pfplot <- pfplot + theme(legend.position="top") + labs(fill="")
-    pfam_height <- function(){50 + 800*length(total_table_pfam()$order[nrow(total_table_pfam())])}
-    pfam_width <- function(){800 + 40*length(unique(total_table_pfam()$description))}
-    output$pfam_plot <- renderPlot({
-      plot(pfplot)
-    }, height = pfam_height,
-    width = pfam_width
-    )
-    
-    output$pfam_down_button<- renderUI(
-      tagList(downloadButton(outputId= "pfam_download", "Download PFAM figures"))
-    )
-    
-    output$pfam_download <- downloadHandler(
-      filename= function() {
-        paste("pfam", ".pdf", sep="")
-      },
-      content= function(file) {
-        pdf(file, height = 5 + 1*length(total_table_pfam()$order[nrow(total_table_pfam())]),
-            width = 5 + 1.5*length(unique(total_table_pfam()$description)))
+    observeEvent(input$pfam_selection,{
+      
+      total_table_pfam <- total_table_pfam()
+      # Now we can plot domains information as chains
+      pfplot <- draw_canvas(total_table_pfam)
+      pfplot <- draw_chains(pfplot, total_table_pfam)
+      pfplot <- draw_domains(pfplot, total_table_pfam, label_domains = F)
+      pfplot <- pfplot + theme_bw(base_size = 20) + # white background
+        theme(panel.grid.minor=element_blank(),
+              panel.grid.major=element_blank()) +
+        theme(axis.ticks = element_blank(),
+              axis.text.y = element_blank()) +
+        theme(panel.border = element_blank())
+      pfplot <- pfplot + labs(title = "Pfam domains")
+      pfplot <- pfplot + theme(legend.position="top") + labs(fill="")
+      pfam_height <- function(){50 + 800*length(total_table_pfam()$order[nrow(total_table_pfam())])}
+      pfam_width <- function(){800 + 40*length(unique(total_table_pfam()$description))}
+      output$pfam_plot <- renderImage({
+        png("funtree_folder/pfam.png", pfam_height(), pfam_width())
         plot(pfplot)
         dev.off()
-      })
+        list(src = "funtree_folder/pfam.png",
+             contentType="image/png")
+      }, deleteFile = T
+      )
+      
+      output$pfam_down_button<- renderUI(
+        tagList(downloadButton(outputId= "pfam_download", "Download PFAM figures"))
+      )
+      
+      output$pfam_download <- downloadHandler(
+        filename= function() {
+          paste("pfam", ".pdf", sep="")
+        },
+        content= function(file) {
+          pdf(file, height = 5 + 1*length(total_table_pfam()$order[nrow(total_table_pfam())]),
+              width = 5 + 1.5*length(unique(total_table_pfam()$description)))
+          plot(pfplot)
+          dev.off()
+        })
+      
+      out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
+      colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+      
+      output$output_pfam_table <- renderDataTable({
+        out_pf_table 
+      },escape=FALSE,options =list(pageLength = 5))
+      
+      output$download_ui_for_pfam_table<- renderUI(
+        tagList(downloadButton(outputId= "downloadPFAMTable", "Download PFAM Table"),tags$br(),tags$br())
+      )
+      
+      ## Download result
+      output$downloadPFAMTable<- downloadHandler(
+        filename= function() {
+          paste("pfam_table", ".tsv", sep="")
+        },
+        content= function(file) {
+          write.table(x = out_pf_table,quote = F,sep = "\t",
+                      file=file,row.names=FALSE,col.names=TRUE)
+        })
+      
+    }) 
     
-    out_pf_table <- subset(total_table_pfam[,c(1:6,8)], total_table_pfam$type != "CHAIN")
-    colnames(out_pf_table) <- c(colnames(total_table_pfam)[1:6],"biological description")
+    #################### CAFE ##########################  
     
-    output$output_pfam_table <- renderDataTable({
-      out_pf_table 
-    },escape=FALSE,options =list(pageLength = 5))
-    
-    output$download_ui_for_pfam_table<- renderUI(
-      tagList(downloadButton(outputId= "downloadPFAMTable", "Download PFAM Table"),tags$br(),tags$br())
-    )
-    
-    ## Download result
-    output$downloadPFAMTable<- downloadHandler(
-      filename= function() {
-        paste("pfam_table", ".tsv", sep="")
-      },
-      content= function(file) {
-        write.table(x = out_pf_table,quote = F,sep = "\t",
-                    file=file,row.names=FALSE,col.names=TRUE)
-      })
-    
-  }) 
-
-############### MSA#################################
-  
-  output$selected_msa <- renderUI({
-    selectInput(inputId = "selected_msaI",
-                choices=tree_reduced()$tip.label,
-                label = "Select the desired genes from the tree to align", selected = input$geneInt,
-                multiple = T)
-  })
-  
-  alignseqs <- reactive({
-    
-    library(msa)
-    
-    selected_genes <- as.vector(input$selected_msaI)
-    file.name <- og.name()
-    # Define path to orthogroup sequences file
-    ortho.seq.name <- paste("Orthogroup_Sequences",paste(file.name, "fa", sep = "."), sep="/")
-    
-    # Read orthogroup sequences file and select the genes for alignment
-    mySequences1 <- readAAStringSet(ortho.seq.name)
-    mysubseqs <- mySequences1[selected_genes]
-    
-    alignseqs <- msa(mysubseqs, verbose = F)
-    
-    return(alignseqs)
-    
-  }) %>% bindEvent(input$msa_selection)
-
-  observeEvent(input$msa_selection,{
-    
-    alignseqs <- alignseqs()
-    
-    library(ggmsa)
-    class(alignseqs) <- "AAMultipleAlignment"
-    
-    for(i in 1:(ncol(alignseqs)%/%100 +1)){
-      assign(paste("msap", i, sep = ""), ggmsa(alignseqs, 1+(100*(i-1)), i*100, seq_name = TRUE, char_width = 0.5) +
-               geom_seqlogo(color = "Chemistry_AA"), envir = as.environment(1), pos=1)
-    }
-    
-    output$msa_plot<- renderUI(
-      tagList(downloadButton(outputId= "msa_download", "Download Colored MSA"))
-    )
-    output$msa_download <- downloadHandler(
-      filename= function() {
-        paste("msa", ".pdf", sep="")
-      },
-      content= function(file) {
-        pdf(file, height = 2+length(input$selected_msaI)*0.25, width = 16)
+    cafe_file <- reactive({
+      
+      # Create a variable for accesing global or viridiplantae model
+      {
+        if (input$evo_type == "Global")
         {
-        for(i in 1:(ncol(alignseqs)%/%100 +1)){
-        #   print(mget(paste0("msap", i)))
-        # }
-        print(mget(paste0("msap", i), envir = as.environment(1)))
+          tree_model <- ""
         }
-        dev.off()
+        else
+        {
+          tree_model <- "Green_"
         }
-      })
+      }
+      
+      # Define path to orthogroup sequences file
+      cafe_file <- paste(paste0(tree_model,"Cafe_plots"),paste0(og.name(),"_gene_family.png"), sep="/")
+      
+      # Show an error if the orthogroup is no significantly expanded/collapsed in any branch
+      {
+        if (!file.exists(cafe_file)) 
+        {
+          output$error_cafe <- renderUI({
+            renderPrint({cat("No significant expansion/contraction identified for
+                           this orthogroup.")})
+          })
+          output$cafe_plot <- NULL
+          output$cafe_down_button <- NULL
+          output$cafe_tree_down <- NULL
+          validate("NO")
+        }
+        else
+        {
+          output$error_cafe <- NULL
+        }
+      }
+      
+      return(cafe_file)
+      
+    }) %>% bindEvent(input$cafe_start)
     
-    output$msa_print <- renderPrint({
-      class(alignseqs) <- "MsaAAMultipleAlignment"
-      cat(print(alignseqs, showConsensus=T, show="complete", 
-            halfNrow=ceiling(length(as.vector(input$selected_msaI))/2)))
+    
+    observeEvent(input$cafe_start,{
+      
+      cafe_file <- cafe_file()
+      nexus_cafe_file <- paste(strsplit(as.character(cafe_file), split = "/")[[1]][1],"Gamma_asr.tre", sep = "/")
+      nexus_cafe <- read.nexus(nexus_cafe_file)
+      
+      # Render image
+      output$cafe_plot <- renderImage({
+        list(src = cafe_file,
+             contentType="image/png", width=500, height=1000)
+        
+      }, deleteFile=F
+      )
+      
+      # Download image
+      output$cafe_down_button<- renderUI(
+        tagList(downloadButton(outputId= "cafe_download", "Download Expansions/Contractions plot"))
+      )
+      
+      output$cafe_download <- downloadHandler(
+        filename= function() {
+          paste("evo_plot", ".png", sep="")
+        },
+        content= function(file) {
+          file.copy(cafe_file, file)
+        }, contentType = "image/png")
+      
+      # Download newick tree
+      output$cafe_tree_down<- renderUI(
+        tagList(downloadButton(outputId= "cafe_tree", "Download Tree"))
+      )
+      
+      output$cafe_tree <- downloadHandler(
+        filename= function() {
+          paste("evo_tree", ".txt", sep="")
+        },
+        content= function(file) {
+          write.tree(nexus_cafe[[og.name()]], file)
+        })
+      
     })
-  
-  
+    
+    
+    ############### MSA #################################
+    
+    output$selected_msa <- renderUI({
+      # selectInput(inputId = "selected_msaI",
+      #             choices=tree_reduced()$tip.label,
+      #             label = "Select the desired genes from the tree to align", selected = input$geneInt,
+      #             multiple = T)
+      pickerInput("selected_msaI","Select the desired genes from the tree to align",
+                  choices=tree_reduced()$tip.label, options = list(`actions-box` = TRUE),multiple = T, selected = input$geneInt)
+    })
+    
+    alignseqs <- reactive({
+      
+      library(msa)
+      
+      selected_genes <- as.vector(input$selected_msaI)
+      file.name <- og.name()
+      
+      # Create a variable for accesing global or viridiplantae model
+      {
+        if (input$evo_type == "Global")
+        {
+          tree_model <- ""
+        }
+        else
+        {
+          tree_model <- "Green_"
+        }
+      }
+      
+      # Define path to orthogroup sequences file
+      ortho.seq.name <- paste(paste0(tree_model,"Orthogroup_Sequences"),paste(file.name, "fa", sep = "."), sep="/")
+      
+      # Read orthogroup sequences file and select the genes for alignment
+      mySequences1 <- readAAStringSet(ortho.seq.name)
+      mysubseqs <- mySequences1[selected_genes]
+      
+      alignseqs <- msa(mysubseqs, verbose = F)
+      
+      return(alignseqs)
+      
+    }) %>% bindEvent(input$msa_selection)
+    
+    observeEvent(input$msa_selection,{
+      
+      alignseqs <- alignseqs()
+      
+      library(ggmsa)
+      class(alignseqs) <- "AAMultipleAlignment"
+      
+      for(i in 1:(ncol(alignseqs)%/%100 +1)){
+        assign(paste("msap", i, sep = ""), ggmsa(alignseqs, 1+(100*(i-1)), i*100, seq_name = TRUE, char_width = 0.5) +
+                 geom_seqlogo(color = "Chemistry_AA"), envir = as.environment(1), pos=1)
+      }
+      # Download colored msa
+      output$msa_plot<- renderUI(
+        tagList(downloadButton(outputId= "msa_download", "Download Colored MSA"))
+      )
+      output$msa_download <- downloadHandler(
+        filename= function() {
+          paste("msa", ".pdf", sep="")
+        },
+        content= function(file) {
+          pdf(file, height = 2+length(input$selected_msaI)*0.25, width = 16)
+          {
+            for(i in 1:(ncol(alignseqs)%/%100 +1)){
+              #   print(mget(paste0("msap", i)))
+              # }
+              print(mget(paste0("msap", i), envir = as.environment(1)))
+            }
+            dev.off()
+          }
+        })
+      # Download msa in fasta format
+      output$msa_fasta<- renderUI(
+        tagList(downloadButton(outputId= "msa_download_fa", "Download MSA FASTA"))
+      )
+      output$msa_download_fa <- downloadHandler(
+        filename= function() {
+          paste("msa", ".fa", sep="")
+        },
+        content= function(file) {
+          writeXStringSet(as(unmasked(alignseqs), "XStringSet"), file)
+        })
+      
+      output$msa_print <- renderPrint({
+        class(alignseqs) <- "MsaAAMultipleAlignment"
+        cat(print(alignseqs, showConsensus=T, show="complete", 
+                  halfNrow=ceiling(length(as.vector(input$selected_msaI))/2)))
+      })
+      
+      
+    })
+    
+    ############################ GO ######################################
+    
+    output$selected_gos <- renderUI({
+      # selectInput(inputId = "selected_gosI",
+      #             choices=tree_reduced()$tip.label,
+      #             label = "Select the desired genes from the tree", selected = input$geneInt,
+      #             multiple = T)
+      pickerInput("selected_gosI","Select the desired genes from the tree",
+                  choices=tree_reduced()$tip.label, options = list(`actions-box` = TRUE),multiple = T, selected = input$geneInt)
+    })
+    
+    output$selected_gos_mode <- renderUI({
+      selectInput(inputId = "selected_gos_modeI",
+                  choices=c("Biological Processes" = "bp",
+                            "Molecular Functions" = "mf",
+                            "Cellular Components" = "cc"),
+                  label = "Select the gene ontology to use",
+                  multiple = F, selected = c("bp"))
+    })
+    
+    total_table_gos <- reactive({
+      
+      gos_anot <- read.csv("funtree_folder/final_anot_table.tsv", sep="\t", header = T)
+      sel.genes.go <- as.vector(input$selected_gosI)
+      
+      total_table_gos <- subset(gos_anot, gos_anot$name %in% sel.genes.go)
+      
+      # Show an error if no terms are identified in the input
+      {
+        if (nrow(total_table_gos) == 0) 
+        {
+          output$error_gos <- renderUI({
+            renderPrint({cat("0 GO terms identified.")})
+          })
+          output$output_gos_table <- NULL
+          output$download_ui_for_gos_table<- NULL
+          output$gos_down_button <- NULL
+          output$gos_treeplot <- NULL
+          output$gos_plot <- NULL
+          output$tree_gos_down_button <- NULL
+          validate("NO")
+        }
+        else
+        {
+          output$error_gos <- NULL
+        }
+      }
+      gos_sel <- paste("gos", as.character(input$selected_gos_modeI), sep="_")
+      terms_sel <- paste("terms", as.character(input$selected_gos_modeI), sep="_")
+      total_table_gos <- total_table_gos[,c("organism", "id", "name", gos_sel, terms_sel)]
+      
+      return(total_table_gos)
+      
+    }) %>% bindEvent(input$gos_selection)
+    
+    
+    observeEvent(input$gos_selection,{
+      
+      total_table_gos <- total_table_gos()
+      
+      # Create the plot
+      
+      # Create a list of GO terms vector of each gene
+      gos_sel <- paste("gos", as.character(input$selected_gos_modeI), sep="_")
+      gos_list <- apply(total_table_gos,MARGIN=1,FUN = function(x) trimws(strsplit(as.character(x[gos_sel]), split = "[|]")[[1]]))
+      names(gos_list) <- total_table_gos$name
+      
+      # Count GOs for each gene and create a matrix of gene-GO pairs
+      count_gos_in_genes <- sapply(gos_list, FUN = function(x) length(x))
+      comp_data <- data.frame(gene = rep(names(count_gos_in_genes), count_gos_in_genes), gos = as.character(unlist(gos_list)))
+      
+      # Collapse genes that share a same GO
+      gene.v <- c()
+      for (i in 1:length(unique(comp_data$gos)))
+      {
+        new.table <- subset(comp_data, gos == unique(comp_data$gos)[i])
+        new.cha <- as.character(new.table$gene)
+        gene.v <- c(gene.v, paste(new.cha, collapse = "/"))
+      }
+      
+      names(gene.v) <- unique(comp_data$gos)
+      
+      # Load libraries and create gene chains, count and GO IDs fields (same order)
+      library(GO.db)
+      library("multienrichjam")
+      library(clusterProfiler)
+      library(enrichplot)
+      library(ggplot2)
+      
+      count_go <- table(comp_data$gos)
+      geneids <- gene.v[names(count_go)]
+      count_terms <- mapply(function(x) {Term(x)}, names(count_go), USE.NAMES = F)
+      
+      # Create pseudo-enrichment table
+      enr_table <- data.frame(ID=names(count_go), Description=count_terms, GeneRatio="90/100", BgRatio="90/10000", 
+                              pvalue=0.000005, p.adjust=0.000005, qvalue=0.000005, geneID=geneids, Count = as.vector(count_go))
+      
+      # Transform to enrichResult object
+      enr <- enrichDF2enrichResult(enrichDF = enr_table, keyColname = "ID",
+                                   geneColname = "geneID", pvalueColname = "p.adjust",
+                                   descriptionColname = "Description", pvalueCutoff = 0.05)
+      
+      # Save emapplot
+      ema_gos_plot <- emapplot(pairwise_termsim(enr), showCategory = 15) + theme(legend.position='none')
+      
+      # Save treeplot
+      {
+        if (nrow(enr_table) > 4)
+        {
+          tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15) + theme(legend.position='none')
+        }
+        else if (nrow(enr_table) > 2)
+        {
+          tree_gos_plot <- treeplot(pairwise_termsim(enr),showCategory = 15, cluster.params = list(n = 2)) + 
+            theme(legend.position='none')
+        }
+        else
+        {
+          text <- paste("\n  Unable to create treeplot from a single GO term \n")
+          tree_gos_plot <- ggplot() + 
+            annotate("text", x = 4, y = 25, size=8, label = text) + 
+            theme_void()
+        }
+      }
+      
+      # Render table
+      output$output_gos_table <- renderDataTable({
+        total_table_gos 
+      },escape=FALSE,options =list(pageLength = 5))
+      
+      output$download_ui_for_gos_table<- renderUI(
+        tagList(downloadButton(outputId= "downloadGOSTable", "Download GO Table"),tags$br(),tags$br())
+      )
+      
+      ## Download result
+      output$downloadGOSTable<- downloadHandler(
+        filename= function() {
+          paste("GOS_table", ".tsv", sep="")
+        },
+        content= function(file) {
+          write.table(x = total_table_gos,quote = F,sep = "\t",
+                      file=file,row.names=FALSE,col.names=TRUE)
+        })
+      
+      # Render emapplot
+      output$gos_plot <- renderImage({
+        png("funtree_folder/gosplot.png")
+        plot(ema_gos_plot)
+        dev.off()
+        list(src = "funtree_folder/gosplot.png",
+             contentType="image/png")
+        
+      }, deleteFile=T
+      )
+      
+      output$gos_down_button<- renderUI(
+        tagList(downloadButton(outputId= "gos_download", "Download GO terms association plot"))
+      )
+      
+      # Download emapplot
+      output$gos_download <- downloadHandler(
+        filename= function() {
+          paste("gos_plot", ".png", sep="")
+        },
+        content= function(file) {
+          png(file, height = 600, width = 800)
+          plot(ema_gos_plot)
+          dev.off()
+        })
+      
+      # Render treeplot
+      output$gos_treeplot <- renderImage({
+        png("funtree_folder/treeplot.png")
+        plot(tree_gos_plot)
+        dev.off()
+        list(src = "funtree_folder/treeplot.png",
+             contentType="image/png")
+        
+      }, deleteFile = T
+      )
+      
+      output$tree_gos_down_button<- renderUI(
+        tagList(downloadButton(outputId= "tree_gos_download", "Download GO terms tree plot"))
+      )
+      
+      # Download treeplot
+      output$tree_gos_download <- downloadHandler(
+        filename= function() {
+          paste("gos_treeplot", ".png", sep="")
+        },
+        content= function(file) {
+          png(file, height = 800, width = 1000)
+          plot(tree_gos_plot)
+          dev.off()
+        })
+      
+    })
+    
+    ######################### KOs and pathways ########################
+    
+    output$selected_kos <- renderUI({
+      # selectInput(inputId = "selected_kosI",
+      #             choices=tree_reduced()$tip.label,
+      #             label = "Select the desired genes from the tree", selected = input$geneInt,
+      #             multiple = T)
+      pickerInput("selected_kosI","Select the desired genes from the tree",
+                  choices=tree_reduced()$tip.label, options = list(`actions-box` = TRUE),multiple = T, selected = input$geneInt)
+    })
+    
+    tab_kegg <- reactive({
+      
+      # Create KOs set
+      kos_anot <- read.csv("funtree_folder/ko_table_funtree.tsv", sep="\t", header = T)
+      sel.genes.ko <- as.vector(input$selected_kosI)
+      
+      
+      tab_kegg <- subset(kos_anot, gene %in% sel.genes.ko)
+      set_kegg <- tab_kegg$ko[tab_kegg$ko != ""]
+      
+      # Show an error if no terms are identified in the input
+      {
+        if (length(set_kegg) == 0) 
+        {
+          output$error_kos1 <- renderUI({
+            renderPrint({cat("0 KO terms identified. . Please select more genes. If this 
+        message persists, it may be interpreted as a lack of KO annotation for this orthogroup")})
+          })
+          output$output_kos_table <- NULL
+          output$download_ui_for_kos_table<- NULL
+          output$output_kegg_table <- NULL
+          output$download_ui_for_kegg_table <- NULL
+          output$selected_paths <- NULL
+          output$paths_button <- NULL
+          output$path_image <- NULL
+          output$path_download_ui <- NULL
+          validate("No KO terms detected")
+        }
+        else
+        {
+          output$error_kos1 <- NULL
+        }
+      }
+      
+      return(tab_kegg)
+      
+    }) %>% bindEvent(input$kos_selection)
+    
+    total_table_kegg <- reactive({
+      
+      tab_kegg <- tab_kegg()
+      set_kegg <- tab_kegg$ko[tab_kegg$ko != ""]
+      
+      # Load libraries
+      library(clusterProfiler)
+      library(enrichplot)
+      
+      # Enrich with pvalue cutoff = 1 to show all paths
+      kos_enrich <- enrichKEGG(gene         = set_kegg,
+                               organism     = 'ko',
+                               pvalueCutoff = 1)
+      
+      total_table_kegg <- as.data.frame(kos_enrich)
+      
+      return(total_table_kegg)
+      
+    }) %>% bindEvent(input$kos_selection)
+    
+    total_table_kos <- reactive({
+      
+      tab_kegg <- tab_kegg()
+      
+      library(KEGGREST)
+      
+      # Collapse genes that share KOs
+      
+      tab_kegg_for_ko <- subset(tab_kegg, ko != "")
+      gene.v.ko <- c()
+      for (i in 1:length(unique(tab_kegg_for_ko$ko)))
+      {
+        new.table <- subset(tab_kegg_for_ko, ko == unique(tab_kegg_for_ko$ko)[i])
+        new.cha <- as.character(new.table$gene)
+        gene.v.ko <- c(gene.v.ko, paste(new.cha, collapse = "/"))
+      }
+      
+      names(gene.v.ko) <- unique(tab_kegg_for_ko$ko)
+      
+      # Create gene chains, count and KO IDs fields (same order)
+      count_ko <- table(tab_kegg_for_ko$ko)
+      geneids.ko <- gene.v.ko[names(count_ko)]
+      count_terms.ko <- mapply(function(x) {keggFind("ko", x)}, names(count_ko), USE.NAMES = F)
+      total_table_kos <- data.frame(ko=names(count_ko), name=count_terms.ko, count=as.numeric(count_ko),
+                                    genes=geneids.ko)
+      
+      return(total_table_kos)
+      
+    }) %>% bindEvent(input$kos_selection)
+    
+    
+    observeEvent(input$kos_selection,{
+      
+      total_table_kos <- total_table_kos()
+      total_table_kegg <- total_table_kegg()
+      
+      # Render KO table
+      output$output_kos_table <- renderDataTable({
+        total_table_kos 
+      },escape=FALSE,options =list(pageLength = 5))
+      
+      output$download_ui_for_kos_table<- renderUI(
+        tagList(downloadButton(outputId= "downloadKOSTable", "Download KO Table"),tags$br(),tags$br())
+      )
+      
+      ## Download result
+      output$downloadKOSTable<- downloadHandler(
+        filename= function() {
+          paste("KO_table", ".tsv", sep="")
+        },
+        content= function(file) {
+          write.table(x = total_table_kos,quote = F,sep = "\t",
+                      file=file,row.names=FALSE,col.names=TRUE)
+        })
+      
+      # Show an error if no pathways are detected in the input
+      {
+        if (nrow(total_table_kegg) == 0) 
+        {
+          output$error_kos2 <- renderUI({
+            renderPrint({cat("0 identified pathways.")})
+          })
+          output$output_kegg_table <- NULL
+          output$download_ui_for_kegg_table <- NULL
+          output$selected_paths <- NULL
+          output$paths_button <- NULL
+          output$path_image <- NULL
+          output$path_download_ui <- NULL
+          validate("No pathways detected")
+        }
+        else
+        {
+          output$error_kos2 <- NULL
+        }
+      }
+      
+      # Render KEGG table
+      output$output_kegg_table <- renderDataTable({
+        total_table_kegg[,c("ID", "Description", "geneID")]
+      },escape=FALSE,options =list(pageLength = 5))
+      
+      output$download_ui_for_kegg_table<- renderUI(
+        tagList(downloadButton(outputId= "downloadKEGGTable", "Download KEGG Pathways Table"),tags$br(),tags$br())
+      )
+      
+      ## Download result
+      output$downloadKEGGTable<- downloadHandler(
+        filename= function() {
+          paste("KEGG_table", ".tsv", sep="")
+        },
+        content= function(file) {
+          write.table(x = total_table_kegg[,c("ID", "Description", "geneID")],quote = F,sep = "\t",
+                      file=file,row.names=FALSE,col.names=TRUE)
+        })
+      
+      
+    })
+    
+    observeEvent(input$kos_selection,{
+      
+      total_table_kos <- total_table_kos()
+      total_table_kegg <- total_table_kegg()
+      
+      if(nrow(total_table_kegg) != 0)
+      {
+        paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+        
+        # Create pathway selector and button
+        output$selected_paths <- renderUI({
+          selectInput(inputId = "selected_pathsI",
+                      choices=paths.options,
+                      label = "Select the pathway to plot", paths.options[1],
+                      multiple = F)
+        })
+        
+        
+        output$paths_button <- renderUI({
+          actionButton(inputId = "paths_button",label = "Have fun!", icon("send"))
+        })
+        
+      }
+    })
+    
+    observeEvent(input$paths_button,{
+      
+      # Create selector for different pathways and plot the selected one
+      pathway.current.id <- input$selected_pathsI
+      
+      total_table_kos <- total_table_kos()
+      kos_unique <- unique(total_table_kos$ko)
+      gene.pathway <- rep(0, length(kos_unique))
+      names(gene.pathway) <-  kos_unique
+      gene.pathway[kos_unique] <-1
+      
+      library(pathview)
+      
+      output$path_image <- renderImage({
+        
+        pathview(gene.data = sort(gene.pathway,decreasing = TRUE),kegg.dir = "funtree_folder",
+                 pathway.id = pathway.current.id,
+                 species = "ko",
+                 limit = list(gene=max(abs(gene.pathway)), cpd=1),
+                 gene.idtype ="kegg")
+        
+        
+        list(src = paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."),
+             contentType="image/png",width=900,height=900)
+      },deleteFile = F)
+      
+      
+      # Download pathway plot (it will only be download the first time the button is pressed)
+      output$path_download_ui<- renderUI(
+        tagList(downloadButton(outputId= "downloadKEGGpathway", "Download KEGG Pathways Plot"),tags$br(),tags$br())
+      )
+      output$downloadKEGGpathway <- downloadHandler(
+        filename= function() {
+          paste("path_plot", ".png", sep="")
+        },
+        content= function(file) {
+          file.copy(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."), file)
+          file.remove(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."))
+        })
+      
+      
+    })
+    
+    ########################## DOWNLOAD GENOMES #######################
+    
+    gen_fasta <- reactive({
+      gen_search <- gsub(" ", "_", tolower(as.character(input$genome_sel)))
+      gen_fasta <- paste("funtree_proteomes", paste0(gen_search, ".fa", sep=""), sep = "/")
+    }) %>% bindEvent(input$access_genomes)
+    
+    
+    observeEvent(input$access_genomes,{
+      output$genomes_download<- renderUI(
+        tagList(downloadButton(outputId= "genomes_downloadI", "Download genome file"))
+      ) 
+      
+      output$genomes_downloadI <- downloadHandler(
+        filename <- function() {
+          strsplit(gen_fasta(),split = "[/]")[[1]][2]
+        },
+        
+        content <- function(file) {
+          file.copy(gen_fasta(), file)
+        },
+        contentType = "text/*"
+      )
+    })
+    
+    ########################## IDENTIFY SEQUENCES #######################
+    
+    observeEvent(input$button_ident, {
+      
+      library(seqinr)
+      
+      seq_comp <- as.character(input$seq_ident)
+      seq_comp_clean <- toupper(gsub("[\r\n\t]", "", seq_comp))
+      seq_comp_clean2 <- str_replace_all(seq_comp_clean, fixed(" "), "")
+      vec_comp <- str_split_1(seq_comp_clean2, pattern = "")
+      
+      # Create fasta por comparison
+      write.fasta(vec_comp, names = "query_prot", "funtree_folder/new_diamond.fa")
+      
+      # Access species proteome
+      org_search <- gsub(" ", "_", tolower(as.character(input$org_ident)))
+      org_fasta <- paste("funtree_proteomes", paste0(org_search, ".fa", sep=""), sep = "/")
+      
+      library(rdiamond)
+      
+      # Run diamond
+      diamond_res <- rdiamond::diamond_protein_to_protein(
+        query   = 'funtree_folder/new_diamond.fa',
+        subject = org_fasta,
+        sensitivity_mode = "sensitive",
+        output_path = tempdir(),
+        db_import  = FALSE, diamond_exec_path = "/usr/bin", max_target_seqs = 1)
+      
+      diamond_table <- data.frame(ID=diamond_res$subject_id, Identity_perc=diamond_res$perc_identity,
+                                  Num_identical_matches=diamond_res$num_ident_matches, 
+                                  Length = diamond_res$alig_length, Mismatches = diamond_res$mismatches,
+                                  Num_gaps=diamond_res$n_gaps, E_value=diamond_res$evalue)
+      
+      # Render table
+      output$seq_ident_table <- renderDataTable({
+        diamond_table
+      },escape=FALSE,options =list(pageLength = 1))
+      
+      # Remove temporal files and clean text area
+      file.remove('funtree_folder/new_diamond.fa')
+      updateTextAreaInput(session, "seq_ident", value = "", placeholder = "Insert a protein chain")
+    })
+    #################################################################
   })
   
-  })
-  #################################################################
 })
 
 # Run the application 

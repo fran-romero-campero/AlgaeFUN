@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_4755:0.899142,(cyanophora_paradoxa_Cyapar1_g21660:1.55807,(chlamydomonas_reinhardtii_Cre01.g022750:5.30291e-06,volvox_carteri_Vocar.0007s0286:0.48732)n2:1.51084)n1:0.899142)n0;
+(porphyra_umbilicalis_Pum0742s0001:0.00027,((porphyra_umbilicalis_Pum0617s0001:0.17699,porphyra_umbilicalis_Pum0065s0033:0.10424)n2:1.0374,(porphyra_umbilicalis_Pum0022s0066:0.42092,porphyra_umbilicalis_Pum0178s0015:0.53032)n3:0.1242)n1:0.00027)n0;

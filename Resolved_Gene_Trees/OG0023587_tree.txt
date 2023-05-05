@@ -1,1 +1,1 @@
-((volvox_carteri_Vocar.0020s0136:0.75374,chlamydomonas_reinhardtii_Cre11.g467652:1.86488e-06)n1:0.318454,(chromochloris_zofingiensis_Cz16g21220:1.86488e-06,raphidocelis_subcapitata_Rsub_03505:1.06771)n2:0.318454)n0;
+(phaeodactylum_tricornutum_Phatr2_44305:0.760355,((nannochloropsis_gaditana_Nangad1_2041:0.39493,nannochloropsis_gaditana_Nangad1_2904:0.6253)n2:0.14122,(nannochloropsis_gaditana_Nangad1_2509:0.58248,nannochloropsis_gaditana_Nangad1_2775:0.53129)n3:0.20351)n1:0.760355)n0;

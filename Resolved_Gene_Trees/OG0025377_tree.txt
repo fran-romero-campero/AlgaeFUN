@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc04g011720:0.0614335,(solanum_lycopersicum_Solyc04g011730:0.09636,(solanum_lycopersicum_Solyc05g015170:0.157306,solanum_lycopersicum_Solyc05g015160:0.043528)n2:0.682248)n1:0.0614335)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1864535:0.43179,(mesostigma_viridae_Mv20393:0.31057,(bathycoccus_prasinos_Bathy79g00020:1.09778,bathycoccus_prasinos_Bathy48g00070:1.11966)n2:0.124407)n1:0.40609)n0;

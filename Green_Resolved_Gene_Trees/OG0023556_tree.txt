@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_2AS_64E0EF151:0.138945,(salvinia_cucullata_Sacu_v1.1_s0004.g002224:0.08318,(azolla_filiculoides_Azfi_s0467.g072835:0.04024,azolla_filiculoides_Azfi_s1215.g099834:0.03512)n2:0.14954)n1:0.138945)n0;

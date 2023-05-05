@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00118_0120:1.12726,mesostigma_viridae_Mv11139:0.95246)n1:0.150115,((ulva_mutabilis_UM047_0058:0.18222,(ulva_mutabilis_UM047_0056:0.24784,ulva_mutabilis_UM047_0060:0.18446)n4:0.10649)n3:0.43128,(raphidocelis_subcapitata_Rsub_06160:0.44513,scenedesmus_obliquus_SZX76684:0.84397)n5:0.16943)n2:0.150115)n0;

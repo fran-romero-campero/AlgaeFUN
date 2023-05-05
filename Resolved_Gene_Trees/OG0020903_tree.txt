@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g567:0.295739,((cyanophora_paradoxa_Cyapar1_g24006:1.73578,cyanophora_paradoxa_Cyapar1_g575:0.142681)n2:0.351479,(cyanophora_paradoxa_Cyapar1_g565:0.457709,cyanophora_paradoxa_Cyapar1_g566:0.212447)n3:0.302619)n1:0.295739)n0;
+(saccharina_japonica_SJ09847:0.110135,(saccharina_japonica_SJ06578:0.01587,(saccharina_japonica_SJ09846:0.00065,((saccharina_japonica_SJ09518:0.00054,saccharina_japonica_SJ06415:0.12488)n4:1.02456,saccharina_japonica_SJ06577:0.00055)n3:0.03283)n2:0.05633)n1:0.110135)n0;

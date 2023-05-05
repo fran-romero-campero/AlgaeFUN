@@ -1,0 +1,1 @@
+((dunaliella_salina_Dusal.0004s00002:0.60023,(haematococcus_lacustris_GFH05965:0.00055,haematococcus_lacustris_GFH08763:0.0127)1:0.70008)0.996:0.289055,(chromochloris_zofingiensis_Cz05g17250:0.79743,(raphidocelis_subcapitata_Rsub_04058:0.66157,scenedesmus_obliquus_SZX77653:0.69156)0.814:0.16379)0.996:0.289055);

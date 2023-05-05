@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_Pum0225s0013:0.383714,(cyanophora_paradoxa_Cyapar1_g21785:0.963362,(nannochloropsis_gaditana_Nangad1_10709:1.18457,(phaeodactylum_tricornutum_Phatr2_39868:1.20332,phaeodactylum_tricornutum_Phatr2_47890:1.14616)n3:0.127351)n2:0.125675)n1:0.383714)n0;
+(raphidocelis_subcapitata_Rsub_09475:0.720065,(saccharina_japonica_SJ10278:0.76665,(saccharina_japonica_SJ03250:0.1595,(saccharina_japonica_SJ10279:0.17881,(saccharina_japonica_SJ18941:0.39983,saccharina_japonica_SJ18939:0.56081)n4:0.26059)n3:0.10541)n2:0.11809)n1:0.720065)n0;

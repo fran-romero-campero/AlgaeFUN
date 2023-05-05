@@ -1,1 +1,1 @@
-(physcomitrium_patens_Pp3c16_18920:0.191193,((ceratodon_purpureus_CepurR40.3G171900:0.182314,ceratodon_purpureus_CepurR40.4G124400:0.16287)n2:0.06477,ceratodon_purpureus_CepurR40.1G276300:0.199048)n1:0.191193)n0;
+(guillardia_tetha_Guith1_99101:0.42568,(mesotaenium_endlicherianum_ME000730S09358:0.63543,(spirogloea_muscicola_SM000128S26215:0.01391,(spirogloea_muscicola_SM000085S23220:0.08468,spirogloea_muscicola_SM000015S01294:0.01714)n3:0.01251)n2:0.24996)n1:0.42568)n0;

@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv00002:0.41125,(chromochloris_zofingiensis_Cz01g15210:0.82921,((haematococcus_lacustris_GFH15153:0.76599,(chlamydomonas_reinhardtii_Cre03.g181100:0.41125,(dunaliella_salina_Dusal.0895s00006:0.42659,haematococcus_lacustris_GFH15155:0.15828)0.956:0.4274)0.699:0.22165)0.492:0.15147,ulva_mutabilis_UM079_0022:1.26321)0.843:0.18225)1:0.41125);

@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy03g02740:1.14248,klebsormidium_nitens_kfl00043_g21:0.98086)n1:0.092155,(mesostigma_viridae_Mv12501:0.92538,micromonas_pusilla_Micpu_27347662:0.50982)n2:0.092155)n0;

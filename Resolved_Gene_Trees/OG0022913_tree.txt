@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT4G26450:1.34646,(cycas_panzhihuaensis_CYCAS_029981:0.247926,(thuja_plicata_Thupl.29361800s0004:0.105944,thuja_plicata_Thupl.29377309s0002:0.045198)n2:0.428488)n1:1.34646)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1939608:0.32455,(saccharina_japonica_SJ14326:0.589,(nannochloropsis_gaditana_Nangad1_4264:0.8901,(phaeodactylum_tricornutum_Phatr2_46444:0.48757,phaeodactylum_tricornutum_Phatr2_49401:0.70029)n3:0.07781)n2:0.04865)n1:0.59793)n0;

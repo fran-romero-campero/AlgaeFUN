@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta16g01600:0.890855,(cyanidioschyzon_merolae_XM_005539009:0.51906,(cyanidioschyzon_merolae_XM_005539334:0.6562,cyanidioschyzon_merolae_XM_005539016:0.72983)n2:0.20417)n1:0.890855)n0;

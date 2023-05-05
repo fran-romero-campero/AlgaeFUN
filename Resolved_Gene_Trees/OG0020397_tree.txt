@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM098_0096:0.550007,((raphidocelis_subcapitata_Rsub_00249:0.908302,chromochloris_zofingiensis_Cz14g21200:3.12889e-06)n2:0.462768,(chlamydomonas_reinhardtii_Cre06.g280600:3.12889e-06,volvox_carteri_Vocar.0002s0068:0.604922)n3:0.555832)n1:0.550007)n0;
+(nannochloropsis_gaditana_Nangad1_4239:0.75953,(cyanophora_paradoxa_Cyapar1_g2520:0.56525,((cyanophora_paradoxa_Cyapar1_g15828:0.01368,cyanophora_paradoxa_Cyapar1_g15829:0.14811)n3:0.53503,(cyanophora_paradoxa_Cyapar1_g17557:0.39743,cyanophora_paradoxa_Cyapar1_g2521:0.51186)n4:0.03105)n2:0.09259)n1:0.75953)n0;

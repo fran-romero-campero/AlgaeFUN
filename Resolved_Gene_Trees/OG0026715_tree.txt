@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF42991:0.73653,nannochloropsis_gaditana_Nangad1_3265:0.40675)n1:0.079585,(cyanophora_paradoxa_Cyapar1_g12192:0.61007,saccharina_japonica_SJ03435:0.58488)n2:0.079585)n0;

@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag19G002100:0.109365,(physcomitrium_patens_Pp3c24_20230:0.20078,(ceratodon_purpureus_CepurR40.3G235000:0.13308,ceratodon_purpureus_CepurR40.12G052300:0.07329)n2:0.07442)n1:0.109365)n0;

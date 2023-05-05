@@ -1,1 +1,1 @@
-((ostreococcus_tauri_ostta11g03150:0.543911,bathycoccus_prasinos_Bathy02g01290:0.742332)n1:0.269477,(phaeodactylum_tricornutum_Phatr2_47096:0.84541,phaeodactylum_tricornutum_Phatr2_37201:0.93667)n2:0.269477)n0;
+(cyanophora_paradoxa_Cyapar1_g19540:0.79342,(mesotaenium_endlicherianum_ME000010S10837:0.88864,(spirogloea_muscicola_SM000226S07413:0.00528,(spirogloea_muscicola_SM000043S15868:0.02868,spirogloea_muscicola_SM000031S11619:0.03364)n3:0.01099)n2:0.19062)n1:0.79342)n0;

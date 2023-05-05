@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_1AL_CBB9E4CDC:0.013765,((triticum_aestivum_Traes_3AL_D39128E7C:0.003532,(triticum_aestivum_Traes_3AS_B48FDC907:0.015362,triticum_aestivum_Traes_7BL_509350B17:0.022906)n3:0.088479)n2:0.017273,triticum_aestivum_Traes_3B_2764B18AA:0.21733)n1:0.013765)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1866988:0.27144,((bathycoccus_prasinos_Bathy95g00030:0.5792,chromochloris_zofingiensis_Cz03g25030:0.68806)n2:0.39665,(ceratodon_purpureus_CepurR40.4G003900:0.27344,marchantia_polymorpha_Mp3g18680:0.52426)n3:0.26597)n1:0.27144)n0;

@@ -1,1 +1,1 @@
-(ceratodon_purpureus_CepurR40.VG122700:0.328676,(ceratodon_purpureus_CepurR40.12G102500:0.063332,(ceratodon_purpureus_CepurR40.2G087100:0.021132,ceratodon_purpureus_CepurR40.5G204000:0.001147)n2:0.055583)n1:0.328676)n0;
+(galdieria_sulphuraria_GsulpSAG21_G1837:0.000275,(galdieria_sulphuraria_GsulpSAG21_G2422:0.39113,(galdieria_sulphuraria_GsulpSAG21_G2019:0.02927,(galdieria_sulphuraria_GsulpSAG21_G438:0.00055,galdieria_sulphuraria_GsulpSAG21_G2425:0.12276)n3:0.84325)n2:0.14729)n1:0.000275)n0;

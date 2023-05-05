@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET2Gv20888700:0.454748,(oryza_sativa_LOC_Os04g48360.1:0.393995,(zea_mays_Zm00001d002616:0.296036,sorghum_bicolor_Sobic.006G185000:0.231451)n2:0.378739)n1:0.454748)n0;
+(chlamydomonas_reinhardtii_Cre06.g303950:0.56774,(saccharina_japonica_SJ20649:1.02953,(saccharina_japonica_SJ12417:0.05288,(saccharina_japonica_SJ09980:0.1771,saccharina_japonica_SJ12416:0.11489)n3:0.07893)n2:0.6742)n1:0.56774)n0;

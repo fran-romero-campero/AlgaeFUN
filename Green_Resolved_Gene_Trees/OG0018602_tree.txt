@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv11323:0.69149,((ulva_mutabilis_UM002_0163:0.9573,ulva_mutabilis_UM047_0088:0.83555)n2:0.31533,(bathycoccus_prasinos_Bathy19g00110:0.16793,(bathycoccus_prasinos_Bathy13g00070:0.07052,bathycoccus_prasinos_Bathy35g00100:0.12711)n4:0.04129)n3:0.65151)n1:0.69149)n0;

@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT4G05555:0.315993,(((arabidopsis_thaliana_AT1G31140:0.981925,arabidopsis_thaliana_AT1G31150:1.02817)n3:0.306632,arabidopsis_thaliana_AT3G31560:0.482749)n2:0.258479,arabidopsis_thaliana_AT1G36970:0.615773)n1:0.315993)n0;
+(cyanophora_paradoxa_Cyapar1_g9343:0.511355,(mesostigma_viridae_Mv06586:0.61958,((chara_braunii_Chabra1_g39262:1.10849,klebsormidium_nitens_kfl00624_0040:1.06987)n3:0.20542,(micromonas_pusilla_Micpu_27340055:0.64713,ostreococcus_tauri_ostta01g06440:0.90533)n4:0.13029)n2:0.28649)n1:0.511355)n0;

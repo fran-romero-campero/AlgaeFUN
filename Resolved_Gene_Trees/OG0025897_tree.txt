@@ -1,1 +1,1 @@
-((triticum_aestivum_Traes_2BL_40C9ACFD7:0.068862,triticum_aestivum_Traes_2AL_16DE277EA:0.055768)n1:0.432362,(zea_mays_Zm00001d011291:0.014895,zea_mays_Zm00001d036116:0.082355)n2:0.432362)n0;
+(nannochloropsis_gaditana_Nangad1_507:0.62255,(chlamydomonas_reinhardtii_Cre06.g278118:0.34981,(ulva_mutabilis_UM094_0038:1.2676,volvox_carteri_Vocar.0002s0580:0.413)n2:0.26093)n1:0.62255)n0;

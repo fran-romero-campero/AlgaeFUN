@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_Cz07g30120:2.11418e-06,(dunaliella_salina_Dusal.0091s00025:1.26551,(volvox_carteri_Vocar.0022s0114:0.295798,chlamydomonas_reinhardtii_Cre14.g624900:0.125484)n2:0.997757)n1:2.11418e-06)n0;
+((nannochloropsis_gaditana_Nangad1_9918:0.81768,saccharina_japonica_SJ18649:1.05368)n1:0.076095,(phaeodactylum_tricornutum_Phatr2_32274:0.51879,(phaeodactylum_tricornutum_Phatr2_34844:0.86007,phaeodactylum_tricornutum_Phatr2_45208:0.56904)n3:0.13944)n2:0.076095)n0;

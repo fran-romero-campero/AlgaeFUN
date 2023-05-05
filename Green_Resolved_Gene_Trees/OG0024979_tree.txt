@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag18G027000:0.235415,(haematococcus_lacustris_GFH10424:0.53746,(haematococcus_lacustris_GFH16494:0.01677,haematococcus_lacustris_GFH30639:0.00586)n2:0.28703)n1:0.235415)n0;

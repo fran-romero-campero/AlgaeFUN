@@ -1,1 +1,1 @@
-(spirogloea_muscicola_SM009292S24366:0.0885315,((spirogloea_muscicola_SM010523S13925:0.418754,spirogloea_muscicola_SM011137S18863:0.386605)n2:0.136737,spirogloea_muscicola_SM004015S15415:0.530542)n1:0.0885315)n0;
+(ceratopteris_richardii_Ceric.04G023400:0.62822,(solanum_lycopersicum_Solyc02g031920:0.40332,(triticum_aestivum_Traes_3B_A73999987:0.24267,triticum_aestivum_Traes_3AL_14A605779:0.00055)n2:0.22447)n1:0.62822)n0;

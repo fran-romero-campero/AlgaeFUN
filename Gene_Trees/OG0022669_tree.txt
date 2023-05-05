@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g18440:0.59452,(raphidocelis_subcapitata_Rsub_09858:0.2905,(scenedesmus_obliquus_SZX71266:0.41838,(chromochloris_zofingiensis_Cz13g17110:0.68513,scenedesmus_obliquus_SZX72937:0.24262)0.828:0.12093)0.94:0.30535)1:0.59452);

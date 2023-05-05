@@ -1,1 +1,1 @@
-(ceratodon_purpureus_CepurR40.1G300600:0.50116,((physcomitrium_patens_Pp3c3_36419:0.504788,physcomitrium_patens_Pp3c3_36430:1.07594)n2:0.173722,physcomitrium_patens_Pp3c8_3790:0.688806)n1:0.50116)n0;
+(nannochloropsis_gaditana_Nangad1_8807:0.549055,(haematococcus_lacustris_GFH29879:0.00055,(haematococcus_lacustris_GFH28469:0.00055,(haematococcus_lacustris_GFH07222:0.21462,haematococcus_lacustris_GFH28470:0.03169)n3:0.04655)n2:0.11824)n1:0.549055)n0;

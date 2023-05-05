@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT3G27835:0.085532,((arabidopsis_thaliana_AT4G29033:0.564813,arabidopsis_thaliana_AT1G35537:0.460876)n2:0.391227,arabidopsis_thaliana_AT3G27831:0.098824)n1:0.085532)n0;
+((cyanophora_paradoxa_Cyapar1_g23034:0.4707,(dunaliella_salina_Dusal.0153s00019:0.73596,haematococcus_lacustris_GFH10807:0.57262)n2:0.56672)n1:0.2442,(cryptophyceae_CCMP2293_Crypto2293_1_1815583:0.59265,cryptophyceae_CCMP2293_Crypto2293_1_3376319:0.86354)n3:0.2442)n0;

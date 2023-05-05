@@ -1,1 +1,1 @@
-((dunaliella_salina_Dusal.0600s00007:1.02846,(volvox_carteri_Vocar.0003s0097:0.441757,chlamydomonas_reinhardtii_Cre07.g315550:3.67353e-06)n2:0.272736)n1:0.359081,(raphidocelis_subcapitata_Rsub_11024:0.197678,raphidocelis_subcapitata_Rsub_07167:1.06265)n3:0.359081)n0;
+(cyanidioschyzon_merolae_XM_005538524:0.20132,(galdieria_sulphuraria_GsulpSAG21_G258:0.6757,((gracilariopsis_chorda_PXF40161:0.54407,porphyra_umbilicalis_Pum0692s0009:0.50876)n3:0.18494,(gracilariopsis_chorda_PXF45751:0.30566,porphyra_umbilicalis_Pum0322s0003:0.36033)n4:0.13064)n2:0.16485)n1:0.20132)n0;

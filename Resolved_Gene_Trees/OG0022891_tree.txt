@@ -1,1 +1,1 @@
-((solanum_lycopersicum_Solyc10g083530:0.5414,solanum_lycopersicum_Solyc09g009220:0.434692)n1:0.169699,(arabidopsis_thaliana_AT5G03670:0.726741,arabidopsis_thaliana_AT2G36420:0.726165)n2:0.169699)n0;
+(cyanophora_paradoxa_Cyapar1_g12336:0.558395,((cryptophyceae_CCMP2293_Crypto2293_1_1895221:0.60667,cryptophyceae_CCMP2293_Crypto2293_1_1896473:0.96791)n2:0.27439,(guillardia_tetha_Guith1_146838:0.0134,guillardia_tetha_Guith1_146844:0.03992)n3:0.95017)n1:0.558395)n0;

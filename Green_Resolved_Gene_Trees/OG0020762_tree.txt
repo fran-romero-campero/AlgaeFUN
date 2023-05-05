@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1263280:1.30221,raphidocelis_subcapitata_Rsub_04818:1.13485)n1:0.233385,(bathycoccus_prasinos_Bathy16g00110:0.60906,(ostreococcus_tauri_ostta13g02820:0.45186,ostreococcus_tauri_ostta16g00350:0.35643)n3:0.11368)n2:0.233385)n0;

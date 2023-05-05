@@ -1,1 +1,1 @@
-((chlamydomonas_reinhardtii_Cre08.g368200:2.02513e-06,volvox_carteri_Vocar.0020s0085:0.507082)n1:0.490901,(chromochloris_zofingiensis_Cz08g14090:2.02513e-06,raphidocelis_subcapitata_Rsub_07929:0.768612)n2:0.490901)n0;
+((mesotaenium_endlicherianum_ME000548S08434:0.49068,(mesotaenium_endlicherianum_ME000548S08433:1.27371,mesotaenium_endlicherianum_ME000143S00933:0.30575)n2:0.51773)n1:0.224135,(spirogloea_muscicola_SM000200S05811:0.02482,spirogloea_muscicola_SM000214S06789:0.01348)n3:0.224135)n0;

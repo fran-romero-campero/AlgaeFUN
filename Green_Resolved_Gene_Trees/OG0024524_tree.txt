@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz03g05190:0.376575,(triticum_aestivum_Traes_6DL_6CAA6BE08:0.49411,(salvinia_cucullata_Sacu_v1.1_s0011.g005264:0.45676,sphagnum_magellanicum_Sphmag10G088500:0.48476)n2:0.12229)n1:0.376575)n0;

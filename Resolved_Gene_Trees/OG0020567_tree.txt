@@ -1,1 +1,1 @@
-((chromochloris_zofingiensis_Cz01g27070:2.09051e-06,raphidocelis_subcapitata_Rsub_10324:0.684554)n1:0.0951155,(dunaliella_salina_Dusal.0064s00015:0.852085,(volvox_carteri_Vocar.0005s0129:0.333348,chlamydomonas_reinhardtii_Cre03.g166250:0.002767)n3:0.189641)n2:0.0951155)n0;
+(micromonas_pusilla_Micpu_27339451:0.45761,((nannochloropsis_gaditana_Nangad1_7367:0.46468,saccharina_japonica_SJ20028:0.72659)n2:0.29604,(phaeodactylum_tricornutum_Phatr2_32684:0.70753,(guillardia_tetha_Guith1_136890:0.80437,guillardia_tetha_Guith1_70348:0.385938)n4:0.042882)n3:0.2118)n1:0.45761)n0;

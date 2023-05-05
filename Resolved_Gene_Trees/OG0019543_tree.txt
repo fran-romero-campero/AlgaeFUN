@@ -1,1 +1,1 @@
-(((aegilops_tauschii_AET6Gv20100400:0.980498,aegilops_tauschii_AET5Gv20936600:0.114885)n2:0.114228,aegilops_tauschii_AET5Gv20936200:2.08714e-06)n1:0.111216,(triticum_aestivum_Traes_5AL_53509EF72:0.328435,triticum_aestivum_Traes_5DL_7986CD831:0.334284)n3:0.111216)n0;
+((guillardia_tetha_Guith1_153512:0.60563,(cryptophyceae_CCMP2293_Crypto2293_1_1983384:0.41033,physcomitrium_patens_Pp3s32_550:1.28031)n2:0.1785)n1:0.085645,(bathycoccus_prasinos_Bathy07g03330:0.77741,(mesostigma_viridae_Mv19796:1.34272,phaeodactylum_tricornutum_Phatr2_49453:0.42708)n4:0.35315)n3:0.085645)n0;

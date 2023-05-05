@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_43903:0.187898,((ulva_mutabilis_UM007_0021:0.663944,(cyanophora_paradoxa_Cyapar1_g23814:0.367526,cyanophora_paradoxa_Cyapar1_g18008:0.455476)n3:0.186837)n2:0.270624,micromonas_pusilla_Micpu_27340293:1.42539)n1:0.187898)n0;
+(porphyra_umbilicalis_Pum0065s0016:0.126595,(porphyra_umbilicalis_Pum0025s0055:0.29057,(porphyra_umbilicalis_Pum0065s0021:0.01142,(porphyra_umbilicalis_Pum0527s0006:0.58857,(porphyra_umbilicalis_Pum0527s0004:0.1644,porphyra_umbilicalis_Pum0096s0019:0.07383)n4:0.25949)n3:0.26677)n2:0.41896)n1:0.126595)n0;

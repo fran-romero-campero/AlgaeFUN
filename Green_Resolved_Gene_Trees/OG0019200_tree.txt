@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_033190:0.762215,(raphidocelis_subcapitata_Rsub_09394:0.29239,(chromochloris_zofingiensis_Cz13g06080:0.35196,((scenedesmus_obliquus_SZX67135:0,scenedesmus_obliquus_SZX74238:0)n4:0.06866,scenedesmus_obliquus_SZX73657:0.28149)n3:0.27279)n2:0.15541)n1:0.762215)n0;

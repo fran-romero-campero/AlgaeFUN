@@ -1,1 +1,1 @@
-(spirogloea_muscicola_SM000065S20266:0.0463995,((spirogloea_muscicola_SM000046S16353:0.52952,spirogloea_muscicola_SM000176S03159:0.932748)n2:0.406646,spirogloea_muscicola_SM000018S03638:0.019001)n1:0.0463995)n0;
+(ceratopteris_richardii_Ceric.05G007400:0.02044,(ceratopteris_richardii_Ceric.05G024900:0.1604,(ceratopteris_richardii_Ceric.26G044200:0.05136,ceratopteris_richardii_Ceric.15G022200:0.10671)n2:0.01032)n1:0.02044)n0;

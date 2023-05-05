@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000028l.31:0.291137,((cycas_panzhihuaensis_CYCAS_012503:0.012773,cycas_panzhihuaensis_CYCAS_012505:9.45166e-07)n2:0.12596,thuja_plicata_Thupl.28203482s0001:0.22476)n1:0.291137)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1760688:0.28431,guillardia_tetha_Guith1_104681:0.4363)n1:0.30854,(micromonas_pusilla_Micpu_27342905:0.74749,(klebsormidium_nitens_kfl00368_0030:0.61196,mesotaenium_endlicherianum_ME000017S02124:0.77595)n3:0.56135)n2:0.30854)n0;

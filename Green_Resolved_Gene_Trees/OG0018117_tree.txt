@@ -1,0 +1,1 @@
+((aegilops_tauschii_AET3Gv20393700:0.34283,triticum_aestivum_Traes_5AL_548A1BD27:0.2851)n1:0.32697,(selaginella_moellendorffii_Selmo_430421:0.35538,(selaginella_moellendorffii_Selmo_421568:0.10871,(selaginella_moellendorffii_Selmo_421561:0.23172,selaginella_moellendorffii_Selmo_430414:0.05024)n4:0.0121)n3:0.00054)n2:0.32697)n0;

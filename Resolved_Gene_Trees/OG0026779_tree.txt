@@ -1,0 +1,1 @@
+(cyanophora_paradoxa_Cyapar1_g18491:0.499945,(saccharina_japonica_SJ12044:0.52397,(phaeodactylum_tricornutum_Phatr2_43887:0.90486,phaeodactylum_tricornutum_Phatr2_44501:0.74952)n2:0.42392)n1:0.499945)n0;

@@ -1,1 +1,1 @@
-((salvinia_cucullata_Sacu_v1.1_s0017.g007123:0.530809,azolla_filiculoides_Azfi_s0015.g013930:0.508083)n1:0.701659,(ceratopteris_richardii_Ceric.10G032700:0,ceratopteris_richardii_Ceric.10G032600:0)n2:0.701659)n0;
+((cyanidioschyzon_merolae_XM_005538641:0.88119,galdieria_sulphuraria_GsulpSAG21_G407:1.10076)n1:0.215125,(phaeodactylum_tricornutum_Phatr2_43131:0.76753,(nannochloropsis_gaditana_Nangad1_7773:0.9205,saccharina_japonica_SJ04163:0.77402)n3:0.18544)n2:0.215125)n0;

@@ -1,1 +1,1 @@
-((mesostigma_viridae_Mv11429:1.47174,cyanophora_paradoxa_Cyapar1_g817:1.25758)n1:0.062771,(nannochloropsis_gaditana_Nangad1_5108:1.44519,(phaeodactylum_tricornutum_Phatr2_32710:0.132288,phaeodactylum_tricornutum_Phatr2_43493:0.219354)n3:0.994064)n2:0.062771)n0;
+(saccharina_japonica_SJ00914:0.07606,(saccharina_japonica_SJ02877:0.20877,(saccharina_japonica_SJ02878:0.17065,(saccharina_japonica_SJ00912:0.23785,(saccharina_japonica_SJ00913:0.21899,saccharina_japonica_SJ00922:0.69434)n4:0.02963)n3:0.07104)n2:0.0493)n1:0.07606)n0;

@@ -1,1 +1,1 @@
-((chlamydomonas_reinhardtii_Cre11.g467783:1.42213e-06,(volvox_carteri_Vocar.0023s0229:0.142219,volvox_carteri_Vocar.0023s0110:0.179219)n2:0.414534)n1:0.125705,(volvox_carteri_Vocar.0008s0050:0.647086,chlamydomonas_reinhardtii_Cre02.g095075:1.42213e-06)n3:0.125705)n0;
+(guillardia_tetha_Guith1_121463:0.832785,((cyanophora_paradoxa_Cyapar1_g10339:0.57263,cyanophora_paradoxa_Cyapar1_g5309:0.74812)n2:0.24043,((cyanophora_paradoxa_Cyapar1_g3054:0.40645,cyanophora_paradoxa_Cyapar1_g8843:0.46889)n4:0.16495,cyanophora_paradoxa_Cyapar1_g18241:0.92492)n3:0.00056)n1:0.832785)n0;

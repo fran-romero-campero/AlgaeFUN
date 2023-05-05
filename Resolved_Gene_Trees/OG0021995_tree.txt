@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3DS_95DB943D3:0.0656665,((triticum_aestivum_Traes_2DS_530BFB5DE:0.300751,triticum_aestivum_Traes_3AS_BD5BDD5EE:0.086628)n2:0.127846,(triticum_aestivum_Traes_3AL_1254F72F2:0.056744,triticum_aestivum_Traes_3DL_EFFA73895:0.47323)n3:0.40021)n1:0.0656665)n0;
+((cyanophora_paradoxa_Cyapar1_g12197:0.59592,cyanophora_paradoxa_Cyapar1_g12208:0.38229)n1:0.43863,(ostreococcus_tauri_ostta05g01150:0.16829,(bathycoccus_prasinos_Bathy14g02630:0.6213,micromonas_pusilla_Micpu_27342613:0.45215)n3:0.30579)n2:0.43863)n0;

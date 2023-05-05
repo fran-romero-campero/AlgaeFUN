@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_1AL_0BAA20B76:0.136665,((triticum_aestivum_proteome_first_transcript_Traes_1DL_68CDAFDAB:0.033838,triticum_aestivum_proteome_first_transcript_Traes_4DL_6C15CB2C5:1.08798):0.040671,triticum_aestivum_proteome_first_transcript_Traes_1BL_F8F8F3793:0.038805):0.136665);
+(cryptophyceae_CCMP2293_Crypto2293_1_1898042:0.2435,(zea_mays_Zm00001d032320:0.28327,(aegilops_tauschii_AET3Gv20217400:0.27158,(spirogloea_muscicola_SM015337S01626:0.04518,spirogloea_muscicola_SM015676S02000:0.00054)0.958:0.23082)0.879:0.2194)1:0.2435);

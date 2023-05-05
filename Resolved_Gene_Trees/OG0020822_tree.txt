@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g13410:0.153808,(((cyanophora_paradoxa_Cyapar1_g6100:0.586662,cyanophora_paradoxa_Cyapar1_g6094:0.495381)n3:0.673576,cyanophora_paradoxa_Cyapar1_g12035:0.676759)n2:0.563878,cyanophora_paradoxa_Cyapar1_g5223:0.414875)n1:0.153808)n0;
+(scenedesmus_obliquus_SZX61249:0.643625,((phaeodactylum_tricornutum_Phatr2_41478:0.3443,(phaeodactylum_tricornutum_Phatr2_35856:0,phaeodactylum_tricornutum_Phatr2_46000:0)n3:0.41422)n2:0.60859,(phaeodactylum_tricornutum_Phatr2_49308:0.31081,phaeodactylum_tricornutum_Phatr2_48352:0.44653)n4:0.37093)n1:0.643625)n0;

@@ -1,0 +1,1 @@
+(oryza_sativa_ChrSy.fgenesh.mRNA.64:0.427985,(triticum_aestivum_Traes_1DS_84C4CDC76:0.19245,((aegilops_tauschii_AET3Gv20819500:0.05801,aegilops_tauschii_AET6Gv20331600:0.05364)n3:0.00936,aegilops_tauschii_AET6Gv20540800:0.000495)n2:5.5e-05)n1:0.06947)n0;

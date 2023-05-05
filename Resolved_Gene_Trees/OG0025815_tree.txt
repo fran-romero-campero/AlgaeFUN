@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29382486s0002:0,((thuja_plicata_Thupl.29186251s0001:0.215341,thuja_plicata_Thupl.28602879s0001:1.17802)n2:0.074815,thuja_plicata_Thupl.29378049s0002:0)n1:0)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_2259836:0.1694,guillardia_tetha_Guith1_160867:0.33316)n1:0.36335,(chara_braunii_Chabra1_g37531:0.36174,klebsormidium_nitens_kfl00061_0010:0.3593)n2:0.36335)n0;

@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_39534:0.460327,(phaeodactylum_tricornutum_Phatr2_48934:0.552227,(phaeodactylum_tricornutum_Phatr2_50511:0.754919,phaeodactylum_tricornutum_Phatr2_36581:1.25095)n2:0.055574)n1:0.460327)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1863921:0.388265,(physcomitrium_patens_Pp3s34_660:1.36076,(anthoceros_agrestis_AagrOXF_utg000053l.41:0.39664,chromochloris_zofingiensis_Cz05g13250:0.35058)n2:0.29854)n1:0.388265)n0;

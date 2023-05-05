@@ -1,1 +1,1 @@
-((selaginella_moellendorffii_Selmo_428348:0.964647,selaginella_moellendorffii_Selmo_412149:0.911097)n1:0.303432,(aegilops_tauschii_AET3Gv20873200:0.129731,aegilops_tauschii_AET6Gv20789300:0.416525)n2:0.303432)n0;
+(chara_braunii_Chabra1_g30325:0.023665,(chara_braunii_Chabra1_g9047:0.87524,(chara_braunii_Chabra1_g21090:0.01512,(chara_braunii_Chabra1_g28853:0.19436,chara_braunii_Chabra1_g19379:0.14642)n3:0.09025)n2:0.08691)n1:0.023665)n0;

@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv00434:0.997068,(dunaliella_salina_Dusal.0450s00009:1.97101,(chlamydomonas_reinhardtii_Cre02.g083700:4.91428e-06,volvox_carteri_Vocar.0004s0520:1.068)n2:0.371316)n1:0.997068)n0;
+(phaeodactylum_tricornutum_Phatr2_50572:0.341925,(phaeodactylum_tricornutum_Phatr2_46382:0.42797,(phaeodactylum_tricornutum_Phatr2_49958:1.89521,(phaeodactylum_tricornutum_Phatr2_31636:1.50553,phaeodactylum_tricornutum_Phatr2_44997:0.78938)n3:0.02949)n2:0.09068)n1:0.341925)n0;

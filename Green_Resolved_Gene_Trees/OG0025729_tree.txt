@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM041_0032:0.511375,(selaginella_moellendorffii_Selmo_96294:0.5225,(salvinia_cucullata_Sacu_v1.1_s0009.g004367:0.75709,salvinia_cucullata_Sacu_v1.1_s0007.g003735:0.980658)n2:0.108962)n1:0.2668)n0;

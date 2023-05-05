@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre08.g368000:2.43615e-06,(raphidocelis_subcapitata_Rsub_02225:1.62756,(raphidocelis_subcapitata_Rsub_04443:0.176298,raphidocelis_subcapitata_Rsub_04444:0.139785)n2:1.40169)n1:2.43615e-06)n0;
+(sphagnum_magellanicum_Sphmag08G113600:0.25228,(mesotaenium_endlicherianum_ME000401S07009:0.49821,(spirogloea_muscicola_SM000278S10018:0.01368,(spirogloea_muscicola_SM000151S01504:0.03332,spirogloea_muscicola_SM000174S03355:0.03363)n3:0.00379)n2:0.4055)n1:0.25228)n0;

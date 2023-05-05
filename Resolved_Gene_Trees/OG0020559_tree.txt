@@ -1,1 +1,1 @@
-((volvox_carteri_Vocar.0004s0514:0.602108,chlamydomonas_reinhardtii_Cre02.g084600:2.12703e-06)n1:0.503166,((spirogloea_muscicola_SM000049S16771:0.148657,spirogloea_muscicola_SM000048S16508:0.176463)n3:0.645226,spirogloea_muscicola_SM000080S22931:2.12703e-06)n2:0.503166)n0;
+(guillardia_tetha_Guith1_61898:0.607535,(gracilariopsis_chorda_PXF47090:0.40821,(porphyra_umbilicalis_Pum2070s0001:0.35653,(porphyra_umbilicalis_Pum0116s0006:0.26164,(porphyra_umbilicalis_Pum0994s0001:0.00055,porphyra_umbilicalis_Pum0994s0004:0.06379)n4:0.34525)n3:0.24007)n2:0.17556)n1:0.607535)n0;

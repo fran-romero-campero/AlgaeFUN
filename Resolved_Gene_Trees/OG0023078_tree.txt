@@ -1,1 +1,1 @@
-(micromonas_pusilla_Micpu_27342707:0.693151,(bathycoccus_prasinos_Bathy04g02070:2.16542,(ostreococcus_tauri_ostta13g02570:1.03422,ostreococcus_tauri_ostta13g03080:0.373648)n2:0.838123)n1:0.693151)n0;
+((porphyra_umbilicalis_Pum0103s0042:0.62824,(gracilariopsis_chorda_PXF44563:0.56497,gracilariopsis_chorda_PXF49284:0.28879)n2:0.67058)n1:0.144265,(cyanophora_paradoxa_Cyapar1_g3062:0.95988,physcomitrium_patens_Pp3s30_125:0.7352)n3:0.144265)n0;

@@ -1,0 +1,1 @@
+(solanum_lycopersicum_Solyc09g010620:0.778895,(chromochloris_zofingiensis_Cz03g40290:0.17786,(haematococcus_lacustris_GFH10617:0.00055,haematococcus_lacustris_GFH21033:0.00852)n2:0.26771)n1:0.778895)n0;

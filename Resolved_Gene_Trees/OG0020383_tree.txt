@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_10753:0.550582,((chlamydomonas_reinhardtii_Cre16.g659100:0.054518,volvox_carteri_Vocar.0004s0046:0.349603)n2:0.205309,(volvox_carteri_Vocar.0038s0034:0.625834,chlamydomonas_reinhardtii_Cre05.g244450:2.10295e-06)n3:2.10295e-06)n1:0.550582)n0;
+(cyanophora_paradoxa_Cyapar1_g12995:0.02507,(cyanophora_paradoxa_Cyapar1_g13002:0.00055,(cyanophora_paradoxa_Cyapar1_g5683:0.00055,(cyanophora_paradoxa_Cyapar1_g6673:0.00055,(cyanophora_paradoxa_Cyapar1_g15926:0,cyanophora_paradoxa_Cyapar1_g18609:0)n4:0.00054)n3:0.00053)n2:0.05296)n1:0.02507)n0;

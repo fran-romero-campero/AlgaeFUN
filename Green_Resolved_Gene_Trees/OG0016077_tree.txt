@@ -1,0 +1,1 @@
+(ulva_mutabilis_UM004_0153:0.343095,(klebsormidium_nitens_kfl00103_0220:0.61516,(mesostigma_viridae_Mv00005:0.76267,(mesostigma_viridae_Mv03935:0.49863,(mesostigma_viridae_Mv00664:0.1343,(mesostigma_viridae_Mv12283:0.08454,(mesostigma_viridae_Mv22147:0.02292,mesostigma_viridae_Mv15411:0.12708)n6:0.05613)n5:0.05769)n4:0.32731)n3:0.366759)n2:0.040751)n1:0.26876)n0;

@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29378653s0005:0.057509,((thuja_plicata_Thupl.29378653s0006:0.062814,thuja_plicata_Thupl.29378653s0007:0.018567)n2:0.624947,thuja_plicata_Thupl.29378653s0004:0.084892)n1:0.057509)n0;
+(saccharina_japonica_SJ04145:0.58452,(mesostigma_viridae_Mv14833:0.21829,(chara_braunii_Chabra1_g51659:0.65058,klebsormidium_nitens_kfl00069_0380:1.4019)n2:0.67771)n1:0.58452)n0;

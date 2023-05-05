@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH10816:0.07977,haematococcus_lacustris_GFH15186:0.00055)n1:0.65625,(saccharina_japonica_SJ13523:0.67456,saccharina_japonica_SJ15049:0.06053)n2:0.65625)n0;

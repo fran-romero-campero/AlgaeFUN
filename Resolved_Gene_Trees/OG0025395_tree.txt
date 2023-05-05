@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc11g039660:0.211416,((triticum_aestivum_Traes_4DS_F3B19A67C:8.20127e-07,triticum_aestivum_Traes_4DS_6724E8B59:0.18433)n2:0.140345,triticum_aestivum_Traes_5BL_D9EAA9546:0.178839)n1:0.211416)n0;
+(guillardia_tetha_Guith1_138933:0.264205,(ceratodon_purpureus_CepurR40.8G085600:0.62376,(dunaliella_salina_Dusal.0025s00027:0.6734,ulva_mutabilis_UM014_0071:0.73197)n2:0.19492)n1:0.264205)n0;

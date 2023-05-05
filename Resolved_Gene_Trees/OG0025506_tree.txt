@@ -1,1 +1,1 @@
-(sorghum_bicolor_Sobic.005G153600:0.191099,(zea_mays_Zm00001d053113:0.194511,(zea_mays_Zm00001d007471:0.047488,zea_mays_Zm00001d007470:0.089877)n2:0.573667)n1:0.191099)n0;
+(ceratodon_purpureus_CepurR40.3G007300:0.57108,(cryptophyceae_CCMP2293_Crypto2293_1_1813247:0.37924,(guillardia_tetha_Guith1_110195:0.38832,nannochloropsis_gaditana_Nangad1_9297:1.27599)n2:0.28425)n1:0.57108)n0;

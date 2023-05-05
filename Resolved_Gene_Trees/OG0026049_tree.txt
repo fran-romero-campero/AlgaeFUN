@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_2AL_8394449B2:0.052627,(triticum_aestivum_Traes_2DL_0F0A9C3B9:0.122091,(triticum_aestivum_Traes_2BL_EA2B95CF0:0.003968,triticum_aestivum_Traes_2AL_2EFFD7933:0.060086)n2:0.071113)n1:0.052627)n0;
+(chlorokybus_atmophyticus_Chlat1_1904:0.73801,(thuja_plicata_Thupl.29381630s0010:0.30677,(selaginella_moellendorffii_Selmo_3910:0.22377,selaginella_moellendorffii_Selmo_137607:0.17333)n2:0.70608)n1:0.73801)n0;

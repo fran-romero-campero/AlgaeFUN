@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.19G003300:0.339328,((ceratopteris_richardii_Ceric.19G003200:0.130344,ceratopteris_richardii_Ceric.19G003100:0.073465)n2:0.248985,ceratopteris_richardii_Ceric.19G003000:0.053293)n1:0.339328)n0;
+(klebsormidium_nitens_kfl00351_0070:0.56952,(porphyra_umbilicalis_Pum0048s0047:0.26021,(porphyra_umbilicalis_Pum2106s0001:0.66989,(porphyra_umbilicalis_Pum0121s0007:0.17485,porphyra_umbilicalis_Pum0378s0007:0.2058)n3:0.09486)n2:0.0865)n1:0.56952)n0;

@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT2G13760:0.109305,((arabidopsis_thaliana_AT1G24380:0.018507,arabidopsis_thaliana_AT1G66235:1.47401)n2:0.021548,arabidopsis_thaliana_AT4G10230:0.033929)n1:0.109305)n0;
+(mesostigma_viridae_Mv16363:0.697225,(phaeodactylum_tricornutum_Phatr2_35386:1.09249,(cryptophyceae_CCMP2293_Crypto2293_1_1808464:0.53674,(guillardia_tetha_Guith1_101373:0.1804,guillardia_tetha_Guith1_141993:0.49412)n3:0.14713)n2:0.407)n1:0.697225)n0;

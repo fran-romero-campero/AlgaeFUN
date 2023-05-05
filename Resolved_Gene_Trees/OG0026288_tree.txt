@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta09g03900:0.62138,(ulva_mutabilis_UM012_0067:0.85494,(coccomyxa_subellipsoidea_Cosub3_1192854:0.09988,coccomyxa_subellipsoidea_Cosub3_1200772:0.477702)n2:0.053078)n1:0.26425)n0;

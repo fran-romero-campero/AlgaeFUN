@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_16140:0.221288,((micromonas_pusilla_Micpu_27343244:0.247712,ostreococcus_tauri_ostta05g01070:0.194669)n2:0.041728,bathycoccus_prasinos_Bathy03g01110:0.268019)n1:0.221288)n0;
+((cyanophora_paradoxa_Cyapar1_g22364:0.0849,cyanophora_paradoxa_Cyapar1_g22366:0.16158)n1:0.415065,(scenedesmus_obliquus_SZX64567:0.98569,(klebsormidium_nitens_kfl00120_0220:0.63315,mesostigma_viridae_Mv00464:1.23787)n3:0.15567)n2:0.415065)n0;

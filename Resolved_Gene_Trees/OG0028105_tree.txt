@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ13611:0.840995,(raphidocelis_subcapitata_Rsub_06402:0.15091,(scenedesmus_obliquus_SZX60397:0.00053,scenedesmus_obliquus_SZX75088:0.00055)n2:0.25069)n1:0.840995)n0;

@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_002367:0.545502,(cycas_panzhihuaensis_CYCAS_016827:0.923307,((cycas_panzhihuaensis_CYCAS_014167:0.21589,cycas_panzhihuaensis_CYCAS_022514:0.267233)n3:0.170469,cycas_panzhihuaensis_CYCAS_005566:0.168595)n2:0.189339)n1:0.545502)n0;
+(scenedesmus_obliquus_SZX74739:0.649585,(solanum_lycopersicum_Solyc11g062180:0.218,(solanum_lycopersicum_Solyc12g097010:0.1294,(solanum_lycopersicum_Solyc07g052790:0.00055,(solanum_lycopersicum_Solyc07g052785:0.00055,solanum_lycopersicum_Solyc00g500405:0.00054)n4:0.01268)n3:0.13674)n2:0.15121)n1:0.649585)n0;

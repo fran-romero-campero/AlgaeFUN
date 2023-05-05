@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_6820:0.63498,mesostigma_viridae_Mv15927:0.66236)n1:0.09054,(klebsormidium_nitens_kfl00688_0060:0.62066,(chara_braunii_Chabra1_g30025:0.53419,(marchantia_polymorpha_Mp2g11340:0.35045,(ceratodon_purpureus_CepurR40.5G141000:0.15019,physcomitrium_patens_Pp3c5_27080:0.18343)n5:0.30443)n4:0.13871)n3:0.08773)n2:0.09054)n0;

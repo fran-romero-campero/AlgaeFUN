@@ -1,0 +1,1 @@
+(sorghum_bicolor_Sobic.002G068701:0.253,(dunaliella_salina_Dusal.0473s00008:0.50698,(haematococcus_lacustris_GFH16420:0.85799,(haematococcus_lacustris_GFH26357:0.00171,(haematococcus_lacustris_GFH13169:0.02059,(haematococcus_lacustris_GFH29665:0.37557,haematococcus_lacustris_GFH27681:0.00054)n5:0.03093)n4:0.00055)n3:0.42533)n2:0.31636)n1:0.253)n0;

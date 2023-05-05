@@ -1,0 +1,1 @@
+(mesostigma_viridae_Mv02579:0.608465,(haematococcus_lacustris_GFH32031:0.29985,(dunaliella_salina_Dusal.0952s00001:0.57723,(chlamydomonas_reinhardtii_Cre05.g238260:0.22801,volvox_carteri_Vocar.0022s0048:0.19581)n3:0.37677)n2:0.17914)n1:0.608465)n0;

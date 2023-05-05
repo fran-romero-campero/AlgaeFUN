@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.03G095600:0.246694,((ceratopteris_richardii_Ceric.01G125800:0.678423,ceratopteris_richardii_Ceric.23G074000:0.077134)n2:0.043689,ceratopteris_richardii_Ceric.07G082500:0.570342)n1:0.246694)n0;
+(klebsormidium_nitens_kfl00712_0140:0.382115,(klebsormidium_nitens_kfl01127_0030:0.53693,(klebsormidium_nitens_kfl00556_0030:0.56485,(klebsormidium_nitens_kfl00219_0370:0.17633,klebsormidium_nitens_kfl00920_0010:0.12513)n3:0.50073)n2:0.81399)n1:0.382115)n0;

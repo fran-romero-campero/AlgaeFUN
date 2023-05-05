@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.22G059200:0.562865,(anthoceros_agrestis_AagrOXF_utg000018l.421:0.833654,(ceratodon_purpureus_CepurR40.VG315400:0.24845,physcomitrium_patens_Pp3c17_1940:0.498755)n2:0.20228)n1:0.562865)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1756122:0.71205,(cryptophyceae_CCMP2293_Crypto2293_1_1757751:0.04434,(cryptophyceae_CCMP2293_Crypto2293_1_1757332:0.05698,(cryptophyceae_CCMP2293_Crypto2293_1_1756071:0.43141,cryptophyceae_CCMP2293_Crypto2293_1_1757750:0.01673)n3:0.15443)n2:0.08634)n1:0.71205)n0;

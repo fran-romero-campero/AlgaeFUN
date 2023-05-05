@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre04.g219350:0.290249,((volvox_carteri_Vocar.0016s0022:0.304387,volvox_carteri_Vocar.0025s0093:0.00892)n2:0.129139,volvox_carteri_Vocar.0025s0091:9.81514e-07)n1:0.290249)n0;
+(saccharina_japonica_SJ04897:0.772575,((saccharina_japonica_SJ08308:0.40075,saccharina_japonica_SJ11099:0.48232)n2:0.15685,(saccharina_japonica_SJ11097:0.2598,saccharina_japonica_SJ11096:0.58765)n3:0.17692)n1:0.772575)n0;

@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv21889:0,(mesostigma_viridae_Mv18434:0,(mesostigma_viridae_Mv10966:0,mesostigma_viridae_Mv25498:0.073119)n2:0)n1:0)n0;
+((aegilops_tauschii_AET5Gv21005000:0.17035,triticum_aestivum_Traes_1DL_206DB3957:0.01148)n1:0.006505,(aegilops_tauschii_AET1Gv21037400:0.0171,triticum_aestivum_Traes_1AL_B60132B5A:0.01995)n2:0.006505)n0;

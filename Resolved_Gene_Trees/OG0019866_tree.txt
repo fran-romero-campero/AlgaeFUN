@@ -1,1 +1,1 @@
-(sphangum_magellanicum_Sphmag01G195000:0.341824,((cycas_panzhihuaensis_CYCAS_029574:0.543359,thuja_plicata_Thupl.29377766s0005:0.722568)n2:0.106346,(solanum_lycopersicum_Solyc11g068810:0.173915,arabidopsis_thaliana_AT5G22210:0.229379)n3:0.357658)n1:0.341824)n0;
+(cyanophora_paradoxa_Cyapar1_g358:0.540115,((chlamydomonas_reinhardtii_Cre16.g669900:0.17442,volvox_carteri_Vocar.0023s0160:0.19408)n2:0.32019,(dunaliella_salina_Dusal.0138s00011:0.38436,(haematococcus_lacustris_GFH13170:0.04249,haematococcus_lacustris_GFH26358:0.90151)n4:0.6697)n3:0.39917)n1:0.540115)n0;

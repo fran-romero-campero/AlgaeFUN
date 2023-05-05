@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_407219:0.952955,(sphangum_magellanicum_Sphmag04G126100:1.21842,(ceratodon_purpureus_CepurR40.4G169900:0.297701,physcomitrium_patens_Pp3c4_13610:0.286909)n2:0.900654)n1:0.952955)n0;
+(klebsormidium_nitens_kfl00483_0020:0.059315,(klebsormidium_nitens_kfl00483_0030:0.46729,(klebsormidium_nitens_kfl00515_0060:0.45684,(klebsormidium_nitens_kfl00043_0060:0.80104,klebsormidium_nitens_kfl00320_0110:1.51261)n3:0.21955)n2:0.16846)n1:0.059315)n0;

@@ -1,1 +1,1 @@
-((ostreococcus_tauri_ostta06g03720:0.698632,bathycoccus_prasinos_Bathy05g04100:0.944058)n1:0.255404,(mesostigma_viridae_Mv19444:0.727665,chlorokybus_atmophyticus_Chlat1_793:1.00543)n2:0.255404)n0;
+((cyanophora_paradoxa_Cyapar1_g7497:0.34067,mesostigma_viridae_Mv01707:1.03182)n1:0.257355,(galdieria_sulphuraria_GsulpSAG21_G5543:0.70251,(galdieria_sulphuraria_GsulpSAG21_G5802:0.9914,galdieria_sulphuraria_GsulpSAG21_G405:0.68943)n3:0.3173)n2:0.257355)n0;

@@ -1,0 +1,1 @@
+((anthoceros_agrestis_AagrOXF_utg000141l.5:0.00053,(anthoceros_agrestis_AagrOXF_utg000045l.185:0.09034,(anthoceros_agrestis_AagrOXF_utg000019l.2:0,anthoceros_agrestis_AagrOXF_utg000019l.6:0)n3:0.00055)n2:0.00412)n1:0.162,(triticum_aestivum_Traes_1AS_C1BD73C48:0.37306,(thuja_plicata_Thupl.29378826s0015:0.44121,thuja_plicata_Thupl.29380181s0041:0.244935)n5:0.027215)n4:0.14848)n0;

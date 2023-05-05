@@ -1,1 +1,1 @@
-(chlorokybus_atmophyticus_Chlat1_6802:0.539651,(raphidocelis_subcapitata_Rsub_06672:0.647684,((chlamydomonas_reinhardtii_Cre16.g683200:2.50405e-06,volvox_carteri_Vocar.0018s0132:0.32544)n3:0.508936,chromochloris_zofingiensis_Cz19g05100:2.50405e-06)n2:0.141376)n1:0.539651)n0;
+(guillardia_tetha_Guith1_104809:0.72104,(mesostigma_viridae_Mv19795:1.54749,(cyanophora_paradoxa_Cyapar1_g5222:0.0715,(cyanophora_paradoxa_Cyapar1_g1207:0.00054,(cyanophora_paradoxa_Cyapar1_g1210:0.00055,cyanophora_paradoxa_Cyapar1_g24524:0.32433)n4:0.73726)n3:0.092538)n2:0.010282)n1:0.27567)n0;

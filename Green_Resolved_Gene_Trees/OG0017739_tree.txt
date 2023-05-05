@@ -1,0 +1,1 @@
+((zea_mays_Zm00001d018307:0.01433,(sorghum_bicolor_Sobic.003G248700:0.07085,solanum_lycopersicum_Solyc07g017675:0.73514)n2:0.05472)n1:0.09129,(solanum_lycopersicum_Solyc07g017670:1.58275,(zea_mays_Zm00001d038345:0.03014,(zea_mays_Zm00001d031361:0.06738,zea_mays_Zm00001d040546:0.05178)n5:0.29799)n4:0.43273)n3:0.09129)n0;

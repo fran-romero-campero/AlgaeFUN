@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000119l.79:0.354901,(ceratodon_purpureus_CepurR40.7G034800:0.597954,(physcomitrium_patens_Pp3c15_17670:0.508098,physcomitrium_patens_Pp3c15_4130:0.340531)n2:0.144548)n1:0.354901)n0;
+((cyanophora_paradoxa_Cyapar1_g3808:1.01937,(cryptophyceae_CCMP2293_Crypto2293_1_1794883:0.9232,guillardia_tetha_Guith1_101867:0.37642)n2:0.35617)n1:0.103055,(cyanidioschyzon_merolae_XM_005535838:0.65561,nannochloropsis_gaditana_Nangad1_8:1.26908)n3:0.103055)n0;

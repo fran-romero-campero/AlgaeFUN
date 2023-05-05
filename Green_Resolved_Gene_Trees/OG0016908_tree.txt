@@ -1,0 +1,1 @@
+(((bathycoccus_prasinos_Bathy04g05000:0.0349,bathycoccus_prasinos_Bathy05g05210:0.00653)n2:1.01142,(bathycoccus_prasinos_Bathy14g01570:0.13373,bathycoccus_prasinos_Bathy14g01590:0.04566)n3:0.61619)n1:0.15568,(physcomitrium_patens_Pp3c1_26960:0.984,(klebsormidium_nitens_kfl00655_0020:0.04145,klebsormidium_nitens_kfl00655_0030:0.14698)n5:0.91619)n4:0.15568)n0;

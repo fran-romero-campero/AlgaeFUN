@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta10g00450:0.597665,(ulva_mutabilis_UM045_0013:0.65465,(ulva_mutabilis_UM013_0210:0.54105,ulva_mutabilis_UM013_0213:0.55568)n2:0.4067)n1:0.597665)n0;

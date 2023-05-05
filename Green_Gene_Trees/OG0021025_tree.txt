@@ -1,0 +1,1 @@
+(chlamydomonas_reinhardtii_Cre06.g261123:0.68866,((chara_braunii_Chabra1_g3714:0.47541,spirogloea_muscicola_SM001895S05146:1.1579)0.21:0.14973,(chara_braunii_Chabra1_g17860:0.41397,chara_braunii_Chabra1_g45532:0.28981)0.632:0.08877)1:0.68866);

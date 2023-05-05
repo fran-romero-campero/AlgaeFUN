@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_7DL_EA47C359F:0.030592,((triticum_aestivum_Traes_7AL_8D2A37140:0.064596,triticum_aestivum_Traes_7DL_DB4B8B5CD:0.029871)n2:0.018343,(triticum_aestivum_Traes_2DL_95760A8D5:0.368437,triticum_aestivum_Traes_7BL_8A421AAB2:0.325939)n3:0.204455)n1:0.030592)n0;
+((guillardia_tetha_Guith1_114967:0.84055,saccharina_japonica_SJ15596:1.19616)n1:0.197295,(bathycoccus_prasinos_Bathy06g02630:0.87417,(micromonas_pusilla_Micpu_27340451:0.74268,ostreococcus_tauri_ostta03g00800:0.44026)n3:0.1288)n2:0.197295)n0;

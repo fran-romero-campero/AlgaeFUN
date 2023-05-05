@@ -1,1 +1,1 @@
-(ulva_mutabilis_UM005_0220:0.654122,(chlamydomonas_reinhardtii_Cre10.g432770:2.56424e-06,(volvox_carteri_Vocar.0019s0257:0.374285,dunaliella_salina_Dusal.0141s00002:0.978167)n2:0.078167)n1:0.654122)n0;
+(saccharina_japonica_SJ07924:0.75583,(saccharina_japonica_SJ19206:0.00059,(saccharina_japonica_SJ19204:0.07496,(saccharina_japonica_SJ13570:0.10927,saccharina_japonica_SJ19203:0.04765)n3:0.03356)n2:0.02171)n1:0.75583)n0;

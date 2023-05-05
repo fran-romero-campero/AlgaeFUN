@@ -1,1 +1,1 @@
-((sphangum_magellanicum_Sphmag17G070100:0.376992,sphangum_magellanicum_Sphmag16G033500:0.160504)n1:0.108066,(ceratodon_purpureus_CepurR40.8G137400:0.078095,ceratodon_purpureus_CepurR40.11G065600:0.085598)n2:0.108066)n0;
+((cycas_panzhihuaensis_CYCAS_007356:0.00054,cycas_panzhihuaensis_CYCAS_007360:0.13591)n1:0.15133,(thuja_plicata_Thupl.29381448s0001:0.43931,(thuja_plicata_Thupl.29382132s0003:0.19268,thuja_plicata_Thupl.29382132s0006:0.16647)n3:0.64859)n2:0.15133)n0;

@@ -1,1 +1,1 @@
-(thuja_plicata_Thupl.29378225s0003:0.509568,((thuja_plicata_Thupl.29377656s0004:2.17427e-06,thuja_plicata_Thupl.29381248s0013:0.420774)n2:0.236117,thuja_plicata_Thupl.29379581s0010:0.580516)n1:0.509568)n0;
+(chara_braunii_Chabra1_g19581:0.79975,(cycas_panzhihuaensis_CYCAS_004407:0.28346,(thuja_plicata_Thupl.29378067s0002:0.53822,thuja_plicata_Thupl.29377001s0014:0.210852)n2:0.023428)n1:0.60221)n0;

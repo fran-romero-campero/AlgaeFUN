@@ -1,1 +1,1 @@
-(salvinia_cucullata_Sacu_v1.1_s0098.g019466:0.11385,(azolla_filiculoides_Azfi_s0127.g048672:0.421577,(azolla_filiculoides_Azfi_s0005.g009345:0.092533,azolla_filiculoides_Azfi_s0091.g042952:0.412037)n2:0.483594)n1:0.11385)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_3491965:0.60733,guillardia_tetha_Guith1_58497:0.50114)n1:0.24987,(phaeodactylum_tricornutum_Phatr2_32836:0.42333,(nannochloropsis_gaditana_Nangad1_1198:0.50719,saccharina_japonica_SJ08550:0.46221)n3:0.39931)n2:0.24987)n0;

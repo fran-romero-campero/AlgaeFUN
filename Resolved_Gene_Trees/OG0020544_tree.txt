@@ -1,1 +1,1 @@
-(micromonas_pusilla_Micpu_27346832:0.527771,((chlamydomonas_reinhardtii_Cre02.g104850:2.87768e-06,volvox_carteri_Vocar.0012s0049:0.392704)n2:0.18617,(dunaliella_salina_Dusal.0068s00021:0.568852,dunaliella_salina_Dusal.0041s00034:0.597039)n3:0.0663377)n1:0.583389)n0;
+(gracilariopsis_chorda_PXF42943:0.017535,(gracilariopsis_chorda_PXF48219:0.04795,((gracilariopsis_chorda_PXF41151:0.03499,gracilariopsis_chorda_PXF41152:0.0271)n3:0.05969,(gracilariopsis_chorda_PXF42974:0.05754,gracilariopsis_chorda_PXF41048:0.07433)n4:0.02931)n2:0.02042)n1:0.017535)n0;

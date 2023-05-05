@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_7DL_D99F89DEC:0.082645,(aegilops_tauschii_AET3Gv21203700:1.73813e-07,(aegilops_tauschii_AET7Gv21004200:1.73813e-07,aegilops_tauschii_AET4Gv20740400:0.008626)n2:0.000103)n1:0.082645)n0;
+(phaeodactylum_tricornutum_Phatr2_31810:0.338115,(cyanophora_paradoxa_Cyapar1_g20703:0.72665,(dunaliella_salina_Dusal.0411s00014:0.38159,(chlamydomonas_reinhardtii_Cre09.g408300:0.08285,volvox_carteri_Vocar.0036s0006:0.20863)n3:0.36443)n2:1.01239)n1:0.338115)n0;

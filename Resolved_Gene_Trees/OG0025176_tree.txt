@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_Pum0345s0011:0.311433,((porphyra_umbilicalis_Pum0345s0001:0.125945,porphyra_umbilicalis_Pum0340s0004:0.253782)n2:0.751747,porphyra_umbilicalis_Pum0345s0010:0.914278)n1:0.311433)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1609107:0.05814,(azolla_filiculoides_Azfi_s0005.g009462:0.67456,(cycas_panzhihuaensis_CYCAS_009889:0.61818,triticum_aestivum_Traes_3AL_BD35979BD:0.28027)n2:0.06955)n1:0.05814)n0;

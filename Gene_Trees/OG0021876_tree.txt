@@ -1,0 +1,1 @@
+((arabidopsis_thaliana_AT5G46080:0.42222,solanum_lycopersicum_Solyc10g008960:0.3544)1:0.25848,(cycas_panzhihuaensis_CYCAS_027587:0.31614,(cycas_panzhihuaensis_CYCAS_020996:0.26569,thuja_plicata_Thupl.29379231s0002:0.43107)0.97:0.17007)1:0.25848);

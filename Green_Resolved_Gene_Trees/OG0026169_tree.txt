@@ -1,0 +1,1 @@
+(spirogloea_muscicola_SM000055S18319:0.02158,(triticum_aestivum_Traes_1DL_224B148D9:0.00054,(zea_mays_Zm00001d046109:0.03262,zea_mays_Zm00001d051280:0.09961)n2:0.06581)n1:0.02158)n0;

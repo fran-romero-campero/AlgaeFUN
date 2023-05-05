@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000101l.115:0.732379,(anthoceros_agrestis_AagrOXF_utg000077l.70:1.40088,(anthoceros_agrestis_AagrOXF_utg000022l.116:0.633146,anthoceros_agrestis_AagrOXF_utg000011l.99:0.861477)n2:0.12114)n1:0.732379)n0;
+(guillardia_tetha_Guith1_117146:0.519295,(cryptophyceae_CCMP2293_Crypto2293_1_1751233:0.26209,(cryptophyceae_CCMP2293_Crypto2293_1_1753452:0.51682,(cryptophyceae_CCMP2293_Crypto2293_1_1758164:0.00996,cryptophyceae_CCMP2293_Crypto2293_1_1758587:0.00408)n3:0.13911)n2:0.16916)n1:0.519295)n0;

@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_985:0.46657,(chlamydomonas_reinhardtii_Cre12.g522900:0.50368,(dunaliella_salina_Dusal.0676s00007:0.74403,raphidocelis_subcapitata_Rsub_04173:0.55597)n3:0.18247)n2:0.28163)n1:0.01607,((micromonas_pusilla_Micpu_27339263:0.43632,ostreococcus_tauri_ostta04g03130:0.54839)n5:0.32516,klebsormidium_nitens_kfl00008_0340:0.35183)n4:0.01607)n0;

@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_09955:0.359625,((raphidocelis_subcapitata_Rsub_05344:0.02035,raphidocelis_subcapitata_Rsub_05351:0.067238)n2:0.591631,raphidocelis_subcapitata_Rsub_11730:1.37809)n1:0.359625)n0;
+(cyanidioschyzon_merolae_XM_005537295:0.822805,(selaginella_moellendorffii_Selmo_96526:0.76516,(azolla_filiculoides_Azfi_s0035.g025575:0.25873,ceratopteris_richardii_Ceric.07G030200:0.51521)n2:0.1865)n1:0.822805)n0;

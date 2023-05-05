@@ -1,1 +1,1 @@
-(sorghum_bicolor_Sobic.006G244100:0.0974055,((zea_mays_Zm00001d046738:0.327896,zea_mays_Zm00001d002037:0.314105)n2:0.016031,zea_mays_Zm00001d049374:0.164504)n1:0.0974055)n0;
+(saccharina_japonica_SJ18127:0.34386,(gracilariopsis_chorda_PXF49764:0.54725,(ceratodon_purpureus_CepurR40.6G009500:0.23889,physcomitrium_patens_Pp3c1_34890:0.38211)n2:0.85502)n1:0.34386)n0;

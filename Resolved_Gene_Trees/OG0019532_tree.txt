@@ -1,1 +1,1 @@
-(((zea_mays_Zm00001d011057:0.442362,zea_mays_Zm00001d041591:0.146918)n2:0.302426,zea_mays_Zm00001d049150:0.723094)n1:0.138844,(triticum_aestivum_Traes_7AL_3F9F1FCBC:0.537166,aegilops_tauschii_AET7Gv20998300:0.789248)n3:0.138844)n0;
+(bathycoccus_prasinos_Bathy05g04300:0.586335,(nannochloropsis_gaditana_Nangad1_8111:1.12165,(saccharina_japonica_SJ03666:0.37912,(phaeodactylum_tricornutum_Phatr2_49641:0.70292,(cryptophyceae_CCMP2293_Crypto2293_1_1869695:0.72552,guillardia_tetha_Guith1_99287:0.42592)n4:0.4446)n3:0.4677)n2:0.60902)n1:0.586335)n0;

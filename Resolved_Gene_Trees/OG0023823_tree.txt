@@ -1,1 +1,1 @@
-((volvox_carteri_Vocar.0001s0375:0.278204,chlamydomonas_reinhardtii_Cre01.g039500:0.198857)n1:0.661428,(volvox_carteri_Vocar.0008s0315:2.15947e-06,chlamydomonas_reinhardtii_Cre04.g222000:0.691659)n2:0.661428)n0;
+(porphyra_umbilicalis_Pum0153s0046:0.707665,(porphyra_umbilicalis_Pum0070s0059:0.03648,(porphyra_umbilicalis_Pum0120s0007:0.00054,(porphyra_umbilicalis_Pum0397s0014:0.01123,porphyra_umbilicalis_Pum0172s0012:0.01502)n3:0.00053)n2:0.00572)n1:0.707665)n0;

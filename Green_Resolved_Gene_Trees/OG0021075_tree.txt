@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00624_0040:1.2565,micromonas_pusilla_Micpu_27340055:0.48317)n1:0.09446,(ostreococcus_tauri_ostta01g06440:0.94357,(chara_braunii_Chabra1_g39262:1.13338,mesostigma_viridae_Mv06586:0.65304)n3:0.25905)n2:0.09446)n0;

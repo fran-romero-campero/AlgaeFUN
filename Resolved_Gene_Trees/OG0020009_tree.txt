@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv09148:0.43598,((bathycoccus_prasinos_Bathy10g04200:0.460729,ostreococcus_tauri_ostta09g00140:0.473777)n2:0.273534,(micromonas_pusilla_Micpu_27341266:0.782604,micromonas_pusilla_Micpu_27347676:0.298114)n3:0.0331238)n1:0.188436)n0;
+(guillardia_tetha_Guith1_109887:0.63433,(raphidocelis_subcapitata_Rsub_02011:0.63781,((haematococcus_lacustris_GFH19296:0.02701,haematococcus_lacustris_GFH31231:0.02789)n3:0.44436,(chlamydomonas_reinhardtii_Cre01.g002550:0.11451,volvox_carteri_Vocar.0024s0228:0.20198)n4:0.26819)n2:0.38868)n1:0.63433)n0;

@@ -1,1 +1,1 @@
-((ceratodon_purpureus_CepurR40.10G006900:0.546653,sphangum_magellanicum_Sphmag06G038500:0.620187)n1:0.442721,(ceratopteris_richardii_Ceric.02G056200:0.60481,salvinia_cucullata_Sacu_v1.1_s0017.g007347:0.440546)n2:0.442721)n0;
+(gracilariopsis_chorda_PXF48569:0.61004,(gracilariopsis_chorda_PXF46219:0.00055,(gracilariopsis_chorda_PXF42768:0.06711,(gracilariopsis_chorda_PXF42769:0.16412,gracilariopsis_chorda_PXF48018:0.03305)n3:0.12411)n2:0.15238)n1:0.61004)n0;

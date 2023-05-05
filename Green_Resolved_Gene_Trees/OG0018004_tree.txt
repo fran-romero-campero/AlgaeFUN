@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_UNPLg00511:0.358825,(aegilops_tauschii_AET5Gv21115500:0.00054,(triticum_aestivum_Traes_1AS_B7AB828CB:0.1285,(triticum_aestivum_Traes_2DL_C82A5123A:0.14572,(triticum_aestivum_Traes_5BL_4224678F5:0.05716,triticum_aestivum_Traes_5DL_506B55317:0.012753)n4:0.0012753)n3:0.00012753)n2:1.417e-05)n1:0.09351)n0;

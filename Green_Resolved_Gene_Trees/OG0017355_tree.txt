@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1209301:0.69313,chlorokybus_atmophyticus_Chlat1_3684:0.96376)n1:0.06728,((chromochloris_zofingiensis_Cz11g01260:0.21964,(raphidocelis_subcapitata_Rsub_04353:0.55749,scenedesmus_obliquus_SZX68922:0.38038)n4:0.16799)n3:0.65422,(micromonas_pusilla_Micpu_27343933:0.56224,mesostigma_viridae_Mv15072:1.20737)n5:0.19399)n2:0.06728)n0;

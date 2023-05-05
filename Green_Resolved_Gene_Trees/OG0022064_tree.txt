@@ -1,0 +1,1 @@
+((solanum_lycopersicum_Solyc05g045950:0.09348,(thuja_plicata_Thupl.29378734s0001:0.27591,triticum_aestivum_Traes_5DL_99705B7F8:0.07012)n2:0.01778)n1:0.241235,(ostreococcus_tauri_ostta19g00470:0.2204,ostreococcus_tauri_ostta07g01920:0.04587)n3:0.241235)n0;

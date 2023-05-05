@@ -1,1 +1,1 @@
-((salvinia_cucullata_Sacu_v1.1_s0119.g021347:1.14196,azolla_filiculoides_Azfi_s0157.g053763:1.11415)n1:0.131694,(azolla_filiculoides_Azfi_s0246.g060062:1.66447,salvinia_cucullata_Sacu_v1.1_s0002.g000845:1.49957)n2:0.131694)n0;
+(cyanophora_paradoxa_Cyapar1_g11400:0.66897,(phaeodactylum_tricornutum_Phatr2_39534:0.4708,(phaeodactylum_tricornutum_Phatr2_48934:0.54053,(phaeodactylum_tricornutum_Phatr2_50511:0.70035,phaeodactylum_tricornutum_Phatr2_36581:0.89542)n3:0.15678)n2:0.14285)n1:0.66897)n0;

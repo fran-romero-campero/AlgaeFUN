@@ -1,0 +1,1 @@
+((ceratodon_purpureus_CepurR40.VG005900:0.56014,oryza_sativa_LOC_Os02g37990.1:0.00841)n1:0.02866,(sphagnum_magellanicum_Sphmag07G008500:0.30755,(triticum_aestivum_Traes_2DL_10BAF2D53:0.00055,triticum_aestivum_Traes_2AL_F4F6F518D:0.01305)n3:0.06881)n2:0.02866)n0;

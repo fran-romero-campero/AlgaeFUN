@@ -1,0 +1,1 @@
+(salvinia_cucullata_Sacu_v1.1_s0004.g002272:0.203975,((solanum_lycopersicum_Solyc05g014100:0.07402,solanum_lycopersicum_Solyc05g025620:0.18644)n2:0.43275,(triticum_aestivum_Traes_1BL_3FA57FDDC:0.18301,triticum_aestivum_Traes_3DL_4D163E634:0.38844)n3:0.35424)n1:0.203975)n0;

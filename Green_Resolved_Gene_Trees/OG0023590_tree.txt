@@ -1,0 +1,1 @@
+(bathycoccus_prasinos_Bathy03g01770:0.775455,(ulva_mutabilis_UM025_0074:0.31212,(chromochloris_zofingiensis_Cz02g36250:0.31234,raphidocelis_subcapitata_Rsub_06291:0.54292)n2:0.12514)n1:0.775455)n0;

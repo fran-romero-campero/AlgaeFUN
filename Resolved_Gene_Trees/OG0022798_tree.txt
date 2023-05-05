@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_6DL_A426BBEBB:0.309954,(anthoceros_agrestis_AagrOXF_utg000049l.812:0.602263,(ceratodon_purpureus_CepurR40.1G134800:0,ceratodon_purpureus_CepurR40.7G120300:0)n2:0.496214)n1:0.309954)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1772743:0.694965,(nannochloropsis_gaditana_Nangad1_10636:0.47859,(nannochloropsis_gaditana_Nangad1_10303:0.35781,(nannochloropsis_gaditana_Nangad1_6586:0.07125,nannochloropsis_gaditana_Nangad1_6785:0.08452)n3:0.26958)n2:0.41143)n1:0.694965)n0;

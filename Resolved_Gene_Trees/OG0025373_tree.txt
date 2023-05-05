@@ -1,1 +1,1 @@
-(solanum_lycopersicum_Solyc05g150141:1.89514e-06,((solanum_lycopersicum_Solyc05g053155:0.470141,solanum_lycopersicum_Solyc04g007247:0.454454)n2:0.336464,solanum_lycopersicum_Solyc10g150125:0.729645)n1:1.89514e-06)n0;
+((guillardia_tetha_Guith1_76693:0.57242,phaeodactylum_tricornutum_Phatr2_31741:0.46413)n1:0.053725,(bathycoccus_prasinos_Bathy22g00060:1.21042,salvinia_cucullata_Sacu_v1.1_s1024.g027914:0.60203)n2:0.053725)n0;

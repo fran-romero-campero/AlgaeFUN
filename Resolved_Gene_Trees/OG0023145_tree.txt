@@ -1,1 +1,1 @@
-(bathycoccus_prasinos_Bathy124g00010:0.384757,((mesotaenium_endlicherianum_ME001781S02305:2.62383e-06,mesotaenium_endlicherianum_ME000950S10217:0.527529)n2:0.449005,mesostigma_viridae_Mv20331:0.943569)n1:0.384757)n0;
+((cycas_panzhihuaensis_CYCAS_021088:1.15338,triticum_aestivum_Traes_2BL_9798129EA:0.9415)n1:0.192215,(spirogloea_muscicola_SM000006S19490:0.01212,(spirogloea_muscicola_SM000008S22324:0.0289,spirogloea_muscicola_SM000272S10267:0.05693)n3:0.03865)n2:0.192215)n0;

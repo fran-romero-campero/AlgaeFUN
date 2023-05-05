@@ -1,1 +1,1 @@
-((chromochloris_zofingiensis_Cz09g09010:2.90646e-06,raphidocelis_subcapitata_Rsub_05008:0.909504)n1:0.241576,(dunaliella_salina_Dusal.0353s00015:0.646508,dunaliella_salina_Dusal.0425s00003:1.19929)n2:0.241576)n0;
+(selaginella_moellendorffii_Selmo_406669:0.07834,((selaginella_moellendorffii_Selmo_406670:0.00055,selaginella_moellendorffii_Selmo_417072:0.02546)n2:0.2594,(selaginella_moellendorffii_Selmo_406668:0.00628,selaginella_moellendorffii_Selmo_417068:0.02539)n3:0.19707)n1:0.07834)n0;

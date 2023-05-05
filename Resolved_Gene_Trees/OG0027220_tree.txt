@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH06318:0.05455,haematococcus_lacustris_GFH08531:0.00055)n1:0.561745,(mesotaenium_endlicherianum_ME000408S06878:0.37461,mesotaenium_endlicherianum_ME000770S09643:0.19708)n2:0.561745)n0;

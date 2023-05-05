@@ -1,0 +1,1 @@
+(phaeodactylum_tricornutum_Phatr2_47026:0.5914,(ulva_mutabilis_UM002_0092:0.5539,(coccomyxa_subellipsoidea_Cosub3_1202563:0.64765,mesostigma_viridae_Mv22917:0.6996)n2:0.27169)n1:0.5914)n0;

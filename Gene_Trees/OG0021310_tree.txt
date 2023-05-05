@@ -1,1 +1,1 @@
-(triticum_aestivum_proteome_first_transcript_Traes_5AS_5C3DF63C5:0.552261,((triticum_aestivum_proteome_first_transcript_Traes_4AL_83ACE50BB:2.04458e-06,triticum_aestivum_proteome_first_transcript_Traes_4DL_75CE5329E:0.552788):0.369422,triticum_aestivum_proteome_first_transcript_Traes_4DL_3771EB44A:0.067803):0.552261);
+(aegilops_tauschii_AET4Gv20480000:0.851905,(gracilariopsis_chorda_PXF45964:0.00055,((gracilariopsis_chorda_PXF41798:0.07775,gracilariopsis_chorda_PXF46855:0.33813)0.715:0.02776,gracilariopsis_chorda_PXF46064:0.21712)0.788:0.0861)1:0.851905);

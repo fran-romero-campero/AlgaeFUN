@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_004174:0.41723,(solanum_lycopersicum_Solyc01g106200:0.17342,(oryza_sativa_LOC_Os02g46860.1:0.04388,triticum_aestivum_Traes_6AL_6EB10C68E:0.06364)n2:0.15549)n1:0.41723)n0;

@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH20236:0.151635,((zea_mays_Zm00001d045616:0.24488,(arabidopsis_thaliana_AT4G26701:0.13266,(selaginella_moellendorffii_Selmo_410935:0.01727,selaginella_moellendorffii_Selmo_120288:0.61476)n4:0.28678)n3:0.04995)n2:0.0366,(thuja_plicata_Thupl.29382035s0007:0.81851,thuja_plicata_Thupl.29379513s0012:0.00055)n5:0.0668)n1:0.151635)n0;

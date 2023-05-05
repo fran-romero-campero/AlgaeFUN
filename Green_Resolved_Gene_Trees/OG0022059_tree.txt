@@ -1,0 +1,1 @@
+(oryza_sativa_LOC_Os11g34270.1:0.653925,((selaginella_moellendorffii_Selmo_126132:0.01131,selaginella_moellendorffii_Selmo_80757:0.0112)n2:0.30063,(selaginella_moellendorffii_Selmo_409613:0.09542,selaginella_moellendorffii_Selmo_409616:0.00054)n3:0.24058)n1:0.653925)n0;

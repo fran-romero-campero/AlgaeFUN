@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_406127:0.435703,((selaginella_moellendorffii_Selmo_403694:0.524588,selaginella_moellendorffii_Selmo_406142:0.099028)n2:0.389524,selaginella_moellendorffii_Selmo_403678:0.751432)n1:0.435703)n0;
+((bathycoccus_prasinos_Bathy07g04050:0.91217,ostreococcus_tauri_ostta12g00570:0.68463)n1:0.388535,(cyanophora_paradoxa_Cyapar1_g7921:0.27471,cyanophora_paradoxa_Cyapar1_g7923:0.16605)n2:0.388535)n0;

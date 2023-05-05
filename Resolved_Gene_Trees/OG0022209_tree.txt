@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3B_48B892FB2:0.151998,(aegilops_tauschii_AET2Gv21282200:0.20637,(aegilops_tauschii_AET4Gv20831800:0.289547,aegilops_tauschii_AET6Gv20078200:0.616946)n2:0.058276)n1:0.151998)n0;
+(porphyra_umbilicalis_Pum0314s0009:0.262025,(physcomitrium_patens_Pp3c7_20150:1.09893,(ceratopteris_richardii_Ceric.35G051300:0.32156,(selaginella_moellendorffii_Selmo_420065:0.66498,selaginella_moellendorffii_Selmo_100345:0.51552)n3:0.05728)n2:0.18909)n1:0.262025)n0;

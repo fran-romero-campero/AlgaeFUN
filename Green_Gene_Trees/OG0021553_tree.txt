@@ -1,0 +1,1 @@
+(sphagnum_magellanicum_Sphmag12G065800:0.11791,(cycas_panzhihuaensis_CYCAS_024850:0.38023,(triticum_aestivum_Traes_4AL_8D16CB1C7:0.00055,(sorghum_bicolor_Sobic.001G021200:0.79014,triticum_aestivum_Traes_5BL_0ED13E409:0.37312)0.647:0.04703)0.717:0.03048)1:0.11791);

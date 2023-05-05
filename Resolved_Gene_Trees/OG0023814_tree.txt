@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_07819:0.389215,(dunaliella_salina_Dusal.0052s00001:0.893462,(volvox_carteri_Vocar.0001s1710:0.269537,chlamydomonas_reinhardtii_Cre01.g013200:0.005645)n2:0.26582)n1:0.389215)n0;
+(porphyra_umbilicalis_Pum0103s0044:0.12864,(porphyra_umbilicalis_Pum0075s0042:0.18931,(porphyra_umbilicalis_Pum0194s0005:0.33755,(porphyra_umbilicalis_Pum0116s0037:0.45353,porphyra_umbilicalis_Pum0027s0037:0.92257)n3:0.19698)n2:0.4789)n1:0.12864)n0;

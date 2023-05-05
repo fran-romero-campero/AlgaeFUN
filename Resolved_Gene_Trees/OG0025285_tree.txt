@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_134546:0.0496105,(selaginella_moellendorffii_Selmo_428411:0.232699,(selaginella_moellendorffii_Selmo_123847:0.739134,selaginella_moellendorffii_Selmo_110121:1.77139e-06)n2:0.710268)n1:0.0496105)n0;
+(bathycoccus_prasinos_Bathy01g07330:0.83975,(thuja_plicata_Thupl.29379996s0005:0.08216,(thuja_plicata_Thupl.29377317s0010:0.08544,thuja_plicata_Thupl.29378032s0002:0.12901)n2:0.04554)n1:0.83975)n0;

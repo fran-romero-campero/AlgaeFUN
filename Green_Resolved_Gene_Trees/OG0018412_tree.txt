@@ -1,0 +1,1 @@
+(chlorokybus_atmophyticus_Chlat1_3558:0.49246,((anthoceros_agrestis_AagrOXF_utg000041l.96:0.78186,ceratopteris_richardii_Ceric.33G053600:0.32492)n2:0.09779,(spirogloea_muscicola_SM000003S11094:0.00053,(spirogloea_muscicola_SM000549S17877:0.02412,spirogloea_muscicola_SM000324S12588:0.03327)n4:0.01273)n3:0.45537)n1:0.49246)n0;

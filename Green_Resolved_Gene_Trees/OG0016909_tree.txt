@@ -1,0 +1,1 @@
+((bathycoccus_prasinos_Bathy05g03100:1.76428,(mesostigma_viridae_Mv06223:0.38533,mesostigma_viridae_Mv20548:0.13633)n2:0.4782)n1:0.040335,(mesotaenium_endlicherianum_ME000565S08344:0.55188,(dunaliella_salina_Dusal.0358s00016:0.73771,(chlamydomonas_reinhardtii_Cre08.g383050:0.19316,volvox_carteri_Vocar.0011s0099:0.13283)n5:0.26967)n4:0.56485)n3:0.040335)n0;

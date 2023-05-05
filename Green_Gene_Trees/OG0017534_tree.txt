@@ -1,0 +1,1 @@
+(klebsormidium_nitens_kfl00210_0070:0.190545,((mesostigma_viridae_Mv16071:0.43439,(raphidocelis_subcapitata_Rsub_05285:0.35117,scenedesmus_obliquus_SZX72908:0.48845):0.27524):0.31571,((scenedesmus_obliquus_SZX61565:0,scenedesmus_obliquus_SZX77439:0):0.48545,klebsormidium_nitens_kfl00295_g17:0.70887):0.0677):0.190545);

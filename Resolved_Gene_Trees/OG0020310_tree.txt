@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g6318:1.07213,(dunaliella_salina_Dusal.0286s00010:0.872543,(chromochloris_zofingiensis_Cz15g23050:4.06702e-06,(volvox_carteri_Vocar.0005s0012:0.182864,chlamydomonas_reinhardtii_Cre07.g340400:4.06702e-06)n3:0.736377)n2:0.369701)n1:1.07213)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_2561808:0.55265,guillardia_tetha_Guith1_142074:0.78172)n1:0.19884,(cyanidioschyzon_merolae_XM_005537327:0.5926,(galdieria_sulphuraria_GsulpSAG21_G417:0.68666,(gracilariopsis_chorda_PXF43116:0.2912,gracilariopsis_chorda_PXF41519:0.32577)n4:0.60045)n3:0.11303)n2:0.19884)n0;

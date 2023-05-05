@@ -1,0 +1,1 @@
+(oryza_sativa_LOC_Os03g21770.1:0.7216,((haematococcus_lacustris_GFH19296:0.03638,haematococcus_lacustris_GFH31231:0.02356)n2:0.32859,(raphidocelis_subcapitata_Rsub_02011:1.00859,(chlamydomonas_reinhardtii_Cre01.g002550:0.13059,volvox_carteri_Vocar.0024s0228:0.19348)n4:0.32313)n3:0.13005)n1:0.7216)n0;

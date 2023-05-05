@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g20018:1.26948,marchantia_polymorpha_Mp6g19250:1.51011)n1:0.184465,(raphidocelis_subcapitata_Rsub_05585:0.42249,(scenedesmus_obliquus_SZX75696:0.63682,chromochloris_zofingiensis_Cz13g13150:0.37381)n3:0.06958)n2:0.184465)n0;

@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT2G07718:0,((arabidopsis_thaliana_ATMG00910:0.335961,arabidopsis_thaliana_AT2G07773:1.23834e-06)n2:1.05439,arabidopsis_thaliana_ATMG00590:0)n1:0)n0;
+(mesostigma_viridae_Mv08469:0.25479,(guillardia_tetha_Guith1_60244:0.3033,(cryptophyceae_CCMP2293_Crypto2293_1_1909699:0.74212,(cryptophyceae_CCMP2293_Crypto2293_1_1852317:0.15504,cryptophyceae_CCMP2293_Crypto2293_1_1897107:0.24332)n3:0.35469)n2:0.03941)n1:0.73324)n0;

@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3DS_1416E661F:0.0090195,(triticum_aestivum_Traes_2BS_A23DCA7F4:0.011188,(triticum_aestivum_Traes_3DS_8CD775088:5.06805e-07,triticum_aestivum_Traes_3AS_258B720B2:0.345994)n2:0.240431)n1:0.0090195)n0;
+(phaeodactylum_tricornutum_Phatr2_49693:0.783345,(chromochloris_zofingiensis_Cz01g39100:0.30941,(chlamydomonas_reinhardtii_Cre08.g364100:0.43412,klebsormidium_nitens_kfl00038_0225:0.54798)n2:0.17753)n1:0.783345)n0;

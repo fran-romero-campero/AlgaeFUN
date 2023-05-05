@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv21791:0.515643,(((bathycoccus_prasinos_Bathy11g03650:1.43273,ulva_mutabilis_UM013_0208:1.22101)n3:0.143698,ostreococcus_tauri_ostta10g03510:1.21817)n2:0.194023,micromonas_pusilla_Micpu_27346159:0.846381)n1:0.515643)n0;
+(((chlamydomonas_reinhardtii_Cre10.g436300:0.26904,volvox_carteri_Vocar.0001s1334:0.0488)n2:0.66123,coccomyxa_subellipsoidea_Cosub3_1276341:0.27648)n1:0.030095,(cryptophyceae_CCMP2293_Crypto2293_1_1910153:0.43454,(guillardia_tetha_Guith1_147833:0.65398,guillardia_tetha_Guith1_106502:0.674487)n4:0.074943)n3:0.40378)n0;

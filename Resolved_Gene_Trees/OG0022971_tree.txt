@@ -1,1 +1,1 @@
-((ceratopteris_richardii_Ceric.22G063900:0.297967,ceratopteris_richardii_Ceric.11G011600:0.338982)n1:0.111411,(salvinia_cucullata_Sacu_v1.1_s0010.g004637:0.48459,azolla_filiculoides_Azfi_s0048.g030592:0.364158)n2:0.111411)n0;
+(cyanophora_paradoxa_Cyapar1_g20207:0.594875,((gracilariopsis_chorda_PXF40954:0.43838,porphyra_umbilicalis_Pum1594s0001:0.33568)n2:0.18698,(cyanidioschyzon_merolae_XM_005536587:0.65041,galdieria_sulphuraria_GsulpSAG21_G3070:0.55782)n3:0.11311)n1:0.594875)n0;

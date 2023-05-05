@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre07.g346698:0.063102,((volvox_carteri_Vocar.0009s0298:0.577773,volvox_carteri_Vocar.0009s0297:0.419881)n2:0.250024,volvox_carteri_Vocar.0009s0299:0.414695)n1:0.063102)n0;
+(micromonas_pusilla_Micpu_27339641:0.505525,(ostreococcus_tauri_ostta04g01845:1.31788,(ostreococcus_tauri_ostta04g02450:0.06589,(ostreococcus_tauri_ostta03g00010:0.06174,ostreococcus_tauri_ostta04g02420:0.76182)n3:0.04186)n2:0.35776)n1:0.505525)n0;

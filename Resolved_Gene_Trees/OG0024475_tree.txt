@@ -1,1 +1,1 @@
-(raphidocelis_subcapitata_Rsub_01642:1.07462,(klebsormidium_nitens_kfl00239_0090:0.655347,(spirogloea_muscicola_SM000007S20828:0.046104,spirogloea_muscicola_SM000004S15003:0.031934)n2:0.12892)n1:1.07462)n0;
+(solanum_lycopersicum_Solyc02g012000:0.000275,(triticum_aestivum_Traes_7DL_392613C8F:0.51126,(aegilops_tauschii_AET4Gv20381300:0.00055,aegilops_tauschii_AET2Gv20842900:0.07864)n2:0.32178)n1:0.000275)n0;

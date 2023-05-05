@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g23109:0.674906,(phaeodactylum_tricornutum_Phatr2_43856:1.70577,((nannochloropsis_gaditana_Nangad1_583:1.16553,nannochloropsis_gaditana_Nangad1_5269:1.04041)n3:0.46232,nannochloropsis_gaditana_Nangad1_9147:1.62989)n2:0.055294)n1:0.674906)n0;
+(saccharina_japonica_SJ02302:0.077425,(saccharina_japonica_SJ04941:1.68091,(saccharina_japonica_SJ16284:0.43137,(saccharina_japonica_SJ04940:0.80005,(saccharina_japonica_SJ01465:0.23248,saccharina_japonica_SJ12404:0.29968)n4:0.07818)n3:0.05701)n2:0.09688)n1:0.077425)n0;

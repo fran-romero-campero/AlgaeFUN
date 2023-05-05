@@ -1,1 +1,1 @@
-((arabidopsis_thaliana_AT5G44350:0.952935,arabidopsis_thaliana_AT4G20880:0.542482)n1:0.371719,(solanum_lycopersicum_Solyc02g022920:0.805304,solanum_lycopersicum_Solyc02g070040:0.671113)n2:0.371719)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1932889:0.000275,(cryptophyceae_CCMP2293_Crypto2293_1_1937284:0.01,(cryptophyceae_CCMP2293_Crypto2293_1_1954596:0.02003,(cryptophyceae_CCMP2293_Crypto2293_1_1943261:0.00993,cryptophyceae_CCMP2293_Crypto2293_1_1972415:0.02013)n3:0.05131)n2:0.00054)n1:0.000275)n0;

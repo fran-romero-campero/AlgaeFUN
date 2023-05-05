@@ -1,1 +1,1 @@
-(anthoceros_agrestis_AagrOXF_utg000061l.69:0.320278,(physcomitrium_patens_Pp3c2_21690:0.427155,(sphangum_magellanicum_Sphmag05G107900:0.25014,(ceratodon_purpureus_CepurR40.9G008300:0.214442,ceratodon_purpureus_CepurR40.11G122100:0.181976)n3:0.0202195)n2:0.018385)n1:0.320278)n0;
+(chara_braunii_Chabra1_g3102:0.22546,(chara_braunii_Chabra1_g34325:0.68552,(chara_braunii_Chabra1_g17774:0.63536,(chara_braunii_Chabra1_g8144:0.22197,(chara_braunii_Chabra1_g28671:0.21797,chara_braunii_Chabra1_g29727:0.38809)n4:0.09934)n3:0.13124)n2:0.14098)n1:0.22546)n0;

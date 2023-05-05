@@ -1,1 +1,1 @@
-(physcomitrium_patens_Pp3c17_9430:0.267212,((ceratodon_purpureus_CepurR40.2G183600:0.11133,ceratodon_purpureus_CepurR40.1G219100:0.086821)n2:0.560073,ceratodon_purpureus_CepurR40.9G031100:0.662219)n1:0.267212)n0;
+(galdieria_sulphuraria_GsulpSAG21_G4801:0.821535,(porphyra_umbilicalis_Pum0033s0006:0.43271,(gracilariopsis_chorda_PXF44424:0.4916,(gracilariopsis_chorda_PXF41930:0.00053,gracilariopsis_chorda_PXF39832:0.01434)n3:0.570069)n2:0.063341)n1:0.57159)n0;

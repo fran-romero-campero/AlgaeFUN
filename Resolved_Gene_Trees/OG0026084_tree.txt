@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d034209:0.402849,((triticum_aestivum_Traes_7BL_45872B92D:0.006321,triticum_aestivum_Traes_7AL_E4B225B36:0.198976)n2:0.096758,triticum_aestivum_Traes_7DL_C62739F87:0.206984)n1:0.402849)n0;
+(chlorokybus_atmophyticus_Chlat1_7006:0.286345,((oryza_sativa_LOC_Os07g03328.1:0,oryza_sativa_LOC_Os07g03418.1:0)n2:0.88825,spirogloea_muscicola_SM000294S10825:0.30303)n1:0.286345)n0;

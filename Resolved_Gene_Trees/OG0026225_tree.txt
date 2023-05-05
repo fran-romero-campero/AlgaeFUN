@@ -1,1 +1,1 @@
-(zea_mays_Zm00001d048597:0.216553,(zea_mays_Zm00001d006577:1.319e-06,(zea_mays_Zm00001d041546:0.854784,zea_mays_Zm00001d031596:1.319e-06)n2:0.059687)n1:0.216553)n0;
+(galdieria_sulphuraria_GsulpSAG21_G387:0.778125,(cyanophora_paradoxa_Cyapar1_g21090:0.6228,(chromochloris_zofingiensis_Cz08g15310:0.56263,raphidocelis_subcapitata_Rsub_13068:0.25722)n2:0.71959)n1:0.778125)n0;

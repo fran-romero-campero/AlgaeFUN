@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_2DS_3F47C9186:0.235523,(selaginella_moellendorffii_Selmo_430934:0.318767,(selaginella_moellendorffii_Selmo_430932:0.233886,selaginella_moellendorffii_Selmo_430930:0.18859)n2:0.043713)n1:0.235523)n0;
+(azolla_filiculoides_Azfi_s0247.g060099:0.348625,(triticum_aestivum_Traes_2AL_25C581F55:0.3986,(triticum_aestivum_Traes_2DS_896CA357F:0.00054,triticum_aestivum_Traes_2DL_501CC8CCE:0.16289)n2:0.21087)n1:0.348625)n0;

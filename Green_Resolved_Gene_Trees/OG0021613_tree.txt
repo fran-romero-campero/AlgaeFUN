@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.0048s00029:0.333625,(triticum_aestivum_Traes_1AS_49D9971F6:0.75694,(solanum_lycopersicum_Solyc05g051540:0.48936,(oryza_sativa_LOC_Os10g08010.1:0.12713,oryza_sativa_LOC_Os09g07700.1:0.31817)n3:0.58092)n2:0.32399)n1:0.333625)n0;

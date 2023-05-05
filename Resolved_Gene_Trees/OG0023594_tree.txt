@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre11.g467570:2.5435e-06,((dunaliella_salina_Dusal.0649s00007:1.03467,dunaliella_salina_Dusal.0005s00030:0.763136)n2:0.101919,dunaliella_salina_Dusal.0599s00004:0.731737)n1:2.5435e-06)n0;
+((nannochloropsis_gaditana_Nangad1_3576:0.94907,saccharina_japonica_SJ01801:0.54076)n1:0.472395,(phaeodactylum_tricornutum_Phatr2_37020:0.10528,(phaeodactylum_tricornutum_Phatr2_46952:0.00909,phaeodactylum_tricornutum_Phatr2_bd_1642:0.13425)n3:0.02118)n2:0.472395)n0;

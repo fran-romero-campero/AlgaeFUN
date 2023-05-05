@@ -1,0 +1,1 @@
+(triticum_aestivum_Traes_2DL_3B7B5D128:0.71212,((cryptophyceae_CCMP2293_Crypto2293_1_1804123:0.33135,guillardia_tetha_Guith1_164061:0.24042)0.145:0.02597,(cryptophyceae_CCMP2293_Crypto2293_1_1800338:0.00055,cryptophyceae_CCMP2293_Crypto2293_1_1841312:1.05994)0.996:0.63257)1:0.71212);

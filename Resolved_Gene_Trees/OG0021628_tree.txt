@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_234027:0.301295,(selaginella_moellendorffii_Selmo_420677:0.526761,((selaginella_moellendorffii_Selmo_114103:0.204255,selaginella_moellendorffii_Selmo_113668:0.114872)n3:0.197871,selaginella_moellendorffii_Selmo_34984:0.079363)n2:0.087319)n1:0.301295)n0;
+(dunaliella_salina_Dusal.0186s00014:0.68874,(aegilops_tauschii_AET0Gv20160300:0.48227,(triticum_aestivum_Traes_1DS_D09D14048:0.36395,(triticum_aestivum_Traes_1DS_A73892F10:0.00373,triticum_aestivum_Traes_1BS_A582D9126:0.031)n3:0.36514)n2:0.22438)n1:0.68874)n0;

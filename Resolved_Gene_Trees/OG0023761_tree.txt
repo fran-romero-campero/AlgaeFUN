@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre02.g145950:2.74254e-06,(volvox_carteri_Vocar.0001s1692:0.558742,(volvox_carteri_Vocar.0016s0016:1.52827,volvox_carteri_Vocar.0013s0200:0.725816)n2:0.04205)n1:2.74254e-06)n0;
+(phaeodactylum_tricornutum_Phatr2_45908:0.63452,(raphidocelis_subcapitata_Rsub_11899:0.92837,(ulva_mutabilis_UM111_0016:0.60575,(ulva_mutabilis_UM061_0024:0.14332,ulva_mutabilis_UM111_0017:0.58577)n3:0.14186)n2:0.50273)n1:0.63452)n0;

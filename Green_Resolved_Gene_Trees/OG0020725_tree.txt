@@ -1,0 +1,1 @@
+((sphagnum_magellanicum_Sphmag02G195900:0.64908,sphagnum_magellanicum_Sphmag01G097500:0.32712)n1:0.877945,(micromonas_pusilla_Micpu_27339612:0.16671,(bathycoccus_prasinos_Bathy05g04960:0.95574,ostreococcus_tauri_ostta06g04510:0.52237)n3:0.39338)n2:0.877945)n0;

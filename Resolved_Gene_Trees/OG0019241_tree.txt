@@ -1,1 +1,1 @@
-(((aegilops_tauschii_AET7Gv21332600:0.412274,aegilops_tauschii_AET7Gv21333900:0.232697)n2:0.427895,aegilops_tauschii_AET7Gv20532100:1.13464)n1:0.54014,(triticum_aestivum_Traes_7BL_E9E354F9B1:0,triticum_aestivum_Traes_7BL_E9E354F9B:0)n3:0.54014)n0;
+((solanum_lycopersicum_Solyc11g071223:0.19452,solanum_lycopersicum_Solyc08g066710:0.85356)n1:0.32134,((aegilops_tauschii_AET4Gv20725200:0.14638,triticum_aestivum_Traes_4BS_9C98BB1AB:0.00055)n3:0.52031,(oryza_sativa_LOC_Os08g28400.1:0.28404,oryza_sativa_LOC_Os08g28430.1:0.40979)n4:0.04979)n2:0.32134)n0;

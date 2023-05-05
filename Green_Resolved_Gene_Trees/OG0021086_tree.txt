@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv18897:0.32315,chara_braunii_Chabra1_g40741:0.92217)n1:0.052615,(raphidocelis_subcapitata_Rsub_04025:0.20498,(chromochloris_zofingiensis_Cz06g21060:0.31774,micromonas_pusilla_Micpu_27339359:0.33918)n3:0.12133)n2:0.052615)n0;

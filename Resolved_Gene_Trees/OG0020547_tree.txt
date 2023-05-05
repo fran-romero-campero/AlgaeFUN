@@ -1,1 +1,1 @@
-((dunaliella_salina_Dusal.0594s00006:0.498262,(chlamydomonas_reinhardtii_Cre02.g142066:0.091571,volvox_carteri_Vocar.0004s0485:0.264189)n2:0.731789)n1:0.150427,(chromochloris_zofingiensis_Cz09g12100:2.45596e-06,raphidocelis_subcapitata_Rsub_06289:0.94891)n3:0.150427)n0;
+((gracilariopsis_chorda_PXF48091:0.87758,porphyra_umbilicalis_Pum0060s0044:0.55439)n1:0.192265,(guillardia_tetha_Guith1_150822:0.71192,(phaeodactylum_tricornutum_Phatr2_48450:0.82787,(nannochloropsis_gaditana_Nangad1_2703:0.69906,saccharina_japonica_SJ10367:1.00973)n4:0.18052)n3:0.08197)n2:0.192265)n0;

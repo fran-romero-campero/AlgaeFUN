@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c1_23120:0.67109,(solanum_lycopersicum_Solyc11g039535:0.108,((solanum_lycopersicum_Solyc11g062155:0.16821,solanum_lycopersicum_Solyc04g018045:0.3275)n3:0.12481,solanum_lycopersicum_Solyc01g017675:0.16553)n2:0.04914)n1:0.67109)n0;

@@ -1,0 +1,1 @@
+(saccharina_japonica_SJ18502:0.391465,(mesostigma_viridae_Mv01912:0.78835,(cyanophora_paradoxa_Cyapar1_g264:0.57682,micromonas_pusilla_Micpu_27346856:0.89798)n2:0.34759)n1:0.391465)n0;

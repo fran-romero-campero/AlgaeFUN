@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g22767:0.637182,(chlamydomonas_reinhardtii_Cre02.g101900:0.529913,(chromochloris_zofingiensis_UNPLg00079:0.010758,(raphidocelis_subcapitata_Rsub_11127:2.08276e-06,raphidocelis_subcapitata_Rsub_11129:0.461186)n3:0.0512429)n2:0.377506)n1:0.510411)n0;
+((gracilariopsis_chorda_PXF49845:0.27989,porphyra_umbilicalis_Pum0296s0006:0.28492)n1:0.23467,((gracilariopsis_chorda_PXF42059:1.16158,porphyra_umbilicalis_Pum1574s0001:0.56002)n3:0.20522,(porphyra_umbilicalis_Pum0742s0004:1.0058,gracilariopsis_chorda_PXF47425:0.812835)n4:0.090315)n2:0.23467)n0;

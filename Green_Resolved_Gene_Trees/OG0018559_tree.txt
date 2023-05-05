@@ -1,0 +1,1 @@
+((mesostigma_viridae_Mv08652:0.00532,mesostigma_viridae_Mv02682:0.00055)n1:0.415205,(ulva_mutabilis_UM084_0009:1.12383,(ostreococcus_tauri_ostta15g02920:0.63918,(micromonas_pusilla_Micpu_27345465:1.34694,bathycoccus_prasinos_Bathy01g02170:0.47183)n4:0.20771)n3:0.18419)n2:0.415205)n0;

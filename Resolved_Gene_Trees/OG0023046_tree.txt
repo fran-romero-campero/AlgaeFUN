@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_8202:0.66565,(bathycoccus_prasinos_Bathy01g02320:0.319636,(ostreococcus_tauri_ostta01g02360:0.15353,micromonas_pusilla_Micpu_27344928:0.276217)n2:0.072105)n1:0.66565)n0;
+(cyanophora_paradoxa_Cyapar1_g22061:0.12168,(cyanophora_paradoxa_Cyapar1_g22063:0.00115,(cyanophora_paradoxa_Cyapar1_g22065:0.08283,(cyanophora_paradoxa_Cyapar1_g17175:0.20839,cyanophora_paradoxa_Cyapar1_g22067:0.02831)n3:0.04048)n2:0.0126)n1:0.12168)n0;

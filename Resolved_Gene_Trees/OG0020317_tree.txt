@@ -1,1 +1,1 @@
-(((volvox_carteri_Vocar.0017s0030:0.625327,chlamydomonas_reinhardtii_Cre07.g328800:3.73571e-06)n2:0.597273,dunaliella_salina_Dusal.0284s00008:1.82201)n1:0.262711,(chromochloris_zofingiensis_Cz12g15050:3.73571e-06,raphidocelis_subcapitata_Rsub_00669:0.543013)n3:0.262711)n0;
+((gracilariopsis_chorda_PXF46272:0.79724,saccharina_japonica_SJ20008:0.13734)n1:0.07403,((galdieria_sulphuraria_GsulpSAG21_G4600:0.63117,porphyra_umbilicalis_Pum0093s0009:0.7521)n3:0.43147,(cryptophyceae_CCMP2293_Crypto2293_1_3296249:0.38994,guillardia_tetha_Guith1_64615:0.39789)n4:0.29927)n2:0.07403)n0;

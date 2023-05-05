@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_441550:0.502519,(marchantia_polymorpha_Mp3g18210:0.660047,(marchantia_polymorpha_Mp5g05730:0.432044,marchantia_polymorpha_Mp5g05720:0.584738)n2:0.059359)n1:0.502519)n0;
+((aegilops_tauschii_AET2Gv20123200:0.18761,triticum_aestivum_Traes_2BS_2C02AF687:0.19857)n1:0.04922,(aegilops_tauschii_AET2Gv20122100:0.02263,triticum_aestivum_Traes_2AS_5B2552D1D:0.0413)n2:0.04922)n0;

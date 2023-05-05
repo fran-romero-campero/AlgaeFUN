@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_Pum0154s0006:0.296718,(porphyra_umbilicalis_Pum0517s0015:0.814981,(porphyra_umbilicalis_Pum0461s0004:0.547919,(porphyra_umbilicalis_Pum0258s0001:0.777918,porphyra_umbilicalis_Pum0461s0005:0.757041)n3:0.278205)n2:0.069872)n1:0.296718)n0;
+(aegilops_tauschii_AET7Gv20917600:0.000275,(triticum_aestivum_Traes_7BL_AA562EBB5:0.00055,(triticum_aestivum_Traes_7BL_D161FB1DB:0.00055,(triticum_aestivum_Traes_7AL_FDE9FE6E7:0.00887,triticum_aestivum_Traes_7DL_C5116E2D4:0.18793)n3:0.08321)n2:0.00054)n1:0.000275)n0;

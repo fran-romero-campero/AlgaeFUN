@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0197.g057313:0.454614,((ceratopteris_richardii_Ceric.09G000900:0.164523,ceratopteris_richardii_Ceric.09G001100:0.184176)n2:0.53786,ceratopteris_richardii_Ceric.09G001200:1.74609e-06)n1:0.454614)n0;
+((mesostigma_viridae_Mv15758:0.62659,saccharina_japonica_SJ02645:0.63978)n1:0.08997,(guillardia_tetha_Guith1_135684:0.71324,(cyanophora_paradoxa_Cyapar1_g11952:0.62403,phaeodactylum_tricornutum_Phatr2_15160:0.57203)n3:0.06261)n2:0.08997)n0;

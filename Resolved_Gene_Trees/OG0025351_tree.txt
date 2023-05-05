@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_422726:0.37747,(solanum_lycopersicum_Solyc03g013080:0.423668,(triticum_aestivum_Traes_7AS_C73EFD021:0.001966,triticum_aestivum_Traes_7BS_1403E8C3C:0.012227)n2:0.140137)n1:0.37747)n0;
+(guillardia_tetha_Guith1_161944:0.64647,(bathycoccus_prasinos_Bathy12g02330:1.05099,(micromonas_pusilla_Micpu_27340773:0.61247,ostreococcus_tauri_ostta14g01340:0.6997)n2:0.1403)n1:0.64647)n0;

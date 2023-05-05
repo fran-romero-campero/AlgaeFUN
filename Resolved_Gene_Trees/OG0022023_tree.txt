@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_7BS_7864D2FE6:0.005368,((triticum_aestivum_Traes_1BL_398DA3B1A:0.030965,triticum_aestivum_Traes_7BL_2E53EA8D9:0.005675)n2:0.006344,(triticum_aestivum_Traes_4AS_97BB42724:0.01634,triticum_aestivum_Traes_5BS_D691CBE8D:0.028331)n3:0.035553)n1:0.005368)n0;
+(chlorokybus_atmophyticus_Chlat1_4636:0.48953,(triticum_aestivum_Traes_2DL_AE0A579BD:0.36283,(ceratodon_purpureus_CepurR40.8G039900:0.02428,(ceratodon_purpureus_CepurR40.6G223500:0.00055,ceratodon_purpureus_CepurR40.6G224600:0.00055)n3:0.00054)n2:0.34862)n1:0.48953)n0;

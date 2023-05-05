@@ -1,1 +1,1 @@
-(chlamydomonas_reinhardtii_Cre14.g623403:2.92459e-06,((volvox_carteri_Vocar.0022s0174:0.517304,volvox_carteri_Vocar.0022s0175:1.23276)n2:0.593169,volvox_carteri_Vocar.0022s0178:0.67015)n1:2.92459e-06)n0;
+((phaeodactylum_tricornutum_Phatr2_18128:0.51279,(phaeodactylum_tricornutum_Phatr2_13617:0.58705,phaeodactylum_tricornutum_Phatr2_47036:0.37312)n2:0.12053)n1:0.130315,(nannochloropsis_gaditana_Nangad1_6260:0.70329,saccharina_japonica_SJ04313:0.60978)n3:0.130315)n0;

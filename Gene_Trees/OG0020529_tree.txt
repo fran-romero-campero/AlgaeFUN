@@ -1,1 +1,1 @@
-((solanum_lycopersicum_proteome_first_transcript_Solyc02g030500.1.1:0.6796,solanum_lycopersicum_proteome_first_transcript_Solyc07g026740.1.1:1.89869e-06):0.441238,(triticum_aestivum_proteome_first_transcript_Traes_3AL_5055EA002:1.89869e-06,triticum_aestivum_proteome_first_transcript_Traes_3B_2B1E2F288:0.426754):0.441238);
+(gracilariopsis_chorda_PXF39463:0,(gracilariopsis_chorda_PXF39574:0,gracilariopsis_chorda_PXF39573:0,gracilariopsis_chorda_PXF45081:0,(gracilariopsis_chorda_PXF41172:0.05071,gracilariopsis_chorda_PXF46226:0.02211):0.10084):0);

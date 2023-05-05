@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_48533:0.546751,((arabidopsis_thaliana_AT2G16880:0.585352,solanum_lycopersicum_Solyc01g111470:0.590591)n2:0.560899,thuja_plicata_Thupl.29378985s0011:0.566598)n1:0.546751)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1858113:0.02465,(cryptophyceae_CCMP2293_Crypto2293_1_1862048:0.35252,(cryptophyceae_CCMP2293_Crypto2293_1_1951403:0.02405,(cryptophyceae_CCMP2293_Crypto2293_1_1891104:0.00055,cryptophyceae_CCMP2293_Crypto2293_1_1950247:0.00055)n3:0.02615)n2:0.68248)n1:0.02465)n0;

@@ -1,1 +1,1 @@
-(cycas_panzhihuaensis_CYCAS_006943:0.0960165,((cycas_panzhihuaensis_CYCAS_006942:0.363746,cycas_panzhihuaensis_CYCAS_006941:0.421985)n2:0.255133,cycas_panzhihuaensis_CYCAS_006944:0.118698)n1:0.0960165)n0;
+(zea_mays_Zm00001d024157:0.017355,(zea_mays_Zm00001d025931:0.34261,(zea_mays_Zm00001d031932:0.08487,(zea_mays_Zm00001d053539:0.00725,zea_mays_Zm00001d000062:0.08532)n3:0.00054)n2:0.62005)n1:0.017355)n0;

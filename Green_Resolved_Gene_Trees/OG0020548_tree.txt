@@ -1,0 +1,1 @@
+((coccomyxa_subellipsoidea_Cosub3_1208057:0.39192,(chromochloris_zofingiensis_Cz09g00070:0.06549,chromochloris_zofingiensis_Cz17g00080:0.00943)n2:0.36808)n1:0.13589,(anthoceros_agrestis_AagrOXF_utg000113l.6:0.0139,anthoceros_agrestis_AagrOXF_utg000113l.24:0.0711)n3:0.13589)n0;

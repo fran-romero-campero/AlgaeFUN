@@ -1,1 +1,1 @@
-(chromochloris_zofingiensis_UNPLg00428:1.89464e-06,(klebsormidium_nitens_kfl01072_0020:1.10406,(klebsormidium_nitens_kfl01072_0010:0.237851,klebsormidium_nitens_kfl00219_0040:0.00019)n2:1.07326)n1:1.89464e-06)n0;
+(solanum_lycopersicum_Solyc04g012000:0.08431,(solanum_lycopersicum_Solyc01g017690:0.27118,(solanum_lycopersicum_Solyc12g006040:0.18804,(solanum_lycopersicum_Solyc12g017730:1.05631,solanum_lycopersicum_Solyc12g010660:0.04575)n3:0.09711)n2:0.4723)n1:0.08431)n0;

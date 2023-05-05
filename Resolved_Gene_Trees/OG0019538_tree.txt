@@ -1,1 +1,1 @@
-(oryza_sativa_LOC_Os11g05140.1:0.396165,(aegilops_tauschii_AET5Gv20351800:0.004014,(triticum_aestivum_Traes_5AL_FD669859A:0.016291,(triticum_aestivum_Traes_5BL_E1D576C2A:0.004777,triticum_aestivum_Traes_5DL_DE9A8CD90:0.0001548)n3:1.548e-05)n2:1.72e-06)n1:0.010011)n0;
+(phaeodactylum_tricornutum_Phatr2_34885:0.445985,(klebsormidium_nitens_kfl00017_0260:0.33946,(ostreococcus_tauri_ostta03g05260:0.15814,(bathycoccus_prasinos_Bathy07g00630:0.27781,(micromonas_pusilla_Micpu_27344974:0.41215,micromonas_pusilla_Micpu_27345698:0.19439)n4:0.13204)n3:0.14206)n2:0.83286)n1:0.445985)n0;

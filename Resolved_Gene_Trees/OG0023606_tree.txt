@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_4DS_808851AC6:0.484486,(dunaliella_salina_Dusal.0125s00020:0.714504,(chlamydomonas_reinhardtii_Cre14.g610300:3.08224e-06,volvox_carteri_Vocar.0050s0027:0.482994)n2:0.946773)n1:0.484486)n0;
+((nannochloropsis_gaditana_Nangad1_9660:0.74902,(phaeodactylum_tricornutum_Phatr2_45314:0.68,phaeodactylum_tricornutum_Phatr2_bd_1724:0.867582)n2:0.096398)n1:0.17049,(saccharina_japonica_SJ07494:0.69244,saccharina_japonica_SJ08161:0.96961)n3:0.18995)n0;

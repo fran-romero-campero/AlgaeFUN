@@ -1,0 +1,1 @@
+(haematococcus_lacustris_GFH17120:0.476845,(zea_mays_Zm00001d015872:0.481,(anthoceros_agrestis_AagrOXF_utg000165l.13:0.36386,(selaginella_moellendorffii_Selmo_19745:0.18979,((triticum_aestivum_Traes_2BS_D4CB3FB08:0.10729,triticum_aestivum_Traes_7AS_BD7069D07:0.77125)n5:0.13608,triticum_aestivum_Traes_7BL_64A9C9025:0.43036)n4:0.05003)n3:0.1556)n2:0.04982)n1:0.476845)n0;

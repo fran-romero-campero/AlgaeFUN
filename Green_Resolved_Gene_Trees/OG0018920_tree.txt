@@ -1,0 +1,1 @@
+(physcomitrium_patens_Pp3c10_8620:0.729295,((volvox_carteri_Vocar.0004s0436:0.2063,(volvox_carteri_Vocar.0004s0434:0.11751,volvox_carteri_Vocar.0004s0433:0.09193)n3:0.08972)n2:0.46619,(chlamydomonas_reinhardtii_Cre03.g152050:0.6667,chlamydomonas_reinhardtii_Cre16.g677300:0.473985)n4:0.052665)n1:0.15858)n0;

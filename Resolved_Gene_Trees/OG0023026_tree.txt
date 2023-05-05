@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.16G028800:0.409,(salvinia_cucullata_Sacu_v1.1_s0021.g008462:0.935492,(azolla_filiculoides_Azfi_s2360.g110873:0.085464,azolla_filiculoides_Azfi_s0415.g068617:0.000146)n2:0.116808)n1:0.409)n0;
+(cyanophora_paradoxa_Cyapar1_g13845:0.623915,(haematococcus_lacustris_GFH15825:0.31079,(haematococcus_lacustris_GFH19260:0.14375,(haematococcus_lacustris_GFH25959:0.09314,haematococcus_lacustris_GFH33485:0.01627)n3:0.71713)n2:0.61565)n1:0.623915)n0;

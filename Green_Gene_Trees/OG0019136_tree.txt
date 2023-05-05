@@ -1,0 +1,1 @@
+((chlorokybus_atmophyticus_Chlat1_6778:0.82795,mesostigma_viridae_Mv14128:0.56133)1:0.410845,(scenedesmus_obliquus_SZX74622:0.19193,(chromochloris_zofingiensis_Cz05g17090:0.40141,(chromochloris_zofingiensis_Cz05g17080:0.32704,raphidocelis_subcapitata_Rsub_07952:0.38339)0.887:0.17222)0.726:0.0847)1:0.410845);

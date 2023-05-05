@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT1G69828:0.238954,((arabidopsis_thaliana_AT1G69825:0.132625,arabidopsis_thaliana_AT1G64195:0.409086)n2:0.09515,arabidopsis_thaliana_AT1G69818:0.134578)n1:0.238954)n0;
+(cyanophora_paradoxa_Cyapar1_g4699:0.347125,((cryptophyceae_CCMP2293_Crypto2293_1_1837499:0.46786,guillardia_tetha_Guith1_64841:0.57846)n2:0.44678,(nannochloropsis_gaditana_Nangad1_7791:1.23505,saccharina_japonica_SJ13195:0.52715)n3:0.40025)n1:0.347125)n0;

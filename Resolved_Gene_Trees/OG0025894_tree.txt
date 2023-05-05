@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_6BL_B695B18C9:0.008082,((triticum_aestivum_Traes_6BL_5F6249EEB:0.375672,triticum_aestivum_Traes_6AL_C82FB1662:0.251026)n2:0.393526,triticum_aestivum_Traes_6BL_16B6C4377:0.339218)n1:0.008082)n0;
+((dunaliella_salina_Dusal.1099s00003:0.31046,haematococcus_lacustris_GFH06505:0.73017)n1:0.217745,(chlamydomonas_reinhardtii_Cre16.g676300:0.72868,volvox_carteri_Vocar.0018s0042:0.317)n2:0.217745)n0;

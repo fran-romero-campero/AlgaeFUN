@@ -1,0 +1,1 @@
+(cycas_panzhihuaensis_CYCAS_006824:0.6517,(aegilops_tauschii_AET1Gv20864400:0.1734,((zea_mays_Zm00001d019611:0.00055,zea_mays_Zm00001d043639:0.03325)n3:0.07203,(zea_mays_Zm00001d029574:0.00693,zea_mays_Zm00001d011586:0.00055)n4:0.43621)n2:0.28366)n1:0.6517)n0;

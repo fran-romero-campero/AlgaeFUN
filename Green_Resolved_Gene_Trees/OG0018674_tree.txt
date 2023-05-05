@@ -1,0 +1,1 @@
+(ceratodon_purpureus_CepurR40.3G142400:0.41761,(salvinia_cucullata_Sacu_v1.1_s0020.g008225:0.65684,(salvinia_cucullata_Sacu_v1.1_s0100.g019713:0.3164,(salvinia_cucullata_Sacu_v1.1_s0100.g019714:0.1984,(salvinia_cucullata_Sacu_v1.1_s0100.g019715:0.00055,salvinia_cucullata_Sacu_v1.1_s0100.g019717:0.05707)n4:0.11189)n3:0.20759)n2:0.34476)n1:0.41761)n0;

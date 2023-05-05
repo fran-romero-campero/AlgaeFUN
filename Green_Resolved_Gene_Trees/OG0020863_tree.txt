@@ -1,0 +1,1 @@
+((selaginella_moellendorffii_Selmo_410317:0.16503,selaginella_moellendorffii_Selmo_411435:0.10684)n1:0.42115,(sphagnum_magellanicum_Sphmag04G026800:0.56726,(ceratodon_purpureus_CepurR40.3G224300:0.20274,physcomitrium_patens_Pp3c23_11560:0.30559)n3:0.23272)n2:0.42115)n0;

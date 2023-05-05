@@ -1,0 +1,1 @@
+(chromochloris_zofingiensis_Cz03g23250:0.755565,((zea_mays_Zm00001d028988:0.10893,(triticum_aestivum_Traes_4BL_3035EBEFD:0.18792,oryza_sativa_LOC_Os03g20970.1:0.07885)n3:0.03322)n2:0.06751,(oryza_sativa_LOC_Os08g30380.1:0.52512,(triticum_aestivum_Traes_4BL_704315653:0.25665,triticum_aestivum_Traes_3AS_84F8C6F911:0.25219)n5:0.140823)n4:0.015647)n1:0.755565)n0;

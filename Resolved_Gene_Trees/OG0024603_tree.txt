@@ -1,1 +1,1 @@
-(mesostigma_viridae_Mv18849:0,((mesostigma_viridae_Mv17359:0.030024,mesostigma_viridae_Mv06213:1.08641e-07)n2:0.079303,mesostigma_viridae_Mv08192:0)n1:0)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1806882:0.336965,(aegilops_tauschii_AET1Gv20338900:0.32831,(haematococcus_lacustris_GFH31986:0.19187,haematococcus_lacustris_GFH31987:0.17812)n2:0.9278)n1:0.336965)n0;

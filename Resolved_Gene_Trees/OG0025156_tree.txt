@@ -1,1 +1,1 @@
-(porphyra_umbilicalis_Pum0332s0015:0.840004,((porphyra_umbilicalis_Pum0076s0029:1.17916,porphyra_umbilicalis_Pum0023s0004:1.50135)n2:0.334467,porphyra_umbilicalis_Pum3176s0001:0.657027)n1:0.840004)n0;
+(cyanophora_paradoxa_Cyapar1_g4394:0.87849,(selaginella_moellendorffii_Selmo_123298:1.03904,(arabidopsis_thaliana_AT5G47460:0.40017,solanum_lycopersicum_Solyc08g078570:0.49576)n2:0.26833)n1:0.87849)n0;

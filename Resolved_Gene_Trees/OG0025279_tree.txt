@@ -1,1 +1,1 @@
-(selaginella_moellendorffii_Selmo_440260:0.130223,(selaginella_moellendorffii_Selmo_413525:0.198564,(selaginella_moellendorffii_Selmo_439286:0.393864,selaginella_moellendorffii_Selmo_439376:1.10097e-06)n2:0.319165)n1:0.130223)n0;
+(volvox_carteri_Vocar.0030s0031:0.736875,(bathycoccus_prasinos_Bathy01g01090:0.57509,(micromonas_pusilla_Micpu_27342989:0.53966,ostreococcus_tauri_ostta01g01220:0.37226)n2:0.0786)n1:0.736875)n0;

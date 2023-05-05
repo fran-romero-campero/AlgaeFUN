@@ -1,1 +1,1 @@
-(bathycoccus_prasinos_Bathy01g01910:0.918867,((porphyra_umbilicalis_Pum0112s0016:0.044098,porphyra_umbilicalis_Pum0084s0044:0.260067)n2:1.20162,porphyra_umbilicalis_Pum0183s0007:2.78592e-06)n1:0.918867)n0;
+(cyanophora_paradoxa_Cyapar1_g1734:0.007645,(cyanophora_paradoxa_Cyapar1_g280:0.005,(cyanophora_paradoxa_Cyapar1_g9471:0.00055,(cyanophora_paradoxa_Cyapar1_g1567:0.02542,cyanophora_paradoxa_Cyapar1_g5989:0.00055)n3:0.00501)n2:0.00055)n1:0.007645)n0;

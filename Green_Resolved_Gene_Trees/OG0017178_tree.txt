@@ -1,0 +1,1 @@
+((klebsormidium_nitens_kfl00152_0200:0.67341,(sphagnum_magellanicum_Sphmag13G087000:0.53221,spirogloea_muscicola_SM000148S01028:0.57223)n2:0.1707)n1:0.15763,((chlamydomonas_reinhardtii_Cre06.g277550:0.39345,volvox_carteri_Vocar.0002s0648:0.40357)n4:0.44322,(chromochloris_zofingiensis_Cz03g10190:0.76291,chromochloris_zofingiensis_Cz03g09080:0.505584)n5:0.056176)n3:0.14972)n0;

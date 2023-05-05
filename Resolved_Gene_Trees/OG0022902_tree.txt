@@ -1,1 +1,1 @@
-(arabidopsis_thaliana_AT4G07526:0.03812,((arabidopsis_thaliana_AT3G43880:0.157698,arabidopsis_thaliana_AT3G29790:0.431031)n2:0.142183,arabidopsis_thaliana_AT3G33528:0.221183)n1:0.03812)n0;
+((cryptophyceae_CCMP2293_Crypto2293_1_1911889:0.58681,guillardia_tetha_Guith1_137950:0.39141)n1:0.17963,(phaeodactylum_tricornutum_Phatr2_9885:0.69058,(saccharina_japonica_SJ02056:0.58074,nannochloropsis_gaditana_Nangad1_1305:0.72052)n3:0.0767)n2:0.17963)n0;

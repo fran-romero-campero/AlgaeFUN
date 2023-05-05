@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_45205:0.31242,(ostreococcus_tauri_ostta04g03420:0.329946,(micromonas_pusilla_Micpu_27338802:0.259092,(bathycoccus_prasinos_Bathy12g03750:1.94508,bathycoccus_prasinos_Bathy08g02760:0.356768)n3:0.0396409)n2:0.054157)n1:0.111025)n0;
+(saccharina_japonica_SJ16113:0.56997,((dunaliella_salina_Dusal.0674s00003:0.83259,(chlamydomonas_reinhardtii_Cre01.g053360:0.20239,volvox_carteri_Vocar.0001s0525:0.47245)n3:0.35612)n2:0.34016,(chromochloris_zofingiensis_Cz18g10070:0.7905,scenedesmus_obliquus_SZX70429:0.51984)n4:0.27158)n1:0.56997)n0;

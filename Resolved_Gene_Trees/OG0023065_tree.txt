@@ -1,1 +1,1 @@
-(dunaliella_salina_Dusal.0020s00019:0.435347,((ostreococcus_tauri_ostta13g00610:0.309306,micromonas_pusilla_Micpu_27347433:0.42617)n2:0.185496,bathycoccus_prasinos_Bathy02g05730:0.127602)n1:0.435347)n0;
+((cyanophora_paradoxa_Cyapar1_g21542:0.91408,saccharina_japonica_SJ12519:0.73001)n1:0.096145,(micromonas_pusilla_Micpu_27341084:0.70372,(guillardia_tetha_Guith1_138649:1.08208,phaeodactylum_tricornutum_Phatr2_49233:1.24418)n3:0.1626)n2:0.096145)n0;

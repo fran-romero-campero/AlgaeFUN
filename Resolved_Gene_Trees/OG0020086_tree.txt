@@ -1,1 +1,1 @@
-(sphangum_magellanicum_Sphmag14G041400:0.215542,((ceratodon_purpureus_CepurR40.2G083400:0.104462,ceratodon_purpureus_CepurR40.6G034900:0.227026)n2:0.006564,(physcomitrium_patens_Pp3c1_37360:0.067067,physcomitrium_patens_Pp3c17_19150:0.12044)n3:0.0133822)n1:0.016232)n0;
+((scenedesmus_obliquus_SZX60709:0.95288,(chlorokybus_atmophyticus_Chlat1_8841:0.68453,klebsormidium_nitens_kfl00035_0120:0.5333)n2:0.67154)n1:0.45489,(guillardia_tetha_Guith1_132749:0.92228,(guillardia_tetha_Guith1_135036:0.14448,guillardia_tetha_Guith1_117023:0.07272)n4:0.27587)n3:0.45489)n0;

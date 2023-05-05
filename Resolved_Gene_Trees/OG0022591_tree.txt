@@ -1,1 +1,1 @@
-(aegilops_tauschii_AET2Gv20617700:0.0782455,(triticum_aestivum_Traes_3DL_F28E6CE46:0.477491,(triticum_aestivum_Traes_4AL_2EBA96358:0.005128,triticum_aestivum_Traes_2DL_6B5326677:0.142228)n2:0.042025)n1:0.0782455)n0;
+((chromochloris_zofingiensis_Cz04g07180:0.15701,(chromochloris_zofingiensis_Cz04g07190:0.17327,chromochloris_zofingiensis_Cz01g27080:0.00055)n2:0.03778)n1:0.266625,(phaeodactylum_tricornutum_Phatr2_49168:0.71009,saccharina_japonica_SJ15885:1.29565)n3:0.266625)n0;

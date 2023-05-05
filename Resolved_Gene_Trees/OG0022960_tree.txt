@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.01G107500:0.471741,(azolla_filiculoides_Azfi_s0030.g024338:0.78789,(azolla_filiculoides_Azfi_s0082.g038688:0.081556,azolla_filiculoides_Azfi_s0030.g024336:1.02756)n2:0.098311)n1:0.471741)n0;
+(saccharina_japonica_SJ17454:0.326485,(galdieria_sulphuraria_GsulpSAG21_G3401:0.42144,(cyanidioschyzon_merolae_XM_005538456:0.77803,(gracilariopsis_chorda_PXF46137:0.32611,porphyra_umbilicalis_Pum0185s0019:0.20386)n3:0.07341)n2:0.1619)n1:0.326485)n0;

@@ -1,0 +1,1 @@
+(selaginella_moellendorffii_Selmo_422726:0.284735,(solanum_lycopersicum_Solyc03g013080:0.48352,(triticum_aestivum_Traes_7AS_C73EFD021:0.00055,triticum_aestivum_Traes_7BS_1403E8C3C:0.00054)n2:0.18689)n1:0.284735)n0;

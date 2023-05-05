@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.34G055000:0.99673,(salvinia_cucullata_Sacu_v1.1_s0106.g020213:0.664955,(azolla_filiculoides_Azfi_s0035.g025569:1.22284,azolla_filiculoides_Azfi_s0033.g025147:1.27266)n2:0.21828)n1:0.99673)n0;
+(phaeodactylum_tricornutum_Phatr2_49097:0.817075,((cyanidioschyzon_merolae_XM_005537802:0,cyanidioschyzon_merolae_XM_005537803:0)n2:0.25932,(cyanidioschyzon_merolae_XM_005537804:0.61586,cyanidioschyzon_merolae_XM_005537807:0.29087)n3:0.08172)n1:0.817075)n0;

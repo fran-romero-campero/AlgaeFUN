@@ -1,1 +1,1 @@
-((thuja_plicata_Thupl.29380628s0005:0.310237,thuja_plicata_Thupl.29379523s0008:0.496828)n1:0.309609,(oryza_sativa_LOC_Os09g28489.1:0.019357,aegilops_tauschii_AET5Gv20569900:0.597274)n2:0.309609)n0;
+(cyanophora_paradoxa_Cyapar1_g1627:0.593435,((chlamydomonas_reinhardtii_Cre10.g443150:0.39926,mesostigma_viridae_Mv01907:1.41114)n2:0.31922,(haematococcus_lacustris_GFH25041:1.1296,volvox_carteri_Vocar.0026s0079:0.30562)n3:0.09015)n1:0.593435)n0;

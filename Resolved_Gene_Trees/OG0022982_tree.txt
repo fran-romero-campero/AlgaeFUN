@@ -1,1 +1,1 @@
-(azolla_filiculoides_Azfi_s0074.g037486:0.593337,(zea_mays_Zm00001d024216:0.274409,(sorghum_bicolor_Sobic.007G135400:0.215372,sorghum_bicolor_Sobic.004G346800:0.184916)n2:0.267875)n1:0.593337)n0;
+(cyanophora_paradoxa_Cyapar1_g10394:0.019165,(cyanophora_paradoxa_Cyapar1_g16341:0.12877,(cyanophora_paradoxa_Cyapar1_g4496:1.31164,(cyanophora_paradoxa_Cyapar1_g10389:0.00054,cyanophora_paradoxa_Cyapar1_g10395:0.06461)n3:0.24595)n2:0.07541)n1:0.019165)n0;

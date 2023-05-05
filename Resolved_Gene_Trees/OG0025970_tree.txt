@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_1DS_0C706347D:0.111365,(triticum_aestivum_Traes_1BS_01E501596:0.357663,(triticum_aestivum_Traes_5BL_B82ABFDD8:0,triticum_aestivum_Traes_1DS_B82ABFDD8:0)n2:0.016646)n1:0.111365)n0;
+((chlamydomonas_reinhardtii_Cre02.g142700:0.68891,chromochloris_zofingiensis_Cz11g22060:1.08462)n1:0.62677,(cyanophora_paradoxa_Cyapar1_g24875:0.0122,cyanophora_paradoxa_Cyapar1_g24878:0.00498)n2:0.62677)n0;

@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_7AS_B37B0C77F:0.379586,((solanum_lycopersicum_Solyc05g041310:0.030717,solanum_lycopersicum_Solyc05g041940:0.031384)n2:0.055029,solanum_lycopersicum_Solyc05g041300:0.510742)n1:0.379586)n0;
+(bathycoccus_prasinos_Bathy61g00020:0.341525,(saccharina_japonica_SJ05943:0.40596,(phaeodactylum_tricornutum_Phatr2_12401:0.20824,phaeodactylum_tricornutum_Phatr2_12612:0.65108)n2:0.33859)n1:0.341525)n0;

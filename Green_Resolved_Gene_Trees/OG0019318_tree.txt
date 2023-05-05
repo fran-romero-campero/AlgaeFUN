@@ -1,0 +1,1 @@
+(dunaliella_salina_Dusal.2458s00001:0.474615,(triticum_aestivum_Traes_3DS_03367A815:0.4514,(solanum_lycopersicum_Solyc11g045320:0.09515,(solanum_lycopersicum_Solyc11g045334:0.00054,(solanum_lycopersicum_Solyc11g045332:0.00055,solanum_lycopersicum_Solyc11g045336:0.03108)n4:0.00054)n3:0.05272)n2:0.47808)n1:0.474615)n0;

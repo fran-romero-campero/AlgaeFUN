@@ -1,1 +1,1 @@
-(ceratopteris_richardii_Ceric.30G017300:0.267296,((salvinia_cucullata_Sacu_v1.1_s0044.g013095:1.9539,salvinia_cucullata_Sacu_v1.1_s0044.g013097:0.08841)n2:0.139168,azolla_filiculoides_Azfi_s0005.g009022:0.26489)n1:0.267296)n0;
+(ulva_mutabilis_UM001_0081:0.28946,(cryptophyceae_CCMP2293_Crypto2293_1_3474344:0.36249,(guillardia_tetha_Guith1_73152:0.66536,(guillardia_tetha_Guith1_162378:1.07418,guillardia_tetha_Guith1_151641:0.393408)n3:0.0393408)n2:0.0043712)n1:0.25656)n0;

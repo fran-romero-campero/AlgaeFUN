@@ -1,0 +1,1 @@
+((gracilariopsis_chorda_PXF46830:0.48051,porphyra_umbilicalis_Pum0238s0023:0.21618)n1:0.276535,(cryptophyceae_CCMP2293_Crypto2293_1_2923481:0.31633,guillardia_tetha_Guith1_122876:0.15357)n2:0.276535)n0;

@@ -1,0 +1,1 @@
+((ulva_mutabilis_UM022_0097:0.27012,(ulva_mutabilis_UM109_0027:0.01883,ulva_mutabilis_UM109_0028:0.22588)n2:0.70729)n1:0.68315,(spirogloea_muscicola_SM000161S02425:0.01888,(spirogloea_muscicola_SM000028S10042:0.00417,spirogloea_muscicola_SM000180S03495:0.01072)n4:0.00057)n3:0.68315)n0;

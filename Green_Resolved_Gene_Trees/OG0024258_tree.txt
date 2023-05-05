@@ -1,0 +1,1 @@
+(ostreococcus_tauri_ostta05g02730:0.598215,(ulva_mutabilis_UM111_0037:1.14511,(chlamydomonas_reinhardtii_Cre09.g395200:0.33405,dunaliella_salina_Dusal.0258s00008:0.93879)n2:0.23363)n1:0.598215)n0;

@@ -1,0 +1,1 @@
+((chara_braunii_Chabra1_g8351:1.15525,scenedesmus_obliquus_SZX71600:0.90729)n1:0.48827,(bathycoccus_prasinos_Bathy06g04590:1.35249,((klebsormidium_nitens_kfl00046_0035:0.10817,(klebsormidium_nitens_kfl00125_0070:0.16221,klebsormidium_nitens_kfl00400_0030:0.12579)n5:0.11935)n4:0.24332,klebsormidium_nitens_kfl00287_0130:0.660186)n3:0.073354)n2:0.05672)n0;

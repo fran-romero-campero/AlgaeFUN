@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH32134:0.00393,dunaliella_salina_Dusal.2244s00001:0.79038)n1:0.17707,(salvinia_cucullata_Sacu_v1.1_s0208.g025850:1.32514,triticum_aestivum_Traes_5AL_8B7FA61C4:0.19382)n2:0.17707)n0;

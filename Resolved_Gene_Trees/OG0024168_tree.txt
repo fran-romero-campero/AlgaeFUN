@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g6737:0.194776,(cyanophora_paradoxa_Cyapar1_g6710:0.242708,(cyanophora_paradoxa_Cyapar1_g22543:1.12867,cyanophora_paradoxa_Cyapar1_g6705:0.030825)n2:0.266249)n1:0.194776)n0;
+(thuja_plicata_Thupl.29378781s0002:0.01656,(thuja_plicata_Thupl.29378781s0004:0.01896,(thuja_plicata_Thupl.29379422s0015:0.12739,(thuja_plicata_Thupl.29379422s0014:0.01317,thuja_plicata_Thupl.29207010s0001:0.03597)n3:0.19007)n2:0.1209)n1:0.01656)n0;

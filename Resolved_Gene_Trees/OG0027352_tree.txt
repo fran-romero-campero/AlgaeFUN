@@ -1,0 +1,1 @@
+((haematococcus_lacustris_GFH30860:0.11945,haematococcus_lacustris_GFH32437:0.00055)n1:0.510565,(spirogloea_muscicola_SM000101S09260:0.08822,spirogloea_muscicola_SM000101S09263:0.00778)n2:0.510565)n0;

@@ -1,1 +1,1 @@
-(triticum_aestivum_Traes_3AL_B1E0D9F61:0.013686,(triticum_aestivum_Traes_3B_E8FFBBF6F:0.183902,(triticum_aestivum_Traes_3B_BFCCD3CD5:0.239577,triticum_aestivum_Traes_3DL_E4BCD7E0F:0.231971)n2:0.182045)n1:0.013686)n0;
+(cryptophyceae_CCMP2293_Crypto2293_1_1825477:0.62239,(micromonas_pusilla_Micpu_27340904:0.63665,(chlorokybus_atmophyticus_Chlat1_5087:0.00055,chlorokybus_atmophyticus_Chlat1_6586:0.00055)n2:1.08649)n1:0.62239)n0;

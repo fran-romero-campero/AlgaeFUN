@@ -1,1 +1,1 @@
-(cyanophora_paradoxa_Cyapar1_g8097:0.69358,(bathycoccus_prasinos_Bathy02g05310:0.75204,(micromonas_pusilla_Micpu_27346439:0.77562,ostreococcus_tauri_ostta07g00630:0.730842)n2:0.197429)n1:0.69358)n0;
+((mesostigma_viridae_Mv13956:0.68599,saccharina_japonica_SJ08234:1.065)n1:0.06278,(micromonas_pusilla_Micpu_27339014:0.60091,(cyanophora_paradoxa_Cyapar1_g21417:0.43737,guillardia_tetha_Guith1_142064:0.57542)n3:0.21769)n2:0.06278)n0;

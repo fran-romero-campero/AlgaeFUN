@@ -1,1 +1,1 @@
-(micromonas_pusilla_Micpu_27340577:0.464909,((volvox_carteri_Vocar.0019s0199:0.255878,chlamydomonas_reinhardtii_Cre03.g157950:2.79048e-06)n2:0.298588,dunaliella_salina_Dusal.0317s00013:1.30795)n1:0.464909)n0;
+(porphyra_umbilicalis_Pum0164s0020:0.00392,(porphyra_umbilicalis_Pum0052s0024:0.00938,(porphyra_umbilicalis_Pum0272s0011:0.00693,(porphyra_umbilicalis_Pum0014s0021:0.2736,porphyra_umbilicalis_Pum0032s0034:0.79131)n3:0.02581)n2:0.00753)n1:0.00392)n0;

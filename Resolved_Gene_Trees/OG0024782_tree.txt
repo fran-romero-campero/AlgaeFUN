@@ -1,1 +1,1 @@
-(nannochloropsis_gaditana_Nangad1_9777:0.504876,(phaeodactylum_tricornutum_Phatr2_bd_1741:1.22124,(phaeodactylum_tricornutum_Phatr2_39118:0.778227,phaeodactylum_tricornutum_Phatr2_48622:0.844461)n2:0.433344)n1:0.504876)n0;
+(oryza_sativa_LOC_Os05g30310.1:0.38017,(aegilops_tauschii_AET2Gv20779000:0.0155,(triticum_aestivum_Traes_2BL_2ECC216F7:0.01665,triticum_aestivum_Traes_2DL_9071B96BD:0.000495)n2:5.5e-05)n1:0.02622)n0;

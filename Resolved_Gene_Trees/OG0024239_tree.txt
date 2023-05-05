@@ -1,1 +1,1 @@
-(phaeodactylum_tricornutum_Phatr2_12312:0.459388,((salvinia_cucullata_Sacu_v1.1_s0005.g002703:2.97171e-06,cycas_panzhihuaensis_CYCAS_009040:0.098069)n2:0.342335,ulva_mutabilis_UM064_0014:1.63623)n1:0.459388)n0;
+(triticum_aestivum_Traes_4AL_42FFE3197:0.026925,((triticum_aestivum_Traes_4AL_F24FA0D161:0,triticum_aestivum_Traes_4AL_F24FA0D16:0)n2:0.00652,(triticum_aestivum_Traes_4DS_2B224D6A4:0.00731,triticum_aestivum_Traes_4DS_53CB32CF1:0.00721)n3:0.03748)n1:0.026925)n0;

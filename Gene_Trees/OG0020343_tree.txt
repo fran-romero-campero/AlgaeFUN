@@ -1,1 +1,1 @@
-(physcomitrium_patens_proteome_first_transcript_Pp3s113_50:0,(physcomitrium_patens_proteome_first_transcript_Pp3c2_33090:0,(physcomitrium_patens_proteome_first_transcript_Pp3c2_33030:0,physcomitrium_patens_proteome_first_transcript_Pp3c2_33110:0):0):0);
+(cyanophora_paradoxa_Cyapar1_g16597:0.654215,(cyanidioschyzon_merolae_XM_005536945:1.27672,((porphyra_umbilicalis_Pum0940s0003:0.42924,porphyra_umbilicalis_Pum0053s0017:0.43628)1:0.41177,(gracilariopsis_chorda_PXF45099:0.4063,gracilariopsis_chorda_PXF46700:1.47424)0.969:0.23888)0.79:0.25063)1:0.654215);
