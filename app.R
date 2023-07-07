@@ -556,10 +556,12 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                           sequences of the proteins encoded by its primary transcript can be downloaded using the respective buttons."),
                                   tags$li("After generating the tree, navigate through the rest of the tabs and follow the instructions to perform different analyses 
                                           on the genes listed in the tree."),
-                                  tags$li("Exceptions are the Download Genomes and Identify Sequences tabs. After choosing the model, these tabs can be used 
+                                  tags$li("Exceptions are the Download Genomes, Literature Annotation and Identify Sequences tabs. After choosing the model, these tabs can be used 
                                           without defining species or generating the tree. Particularly useful is the Identify Sequences tab, which allows 
                                           the user to enter sequences to return the ID of the most similar protein in the dataset. The Download Genomes tab 
-                                          allows for the download of the genomes used in the development of PharaohFUN."),
+                                          allows for the download of the genomes used in the development of PharaohFUN. The Literature Annotation tab implements
+                                          a connection to PlantConnectome, allowing to quickly extract associations of a search term with different biological
+                                          entities based on scientific literature."),
                                   tags$li("To change the model, refresh the page."))),
                        img(src='pharaohlogo.jpeg', align="right", width=250),
                        selectizeInput(inputId = "evo_type",
@@ -1153,6 +1155,39 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                                           uiOutput(outputId = "path_download_ui")),
                                               imageOutput("path_image"),
                                               tags$br()
+                                              
+                                            )),
+                                   
+                                   tabPanel(tags$b("Literature annotation"),
+                                            tags$br(),
+                                            tags$div(align="justify", "In the text box, type the search term to query your 
+                                                     bibliographic information, i.e., CCA1. Then select one of the 4 search 
+                                                     modes: Normal returns the entities containing the term, Exact returns 
+                                                     those that are identical, Alias returns all aliases associated with the 
+                                                     term and Substring returns all those containing a given string. Associations 
+                                                     found in the literature are returned in tabular form, with links to the papers
+                                                     from which the information was extracted. This functionality is based on 
+                                                     PlantConnectome, to extend this analysis, it is recommended to use 
+                                                     https://connectome.plant.tools/."),
+                                            tags$br(),
+                                            textInput(inputId = "con_query",value = "",label = NULL, placeholder = "CCA1"),
+                                            selectInput(inputId = "con_mode",
+                                                        choices=c("Normal","Exact", "Substring", "Alias"), 
+                                                        label = "Select the search mode", 
+                                                        selected = "Normal",
+                                                        multiple = F),
+                                            actionButton(inputId = "button_connect",
+                                                         label = "Get biological information and papers", icon("send")),
+                                            tags$br(),
+                                            conditionalPanel(
+                                              condition = "input.button_connect",
+                                              tags$br(),
+                                              tags$br(),
+                                              uiOutput(outputId = "error_connect"),
+                                              tags$br(),
+                                              uiOutput(outputId = "connect_download_ui"),
+                                              tags$br(),
+                                              dataTableOutput(outputId = "connect_table")
                                               
                                             )),
                                    
@@ -5172,6 +5207,17 @@ assocated to the enriched pathway represented in the corresponding row."
           url_f <- paste0(url_vec[[1]], collapse = "/")
           url_tsv <- paste0(c(url_f,"score?format=tsv"), collapse = "/")
           tsv_res <- getURL(url_tsv)
+          nap.time <- 0
+          while (strsplit(tsv_res, "\t")[[1]][1] != "Family id")
+          {
+            nap.time <- nap.time + 5
+            tsv_res <- getURL(url_tsv)
+            Sys.sleep(nap.time)
+            if (nap.time > 25){
+              break
+            }
+          }
+          validate(need(nap.time < 25,"Connexion time too high."))
           res_pfam <- read.csv(textConnection(tsv_res), header = T, sep="\t")
           pfam_table <- data.frame(type=c("CHAIN", rep("DOMAIN", nrow(res_pfam))),
                                    description=c("Protein chain",res_pfam$Family.Accession),
@@ -5878,6 +5924,86 @@ assocated to the enriched pathway represented in the corresponding row."
           file.remove(paste(c(paste0(c("ko",pathway.current.id), collapse=""),"pathview","png"), collapse="."))
         })
       
+      
+    })
+    
+    ########################## PLANTCONNECTOME #######################
+    
+    observeEvent(input$button_connect, {
+      
+      
+      pc_search <- as.character(input$con_query)
+      pc_search <- gsub(" ", "%20", pc_search) # To make spaces interpretable
+      pc_modality <- tolower(as.character(input$con_mode))
+      
+      # Get PlantConnectome URL for query
+      pc_url <- paste(c("https://connectome.plant.tools",pc_modality,pc_search), collapse = "/")
+      
+      # Descargar el HTML
+      library(RCurl)
+      
+      pc_res <- getURL(pc_url)
+      #print(pc_res)
+      
+      {
+        if (!length(grep("No hits", pc_res)) == 0)
+        {
+          output$error_connect <- renderUI({
+            renderPrint({cat("No results found for this query")})
+          })
+          output$connect_table <- NULL
+          output$connect_download_ui <- NULL
+        }
+        
+        else{
+          
+          output$error_connect <- NULL
+          # Isolate data frame from complete HTML file
+          pc_split <- strsplit(as.character(pc_res), split = "<tbody")[[1]][2]
+          pc_split <- strsplit(as.character(pc_split), split = "</tbody>")[[1]][1]
+          
+          pc_clean <- gsub("</tr>", "", pc_split)
+          pc_clean <- gsub("[\r\n\t]", "", pc_clean)
+          
+          pc_vector <- strsplit(pc_clean, split = "<tr>")[[1]][-1]
+          pc_vector2 <- sapply(pc_vector, FUN=function(x) strsplit(x, split = "<td> | </td>"))
+          pc_table <- sapply(pc_vector2, FUN=function(x) as.character(unlist(x)))
+          
+          colnames(pc_table) <- NULL
+          pc_result <- data.frame(t(pc_table[c(2,4,6,8),]))
+          colnames(pc_result) <- c("Source", "Interaction Type", "Target", "Pubmed ID")
+          
+          # Add links to papers
+          urls_connect <- sapply(pc_result$`Pubmed ID`, FUN = function(x) paste0(c("<a href=\"",
+                                                                                   "https://pubmed.ncbi.nlm.nih.gov/",x,"/",
+                                                                                   "\" target=\"_blank\">", x,
+                                                                                   "</a>"),
+                                                                                 collapse=""))
+          pc_result_show <- pc_result
+          pc_result_show$`Pubmed ID` <- urls_connect
+          
+          # Render table
+          output$connect_table <- renderDataTable({
+            pc_result_show
+          },escape=FALSE,options =list(pageLength = 10))
+          
+          # Generate download button
+          output$connect_download_ui<- renderUI(
+            tagList(downloadButton(outputId= "downloadLitTable", "Download Table"),tags$br(),tags$br())
+          )
+          
+          # Download result
+          output$downloadLitTable<- downloadHandler(
+            filename= function() {
+              paste("literature_table", ".tsv", sep="")
+            },
+            content= function(file) {
+              write.table(x = pc_result,quote = F,sep = "\t",
+                          file=file,row.names=FALSE,col.names=TRUE)
+            })
+          
+        }
+      }
       
     })
     
