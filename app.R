@@ -1117,7 +1117,9 @@ ui <- shinyUI(fluidPage(#theme= "bootstrap.css",
                                             for the plotting of these pathways with the genes mapped onto them, 
                                             using a selector to choose the pathway in case several enriched ones exist.
                                             Warning: this process may take a long time in the case of selecting many 
-                                            proteins."),
+                                            proteins. Attempts to plot large pathways will produce an error, only
+                                                     more specific ones are supported i.e. Carbon metabolism will 
+                                                     return an error while Biotin metabolism will not"),
                                             tags$br(),
                                             actionButton(inputId = "kos_start",
                                                          label = "Show Gene Selection for KEGG orthology and pathways visualization",
@@ -5437,7 +5439,7 @@ assocated to the enriched pathway represented in the corresponding row."
       mySequences1 <- readAAStringSet(ortho.seq.name)
       mysubseqs <- mySequences1[selected_genes]
       
-      alignseqs <- msa(mysubseqs, verbose = F)
+      alignseqs <- msa(mysubseqs, verbose = F, method = "Muscle")
       
       return(alignseqs)
       
@@ -5866,7 +5868,7 @@ assocated to the enriched pathway represented in the corresponding row."
       
       if(nrow(total_table_kegg) != 0)
       {
-        paths.options <- sapply(strsplit(total_table_kegg$ID, split = "map"), function(x) x[[2]])
+        paths.options <- sapply(strsplit(total_table_kegg$ID, split = "ko"), function(x) x[[2]])
         
         # Create pathway selector and button
         output$selected_paths <- renderUI({
@@ -6058,7 +6060,9 @@ assocated to the enriched pathway represented in the corresponding row."
         subject = org_fasta,
         sensitivity_mode = "sensitive",
         output_path = tempdir(),
-        db_import  = FALSE, diamond_exec_path = "/usr/bin", max_target_seqs = 1)
+        #db_import  = FALSE,
+        diamond_exec_path = "/usr/local/bin", 
+        max_target_seqs = 5)
       
       diamond_table <- data.frame(ID=diamond_res$subject_id, Identity_perc=diamond_res$perc_identity,
                                   Num_identical_matches=diamond_res$num_ident_matches, 
